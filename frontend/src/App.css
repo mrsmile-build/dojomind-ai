@@ -1449,3 +1449,174 @@ footer {
     transform: translateX(-50%);
   }
 }
+
+/* =========================================================
+   DOJOMIND CURRICULUM UI
+   ========================================================= */
+
+.level-selector {
+  margin: 55px 0 10px;
+}
+
+.level-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.level-tab {
+  appearance: none;
+  border: 1px solid rgba(201, 161, 90, 0.28);
+  background: transparent;
+  color: #aaa;
+  border-radius: 999px;
+  padding: 11px 18px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.level-tab:hover {
+  border-color: #c9a15a;
+  color: #fff;
+}
+
+.level-tab.active {
+  background: #c9a15a;
+  color: #080808;
+  border-color: #c9a15a;
+}
+
+.curriculum-modules {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-top: 35px;
+}
+
+.curriculum-module {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 20px;
+  border-top: 1px solid rgba(255,255,255,0.09);
+  padding-top: 25px;
+}
+
+.module-number {
+  color: #c9a15a;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding-top: 4px;
+}
+
+.module-content h3 {
+  margin: 0 0 18px;
+  font-size: 23px;
+  color: #f5f5f5;
+}
+
+.lesson-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.curriculum-lesson {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 16px 18px;
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.025);
+  color: #eee;
+  font: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.curriculum-lesson:hover:not(:disabled) {
+  border-color: rgba(201,161,90,0.55);
+  background: rgba(201,161,90,0.07);
+  transform: translateX(3px);
+}
+
+.curriculum-lesson > span {
+  color: #777;
+  font-size: 13px;
+}
+
+.curriculum-lesson strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.curriculum-lesson small {
+  color: #c9a15a;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.curriculum-lesson:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
+.curriculum-lesson:disabled small {
+  color: #777;
+}
+
+.level-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.style-hero {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+
+  .level-selector {
+    margin-top: 40px;
+  }
+
+  .level-tabs {
+    gap: 7px;
+  }
+
+  .level-tab {
+    padding: 9px 13px;
+    font-size: 13px;
+  }
+
+  .curriculum-module {
+    grid-template-columns: 38px 1fr;
+    gap: 10px;
+  }
+
+  .module-content h3 {
+    font-size: 20px;
+  }
+
+  .curriculum-lesson {
+    grid-template-columns: 28px 1fr;
+    padding: 14px;
+  }
+
+  .curriculum-lesson small {
+    grid-column: 2;
+    margin-top: -5px;
+  }
+
+}
+

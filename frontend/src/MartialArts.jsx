@@ -2,10 +2,12 @@ import { useState } from 'react'
 import Lesson from './Lesson'
 import { lessons } from './data/lessons'
 import { martialArts } from './data/martialArts'
+import curriculum from './data/curriculum'
 
 function MartialArts({ onBack }) {
   const [selected, setSelected] = useState(null)
   const [activeLesson, setActiveLesson] = useState(null)
+  const [activeLevel, setActiveLevel] = useState('beginner')
 
   if (activeLesson) {
     return (
@@ -18,9 +20,20 @@ function MartialArts({ onBack }) {
   }
 
   if (selected) {
+    const artCurriculum = curriculum.martialArts[selected.id]
+    const level =
+      artCurriculum?.levels?.[activeLevel] ||
+      artCurriculum?.levels?.beginner
+
     return (
       <main className="learning-page">
-        <button className="back-button" onClick={() => setSelected(null)}>
+        <button
+          className="back-button"
+          onClick={() => {
+            setSelected(null)
+            setActiveLevel('beginner')
+          }}
+        >
           ← Back to martial arts
         </button>
 
@@ -33,34 +46,88 @@ function MartialArts({ onBack }) {
 
           <p>{selected.description}</p>
 
-          <div className="level-badge">{selected.level}</div>
+          <div className="level-badge">
+            {level.name}
+          </div>
+        </section>
+
+        <section className="level-selector">
+          <span className="eyebrow">TRAINING LEVEL</span>
+
+          <div className="level-tabs">
+            {Object.entries(artCurriculum?.levels || {}).map(
+              ([levelId, levelData]) => (
+                <button
+                  key={levelId}
+                  className={
+                    activeLevel === levelId
+                      ? 'level-tab active'
+                      : 'level-tab'
+                  }
+                  onClick={() => setActiveLevel(levelId)}
+                >
+                  {levelData.name}
+                </button>
+              )
+            )}
+          </div>
         </section>
 
         <section className="topic-section">
           <div className="section-heading">
             <span>LEARNING PATH</span>
-            <h2>Start with the fundamentals.</h2>
-            <p>
-              Learn each concept progressively. DojoMind will eventually
-              provide lessons, demonstrations, practice guidance and quizzes.
-            </p>
+
+            <h2>{level.name} foundation.</h2>
+
+            <p>{level.description}</p>
           </div>
 
-          <div className="topic-grid">
-            {selected.topics.map((topic, index) => (
-              <button
-                className="topic-card"
-                key={topic}
-                onClick={() => {
-                  if (selected.id === 'karate' && topic === 'Stances') {
-                    setActiveLesson(lessons['karate-stances'])
-                  }
-                }}
-              >
-                <span>0{index + 1}</span>
-                <strong>{topic}</strong>
-                <small>Begin lesson →</small>
-              </button>
+          <div className="curriculum-modules">
+            {level.modules.map((module, moduleIndex) => (
+              <article className="curriculum-module" key={module.id}>
+                <div className="module-number">
+                  {String(moduleIndex + 1).padStart(2, '0')}
+                </div>
+
+                <div className="module-content">
+                  <h3>{module.title}</h3>
+
+                  <div className="lesson-list">
+                    {module.lessons.map((lessonTitle, lessonIndex) => {
+                      const isStanceLesson =
+                        selected.id === 'karate' &&
+                        lessonTitle === 'Understanding Stances'
+
+                      return (
+                        <button
+                          className="curriculum-lesson"
+                          key={lessonTitle}
+                          onClick={() => {
+                            if (isStanceLesson) {
+                              setActiveLesson(
+                                lessons['karate-stances']
+                              )
+                            }
+                          }}
+                          disabled={!isStanceLesson}
+                        >
+                          <span>
+                            {String(lessonIndex + 1).padStart(2, '0')}
+                          </span>
+
+                          <strong>{lessonTitle}</strong>
+
+                          <small>
+                            {isStanceLesson
+                              ? 'Begin lesson →'
+                              : 'Coming next'}
+                          </small>
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              </article>
             ))}
           </div>
         </section>
@@ -76,10 +143,12 @@ function MartialArts({ onBack }) {
 
       <section className="page-heading">
         <span className="eyebrow">MARTIAL ARTS</span>
+
         <h1>Choose your path.</h1>
+
         <p>
-          Explore different martial arts and build your understanding from
-          fundamentals upward.
+          Explore different martial arts and build your understanding
+          from fundamentals upward.
         </p>
       </section>
 
