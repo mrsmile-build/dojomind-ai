@@ -21,9 +21,52 @@ function MartialArts({ onBack }) {
 
   if (selected) {
     const artCurriculum = curriculum.martialArts[selected.id]
+
+    // Not every style in martialArts.js has a curriculum entry yet
+    // (only karate does today). Without this guard, selecting one of
+    // the others throws, since `level` below would be undefined.
+    if (!artCurriculum) {
+      return (
+        <main className="learning-page">
+          <button
+            className="back-button"
+            onClick={() => {
+              setSelected(null)
+              setActiveLevel('beginner')
+            }}
+          >
+            ← Back to martial arts
+          </button>
+
+          <section className="style-hero">
+            <div className="style-icon">{selected.icon}</div>
+
+            <span className="eyebrow">MARTIAL ART</span>
+
+            <h1>{selected.name}</h1>
+
+            <p>{selected.description}</p>
+          </section>
+
+          <section className="topic-section">
+            <div className="section-heading">
+              <span>COMING SOON</span>
+
+              <h2>Curriculum in development.</h2>
+
+              <p>
+                {selected.name} lessons are being built using the same
+                structured approach as Karate. Check back soon.
+              </p>
+            </div>
+          </section>
+        </main>
+      )
+    }
+
     const level =
-      artCurriculum?.levels?.[activeLevel] ||
-      artCurriculum?.levels?.beginner
+      artCurriculum.levels?.[activeLevel] ||
+      artCurriculum.levels?.beginner
 
     return (
       <main className="learning-page">
@@ -93,34 +136,33 @@ function MartialArts({ onBack }) {
                   <h3>{module.title}</h3>
 
                   <div className="lesson-list">
-                    {module.lessons.map((lessonTitle, lessonIndex) => {
-                      const isStanceLesson =
-                        selected.id === 'karate' &&
-                        lessonTitle === 'Understanding Stances'
+                    {module.lessons.map((lessonEntry, lessonIndex) => {
+                      // The curriculum only decides what exists and in
+                      // what order. Whether a lesson is open is purely
+                      // "does this id exist in the lessons database" —
+                      // no per-lesson code, ever, no matter how many
+                      // lessons get added later.
+                      const lessonData = lessons[lessonEntry.id]
 
                       return (
                         <button
                           className="curriculum-lesson"
-                          key={lessonTitle}
+                          key={lessonEntry.id}
                           onClick={() => {
-                            if (isStanceLesson) {
-                              setActiveLesson(
-                                lessons['karate-stances']
-                              )
+                            if (lessonData) {
+                              setActiveLesson(lessonData)
                             }
                           }}
-                          disabled={!isStanceLesson}
+                          disabled={!lessonData}
                         >
                           <span>
                             {String(lessonIndex + 1).padStart(2, '0')}
                           </span>
 
-                          <strong>{lessonTitle}</strong>
+                          <strong>{lessonEntry.title}</strong>
 
                           <small>
-                            {isStanceLesson
-                              ? 'Begin lesson →'
-                              : 'Coming next'}
+                            {lessonData ? 'Begin lesson →' : 'Coming next'}
                           </small>
                         </button>
                       )
