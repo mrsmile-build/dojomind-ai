@@ -326,4 +326,149 @@ export const lessons = {
       'Identify and correct the four common mistakes in your own stance.',
     ],
   },
+  'karate-stances-back': {
+    id: 'karate-stances-back',
+    subject: 'Karate',
+    title: 'Back Stance (Kokutsu-Dachi)',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn the back stance: a rear-weighted base used for defense, evasions, and counter-attacks, built on a deeply bent rear leg and an L-shaped foot alignment.',
+
+    objectives: [
+      'Understand the defensive purpose of the back stance',
+      'Position the feet in a stable L-shape',
+      'Feel a 70/30 weight distribution on the rear leg',
+      'Recognize the four most common stance errors',
+      'Hold the stance while keeping the torso upright',
+    ],
+
+    positionDiagram: {
+      title: 'Back stance — kokutsu-dachi',
+      description:
+        'Side and top-down views of the back stance. The rear leg is deeply bent with the knee over the foot; the front leg is relatively straight; weight sits about 70% on the rear leg.',
+      torsoAngle: 0,
+      frontArmAngle: -15,
+      rearArmAngle: 20,
+      frontLegAngle: -15,
+      rearLegAngle: 35,
+      weightDistribution: { front: 30, rear: 70 },
+      feet: {
+        front: { x: -10, y: -80, angle: 0 },
+        rear: { x: 30, y: 50, angle: 90 },
+        note:
+          'The feet form an L-shape. The front foot points straight forward, while the rear foot points directly to the side (90 degrees). The heels should align on the same forward-backward line.',
+      },
+      annotations: [
+        { number: '01', label: 'Deeply bent rear knee', detail: 'The rear knee is bent deeply and stacks over the rear foot.' },
+        { number: '02', label: 'Relatively straight front leg', detail: 'The front leg is extended but not locked.' },
+        { number: '03', label: 'Upright torso', detail: 'The upper body stays over the hips, not leaning backward.' },
+        { number: '04', label: 'Weight about 30/70', detail: 'Most weight sits backward to keep the body out of striking range.' },
+      ],
+      metrics: [
+        { label: 'Weight', value: '30% front / 70% rear' },
+        { label: 'Front foot', value: 'Pointing forward' },
+        { label: 'Rear foot', value: 'Pointing sideways (90°)' },
+        { label: 'Stance length', value: 'About two shoulder widths' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'A defensive base',
+        caption:
+          'The back stance trades forward drive for defensive mobility: it is the shape used to absorb incoming force and prepare to counter.',
+        labels: [
+          'Deeply bent rear leg under control',
+          'Relatively straight front leg',
+          'Upright torso over the hips',
+          'Weight pressed backward',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'What defines the back stance',
+        content:
+          'Kokutsu-dachi is a rear-weighted stance. The feet form an L-shape: the front foot points straight forward, while the rear foot points directly to the side (about 90 degrees). The heels align on the same forward-backward line, with no sideways staggering. The rear knee is bent deeply until it stacks over the rear foot, and the front leg is extended but not locked.',
+      },
+      {
+        title: 'Why the weight sits backward',
+        content:
+          'Putting about seventy percent of the weight on the rear leg keeps the torso out of immediate striking range, making it the primary defensive and evasive base in karate. The structure is stable enough to absorb incoming force and mobile enough to push off the rear leg for a counter-attack or evasion.',
+      },
+      {
+        title: 'Where you will use it',
+        content:
+          'The back stance is the working base for many blocking techniques, evasions, and counter-strikes. Later modules will connect it to footwork, so for now the goal is simply to hold the shape correctly and feel where the weight sits.',
+      },
+    ],
+
+    principles: [
+      'The rear knee tracks over the rear foot, never caving inward.',
+      'The front leg stays extended but not locked.',
+      'The torso stays upright over the hips even though the weight is backward.',
+      'The heels align front-to-back; sideways staggering removes the L-shape mobility.',
+    ],
+
+    mistakes: [
+      { title: 'Front foot floating off the ground', explanation: 'A floating front foot removes the ability to move forward if needed. Keep the front heel planted.' },
+      { title: 'Rear knee caving inward', explanation: 'When the rear knee collapses toward the center line the joint is stressed and power leaks. Press the knee outward in line with the foot.' },
+      { title: 'Torso leaning backward', explanation: 'Leaning backward shifts balance outside the base and tires the core. Stack the shoulders over the hips instead.' },
+      { title: 'Feet too wide side-to-side', explanation: 'Placing the feet wide removes the L-shape structure and makes the stance easy to tip forward. Keep the heels aligned front-to-back.' },
+    ],
+
+    practice: [
+      'Stand in a natural ready position.',
+      'Step one foot directly back about two shoulder widths.',
+      'Turn the rear foot out 90 degrees so it points to the side.',
+      'Bend the rear knee deeply until it stacks over the rear foot; extend the front leg without locking it.',
+      'Settle about seventy percent of your weight onto the rear leg without leaning the torso backward.',
+      'Hold the stance for ten slow breaths, checking heel, knee and posture each breath.',
+      'Return to the ready position and repeat on the opposite side.',
+    ],
+
+    reflection:
+      'While holding the stance, could you easily retract your front foot to dodge an incoming attack without losing your balance?',
+
+    safety:
+      'Keep the rear knee aligned over the foot and avoid sinking deeper than your mobility allows. Knee or ankle discomfort is a signal to reduce depth. Physical technique is best learned with qualified in-person instruction.',
+
+    quiz: [
+      {
+        question: 'How is the weight distributed in the back stance?',
+        options: [
+          'Evenly on both legs',
+          'Mostly on the front leg',
+          'About seventy percent on the rear leg',
+          'Entirely on the ball of the rear foot',
+        ],
+        answer: 2,
+        explanation:
+          'Roughly 70% of the weight rests on the rear leg to keep the body out of striking range and prepare for defensive actions.',
+      },
+      {
+        question: 'What is the shape of the feet in the back stance?',
+        options: [
+          'Both feet point forward',
+          'An L-shape with the rear foot pointing sideways',
+          'Both feet point outward at 45 degrees',
+          'The front foot crosses behind the rear foot',
+        ],
+        answer: 1,
+        explanation:
+          'The feet form an L-shape: the front foot points forward, the rear foot points to the side, and the heels align front-to-back.',
+      },
+    ],
+
+    mastery: [
+      'Set up the back stance with correct L-shape foot alignment unaided.',
+      'Hold the stance for ten breaths with a deeply bent rear knee and upright torso.',
+      'Explain why the weight sits about 70% on the rear leg.',
+      'Identify and correct the four common mistakes in your own stance.',
+    ],
+  },
 }
