@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import MartialArts from './MartialArts'
+import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
 const areas = [
@@ -25,10 +26,11 @@ const areas = [
   },
 ]
 
-function App() {
+function AppContent() {
   const [question, setQuestion] = useState('')
   const [messages, setMessages] = useState([])
   const [page, setPage] = useState('home')
+  const { completedLessons } = useProgress()
 
   if (page === 'martial-arts') {
     return <MartialArts onBack={() => setPage('home')} />
@@ -166,8 +168,7 @@ function App() {
           <span className="eyebrow">YOUR JOURNEY</span>
           <h2>Progress comes from practice.</h2>
           <p>
-            Your future DojoMind profile will track lessons, meditation
-            sessions, training and consistency in one place.
+            Your DojoMind profile tracks lessons, sessions and consistency in one place.
           </p>
         </div>
 
@@ -177,7 +178,7 @@ function App() {
             <span>Day streak</span>
           </div>
           <div>
-            <strong>0</strong>
+            <strong>{completedLessons.length}</strong>
             <span>Lessons</span>
           </div>
           <div>
@@ -195,6 +196,14 @@ function App() {
         <p>Train the body. Focus the mind.</p>
       </footer>
     </main>
+  )
+}
+
+function App() {
+  return (
+    <ProgressProvider>
+      <AppContent />
+    </ProgressProvider>
   )
 }
 
