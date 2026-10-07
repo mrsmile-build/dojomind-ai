@@ -3037,4 +3037,347 @@ export const lessons = {
       'Identify and correct the four common opening-creation errors.',
     ],
   },
+
+  'karate-distance-range': {
+    id: 'karate-distance-range',
+    subject: 'Karate',
+    title: 'Understanding Range',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn maai, the combative distance: how the gap between you and the partner decides which techniques are possible, which are safe, and which are illusions.',
+
+    objectives: [
+      'Understand distance as a shared property of two people, not a fixed number',
+      'Name the four practical ranges and what works in each',
+      'Feel the one-step threshold that turns far into close',
+      'Recognize the four most common distance errors',
+      'Estimate range correctly against a moving partner',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The gap decides everything',
+        caption:
+          'Range is not scenery. It decides which techniques exist at all in this moment of the exchange.',
+        labels: [
+          'Out of range: nothing lands',
+          'Kicking range: legs reach',
+          'Punching range: hands reach',
+          'Close range: elbows and control',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Distance is shared',
+        content:
+          'The gap between two people belongs to both of them. It changes when either one steps, shifts weight or changes height. That is why range is never a fixed number: it is a live property of the pair. Traditional karate calls the combative distance maai, and the concept includes timing and angle as well as space, because all three decide what can actually land.',
+      },
+      {
+        title: 'The four practical ranges',
+        content:
+          'Outside range, nothing lands even with a step, and this is where observation and preparation happen. Kicking range is where the legs reach with one shift of weight. Punching range is where the hands reach, and it is also where most exchanges become fast and tight. Close range is where elbows, clinching and control live, and where kicking and punching lose their room. Each range has its own best techniques and its own specific dangers.',
+      },
+      {
+        title: 'The one-step threshold',
+        content:
+          'The line that matters most is not where a technique reaches right now, but where it reaches after one step. A partner who looks safe can be dangerous the instant they step, and the same is true of you. Trained practitioners measure this threshold continuously, because crossing it changes what is possible for both people at once.',
+      },
+    ],
+
+    principles: [
+      'Distance belongs to both people and changes with either step.',
+      'Measure the range after one step, not the range right now.',
+      'Every range has its own techniques and its own dangers.',
+      'Reach, stance and height all change the true range.',
+    ],
+
+    mistakes: [
+      { title: 'Fighting at the range of the partner', explanation: 'Staying where their best techniques work instead of where yours do hands them the whole exchange. Move the gap to your range on purpose.' },
+      { title: 'Measuring with the eyes only', explanation: 'Visual estimation degrades under pressure. Range learned through footwork and felt distance is faster and more reliable than guessing with the eyes.' },
+      { title: 'Ignoring reach differences', explanation: 'A taller or longer-limbed partner shifts every threshold. Adjust your measurements to the person in front of you instead of assuming a standard range.' },
+      { title: 'Hovering at dead range', explanation: 'Floating just outside reach with no intent wastes initiative and tires the legs. Be at a range with a purpose: threaten, deny, or observe deliberately.' },
+    ],
+
+    practice: [
+      'With a partner, stand far apart and step in until one of you could land a front kick with a single shift.',
+      'Freeze there and name the range out loud: kick range.',
+      'Step in once more until a straight punch would land; freeze and name it: punch range.',
+      'Step in until elbows would reach; freeze and name it: close range.',
+      'Have the partner move randomly and call the current range continuously for one minute.',
+      'Switch roles and compare where each of you felt the thresholds change.',
+    ],
+
+    reflection:
+      'During the drill, which threshold surprised you most: the point where kicking became possible, or the point where the partner could reach you with one step?',
+
+    safety:
+      'Range drills involve continuous stepping toward a partner. Keep controlled speed, clear space behind both people, and stop if either person approaches a wall or obstacle.',
+
+    quiz: [
+      {
+        question: 'What does the traditional term maai refer to?',
+        options: [
+          'A specific kicking technique',
+          'The combative distance including space, timing and angle',
+          'A breathing method',
+          'The bow at the start of training',
+        ],
+        answer: 1,
+        explanation:
+          'Maai is the live combative distance between two people, and the concept includes timing and angle because all three decide what can land.',
+      },
+      {
+        question: 'Why is the one-step threshold more important than current reach?',
+        options: [
+          'It is easier to see',
+          'Because crossing one step changes what is possible for both people instantly',
+          'It saves energy',
+          'It only matters in competition',
+        ],
+        answer: 1,
+        explanation:
+          'A partner who looks safe can become dangerous the moment they step, so the threshold after one step is the line that must be tracked.',
+      },
+    ],
+
+    mastery: [
+      'Name the four practical ranges and one technique suited to each.',
+      'Identify the one-step threshold against a moving partner.',
+      'Adjust your measurements for a partner with different reach.',
+      'Identify and correct the four common distance errors.',
+    ],
+  },
+  'karate-distance-managing': {
+    id: 'karate-distance-managing',
+    subject: 'Karate',
+    title: 'Managing Distance',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn to own the gap: the stepping, angling and pressure tools that keep an exchange at the range where your techniques work and deny the partner the range where theirs do.',
+
+    objectives: [
+      'Understand managing distance as an active skill, not a passive one',
+      'Use steps and angles to set the gap deliberately',
+      'Deny the partner their preferred range',
+      'Recognize the four most common distance-management errors',
+      'Combine pressure with distance to force readable reactions',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The gap is a dial',
+        caption:
+          'Distance is adjusted continuously with the feet: in to threaten, out to deny, around to change the line.',
+        labels: [
+          'Step in to threaten',
+          'Step out to deny',
+          'Angle to change the line',
+          'Pressure to force errors',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Owning the gap',
+        content:
+          'Distance management is the continuous work of placing the gap where you want it. Step in to threaten and force a reaction, step out to deny a technique that was already launched, and hold steady when the current range already favors you. The gap is a dial you adjust with your feet, moment by moment, not a circumstance that happens to you.',
+      },
+      {
+        title: 'Denial as a weapon',
+        content:
+          'Every fighter has a range where their best tools live. Denying that range is defense without blocking: stay one half-step beyond where their technique ends and their best weapon expires in the air. Denial also gathers information, because the attempts to close on you reveal habits, timings and favorite lines.',
+      },
+      {
+        title: 'Distance plus angle',
+        content:
+          'Straight-line stepping manages depth only. Adding angle changes the line of attack as well, so the partner must turn to re-face you while you keep your structure. Small angular steps, taken continuously, are among the strongest distance tools because they defend and reposition at the same time.',
+      },
+    ],
+
+    principles: [
+      'The gap is a dial you adjust with your feet.',
+      'Deny the range where the best tools of the partner live.',
+      'Angle changes the line, depth changes the reach; use both.',
+      'Manage distance before you need to defend.',
+    ],
+
+    mistakes: [
+      { title: 'Chasing instead of managing', explanation: 'Lunging after a retreating partner collapses your own structure and walks you into counters. Move the gap deliberately instead of hunting.' },
+      { title: 'Retreating in straight lines only', explanation: 'Backing up on the same line keeps you inside the attack corridor. Add angle so retreat also repositions.' },
+      { title: 'Letting pressure collapse structure', explanation: 'Pressing forward with the head and shoulders ahead of the base is not pressure, it is falling. Keep stance and guard while you close.' },
+      { title: 'Managing distance with the upper body', explanation: 'Leaning in and out changes reach slightly but ruins balance. Distance belongs to the feet; lean only as counterbalance, never as footwork.' },
+    ],
+
+    practice: [
+      'With a partner, hold punch range and mirror their steps for one minute, keeping the gap constant.',
+      'When they step in, step out just enough to expire their reach; when they step out, follow to restore your range.',
+      'Add angle: circle around the partner while keeping the same depth, never crossing your feet.',
+      'Apply steady forward pressure for three steps without attacking; observe what they do.',
+      'Release the pressure suddenly and note whether they rush into the space you left.',
+      'Finish each round in guard at a range you chose on purpose.',
+    ],
+
+    reflection:
+      'When you released pressure in the last drill, did the partner rush in, hold, or retreat? What does that tell you about using distance to gather information?',
+
+    safety:
+      'Mirroring and pressure drills keep two people moving continuously. Keep the floor clear, control your speed, and agree on no-contact rules before starting.',
+
+    quiz: [
+      {
+        question: 'What is the primary tool for managing distance?',
+        options: [
+          'Leaning the torso',
+          'Footwork: steps and angles',
+          'Faster punches',
+          'A louder voice',
+        ],
+        answer: 1,
+        explanation:
+          'Distance belongs to the feet; steps and angles place the gap where you want it while structure stays intact.',
+      },
+      {
+        question: 'Why is denying the preferred range of the partner a form of defense?',
+        options: [
+          'It tires them quickly',
+          'Their best techniques expire before reaching you',
+          'It is counted as a block',
+          'It forces them to stop training',
+        ],
+        answer: 1,
+        explanation:
+          'Staying just beyond where their technique ends means their strongest tools miss without any block being needed.',
+      },
+    ],
+
+    mastery: [
+      'Hold a chosen range against a moving partner for one minute.',
+      'Expire an incoming technique using distance alone.',
+      'Combine depth and angle while circling without crossing the feet.',
+      'Identify and correct the four common distance-management errors.',
+    ],
+  },
+  'karate-distance-entering-exiting': {
+    id: 'karate-distance-entering-exiting',
+    subject: 'Karate',
+    title: 'Entering and Exiting',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn how to cross distance safely: enter with guard, angle and timing, and leave without handing the partner a free moment. Entry and exit are one continuous skill.',
+
+    objectives: [
+      'Understand why crossing distance is the most dangerous moment of an exchange',
+      'Enter with guard, angle and timing instead of commitment alone',
+      'Exit without turning away or falling forward',
+      'Recognize the four most common entry and exit errors',
+      'Link one clean entry and exit to a single technique',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'One loop, not two skills',
+        caption:
+          'The crossing in and the crossing out form a single loop; training only half of it leaves a hole in the middle of the skill.',
+        labels: [
+          'Enter on your timing',
+          'Guard leads the entry',
+          'Exit on an angle',
+          'Awareness closes the loop',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why entries fail',
+        content:
+          'Crossing from safe range into striking range means passing through the zone where the techniques of the partner already work. Most entries fail for the same reasons: arriving on the rhythm of the partner instead of your own, leading with the head instead of the guard, and committing so fully that no exit remains. A good entry treats the crossing as a controlled movement, not a leap of faith.',
+      },
+      {
+        title: 'The anatomy of a clean entry',
+        content:
+          'A clean entry has three parts arriving together: timing chosen from a read or a created opening, guard and structure leading the way so the head never arrives first, and an angle that shortens the dangerous corridor. The entry ends in a stance, at a chosen range, with a technique ready, never in a stretched lunge.',
+      },
+      {
+        title: 'Exiting is part of entering',
+        content:
+          'The exit begins before the technique finishes. Guard returns, feet find a stance, and distance or angle is taken so the next exchange starts on your terms. Exiting straight back through the line of attack is the weakest option; exiting on an angle keeps you safe while you reset. Entry and exit form one loop, and training them separately leaves a hole in the middle of the skill.',
+      },
+    ],
+
+    principles: [
+      'Cross distance on your timing, never on the rhythm of the partner.',
+      'Guard and structure arrive before the head.',
+      'Every entry contains its exit from the first step.',
+      'Exit on an angle, in stance, with awareness intact.',
+    ],
+
+    mistakes: [
+      { title: 'Entering without an exit plan', explanation: 'Committing fully with no reserved structure leaves nothing for defense or redirection. Keep enough base to leave at every moment of the entry.' },
+      { title: 'Diving in with the head', explanation: 'When the head leads, balance follows it forward and the guard trails behind. Let guard and feet lead the crossing.' },
+      { title: 'Exiting straight back through the attack', explanation: 'Retreating on the same line keeps you inside the corridor of the partner techniques. Step off line while you create distance.' },
+      { title: 'Relaxing at the finish', explanation: 'Dropping guard or attention after the technique hands over the moment you just fought for. Awareness closes the loop before anything relaxes.' },
+    ],
+
+    practice: [
+      'From just outside punch range, enter one step with guard up and freeze in stance; check balance.',
+      'Add a single straight punch at the end of the entry, then freeze again in guard.',
+      'Exit on a 45 degree angle to a safe range and freeze; confirm eyes stayed forward.',
+      'Repeat the entry-technique-exit loop ten times at half speed.',
+      'Have the partner apply light pressure at your finish; your recovery must already be in place.',
+      'Close with three repetitions at full control, naming your timing window on each entry.',
+    ],
+
+    reflection:
+      'In your last repetitions, at which moment did your guard or attention drop: during the crossing, at contact, or during the exit?',
+
+    safety:
+      'Entry and exit drills close real distance on a partner. Keep contact light or absent until both people control the loop at speed, and keep the training area free of obstacles in both directions of movement.',
+
+    quiz: [
+      {
+        question: 'Why is crossing distance considered the most dangerous moment?',
+        options: [
+          'It uses the most energy',
+          'You pass through the zone where the techniques of the partner already work',
+          'It is illegal in most styles',
+          'It always breaks balance',
+        ],
+        answer: 1,
+        explanation:
+          'Between safe range and your own striking range lies the zone where the techniques of the partner can reach you, so the crossing must be controlled.',
+      },
+      {
+        question: 'What makes an exit strong?',
+        options: [
+          'Speed alone',
+          'Angle, stance and awareness taken together',
+          'Turning away quickly',
+          'A loud shout',
+        ],
+        answer: 1,
+        explanation:
+          'A strong exit restores guard, base and distance or angle at once, so the next exchange begins on your terms.',
+      },
+    ],
+
+    mastery: [
+      'Enter on a chosen timing window with guard and structure leading.',
+      'Link entry, single technique and angled exit in one controlled loop.',
+      'Keep awareness and guard intact through the finish under light pressure.',
+      'Identify and correct the four common entry and exit errors.',
+    ],
+  },
 }
