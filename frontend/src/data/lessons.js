@@ -1049,4 +1049,437 @@ export const lessons = {
       'Explain why the pivot happens on the ball of the foot.',
     ],
   },
+
+  'karate-strikes-mechanics': {
+    id: 'karate-strikes-mechanics',
+    subject: 'Karate',
+    title: 'Understanding Striking Mechanics',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn how karate generates power: the kinetic chain from the ground through the hips to the fist, and why striking is a whole-body skill, not an arm skill.',
+
+    objectives: [
+      'Understand the kinetic chain that generates striking power',
+      'Recognize why hip rotation is the engine of power',
+      'Understand the role of the rear leg and ground contact',
+      'Recognize the four most common striking power errors',
+      'Identify the contact points for different strikes',
+    ],
+
+    positionDiagram: {
+      title: 'The kinetic chain',
+      description:
+        'Power travels from the ground through the legs, rotates at the hips, and exits through the striking surface. Each link must be connected and timed correctly.',
+      torsoAngle: 0,
+      frontArmAngle: -15,
+      rearArmAngle: 25,
+      frontLegAngle: -18,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -30, y: -50, angle: 0 },
+        rear: { x: 35, y: 50, angle: 45 },
+        note:
+          'The rear leg pushes against the ground, the hips rotate to transfer that force, and the arm extends to deliver it. If any link is weak or out of sequence, power is lost.',
+      },
+      annotations: [
+        { number: '01', label: 'Ground contact', detail: 'Power starts with the rear foot pushing against the floor.' },
+        { number: '02', label: 'Hip rotation', detail: 'The hips rotate to transfer leg force into torso rotation.' },
+        { number: '03', label: 'Torso whip', detail: 'The shoulders and arms follow the hip rotation like a whip.' },
+        { number: '04', label: 'Contact surface', detail: 'Power exits through a small, hard surface (knuckles, elbow, etc.).' },
+      ],
+      metrics: [
+        { label: 'Power source', value: 'Ground + hips' },
+        { label: 'Transfer', value: 'Kinetic chain' },
+        { label: 'Delivery', value: 'Small contact surface' },
+        { label: 'Key principle', value: 'Whole-body skill' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Striking is not an arm skill',
+        caption:
+          'The arm is the delivery mechanism, not the power source. Power comes from the ground through the kinetic chain.',
+        labels: [
+          'Rear leg pushes the ground',
+          'Hips rotate to transfer force',
+          'Torso and arm follow',
+          'Small surface delivers power',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The kinetic chain',
+        content:
+          'A powerful strike is not made by the arm alone. It is a chain of connected movements: the rear leg pushes against the ground, that force travels up the leg to the hips, the hips rotate to transfer it into the torso, and the torso whips the arm forward. Each link must be connected and properly timed for maximum power.',
+      },
+      {
+        title: 'Why the hips are the engine',
+        content:
+          'The hips sit at the center of the body and can rotate powerfully. When the hips turn, they drag the torso and shoulders with them, adding rotational force to the linear extension of the arm. A strike with hip rotation delivers far more force than an arm-only punch, even if the arm moves slower.',
+      },
+      {
+        title: 'Contact surfaces',
+        content:
+          'Different strikes use different contact surfaces: the first two knuckles for punches, the elbow tip for close-range strikes, the knife-hand edge for chops. The surface should be small and hard to concentrate force into a small area. The surface must be properly aligned with the wrist and arm to avoid injury.',
+      },
+    ],
+
+    principles: [
+      'Power comes from the ground through the kinetic chain, not from the arm.',
+      'Hip rotation is the primary engine of striking power.',
+      'The contact surface should be small, hard and properly aligned.',
+      'Tension kills power; relaxation allows speed and whip.',
+    ],
+
+    mistakes: [
+      { title: 'Arm-only striking', explanation: 'Pushing with just the arm muscles limits power dramatically. Connect the rear leg, hips and torso to the strike.' },
+      { title: 'Locked joints at impact', explanation: 'Locking the elbow or wrist at full extension transfers shock back into your joints. Keep slight bend and structure at contact.' },
+      { title: 'Shoulder tension', explanation: 'Raised, tense shoulders slow the arm and absorb power. Keep shoulders relaxed and down during the strike.' },
+      { title: 'Pushing instead of striking', explanation: 'Pushing through the target wastes energy. A strike should penetrate and retract cleanly, not linger.' },
+    ],
+
+    practice: [
+      'Stand in front stance and place your rear hand on your hip.',
+      'Feel the rear foot pushing into the ground.',
+      'Rotate your hips forward while keeping the hand on your hip.',
+      'Notice how the hip rotation wants to drag your shoulder forward.',
+      'Add the arm extension, keeping the shoulder relaxed.',
+      'Repeat slowly, feeling the chain: ground, hip, torso, arm.',
+    ],
+
+    reflection:
+      'When you extend your arm, can you feel the force starting from your rear foot, or does it feel like your arm is working alone?',
+
+    safety:
+      'Practice strikes slowly and without full power until the kinetic chain pattern is smooth. Never strike hard objects without proper conditioning and supervision.',
+
+    quiz: [
+      {
+        question: 'Where does striking power primarily come from?',
+        options: [
+          'The arm muscles alone',
+          'The ground through the kinetic chain',
+          'The shoulders and chest',
+          'The speed of the fist',
+        ],
+        answer: 1,
+        explanation:
+          'Power travels from the ground through the legs, hips and torso before exiting through the striking surface. The arm is the delivery mechanism, not the source.',
+      },
+      {
+        question: 'Why is hip rotation important for striking?',
+        options: [
+          'It looks more powerful',
+          'It transfers leg force into rotational torso force',
+          'It only helps with kicks',
+          'It slows the strike down',
+        ],
+        answer: 1,
+        explanation:
+          'The hips rotate to transfer the push from the rear leg into rotational force that whips the torso and arm forward.',
+      },
+    ],
+
+    mastery: [
+      'Explain the kinetic chain from ground to contact surface.',
+      'Feel and describe hip rotation during a slow strike.',
+      'Identify the contact surface for at least three different strikes.',
+      'Recognize and correct the four common power errors.',
+    ],
+  },
+  'karate-strikes-straight-punch': {
+    id: 'karate-strikes-straight-punch',
+    subject: 'Karate',
+    title: 'Straight Punch (Choku-Zuki)',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn the straight punch: the most basic karate strike, built on proper chamber, hip rotation, kime (focus) at impact, and hikite (pullback).',
+
+    objectives: [
+      'Understand the structure of a proper straight punch',
+      'Chamber the fist correctly at the hip',
+      'Extend with hip rotation and proper fist alignment',
+      'Achieve kime (focus) at the moment of impact',
+      'Execute proper hikite (pullback) for power and readiness',
+    ],
+
+    positionDiagram: {
+      title: 'Straight punch — choku-zuki',
+      description:
+        'The straight punch extends from the hip chamber with hip rotation, making contact with the first two knuckles, and the non-punching hand pulls back to the hip.',
+      torsoAngle: 0,
+      frontArmAngle: -20,
+      rearArmAngle: 35,
+      frontLegAngle: -22,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -18, y: -70, angle: 0 },
+        rear: { x: 22, y: 55, angle: 45 },
+        note:
+          'The punching fist starts chambered at the hip, extends straight with the palm down, and makes contact with the first two knuckles. The other fist pulls back to the hip simultaneously.',
+      },
+      annotations: [
+        { number: '01', label: 'Chamber at hip', detail: 'The fist starts palm-up at the hip, elbow back.' },
+        { number: '02', label: 'Hip rotation', detail: 'The hips rotate forward as the fist extends.' },
+        { number: '03', label: 'First two knuckles', detail: 'Contact is made with the first two knuckles, wrist straight.' },
+        { number: '04', label: 'Hikite (pullback)', detail: 'The non-punching hand pulls back to the hip, palm-up.' },
+      ],
+      metrics: [
+        { label: 'Chamber', value: 'Fist at hip, palm up' },
+        { label: 'Extension', value: 'Straight line, palm down' },
+        { label: 'Contact', value: 'First two knuckles' },
+        { label: 'Pullback', value: 'Other hand to hip' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Chamber, extend, pull back',
+        caption:
+          'The straight punch is a complete cycle: chambered fist, extension with hip rotation, contact, and simultaneous pullback of the other hand.',
+        labels: [
+          'Fist chambered at hip',
+          'Extension with hip rotation',
+          'First two knuckles contact',
+          'Opposite hand pulls back',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Chamber: where the punch starts',
+        content:
+          'The punch begins with the fist chambered at the hip, palm facing up, elbow pulled back. This position stores potential energy and prepares the arm for a straight-line extension. The chamber should be tight against the body, not floating away from the ribs.',
+      },
+      {
+        title: 'Extension with rotation',
+        content:
+          'As the fist extends forward, the palm rotates from up to down, and the hips rotate forward simultaneously. This rotation adds power from the kinetic chain. The fist travels in a straight line from the hip to the target, not in an arc. The elbow stays down and close to the body during extension.',
+      },
+      {
+        title: 'Kime and hikite',
+        content:
+          'Kime (focus) is the momentary tension at the instant of contact: the whole body tightens for a split second to transfer maximum force, then immediately relaxes. Simultaneously, the non-punching hand pulls back sharply to the hip (hikite), which helps generate power through the principle of equal and opposite reaction and prepares that hand for the next technique.',
+      },
+    ],
+
+    principles: [
+      'Chamber tight at the hip, palm up, elbow back.',
+      'Extend straight with simultaneous hip rotation and palm rotation.',
+      'Contact with the first two knuckles, wrist straight and strong.',
+      'Hikite (pullback) the other hand sharply to the hip.',
+    ],
+
+    mistakes: [
+      { title: 'Wide, looping punch', explanation: 'Swinging the fist in an arc instead of a straight line makes the punch slower and easier to block. Keep the fist traveling straight from hip to target.' },
+      { title: 'No hip rotation', explanation: 'Punching with just the arm loses most of the power. Rotate the hips forward as the fist extends.' },
+      { title: 'Wrist bent at contact', explanation: 'A bent wrist transfers force into the wrist joint instead of the target, risking injury. Keep the wrist straight and strong at impact.' },
+      { title: 'Lazy pullback', explanation: 'If the non-punching hand does not pull back sharply, power is lost and the hand is not ready for the next technique. Hikite should be as intentional as the punch itself.' },
+    ],
+
+    practice: [
+      'Stand in front stance with both fists chambered at the hips, palms up.',
+      'Slowly extend the right fist forward while rotating the palm down and the hips forward.',
+      'At full extension, tighten the whole body for one second (kime), then relax.',
+      'Simultaneously pull the left fist back to the hip (hikite), palm up.',
+      'Repeat with the left hand, alternating for ten repetitions.',
+      'Focus on straight-line extension, hip rotation, and sharp pullback.',
+    ],
+
+    reflection:
+      'During your last set of punches, did you feel the hip rotation adding power, or did the arm feel like it was working alone?',
+
+    safety:
+      'Practice punches in the air or on proper striking targets only. Never punch hard surfaces without proper conditioning. Wrist alignment is critical to avoid injury.',
+
+    quiz: [
+      {
+        question: 'What is the correct contact surface for a straight punch?',
+        options: [
+          'The whole fist',
+          'The first two knuckles',
+          'The palm',
+          'The back of the hand',
+        ],
+        answer: 1,
+        explanation:
+          'The first two knuckles (index and middle finger knuckles) are the strongest and most aligned with the wrist, making them the correct contact surface.',
+      },
+      {
+        question: 'What is hikite and why is it important?',
+        options: [
+          'The chamber position before the punch',
+          'The pullback of the non-punching hand, which adds power and readiness',
+          'The rotation of the hips',
+          'The extension of the elbow',
+        ],
+        answer: 1,
+        explanation:
+          'Hikite is the sharp pullback of the non-punching hand to the hip. It adds power through equal-and-opposite reaction and prepares that hand for the next technique.',
+      },
+    ],
+
+    mastery: [
+      'Execute a straight punch with proper chamber, extension, kime and hikite.',
+      'Feel and demonstrate hip rotation during the punch.',
+      'Make contact with the first two knuckles consistently.',
+      'Identify and correct the four common punch errors.',
+    ],
+  },
+  'karate-strikes-elbow': {
+    id: 'karate-strikes-elbow',
+    subject: 'Karate',
+    title: 'Basic Elbow Mechanics',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn the elbow strike: a close-range weapon that uses body rotation and the hard point of the elbow to deliver concentrated force.',
+
+    objectives: [
+      'Understand when and why the elbow is used',
+      'Position the arm correctly for an elbow strike',
+      'Generate power through body rotation',
+      'Recognize the four most common elbow strike errors',
+      'Execute a horizontal elbow strike with proper structure',
+    ],
+
+    positionDiagram: {
+      title: 'Elbow strike — empi-uchi',
+      description:
+        'The elbow strike uses the hard point of the elbow, driven by body rotation, to deliver concentrated force at close range.',
+      torsoAngle: 0,
+      frontArmAngle: -30,
+      rearArmAngle: 10,
+      frontLegAngle: -22,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -18, y: -70, angle: 0 },
+        rear: { x: 22, y: 55, angle: 45 },
+        note:
+          'The striking arm is bent with the elbow pointing toward the target, the fist near the shoulder. Body rotation drives the elbow forward like a battering ram.',
+      },
+      annotations: [
+        { number: '01', label: 'Elbow point', detail: 'The hard point of the elbow is the contact surface.' },
+        { number: '02', label: 'Bent arm', detail: 'The arm stays bent, fist near the shoulder.' },
+        { number: '03', label: 'Body rotation', detail: 'The whole torso rotates to drive the elbow forward.' },
+        { number: '04', label: 'Close range', detail: 'Elbows are most effective at very close distance.' },
+      ],
+      metrics: [
+        { label: 'Contact', value: 'Elbow point' },
+        { label: 'Arm', value: 'Bent, fist near shoulder' },
+        { label: 'Power', value: 'Body rotation' },
+        { label: 'Range', value: 'Very close' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Close-range power',
+        caption:
+          'The elbow strike is a short, explosive weapon that uses body rotation to drive the elbow point into the target at close range.',
+        labels: [
+          'Elbow point as contact surface',
+          'Bent arm structure',
+          'Whole-body rotation',
+          'Effective at close range',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'When the elbow is the right weapon',
+        content:
+          'The elbow is most effective at very close range where punches cannot extend fully. It is a hard, bony surface that can deliver concentrated force without the risk of wrist injury that punching carries. Elbows are used when the opponent is inside punching range, in clinch situations, or as part of close-quarters combinations.',
+      },
+      {
+        title: 'Structure and rotation',
+        content:
+          'The striking arm is bent with the fist near the shoulder and the elbow pointing toward the target. Power comes from rotating the whole body forward, driving the elbow like a battering ram. The non-striking hand can chamber at the hip or guard the head. The rotation should come from the hips and torso, not just the shoulder.',
+      },
+      {
+        title: 'Types of elbow strikes',
+        content:
+          'The horizontal elbow (yoko-empi) travels sideways and is the most common beginner variation. Other types include the rising elbow (age-empi), downward elbow (otoshi-empi), and rearward elbow (ushiro-empi). All use the same principle of body rotation driving the elbow point.',
+      },
+    ],
+
+    principles: [
+      'The elbow point is the contact surface, not the forearm.',
+      'The arm stays bent with the fist near the shoulder.',
+      'Power comes from whole-body rotation, not shoulder muscles.',
+      'Elbows are close-range weapons; distance matters.',
+    ],
+
+    mistakes: [
+      { title: 'Straightening the arm', explanation: 'If the arm straightens, you lose the elbow point and risk elbow joint injury. Keep the arm bent throughout the strike.' },
+      { title: 'Shoulder-only rotation', explanation: 'Just swinging the shoulder without hip and torso rotation loses most of the power. Rotate the whole body forward.' },
+      { title: 'Using the forearm instead of the point', explanation: 'The forearm is softer and less concentrated. Strike with the hard point of the elbow itself.' },
+      { title: 'Trying to use elbows at long range', explanation: 'Elbows are ineffective at distance. Step in close before executing an elbow strike.' },
+    ],
+
+    practice: [
+      'Stand in front stance with the right fist near your right shoulder, elbow pointing forward.',
+      'Rotate your hips and torso sharply to the right, driving the right elbow forward.',
+      'Keep the arm bent and the fist near the shoulder throughout.',
+      'Feel the whole body rotating, not just the shoulder.',
+      'Repeat ten times on the right side, then ten times on the left.',
+      'Practice stepping in close before executing the elbow strike.',
+    ],
+
+    reflection:
+      'During your last set of elbow strikes, did you feel the whole torso rotating, or was it mostly just the shoulder swinging?',
+
+    safety:
+      'Practice elbow strikes in the air or on proper striking targets only. Never strike hard surfaces without proper conditioning. Keep the arm bent to avoid elbow joint stress.',
+
+    quiz: [
+      {
+        question: 'What is the correct contact surface for an elbow strike?',
+        options: [
+          'The forearm',
+          'The elbow point',
+          'The fist',
+          'The shoulder',
+        ],
+        answer: 1,
+        explanation:
+          'The hard point of the elbow is the contact surface. The forearm is softer and less concentrated.',
+      },
+      {
+        question: 'Where does the power for an elbow strike come from?',
+        options: [
+          'The shoulder muscles alone',
+          'Whole-body rotation from hips and torso',
+          'The speed of the arm',
+          'The weight of the fist',
+        ],
+        answer: 1,
+        explanation:
+          'Power comes from rotating the whole body forward, driving the elbow like a battering ram. Shoulder-only rotation loses most of the force.',
+      },
+    ],
+
+    mastery: [
+      'Execute a horizontal elbow strike with proper bent-arm structure.',
+      'Generate power through whole-body rotation, not shoulder muscles.',
+      'Strike with the elbow point, not the forearm.',
+      'Identify and correct the four common elbow strike errors.',
+    ],
+  },
 }
