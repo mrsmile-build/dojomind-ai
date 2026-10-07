@@ -140,7 +140,7 @@ Status:
 - [x] Intermediate curriculum foundation
 - [x] Advanced curriculum foundation
 - [x] First complete lesson template
-- [ ] Complete beginner curriculum
+- [x] Complete beginner curriculum — 16 lessons, 5 modules live
 - [ ] Complete intermediate curriculum
 - [ ] Complete advanced curriculum
 - [ ] Add additional martial arts
@@ -949,7 +949,7 @@ PHASE 1 — FOUNDATION
 [x] Universal curriculum direction documented
 
 [x] Generic lesson IDs — stable-id lookup live in the UI
-[ ] Complete Karate beginner curriculum
+[x] Complete Karate beginner curriculum — 16 lessons, 5 modules live
 [ ] Practice engine
 [x] Progress engine — local persistence live; cross-device sync planned
 [ ] Mastery system
