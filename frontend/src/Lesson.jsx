@@ -173,6 +173,81 @@ function Lesson({ lesson, onBack, onComplete }) {
           </p>
         </div>
 
+        {lesson.liveApplication && (
+          <section className="live-application-block">
+            <span className="eyebrow">LIVE APPLICATION</span>
+            <h2>See it happen, from both sides.</h2>
+
+            {lesson.liveApplication.scenarios && (
+              <div className="scenarios-list">
+                <h3>Worked scenarios</h3>
+                {lesson.liveApplication.scenarios.map((scenario, i) => (
+                  <article className="scenario-card" key={i}>
+                    <div className="scenario-part">
+                      <span className="scenario-label">SETUP</span>
+                      <p>{scenario.setup}</p>
+                    </div>
+                    <div className="scenario-part">
+                      <span className="scenario-label">ACTION</span>
+                      <p>{scenario.action}</p>
+                    </div>
+                    <div className="scenario-part">
+                      <span className="scenario-label">WHY IT WORKS</span>
+                      <p>{scenario.why}</p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            )}
+
+            {lesson.liveApplication.perspectives && (
+              <div className="perspectives-grid">
+                <h3>Both sides of the technique</h3>
+                {lesson.liveApplication.perspectives.map((perspective) => (
+                  <article className="perspective-card" key={perspective.role}>
+                    <h4>{perspective.role}</h4>
+                    <p>{perspective.detail}</p>
+                  </article>
+                ))}
+              </div>
+            )}
+
+            {lesson.liveApplication.adaptation && (
+              <div className="adaptation-block">
+                <h3>Read, adjust, learn</h3>
+                {lesson.liveApplication.adaptation.cues && (
+                  <div className="adaptation-cues">
+                    <span className="eyebrow">WATCH FOR</span>
+                    <ul>
+                      {lesson.liveApplication.adaptation.cues.map((cue) => (
+                        <li key={cue}>{cue}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {lesson.liveApplication.adaptation.adjustments && (
+                  <div className="adaptation-adjustments">
+                    <span className="eyebrow">IF / THEN</span>
+                    {lesson.liveApplication.adaptation.adjustments.map((adj, i) => (
+                      <div className="adjustment-card" key={i}>
+                        <span className="if-part">IF {adj.if}</span>
+                        <span className="then-part">THEN {adj.then}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {lesson.liveApplication.adaptation.learning && (
+                  <div className="adaptation-learning">
+                    <span className="eyebrow">AFTER EACH EXCHANGE</span>
+                    <p>{lesson.liveApplication.adaptation.learning}</p>
+                  </div>
+                )}
+              </div>
+            )}
+          </section>
+        )}
+
+
         <section className="reflection-block">
           <span className="eyebrow">REFLECTION</span>
 
