@@ -365,4 +365,185 @@ export const liveApplications = {
       learning: 'After each repetition, note whether your arc stayed tight to your center line or flared, and what that cost you.',
     },
   },
+
+  'karate-kicks-mechanics': {
+    scenarios: [
+      {
+        setup: 'You throw a front kick and your partner catches your leg.',
+        action: 'You retract the leg along the same path it came, returning to chamber before lowering, so they cannot hold it.',
+        why: 'Retraction along the same path means the leg returns to a protected position before they can grab or control it.',
+      },
+      {
+        setup: 'Your kick lands but you stumble on the landing.',
+        action: 'You focus on balance on the support leg throughout, keeping the knee slightly bent and the center over the foot.',
+        why: 'Balance on the support leg is the foundation of every kick; without it, the kick is weak and recovery is slow.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Kicks are powerful but leave you vulnerable; chamber, extend, contact, and retract with control, prioritizing balance over height.' },
+      { role: 'Facing it', detail: 'A kicker is most vulnerable during the kick and during retraction; close distance, catch the leg, or counter as they recover.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their knee lifting into chamber',
+        'Weight shifting onto one leg',
+        'The direction of their hips turning',
+      ],
+      adjustments: [
+        { if: 'You catch their kicking leg', then: 'Push or sweep their support leg before they retract.' },
+        { if: 'Your kick is caught', then: 'Retract immediately along the same path and drop your weight to escape the grab.' },
+      ],
+      learning: 'After each kicking exchange, note whether your retraction was as controlled as your extension, and what that did to your recovery.',
+    },
+  },
+  'karate-kicks-front': {
+    scenarios: [
+      {
+        setup: 'A partner closes to punching range while you hold front stance.',
+        action: 'You shift weight to the rear leg, chamber the front leg high, and snap a front kick to their midsection before they can strike.',
+        why: 'The front kick uses the lead leg, which is already positioned to reach the target without stepping, so it lands before a punch could extend.',
+      },
+      {
+        setup: 'You throw a front kick and your partner steps back to evade.',
+        action: 'You retract the leg to chamber and immediately step forward into front stance, maintaining distance and pressure.',
+        why: 'Retracting to chamber preserves balance and readiness, so the step forward keeps you in range without overcommitting.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'The front kick is your fastest, most direct kick; use it to intercept, to create distance, or to follow up after a hand technique.' },
+      { role: 'Facing it', detail: 'A front kick telegraphs from the chamber; step back to make it miss, or step in to jam it before extension.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their weight shifting onto the rear leg',
+        'The front knee lifting into chamber',
+        'Their hips squaring forward',
+      ],
+      adjustments: [
+        { if: 'You see the chamber early', then: 'Step back to make the kick fall short, then counter as they retract.' },
+        { if: 'You are too close to evade', then: 'Step in and jam the kick before it extends, using your arms to block the knee.' },
+      ],
+      learning: 'After each front kick exchange, note whether you read the chamber in time to evade or jam, and what cue you used.',
+    },
+  },
+  'karate-kicks-balance': {
+    scenarios: [
+      {
+        setup: 'You throw a kick and a partner pushes you lightly from the side.',
+        action: 'You maintain balance on the support leg by keeping the knee slightly bent and the center over the foot, absorbing the push.',
+        why: 'A slightly bent support knee and centered weight create a stable base that can absorb lateral force without tipping.',
+      },
+      {
+        setup: 'You hold a kick chamber and your support leg starts to shake.',
+        action: 'You lower the kick, rest, then rebuild with shorter holds and better alignment.',
+        why: 'Shaking indicates the support leg is fatigued or misaligned; rebuilding with proper form prevents injury and builds strength correctly.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Balance during kicks is trained by holding chambered positions, not just by kicking; build support leg strength and alignment first.' },
+      { role: 'Facing it', detail: 'A kicker with poor balance is easy to sweep or push off their support leg; apply lateral force during the kick.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their support knee locking straight',
+        'Their center drifting off the support foot',
+        'Their arms flailing for balance',
+      ],
+      adjustments: [
+        { if: 'Their support knee is locked', then: 'Apply a light push to the side; a locked knee cannot absorb lateral force.' },
+        { if: 'You feel unstable during your own kick', then: 'Reduce the height or speed until balance is solid, then rebuild.' },
+      ],
+      learning: 'After each balance drill, note whether the failure was strength (shaking) or alignment (drifting), and target that in the next set.',
+    },
+  },
+  'karate-combinations-combining': {
+    scenarios: [
+      {
+        setup: 'You throw a straight punch and your partner blocks it high.',
+        action: 'You immediately follow with a front kick to the midsection, using the opening their high block created.',
+        why: 'The first technique forces a reaction that opens a line; the second technique travels that line before they can recover.',
+      },
+      {
+        setup: 'You throw a three-technique combination and your partner covers all three.',
+        action: 'You recognize the chain failed and reset to guard, then look for a new opening instead of forcing more techniques.',
+        why: 'A combination that is not working should be abandoned, not extended; resetting preserves balance and guard for the next exchange.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Combinations are chains of cause and effect; each technique sets up the next, so choose techniques that create openings for each other.' },
+      { role: 'Facing it', detail: 'A combination is predictable if you recognize the pattern; disrupt it by changing level, angle, or timing between techniques.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their guard moving to cover one line',
+        'A pause between their techniques',
+        'Their weight shifting after a technique',
+      ],
+      adjustments: [
+        { if: 'They cover your first technique', then: 'Follow with a technique to the line they just opened.' },
+        { if: 'They disrupt your combination', then: 'Reset to guard and look for a new opening instead of forcing the chain.' },
+      ],
+      learning: 'After each combination, note whether each technique created an opening for the next, or whether the chain broke at a specific link.',
+    },
+  },
+  'karate-combinations-rhythm': {
+    scenarios: [
+      {
+        setup: 'Your partner times your combination perfectly and counters the third technique.',
+        action: 'You add a pause between the second and third techniques, breaking the rhythm they learned, then accelerate the third.',
+        why: 'Breaking rhythm removes the timing they learned, so their counter arrives at the wrong moment and misses.',
+      },
+      {
+        setup: 'You throw a slow-slow-fast combination and your partner retreats during the pause.',
+        action: 'You close distance during the pause so the fast technique arrives before they can retreat fully.',
+        why: 'A pause that does not close distance gives the partner time to retreat; combining pause with distance control keeps them in range.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Rhythm changes make combinations unpredictable; use pauses, accelerations, and decelerations to break the timing your partner learned.' },
+      { role: 'Facing it', detail: 'A broken rhythm is hard to time; instead of guessing when the next technique arrives, watch their center and react to movement, not tempo.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their techniques arriving at equal intervals',
+        'A pause in their combination',
+        'Their acceleration after a slow technique',
+      ],
+      adjustments: [
+        { if: 'Their rhythm is predictable', then: 'Time your counter to arrive during their pause or after their acceleration.' },
+        { if: 'They break rhythm to deceive you', then: 'Watch their center mass instead of timing, so you react to movement, not tempo.' },
+      ],
+      learning: 'After each rhythm drill, note whether you timed their combination or watched their body, and which was more effective.',
+    },
+  },
+  'karate-combinations-recovering': {
+    scenarios: [
+      {
+        setup: 'You finish a combination and drop your hands, admiring the last technique.',
+        action: 'You immediately return your guard to position, settle into stance, and take distance or angle before relaxing.',
+        why: 'The moment after the last technique is when counters most often land; recovery must be part of the technique, not after it.',
+      },
+      {
+        setup: 'You finish a combination and your partner counters immediately.',
+        action: 'You exit on a 45-degree angle instead of straight back, so their counter travels where you were, not where you are.',
+        why: 'Exiting on an angle moves you off the line of their counter while maintaining distance and balance.',
+      },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Recovery is part of the technique, not the end; guard, stance, and distance must return before awareness relaxes.' },
+      { role: 'Facing it', detail: 'Most fighters relax after their last technique; counter immediately after their combination ends, before they recover guard and stance.' },
+    ],
+    adaptation: {
+      cues: [
+        'Their hands dropping after the last technique',
+        'Their weight falling forward past the base',
+        'Their eyes looking away or celebrating',
+      ],
+      adjustments: [
+        { if: 'They drop their guard after finishing', then: 'Counter immediately before they can recover.' },
+        { if: 'You finish and feel vulnerable', then: 'Make recovery automatic: guard up, stance settled, angle taken before anything relaxes.' },
+      ],
+      learning: 'After each combination, note whether your guard and stance returned before your attention relaxed, and what that did to your vulnerability.',
+    },
+  },
 }
