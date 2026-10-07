@@ -471,4 +471,149 @@ export const lessons = {
       'Identify and correct the four common mistakes in your own stance.',
     ],
   },
+  'karate-stances-horse': {
+    id: 'karate-stances-horse',
+    subject: 'Karate',
+    title: 'Horse Stance (Kiba-Dachi)',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn the horse stance: a parallel, evenly-weighted base used for strength, stability, and low-line techniques, built on bent knees and feet shoulder-width apart.',
+
+    objectives: [
+      'Understand the strength and stability purpose of the horse stance',
+      'Position the feet parallel and shoulder-width apart',
+      'Feel a 50/50 weight distribution',
+      'Recognize the four most common stance errors',
+      'Hold the stance while keeping the torso upright and knees aligned',
+    ],
+
+    positionDiagram: {
+      title: 'Horse stance — kiba-dachi',
+      description:
+        'Side and top-down views of the horse stance. Both knees are bent equally, feet are parallel and shoulder-width apart, and weight sits evenly on both legs.',
+      torsoAngle: 0,
+      frontArmAngle: -5,
+      rearArmAngle: 5,
+      frontLegAngle: -25,
+      rearLegAngle: 25,
+      weightDistribution: { front: 50, rear: 50 },
+      feet: {
+        front: { x: -40, y: 0, angle: 0 },
+        rear: { x: 40, y: 0, angle: 0 },
+        note:
+          'Both feet point straight forward and are about shoulder-width apart. The feet are on the same forward-backward line, creating a stable, parallel base.',
+      },
+      annotations: [
+        { number: '01', label: 'Both knees bent equally', detail: 'The knees are bent and track over the feet, not caving inward.' },
+        { number: '02', label: 'Parallel feet', detail: 'Both feet point straight forward, about shoulder-width apart.' },
+        { number: '03', label: 'Upright torso', detail: 'The upper body stays over the hips, not leaning forward or backward.' },
+        { number: '04', label: 'Even weight distribution', detail: 'Weight sits about 50/50 on both legs for maximum stability.' },
+      ],
+      metrics: [
+        { label: 'Weight', value: '50% / 50% (even)' },
+        { label: 'Both feet', value: 'Pointing forward' },
+        { label: 'Foot spacing', value: 'Shoulder-width apart' },
+        { label: 'Knee depth', value: 'Bent, tracking over feet' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'A grounded strength base',
+        caption:
+          'The horse stance trades mobility for stability: it is the shape used for strength training, low kicks, and holding ground against force.',
+        labels: [
+          'Both knees bent and tracking over feet',
+          'Feet parallel and shoulder-width apart',
+          'Upright torso over the hips',
+          'Even weight distribution',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'What defines the horse stance',
+        content:
+          'Kiba-dachi is a parallel stance with even weight distribution. Both feet point straight forward and are about shoulder-width apart, on the same forward-backward line. Both knees are bent equally and track over the feet. The torso stays upright over the hips.',
+      },
+      {
+        title: 'Why even weight matters here',
+        content:
+          'Putting weight evenly on both legs creates maximum stability in all directions. The horse stance is the primary base for strength training, holding ground against incoming force, and executing low-line techniques like low kicks or sweeps.',
+      },
+      {
+        title: 'Where you will use it',
+        content:
+          'The horse stance is used for conditioning, low kicks, and techniques that require a stable, grounded base. Later modules will connect it to movement and applications, so for now the goal is simply to hold the shape correctly and build leg strength.',
+      },
+    ],
+
+    principles: [
+      'Both knees track over the feet, never caving inward.',
+      'The feet stay parallel and shoulder-width apart.',
+      'The torso stays upright over the hips.',
+      'Weight sits evenly on both legs for maximum stability.',
+    ],
+
+    mistakes: [
+      { title: 'Knees caving inward', explanation: 'When the knees collapse toward the center line the joint is stressed and stability is lost. Press the knees outward in line with the feet.' },
+      { title: 'Feet too wide or too narrow', explanation: 'Feet wider than shoulder-width remove mobility; narrower than shoulder-width remove stability. Find the shoulder-width sweet spot.' },
+      { title: 'Torso leaning forward', explanation: 'Leaning forward shifts weight off the base and tires the lower back. Stack the shoulders over the hips.' },
+      { title: 'Feet turned outward', explanation: 'Turning the feet outward removes the parallel structure and stresses the knees. Keep both feet pointing straight forward.' },
+    ],
+
+    practice: [
+      'Stand with feet together.',
+      'Step one foot directly sideways until the feet are about shoulder-width apart.',
+      'Turn both feet so they point straight forward.',
+      'Bend both knees equally until they stack over the feet.',
+      'Settle weight evenly on both legs without leaning the torso.',
+      'Hold the stance for ten slow breaths, checking knee alignment and posture each breath.',
+      'Return to standing and repeat, gradually increasing hold time as strength builds.',
+    ],
+
+    reflection:
+      'While holding the stance, do you feel equally stable if someone were to push you from the front, back, or either side?',
+
+    safety:
+      'Keep the knees aligned over the feet and avoid sinking deeper than your mobility allows. Knee discomfort is a signal to reduce depth or stop. Physical technique is best learned with qualified in-person instruction.',
+
+    quiz: [
+      {
+        question: 'How is the weight distributed in the horse stance?',
+        options: [
+          'Mostly on the front leg',
+          'Mostly on the rear leg',
+          'Evenly on both legs (50/50)',
+          'Entirely on the balls of the feet',
+        ],
+        answer: 2,
+        explanation:
+          'The horse stance uses even weight distribution (50/50) to create maximum stability in all directions.',
+      },
+      {
+        question: 'What is the foot position in the horse stance?',
+        options: [
+          'Front foot forward, rear foot turned out',
+          'Both feet turned outward at 45 degrees',
+          'Both feet parallel and pointing straight forward',
+          'Feet crossed or staggered',
+        ],
+        answer: 2,
+        explanation:
+          'Both feet point straight forward and are about shoulder-width apart, creating a stable, parallel base.',
+      },
+    ],
+
+    mastery: [
+      'Set up the horse stance with correct parallel foot alignment unaided.',
+      'Hold the stance for ten breaths with knees tracking over feet and torso upright.',
+      'Explain why the weight sits evenly on both legs.',
+      'Identify and correct the four common mistakes in your own stance.',
+    ],
+  },
 }
