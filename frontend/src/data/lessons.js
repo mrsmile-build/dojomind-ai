@@ -616,4 +616,437 @@ export const lessons = {
       'Identify and correct the four common mistakes in your own stance.',
     ],
   },
+
+  'karate-movement-footwork': {
+    id: 'karate-movement-footwork',
+    subject: 'Karate',
+    title: 'Basic Footwork',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn how karate moves: stepping that preserves your stance, keeps your balance and arrives ready to act, instead of walking that breaks your base.',
+
+    objectives: [
+      'Understand why footwork is trained before technique',
+      'Step forward and backward without crossing the feet',
+      'Keep head height constant while moving',
+      'Arrive in a correct stance after every step',
+      'Recognize the four most common footwork errors',
+    ],
+
+    positionDiagram: {
+      title: 'Footwork — the moving frame',
+      description:
+        'Good footwork keeps the same frame before, during and after the step: stance length and width survive the movement, and the feet stay low.',
+      torsoAngle: 0,
+      frontArmAngle: -10,
+      rearArmAngle: 10,
+      frontLegAngle: -14,
+      rearLegAngle: 16,
+      weightDistribution: { front: 50, rear: 50 },
+      feet: {
+        front: { x: -40, y: -45, angle: 0 },
+        rear: { x: 40, y: 45, angle: 15 },
+        note:
+          'This frame is what every step must reproduce: same length, same width, feet low. If the step ends narrower, shorter or crossed, the base was lost mid-move.',
+      },
+      annotations: [
+        { number: '01', label: 'Head height constant', detail: 'The body travels level; bouncing up and down spends balance.' },
+        { number: '02', label: 'Push, do not pull', detail: 'The rear leg pushes the body forward; the front foot does not reach and drag.' },
+        { number: '03', label: 'Feet stay low', detail: 'Steps slide just above the floor, never lifting high.' },
+        { number: '04', label: 'Arrive ready', detail: 'The step ends in a correct stance, weight settled, ready to act.' },
+      ],
+      metrics: [
+        { label: 'Step height', value: 'Low, sliding' },
+        { label: 'Head', value: 'Level, no bounce' },
+        { label: 'Stance after step', value: 'Same length and width' },
+        { label: 'Arrival', value: 'Settled and ready' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Steps that keep the base',
+        caption:
+          'Every step is a transfer of the same stance to a new place on the floor, not a walk that breaks it.',
+        labels: [
+          'Push from the rear leg',
+          'Feet slide low',
+          'Width preserved mid-step',
+          'Arrive in stance',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why footwork comes first',
+        content:
+          'A technique can only deliver what the body position allows. Footwork is the skill of moving the base itself: if the stance survives the step, every technique trained on top of it stays usable while moving. If the step breaks the stance, the technique arrives weak or off balance.',
+      },
+      {
+        title: 'How a karate step works',
+        content:
+          'From your stance, the rear leg pushes the body forward while the front foot slides low to its new place; the rear foot then follows to restore the original stance length and width. The head stays at the same height throughout. Backward and sideways steps use the same idea in reverse: push, slide, restore the frame.',
+      },
+      {
+        title: 'Smooth before fast',
+        content:
+          'Speed built on a bouncing, crossing step only moves mistakes faster. Beginners train footwork slowly enough to feel the weight transfer, then let speed grow from smoothness. A useful test: if someone paused you mid-step, would you still be balanced?',
+      },
+    ],
+
+    principles: [
+      'The stance you start with is the stance you arrive in.',
+      'Feet stay low; the head stays level.',
+      'Push from the ground instead of reaching with the front foot.',
+      'Never let the feet cross or touch mid-step.',
+    ],
+
+    mistakes: [
+      { title: 'Crossing the feet', explanation: 'When the moving foot passes inside the support foot the base collapses to a line. Keep lateral width through the whole step.' },
+      { title: 'Bouncing', explanation: 'Rising and dropping the head mid-step spends balance twice per step. Move level, as if gliding under a low ceiling.' },
+      { title: 'Overstepping', explanation: 'A step longer than your stance arrives weak and slow to recover. Step to your stance length, not beyond it.' },
+      { title: 'Stomping or lifting high', explanation: 'Lifting the foot high or slamming it down breaks smoothness and telegraphs the move. Slide just above the floor.' },
+    ],
+
+    practice: [
+      'Stand in a front stance and note its length and width.',
+      'Push from the rear leg and slide the front foot forward, keeping it low.',
+      'Bring the rear foot to restore the same stance dimensions.',
+      'Repeat five steps forward, checking that head height never changes.',
+      'Repeat five steps backward, pushing from the front leg this time.',
+      'Finish each step paused for one breath, balanced and ready.',
+    ],
+
+    reflection:
+      'If someone had frozen you mid-step, would you have been balanced enough to continue in any direction?',
+
+    safety:
+      'Practice on a smooth, clear surface, barefoot or in flat shoes. Ankle-roll risk increases when steps are rushed or the floor is uneven.',
+
+    quiz: [
+      {
+        question: 'Why do karate steps keep the feet low?',
+        options: [
+          'To move silently and nothing else',
+          'To preserve balance and base during the transfer',
+          'Because lifting the feet is forbidden',
+          'To make every step shorter',
+        ],
+        answer: 1,
+        explanation:
+          'Low, sliding feet keep the center of mass level and the base recoverable at every moment of the step.',
+      },
+      {
+        question: 'What should be true of your stance after a correct step?',
+        options: [
+          'It is longer than before',
+          'It is narrower than before',
+          'It has the same length and width as before',
+          'It does not matter if you moved fast',
+        ],
+        answer: 2,
+        explanation:
+          'Footwork moves the base without changing it: the arriving stance matches the starting stance.',
+      },
+    ],
+
+    mastery: [
+      'Step forward and backward without crossing the feet.',
+      'Keep head height constant across five consecutive steps.',
+      'Arrive in a correct stance after every step, unaided.',
+      'Explain why footwork is trained before technique.',
+    ],
+  },
+  'karate-movement-balance': {
+    id: 'karate-movement-balance',
+    subject: 'Karate',
+    title: 'Moving Without Losing Balance',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn what balance actually is while moving: keeping your center over your base so you can stop, turn or act at any moment of the step.',
+
+    objectives: [
+      'Understand balance as center-over-base, not stillness',
+      'Move the body as one unit instead of in pieces',
+      'Stop instantly at any point of a movement',
+      'Recognize the four most common balance errors',
+      'Practice controlled arrivals after each step',
+    ],
+
+    positionDiagram: {
+      title: 'Balance in motion',
+      description:
+        'Balance while moving means the center stays over the base at every instant. The dashed axis shows where the center should travel: straight and level, above the middle of the base.',
+      torsoAngle: 0,
+      frontArmAngle: -8,
+      rearArmAngle: 8,
+      frontLegAngle: -12,
+      rearLegAngle: 18,
+      weightDistribution: { front: 50, rear: 50 },
+      feet: {
+        front: { x: -40, y: -40, angle: 0 },
+        rear: { x: 40, y: 45, angle: 15 },
+        note:
+          'The base is the area between and around the feet. The wider and better placed the base, the more freedom the center has to move without falling outside it.',
+      },
+      annotations: [
+        { number: '01', label: 'Center over base', detail: 'The balance point travels above the middle of the feet, not ahead of them.' },
+        { number: '02', label: 'One unit', detail: 'Head, torso and hips move together; no part reaches first.' },
+        { number: '03', label: 'Stoppable', detail: 'True balance means you can freeze at any instant of the move.' },
+        { number: '04', label: 'Controlled arrival', detail: 'The feet and the weight settle together, not one after the other.' },
+      ],
+      metrics: [
+        { label: 'Center', value: 'Over the base' },
+        { label: 'Body', value: 'Moves as one unit' },
+        { label: 'Stop test', value: 'Freezable at any moment' },
+        { label: 'Arrival', value: 'Settled, not collapsing' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Balance is a moving skill',
+        caption:
+          'Standing still is easy; the test is keeping the center over the base while it travels.',
+        labels: [
+          'Center over base',
+          'Level travel',
+          'One-unit movement',
+          'Controlled stop',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'What balance really is',
+        content:
+          'Balance is not stillness. It is the relationship between your center of mass and your base: as long as the center stays over the area your feet cover, you can act. Movement becomes risky when the center travels outside the base, because then the only option left is to catch yourself.',
+      },
+      {
+        title: 'Move as one unit',
+        content:
+          'Beginners often send the head and shoulders first and let the legs catch up, which throws the center ahead of the base. Trained movement keeps head, torso and hips travelling together so the center stays supported the whole way. This is why posture work and footwork are the same work.',
+      },
+      {
+        title: 'The stop test',
+        content:
+          'A simple and honest measure of balance: at a random moment of your step, freeze. If you wobble, lean or need an extra step to recover, the center had left the base. Practice until freezing feels as stable as standing.',
+      },
+    ],
+
+    principles: [
+      'The center stays over the base at every instant.',
+      'Head, torso and hips travel together.',
+      'If you cannot stop instantly, you were not in balance.',
+      'Tension is not stability; control is.',
+    ],
+
+    mistakes: [
+      { title: 'Leaning into the direction of travel', explanation: 'Reaching forward with the upper body puts the center ahead of the base. Let the legs move the whole unit instead.' },
+      { title: 'Feet arriving before the body settles', explanation: 'When the foot lands and the weight crashes in after it, the arrival is a stumble. Settle foot and weight together.' },
+      { title: 'Looking down while moving', explanation: 'Dropping the head shifts the center forward and steals your view. Keep the head level and eyes up.' },
+      { title: 'Holding the breath', explanation: 'Breath-holding creates rigidity that slows correction. Keep breathing evenly through the movement.' },
+    ],
+
+    practice: [
+      'Step forward slowly in front stance and freeze mid-transfer for three breaths.',
+      'Check that you are not leaning and that freezing felt stable.',
+      'Complete the step and freeze again on arrival for three breaths.',
+      'Repeat backward, freezing mid-transfer and on arrival.',
+      'Have a training partner call stop at random moments; freeze instantly each time.',
+      'Finish by standing quietly and noticing where your weight sits on both feet.',
+    ],
+
+    reflection:
+      'During your last set of steps, was there any moment where you could not have stopped instantly? What was the body doing at that moment?',
+
+    safety:
+      'Practice the freeze drill slowly at first. Sudden stops at speed stress knees and ankles until the pattern is smooth.',
+
+    quiz: [
+      {
+        question: 'What is the stop test measuring?',
+        options: [
+          'How fast you can move',
+          'Whether the center stayed over the base during movement',
+          'How strong your legs are',
+          'How long you can stand still',
+        ],
+        answer: 1,
+        explanation:
+          'Being able to freeze instantly at any moment proves the center never left the base during the move.',
+      },
+      {
+        question: 'Why should head, torso and hips move together?',
+        options: [
+          'It looks more correct',
+          'It keeps the center supported over the base',
+          'It makes steps longer',
+          'It only relaxes the shoulders',
+        ],
+        answer: 1,
+        explanation:
+          'When the body moves as one unit the center of mass stays above the base instead of being thrown ahead of it.',
+      },
+    ],
+
+    mastery: [
+      'Freeze stably at a random moment of a step, unaided.',
+      'Move forward and backward with a level head and no leaning.',
+      'Explain balance as center-over-base in your own words.',
+      'Identify and correct the four common balance mistakes in your own movement.',
+    ],
+  },
+  'karate-movement-direction': {
+    id: 'karate-movement-direction',
+    subject: 'Karate',
+    title: 'Changing Direction',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn how to turn without falling apart: pivoting on the ball of the foot, keeping your height and center, and finishing every turn in a stance.',
+
+    objectives: [
+      'Understand why turns are where balance is lost',
+      'Pivot on the ball of the foot instead of the heel',
+      'Keep height and center constant through a turn',
+      'Finish every turn in a correct stance',
+      'Recognize the four most common turning errors',
+    ],
+
+    positionDiagram: {
+      title: 'Turning — pivot and settle',
+      description:
+        'A turn rotates the base around one point: the ball of the pivot foot. The center stays over that point while the body rotates, then the weight settles into the new stance.',
+      torsoAngle: 0,
+      frontArmAngle: -10,
+      rearArmAngle: 12,
+      frontLegAngle: -14,
+      rearLegAngle: 20,
+      weightDistribution: { front: 50, rear: 50 },
+      feet: {
+        front: { x: -35, y: -45, angle: 0 },
+        rear: { x: 40, y: 45, angle: 45 },
+        note:
+          'During the turn the pivot foot spins on its ball while the other foot travels to its new line. After the turn both feet plant fully and the weight settles into the stance.',
+      },
+      annotations: [
+        { number: '01', label: 'Pivot on the ball', detail: 'Spinning on the ball of the foot keeps the turn light; the heel plants after.' },
+        { number: '02', label: 'Height constant', detail: 'Rising mid-turn lifts the center and steals balance.' },
+        { number: '03', label: 'Hips lead', detail: 'The hips turn and the shoulders follow, keeping the body one unit.' },
+        { number: '04', label: 'Finish in stance', detail: 'The turn is not done until the weight settles into a correct stance.' },
+      ],
+      metrics: [
+        { label: 'Pivot point', value: 'Ball of the foot' },
+        { label: 'Height', value: 'Constant through turn' },
+        { label: 'Sequence', value: 'Hips, then shoulders' },
+        { label: 'Finish', value: 'Settled stance' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Turns that keep the base',
+        caption:
+          'A controlled turn rotates the base around a single supported point instead of swinging the body and hoping.',
+        labels: [
+          'Pivot on the ball',
+          'Level height',
+          'Hips lead the turn',
+          'Settle into stance',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why turns lose people their balance',
+        content:
+          'During a turn the base temporarily shrinks to the pivot foot, so the center has very little room to wander. If the body rises, leans or swings wide mid-turn, the center leaves that small base and the turn becomes a stumble. Controlled turns keep everything stacked over the pivot until the second foot plants.',
+      },
+      {
+        title: 'Pivot on the ball, settle on the whole foot',
+        content:
+          'Spinning on the ball of the foot lets the body rotate smoothly with little friction. The heel stays light during the rotation and plants fully once the new direction is set. Pivoting on the heel grinds, twists the knee and slows the turn.',
+      },
+      {
+        title: 'Turn the hips, not just the shoulders',
+        content:
+          'The hips carry the center of mass, so they lead the rotation; the shoulders follow. Turning the upper body first leaves the legs behind and wrings the body out of alignment. Hips-first turning keeps the whole unit facing the new direction together.',
+      },
+    ],
+
+    principles: [
+      'Pivot on the ball of the foot; plant the heel after.',
+      'Height and center stay constant through the rotation.',
+      'Hips lead, shoulders follow.',
+      'A turn is finished only when the stance is finished.',
+    ],
+
+    mistakes: [
+      { title: 'Pivoting on the heel', explanation: 'Heel pivots grind the foot, twist the knee and make the turn heavy. Rise slightly onto the ball to spin, then plant.' },
+      { title: 'Standing tall mid-turn', explanation: 'Rising lifts the center exactly when the base is smallest. Keep the same bent-knee height through the rotation.' },
+      { title: 'Crossing the feet during the turn', explanation: 'Letting the travelling foot cross inside the pivot foot removes the base at the worst moment. Send it wide to its new line.' },
+      { title: 'Shoulders first', explanation: 'Twisting the upper body before the hips leaves the center behind and strains the lower back. Start the turn at the hips.' },
+    ],
+
+    practice: [
+      'From a front stance, rise slightly onto the ball of the front foot.',
+      'Turn the hips 90 degrees while the rear foot travels to its new line.',
+      'Plant both feet and settle into the new front stance.',
+      'Repeat five times each direction, keeping height constant.',
+      'Progress to 180 degree turns using the same pivot-and-settle pattern.',
+      'Finish each turn paused for one breath, balanced in stance.',
+    ],
+
+    reflection:
+      'Through your last turn, was there a moment your height changed or your feet crossed? What did that do to your balance on arrival?',
+
+    safety:
+      'Turn slowly on a non-slip surface until the pivot pattern is smooth. Fast turns on slippery floors or in socks risk ankle rolls.',
+
+    quiz: [
+      {
+        question: 'Which part of the foot should a turn pivot on?',
+        options: [
+          'The heel',
+          'The ball of the foot',
+          'The outside edge',
+          'The toes of both feet',
+        ],
+        answer: 1,
+        explanation:
+          'Pivoting on the ball keeps the rotation light and smooth; the heel plants once the new direction is set.',
+      },
+      {
+        question: 'What leads a controlled turn?',
+        options: [
+          'The shoulders',
+          'The head',
+          'The hips',
+          'The arms',
+        ],
+        answer: 2,
+        explanation:
+          'The hips carry the center of mass, so they lead the rotation and the shoulders follow, keeping the body one unit.',
+      },
+    ],
+
+    mastery: [
+      'Complete 90 and 180 degree turns without crossing the feet.',
+      'Keep height constant through five consecutive turns.',
+      'Finish every turn settled in a correct stance.',
+      'Explain why the pivot happens on the ball of the foot.',
+    ],
+  },
 }
