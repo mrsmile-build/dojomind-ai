@@ -1560,7 +1560,7 @@ export const lessons = {
       {
         title: 'Timing is everything',
         content:
-          'A block must be in position before the attack arrives. This requires reading the opponent's movement early and moving your arm to intercept. Late blocks meet full force; early blocks redirect the attack while it still has room to travel. Timing is trained through repetition and partner drills.',
+          'A block must be in position before the attack arrives. This requires reading the opponent\'s movement early and moving your arm to intercept. Late blocks meet full force; early blocks redirect the attack while it still has room to travel. Timing is trained through repetition and partner drills.',
       },
     ],
 
@@ -1849,7 +1849,7 @@ export const lessons = {
       {
         title: 'Structure and timing',
         content:
-          'As the arm sweeps up, the hips rotate forward and the legs drive into the ground. The non-blocking hand pulls back to the hip simultaneously. The block must be executed before the attack arrives, so timing and reading the opponent's movement are crucial.',
+          'As the arm sweeps up, the hips rotate forward and the legs drive into the ground. The non-blocking hand pulls back to the hip simultaneously. The block must be executed before the attack arrives, so timing and reading the opponent\'s movement are crucial.',
       },
     ],
 
@@ -1915,6 +1915,440 @@ export const lessons = {
       'Use hip rotation to generate power in the block.',
       'End with the fist above the forehead consistently.',
       'Identify and correct the four common rising block errors.',
+    ],
+  },
+
+  'karate-kicks-mechanics': {
+    id: 'karate-kicks-mechanics',
+    subject: 'Karate',
+    title: 'Understanding Kicking Mechanics',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn how karate kicks generate power: the chamber, extension, contact surface, and retraction phases, and why balance is the foundation of every kick.',
+
+    objectives: [
+      'Understand the four phases of every kick',
+      'Recognize why balance on the support leg is essential',
+      'Understand the role of hip rotation in kicking power',
+      'Recognize the four most common kicking errors',
+      'Identify contact surfaces for different kicks',
+    ],
+
+    positionDiagram: {
+      title: 'Kicking mechanics',
+      description:
+        'Every kick has four phases: chamber, extension, contact, and retraction. Balance on the support leg is the foundation throughout all phases.',
+      torsoAngle: 0,
+      frontArmAngle: -15,
+      rearArmAngle: 20,
+      frontLegAngle: -10,
+      rearLegAngle: 25,
+      weightDistribution: { front: 10, rear: 90 },
+      feet: {
+        front: { x: -50, y: 0, angle: 0 },
+        rear: { x: 20, y: 40, angle: 15 },
+        note:
+          'During a kick, nearly all weight rests on the support leg. The kicking leg moves through chamber, extension, contact and retraction while the body stays balanced over the support foot.',
+      },
+      annotations: [
+        { number: '01', label: 'Support leg balance', detail: 'Nearly all weight rests on the support leg during the kick.' },
+        { number: '02', label: 'Chamber position', detail: 'The kicking leg lifts and bends, preparing to extend.' },
+        { number: '03', label: 'Hip rotation', detail: 'The hips rotate to add power and extend the kick further.' },
+        { number: '04', label: 'Retraction', detail: 'The leg retracts along the same path before lowering.' },
+      ],
+      metrics: [
+        { label: 'Weight', value: '90% on support leg' },
+        { label: 'Phases', value: 'Chamber, extend, contact, retract' },
+        { label: 'Power source', value: 'Hip rotation + extension' },
+        { label: 'Foundation', value: 'Balance on support leg' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The four phases of a kick',
+        caption:
+          'Every kick follows the same pattern: chamber, extend to the target, make contact, and retract before lowering the foot.',
+        labels: [
+          'Chamber: lift and bend the kicking leg',
+          'Extension: drive the foot toward the target',
+          'Contact: strike with the correct surface',
+          'Retraction: pull back along the same path',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Balance is the foundation',
+        content:
+          'During any kick, nearly all of your weight rests on the support leg. If you cannot balance on one leg, you cannot kick effectively. Kicking power and accuracy both depend on maintaining a stable base on the support foot throughout the entire technique.',
+      },
+      {
+        title: 'The four phases',
+        content:
+          'Every kick follows the same sequence: first, the kicking leg lifts into a chambered position with the knee bent; second, the leg extends toward the target; third, contact is made with the appropriate surface (ball of foot, heel, etc.); fourth, the leg retracts back along the same path before lowering to the ground. Skipping retraction and just dropping the leg loses control and power.',
+      },
+      {
+        title: 'Hip rotation adds power',
+        content:
+          'Just like with punches, hip rotation adds significant power to kicks. As the kicking leg extends, the hips rotate forward, driving the leg further and adding rotational force. The support foot may pivot slightly to allow this rotation.',
+      },
+    ],
+
+    principles: [
+      'Balance on the support leg is the foundation of every kick.',
+      'Every kick has four phases: chamber, extend, contact, retract.',
+      'Hip rotation adds power to the kick.',
+      'Retraction must be as controlled as extension.',
+    ],
+
+    mistakes: [
+      { title: 'Poor balance', explanation: 'If you wobble on the support leg, the kick will be weak and inaccurate. Practice standing on one leg until balance is solid.' },
+      { title: 'No chamber position', explanation: 'Swinging the leg up from the ground instead of lifting into a chamber loses power and control. Always chamber first.' },
+      { title: 'No retraction', explanation: 'Just dropping the leg after contact loses control and telegraphs your next move. Retract along the same path before lowering.' },
+      { title: 'Leaning backward', explanation: 'Leaning the torso backward to compensate for poor balance makes the kick weak. Stay upright over the support leg.' },
+    ],
+
+    practice: [
+      'Stand in a natural ready position and lift your right knee into a chamber.',
+      'Hold the chamber for five seconds, balancing on your left leg.',
+      'Slowly extend the right leg forward, then retract it back to chamber.',
+      'Lower the foot slowly back to the ground.',
+      'Repeat ten times on each leg, focusing on balance throughout.',
+      'Add hip rotation to the extension phase for more power.',
+    ],
+
+    reflection:
+      'During your practice, was there a moment where you lost balance on the support leg? What was happening with your upper body at that moment?',
+
+    safety:
+      'Practice kicks slowly and with control. Do not kick hard targets without proper conditioning. Balance work should be done on a non-slip surface.',
+
+    quiz: [
+      {
+        question: 'Where does most of your weight rest during a kick?',
+        options: [
+          'Evenly on both legs',
+          'Mostly on the kicking leg',
+          'Nearly all on the support leg',
+          'Mostly on the arms',
+        ],
+        answer: 2,
+        explanation:
+          'During a kick, nearly all weight (about 90%) rests on the support leg, which must maintain balance throughout the technique.',
+      },
+      {
+        question: 'What are the four phases of a kick?',
+        options: [
+          'Lift, swing, hit, drop',
+          'Chamber, extend, contact, retract',
+          'Bend, straighten, strike, lower',
+          'Step, kick, return, stand',
+        ],
+        answer: 1,
+        explanation:
+          'Every kick follows the sequence: chamber the leg, extend toward the target, make contact, then retract before lowering the foot.',
+      },
+    ],
+
+    mastery: [
+      'Hold a chambered kick position for five seconds with good balance.',
+      'Execute the four phases of a kick in sequence.',
+      'Demonstrate hip rotation during the extension phase.',
+      'Identify and correct the four common kicking errors.',
+    ],
+  },
+  'karate-kicks-front': {
+    id: 'karate-kicks-front',
+    subject: 'Karate',
+    title: 'Front Kick (Mae Geri)',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn the front kick: the most basic karate kick, delivered straight forward using the ball of the foot as the contact surface.',
+
+    objectives: [
+      'Understand the structure of a proper front kick',
+      'Chamber the leg correctly with the knee lifted',
+      'Extend the kick with proper foot position',
+      'Make contact with the ball of the foot',
+      'Retract and lower with control',
+    ],
+
+    positionDiagram: {
+      title: 'Front kick — mae geri',
+      description:
+        'The front kick extends straight forward from a high chamber, making contact with the ball of the foot while the toes are pulled back.',
+      torsoAngle: 0,
+      frontArmAngle: -10,
+      rearArmAngle: 15,
+      frontLegAngle: -15,
+      rearLegAngle: 30,
+      weightDistribution: { front: 10, rear: 90 },
+      feet: {
+        front: { x: -60, y: -20, angle: 0 },
+        rear: { x: 20, y: 40, angle: 15 },
+        note:
+          'The kicking leg chambers high with the knee bent, then extends forward with the toes pulled back, striking with the ball of the foot. The support leg is slightly bent for balance.',
+      },
+      annotations: [
+        { number: '01', label: 'High chamber', detail: 'The knee lifts high, bending the leg at the knee.' },
+        { number: '02', label: 'Toes pulled back', detail: 'The toes are pulled back to expose the ball of the foot.' },
+        { number: '03', label: 'Ball of foot contact', detail: 'Contact is made with the ball of the foot, not the toes.' },
+        { number: '04', label: 'Controlled retraction', detail: 'The leg retracts along the same path before lowering.' },
+      ],
+      metrics: [
+        { label: 'Chamber', value: 'Knee high, leg bent' },
+        { label: 'Extension', value: 'Straight forward' },
+        { label: 'Contact', value: 'Ball of foot' },
+        { label: 'Retraction', value: 'Same path back' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Chamber, extend, retract',
+        caption:
+          'The front kick uses a high chamber, straight extension with toes pulled back, and controlled retraction along the same path.',
+        labels: [
+          'High chamber with knee lifted',
+          'Straight extension forward',
+          'Ball of foot makes contact',
+          'Controlled retraction',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The chamber position',
+        content:
+          'The front kick begins with the kicking leg chambered high: the knee lifts toward the chest while the lower leg bends back at the knee. This position stores potential energy and prepares the leg for a powerful straight-line extension. The higher the chamber, the more versatile the kick can be at different heights.',
+      },
+      {
+        title: 'Extension and contact',
+        content:
+          'From the chamber, the lower leg extends forward in a snapping motion. The toes are pulled back strongly to expose the ball of the foot, which is the contact surface. The ball of the foot is hard and concentrated, making it effective for striking. The support leg stays slightly bent for balance, and the hips rotate forward to add power.',
+      },
+      {
+        title: 'Retraction and recovery',
+        content:
+          'After contact, the leg retracts back along the same path it came, returning to the chamber position before lowering to the ground. This controlled retraction maintains balance and prepares you for the next technique. Simply dropping the leg after the kick loses control and leaves you vulnerable.',
+      },
+    ],
+
+    principles: [
+      'Chamber high with the knee lifted and leg bent.',
+      'Extend straight forward with toes pulled back.',
+      'Make contact with the ball of the foot, not the toes.',
+      'Retract along the same path before lowering.',
+    ],
+
+    mistakes: [
+      { title: 'Low chamber', explanation: 'If the knee does not lift high enough, the kick will be weak and lack range. Chamber with the knee high.' },
+      { title: 'Toes not pulled back', explanation: 'If the toes are not pulled back, contact is made with the toes, risking injury. Pull the toes back strongly to expose the ball of the foot.' },
+      { title: 'Swinging instead of snapping', explanation: 'A swinging kick from the hip loses power and control. Snap the lower leg out from the knee.' },
+      { title: 'Dropping the leg', explanation: 'Just dropping the leg after contact loses balance and control. Retract to chamber before lowering.' },
+    ],
+
+    practice: [
+      'Stand in front stance and shift weight to the rear leg.',
+      'Lift the front knee high into a chamber position.',
+      'Snap the lower leg forward, pulling the toes back.',
+      'Make contact with an imaginary target at waist height.',
+      'Retract the leg back to the chamber position.',
+      'Lower the foot slowly to the ground.',
+      'Repeat ten times, then switch to the other leg.',
+    ],
+
+    reflection:
+      'During your last set of kicks, did you feel the snap from the knee, or did the whole leg swing from the hip?',
+
+    safety:
+      'Practice front kicks in the air or on proper striking targets only. Never kick hard surfaces without proper conditioning. Pull the toes back to avoid toe injuries.',
+
+    quiz: [
+      {
+        question: 'What is the correct contact surface for a front kick?',
+        options: [
+          'The toes',
+          'The ball of the foot',
+          'The heel',
+          'The top of the foot',
+        ],
+        answer: 1,
+        explanation:
+          'The ball of the foot is the correct contact surface for a front kick. The toes must be pulled back to expose it and avoid injury.',
+      },
+      {
+        question: 'What should happen after contact in a front kick?',
+        options: [
+          'The leg drops immediately to the ground',
+          'The leg retracts back to chamber before lowering',
+          'The leg stays extended',
+          'The leg swings sideways',
+        ],
+        answer: 1,
+        explanation:
+          'After contact, the leg should retract back along the same path to the chamber position before lowering to the ground. This maintains balance and control.',
+      },
+    ],
+
+    mastery: [
+      'Execute a front kick with proper high chamber position.',
+      'Make contact with the ball of the foot consistently.',
+      'Retract the leg to chamber before lowering.',
+      'Identify and correct the four common front kick errors.',
+    ],
+  },
+  'karate-kicks-balance': {
+    id: 'karate-kicks-balance',
+    subject: 'Karate',
+    title: 'Balance During Kicks',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn how to maintain balance throughout every kick: proper weight distribution, support leg structure, upper body alignment, and the connection between balance and power.',
+
+    objectives: [
+      'Understand how balance affects kick power and accuracy',
+      'Maintain proper weight distribution on the support leg',
+      'Keep the upper body aligned over the support foot',
+      'Recognize the four most common balance errors',
+      'Practice kicks with controlled balance throughout',
+    ],
+
+    positionDiagram: {
+      title: 'Balance during kicks',
+      description:
+        'Good kicking balance means the center of mass stays over the support foot throughout all phases of the kick.',
+      torsoAngle: 0,
+      frontArmAngle: -12,
+      rearArmAngle: 18,
+      frontLegAngle: -12,
+      rearLegAngle: 28,
+      weightDistribution: { front: 10, rear: 90 },
+      feet: {
+        front: { x: -55, y: -15, angle: 0 },
+        rear: { x: 20, y: 40, angle: 15 },
+        note:
+          'During a kick, the center of mass must stay over the support foot. The upper body may lean slightly to counterbalance the kicking leg, but should not lean excessively.',
+      },
+      annotations: [
+        { number: '01', label: 'Center over support', detail: 'The center of mass stays over the support foot.' },
+        { number: '02', label: 'Support leg structure', detail: 'The support leg is slightly bent, not locked.' },
+        { number: '03', label: 'Upper body alignment', detail: 'The torso stays aligned, not leaning excessively.' },
+        { number: '04', label: 'Arm position', detail: 'Arms help maintain balance, not just guard.' },
+      ],
+      metrics: [
+        { label: 'Weight', value: '90% on support leg' },
+        { label: 'Center', value: 'Over support foot' },
+        { label: 'Support leg', value: 'Slightly bent' },
+        { label: 'Upper body', value: 'Aligned, not leaning' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Balance is the foundation',
+        caption:
+          'Without balance on the support leg, kicks lose power, accuracy and control. Balance must be maintained throughout all phases.',
+        labels: [
+          'Center over support foot',
+          'Support leg slightly bent',
+          'Upper body aligned',
+          'Arms assist balance',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why balance matters for kicks',
+        content:
+          'Balance is the foundation of every kick. If you cannot maintain balance on the support leg, the kick will be weak, inaccurate and slow to recover from. Good balance allows you to generate maximum power through hip rotation, extend the leg fully, and retract with control. Balance and power are not separate concerns — they are the same concern.',
+      },
+      {
+        title: 'Weight distribution and structure',
+        content:
+          'During a kick, about 90% of your weight rests on the support leg. The support foot should be planted firmly, with the knee slightly bent for shock absorption and balance. Locking the support knee makes balance more difficult and stresses the joint. The weight should be centered over the middle of the support foot, not on the toes or heel.',
+      },
+      {
+        title: 'Upper body and arm position',
+        content:
+          'The upper body may lean slightly to counterbalance the extended kicking leg, but should not lean excessively backward or sideways. The arms play an active role in maintaining balance: they can be held out slightly to the sides or used in guard position, but should not be rigid or flailing. Relaxed, aware arms help the body stay balanced.',
+      },
+    ],
+
+    principles: [
+      'Keep the center of mass over the support foot throughout the kick.',
+      'The support leg should be slightly bent, never locked.',
+      'The upper body stays aligned, with only slight counterbalance lean.',
+      'Arms actively assist balance, not just guard.',
+    ],
+
+    mistakes: [
+      { title: 'Locked support knee', explanation: 'Locking the support knee makes balance more difficult and stresses the joint. Keep a slight bend in the support knee.' },
+      { title: 'Excessive leaning', explanation: 'Leaning too far backward or sideways to compensate for poor balance makes the kick weak. Stay more upright and improve leg strength instead.' },
+      { title: 'Weight on the toes or heel', explanation: 'If weight is not centered over the support foot, balance is compromised. Center the weight over the middle of the foot.' },
+      { title: 'Rigid or flailing arms', explanation: 'Arms held too rigid or swinging wildly disrupt balance. Keep arms relaxed and aware, assisting balance naturally.' },
+    ],
+
+    practice: [
+      'Stand on one leg and hold the position for 30 seconds.',
+      'Switch to the other leg and hold for 30 seconds.',
+      'From a front stance, lift into a front kick chamber and hold for 5 seconds.',
+      'Slowly extend the kick, hold for 3 seconds, then retract slowly.',
+      'Lower the foot with control.',
+      'Repeat ten times on each leg, focusing on balance throughout.',
+    ],
+
+    reflection:
+      'During your last set of kicks, was there a moment where you felt unstable? What was happening with your support leg or upper body at that moment?',
+
+    safety:
+      'Practice balance work on a non-slip surface. If you feel unsteady, reduce the height or speed of your kicks until balance improves. Support knee alignment is important to avoid injury.',
+
+    quiz: [
+      {
+        question: 'Where should most of your weight rest during a kick?',
+        options: [
+          'Evenly on both legs',
+          'Mostly on the kicking leg',
+          'About 90% on the support leg',
+          'Mostly on the arms',
+        ],
+        answer: 2,
+        explanation:
+          'During a kick, about 90% of your weight rests on the support leg, which must maintain balance throughout the technique.',
+      },
+      {
+        question: 'What should the support knee do during a kick?',
+        options: [
+          'Lock straight for stability',
+          'Stay slightly bent for balance',
+          'Bend completely',
+          'Point outward',
+        ],
+        answer: 1,
+        explanation:
+          'The support knee should stay slightly bent during a kick. This aids balance, absorbs shock and protects the joint.',
+      },
+    ],
+
+    mastery: [
+      'Hold a chambered kick position for five seconds with good balance.',
+      'Execute kicks with the support knee slightly bent throughout.',
+      'Maintain upper body alignment during all phases of the kick.',
+      'Identify and correct the four common balance errors.',
     ],
   },
 }
