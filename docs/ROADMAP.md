@@ -948,10 +948,10 @@ PHASE 1 — FOUNDATION
 [x] First complete lesson
 [x] Universal curriculum direction documented
 
-[ ] Generic lesson IDs
+[x] Generic lesson IDs — stable-id lookup live in the UI
 [ ] Complete Karate beginner curriculum
 [ ] Practice engine
-[ ] Progress engine
+[x] Progress engine — local persistence live; cross-device sync planned
 [ ] Mastery system
 [ ] AI learning companion
 [ ] Backend persistence
