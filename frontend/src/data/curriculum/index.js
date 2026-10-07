@@ -142,6 +142,41 @@ export const curriculum = {
             },
           ],
         },
+        expert: {
+          name: 'Expert',
+          description:
+            'Refine technique under pressure, study initiative and kata application, and develop a personal expression of the art built on everything below.',
+
+          modules: [
+            {
+              id: 'initiative',
+              title: 'Initiative and Sen',
+              lessons: [
+                { id: 'karate-initiative-understanding', title: 'Understanding Initiative' },
+                { id: 'karate-initiative-sen-no-sen', title: 'Sen no Sen: Attacking the Attack' },
+                { id: 'karate-initiative-reading-intent', title: 'Reading Intent Before Motion' },
+              ],
+            },
+            {
+              id: 'kata',
+              title: 'Kata as Application',
+              lessons: [
+                { id: 'karate-kata-structure', title: 'Structure Within Kata' },
+                { id: 'karate-kata-bunkai', title: 'Bunkai: Reading the Applications' },
+                { id: 'karate-kata-expression', title: 'Personal Expression of Form' },
+              ],
+            },
+            {
+              id: 'mastery',
+              title: 'Mastery and Transmission',
+              lessons: [
+                { id: 'karate-mastery-refinement', title: 'Lifelong Refinement' },
+                { id: 'karate-mastery-teaching', title: 'Principles of Teaching' },
+                { id: 'karate-mastery-coaching-eyes', title: 'Developing the Coaching Eye' },
+              ],
+            },
+          ],
+        },
       },
     },
   },

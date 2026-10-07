@@ -2351,4 +2351,347 @@ export const lessons = {
       'Identify and correct the four common balance errors.',
     ],
   },
+
+  'karate-combinations-combining': {
+    id: 'karate-combinations-combining',
+    subject: 'Karate',
+    title: 'Combining Techniques',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn why techniques are linked: the first technique creates a reaction, and the second uses that reaction. Build your first two- and three-technique combinations with balance intact.',
+
+    objectives: [
+      'Understand what makes a combination different from a list of moves',
+      'Link two techniques so the first sets up the second',
+      'Keep balance and guard at every link in the chain',
+      'Recognize the four most common combination errors',
+      'Build a clean three-technique chain from basics you already know',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'One technique sets up the next',
+        caption:
+          'A combination is a chain of causes: each technique creates the opening the next one travels through.',
+        labels: [
+          'First technique draws a reaction',
+          'Second technique uses the opening',
+          'Momentum links the chain',
+          'Balance survives every link',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why combinations exist',
+        content:
+          'A single technique is easy to read and answer. A punch forces a block; that block opens a line; the second technique travels that line. This is the heart of combining: each technique is chosen because of the reaction the previous one creates. A combination is therefore a chain of causes, not a shopping list of moves performed in order.',
+      },
+      {
+        title: 'Momentum is the glue',
+        content:
+          'Each technique should leave the body positioned for the next one. Stance, weight distribution and hip rotation carry through the chain instead of resetting between moves. If a technique ends off balance or with the guard down, the chain breaks and the combination becomes two separate, slower techniques.',
+      },
+      {
+        title: 'Length of the chain',
+        content:
+          'Beginners in intermediate training build chains of two, then three techniques. Longer is not better: a clean chain of two that preserves balance and guard defeats a loose chain of four every time. Depth of connection between techniques matters more than the number of them.',
+      },
+    ],
+
+    principles: [
+      'Every technique sets up the next one.',
+      'Balance is preserved at every link, not only at the end.',
+      'The chain follows the reaction it creates.',
+      'Short and clean beats long and loose.',
+    ],
+
+    mistakes: [
+      { title: 'Treating combos as a shopping list', explanation: 'Performing techniques in order without cause and effect produces a sequence anyone can read. Choose each next technique because of what the previous one forced.' },
+      { title: 'Sacrificing balance for speed', explanation: 'A fast chain that arrives off balance is a gift to the partner. Speed is added only after every link is stable.' },
+      { title: 'Attacking the same line every time', explanation: 'High then high again is easy to cover. Strong chains change level or line: high to low, outside to inside.' },
+      { title: 'Stopping dead between techniques', explanation: 'A full reset between moves destroys momentum and telegraphs the next technique. Let each technique flow into the next while keeping structure.' },
+    ],
+
+    practice: [
+      'Shadow a single straight punch and reset fully to guard. Repeat five times.',
+      'Link punch to punch: the first draws a high reaction, the second follows the same line deeper.',
+      'Repeat the two-link chain ten times, checking guard and stance between links.',
+      'Add a front kick as the third link after the second punch changes the level.',
+      'Perform the three-link chain at half speed, pausing to verify balance at each link.',
+      'Finish every repetition in guard, in stance, ready to move.',
+    ],
+
+    reflection:
+      'In your last combination, could you name what each technique was setting up? If not, the chain was still a list.',
+
+    safety:
+      'Shadow practice first. When working with a partner, keep control and distance appropriate, and agree on speed before starting. Combinations multiply impact, so control matters more than with single techniques.',
+
+    quiz: [
+      {
+        question: 'What makes a combination more than a list of techniques?',
+        options: [
+          'Performing them quickly',
+          'Each technique creating the opening the next one uses',
+          'Using at least four techniques',
+          'Performing them without pausing',
+        ],
+        answer: 1,
+        explanation:
+          'A combination is a chain of causes: every technique is chosen because of the reaction the previous one creates.',
+      },
+      {
+        question: 'What must survive every link of a combination?',
+        options: [
+          'Maximum speed',
+          'Balance and guard',
+          'The same stance throughout',
+          'Full power in each technique',
+        ],
+        answer: 1,
+        explanation:
+          'If balance or guard is lost at any link, the chain breaks and the practitioner becomes vulnerable mid-sequence.',
+      },
+    ],
+
+    mastery: [
+      'Explain the cause-and-effect logic of a two-technique chain.',
+      'Perform a three-link combination with balance and guard at every link.',
+      'Change level or line within a combination deliberately.',
+      'Identify and correct the four common combination errors.',
+    ],
+  },
+  'karate-combinations-rhythm': {
+    id: 'karate-combinations-rhythm',
+    subject: 'Karate',
+    title: 'Changing Rhythm',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn why uniform tempo makes you readable, and how pauses, accelerations and broken cadence turn the same techniques into something a partner cannot time.',
+
+    objectives: [
+      'Understand rhythm as information you give or deny the partner',
+      'Break a uniform cadence on purpose',
+      'Use a balanced pause as a weapon',
+      'Recognize the four most common rhythm errors',
+      'Apply tempo changes to a combination you already know',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Tempo is a weapon',
+        caption:
+          'A steady cadence hands the partner a schedule. Broken rhythm takes that schedule away.',
+        labels: [
+          'Uniform tempo is readable',
+          'The pause breaks prediction',
+          'Acceleration exploits the break',
+          'Balance under every tempo change',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Rhythm is information',
+        content:
+          'Every repeated tempo teaches the partner when your next move arrives. A metronome-like combination, even a fast one, can be timed and intercepted. Rhythm control is the skill of deciding what schedule you reveal: sometimes steady to lull, sometimes broken to explode into the gap the partner did not expect.',
+      },
+      {
+        title: 'The pause as a weapon',
+        content:
+          'A deliberate pause mid-combination is not rest. It is a balanced, guarded freeze that hides when the next technique comes. The partner commits to a timing; the pause expires without the expected move; the next technique arrives on a new beat. For the pause to work, the body must stay loaded: guard up, knees alive, weight ready.',
+      },
+      {
+        title: 'Acceleration inside the chain',
+        content:
+          'The simplest usable rhythm change is slow-slow-fast: two measured techniques establish a cadence, the third arrives at double speed into the gap. Its opposite, fast-slow-fast, works just as well. The acceleration must come from the legs and hips, not from rushing the upper body ahead of the base.',
+      },
+    ],
+
+    principles: [
+      'Uniform rhythm is a gift to the partner.',
+      'Change tempo on purpose, never by accident.',
+      'A pause must stay balanced, guarded and loaded.',
+      'Speed changes mean nothing without balance underneath.',
+    ],
+
+    mistakes: [
+      { title: 'Metronome combinations', explanation: 'Equal spacing between every technique makes the sequence perfectly timable. Vary the gaps deliberately.' },
+      { title: 'Pause equals relax', explanation: 'If the guard drops or the knees lock during a pause, it is a rest break, not a weapon. Stay loaded through every freeze.' },
+      { title: 'Accelerating into broken structure', explanation: 'Speed that outruns the base arrives weak and off balance. Accelerate from the legs while structure holds.' },
+      { title: 'Rhythm changes only in the arms', explanation: 'Tempo lives in the feet and hips. Arm-speed changes without foot timing are visible and easy to read.' },
+    ],
+
+    practice: [
+      'Perform a known three-technique chain at a perfectly uniform tempo, three repetitions.',
+      'Repeat it with a two-second balanced pause between the second and third techniques.',
+      'Perform the chain slow, slow, fast. Feel the third technique arrive from the legs.',
+      'Perform the chain fast, slow, fast and notice how the pause changes the partner read.',
+      'Have a partner clap the moment they think your next technique arrives; try to make them clap wrong three times.',
+      'Finish every repetition in guard and stance, at any tempo.',
+    ],
+
+    reflection:
+      'Which tempo change felt most under control: the pause, the acceleration, or the deceleration? What did the least controlled one reveal about your base?',
+
+    safety:
+      'Tempo work invites sudden direction and speed changes. Warm the legs and ankles first, keep the surface non-slip, and keep partner drills at agreed speeds.',
+
+    quiz: [
+      {
+        question: 'Why is a uniform rhythm a problem in combination work?',
+        options: [
+          'It tires the body faster',
+          'It gives the partner a predictable schedule to time',
+          'It reduces striking power',
+          'It is against karate rules',
+        ],
+        answer: 1,
+        explanation:
+          'A steady cadence teaches the partner exactly when the next technique arrives, making the sequence easy to intercept.',
+      },
+      {
+        question: 'What must a deliberate pause preserve to work as a weapon?',
+        options: [
+          'Relaxed breathing only',
+          'Balance, guard and readiness to explode',
+          'A completely straight posture',
+          'Maximum distance from the partner',
+        ],
+        answer: 1,
+        explanation:
+          'A pause only deceives if the body stays loaded: balanced, guarded and ready to fire the next technique on a new beat.',
+      },
+    ],
+
+    mastery: [
+      'Perform one combination at three different deliberate tempos.',
+      'Use a balanced pause to break a partner timing in a drill.',
+      'Accelerate the final technique of a chain without losing structure.',
+      'Identify and correct the four common rhythm errors.',
+    ],
+  },
+  'karate-combinations-recovering': {
+    id: 'karate-combinations-recovering',
+    subject: 'Karate',
+    title: 'Recovering After Combinations',
+    level: 'Intermediate',
+    duration: '10 min',
+
+    description:
+      'Learn how to end a chain: exit with balance, guard and distance. The habit of remaining aware and ready after the last technique is called zanshin in karate.',
+
+    objectives: [
+      'Understand why the moment after the last technique is the most dangerous',
+      'Recover guard, stance and distance in one controlled exit',
+      'Apply the concept of zanshin, remaining awareness',
+      'Recognize the four most common recovery errors',
+      'End every combination ready to defend or continue',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The combination ends in a stance',
+        caption:
+          'Recovery is part of the technique, not the end of it: guard, base and awareness return before the breath does.',
+        labels: [
+          'Guard returns immediately',
+          'Stance under the body at the exit',
+          'Distance or angle taken',
+          'Awareness outlasts the movement',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The danger is after the last technique',
+        content:
+          'Most counters land in the moment a practitioner admires the finished combination: hands dropping, weight fallen forward, eyes following the last punch. Trained recovery treats the exit as part of the technique: the chain is not complete until guard, stance and distance are restored.',
+      },
+      {
+        title: 'What recovery looks like',
+        content:
+          'A clean exit has three parts arriving together: the guard returns to position, the feet find a stance under the body instead of a stretched finish, and distance or angle is taken so the next exchange starts on your terms. Exiting on an angle is stronger than retreating straight back through the line of attack.',
+      },
+      {
+        title: 'Zanshin: remaining awareness',
+        content:
+          'Zanshin is the mental half of recovery: attention stays on the partner after the movement ends, without tension or celebration. In training it shows as eyes up, breathing controlled, body ready. In grading and in life it is the habit of never declaring victory before the situation is actually safe.',
+      },
+    ],
+
+    principles: [
+      'The combination ends in a stance, not in a stretch.',
+      'Guard returns before the breath does.',
+      'Exit on an angle, not straight back through the attack line.',
+      'Awareness outlasts the movement.',
+    ],
+
+    mistakes: [
+      { title: 'Dropping the hands after the last technique', explanation: 'The guard is what survives the exchange. Hands that drop at the finish invite the counter that ends the fight.' },
+      { title: 'Falling forward past the target', explanation: 'Momentum that carries the head beyond the base leaves no way to defend or redirect. Finish with the stance under the body.' },
+      { title: 'Turning away early', explanation: 'Looking or turning away before distance is restored hands the partner a free moment. Eyes stay on the partner until safe.' },
+      { title: 'Holding the breath through the chain', explanation: 'Breath-holding creates tension that slows recovery and ends in a gasp at the worst moment. Breathe rhythmically through the techniques.' },
+    ],
+
+    practice: [
+      'Perform a three-link chain, then freeze for three seconds in guard and stance. Repeat five times.',
+      'Repeat the chain and exit on a 45 degree angle instead of straight back.',
+      'Repeat the chain and retreat to a safe distance, guard up, eyes forward.',
+      'Have a partner apply light, slow pressure immediately after your finish; your goal is to be already recovered when it arrives.',
+      'Perform the chain with controlled breathing: exhale on techniques, steady breath in recovery.',
+      'End every session repetition with one full second of still, aware zanshin.',
+    ],
+
+    reflection:
+      'Watch your last training round in your memory: at the moment after your final technique, where were your hands, your base and your eyes?',
+
+    safety:
+      'Recovery drills with partner pressure must start slow and light. The purpose is timing awareness, not impact. Agree on intensity before every round.',
+
+    quiz: [
+      {
+        question: 'When is a practitioner most exposed during a combination?',
+        options: [
+          'During the first technique',
+          'At the moment of contact',
+          'In the moment after the last technique',
+          'During the pause between chains',
+        ],
+        answer: 2,
+        explanation:
+          'Counters most often land right after the finish, when hands drop, weight falls forward and attention relaxes.',
+      },
+      {
+        question: 'What does zanshin refer to?',
+        options: [
+          'The final bow of a session',
+          'Remaining awareness and readiness after the technique ends',
+          'A specific breathing pattern',
+          'The strongest stance in karate',
+        ],
+        answer: 1,
+        explanation:
+          'Zanshin is the mental half of recovery: attention, guard and readiness maintained after the movement is complete.',
+      },
+    ],
+
+    mastery: [
+      'Finish every combination with guard, stance and distance restored.',
+      'Exit on an angle under light partner pressure without being caught unready.',
+      'Explain zanshin and demonstrate one second of it after a chain.',
+      'Identify and correct the four common recovery errors.',
+    ],
+  },
 }
