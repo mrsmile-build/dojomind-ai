@@ -26,6 +26,12 @@ export const lessons = {
       rearArmAngle: 8,
       frontLegAngle: -12,
       rearLegAngle: 18,
+      weightDistribution: { front: 50, rear: 50 },
+      feet: {
+        front: { x: -55, y: -35, angle: 0 },
+        rear: { x: 55, y: 45, angle: 15 },
+        note: 'Natural ready base: feet about shoulder-width apart, slightly staggered, weight even.',
+      },
       annotations: [
         {
           number: '01',
