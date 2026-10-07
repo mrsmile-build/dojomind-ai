@@ -59,7 +59,7 @@ export const lessons = {
     visuals: [
       {
         type: 'image',
-        src: '/assets/dojo/karate/stances/front-stance.jpg',
+        src: '/dojomind-ai/assets/dojo/karate/stances/front-stance.jpg',
         alt: 'Karate front stance instructional image',
         caption:
           'Example of a controlled karate front stance. The image is used as a visual reference; learners should focus on balance, posture and controlled movement.'

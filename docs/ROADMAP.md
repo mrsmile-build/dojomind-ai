@@ -145,6 +145,154 @@ Status:
 - [ ] Complete advanced curriculum
 - [ ] Add additional martial arts
 
+## Martial Arts Intelligence Layer
+
+DojoMind's martial-arts domain should not be a flat collection of techniques.
+
+It should model the relationships between disciplines, fundamentals, techniques, drills, applications, defenses, assessment and progression.
+
+The martial-arts system should use the universal learning engine while providing specialized knowledge structures where martial arts genuinely require them.
+
+### Martial Arts Knowledge Model
+
+A martial-arts learning item may contain:
+
+- Canonical name
+- Alternative / transliterated names
+- Discipline / style
+- Category
+- Training context
+- Range or position where relevant
+- Purpose
+- Prerequisites
+- Core mechanics
+- Common errors
+- Safe practice guidance
+- Solo drills
+- Partner / pad / supervised drills where appropriate
+- Combinations / transitions
+- Defenses / counters
+- Difficulty
+- Assessment criteria
+- Progression links
+- Source / verification metadata
+
+### Technique Taxonomy
+
+The technique library should eventually support:
+
+- Stances & posture
+- Footwork & movement
+- Striking
+- Kicking
+- Blocks / parries / evasions
+- Clinch fundamentals
+- Throws & takedowns
+- Pins / positions
+- Escapes / reversals
+- Forms / patterns
+- Conditioning
+- Breathing / recovery
+- Sparring / live-training principles
+
+The taxonomy must remain extensible so new martial arts can introduce categories that do not fit perfectly into an existing classification.
+
+### Martial Arts Knowledge Graph
+
+DojoMind should eventually represent relationships such as:
+
+Discipline
+    ↓
+Fundamental
+    ↓
+Technique
+    ↓
+Prerequisite
+    ↓
+Drill
+    ↓
+Application / Combination
+    ↓
+Defense / Counter
+    ↓
+Assessment
+    ↓
+Progression
+
+This allows the system to understand not only what a technique is, but why it is being taught, what the learner should know first, how it should be practiced and what comes next.
+
+### Martial Arts Intelligence
+
+The AI learning companion should eventually be able to:
+
+- Explain a technique at the learner's level
+- Explain terminology and alternative names
+- Compare how concepts differ between styles
+- Generate appropriate practice sessions
+- Adapt practice to available time and equipment
+- Track known skills and prerequisites
+- Identify knowledge gaps
+- Generate review exercises and tests
+- Explain common errors
+- Recommend the next curriculum item based on demonstrated progress
+- Explain why a technique belongs at a particular stage
+- Distinguish established information from uncertain or disputed claims
+
+The AI should support structured martial-arts curriculum rather than replace qualified instruction or supervised training where supervision is important.
+
+### Martial Arts Curriculum Expansion
+
+The initial knowledge base should progressively cover verified foundations from:
+
+- Karate
+- Boxing
+- Muay Thai
+- Taekwondo
+- Judo
+- Wrestling
+- Brazilian Jiu-Jitsu
+- Kickboxing
+- Kung Fu / selected traditional systems
+- Other systems added after terminology and source validation
+
+Expansion should prioritize accurate fundamentals and coherent curriculum relationships rather than maximizing the number of techniques.
+
+### Safety & Quality
+
+Martial-arts instruction must distinguish between training, sport, demonstration and self-defense contexts where that distinction materially affects the lesson.
+
+DojoMind should not present injury maximization as the objective of martial-arts learning.
+
+Relevant lessons and drills should contain appropriate safety guidance.
+
+Digital instruction should clearly identify situations where qualified in-person supervision, a coach, appropriate protective equipment or a suitable training environment is important.
+
+Technique names, translations, style attributions and historical claims should be verified before becoming canonical curriculum content.
+
+Research systems such as NEXUS may propose techniques, terminology or curriculum candidates, but those candidates should enter the canonical DojoMind knowledge base only after validation.
+
+### Martial Arts Development Principle
+
+DojoMind should progress from:
+
+Technique Collection
+    ↓
+Structured Technique Library
+    ↓
+Technique Relationships
+    ↓
+Curriculum Paths
+    ↓
+Practice & Assessment
+    ↓
+Personalized Martial-Arts Training
+
+The goal is not to teach the largest number of techniques.
+
+The goal is to build a system that understands how martial-arts knowledge is organized and helps a learner develop genuine skill progressively.
+
+---
+
 ## Music & Instruments
 
 Potential skills:
