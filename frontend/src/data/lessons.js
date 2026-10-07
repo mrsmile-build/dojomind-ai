@@ -1227,48 +1227,7 @@ export const lessons = {
         rear: { x: 22, y: 55, angle: 45 },
         note:
           'The punching fist starts chambered at the hip, extends straight with the palm down, and makes contact with the first two knuckles. The other fist pulls back to the hip simultaneously.',
-        liveApplication: {
-      scenarios: [
-        {
-          setup: 'The partner closes to punching range and throws a straight punch.',
-          action: 'You chamber your fist at the hip, extend with hip rotation, make contact with the first two knuckles, and immediately pull the other fist back (hikite).',
-          why: 'The chamber stores potential energy, hip rotation adds power from the kinetic chain, and hikite creates equal-and-opposite force that stabilizes your structure and adds speed.',
-        },
-        {
-          setup: 'You want to create an opening for a front kick.',
-          action: 'You throw a fast, light straight punch to the face to draw a high block, then immediately follow with a front kick to the midsection.',
-          why: 'The punch forces the partner to raise their guard, exposing the lower target. The kick travels the opened line before they can recover.',
-        },
-        {
-          setup: 'The partner throws a straight punch at you.',
-          action: 'You perform a downward block to redirect the punch outward, then immediately counter with your own straight punch through the opening created.',
-          why: 'The block angles the attack away and places you inside their guard, so your counter travels an undefended line to the target.',
-        },
-      ],
-      perspectives: [
-        {
-          role: 'Using it',
-          detail: 'The straight punch is your most versatile tool: use it light and fast to create openings, heavy and committed as a counter, or sharp and short to stop a rush. Adjust intensity and commitment to match the purpose.',
-        },
-        {
-          role: 'Facing it',
-          detail: 'A straight punch coming at you can be deflected (downward or rising block), evaded (angle off line), or caught in the chamber (crash in before it extends). Your response depends on timing and range.',
-        },
-      ],
-      adaptation: {
-        cues: [
-          'Shoulder drops slightly before the punch extends',
-          'Weight shifts to the rear leg before a power punch',
-          'The chambered fist pulls back before extension',
-        ],
-        adjustments: [
-          { if: 'They punch fast and committed', then: 'Angle off line and let their momentum carry them past, then counter from the side.' },
-          { if: 'They feint high then attack low', then: 'Watch the center mass and hips, not the hands, to read the real intent.' },
-          { if: 'They retract slowly after punching', then: 'Crash in immediately while their guard is still recovering from the extension.' },
-        ],
-        learning: 'After each exchange where a straight punch was used (by you or them), name one cue you read correctly or missed, and one adjustment it teaches for the next exchange.',
-      },
-    },
+
   },
       annotations: [
         { number: '01', label: 'Chamber at hip', detail: 'The fist starts palm-up at the hip, elbow back.' },
@@ -1379,6 +1338,48 @@ export const lessons = {
       'Make contact with the first two knuckles consistently.',
       'Identify and correct the four common punch errors.',
     ],
+        liveApplication: {
+      scenarios: [
+        {
+          setup: 'The partner closes to punching range and throws a straight punch.',
+          action: 'You chamber your fist at the hip, extend with hip rotation, make contact with the first two knuckles, and immediately pull the other fist back (hikite).',
+          why: 'The chamber stores potential energy, hip rotation adds power from the kinetic chain, and hikite creates equal-and-opposite force that stabilizes your structure and adds speed.',
+        },
+        {
+          setup: 'You want to create an opening for a front kick.',
+          action: 'You throw a fast, light straight punch to the face to draw a high block, then immediately follow with a front kick to the midsection.',
+          why: 'The punch forces the partner to raise their guard, exposing the lower target. The kick travels the opened line before they can recover.',
+        },
+        {
+          setup: 'The partner throws a straight punch at you.',
+          action: 'You perform a downward block to redirect the punch outward, then immediately counter with your own straight punch through the opening created.',
+          why: 'The block angles the attack away and places you inside their guard, so your counter travels an undefended line to the target.',
+        },
+      ],
+      perspectives: [
+        {
+          role: 'Using it',
+          detail: 'The straight punch is your most versatile tool: use it light and fast to create openings, heavy and committed as a counter, or sharp and short to stop a rush. Adjust intensity and commitment to match the purpose.',
+        },
+        {
+          role: 'Facing it',
+          detail: 'A straight punch coming at you can be deflected (downward or rising block), evaded (angle off line), or caught in the chamber (crash in before it extends). Your response depends on timing and range.',
+        },
+      ],
+      adaptation: {
+        cues: [
+          'Shoulder drops slightly before the punch extends',
+          'Weight shifts to the rear leg before a power punch',
+          'The chambered fist pulls back before extension',
+        ],
+        adjustments: [
+          { if: 'They punch fast and committed', then: 'Angle off line and let their momentum carry them past, then counter from the side.' },
+          { if: 'They feint high then attack low', then: 'Watch the center mass and hips, not the hands, to read the real intent.' },
+          { if: 'They retract slowly after punching', then: 'Crash in immediately while their guard is still recovering from the extension.' },
+        ],
+        learning: 'After each exchange where a straight punch was used (by you or them), name one cue you read correctly or missed, and one adjustment it teaches for the next exchange.',
+      },
+    },
   },
   'karate-strikes-elbow': {
     id: 'karate-strikes-elbow',
