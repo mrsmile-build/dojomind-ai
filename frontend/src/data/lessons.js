@@ -1482,4 +1482,439 @@ export const lessons = {
       'Identify and correct the four common elbow strike errors.',
     ],
   },
+
+  'karate-blocks-why': {
+    id: 'karate-blocks-why',
+    subject: 'Karate',
+    title: 'Why Blocking Works',
+    level: 'Beginner',
+    duration: '10 min',
+
+    description:
+      'Learn the principles behind karate blocks: redirecting force instead of meeting it head-on, using structure and timing to protect yourself.',
+
+    objectives: [
+      'Understand why blocks redirect rather than stop force',
+      'Recognize the role of structure and angles',
+      'Understand timing: block before the attack arrives',
+      'Recognize the four most common blocking errors',
+      'Identify the different types of blocks and when to use them',
+    ],
+
+    positionDiagram: {
+      title: 'Blocking principles',
+      description:
+        'A good block redirects incoming force using structure, angles and timing, rather than trying to stop it with brute strength.',
+      torsoAngle: 0,
+      frontArmAngle: -25,
+      rearArmAngle: 15,
+      frontLegAngle: -22,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -18, y: -70, angle: 0 },
+        rear: { x: 22, y: 55, angle: 45 },
+        note:
+          'The blocking arm creates an angled surface that redirects incoming force sideways. The body structure and stance provide the foundation for the block.',
+      },
+      annotations: [
+        { number: '01', label: 'Redirect, not stop', detail: 'Blocks angle incoming force away, not straight against it.' },
+        { number: '02', label: 'Structure first', detail: 'The stance and body alignment provide the foundation.' },
+        { number: '03', label: 'Timing', detail: 'The block must be in place before the attack arrives.' },
+        { number: '04', label: 'Counter-ready', detail: 'After blocking, you should be positioned to counter.' },
+      ],
+      metrics: [
+        { label: 'Principle', value: 'Redirect force' },
+        { label: 'Foundation', value: 'Stance + structure' },
+        { label: 'Timing', value: 'Before impact' },
+        { label: 'Follow-up', value: 'Counter-ready' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Redirecting force',
+        caption:
+          'A block is not a wall; it is an angled surface that redirects incoming force away from your center line.',
+        labels: [
+          'Angled surface redirects',
+          'Structure provides foundation',
+          'Timing before arrival',
+          'Position for counter',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Redirecting, not stopping',
+        content:
+          'A common misconception is that blocks try to stop attacks with brute force. In reality, karate blocks redirect incoming force sideways or upward, using angles and structure to move the attack away from your center line. This requires much less strength than trying to stop the force head-on.',
+      },
+      {
+        title: 'Structure and foundation',
+        content:
+          'A block is only as strong as the stance and body structure behind it. The blocking arm creates the angled surface, but the power comes from the legs driving into the ground and the hips and torso providing a stable base. Without proper structure, even a correctly positioned arm will collapse under force.',
+      },
+      {
+        title: 'Timing is everything',
+        content:
+          'A block must be in position before the attack arrives. This requires reading the opponent's movement early and moving your arm to intercept. Late blocks meet full force; early blocks redirect the attack while it still has room to travel. Timing is trained through repetition and partner drills.',
+      },
+    ],
+
+    principles: [
+      'Blocks redirect force using angles, not brute strength.',
+      'Structure (stance and alignment) is the foundation of every block.',
+      'Timing: the block must be in place before the attack arrives.',
+      'After blocking, you should be positioned to counter immediately.',
+    ],
+
+    mistakes: [
+      { title: 'Meeting force head-on', explanation: 'Trying to stop an attack straight-on requires immense strength and often fails. Angle the block to redirect force sideways.' },
+      { title: 'Blocking with just the arm', explanation: 'Without leg and hip structure behind it, the arm will collapse. Drive from the ground through the hips.' },
+      { title: 'Late timing', explanation: 'Blocking after the attack has arrived means you absorb full force. Read early and move to intercept.' },
+      { title: 'Blocking and freezing', explanation: 'If you block but do not immediately counter or reposition, you lose the initiative. Every block should set up a response.' },
+    ],
+
+    practice: [
+      'Stand in front stance with both hands in guard position.',
+      'Practice the motion of a downward block: sweep the arm down and across the body.',
+      'Feel the legs driving into the ground and the hips rotating.',
+      'Repeat slowly, focusing on structure and angles.',
+      'Have a partner throw slow, controlled punches for you to block.',
+      'After each block, immediately execute a counter-technique.',
+    ],
+
+    reflection:
+      'During your last blocking practice, did you feel the block redirecting force, or did it feel like you were trying to stop it with strength?',
+
+    safety:
+      'Practice blocking with controlled, cooperative partners. Start slowly and increase speed only when the pattern is smooth. Never block full-power attacks without proper conditioning and supervision.',
+
+    quiz: [
+      {
+        question: 'What is the primary principle of karate blocking?',
+        options: [
+          'Stop the attack with maximum strength',
+          'Redirect the attack using angles and structure',
+          'Avoid the attack entirely',
+          'Absorb the attack and counter',
+        ],
+        answer: 1,
+        explanation:
+          'Karate blocks redirect incoming force sideways or upward using angles and body structure, rather than trying to stop it head-on.',
+      },
+      {
+        question: 'What provides the foundation for a strong block?',
+        options: [
+          'Arm strength alone',
+          'Stance and body structure',
+          'Speed of the arm',
+          'Flexibility of the shoulder',
+        ],
+        answer: 1,
+        explanation:
+          'The stance, legs and body alignment provide the structural foundation. Without it, even a correctly positioned arm will collapse under force.',
+      },
+    ],
+
+    mastery: [
+      'Explain why blocks redirect rather than stop force.',
+      'Demonstrate proper structure and foundation in a block.',
+      'Execute blocks with correct timing (before the attack arrives).',
+      'Identify and correct the four common blocking errors.',
+    ],
+  },
+  'karate-blocks-downward': {
+    id: 'karate-blocks-downward',
+    subject: 'Karate',
+    title: 'Basic Downward Block (Gedan Barai)',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn the downward block: a fundamental technique that sweeps incoming attacks away from the lower body using a circular arm motion and body structure.',
+
+    objectives: [
+      'Understand when and why the downward block is used',
+      'Execute the proper circular arm motion',
+      'Use hip rotation and structure to generate power',
+      'Recognize the four most common downward block errors',
+      'Block low kicks and strikes to the midsection',
+    ],
+
+    positionDiagram: {
+      title: 'Downward block — gedan barai',
+      description:
+        'The downward block sweeps the arm in a circular motion across the body, using hip rotation and structure to redirect low attacks away from the center.',
+      torsoAngle: 0,
+      frontArmAngle: -45,
+      rearArmAngle: 20,
+      frontLegAngle: -22,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -18, y: -70, angle: 0 },
+        rear: { x: 22, y: 55, angle: 45 },
+        note:
+          'The blocking arm starts high near the opposite shoulder, then sweeps down and across the body in a circular motion, ending with the fist near the hip.',
+      },
+      annotations: [
+        { number: '01', label: 'Start high', detail: 'The fist starts near the opposite shoulder, palm facing you.' },
+        { number: '02', label: 'Circular sweep', detail: 'The arm sweeps down and across in a circular motion.' },
+        { number: '03', label: 'Hip rotation', detail: 'The hips rotate forward to add power to the block.' },
+        { number: '04', label: 'End position', detail: 'The fist ends near the same-side hip, palm down.' },
+      ],
+      metrics: [
+        { label: 'Start', value: 'Opposite shoulder' },
+        { label: 'Motion', value: 'Circular sweep' },
+        { label: 'Power', value: 'Hip rotation + structure' },
+        { label: 'End', value: 'Same-side hip' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Sweeping the attack away',
+        caption:
+          'The downward block uses a circular arm motion to sweep low attacks away from the body, redirecting them to the outside.',
+        labels: [
+          'Start at opposite shoulder',
+          'Circular sweeping motion',
+          'Hip rotation adds power',
+          'End at same-side hip',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'When to use the downward block',
+        content:
+          'The downward block (gedan barai) is used to deflect low kicks, knee strikes, and punches or strikes aimed at the midsection or groin. It is one of the most fundamental blocks in karate and appears in many kata and combinations.',
+      },
+      {
+        title: 'The circular motion',
+        content:
+          'The block starts with the fist chambered high near the opposite shoulder, palm facing toward you. The arm then sweeps down and across the body in a circular arc, ending with the fist near the same-side hip, palm facing down. This circular path creates an angled surface that redirects incoming force to the outside.',
+      },
+      {
+        title: 'Adding power with structure',
+        content:
+          'As the arm sweeps down, the hips rotate forward and the legs drive into the ground. This adds whole-body power to the block, making it much stronger than arm movement alone. The non-blocking hand pulls back to the hip (hikite) simultaneously, which helps generate power through equal-and-opposite reaction.',
+      },
+    ],
+
+    principles: [
+      'Start the block high near the opposite shoulder.',
+      'Sweep down in a circular arc, not a straight line.',
+      'Rotate the hips forward to add power.',
+      'End with the fist near the same-side hip, palm down.',
+    ],
+
+    mistakes: [
+      { title: 'Straight-line block', explanation: 'Sweeping the arm straight down instead of in a circular arc loses the redirecting angle. Use a circular path.' },
+      { title: 'No hip rotation', explanation: 'Blocking with just the arm loses most of the power. Rotate the hips forward as the arm sweeps down.' },
+      { title: 'Finishing too wide', explanation: 'If the fist ends far outside the hip, the block covers less area. End with the fist close to the hip.' },
+      { title: 'Lazy hikite', explanation: 'If the non-blocking hand does not pull back sharply, power is lost. Hikite should be as intentional as the block itself.' },
+    ],
+
+    practice: [
+      'Stand in front stance with both fists chambered at the hips.',
+      'Bring the right fist up to the left shoulder, palm facing you.',
+      'Sweep the right arm down and across the body in a circular arc.',
+      'Rotate the hips forward as the arm sweeps.',
+      'End with the right fist near the right hip, palm down.',
+      'Simultaneously pull the left fist back to the left hip (hikite).',
+      'Repeat ten times, then switch sides.',
+    ],
+
+    reflection:
+      'During your last set of blocks, did you feel the hip rotation adding power, or did the arm feel like it was working alone?',
+
+    safety:
+      'Practice blocks slowly and with controlled, cooperative partners. The circular motion should be smooth, not jerky. Wrist alignment is important to avoid strain.',
+
+    quiz: [
+      {
+        question: 'Where does the downward block start?',
+        options: [
+          'At the same-side hip',
+          'Near the opposite shoulder',
+          'Straight out in front',
+          'Behind the back',
+        ],
+        answer: 1,
+        explanation:
+          'The downward block starts with the fist chambered high near the opposite shoulder, then sweeps down and across the body.',
+      },
+      {
+        question: 'What type of motion does the downward block use?',
+        options: [
+          'A straight line up and down',
+          'A circular sweeping arc',
+          'A figure-eight pattern',
+          'A zigzag motion',
+        ],
+        answer: 1,
+        explanation:
+          'The downward block uses a circular arc that sweeps down and across the body, creating an angled surface to redirect incoming force.',
+      },
+    ],
+
+    mastery: [
+      'Execute a downward block with proper circular motion.',
+      'Use hip rotation to generate power in the block.',
+      'Start high and end at the same-side hip consistently.',
+      'Identify and correct the four common downward block errors.',
+    ],
+  },
+  'karate-blocks-rising': {
+    id: 'karate-blocks-rising',
+    subject: 'Karate',
+    title: 'Basic Rising Block (Age Uke)',
+    level: 'Beginner',
+    duration: '12 min',
+
+    description:
+      'Learn the rising block: a fundamental technique that deflects downward strikes and overhead attacks by sweeping the arm upward with structure and rotation.',
+
+    objectives: [
+      'Understand when and why the rising block is used',
+      'Execute the proper upward sweeping motion',
+      'Use hip rotation and structure to generate power',
+      'Recognize the four most common rising block errors',
+      'Block overhead strikes and downward attacks',
+    ],
+
+    positionDiagram: {
+      title: 'Rising block — age uke',
+      description:
+        'The rising block sweeps the arm upward in an arc, using hip rotation and structure to redirect overhead attacks away from the head.',
+      torsoAngle: 0,
+      frontArmAngle: -60,
+      rearArmAngle: 15,
+      frontLegAngle: -22,
+      rearLegAngle: 22,
+      weightDistribution: { front: 60, rear: 40 },
+      feet: {
+        front: { x: -18, y: -70, angle: 0 },
+        rear: { x: 22, y: 55, angle: 45 },
+        note:
+          'The blocking arm starts low near the opposite hip, then sweeps up and across the body in an arc, ending with the fist above the forehead.',
+      },
+      annotations: [
+        { number: '01', label: 'Start low', detail: 'The fist starts near the opposite hip, palm facing down.' },
+        { number: '02', label: 'Upward sweep', detail: 'The arm sweeps up and across in an arc.' },
+        { number: '03', label: 'Hip rotation', detail: 'The hips rotate forward to add power to the block.' },
+        { number: '04', label: 'End position', detail: 'The fist ends above the forehead, palm facing away.' },
+      ],
+      metrics: [
+        { label: 'Start', value: 'Opposite hip' },
+        { label: 'Motion', value: 'Upward arc' },
+        { label: 'Power', value: 'Hip rotation + structure' },
+        { label: 'End', value: 'Above forehead' },
+      ],
+    },
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Deflecting downward attacks',
+        caption:
+          'The rising block uses an upward sweeping motion to deflect overhead strikes and downward attacks away from the head.',
+        labels: [
+          'Start at opposite hip',
+          'Upward sweeping arc',
+          'Hip rotation adds power',
+          'End above forehead',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'When to use the rising block',
+        content:
+          'The rising block (age uke) is used to deflect overhead strikes, hammer fists, downward knife attacks, and any technique coming from above. It protects the head and upper body from downward-angled attacks.',
+      },
+      {
+        title: 'The upward motion',
+        content:
+          'The block starts with the fist chambered low near the opposite hip, palm facing down. The arm then sweeps up and across the body in an arc, ending with the fist above the forehead on the same side, palm facing away. This creates an angled surface that redirects downward force upward and to the side.',
+      },
+      {
+        title: 'Structure and timing',
+        content:
+          'As the arm sweeps up, the hips rotate forward and the legs drive into the ground. The non-blocking hand pulls back to the hip simultaneously. The block must be executed before the attack arrives, so timing and reading the opponent's movement are crucial.',
+      },
+    ],
+
+    principles: [
+      'Start the block low near the opposite hip.',
+      'Sweep up in an arc, ending above the forehead.',
+      'Rotate the hips forward to add power.',
+      'Time the block to arrive before the attack.',
+    ],
+
+    mistakes: [
+      { title: 'Straight-line block', explanation: 'Sweeping the arm straight up instead of in an arc loses the redirecting angle. Use an upward arc that crosses the body.' },
+      { title: 'No hip rotation', explanation: 'Blocking with just the arm loses most of the power. Rotate the hips forward as the arm sweeps up.' },
+      { title: 'Finishing too low', explanation: 'If the fist ends at eye level instead of above the forehead, the head is still exposed. End high enough to protect the entire head.' },
+      { title: 'Late timing', explanation: 'If the block arrives after the attack, you absorb full force. Read the attack early and move to intercept.' },
+    ],
+
+    practice: [
+      'Stand in front stance with both fists chambered at the hips.',
+      'Bring the right fist down to the left hip, palm facing down.',
+      'Sweep the right arm up and across the body in an arc.',
+      'Rotate the hips forward as the arm sweeps.',
+      'End with the right fist above the right side of the forehead, palm facing away.',
+      'Simultaneously pull the left fist back to the left hip (hikite).',
+      'Repeat ten times, then switch sides.',
+    ],
+
+    reflection:
+      'During your last set of blocks, did you feel the block arriving before an imaginary attack, or did it feel late?',
+
+    safety:
+      'Practice rising blocks slowly and with controlled, cooperative partners. The upward motion should be smooth, not jerky. Be careful not to hyperextend the elbow at full extension.',
+
+    quiz: [
+      {
+        question: 'Where does the rising block start?',
+        options: [
+          'Above the head',
+          'Near the opposite hip',
+          'Straight out in front',
+          'At the same-side shoulder',
+        ],
+        answer: 1,
+        explanation:
+          'The rising block starts with the fist chambered low near the opposite hip, then sweeps up and across the body.',
+      },
+      {
+        question: 'Where should the rising block end?',
+        options: [
+          'At eye level',
+          'At the same-side hip',
+          'Above the forehead',
+          'Behind the head',
+        ],
+        answer: 2,
+        explanation:
+          'The rising block ends with the fist above the forehead, high enough to protect the entire head from overhead strikes.',
+      },
+    ],
+
+    mastery: [
+      'Execute a rising block with proper upward arc motion.',
+      'Use hip rotation to generate power in the block.',
+      'End with the fist above the forehead consistently.',
+      'Identify and correct the four common rising block errors.',
+    ],
+  },
 }
