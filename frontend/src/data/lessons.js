@@ -3380,4 +3380,347 @@ export const lessons = {
       'Identify and correct the four common entry and exit errors.',
     ],
   },
+
+  'karate-applications-understanding': {
+    id: 'karate-applications-understanding',
+    subject: 'Karate',
+    title: 'Understanding Technique Applications',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn how isolated techniques connect to real use: what a punch does in context, why a block leads somewhere, and how understanding application changes how you perform every technique.',
+
+    objectives: [
+      'Understand why every technique exists for a reason',
+      'Recognize that application shapes how a technique is performed',
+      'Connect isolated drills to their use in combinations and exchanges',
+      'Recognize the four most common application-understanding errors',
+      'Explain the purpose of at least three techniques you already know',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Techniques exist for reasons',
+        caption:
+          'Every technique solves a problem: a punch creates an opening, a block redirects force, a kick changes range. Understanding the why changes how you perform the what.',
+        labels: [
+          'Every technique has a purpose',
+          'Application shapes performance',
+          'Context changes execution',
+          'Understanding improves skill',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Why application matters',
+        content:
+          'A technique performed without understanding its purpose is a shape without meaning. You can drill the shape mechanically, but you will never know when to use it, how hard to commit, or what should happen after. Understanding application transforms isolated movement into functional skill: you know what problem the technique solves, so you recognize when to deploy it.',
+      },
+      {
+        title: 'Application shapes performance',
+        content:
+          'The same technique performed for different purposes looks different. A straight punch used to create an opening is fast and light; the same punch used as a counter after a block is heavier and more committed; the same punch used to stop a rush is a short, sharp impact. Understanding the application lets you adjust intensity, timing and structure to match the moment.',
+      },
+      {
+        title: 'From isolation to integration',
+        content:
+          'Beginners learn techniques in isolation: one punch, one block, one kick. Intermediate practitioners learn that techniques exist in context: a punch sets up a kick, a block creates a counter opportunity, a kick changes the range. Understanding application is the bridge from isolated movement to integrated skill where techniques connect into combinations and exchanges.',
+      },
+    ],
+
+    principles: [
+      'Every technique solves a specific problem.',
+      'Application shapes how a technique is performed.',
+      'Context changes intensity, timing and structure.',
+      'Understanding application bridges isolation to integration.',
+    ],
+
+    mistakes: [
+      { title: 'Performing techniques without purpose', explanation: 'Drilling shapes mechanically without understanding why they exist produces movement that cannot be deployed. Ask what problem each technique solves.' },
+      { title: 'Treating all applications as identical', explanation: 'The same technique used for different purposes requires different intensity and timing. Adjust your execution to match the application.' },
+      { title: 'Learning combinations without understanding', explanation: 'Memorizing sequences without knowing why each technique is there produces combinations that cannot adapt. Understand the cause-and-effect of each link.' },
+      { title: 'Ignoring the partner context', explanation: 'Techniques exist in exchanges with partners. Understanding application means understanding how your technique affects what the partner does next.' },
+    ],
+
+    practice: [
+      'Choose one technique you know well and write down three different purposes it could serve.',
+      'Perform that technique three times, once for each purpose, noticing how intensity and timing change.',
+      'Choose a block you know and explain what should happen immediately after it.',
+      'Perform the block followed by the counter or movement it sets up.',
+      'Choose a combination you know and explain the cause-and-effect logic of each link.',
+      'Perform the combination slowly, naming the purpose of each technique as you perform it.',
+    ],
+
+    reflection:
+      'Think of a technique you have drilled many times: can you name three different situations where you would use it differently? If not, the application is still unclear.',
+
+    safety:
+      'Application understanding involves partner work. Keep contact controlled and agreed, and never test applications at full force without proper supervision and protective equipment.',
+
+    quiz: [
+      {
+        question: 'Why does understanding application improve technique performance?',
+        options: [
+          'It makes the technique faster automatically',
+          'It lets you adjust intensity, timing and structure to match the purpose',
+          'It is only important for competitions',
+          'It replaces the need for drilling',
+        ],
+        answer: 1,
+        explanation:
+          'Understanding what problem a technique solves lets you adjust how you perform it: intensity for the moment, timing for the partner, structure for the application.',
+      },
+      {
+        question: 'How does the same straight punch change based on application?',
+        options: [
+          'It does not change at all',
+          'A punch to create an opening is light and fast; a counter punch is heavier and more committed',
+          'It only changes the target',
+          'It only changes the speed',
+        ],
+        answer: 1,
+        explanation:
+          'The same technique performed for different purposes requires different intensity and commitment: opening creation is light, countering is heavier, stopping a rush is short and sharp.',
+      },
+    ],
+
+    mastery: [
+      'Name three different applications for one technique you know well.',
+      'Adjust your performance of a technique to match different purposes.',
+      'Explain the cause-and-effect logic of a combination you know.',
+      'Identify and correct the four common application-understanding errors.',
+    ],
+  },
+  'karate-applications-defensive': {
+    id: 'karate-applications-defensive',
+    subject: 'Karate',
+    title: 'Defensive Applications',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn how blocks connect to counters and repositioning: a block is not the end of defense but the beginning of a response, and understanding this transforms passive defense into active skill.',
+
+    objectives: [
+      'Understand that blocks set up counters, not just protect',
+      'Recognize the connection between defense and immediate response',
+      'Apply blocks that position you for the next action',
+      'Recognize the four most common defensive-application errors',
+      'Execute block-counter sequences that flow as one unit',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Block and counter as one',
+        caption:
+          'A block is not the end of defense but the beginning of response: it redirects force and positions you for the next action.',
+        labels: [
+          'Block redirects the attack',
+          'Block positions for counter',
+          'Counter flows from block',
+          'Defense becomes initiative',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Blocks are not endpoints',
+        content:
+          'A common mistake is treating a block as the end of defense: the attack is redirected, and then nothing happens until the partner attacks again. This leaves the initiative with the partner. Trained defense understands that every block creates an opening: the partner committed to an attack that missed, their structure is momentarily disrupted, and you are positioned to respond. The block is not the end but the beginning.',
+      },
+      {
+        title: 'Positioning through defense',
+        content:
+          'Every block positions you relative to the partner. A downward block may place you inside their guard; a rising block may create distance. Understanding this positioning lets you choose blocks that set up your preferred response: a block that places you at punching range for an immediate counter, or a block that creates distance for a repositioning step.',
+      },
+      {
+        title: 'The block-counter loop',
+        content:
+          'The strongest defensive applications flow as one unit: block and counter happen without a reset between them. The block redirects the attack and the counter travels through the opening it created, all in one continuous movement. This requires timing, distance and application understanding working together, which is why this is intermediate material rather than beginner.',
+      },
+    ],
+
+    principles: [
+      'Every block creates an opening for response.',
+      'Defense positions you for the next action.',
+      'Block and counter flow as one continuous unit.',
+      'The initiative returns to you after successful defense.',
+    ],
+
+    mistakes: [
+      { title: 'Blocking and freezing', explanation: 'If you block but do not immediately counter or reposition, the partner recovers and retains initiative. Every block should set up a response.' },
+      { title: 'Choosing blocks without considering position', explanation: 'A block that places you poorly for your preferred response wastes the opening it created. Choose blocks that position you for what comes next.' },
+      { title: 'Resetting between block and counter', explanation: 'A full reset between block and counter destroys momentum and gives the partner time to recover. Flow the counter from the block without resetting.' },
+      { title: 'Counter without reading the opening', explanation: 'If you counter without seeing where the block redirected the partner, you may attack a line that is no longer open. Read the opening, then respond.' },
+    ],
+
+    practice: [
+      'With a partner, have them throw a slow straight punch.',
+      'Perform a downward block and immediately follow with a counter to the opening created.',
+      'Repeat ten times, focusing on the flow from block to counter without reset.',
+      'Try a rising block instead and notice how the counter changes.',
+      'Practice block-counter sequences at different ranges: close, medium and stepping in.',
+      'Finish by having the partner vary attacks and you respond with appropriate block-counter flows.',
+    ],
+
+    reflection:
+      'In your last drill, did the counter feel like it flowed from the block, or did you reset between them? What did that reveal about your timing?',
+
+    safety:
+      'Block-counter drills involve a partner attacking and you responding. Keep attacks controlled and at agreed speeds, and maintain safe distance until timing is reliable.',
+
+    quiz: [
+      {
+        question: 'Why is a block considered the beginning of response rather than the end of defense?',
+        options: [
+          'Because it scores points in competition',
+          'Because it creates an opening and positions you for the next action',
+          'Because it is always followed by a kick',
+          'Because it is illegal to stop after blocking',
+        ],
+        answer: 1,
+        explanation:
+          'A successful block redirects the attack and disrupts the partner structure, creating an opening and positioning you for immediate response, which returns initiative to you.',
+      },
+      {
+        question: 'What makes a block-counter sequence strong?',
+        options: [
+          'Maximum speed in both movements',
+          'Flowing from block to counter without resetting',
+          'Using different stances for each',
+          'Performing them at different times',
+        ],
+        answer: 1,
+        explanation:
+          'Strong block-counter flows happen when the counter travels through the opening created by the block, all in one continuous movement without a reset between them.',
+      },
+    ],
+
+    mastery: [
+      'Execute a block-counter sequence that flows as one unit.',
+      'Choose blocks that position you for your preferred counter.',
+      'Read the opening created by a block and respond appropriately.',
+      'Identify and correct the four common defensive-application errors.',
+    ],
+  },
+  'karate-applications-movement': {
+    id: 'karate-applications-movement',
+    subject: 'Karate',
+    title: 'Movement and Positioning',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn how footwork and positioning connect to technique application: stepping is not just transportation but a positioning tool that changes what is possible for both you and the partner.',
+
+    objectives: [
+      'Understand that positioning changes what techniques are possible',
+      'Use footwork to place yourself where your techniques work best',
+      'Recognize how angle and distance combine in positioning',
+      'Recognize the four most common positioning errors',
+      'Apply positioning to set up techniques effectively',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Positioning enables technique',
+        caption:
+          'Where you stand relative to the partner determines what techniques are possible for you and what they can do in response. Positioning is a continuous tool.',
+        labels: [
+          'Position enables your techniques',
+          'Position limits their techniques',
+          'Angle and distance combine',
+          'Positioning is continuous',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Positioning enables technique',
+        content:
+          'A technique that works from one position may not work from another. A straight punch is effective at punching range but useless from kicking range or close range. A front kick works from kicking range but cannot be thrown from punching range without stepping back first. Positioning is the continuous work of placing yourself where your techniques work and the partner techniques do not.',
+      },
+      {
+        title: 'Positioning limits the partner',
+        content:
+          'Positioning is not only about enabling your techniques but also about limiting what the partner can do. Standing at a range where their best technique does not reach, or at an angle where their guard does not cover you, denies them options. This is positioning as defense: you defend by being where they cannot reach rather than by blocking what they throw.',
+      },
+      {
+        title: 'Continuous positioning',
+        content:
+          'Positioning is not a one-time decision but a continuous adjustment. As the partner moves, the optimal position changes, and you must adjust to maintain it. This requires reading the partner, understanding range and angle, and using footwork as a continuous tool rather than only when you need to attack or retreat.',
+      },
+    ],
+
+    principles: [
+      'Position enables your techniques and limits theirs.',
+      'Positioning is a continuous adjustment, not a one-time decision.',
+      'Angle and distance combine to define position.',
+      'Footwork is the primary positioning tool.',
+    ],
+
+    mistakes: [
+      { title: 'Standing where their techniques work', explanation: 'If you position yourself at the range where the partner best techniques reach, you hand them the advantage. Move the position to where your techniques work and theirs do not.' },
+      { title: 'Positioning only when attacking', explanation: 'Positioning only when you need to attack leaves you at poor positions the rest of the time. Position continuously to maintain advantage throughout the exchange.' },
+      { title: 'Ignoring angle and focusing only on distance', explanation: 'Distance alone does not define position; angle changes what lines are covered. Consider both together.' },
+      { title: 'Static positioning against a moving partner', explanation: 'If the partner moves and you do not adjust, the position changes without your choice. Track and adjust continuously.' },
+    ],
+
+    practice: [
+      'With a partner, stand at punch range and note what techniques work for both of you.',
+      'Step back to kicking range and note how the options change.',
+      'Step to close range and note how the options change again.',
+      'Circle around the partner while maintaining the same depth and note how angle changes what is covered.',
+      'Have the partner move randomly and continuously adjust your position to maintain your preferred range and angle.',
+      'Finish by holding your chosen position for one minute against their attempts to change it.',
+    ],
+
+    reflection:
+      'During the drill, did you adjust your position continuously or only when you needed to attack? What does that reveal about how you use positioning?',
+
+    safety:
+      'Positioning drills involve continuous movement with a partner. Keep the training area clear, control your speed, and agree on no-contact rules before starting.',
+
+    quiz: [
+      {
+        question: 'How does positioning affect what techniques are possible?',
+        options: [
+          'It does not affect technique choice',
+          'It determines which techniques can reach and work effectively',
+          'It only affects speed',
+          'It only affects power',
+        ],
+        answer: 1,
+        explanation:
+          'Position determines range and angle, which determine what techniques can reach and work effectively for both you and the partner.',
+      },
+      {
+        question: 'Why is positioning considered continuous rather than a one-time decision?',
+        options: [
+          'Because you must always be moving',
+          'Because as the partner moves, the optimal position changes and must be adjusted',
+          'Because it is required by competition rules',
+          'Because it uses more energy',
+        ],
+        answer: 1,
+        explanation:
+          'As the partner moves, the optimal position for you changes, so positioning must be continuously adjusted to maintain advantage throughout the exchange.',
+      },
+    ],
+
+    mastery: [
+      'Explain how position affects technique options for both people.',
+      'Use footwork to continuously adjust position against a moving partner.',
+      'Combine distance and angle to position effectively.',
+      'Identify and correct the four common positioning errors.',
+    ],
+  },
 }
