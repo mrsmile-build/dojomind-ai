@@ -2694,4 +2694,347 @@ export const lessons = {
       'Identify and correct the four common recovery errors.',
     ],
   },
+
+  'karate-timing-understanding': {
+    id: 'karate-timing-understanding',
+    subject: 'Karate',
+    title: 'Understanding Timing',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn what timing really is: the relationship between your motion and the movement of the partner, and why being early or being late both fail while being correct succeeds.',
+
+    objectives: [
+      'Understand timing as a relationship, not as raw speed',
+      'Recognize the three basic timing windows',
+      'Feel the difference between early, late and correct',
+      'Recognize the four most common timing errors',
+      'Apply one timing window in a controlled drill',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Three windows',
+        caption:
+          'Every exchange offers moments to act. Timing is choosing the window where the commitment of the partner works for you.',
+        labels: [
+          'Before the attack begins',
+          'As the attack begins',
+          'After the attack commits and misses',
+          'Correct beats fast',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Timing is a relationship',
+        content:
+          'Timing is not how fast you move. It is the relationship between your motion and the motion of the partner. A very fast technique launched at the wrong moment fails, while a moderate technique launched at the correct moment lands cleanly. Speed only matters once the moment is right.',
+      },
+      {
+        title: 'The three windows',
+        content:
+          'Broadly there are three windows to act: before the attack begins, which pre-empts it but requires reading intent early; as the attack begins, which intercepts it while it is still forming; and after the attack commits and misses, which counters into the gap it leaves. Each window carries different risk and reward, and trained practitioners learn to recognize all three in real time.',
+      },
+      {
+        title: 'Why early and late both fail',
+        content:
+          'Acting too early reveals your intent and lets the partner change plan before you arrive. Acting too late means meeting force that has already developed. The correct window is the one where the commitment of the partner cannot be withdrawn, so their own energy becomes the reason your technique lands.',
+      },
+    ],
+
+    principles: [
+      'Timing is about when, not how fast.',
+      'The correct window makes the commitment of the partner work for you.',
+      'Patience is a timing skill, not a passive one.',
+      'Every technique has a moment it is meant to arrive.',
+    ],
+
+    mistakes: [
+      { title: 'Chasing speed instead of moment', explanation: 'Adding speed to a badly timed technique only makes the miss faster. Fix the moment first, then add speed.' },
+      { title: 'Committing before reading', explanation: 'Launching on a guess hands the exchange to the partner. Wait for a cue, then commit fully.' },
+      { title: 'Freezing while waiting', explanation: 'Waiting too long is just being late with extra tension. The window is a moment to move, not a place to hide.' },
+      { title: 'Ignoring distance', explanation: 'Timing and distance are linked. A perfect moment at the wrong range still fails, so train them together.' },
+    ],
+
+    practice: [
+      'With a partner, stand at safe distance and have them step in slowly at random moments.',
+      'Your task is to move exactly as their step begins, not before and not after.',
+      'Repeat ten times, calling out whether you were early, late or correct.',
+      'Switch roles and feel how different the three windows feel from the other side.',
+      'Add a light technique on the intercept window once the step timing is clean.',
+      'Finish by standing still and naming which window you prefer and why.',
+    ],
+
+    reflection:
+      'In your last drill, which failure showed up more often for you: moving early and revealing intent, or moving late and meeting force?',
+
+    safety:
+      'Timing drills involve a moving partner. Agree on speed and contact level before starting, and keep a safe distance until intercept timing is reliable.',
+
+    quiz: [
+      {
+        question: 'What is timing best described as?',
+        options: [
+          'Maximum speed of a technique',
+          'The relationship between your motion and the motion of the partner',
+          'The strength behind a technique',
+          'The number of techniques per second',
+        ],
+        answer: 1,
+        explanation:
+          'Timing is about when a technique arrives relative to the movement of the partner, not how fast it travels.',
+      },
+      {
+        question: 'Why does acting too early usually fail?',
+        options: [
+          'It uses too much energy',
+          'It reveals intent and lets the partner change plan',
+          'It is against the rules',
+          'It always loses balance',
+        ],
+        answer: 1,
+        explanation:
+          'An early commitment telegraphs your plan while the partner is still free to adapt, so they simply change what they were doing.',
+      },
+    ],
+
+    mastery: [
+      'Name the three timing windows and the risk of each.',
+      'Intercept a slow stepping partner at the correct window repeatedly.',
+      'Distinguish early, late and correct in your own repetitions.',
+      'Identify and correct the four common timing errors.',
+    ],
+  },
+  'karate-timing-reading': {
+    id: 'karate-timing-reading',
+    subject: 'Karate',
+    title: 'Reading Movement',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn to read the cues that announce a technique before it arrives: weight shifts, hip turns, shoulder drops and eye lines, so your timing has real information to work with.',
+
+    objectives: [
+      'Understand that most techniques are announced before they land',
+      'Recognize the primary physical cues of an incoming technique',
+      'Reduce the cues you give away in your own movement',
+      'Recognize the four most common reading errors',
+      'Train the eyes to watch center mass instead of hands',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The body announces first',
+        caption:
+          'Hands and feet are the last things to move. Weight, hips and shoulders move first, and those are the cues you learn to read.',
+        labels: [
+          'Weight shift begins the motion',
+          'Hips turn before the strike',
+          'Shoulders drop or rise',
+          'Watch center mass, not hands',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Techniques are announced',
+        content:
+          'A technique rarely appears from nothing. Before a punch extends, weight loads onto a leg; before a kick, the hip begins to turn and the center rises or shifts; before a change of direction, the shoulders tilt. These preparatory movements are the announcement. Reading them gives your timing something real to key on instead of guesswork.',
+      },
+      {
+        title: 'Where to look',
+        content:
+          'Beginners watch hands and feet, which move last and fastest, so they are always a beat behind. Trained readers watch the center: the chest, hips and weight line. From the center you can see the whole body organize, which gives an earlier and more reliable signal than any single limb.',
+      },
+      {
+        title: 'Reading yourself',
+        content:
+          'Reading is a two-way street. Every habit you have of tensing, bouncing, or loading visibly before a technique is a cue you hand to the partner. Part of training reading is training silence in your own movement: initiating without the announcement, so the information flow favors you.',
+      },
+    ],
+
+    principles: [
+      'Watch the center mass, not the fastest limb.',
+      'Weight and hips move before hands and feet.',
+      'Reduce the cues you give away in your own initiation.',
+      'Reading improves with repetition against live partners.',
+    ],
+
+    mistakes: [
+      { title: 'Watching the hands', explanation: 'Hands move last and fastest, so tracking them keeps you a beat behind. Lift your focus to chest and hips.' },
+      { title: 'Reading only one cue', explanation: 'A single cue can be faked. Confirm with two or more signals, such as weight shift plus hip turn.' },
+      { title: 'Staring instead of seeing', explanation: 'A fixed hard stare narrows vision and slows reaction. Use a soft, wide focus that takes in the whole body.' },
+      { title: 'Telegraphing your own reads', explanation: 'If you visibly prepare every time you spot a cue, you teach the partner to fake it. Keep your reaction internal until you move.' },
+    ],
+
+    practice: [
+      'With a partner, watch only their chest and hips while they perform slow random techniques.',
+      'Call out the technique before it extends, using the center cues only.',
+      'Repeat until your calls land before the limb moves, ten times.',
+      'Switch roles and notice which cues you give away when you initiate.',
+      'Practice initiating a slow technique with no visible preload, then check with the partner.',
+      'Finish with soft-focus standing, tracking the partner center for one minute.',
+    ],
+
+    reflection:
+      'Which cue did you rely on most when reading: weight shift, hip turn, or shoulder movement? Which one did you give away most in your own movement?',
+
+    safety:
+      'Reading drills use slow, controlled techniques. Keep contact off until both partners can call cues reliably at speed.',
+
+    quiz: [
+      {
+        question: 'Which part of the body gives the earliest reliable cue?',
+        options: [
+          'The hands',
+          'The feet',
+          'The center mass: chest, hips and weight line',
+          'The eyes only',
+        ],
+        answer: 2,
+        explanation:
+          'The center organizes the whole body first, so watching chest, hips and weight gives an earlier signal than any single limb.',
+      },
+      {
+        question: 'Why is watching the hands a poor reading habit?',
+        options: [
+          'Hands are too small to see',
+          'Hands move last and fastest, keeping you a beat behind',
+          'Hands never move first in any technique',
+          'It is considered rude',
+        ],
+        answer: 1,
+        explanation:
+          'Because hands and feet are the final and fastest part of a technique, tracking them means reacting after the motion is already underway.',
+      },
+    ],
+
+    mastery: [
+      'Call a slow partner technique before it extends using center cues.',
+      'Name at least three physical cues that announce an incoming technique.',
+      'Initiate a technique with minimal visible preload.',
+      'Identify and correct the four common reading errors.',
+    ],
+  },
+  'karate-timing-openings': {
+    id: 'karate-timing-openings',
+    subject: 'Karate',
+    title: 'Creating Openings',
+    level: 'Intermediate',
+    duration: '12 min',
+
+    description:
+      'Learn that openings are usually made rather than found: using feints, draws, pressure and rhythm breaks to force the partner to reveal a line you can use.',
+
+    objectives: [
+      'Understand the difference between finding and creating an opening',
+      'Use a feint to draw a reaction and expose a line',
+      'Apply pressure and angle to force a mistake',
+      'Recognize the four most common opening-creation errors',
+      'Connect an created opening to a follow-up technique',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Make the gap, then use it',
+        caption:
+          'An opening is a moment the guard is elsewhere. You can wait for it, or you can move the guard there yourself.',
+        labels: [
+          'Feint draws the guard away',
+          'Pressure forces a response',
+          'Angle reveals a new line',
+          'Follow-up travels the opened line',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Found versus made',
+        content:
+          'A passive fighter waits for the partner to make a mistake and hopes an opening appears. An active fighter creates one: by threatening a line so the guard moves, by applying pressure so the structure breaks, or by changing angle so a covered line becomes open. Waiting is sometimes correct, but creation is a skill you can rely on.',
+      },
+      {
+        title: 'The feint and the draw',
+        content:
+          'A feint is a committed-looking threat that is not the real technique. It asks a question the body must answer: a twitch of the guard, a shift of weight, a block that goes to the wrong line. The answer reveals what is now unprotected, and the real technique travels there. A draw is the same idea in reverse: you expose a line on purpose so the partner attacks it, into a prepared response.',
+      },
+      {
+        title: 'Pressure and angle',
+        content:
+          'Steady forward pressure forces the partner to spend attention on not being backed up, which degrades their guard and reading. Changing angle, even slightly, moves you off the line their guard covers and opens a new one without any technique at all. Pressure and angle are the quiet tools that set up the loud ones.',
+      },
+    ],
+
+    principles: [
+      'An opening is a moment the guard is elsewhere.',
+      'A feint must look real enough to force an answer.',
+      'Pressure and angle create openings without contact.',
+      'Every created opening needs a prepared follow-up.',
+    ],
+
+    mistakes: [
+      { title: 'Feinting without a follow-up', explanation: 'A feint that is not connected to a real technique wastes the reaction it bought. Decide the follow-up before you feint.' },
+      { title: 'Feinting too subtly', explanation: 'If the threat does not look real, the partner ignores it and nothing opens. Commit enough to force an answer, stay balanced enough to redirect.' },
+      { title: 'Attacking the guard instead of the gap', explanation: 'Once the guard moves, the target is where it is not. Hitting the moving guard wastes the created opening.' },
+      { title: 'Creating without reading', explanation: 'If you do not watch for the reaction your feint caused, you cannot use it. Creation and reading are one loop.' },
+    ],
+
+    practice: [
+      'With a partner, feint a high punch and watch which way their guard moves.',
+      'Immediately follow to the line their guard left, at controlled speed.',
+      'Repeat ten times, varying the feint line: high, low, inside, outside.',
+      'Practice steady forward pressure for three steps, then note what the partner did.',
+      'Change angle by one step and have the partner confirm a new line opened.',
+      'Combine: pressure, feint, follow-up, in one controlled sequence.',
+    ],
+
+    reflection:
+      'In your last round, did you wait for openings or create them? What did the partner do when you applied pressure without attacking?',
+
+    safety:
+      'Feint and draw drills invite real reactions, so keep contact controlled and agreed. Draws that expose a line on purpose require a trusted partner at agreed speed.',
+
+    quiz: [
+      {
+        question: 'What is a feint designed to do?',
+        options: [
+          'Score a point on its own',
+          'Force a reaction that reveals an unprotected line',
+          'Tire out the partner',
+          'Replace the need for footwork',
+        ],
+        answer: 1,
+        explanation:
+          'A feint is a credible threat that buys a reaction; the reaction shows what is now open for the real technique.',
+      },
+      {
+        question: 'How do pressure and angle create openings?',
+        options: [
+          'They make the partner tired immediately',
+          'They move attention and guard, revealing lines without contact',
+          'They increase your striking power',
+          'They slow the partner down permanently',
+        ],
+        answer: 1,
+        explanation:
+          'Pressure spends the partner attention on not being backed up, and angle moves you off the covered line, both opening targets without any strike.',
+      },
+    ],
+
+    mastery: [
+      'Draw a guard reaction with a feint and follow to the opened line.',
+      'Use pressure or angle to create an opening without contact.',
+      'Connect every created opening to a prepared follow-up.',
+      'Identify and correct the four common opening-creation errors.',
+    ],
+  },
 }
