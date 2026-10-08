@@ -3862,4 +3862,1831 @@ export const lessons = {
       'Identify and correct the four common positioning errors.',
     ],
   },
+
+  'karate-self-defense-principles': {
+    id: 'karate-self-defense-principles',
+    subject: 'Karate',
+    title: 'Self-Defense Principles',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn the foundation of real self-defense: awareness, de-escalation, escape, and using technique only as the last resort when violence is unavoidable.',
+
+    objectives: [
+      'Understand that self-defense begins long before physical contact',
+      'Recognize the priority: avoid, de-escalate, escape, then technique',
+      'Apply awareness to recognize threats before they materialize',
+      'Understand reasonable force and legal context',
+      'Recognize the four most common self-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The self-defense pyramid',
+        caption:
+          'Self-defense is built on a foundation of awareness, not technique. The higher you are in the pyramid, the better your outcome.',
+        labels: [
+          'Awareness prevents most threats',
+          'De-escalation defuses many',
+          'Escape resolves most',
+          'Technique is the last resort',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Awareness is the first line',
+        content:
+          'The best self-defense happens before any confrontation: noticing a situation developing, recognizing body language and environment, and avoiding the area or person entirely. Awareness is not paranoia; it is calm, continuous observation of your surroundings. Most threats can be avoided by someone who is aware, because the aware person never enters the dangerous situation in the first place.',
+      },
+      {
+        title: 'De-escalation and escape',
+        content:
+          'If avoidance fails and a confrontation begins, the next tools are verbal de-escalation and creating opportunity to escape. Calm tone, open hands, stepping back, and agreeing with provocations can defuse many situations. The goal is not to win the argument but to create the space and time to leave. Every self-defense curriculum teaches that the fight you win is the one you never have.',
+      },
+      {
+        title: 'Technique as the last resort',
+        content:
+          'Physical technique is reserved for when avoidance, de-escalation, and escape have all failed and violence is unavoidable. At that point, technique must be decisive, efficient, and aimed at creating the opportunity to escape, not at winning a fight or punishing the attacker. Reasonable force means using only what is necessary to end the threat and escape; excess force creates legal and ethical problems.',
+      },
+    ],
+
+    principles: [
+      'Awareness prevents more threats than technique ever will.',
+      'De-escalation and escape are always preferable to fighting.',
+      'Technique is the last resort, used only when violence is unavoidable.',
+      'Reasonable force means using only what is necessary to escape.',
+    ],
+
+    mistakes: [
+      { title: 'Relying on technique instead of awareness', explanation: 'Technique cannot save you from a threat you never saw coming. Train awareness first, always.' },
+      { title: 'Fighting to win instead of fighting to escape', explanation: 'The goal of self-defense is escape, not victory. Once you have created the opening to leave, take it.' },
+      { title: 'Excessive force', explanation: 'Using more force than necessary to escape creates legal liability and ethical problems. Use only what the situation requires.' },
+      { title: 'Ignoring de-escalation', explanation: 'Many confrontations can be defused verbally. Skipping de-escalation to jump to fighting escalates situations unnecessarily.' },
+    ],
+
+    practice: [
+      'Walk through a public space and note three exits and three potential threats without looking suspicious.',
+      'Practice verbal de-escalation phrases in a mirror until they sound natural.',
+      'With a partner, role-play a confrontation where your goal is to de-escalate and create an exit.',
+      'Practice creating distance and escaping from a grab or hold.',
+      'Review the principles after each training session and note where you applied them.',
+    ],
+
+    reflection:
+      'In your daily life, how aware are you of your surroundings? When was the last time you noticed a potential threat and avoided it without physical confrontation?',
+
+    safety:
+      'Self-defense training must be supervised by qualified instructors. Never use excessive force. Local laws regarding self-defense vary; understand your legal context. The goal is always escape, not injury to the attacker.',
+
+    quiz: [
+      {
+        question: 'What is the first and most effective line of self-defense?',
+        options: [
+          'Physical technique',
+          'Verbal de-escalation',
+          'Awareness and avoidance',
+          'Calling for help',
+        ],
+        answer: 2,
+        explanation:
+          'Awareness and avoidance prevent most threats before they materialize. You cannot be attacked if you never enter the dangerous situation.',
+      },
+      {
+        question: 'What is the goal of physical self-defense technique?',
+        options: [
+          'To defeat the attacker completely',
+          'To create the opportunity to escape',
+          'To punish the attacker',
+          'To win the confrontation',
+        ],
+        answer: 1,
+        explanation:
+          'Physical technique is used only to create the opening to escape. Once you can leave, you leave. The goal is not victory but safety.',
+      },
+    ],
+
+    mastery: [
+      'Explain the self-defense pyramid and why awareness comes first.',
+      'Demonstrate verbal de-escalation in a role-play scenario.',
+      'Create distance and escape from a grab or hold.',
+      'Identify and correct the four common self-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'You notice a group of aggressive people ahead on the sidewalk.',
+          action: 'You cross the street or change your route to avoid them entirely, never entering their area.',
+          why: 'Awareness and avoidance prevent the confrontation from ever happening. You cannot be attacked if you are not there.',
+        },
+        {
+          setup: 'Someone confronts you verbally and escalates.',
+          action: 'You use calm tone, open hands, and agree with their provocations while stepping back and looking for an exit.',
+          why: 'De-escalation and creating distance defuse many situations without violence, preserving everyone safety.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Self-defense begins with awareness and ends with escape; technique is only the bridge between them when escape is blocked.' },
+        { role: 'Facing it', detail: 'An aware, calm person who de-escalates is hard to escalate against; their calm often defuses the aggressor anger.' },
+      ],
+      adaptation: {
+        cues: [
+          'Aggressive body language and tone',
+          'Multiple people positioning around you',
+          'Your own fear or anger rising',
+        ],
+        adjustments: [
+          { if: 'You can avoid the situation', then: 'Leave immediately; do not engage.' },
+          { if: 'You are already confronted', then: 'De-escalate verbally while creating distance and looking for escape routes.' },
+        ],
+        learning: 'After each day, note one situation you avoided through awareness and one you de-escalated or escaped from.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Awareness Scan',
+      initialTime: 60,
+    },
+  },
+  'karate-self-defense-against-knife': {
+    id: 'karate-self-defense-against-knife',
+    subject: 'Karate',
+    title: 'Against a Knife',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn the harsh reality of knife defense: escape is almost always the only winning option, and technique exists only to create the moment to run.',
+
+    objectives: [
+      'Understand why knife defense is almost always about escape',
+      'Recognize the reality: you will likely be cut if attacked with a knife',
+      'Learn to control the weapon arm and create distance',
+      'Understand the priority: escape immediately',
+      'Recognize the four most common knife-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Knife defense reality',
+        caption:
+          'Against a knife, escape is the only winning option. Technique exists only to create the moment to run.',
+        labels: [
+          'You will likely be cut',
+          'Control the weapon arm',
+          'Create distance immediately',
+          'Escape is the only victory',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The reality of knife attacks',
+        content:
+          'Knife attacks are fast, chaotic, and almost always result in the defender being cut, even if they escape. Movies and myths create false confidence; reality is that knife defense is about damage limitation and escape, not disarming the attacker. The only winning move against a knife is not to be there, which is why awareness and avoidance are paramount.',
+      },
+      {
+        title: 'Control the weapon arm',
+        content:
+          'If escape is not immediately possible and you must engage, the priority is controlling the weapon arm to prevent it from stabbing or cutting you repeatedly. This means grabbing the wrist or forearm and directing the blade away from your vital areas while you create distance. This is not a permanent solution; it is a bridge to escape.',
+      },
+      {
+        title: 'Escape immediately',
+        content:
+          'The moment you have created any opening, you escape. You do not stay to fight, disarm, or punish the attacker. You run. Every second you remain engaged increases the chance of being cut or stabbed. The goal is to end the engagement, not to win it.',
+      },
+    ],
+
+    principles: [
+      'Escape is the only winning option against a knife.',
+      'You will likely be cut even if you escape successfully.',
+      'Control the weapon arm only to create distance.',
+      'Every second engaged increases the risk of serious injury.',
+    ],
+
+    mistakes: [
+      { title: 'Trying to disarm the attacker', explanation: 'Disarming a knife attacker is extremely difficult and dangerous. Focus on escape, not disarming.' },
+      { title: 'Staying to fight after creating an opening', explanation: 'Every second you remain engaged increases the chance of being cut. Escape immediately when you have an opening.' },
+      { title: 'Ignoring the reality of cuts', explanation: 'You will likely be cut even with perfect technique. Accept this and focus on escaping rather than avoiding all contact.' },
+      { title: 'Overcomplicating the response', explanation: 'Knife attacks are fast and chaotic. Simple, direct actions (control arm, create distance, escape) are more reliable than complex techniques.' },
+    ],
+
+    practice: [
+      'With a partner using a rubber training knife, practice creating distance and escaping.',
+      'Practice controlling the weapon arm and directing it away from your body.',
+      'Role-play scenarios where you must escape immediately after creating an opening.',
+      'Review the reality of knife attacks and accept that you will likely be cut.',
+      'Practice awareness and avoidance to prevent knife situations from occurring.',
+    ],
+
+    reflection:
+      'Have you accepted that knife defense is about damage limitation and escape, not about winning or disarming? How does that change your approach to training?',
+
+    safety:
+      'Knife defense training must use rubber or padded training knives only. Never use live blades. Train with qualified instructors only. Expect to be cut in a real knife attack; focus on escape, not avoiding all contact.',
+
+    quiz: [
+      {
+        question: 'What is the only winning option against a knife attack?',
+        options: [
+          'Disarming the attacker',
+          'Defeating the attacker',
+          'Escaping immediately',
+          'Controlling the weapon',
+        ],
+        answer: 2,
+        explanation:
+          'Escape is the only winning option against a knife. Every second engaged increases the risk of being cut or stabbed.',
+      },
+      {
+        question: 'Why is knife defense about damage limitation rather than winning?',
+        options: [
+          'Because knives are illegal',
+          'Because you will likely be cut even with perfect technique',
+          'Because knife attacks are rare',
+          'Because knives are slow weapons',
+        ],
+        answer: 1,
+        explanation:
+          'Knife attacks are fast and chaotic. Even with perfect technique, you will likely be cut. The goal is to escape with minimal injury, not to avoid all contact.',
+      },
+    ],
+
+    mastery: [
+      'Explain why escape is the only winning option against a knife.',
+      'Demonstrate controlling the weapon arm and creating distance.',
+      'Escape immediately after creating an opening in a drill.',
+      'Identify and correct the four common knife-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker draws a knife and advances toward you.',
+          action: 'You create distance immediately, looking for escape routes while keeping the attacker in view.',
+          why: 'Distance is your best defense against a knife. The more distance, the more time you have to escape.',
+        },
+        {
+          setup: 'You are too close to escape and the attacker thrusts the knife.',
+          action: 'You control the weapon arm, directing the blade away from your body while you create distance and escape.',
+          why: 'Controlling the weapon arm prevents immediate stabbing while you create the opening to escape.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a knife, you control the weapon arm only to create distance, then escape immediately. You will likely be cut even with perfect technique.' },
+        { role: 'Facing it', detail: 'A knife attacker has a decisive advantage; the only winning response is escape, not engagement.' },
+      ],
+      adaptation: {
+        cues: [
+          'The attacker drawing or displaying a knife',
+          'The distance between you and the attacker',
+          'Available escape routes in your environment',
+        ],
+        adjustments: [
+          { if: 'You have distance', then: 'Maintain it and escape immediately.' },
+          { if: 'You are too close to escape', then: 'Control the weapon arm, create distance, then escape.' },
+        ],
+        learning: 'After each drill, note whether you escaped immediately or stayed engaged, and what that taught you about the reality of knife defense.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Escape Drills',
+      targetReps: 10,
+    },
+  },
+  'karate-self-defense-against-stick': {
+    id: 'karate-self-defense-against-stick',
+    subject: 'Karate',
+    title: 'Against a Stick or Blunt Weapon',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn to defend against blunt weapons: control the weapon, close the distance, and escape or neutralize the threat while minimizing damage.',
+
+    objectives: [
+      'Understand the danger of blunt weapons and their reach advantage',
+      'Learn to close distance to negate the reach advantage',
+      'Control the weapon and the weapon arm',
+      'Understand when to escape versus when to neutralize',
+      'Recognize the four most common blunt-weapon-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Closing the distance',
+        caption:
+          'Blunt weapons have a reach advantage. Close the distance to negate that advantage and control the weapon.',
+        labels: [
+          'Blunt weapons have reach',
+          'Close the distance quickly',
+          'Control the weapon arm',
+          'Escape or neutralize',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The reach advantage',
+        content:
+          'Blunt weapons like sticks, bats, or pipes give the attacker a significant reach advantage. They can strike you from a distance where you cannot reach them. The solution is to close that distance quickly and decisively, moving inside their effective range where the weapon is less effective.',
+      },
+      {
+        title: 'Controlling the weapon',
+        content:
+          'Once inside their range, control the weapon and the weapon arm to prevent them from striking you. This may mean grabbing the weapon itself, controlling the wrist, or using your body to limit their movement. The goal is to prevent them from using the weapon effectively while you decide whether to escape or neutralize the threat.',
+      },
+      {
+        title: 'Escape or neutralize',
+        content:
+          'Once you have controlled the weapon, you have two options: escape immediately if you can do so safely, or neutralize the threat if escape is not possible. Neutralization means rendering the attacker unable to continue the attack, which may involve controlling them until help arrives or creating a situation where they cannot pursue. The choice depends on the situation and your ability to escape safely.',
+      },
+    ],
+
+    principles: [
+      'Close the distance to negate the reach advantage.',
+      'Control the weapon and the weapon arm immediately.',
+      'Escape if you can do so safely; neutralize if you cannot.',
+      'Blunt weapons can cause serious injury even without penetration.',
+    ],
+
+    mistakes: [
+      { title: 'Staying at their effective range', explanation: 'If you stay at the distance where they can strike you with the weapon, you will be hit repeatedly. Close the distance quickly.' },
+      { title: 'Not controlling the weapon', explanation: 'If you do not control the weapon, they can continue striking you. Control the weapon or the weapon arm immediately.' },
+      { title: 'Staying engaged when escape is possible', explanation: 'If you can escape safely, do so immediately. Staying engaged increases your risk of injury.' },
+      { title: 'Underestimating blunt force', explanation: 'Blunt weapons can cause serious injury, including broken bones and concussions, even without penetration. Treat them with the same seriousness as edged weapons.' },
+    ],
+
+    practice: [
+      'With a partner using a padded stick, practice closing the distance quickly.',
+      'Practice controlling the weapon and the weapon arm once inside.',
+      'Role-play scenarios where you must decide whether to escape or neutralize.',
+      'Practice creating distance and escaping after controlling the weapon.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+
+    reflection:
+      'In your training, do you close the distance decisively, or do you hesitate at the edge of their range? What does that hesitation teach you about real confrontations?',
+
+    safety:
+      'Blunt weapon defense training must use padded sticks only. Train with qualified instructors only. Blunt weapons can cause serious injury; treat them with respect.',
+
+    quiz: [
+      {
+        question: 'Why is closing the distance important against a blunt weapon?',
+        options: [
+          'To strike the attacker more effectively',
+          'To negate their reach advantage',
+          'To intimidate them',
+          'To show courage',
+        ],
+        answer: 1,
+        explanation:
+          'Blunt weapons have a reach advantage. Closing the distance moves you inside their effective range, where the weapon is less effective.',
+      },
+      {
+        question: 'What are your two options after controlling the weapon?',
+        options: [
+          'Fight or flee',
+          'Escape or neutralize',
+          'Win or lose',
+          'Attack or defend',
+        ],
+        answer: 1,
+        explanation:
+          'After controlling the weapon, you can escape if you can do so safely, or neutralize the threat if escape is not possible. The choice depends on the situation.',
+      },
+    ],
+
+    mastery: [
+      'Explain why closing the distance is important against blunt weapons.',
+      'Demonstrate closing distance and controlling the weapon.',
+      'Make the correct decision (escape or neutralize) in a drill.',
+      'Identify and correct the four common blunt-weapon-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker swings a stick at you from a distance.',
+          action: 'You close the distance quickly, moving inside their effective range where the stick is less effective.',
+          why: 'Closing the distance negates their reach advantage and puts you in a position to control the weapon.',
+        },
+        {
+          setup: 'You have closed the distance and grabbed the weapon.',
+          action: 'You control the weapon and the weapon arm, then decide whether to escape or neutralize the threat.',
+          why: 'Controlling the weapon prevents them from striking you while you make your decision.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a blunt weapon, close the distance quickly to negate their reach advantage, then control the weapon and escape or neutralize.' },
+        { role: 'Facing it', detail: 'A blunt weapon attacker relies on reach; if you close the distance, their advantage disappears.' },
+      ],
+      adaptation: {
+        cues: [
+          'The attacker displaying a blunt weapon',
+          'The distance between you and the attacker',
+          'Your ability to close the distance safely',
+        ],
+        adjustments: [
+          { if: 'You have distance and can close it', then: 'Close the distance quickly and decisively.' },
+          { if: 'You cannot close the distance safely', then: 'Create distance and escape if possible.' },
+        ],
+        learning: 'After each drill, note whether you closed the distance decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Close-Distance Drills',
+      targetReps: 10,
+    },
+  },
+  'karate-self-defense-against-grabs': {
+    id: 'karate-self-defense-against-grabs',
+    subject: 'Karate',
+    title: 'Against Grabs and Holds',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn to escape from grabs and holds: use leverage, structure, and technique to break free and create distance for escape.',
+
+    objectives: [
+      'Understand the principles of escaping from grabs and holds',
+      'Learn to use leverage and structure to break free',
+      'Apply specific techniques for common grabs (wrist, arm, bear hug)',
+      'Create distance and escape immediately after breaking free',
+      'Recognize the four most common grab-escape errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Breaking free from grabs',
+        caption:
+          'Grabs and holds can be escaped using leverage, structure, and technique. Break free and escape immediately.',
+        labels: [
+          'Use leverage and structure',
+          'Break the grip decisively',
+          'Create distance immediately',
+          'Escape before they can re-grab',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Principles of escaping grabs',
+        content:
+          'Grabs and holds are attempts to control you. Escaping them requires breaking the grip using leverage and structure, then creating distance immediately before the attacker can re-grab or escalate. The key is decisiveness: half-hearted attempts fail, while decisive actions succeed.',
+      },
+      {
+        title: 'Using leverage and structure',
+        content:
+          'Grabs can be broken by using leverage (twisting, pulling against the thumb, using body weight) and structure (maintaining your stance, using your whole body rather than just your arm). The goal is to break the grip efficiently, not to fight strength with strength.',
+      },
+      {
+        title: 'Creating distance and escaping',
+        content:
+          'Once you have broken the grab, create distance immediately. Do not stay to fight or punish the attacker. Escape to safety. Every second you remain engaged increases the risk of being re-grabbed or escalated to a more serious attack.',
+      },
+    ],
+
+    principles: [
+      'Break the grip decisively using leverage and structure.',
+      'Create distance immediately after breaking free.',
+      'Escape before they can re-grab or escalate.',
+      'Use your whole body, not just your arm, to break the grip.',
+    ],
+
+    mistakes: [
+      { title: 'Half-hearted attempts to break the grip', explanation: 'If you do not commit fully to breaking the grip, you will not succeed. Be decisive.' },
+      { title: 'Fighting strength with strength', explanation: 'Trying to pull away with arm strength alone is inefficient. Use leverage and your whole body.' },
+      { title: 'Staying engaged after breaking free', explanation: 'Once you have broken the grab, create distance and escape. Staying engaged increases your risk.' },
+      { title: 'Not practicing specific techniques', explanation: 'Different grabs require different techniques. Practice specific escapes for common grabs (wrist, arm, bear hug).' },
+    ],
+
+    practice: [
+      'Practice wrist grab escapes using leverage and structure.',
+      'Practice arm grab escapes using body weight and twisting.',
+      'Practice bear hug escapes using elbows, knees, and dropping your weight.',
+      'Role-play scenarios where you must break free and escape immediately.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+
+    reflection:
+      'In your training, do you break grips decisively, or do you hesitate and fight strength with strength? What does that teach you about real confrontations?',
+
+    safety:
+      'Grab escape training must be supervised by qualified instructors. Practice with cooperative partners at controlled speeds. Never use excessive force.',
+
+    quiz: [
+      {
+        question: 'What is the key to breaking a grab decisively?',
+        options: [
+          'Using arm strength',
+          'Using leverage and structure',
+          'Pulling away quickly',
+          'Fighting back harder',
+        ],
+        answer: 1,
+        explanation:
+          'Grabs are broken using leverage and structure, not arm strength. Use your whole body and efficient technique.',
+      },
+      {
+        question: 'What should you do immediately after breaking a grab?',
+        options: [
+          'Stay and fight',
+          'Create distance and escape',
+          'Punish the attacker',
+          'Wait to see what happens',
+        ],
+        answer: 1,
+        explanation:
+          'After breaking a grab, create distance and escape immediately. Staying engaged increases your risk of being re-grabbed or escalated.',
+      },
+    ],
+
+    mastery: [
+      'Explain the principles of escaping grabs using leverage and structure.',
+      'Demonstrate escaping from wrist, arm, and bear hug grabs.',
+      'Create distance and escape immediately after breaking free.',
+      'Identify and correct the four common grab-escape errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker grabs your wrist from the front.',
+          action: 'You twist your arm to break the grip using leverage, then create distance and escape.',
+          why: 'Twisting breaks the grip efficiently using leverage rather than strength, and creating distance prevents re-grabbing.',
+        },
+        {
+          setup: 'An attacker grabs you from behind in a bear hug.',
+          action: 'You drop your weight, use your elbows to strike, and break free, then create distance and escape.',
+          why: 'Dropping your weight and using your whole body breaks the hold more effectively than arm strength alone.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Escape grabs using leverage and structure, then create distance and escape immediately. Do not stay to fight.' },
+        { role: 'Facing it', detail: 'A grabbed person who breaks free decisively and escapes is hard to hold; hesitation allows the grab to escalate.' },
+      ],
+      adaptation: {
+        cues: [
+          'The type of grab (wrist, arm, bear hug, etc.)',
+          'The direction of the grab (front, side, behind)',
+          'Your ability to break free and escape',
+        ],
+        adjustments: [
+          { if: 'You can break free and escape', then: 'Do so immediately and decisively.' },
+          { if: 'You cannot break free easily', then: 'Use more leverage, drop your weight, or strike to create an opening.' },
+        ],
+        learning: 'After each drill, note whether you broke free decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Grab Escape Drills',
+      targetReps: 20,
+    },
+  },
+
+  'karate-self-defense-principles': {
+    id: 'karate-self-defense-principles',
+    subject: 'Karate',
+    title: 'Self-Defense Principles',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn the foundation of real self-defense: awareness, de-escalation, escape, and using technique only as the last resort when violence is unavoidable.',
+
+    objectives: [
+      'Understand that self-defense begins long before physical contact',
+      'Recognize the priority: avoid, de-escalate, escape, then technique',
+      'Apply awareness to recognize threats before they materialize',
+      'Understand reasonable force and legal context',
+      'Recognize the four most common self-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The self-defense pyramid',
+        caption:
+          'Self-defense is built on a foundation of awareness, not technique. The higher you are in the pyramid, the better your outcome.',
+        labels: [
+          'Awareness prevents most threats',
+          'De-escalation defuses many',
+          'Escape resolves most',
+          'Technique is the last resort',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Awareness is the first line',
+        content:
+          'The best self-defense happens before any confrontation: noticing a situation developing, recognizing body language and environment, and avoiding the area or person entirely. Awareness is not paranoia; it is calm, continuous observation of your surroundings. Most threats can be avoided by someone who is aware, because the aware person never enters the dangerous situation in the first place.',
+      },
+      {
+        title: 'De-escalation and escape',
+        content:
+          'If avoidance fails and a confrontation begins, the next tools are verbal de-escalation and creating opportunity to escape. Calm tone, open hands, stepping back, and agreeing with provocations can defuse many situations. The goal is not to win the argument but to create the space and time to leave. Every self-defense curriculum teaches that the fight you win is the one you never have.',
+      },
+      {
+        title: 'Technique as the last resort',
+        content:
+          'Physical technique is reserved for when avoidance, de-escalation, and escape have all failed and violence is unavoidable. At that point, technique must be decisive, efficient, and aimed at creating the opportunity to escape, not at winning a fight or punishing the attacker. Reasonable force means using only what is necessary to end the threat and escape; excess force creates legal and ethical problems.',
+      },
+    ],
+
+    principles: [
+      'Awareness prevents more threats than technique ever will.',
+      'De-escalation and escape are always preferable to fighting.',
+      'Technique is the last resort, used only when violence is unavoidable.',
+      'Reasonable force means using only what is necessary to escape.',
+    ],
+
+    mistakes: [
+      { title: 'Relying on technique instead of awareness', explanation: 'Technique cannot save you from a threat you never saw coming. Train awareness first, always.' },
+      { title: 'Fighting to win instead of fighting to escape', explanation: 'The goal of self-defense is escape, not victory. Once you have created the opening to leave, take it.' },
+      { title: 'Excessive force', explanation: 'Using more force than necessary to escape creates legal liability and ethical problems. Use only what the situation requires.' },
+      { title: 'Ignoring de-escalation', explanation: 'Many confrontations can be defused verbally. Skipping de-escalation to jump to fighting escalates situations unnecessarily.' },
+    ],
+
+    practice: [
+      'Walk through a public space and note three exits and three potential threats without looking suspicious.',
+      'Practice verbal de-escalation phrases in a mirror until they sound natural.',
+      'With a partner, role-play a confrontation where your goal is to de-escalate and create an exit.',
+      'Practice creating distance and escaping from a grab or hold.',
+      'Review the principles after each training session and note where you applied them.',
+    ],
+
+    reflection:
+      'In your daily life, how aware are you of your surroundings? When was the last time you noticed a potential threat and avoided it without physical confrontation?',
+
+    safety:
+      'Self-defense training must be supervised by qualified instructors. Never use excessive force. Local laws regarding self-defense vary; understand your legal context. The goal is always escape, not injury to the attacker.',
+
+    quiz: [
+      {
+        question: 'What is the first and most effective line of self-defense?',
+        options: [
+          'Physical technique',
+          'Verbal de-escalation',
+          'Awareness and avoidance',
+          'Calling for help',
+        ],
+        answer: 2,
+        explanation:
+          'Awareness and avoidance prevent most threats before they materialize. You cannot be attacked if you never enter the dangerous situation.',
+      },
+      {
+        question: 'What is the goal of physical self-defense technique?',
+        options: [
+          'To defeat the attacker completely',
+          'To create the opportunity to escape',
+          'To punish the attacker',
+          'To win the confrontation',
+        ],
+        answer: 1,
+        explanation:
+          'Physical technique is used only to create the opening to escape. Once you can leave, you leave. The goal is not victory but safety.',
+      },
+    ],
+
+    mastery: [
+      'Explain the self-defense pyramid and why awareness comes first.',
+      'Demonstrate verbal de-escalation in a role-play scenario.',
+      'Create distance and escape from a grab or hold.',
+      'Identify and correct the four common self-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'You notice a group of aggressive people ahead on the sidewalk.',
+          action: 'You cross the street or change your route to avoid them entirely, never entering their area.',
+          why: 'Awareness and avoidance prevent the confrontation from ever happening. You cannot be attacked if you are not there.',
+        },
+        {
+          setup: 'Someone confronts you verbally and escalates.',
+          action: 'You use calm tone, open hands, and agree with their provocations while stepping back and looking for an exit.',
+          why: 'De-escalation and creating distance defuse many situations without violence, preserving everyone safety.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Self-defense begins with awareness and ends with escape; technique is only the bridge between them when escape is blocked.' },
+        { role: 'Facing it', detail: 'An aware, calm person who de-escalates is hard to escalate against; their calm often defuses the aggressor anger.' },
+      ],
+      adaptation: {
+        cues: [
+          'Aggressive body language and tone',
+          'Multiple people positioning around you',
+          'Your own fear or anger rising',
+        ],
+        adjustments: [
+          { if: 'You can avoid the situation', then: 'Leave immediately; do not engage.' },
+          { if: 'You are already confronted', then: 'De-escalate verbally while creating distance and looking for escape routes.' },
+        ],
+        learning: 'After each day, note one situation you avoided through awareness and one you de-escalated or escaped from.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Awareness Scan',
+      initialTime: 60,
+    },
+  },
+  'karate-self-defense-against-knife': {
+    id: 'karate-self-defense-against-knife',
+    subject: 'Karate',
+    title: 'Against a Knife',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn the harsh reality of knife defense: escape is almost always the only winning option, and technique exists only to create the moment to run.',
+
+    objectives: [
+      'Understand why knife defense is almost always about escape',
+      'Recognize the reality: you will likely be cut if attacked with a knife',
+      'Learn to control the weapon arm and create distance',
+      'Understand the priority: escape immediately',
+      'Recognize the four most common knife-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Knife defense reality',
+        caption:
+          'Against a knife, escape is the only winning option. Technique exists only to create the moment to run.',
+        labels: [
+          'You will likely be cut',
+          'Control the weapon arm',
+          'Create distance immediately',
+          'Escape is the only victory',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The reality of knife attacks',
+        content:
+          'Knife attacks are fast, chaotic, and almost always result in the defender being cut, even if they escape. Movies and myths create false confidence; reality is that knife defense is about damage limitation and escape, not disarming the attacker. The only winning move against a knife is not to be there, which is why awareness and avoidance are paramount.',
+      },
+      {
+        title: 'Control the weapon arm',
+        content:
+          'If escape is not immediately possible and you must engage, the priority is controlling the weapon arm to prevent it from stabbing or cutting you repeatedly. This means grabbing the wrist or forearm and directing the blade away from your vital areas while you create distance. This is not a permanent solution; it is a bridge to escape.',
+      },
+      {
+        title: 'Escape immediately',
+        content:
+          'The moment you have created any opening, you escape. You do not stay to fight, disarm, or punish the attacker. You run. Every second you remain engaged increases the chance of being cut or stabbed. The goal is to end the engagement, not to win it.',
+      },
+    ],
+
+    principles: [
+      'Escape is the only winning option against a knife.',
+      'You will likely be cut even if you escape successfully.',
+      'Control the weapon arm only to create distance.',
+      'Every second engaged increases the risk of serious injury.',
+    ],
+
+    mistakes: [
+      { title: 'Trying to disarm the attacker', explanation: 'Disarming a knife attacker is extremely difficult and dangerous. Focus on escape, not disarming.' },
+      { title: 'Staying to fight after creating an opening', explanation: 'Every second you remain engaged increases the chance of being cut. Escape immediately when you have an opening.' },
+      { title: 'Ignoring the reality of cuts', explanation: 'You will likely be cut even with perfect technique. Accept this and focus on escaping rather than avoiding all contact.' },
+      { title: 'Overcomplicating the response', explanation: 'Knife attacks are fast and chaotic. Simple, direct actions (control arm, create distance, escape) are more reliable than complex techniques.' },
+    ],
+
+    practice: [
+      'With a partner using a rubber training knife, practice creating distance and escaping.',
+      'Practice controlling the weapon arm and directing it away from your body.',
+      'Role-play scenarios where you must escape immediately after creating an opening.',
+      'Review the reality of knife attacks and accept that you will likely be cut.',
+      'Practice awareness and avoidance to prevent knife situations from occurring.',
+    ],
+
+    reflection:
+      'Have you accepted that knife defense is about damage limitation and escape, not about winning or disarming? How does that change your approach to training?',
+
+    safety:
+      'Knife defense training must use rubber or padded training knives only. Never use live blades. Train with qualified instructors only. Expect to be cut in a real knife attack; focus on escape, not avoiding all contact.',
+
+    quiz: [
+      {
+        question: 'What is the only winning option against a knife attack?',
+        options: [
+          'Disarming the attacker',
+          'Defeating the attacker',
+          'Escaping immediately',
+          'Controlling the weapon',
+        ],
+        answer: 2,
+        explanation:
+          'Escape is the only winning option against a knife. Every second engaged increases the risk of being cut or stabbed.',
+      },
+      {
+        question: 'Why is knife defense about damage limitation rather than winning?',
+        options: [
+          'Because knives are illegal',
+          'Because you will likely be cut even with perfect technique',
+          'Because knife attacks are rare',
+          'Because knives are slow weapons',
+        ],
+        answer: 1,
+        explanation:
+          'Knife attacks are fast and chaotic. Even with perfect technique, you will likely be cut. The goal is to escape with minimal injury, not to avoid all contact.',
+      },
+    ],
+
+    mastery: [
+      'Explain why escape is the only winning option against a knife.',
+      'Demonstrate controlling the weapon arm and creating distance.',
+      'Escape immediately after creating an opening in a drill.',
+      'Identify and correct the four common knife-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker draws a knife and advances toward you.',
+          action: 'You create distance immediately, looking for escape routes while keeping the attacker in view.',
+          why: 'Distance is your best defense against a knife. The more distance, the more time you have to escape.',
+        },
+        {
+          setup: 'You are too close to escape and the attacker thrusts the knife.',
+          action: 'You control the weapon arm, directing the blade away from your body while you create distance and escape.',
+          why: 'Controlling the weapon arm prevents immediate stabbing while you create the opening to escape.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a knife, you control the weapon arm only to create distance, then escape immediately. You will likely be cut even with perfect technique.' },
+        { role: 'Facing it', detail: 'A knife attacker has a decisive advantage; the only winning response is escape, not engagement.' },
+      ],
+      adaptation: {
+        cues: [
+          'The attacker drawing or displaying a knife',
+          'The distance between you and the attacker',
+          'Available escape routes in your environment',
+        ],
+        adjustments: [
+          { if: 'You have distance', then: 'Maintain it and escape immediately.' },
+          { if: 'You are too close to escape', then: 'Control the weapon arm, create distance, then escape.' },
+        ],
+        learning: 'After each drill, note whether you escaped immediately or stayed engaged, and what that taught you about the reality of knife defense.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Escape Drills',
+      targetReps: 10,
+    },
+  },
+  'karate-self-defense-against-stick': {
+    id: 'karate-self-defense-against-stick',
+    subject: 'Karate',
+    title: 'Against a Stick or Blunt Weapon',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn to defend against blunt weapons: control the weapon, close the distance, and escape or neutralize the threat while minimizing damage.',
+
+    objectives: [
+      'Understand the danger of blunt weapons and their reach advantage',
+      'Learn to close distance to negate the reach advantage',
+      'Control the weapon and the weapon arm',
+      'Understand when to escape versus when to neutralize',
+      'Recognize the four most common blunt-weapon-defense errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Closing the distance',
+        caption:
+          'Blunt weapons have a reach advantage. Close the distance to negate that advantage and control the weapon.',
+        labels: [
+          'Blunt weapons have reach',
+          'Close the distance quickly',
+          'Control the weapon arm',
+          'Escape or neutralize',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'The reach advantage',
+        content:
+          'Blunt weapons like sticks, bats, or pipes give the attacker a significant reach advantage. They can strike you from a distance where you cannot reach them. The solution is to close that distance quickly and decisively, moving inside their effective range where the weapon is less effective.',
+      },
+      {
+        title: 'Controlling the weapon',
+        content:
+          'Once inside their range, control the weapon and the weapon arm to prevent them from striking you. This may mean grabbing the weapon itself, controlling the wrist, or using your body to limit their movement. The goal is to prevent them from using the weapon effectively while you decide whether to escape or neutralize the threat.',
+      },
+      {
+        title: 'Escape or neutralize',
+        content:
+          'Once you have controlled the weapon, you have two options: escape immediately if you can do so safely, or neutralize the threat if escape is not possible. Neutralization means rendering the attacker unable to continue the attack, which may involve controlling them until help arrives or creating a situation where they cannot pursue. The choice depends on the situation and your ability to escape safely.',
+      },
+    ],
+
+    principles: [
+      'Close the distance to negate the reach advantage.',
+      'Control the weapon and the weapon arm immediately.',
+      'Escape if you can do so safely; neutralize if you cannot.',
+      'Blunt weapons can cause serious injury even without penetration.',
+    ],
+
+    mistakes: [
+      { title: 'Staying at their effective range', explanation: 'If you stay at the distance where they can strike you with the weapon, you will be hit repeatedly. Close the distance quickly.' },
+      { title: 'Not controlling the weapon', explanation: 'If you do not control the weapon, they can continue striking you. Control the weapon or the weapon arm immediately.' },
+      { title: 'Staying engaged when escape is possible', explanation: 'If you can escape safely, do so immediately. Staying engaged increases your risk of injury.' },
+      { title: 'Underestimating blunt force', explanation: 'Blunt weapons can cause serious injury, including broken bones and concussions, even without penetration. Treat them with the same seriousness as edged weapons.' },
+    ],
+
+    practice: [
+      'With a partner using a padded stick, practice closing the distance quickly.',
+      'Practice controlling the weapon and the weapon arm once inside.',
+      'Role-play scenarios where you must decide whether to escape or neutralize.',
+      'Practice creating distance and escaping after controlling the weapon.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+
+    reflection:
+      'In your training, do you close the distance decisively, or do you hesitate at the edge of their range? What does that hesitation teach you about real confrontations?',
+
+    safety:
+      'Blunt weapon defense training must use padded sticks only. Train with qualified instructors only. Blunt weapons can cause serious injury; treat them with respect.',
+
+    quiz: [
+      {
+        question: 'Why is closing the distance important against a blunt weapon?',
+        options: [
+          'To strike the attacker more effectively',
+          'To negate their reach advantage',
+          'To intimidate them',
+          'To show courage',
+        ],
+        answer: 1,
+        explanation:
+          'Blunt weapons have a reach advantage. Closing the distance moves you inside their effective range, where the weapon is less effective.',
+      },
+      {
+        question: 'What are your two options after controlling the weapon?',
+        options: [
+          'Fight or flee',
+          'Escape or neutralize',
+          'Win or lose',
+          'Attack or defend',
+        ],
+        answer: 1,
+        explanation:
+          'After controlling the weapon, you can escape if you can do so safely, or neutralize the threat if escape is not possible. The choice depends on the situation.',
+      },
+    ],
+
+    mastery: [
+      'Explain why closing the distance is important against blunt weapons.',
+      'Demonstrate closing distance and controlling the weapon.',
+      'Make the correct decision (escape or neutralize) in a drill.',
+      'Identify and correct the four common blunt-weapon-defense errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker swings a stick at you from a distance.',
+          action: 'You close the distance quickly, moving inside their effective range where the stick is less effective.',
+          why: 'Closing the distance negates their reach advantage and puts you in a position to control the weapon.',
+        },
+        {
+          setup: 'You have closed the distance and grabbed the weapon.',
+          action: 'You control the weapon and the weapon arm, then decide whether to escape or neutralize the threat.',
+          why: 'Controlling the weapon prevents them from striking you while you make your decision.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a blunt weapon, close the distance quickly to negate their reach advantage, then control the weapon and escape or neutralize.' },
+        { role: 'Facing it', detail: 'A blunt weapon attacker relies on reach; if you close the distance, their advantage disappears.' },
+      ],
+      adaptation: {
+        cues: [
+          'The attacker displaying a blunt weapon',
+          'The distance between you and the attacker',
+          'Your ability to close the distance safely',
+        ],
+        adjustments: [
+          { if: 'You have distance and can close it', then: 'Close the distance quickly and decisively.' },
+          { if: 'You cannot close the distance safely', then: 'Create distance and escape if possible.' },
+        ],
+        learning: 'After each drill, note whether you closed the distance decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Close-Distance Drills',
+      targetReps: 10,
+    },
+  },
+  'karate-self-defense-against-grabs': {
+    id: 'karate-self-defense-against-grabs',
+    subject: 'Karate',
+    title: 'Against Grabs and Holds',
+    level: 'Advanced',
+    duration: '15 min',
+
+    description:
+      'Learn to escape from grabs and holds: use leverage, structure, and technique to break free and create distance for escape.',
+
+    objectives: [
+      'Understand the principles of escaping from grabs and holds',
+      'Learn to use leverage and structure to break free',
+      'Apply specific techniques for common grabs (wrist, arm, bear hug)',
+      'Create distance and escape immediately after breaking free',
+      'Recognize the four most common grab-escape errors',
+    ],
+
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Breaking free from grabs',
+        caption:
+          'Grabs and holds can be escaped using leverage, structure, and technique. Break free and escape immediately.',
+        labels: [
+          'Use leverage and structure',
+          'Break the grip decisively',
+          'Create distance immediately',
+          'Escape before they can re-grab',
+        ],
+      },
+    ],
+
+    sections: [
+      {
+        title: 'Principles of escaping grabs',
+        content:
+          'Grabs and holds are attempts to control you. Escaping them requires breaking the grip using leverage and structure, then creating distance immediately before the attacker can re-grab or escalate. The key is decisiveness: half-hearted attempts fail, while decisive actions succeed.',
+      },
+      {
+        title: 'Using leverage and structure',
+        content:
+          'Grabs can be broken by using leverage (twisting, pulling against the thumb, using body weight) and structure (maintaining your stance, using your whole body rather than just your arm). The goal is to break the grip efficiently, not to fight strength with strength.',
+      },
+      {
+        title: 'Creating distance and escaping',
+        content:
+          'Once you have broken the grab, create distance immediately. Do not stay to fight or punish the attacker. Escape to safety. Every second you remain engaged increases the risk of being re-grabbed or escalated to a more serious attack.',
+      },
+    ],
+
+    principles: [
+      'Break the grip decisively using leverage and structure.',
+      'Create distance immediately after breaking free.',
+      'Escape before they can re-grab or escalate.',
+      'Use your whole body, not just your arm, to break the grip.',
+    ],
+
+    mistakes: [
+      { title: 'Half-hearted attempts to break the grip', explanation: 'If you do not commit fully to breaking the grip, you will not succeed. Be decisive.' },
+      { title: 'Fighting strength with strength', explanation: 'Trying to pull away with arm strength alone is inefficient. Use leverage and your whole body.' },
+      { title: 'Staying engaged after breaking free', explanation: 'Once you have broken the grab, create distance and escape. Staying engaged increases your risk.' },
+      { title: 'Not practicing specific techniques', explanation: 'Different grabs require different techniques. Practice specific escapes for common grabs (wrist, arm, bear hug).' },
+    ],
+
+    practice: [
+      'Practice wrist grab escapes using leverage and structure.',
+      'Practice arm grab escapes using body weight and twisting.',
+      'Practice bear hug escapes using elbows, knees, and dropping your weight.',
+      'Role-play scenarios where you must break free and escape immediately.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+
+    reflection:
+      'In your training, do you break grips decisively, or do you hesitate and fight strength with strength? What does that teach you about real confrontations?',
+
+    safety:
+      'Grab escape training must be supervised by qualified instructors. Practice with cooperative partners at controlled speeds. Never use excessive force.',
+
+    quiz: [
+      {
+        question: 'What is the key to breaking a grab decisively?',
+        options: [
+          'Using arm strength',
+          'Using leverage and structure',
+          'Pulling away quickly',
+          'Fighting back harder',
+        ],
+        answer: 1,
+        explanation:
+          'Grabs are broken using leverage and structure, not arm strength. Use your whole body and efficient technique.',
+      },
+      {
+        question: 'What should you do immediately after breaking a grab?',
+        options: [
+          'Stay and fight',
+          'Create distance and escape',
+          'Punish the attacker',
+          'Wait to see what happens',
+        ],
+        answer: 1,
+        explanation:
+          'After breaking a grab, create distance and escape immediately. Staying engaged increases your risk of being re-grabbed or escalated.',
+      },
+    ],
+
+    mastery: [
+      'Explain the principles of escaping grabs using leverage and structure.',
+      'Demonstrate escaping from wrist, arm, and bear hug grabs.',
+      'Create distance and escape immediately after breaking free.',
+      'Identify and correct the four common grab-escape errors.',
+    ],
+
+    liveApplication: {
+      scenarios: [
+        {
+          setup: 'An attacker grabs your wrist from the front.',
+          action: 'You twist your arm to break the grip using leverage, then create distance and escape.',
+          why: 'Twisting breaks the grip efficiently using leverage rather than strength, and creating distance prevents re-grabbing.',
+        },
+        {
+          setup: 'An attacker grabs you from behind in a bear hug.',
+          action: 'You drop your weight, use your elbows to strike, and break free, then create distance and escape.',
+          why: 'Dropping your weight and using your whole body breaks the hold more effectively than arm strength alone.',
+        },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Escape grabs using leverage and structure, then create distance and escape immediately. Do not stay to fight.' },
+        { role: 'Facing it', detail: 'A grabbed person who breaks free decisively and escapes is hard to hold; hesitation allows the grab to escalate.' },
+      ],
+      adaptation: {
+        cues: [
+          'The type of grab (wrist, arm, bear hug, etc.)',
+          'The direction of the grab (front, side, behind)',
+          'Your ability to break free and escape',
+        ],
+        adjustments: [
+          { if: 'You can break free and escape', then: 'Do so immediately and decisively.' },
+          { if: 'You cannot break free easily', then: 'Use more leverage, drop your weight, or strike to create an opening.' },
+        ],
+        learning: 'After each drill, note whether you broke free decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Grab Escape Drills',
+      targetReps: 20,
+    },
+  },
+
+  'karate-self-defense-principles': {
+    id: 'karate-self-defense-principles',
+    subject: 'Karate',
+    title: 'Self-Defense Principles',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn the foundation of real self-defense: awareness, de-escalation, escape, and using technique only as the last resort when violence is unavoidable.',
+    objectives: [
+      'Understand that self-defense begins long before physical contact',
+      'Recognize the priority: avoid, de-escalate, escape, then technique',
+      'Apply awareness to recognize threats before they materialize',
+      'Understand reasonable force and legal context',
+      'Recognize the four most common self-defense errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The self-defense pyramid',
+        caption: 'Self-defense is built on a foundation of awareness, not technique. The higher you are in the pyramid, the better your outcome.',
+        labels: ['Awareness prevents most threats', 'De-escalation defuses many', 'Escape resolves most', 'Technique is the last resort'],
+      },
+    ],
+    sections: [
+      { title: 'Awareness is the first line', content: 'The best self-defense happens before any confrontation: noticing a situation developing, recognizing body language and environment, and avoiding the area or person entirely. Awareness is not paranoia; it is calm, continuous observation of your surroundings. Most threats can be avoided by someone who is aware, because the aware person never enters the dangerous situation in the first place.' },
+      { title: 'De-escalation and escape', content: 'If avoidance fails and a confrontation begins, the next tools are verbal de-escalation and creating opportunity to escape. Calm tone, open hands, stepping back, and agreeing with provocations can defuse many situations. The goal is not to win the argument but to create the space and time to leave. Every self-defense curriculum teaches that the fight you win is the one you never have.' },
+      { title: 'Technique as the last resort', content: 'Physical technique is reserved for when avoidance, de-escalation, and escape have all failed and violence is unavoidable. At that point, technique must be decisive, efficient, and aimed at creating the opportunity to escape, not at winning a fight or punishing the attacker. Reasonable force means using only what is necessary to end the threat and escape; excess force creates legal and ethical problems.' },
+    ],
+    principles: [
+      'Awareness prevents more threats than technique ever will.',
+      'De-escalation and escape are always preferable to fighting.',
+      'Technique is the last resort, used only when violence is unavoidable.',
+      'Reasonable force means using only what is necessary to escape.',
+    ],
+    mistakes: [
+      { title: 'Relying on technique instead of awareness', explanation: 'Technique cannot save you from a threat you never saw coming. Train awareness first, always.' },
+      { title: 'Fighting to win instead of fighting to escape', explanation: 'The goal of self-defense is escape, not victory. Once you have created the opening to leave, take it.' },
+      { title: 'Excessive force', explanation: 'Using more force than necessary to escape creates legal liability and ethical problems. Use only what the situation requires.' },
+      { title: 'Ignoring de-escalation', explanation: 'Many confrontations can be defused verbally. Skipping de-escalation to jump to fighting escalates situations unnecessarily.' },
+    ],
+    practice: [
+      'Walk through a public space and note three exits and three potential threats without looking suspicious.',
+      'Practice verbal de-escalation phrases in a mirror until they sound natural.',
+      'With a partner, role-play a confrontation where your goal is to de-escalate and create an exit.',
+      'Practice creating distance and escaping from a grab or hold.',
+      'Review the principles after each training session and note where you applied them.',
+    ],
+    reflection: 'In your daily life, how aware are you of your surroundings? When was the last time you noticed a potential threat and avoided it without physical confrontation?',
+    safety: 'Self-defense training must be supervised by qualified instructors. Never use excessive force. Local laws regarding self-defense vary; understand your legal context. The goal is always escape, not injury to the attacker.',
+    quiz: [
+      { question: 'What is the first and most effective line of self-defense?', options: ['Physical technique', 'Verbal de-escalation', 'Awareness and avoidance', 'Calling for help'], answer: 2, explanation: 'Awareness and avoidance prevent most threats before they materialize. You cannot be attacked if you never enter the dangerous situation.' },
+      { question: 'What is the goal of physical self-defense technique?', options: ['To defeat the attacker completely', 'To create the opportunity to escape', 'To punish the attacker', 'To win the confrontation'], answer: 1, explanation: 'Physical technique is used only to create the opening to escape. Once you can leave, you leave. The goal is not victory but safety.' },
+    ],
+    mastery: [
+      'Explain the self-defense pyramid and why awareness comes first.',
+      'Demonstrate verbal de-escalation in a role-play scenario.',
+      'Create distance and escape from a grab or hold.',
+      'Identify and correct the four common self-defense errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice a group of aggressive people ahead on the sidewalk.', action: 'You cross the street or change your route to avoid them entirely, never entering their area.', why: 'Awareness and avoidance prevent the confrontation from ever happening. You cannot be attacked if you are not there.' },
+        { setup: 'Someone confronts you verbally and escalates.', action: 'You use calm tone, open hands, and agree with their provocations while stepping back and looking for an exit.', why: 'De-escalation and creating distance defuse many situations without violence, preserving everyone safety.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Self-defense begins with awareness and ends with escape; technique is only the bridge between them when escape is blocked.' },
+        { role: 'Facing it', detail: 'An aware, calm person who de-escalates is hard to escalate against; their calm often defuses the aggressor anger.' },
+      ],
+      adaptation: {
+        cues: ['Aggressive body language and tone', 'Multiple people positioning around you', 'Your own fear or anger rising'],
+        adjustments: [
+          { if: 'You can avoid the situation', then: 'Leave immediately; do not engage.' },
+          { if: 'You are already confronted', then: 'De-escalate verbally while creating distance and looking for escape routes.' },
+        ],
+        learning: 'After each day, note one situation you avoided through awareness and one you de-escalated or escaped from.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Awareness Scan', initialTime: 60 },
+  },
+  'karate-self-defense-against-knife': {
+    id: 'karate-self-defense-against-knife',
+    subject: 'Karate',
+    title: 'Against a Knife',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn the harsh reality of knife defense: escape is almost always the only winning option, and technique exists only to create the moment to run.',
+    objectives: [
+      'Understand why knife defense is almost always about escape',
+      'Recognize the reality: you will likely be cut if attacked with a knife',
+      'Learn to control the weapon arm and create distance',
+      'Understand the priority: escape immediately',
+      'Recognize the four most common knife-defense errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Knife defense reality',
+        caption: 'Against a knife, escape is the only winning option. Technique exists only to create the moment to run.',
+        labels: ['You will likely be cut', 'Control the weapon arm', 'Create distance immediately', 'Escape is the only victory'],
+      },
+    ],
+    sections: [
+      { title: 'The reality of knife attacks', content: 'Knife attacks are fast, chaotic, and almost always result in the defender being cut, even if they escape. Movies and myths create false confidence; reality is that knife defense is about damage limitation and escape, not disarming the attacker. The only winning move against a knife is not to be there, which is why awareness and avoidance are paramount.' },
+      { title: 'Control the weapon arm', content: 'If escape is not immediately possible and you must engage, the priority is controlling the weapon arm to prevent it from stabbing or cutting you repeatedly. This means grabbing the wrist or forearm and directing the blade away from your vital areas while you create distance. This is not a permanent solution; it is a bridge to escape.' },
+      { title: 'Escape immediately', content: 'The moment you have created any opening, you escape. You do not stay to fight, disarm, or punish the attacker. You run. Every second you remain engaged increases the chance of being cut or stabbed. The goal is to end the engagement, not to win it.' },
+    ],
+    principles: [
+      'Escape is the only winning option against a knife.',
+      'You will likely be cut even if you escape successfully.',
+      'Control the weapon arm only to create distance.',
+      'Every second engaged increases the risk of serious injury.',
+    ],
+    mistakes: [
+      { title: 'Trying to disarm the attacker', explanation: 'Disarming a knife attacker is extremely difficult and dangerous. Focus on escape, not disarming.' },
+      { title: 'Staying to fight after creating an opening', explanation: 'Every second you remain engaged increases the chance of being cut. Escape immediately when you have an opening.' },
+      { title: 'Ignoring the reality of cuts', explanation: 'You will likely be cut even with perfect technique. Accept this and focus on escaping rather than avoiding all contact.' },
+      { title: 'Overcomplicating the response', explanation: 'Knife attacks are fast and chaotic. Simple, direct actions (control arm, create distance, escape) are more reliable than complex techniques.' },
+    ],
+    practice: [
+      'With a partner using a rubber training knife, practice creating distance and escaping.',
+      'Practice controlling the weapon arm and directing it away from your body.',
+      'Role-play scenarios where you must escape immediately after creating an opening.',
+      'Review the reality of knife attacks and accept that you will likely be cut.',
+      'Practice awareness and avoidance to prevent knife situations from occurring.',
+    ],
+    reflection: 'Have you accepted that knife defense is about damage limitation and escape, not about winning or disarming? How does that change your approach to training?',
+    safety: 'Knife defense training must use rubber or padded training knives only. Never use live blades. Train with qualified instructors only. Expect to be cut in a real knife attack; focus on escape, not avoiding all contact.',
+    quiz: [
+      { question: 'What is the only winning option against a knife attack?', options: ['Disarming the attacker', 'Defeating the attacker', 'Escaping immediately', 'Controlling the weapon'], answer: 2, explanation: 'Escape is the only winning option against a knife. Every second engaged increases the risk of being cut or stabbed.' },
+      { question: 'Why is knife defense about damage limitation rather than winning?', options: ['Because knives are illegal', 'Because you will likely be cut even with perfect technique', 'Because knife attacks are rare', 'Because knives are slow weapons'], answer: 1, explanation: 'Knife attacks are fast and chaotic. Even with perfect technique, you will likely be cut. The goal is to escape with minimal injury, not to avoid all contact.' },
+    ],
+    mastery: [
+      'Explain why escape is the only winning option against a knife.',
+      'Demonstrate controlling the weapon arm and creating distance.',
+      'Escape immediately after creating an opening in a drill.',
+      'Identify and correct the four common knife-defense errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'An attacker draws a knife and advances toward you.', action: 'You create distance immediately, looking for escape routes while keeping the attacker in view.', why: 'Distance is your best defense against a knife. The more distance, the more time you have to escape.' },
+        { setup: 'You are too close to escape and the attacker thrusts the knife.', action: 'You control the weapon arm, directing the blade away from your body while you create distance and escape.', why: 'Controlling the weapon arm prevents immediate stabbing while you create the opening to escape.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a knife, you control the weapon arm only to create distance, then escape immediately. You will likely be cut even with perfect technique.' },
+        { role: 'Facing it', detail: 'A knife attacker has a decisive advantage; the only winning response is escape, not engagement.' },
+      ],
+      adaptation: {
+        cues: ['The attacker drawing or displaying a knife', 'The distance between you and the attacker', 'Available escape routes in your environment'],
+        adjustments: [
+          { if: 'You have distance', then: 'Maintain it and escape immediately.' },
+          { if: 'You are too close to escape', then: 'Control the weapon arm, create distance, then escape.' },
+        ],
+        learning: 'After each drill, note whether you escaped immediately or stayed engaged, and what that taught you about the reality of knife defense.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Escape Drills', targetReps: 10 },
+  },
+  'karate-self-defense-against-stick': {
+    id: 'karate-self-defense-against-stick',
+    subject: 'Karate',
+    title: 'Against a Stick or Blunt Weapon',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to defend against blunt weapons: control the weapon, close the distance, and escape or neutralize the threat while minimizing damage.',
+    objectives: [
+      'Understand the danger of blunt weapons and their reach advantage',
+      'Learn to close distance to negate the reach advantage',
+      'Control the weapon and the weapon arm',
+      'Understand when to escape versus when to neutralize',
+      'Recognize the four most common blunt-weapon-defense errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Closing the distance',
+        caption: 'Blunt weapons have a reach advantage. Close the distance to negate that advantage and control the weapon.',
+        labels: ['Blunt weapons have reach', 'Close the distance quickly', 'Control the weapon arm', 'Escape or neutralize'],
+      },
+    ],
+    sections: [
+      { title: 'The reach advantage', content: 'Blunt weapons like sticks, bats, or pipes give the attacker a significant reach advantage. They can strike you from a distance where you cannot reach them. The solution is to close that distance quickly and decisively, moving inside their effective range where the weapon is less effective.' },
+      { title: 'Controlling the weapon', content: 'Once inside their range, control the weapon and the weapon arm to prevent them from striking you. This may mean grabbing the weapon itself, controlling the wrist, or using your body to limit their movement. The goal is to prevent them from using the weapon effectively while you decide whether to escape or neutralize the threat.' },
+      { title: 'Escape or neutralize', content: 'Once you have controlled the weapon, you have two options: escape immediately if you can do so safely, or neutralize the threat if escape is not possible. Neutralization means rendering the attacker unable to continue the attack, which may involve controlling them until help arrives or creating a situation where they cannot pursue. The choice depends on the situation and your ability to escape safely.' },
+    ],
+    principles: [
+      'Close the distance to negate the reach advantage.',
+      'Control the weapon and the weapon arm immediately.',
+      'Escape if you can do so safely; neutralize if you cannot.',
+      'Blunt weapons can cause serious injury even without penetration.',
+    ],
+    mistakes: [
+      { title: 'Staying at their effective range', explanation: 'If you stay at the distance where they can strike you with the weapon, you will be hit repeatedly. Close the distance quickly.' },
+      { title: 'Not controlling the weapon', explanation: 'If you do not control the weapon, they can continue striking you. Control the weapon or the weapon arm immediately.' },
+      { title: 'Staying engaged when escape is possible', explanation: 'If you can escape safely, do so immediately. Staying engaged increases your risk of injury.' },
+      { title: 'Underestimating blunt force', explanation: 'Blunt weapons can cause serious injury, including broken bones and concussions, even without penetration. Treat them with the same seriousness as edged weapons.' },
+    ],
+    practice: [
+      'With a partner using a padded stick, practice closing the distance quickly.',
+      'Practice controlling the weapon and the weapon arm once inside.',
+      'Role-play scenarios where you must decide whether to escape or neutralize.',
+      'Practice creating distance and escaping after controlling the weapon.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+    reflection: 'In your training, do you close the distance decisively, or do you hesitate at the edge of their range? What does that hesitation teach you about real confrontations?',
+    safety: 'Blunt weapon defense training must use padded sticks only. Train with qualified instructors only. Blunt weapons can cause serious injury; treat them with respect.',
+    quiz: [
+      { question: 'Why is closing the distance important against a blunt weapon?', options: ['To strike the attacker more effectively', 'To negate their reach advantage', 'To intimidate them', 'To show courage'], answer: 1, explanation: 'Blunt weapons have a reach advantage. Closing the distance moves you inside their effective range, where the weapon is less effective.' },
+      { question: 'What are your two options after controlling the weapon?', options: ['Fight or flee', 'Escape or neutralize', 'Win or lose', 'Attack or defend'], answer: 1, explanation: 'After controlling the weapon, you can escape if you can do so safely, or neutralize the threat if escape is not possible. The choice depends on the situation.' },
+    ],
+    mastery: [
+      'Explain why closing the distance is important against blunt weapons.',
+      'Demonstrate closing distance and controlling the weapon.',
+      'Make the correct decision (escape or neutralize) in a drill.',
+      'Identify and correct the four common blunt-weapon-defense errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'An attacker swings a stick at you from a distance.', action: 'You close the distance quickly, moving inside their effective range where the stick is less effective.', why: 'Closing the distance negates their reach advantage and puts you in a position to control the weapon.' },
+        { setup: 'You have closed the distance and grabbed the weapon.', action: 'You control the weapon and the weapon arm, then decide whether to escape or neutralize the threat.', why: 'Controlling the weapon prevents them from striking you while you make your decision.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Against a blunt weapon, close the distance quickly to negate their reach advantage, then control the weapon and escape or neutralize.' },
+        { role: 'Facing it', detail: 'A blunt weapon attacker relies on reach; if you close the distance, their advantage disappears.' },
+      ],
+      adaptation: {
+        cues: ['The attacker displaying a blunt weapon', 'The distance between you and the attacker', 'Your ability to close the distance safely'],
+        adjustments: [
+          { if: 'You have distance and can close it', then: 'Close the distance quickly and decisively.' },
+          { if: 'You cannot close the distance safely', then: 'Create distance and escape if possible.' },
+        ],
+        learning: 'After each drill, note whether you closed the distance decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Close-Distance Drills', targetReps: 10 },
+  },
+  'karate-self-defense-against-grabs': {
+    id: 'karate-self-defense-against-grabs',
+    subject: 'Karate',
+    title: 'Against Grabs and Holds',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to escape from grabs and holds: use leverage, structure, and technique to break free and create distance for escape.',
+    objectives: [
+      'Understand the principles of escaping from grabs and holds',
+      'Learn to use leverage and structure to break free',
+      'Apply specific techniques for common grabs (wrist, arm, bear hug)',
+      'Create distance and escape immediately after breaking free',
+      'Recognize the four most common grab-escape errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Breaking free from grabs',
+        caption: 'Grabs and holds can be escaped using leverage, structure, and technique. Break free and escape immediately.',
+        labels: ['Use leverage and structure', 'Break the grip decisively', 'Create distance immediately', 'Escape before they can re-grab'],
+      },
+    ],
+    sections: [
+      { title: 'Principles of escaping grabs', content: 'Grabs and holds are attempts to control you. Escaping them requires breaking the grip using leverage and structure, then creating distance immediately before the attacker can re-grab or escalate. The key is decisiveness: half-hearted attempts fail, while decisive actions succeed.' },
+      { title: 'Using leverage and structure', content: 'Grabs can be broken by using leverage (twisting, pulling against the thumb, using body weight) and structure (maintaining your stance, using your whole body rather than just your arm). The goal is to break the grip efficiently, not to fight strength with strength.' },
+      { title: 'Creating distance and escaping', content: 'Once you have broken the grab, create distance immediately. Do not stay to fight or punish the attacker. Escape to safety. Every second you remain engaged increases the risk of being re-grabbed or escalated to a more serious attack.' },
+    ],
+    principles: [
+      'Break the grip decisively using leverage and structure.',
+      'Create distance immediately after breaking free.',
+      'Escape before they can re-grab or escalate.',
+      'Use your whole body, not just your arm, to break the grip.',
+    ],
+    mistakes: [
+      { title: 'Half-hearted attempts to break the grip', explanation: 'If you do not commit fully to breaking the grip, you will not succeed. Be decisive.' },
+      { title: 'Fighting strength with strength', explanation: 'Trying to pull away with arm strength alone is inefficient. Use leverage and your whole body.' },
+      { title: 'Staying engaged after breaking free', explanation: 'Once you have broken the grab, create distance and escape. Staying engaged increases your risk.' },
+      { title: 'Not practicing specific techniques', explanation: 'Different grabs require different techniques. Practice specific escapes for common grabs (wrist, arm, bear hug).' },
+    ],
+    practice: [
+      'Practice wrist grab escapes using leverage and structure.',
+      'Practice arm grab escapes using body weight and twisting.',
+      'Practice bear hug escapes using elbows, knees, and dropping your weight.',
+      'Role-play scenarios where you must break free and escape immediately.',
+      'Review the principles and note where you applied them in drills.',
+    ],
+    reflection: 'In your training, do you break grips decisively, or do you hesitate and fight strength with strength? What does that teach you about real confrontations?',
+    safety: 'Grab escape training must be supervised by qualified instructors. Practice with cooperative partners at controlled speeds. Never use excessive force.',
+    quiz: [
+      { question: 'What is the key to breaking a grab decisively?', options: ['Using arm strength', 'Using leverage and structure', 'Pulling away quickly', 'Fighting back harder'], answer: 1, explanation: 'Grabs are broken using leverage and structure, not arm strength. Use your whole body and efficient technique.' },
+      { question: 'What should you do immediately after breaking a grab?', options: ['Stay and fight', 'Create distance and escape', 'Punish the attacker', 'Wait to see what happens'], answer: 1, explanation: 'After breaking a grab, create distance and escape immediately. Staying engaged increases your risk of being re-grabbed or escalated.' },
+    ],
+    mastery: [
+      'Explain the principles of escaping grabs using leverage and structure.',
+      'Demonstrate escaping from wrist, arm, and bear hug grabs.',
+      'Create distance and escape immediately after breaking free.',
+      'Identify and correct the four common grab-escape errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'An attacker grabs your wrist from the front.', action: 'You twist your arm to break the grip using leverage, then create distance and escape.', why: 'Twisting breaks the grip efficiently using leverage rather than strength, and creating distance prevents re-grabbing.' },
+        { setup: 'An attacker grabs you from behind in a bear hug.', action: 'You drop your weight, use your elbows to strike, and break free, then create distance and escape.', why: 'Dropping your weight and using your whole body breaks the hold more effectively than arm strength alone.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Escape grabs using leverage and structure, then create distance and escape immediately. Do not stay to fight.' },
+        { role: 'Facing it', detail: 'A grabbed person who breaks free decisively and escapes is hard to hold; hesitation allows the grab to escalate.' },
+      ],
+      adaptation: {
+        cues: ['The type of grab (wrist, arm, bear hug, etc.)', 'The direction of the grab (front, side, behind)', 'Your ability to break free and escape'],
+        adjustments: [
+          { if: 'You can break free and escape', then: 'Do so immediately and decisively.' },
+          { if: 'You cannot break free easily', then: 'Use more leverage, drop your weight, or strike to create an opening.' },
+        ],
+        learning: 'After each drill, note whether you broke free decisively or hesitated, and what that taught you about real confrontations.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Grab Escape Drills', targetReps: 20 },
+  },
+  'karate-kobudo-introduction': {
+    id: 'karate-kobudo-introduction',
+    subject: 'Karate',
+    title: 'Introduction to Kobudo',
+    level: 'Expert',
+    duration: '12 min',
+    description: 'Learn the history, philosophy, and foundational principles of Okinawan kobudo: the traditional weapons arts that complement empty-hand karate.',
+    objectives: [
+      'Understand the historical context of kobudo development',
+      'Recognize the relationship between kobudo and empty-hand karate',
+      'Learn the safety principles for weapons training',
+      'Understand the philosophy of weapons as extensions of the body',
+      'Recognize the four most common kobudo training errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Kobudo: weapons as extensions',
+        caption: 'Kobudo weapons are extensions of empty-hand technique. The same principles of structure, power, and movement apply.',
+        labels: ['Weapons extend the body', 'Same principles as empty-hand', 'Structure generates power', 'Training builds discipline'],
+      },
+    ],
+    sections: [
+      { title: 'Historical context', content: 'Kobudo developed in Okinawa alongside karate, often using farming and fishing tools as weapons when traditional weapons were banned. The bo staff, sai, nunchaku, and other weapons were adapted from everyday tools. This history explains why kobudo emphasizes practical, efficient technique rather than ornamental forms.' },
+      { title: 'Relationship to empty-hand', content: 'Kobudo and karate share the same foundation: structure, power generation from the ground through the hips, and efficient movement. A weapon is an extension of the body, not a separate skill. The stances, footwork, and body mechanics you learned in empty-hand karate transfer directly to weapons work.' },
+      { title: 'Safety and philosophy', content: 'Weapons training requires strict safety protocols: train only with wooden or padded trainers until technique is mastered, always train with qualified supervision, and never use weapons outside of training or legitimate self-defense. The philosophy of kobudo emphasizes discipline, control, and respect for the tools. Weapons are not toys or status symbols; they are serious training implements.' },
+    ],
+    principles: [
+      'Weapons are extensions of empty-hand technique.',
+      'The same principles of structure and power generation apply.',
+      'Train only with safe implements until technique is mastered.',
+      'Weapons demand discipline, control, and respect.',
+    ],
+    mistakes: [
+      { title: 'Treating weapons as separate from empty-hand', explanation: 'Weapons work is an extension of empty-hand technique. The same principles apply; do not try to learn weapons as a completely separate skill.' },
+      { title: 'Using live or metal weapons too early', explanation: 'Train with wooden or padded implements until technique is solid. Live weapons increase injury risk dramatically.' },
+      { title: 'Ignoring safety protocols', explanation: 'Weapons training requires strict safety: qualified supervision, proper implements, and controlled environment. Never train alone or unsupervised.' },
+      { title: 'Lack of respect for the weapon', explanation: 'Weapons are serious training implements, not toys. Treat them with respect and never use them outside of training or legitimate self-defense.' },
+    ],
+    practice: [
+      'Review your empty-hand stances and movement, noting how they will transfer to weapons.',
+      'If you have access to a wooden bo staff, hold it and feel its weight and balance.',
+      'Practice basic stances while holding the weapon, maintaining the same structure.',
+      'Review the safety protocols and commit to following them strictly.',
+      'Study the history of kobudo and its relationship to karate.',
+    ],
+    reflection: 'How does your understanding of empty-hand structure and power generation prepare you for weapons work? What principles will transfer directly?',
+    safety: 'Kobudo training must be supervised by qualified instructors. Train only with wooden or padded implements until technique is mastered. Never use weapons outside of training or legitimate self-defense. Treat weapons with respect and discipline.',
+    quiz: [
+      { question: 'What is the relationship between kobudo and empty-hand karate?', options: ['They are completely separate skills', 'Kobudo is more advanced than karate', 'Weapons are extensions of empty-hand technique', 'Kobudo replaces empty-hand training'], answer: 2, explanation: 'Kobudo weapons are extensions of the body, using the same principles of structure, power generation, and movement as empty-hand karate.' },
+      { question: 'Why is safety especially important in kobudo training?', options: ['Because weapons are expensive', 'Because weapons can cause serious injury', 'Because kobudo is illegal', 'Because weapons are heavy'], answer: 1, explanation: 'Weapons can cause serious injury or death. Strict safety protocols (qualified supervision, proper implements, controlled environment) are essential.' },
+    ],
+    mastery: [
+      'Explain the historical context of kobudo development.',
+      'Describe the relationship between kobudo and empty-hand karate.',
+      'Commit to following strict safety protocols in weapons training.',
+      'Identify and correct the four common kobudo training errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You begin kobudo training after years of empty-hand karate.', action: 'You recognize that the same principles of structure, power, and movement apply to weapons work.', why: 'Weapons are extensions of the body, so the foundation you built in empty-hand training transfers directly to weapons.' },
+        { setup: 'You are training with a partner using wooden weapons.', action: 'You maintain strict safety protocols: controlled speed, proper distance, and qualified supervision.', why: 'Weapons training requires discipline and safety awareness to prevent serious injury.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Kobudo extends your empty-hand skills to weapons, using the same principles of structure and power generation.' },
+        { role: 'Facing it', detail: 'A kobudo practitioner uses weapons as extensions of their body, applying the same discipline and control as empty-hand technique.' },
+      ],
+      adaptation: {
+        cues: ['Your empty-hand structure and movement', 'The weight and balance of the weapon', 'Safety protocols and supervision'],
+        adjustments: [
+          { if: 'You have solid empty-hand foundation', then: 'Apply the same principles to weapons work.' },
+          { if: 'You are new to weapons', then: 'Start with wooden implements and train under qualified supervision.' },
+        ],
+        learning: 'After each training session, note which empty-hand principles transferred most effectively to weapons work.',
+      },
+    },
+  },
+  'karate-kobudo-bo-grip': {
+    id: 'karate-kobudo-bo-grip',
+    subject: 'Karate',
+    title: 'Bo Staff: Grip and Stance',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Learn the foundational grip and stance for bo staff work: how to hold the weapon and position your body for efficient, powerful technique.',
+    objectives: [
+      'Understand the standard bo grip and hand placement',
+      'Learn the basic bo stances and their purposes',
+      'Maintain structure and balance while holding the weapon',
+      'Understand how the bo extends your reach and power',
+      'Recognize the four most common bo grip and stance errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Bo grip and stance',
+        caption: 'The bo is held with hands shoulder-width apart, extending your reach while maintaining structure and balance.',
+        labels: ['Hands shoulder-width apart', 'Dominant hand near the rear', 'Stance provides stability', 'Bo extends reach and power'],
+      },
+    ],
+    sections: [
+      { title: 'The standard grip', content: 'The bo is held with hands approximately shoulder-width apart, with the dominant hand near the rear third of the staff. This grip allows for both powerful strikes and quick defensive movements. The grip should be firm but not tense, allowing the staff to move freely while maintaining control.' },
+      { title: 'Bo stances', content: 'Bo work uses the same stances as empty-hand karate: front stance for forward power, back stance for defensive positioning, and horse stance for stability. The weapon extends your reach, but the stance provides the foundation for power and stability. Maintain the same structure and alignment you learned in empty-hand work.' },
+      { title: 'Extending reach and power', content: 'The bo extends your effective range, allowing you to strike and defend from a distance. However, power still comes from the ground through the hips, just as in empty-hand technique. The weapon is a lever that amplifies your body movement; it does not generate power on its own.' },
+    ],
+    principles: [
+      'Hold the bo with hands shoulder-width apart for control.',
+      'Use the same stances as empty-hand karate for stability.',
+      'Power comes from the body, not the weapon.',
+      'Maintain structure and balance while holding the weapon.',
+    ],
+    mistakes: [
+      { title: 'Gripping too tightly', explanation: 'A tense grip restricts movement and tires the hands quickly. Hold firmly but not rigidly.' },
+      { title: 'Hands too close together', explanation: 'Hands too close reduce leverage and control. Maintain shoulder-width spacing.' },
+      { title: 'Ignoring stance and structure', explanation: 'The weapon extends your reach, but power and stability come from your stance and structure. Do not neglect your foundation.' },
+      { title: 'Thinking the weapon generates power', explanation: 'Power comes from the body moving through the weapon, not from the weapon itself. Use your whole body, not just your arms.' },
+    ],
+    practice: [
+      'Hold the bo with proper grip and hand placement.',
+      'Practice front stance, back stance, and horse stance while holding the bo.',
+      'Maintain structure and balance while moving in stance with the weapon.',
+      'Feel how the bo extends your reach while your stance provides stability.',
+      'Practice transitions between stances while maintaining grip and structure.',
+    ],
+    reflection: 'How does holding the bo change your stance and structure? What adjustments do you need to make to maintain balance and power?',
+    safety: 'Bo training must be supervised by qualified instructors. Train with wooden or padded staffs in a clear space. Be aware of your surroundings to avoid hitting others or objects.',
+    quiz: [
+      { question: 'Where should your hands be placed on the bo?', options: ['At the very ends', 'Shoulder-width apart', 'Close together in the middle', 'One hand at each end'], answer: 1, explanation: 'Hands should be approximately shoulder-width apart for optimal control, leverage, and balance.' },
+      { question: 'Where does power in bo technique come from?', options: ['The weight of the bo', 'The speed of the arms', 'The body moving through the weapon', 'The grip strength'], answer: 2, explanation: 'Power comes from the body moving through the weapon, using the same principles of structure and hip rotation as empty-hand technique.' },
+    ],
+    mastery: [
+      'Demonstrate proper bo grip and hand placement.',
+      'Maintain structure and balance in stances while holding the bo.',
+      'Explain how the bo extends reach while power comes from the body.',
+      'Identify and correct the four common bo grip and stance errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You pick up a bo staff for the first time.', action: 'You grip it with hands shoulder-width apart and assume a front stance, maintaining the same structure as empty-hand work.', why: 'The same principles of structure and stance apply to weapons; the bo extends your reach but your body provides the foundation.' },
+        { setup: 'You practice stances while holding the bo.', action: 'You maintain balance and structure, feeling how the weapon extends your reach while your stance provides stability.', why: 'The weapon is a lever that amplifies body movement; structure and stance provide the foundation for power.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'The bo extends your reach while your stance and structure provide the foundation for power and stability.' },
+        { role: 'Facing it', detail: 'A bo practitioner uses the weapon to extend reach while maintaining the same discipline and structure as empty-hand work.' },
+      ],
+      adaptation: {
+        cues: ['The weight and balance of the bo', 'Your stance and structure while holding it', 'The extended reach the weapon provides'],
+        adjustments: [
+          { if: 'You feel unbalanced', then: 'Check your stance and structure; the weapon should not compromise your foundation.' },
+          { if: 'Your grip is too tight', then: 'Relax your hands while maintaining control; tension restricts movement.' },
+        ],
+        learning: 'After each practice session, note how your stance and structure support the weapon, and where you need to adjust.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Bo Stance Hold', initialTime: 60 },
+  },
+  'karate-kobudo-bo-strikes': {
+    id: 'karate-kobudo-bo-strikes',
+    subject: 'Karate',
+    title: 'Bo Staff: Strikes and Blocks',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Learn the fundamental bo strikes and blocks: how to use the weapon to strike and defend using the same principles as empty-hand technique.',
+    objectives: [
+      'Learn the basic bo strikes: overhead, horizontal, and thrusting',
+      'Learn the basic bo blocks: rising, downward, and middle',
+      'Understand how power is generated in bo technique',
+      'Apply the same principles as empty-hand strikes and blocks',
+      'Recognize the four most common bo technique errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Bo strikes and blocks',
+        caption: 'Bo strikes and blocks use the same principles as empty-hand technique: power from the ground through the hips, structure, and efficient movement.',
+        labels: ['Overhead strike', 'Horizontal strike', 'Thrusting strike', 'Rising, downward, and middle blocks'],
+      },
+    ],
+    sections: [
+      { title: 'Bo strikes', content: 'The fundamental bo strikes are the overhead strike (striking downward from above), the horizontal strike (striking from the side), and the thrusting strike (extending the point forward). Each strike uses the same principles as empty-hand strikes: power generated from the ground through the hips, structure maintained throughout, and efficient movement without wasted energy.' },
+      { title: 'Bo blocks', content: 'The fundamental bo blocks are the rising block (defending against overhead attacks), the downward block (defending against low attacks), and the middle block (defending against middle-level attacks). Like empty-hand blocks, bo blocks redirect force rather than stopping it, using structure and angles to deflect attacks away from the body.' },
+      { title: 'Power generation', content: 'Power in bo technique comes from the same source as empty-hand technique: the ground, through the legs, rotating through the hips, and extending through the arms and weapon. The bo is a lever that amplifies this power, but it does not generate power on its own. Efficient technique uses the whole body, not just the arms.' },
+    ],
+    principles: [
+      'Bo strikes and blocks use the same principles as empty-hand technique.',
+      'Power comes from the ground through the hips, not from the arms.',
+      'Blocks redirect force using structure and angles.',
+      'Efficient movement uses the whole body, not just the arms.',
+    ],
+    mistakes: [
+      { title: 'Using only the arms', explanation: 'Power comes from the whole body, not just the arms. Use your hips and legs to generate force.' },
+      { title: 'Tense, rigid movement', explanation: 'Tension restricts movement and reduces power. Stay relaxed and fluid while maintaining structure.' },
+      { title: 'Stopping force with blocks instead of redirecting', explanation: 'Blocks should redirect force away, not stop it head-on. Use angles and structure to deflect attacks.' },
+      { title: 'Wasted movement', explanation: 'Efficient technique uses the minimum necessary movement. Avoid swinging the bo wildly or adding unnecessary motion.' },
+    ],
+    practice: [
+      'Practice the overhead strike, focusing on power from the hips.',
+      'Practice horizontal strikes, maintaining structure throughout.',
+      'Practice thrusting strikes, extending the point forward efficiently.',
+      'Practice rising, downward, and middle blocks, redirecting force.',
+      'Combine strikes and blocks in simple sequences, maintaining flow.',
+    ],
+    reflection: 'How do bo strikes and blocks feel compared to empty-hand technique? What principles transfer directly, and what adjustments do you need to make?',
+    safety: 'Bo training must be supervised by qualified instructors. Train with wooden or padded staffs in a clear space. Be aware of your surroundings to avoid hitting others or objects. Start slowly and increase speed only when technique is solid.',
+    quiz: [
+      { question: 'Where does power in bo strikes come from?', options: ['The weight of the bo', 'The speed of the arms', 'The ground through the hips', 'The grip strength'], answer: 2, explanation: 'Power comes from the ground through the legs and hips, using the same principles as empty-hand technique. The bo amplifies this power but does not generate it.' },
+      { question: 'How should bo blocks work?', options: ['Stop force head-on', 'Redirect force using structure and angles', 'Absorb the impact', 'Strike back immediately'], answer: 1, explanation: 'Bo blocks redirect force away using structure and angles, just like empty-hand blocks. They do not stop force head-on.' },
+    ],
+    mastery: [
+      'Demonstrate basic bo strikes: overhead, horizontal, and thrusting.',
+      'Demonstrate basic bo blocks: rising, downward, and middle.',
+      'Generate power from the hips, not just the arms.',
+      'Identify and correct the four common bo technique errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You practice an overhead strike with the bo.', action: 'You generate power from the ground through the hips, rotating the body as you strike downward.', why: 'Power comes from the whole body, not just the arms. The bo amplifies the force generated by your hips and legs.' },
+        { setup: 'A partner attacks and you must block with the bo.', action: 'You use structure and angles to redirect the attack away from your body, rather than stopping it head-on.', why: 'Blocks redirect force using structure and angles, just like empty-hand blocks. This is more efficient than trying to stop force directly.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Bo strikes and blocks use the same principles as empty-hand technique: power from the ground through the hips, structure, and efficient movement.' },
+        { role: 'Facing it', detail: 'A bo practitioner uses the weapon to extend reach and amplify power, but the foundation is the same as empty-hand technique.' },
+      ],
+      adaptation: {
+        cues: ['Your stance and structure while striking or blocking', 'The power generated from the hips', 'The efficiency of your movement'],
+        adjustments: [
+          { if: 'Your strikes feel weak', then: 'Check your stance and hip rotation; power comes from the whole body.' },
+          { if: 'Your blocks feel like shoving matches', then: 'Use angles to redirect force rather than stopping it head-on.' },
+        ],
+        learning: 'After each practice session, note which principles from empty-hand technique transferred most effectively to bo work.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Bo Strike Reps', targetReps: 20 },
+  },
+  'karate-kobudo-sai-basics': {
+    id: 'karate-kobudo-sai-basics',
+    subject: 'Karate',
+    title: 'Sai: Grip and Fundamental Moves',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Learn the foundational grip and movements for sai work: how to hold and manipulate this unique weapon for striking, blocking, and trapping.',
+    objectives: [
+      'Understand the sai grip and hand placement',
+      'Learn basic sai movements: strikes, blocks, and trapping',
+      'Understand how the sai extends your defensive capabilities',
+      'Apply the same principles as empty-hand technique',
+      'Recognize the four most common sai technique errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Sai grip and movements',
+        caption: 'The sai is held by the handle with the prongs extending forward, used for striking, blocking, and trapping attacks.',
+        labels: ['Grip the handle firmly', 'Prongs extend forward', 'Strike with the point or shaft', 'Block and trap with the prongs'],
+      },
+    ],
+    sections: [
+      { title: 'The sai grip', content: 'The sai is held by the handle with the prongs extending forward. The grip should be firm but not tense, allowing for quick transitions between strikes, blocks, and trapping movements. The sai is typically used in pairs, one in each hand, but beginners start with a single sai to learn the fundamentals.' },
+      { title: 'Basic movements', content: 'The fundamental sai movements include strikes (using the point or shaft), blocks (using the prongs to deflect attacks), and trapping (using the prongs to catch and control an opponent weapon or limb). Each movement uses the same principles as empty-hand technique: power from the ground through the hips, structure maintained throughout, and efficient movement without wasted energy.' },
+      { title: 'Defensive capabilities', content: 'The sai is primarily a defensive weapon, designed to block, trap, and control rather than to strike aggressively. The prongs can catch and control an opponent weapon, while the shaft can be used for strikes and blocks. The sai extends your defensive capabilities by providing a tool to intercept and control attacks.' },
+    ],
+    principles: [
+      'Hold the sai firmly but not rigidly, allowing for quick transitions.',
+      'Use the same principles as empty-hand technique: power from the hips.',
+      'The sai is primarily defensive: block, trap, and control.',
+      'Efficient movement uses the whole body, not just the arms.',
+    ],
+    mistakes: [
+      { title: 'Gripping too tightly', explanation: 'A tense grip restricts movement and tires the hands quickly. Hold firmly but not rigidly.' },
+      { title: 'Using only the arms', explanation: 'Power comes from the whole body, not just the arms. Use your hips and legs to generate force.' },
+      { title: 'Ignoring the defensive nature of the sai', explanation: 'The sai is primarily a defensive weapon. Focus on blocking, trapping, and controlling rather than aggressive striking.' },
+      { title: 'Wasted movement', explanation: 'Efficient technique uses the minimum necessary movement. Avoid swinging the sai wildly or adding unnecessary motion.' },
+    ],
+    practice: [
+      'Practice the sai grip, holding it firmly but not rigidly.',
+      'Practice basic strikes with the point and shaft.',
+      'Practice blocks using the prongs to deflect attacks.',
+      'Practice trapping movements, catching and controlling imaginary attacks.',
+      'Combine strikes, blocks, and traps in simple sequences.',
+    ],
+    reflection: 'How does the sai change your defensive capabilities compared to empty-hand technique? What new options does it provide?',
+    safety: 'Sai training must be supervised by qualified instructors. Train with wooden or padded sai until technique is mastered. Be aware of your surroundings to avoid hitting others or objects. Start slowly and increase speed only when technique is solid.',
+    quiz: [
+      { question: 'What is the primary purpose of the sai?', options: ['Aggressive striking', 'Defensive blocking, trapping, and controlling', 'Throwing at opponents', 'Intimidation'], answer: 1, explanation: 'The sai is primarily a defensive weapon, designed to block, trap, and control attacks rather than to strike aggressively.' },
+      { question: 'Where does power in sai technique come from?', options: ['The weight of the sai', 'The speed of the arms', 'The ground through the hips', 'The grip strength'], answer: 2, explanation: 'Power comes from the ground through the legs and hips, using the same principles as empty-hand technique. The sai amplifies this power but does not generate it.' },
+    ],
+    mastery: [
+      'Demonstrate proper sai grip and hand placement.',
+      'Demonstrate basic sai strikes, blocks, and trapping movements.',
+      'Generate power from the hips, not just the arms.',
+      'Identify and correct the four common sai technique errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You practice blocking with the sai.', action: 'You use the prongs to deflect an attack away from your body, redirecting the force.', why: 'The sai prongs are designed to catch and redirect attacks, using structure and angles to deflect force.' },
+        { setup: 'You practice trapping with the sai.', action: 'You use the prongs to catch and control an imaginary weapon or limb, demonstrating the defensive capability.', why: 'The sai can trap and control attacks, providing a defensive option beyond simple blocking.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'The sai extends your defensive capabilities, allowing you to block, trap, and control attacks using the same principles as empty-hand technique.' },
+        { role: 'Facing it', detail: 'A sai practitioner uses the weapon defensively, catching and controlling attacks rather than striking aggressively.' },
+      ],
+      adaptation: {
+        cues: ['Your grip and structure while holding the sai', 'The defensive options the sai provides', 'The efficiency of your movements'],
+        adjustments: [
+          { if: 'Your blocks feel weak', then: 'Check your stance and hip rotation; power comes from the whole body.' },
+          { if: 'Your traps feel ineffective', then: 'Use the prongs to catch and control, using angles and leverage.' },
+        ],
+        learning: 'After each practice session, note which defensive options the sai provides that empty-hand technique does not.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Sai Movement Reps', targetReps: 20 },
+  },
+
 }
