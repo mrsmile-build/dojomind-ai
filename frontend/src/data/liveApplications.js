@@ -546,4 +546,166 @@ export const liveApplications = {
       learning: 'After each combination, note whether your guard and stance returned before your attention relaxed, and what that did to your vulnerability.',
     },
   },
+'karate-timing-understanding': {
+    scenarios: [
+      { setup: 'A partner throws a punch and you react after it is already extending.', action: 'You recognize the timing as late and meet force that has already developed, absorbing impact instead of redirecting it.', why: 'Late timing means meeting committed force; the technique is already underway and you cannot change its path.' },
+      { setup: 'You launch a technique before your partner has committed to their attack.', action: 'They see your intent early and change plan, making your technique miss or hit guard instead of target.', why: 'Early timing reveals your intent while they are still free to adapt, so they simply change what they were doing.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Timing is about when you act relative to your partner movement; the correct window is where their commitment works for you.' },
+      { role: 'Facing it', detail: 'A fighter with poor timing acts too early or too late; exploit early actions by changing plan, and late actions by committing fully before they can redirect.' },
+    ],
+    adaptation: {
+      cues: ['Their weight shifting before the technique', 'Their shoulder or hip turning', 'The moment their technique commits past the point of no return'],
+      adjustments: [
+        { if: 'You keep acting too early', then: 'Wait for their commitment to pass the point where they can withdraw.' },
+        { if: 'You keep acting too late', then: 'Read the preparation cues (weight, hip, shoulder) and act as they commit, not after.' },
+      ],
+      learning: 'After each exchange, note whether you acted early, late, or at the correct window, and what cue you used to decide.',
+    },
+  },
+  'karate-timing-reading': {
+    scenarios: [
+      { setup: 'A partner prepares to punch and you watch their hands, reacting after the punch extends.', action: 'You switch to watching their center mass and hips, reading the preparation before the punch launches.', why: 'The center organizes the whole body first, so watching chest and hips gives an earlier signal than watching hands.' },
+      { setup: 'You read a partner attack early but they feint and attack a different line.', action: 'You confirm with multiple cues (weight shift plus hip turn) before committing to your response.', why: 'A single cue can be faked; confirming with two or more signals reduces the chance of reacting to a feint.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Reading is watching the center mass and hips for preparation cues, then confirming with multiple signals before committing to a response.' },
+      { role: 'Facing it', detail: 'A reader who watches only hands or feet is easy to deceive; use feints and false preparations to draw premature reactions.' },
+    ],
+    adaptation: {
+      cues: ['Their weight loading onto one leg', 'Their hips beginning to turn', 'Their shoulder dropping or rising', 'Their eyes or head tilting toward the target'],
+      adjustments: [
+        { if: 'You keep reacting to feints', then: 'Require two or more cues before committing to a response.' },
+        { if: 'They read your preparations', then: 'Reduce your own cues by initiating without visible preload, or use false preparations to deceive them.' },
+      ],
+      learning: 'After each exchange, note which cue you relied on and whether it was reliable, and which cue you gave away in your own movement.',
+    },
+  },
+  'karate-timing-openings': {
+    scenarios: [
+      { setup: 'You wait for your partner to make a mistake so an opening appears.', action: 'You feint high to draw their guard up, then attack the midsection they just exposed.', why: 'A feint forces a reaction that reveals what is now open; you create the opening instead of waiting for it.' },
+      { setup: 'You apply steady forward pressure and your partner backs up, their guard degrading.', action: 'You continue pressure until they make a mistake, then attack the opening their degraded guard leaves.', why: 'Pressure spends their attention on not being backed up, degrading their guard and creating openings without any technique.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Openings are created by feints, draws, pressure, and angle changes; you move the guard where you want it instead of waiting for it to move.' },
+      { role: 'Facing it', detail: 'A fighter who creates openings is active and dangerous; deny their feints by not reacting, and counter their pressure by changing angle or closing distance.' },
+    ],
+    adaptation: {
+      cues: ['Their guard moving to cover a feint', 'Their structure degrading under pressure', 'Their attention spending on not being backed up'],
+      adjustments: [
+        { if: 'Your feints are not drawing reactions', then: 'Make them more credible by committing enough to force an answer.' },
+        { if: 'They deny your pressure by angling off', then: 'Follow the angle or change direction to re-establish pressure.' },
+      ],
+      learning: 'After each exchange, note whether you waited for openings or created them, and what tool (feint, pressure, angle) was most effective.',
+    },
+  },
+  'karate-distance-range': {
+    scenarios: [
+      { setup: 'You stand at kicking range and your partner steps in to punch.', action: 'You recognize the range change and either step back to restore kicking range or close to clinch range where their punch is less effective.', why: 'Different ranges favor different techniques; staying at the wrong range means your best tools do not work while theirs do.' },
+      { setup: 'You need to close distance to land a technique.', action: 'You step in with guard up, on your timing, and arrive in stance with a technique ready.', why: 'Crossing distance is the most dangerous moment; entering with guard and structure keeps you safe while you close.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Range decides which techniques work; choose the range where your tools work and their tools do not, and adjust continuously as they move.' },
+      { role: 'Facing it', detail: 'A fighter at the wrong range cannot use their best tools; force them to fight at a range that favors you by controlling the gap with footwork.' },
+    ],
+    adaptation: {
+      cues: ['Their steps changing the gap', 'Their reach being longer or shorter than expected', 'Their preferred range being different from yours'],
+      adjustments: [
+        { if: 'They are at their preferred range', then: 'Move the gap to your range using footwork and angle.' },
+        { if: 'You cannot close distance safely', then: 'Use feints or angle changes to create a safe entry window.' },
+      ],
+      learning: 'After each exchange, note which range you fought at and whether it favored you or them, and what footwork you used to control it.',
+    },
+  },
+  'karate-distance-managing': {
+    scenarios: [
+      { setup: 'Your partner keeps stepping in to punch range where they are effective.', action: 'You step back to stay at kicking range where your kicks work and their punches do not, denying them their preferred range.', why: 'Denying their preferred range means their best tools do not reach, so you defend without blocking.' },
+      { setup: 'You need to close distance to land a combination.', action: 'You use angle changes and feints to create a safe entry window, then step in with guard up on your timing.', why: 'Angle changes and feints create moments when the partner cannot respond, giving you a safe window to cross distance.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Distance management is using footwork, angle, and feints to keep the gap where your tools work and their tools do not.' },
+      { role: 'Facing it', detail: 'A fighter who manages distance well is hard to reach; pressure them continuously or use feints to draw them into your range.' },
+    ],
+    adaptation: {
+      cues: ['Their steps changing the gap', 'Their use of angle to change the line', 'Their feints trying to draw you in'],
+      adjustments: [
+        { if: 'They keep denying your range', then: 'Use pressure or feints to draw them in, or change angle to close from a different line.' },
+        { if: 'They keep closing on you', then: 'Step back to deny their range, or angle off to change the line and make them turn to re-face you.' },
+      ],
+      learning: 'After each exchange, note whether you controlled the gap or let them control it, and what footwork you used to manage distance.',
+    },
+  },
+  'karate-distance-entering-exiting': {
+    scenarios: [
+      { setup: 'You enter distance to land a technique but arrive off balance.', action: 'You recognize the entry failed and immediately exit on an angle to a safe range before they can counter.', why: 'A failed entry leaves you vulnerable; exiting immediately on an angle moves you off their line while creating distance.' },
+      { setup: 'You land a technique and your partner counters immediately.', action: 'You exit on a 45-degree angle instead of straight back, so their counter travels where you were, not where you are.', why: 'Exiting on an angle moves you off the line of their counter while maintaining distance and balance.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Entry and exit form one loop; enter with guard and structure, then exit on an angle before they can counter.' },
+      { role: 'Facing it', detail: 'A fighter who enters without an exit plan or exits straight back is vulnerable; counter immediately after their technique, before they recover.' },
+    ],
+    adaptation: {
+      cues: ['Their entry timing and angle', 'Their guard and structure during entry', 'Their exit direction and speed'],
+      adjustments: [
+        { if: 'They enter without guard', then: 'Counter immediately during their entry, before they can establish structure.' },
+        { if: 'They exit straight back', then: 'Follow on the same line and attack before they can reset.' },
+      ],
+      learning: 'After each entry and exit, note whether your guard and structure were intact, and whether you exited on an angle or straight back.',
+    },
+  },
+  'karate-applications-understanding': {
+    scenarios: [
+      { setup: 'You perform a technique mechanically without understanding its purpose.', action: 'You study the application: what problem it solves, when to use it, and how to adjust intensity for different contexts.', why: 'Understanding application transforms isolated movement into functional skill; you know when to deploy the technique and how hard to commit.' },
+      { setup: 'You use the same technique the same way in every context.', action: 'You adjust intensity and commitment based on purpose: light and fast to create openings, heavy and committed as a counter.', why: 'The same technique used for different purposes requires different intensity; understanding application lets you adjust execution to match the moment.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Every technique solves a problem; understand what problem it solves so you know when to use it and how to adjust execution.' },
+      { role: 'Facing it', detail: 'A fighter who uses techniques without understanding application is predictable; they use the same execution in every context.' },
+    ],
+    adaptation: {
+      cues: ['Their technique execution being the same in every context', 'Their intensity not matching the situation', 'Their timing not matching the purpose'],
+      adjustments: [
+        { if: 'They use heavy commitment when light would work', then: 'Exploit their over-commitment by evading and countering.' },
+        { if: 'They use light commitment when heavy is needed', then: 'Pressure through their technique; it lacks the power to stop you.' },
+      ],
+      learning: 'After each exchange, note whether your technique execution matched the purpose, and whether you understood why it worked or failed.',
+    },
+  },
+  'karate-applications-defensive': {
+    scenarios: [
+      { setup: 'You block an attack but do not counter immediately.', action: 'Your partner recovers and attacks again, retaining the initiative.', why: 'A block without a counter leaves the initiative with the attacker; they recover and attack again while you wait.' },
+      { setup: 'You block an attack and immediately counter through the opening it created.', action: 'You flow from block to counter in one continuous movement, returning the initiative to yourself.', why: 'The block creates an opening; the counter travels through it before the attacker can recover, returning the initiative to you.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Every block creates an opening; flow immediately into a counter or repositioning so defense becomes initiative.' },
+      { role: 'Facing it', detail: 'A fighter who blocks and freezes is predictable; attack again immediately after their block, before they can counter.' },
+    ],
+    adaptation: {
+      cues: ['Their block ending without immediate counter', 'Their guard recovering slowly after a block', 'Their position after the block being poor for their next action'],
+      adjustments: [
+        { if: 'They block and freeze', then: 'Attack again immediately before they can counter or reposition.' },
+        { if: 'They flow block to counter', then: 'Use feints to draw their block, then attack the line their counter leaves open.' },
+      ],
+      learning: 'After each defensive exchange, note whether your block led to immediate counter or whether you froze, and what that did to the initiative.',
+    },
+  },
+  'karate-applications-movement': {
+    scenarios: [
+      { setup: 'You stand at a range where your techniques do not work.', action: 'You use footwork to move to a range where your techniques work and their techniques do not.', why: 'Position enables your techniques and limits theirs; moving to the right range makes your tools effective.' },
+      { setup: 'Your partner moves to a range where their techniques work.', action: 'You use footwork and angle to restore a range where your techniques work, or you change angle to change what lines are covered.', why: 'Position is continuous; as they move, you must adjust to maintain the range where your tools work.' },
+    ],
+    perspectives: [
+      { role: 'Using it', detail: 'Positioning is using footwork and angle to place yourself where your techniques work and their techniques do not.' },
+      { role: 'Facing it', detail: 'A fighter who positions well is hard to reach; pressure them continuously or use feints to draw them into your range.' },
+    ],
+    adaptation: {
+      cues: ['Their steps changing the range', 'Their angle changes moving them off your line', 'Their preferred range being different from yours'],
+      adjustments: [
+        { if: 'They move to their preferred range', then: 'Use footwork to restore your preferred range, or change angle to change what lines are covered.' },
+        { if: 'They angle off to change the line', then: 'Follow the angle to re-establish your line, or change your own angle to create a new line.' },
+      ],
+      learning: 'After each exchange, note whether you controlled the position or let them control it, and what footwork and angle you used.',
+    },
+  },
 }

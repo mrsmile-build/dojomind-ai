@@ -1780,3 +1780,111 @@ footer {
     padding: 10px;
   }
 }
+
+/* Practice Timer */
+.practice-timer {
+  margin-top: 32px;
+  padding: 32px 28px;
+  background: rgba(201,161,90,.08);
+  border: 1px solid rgba(201,161,90,.3);
+  border-radius: 16px;
+}
+
+.practice-timer .timer-header {
+  margin-bottom: 24px;
+}
+
+.practice-timer .timer-header h3 {
+  color: #c9a15a;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.practice-timer .timer-content {
+  text-align: center;
+}
+
+.practice-timer .timer-display {
+  font-size: 64px;
+  font-weight: 700;
+  color: #c9a15a;
+  margin: 20px 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.practice-timer .timer-phase {
+  font-size: 14px;
+  letter-spacing: .15em;
+  color: #c9a15a;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.practice-timer .timer-interval-count {
+  font-size: 14px;
+  color: rgba(255,255,255,.7);
+  margin-bottom: 16px;
+}
+
+.practice-timer .timer-instruction {
+  color: rgba(255,255,255,.85);
+  line-height: 1.6;
+  margin: 16px 0 24px;
+}
+
+.practice-timer .timer-controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.practice-timer .timer-button {
+  padding: 12px 24px;
+  background: rgba(201,161,90,.2);
+  border: 1px solid rgba(201,161,90,.4);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.practice-timer .timer-button:hover {
+  background: rgba(201,161,90,.3);
+  border-color: rgba(201,161,90,.6);
+}
+
+.practice-timer .timer-button.large {
+  font-size: 24px;
+  padding: 8px 32px;
+}
+
+.practice-timer .timer-complete {
+  margin-top: 20px;
+  padding: 12px;
+  background: rgba(76,175,80,.2);
+  border: 1px solid rgba(76,175,80,.4);
+  border-radius: 8px;
+  color: #4caf50;
+  font-size: 14px;
+}
+
+.practice-timer .timer-complete span {
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .practice-timer .timer-display {
+    font-size: 48px;
+  }
+  
+  .practice-timer .timer-controls {
+    flex-direction: column;
+  }
+  
+  .practice-timer .timer-button {
+    width: 100%;
+  }
+}

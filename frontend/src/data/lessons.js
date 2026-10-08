@@ -504,7 +504,12 @@ export const lessons = {
         rear: { x: 40, y: 0, angle: 0 },
         note:
           'Both feet point straight forward and are about shoulder-width apart. The feet are on the same forward-backward line, creating a stable, parallel base.',
-      },
+        practiceEngine: {
+      type: 'timed-hold',
+      label: 'Horse Stance Hold',
+      initialTime: 30,
+    },
+  },
       annotations: [
         { number: '01', label: 'Both knees bent equally', detail: 'The knees are bent and track over the feet, not caving inward.' },
         { number: '02', label: 'Parallel feet', detail: 'Both feet point straight forward, about shoulder-width apart.' },
@@ -609,6 +614,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Horse Stance Hold',
+      initialTime: 30,
+    },
     mastery: [
       'Set up the horse stance with correct parallel foot alignment unaided.',
       'Hold the stance for ten breaths with knees tracking over feet and torso upright.',
@@ -2425,7 +2435,12 @@ export const lessons = {
           'Momentum links the chain',
           'Balance survives every link',
         ],
-      },
+        practiceEngine: {
+      type: 'rep-counter',
+      label: 'Combination Reps',
+      targetReps: 10,
+    },
+  },
     ],
 
     sections: [
@@ -2502,6 +2517,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Combination Reps',
+      targetReps: 10,
+    },
     mastery: [
       'Explain the cause-and-effect logic of a two-technique chain.',
       'Perform a three-link combination with balance and guard at every link.',

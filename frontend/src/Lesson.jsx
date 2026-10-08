@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import LessonVisual from './components/LessonVisual'
 import LessonVisualBlock from './components/LessonVisualBlock'
+import PracticeTimer from './components/PracticeTimer'
 import BodyPositionDiagram from './components/BodyPositionDiagram'
 import { liveApplications } from './data/liveApplications'
 
@@ -170,7 +171,12 @@ function Lesson({ lesson, onBack, onComplete }) {
             ))}
           </ol>
 
-          <p className="safety-note">
+          
+          {lesson.practiceEngine && (
+            <PracticeTimer config={lesson.practiceEngine} />
+          )}
+
+<p className="safety-note">
             {lesson.safety}
           </p>
         </div>
