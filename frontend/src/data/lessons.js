@@ -319,6 +319,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Front Stance Hold',
+      initialTime: 30,
+    },
     mastery: [
       'Set up the front stance with correct foot angles and spacing unaided.',
       'Hold the stance for ten breaths with heel, knee and posture intact.',
@@ -464,6 +469,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Back Stance Hold',
+      initialTime: 30,
+    },
     mastery: [
       'Set up the back stance with correct L-shape foot alignment unaided.',
       'Hold the stance for ten breaths with a deeply bent rear knee and upright torso.',
@@ -764,6 +774,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Footwork Steps',
+      targetReps: 10,
+    },
     mastery: [
       'Step forward and backward without crossing the feet.',
       'Keep head height constant across five consecutive steps.',
@@ -908,6 +923,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Balance Freeze',
+      initialTime: 20,
+    },
     mastery: [
       'Freeze stably at a random moment of a step, unaided.',
       'Move forward and backward with a level head and no leaning.',
@@ -1052,6 +1072,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Turn Reps',
+      targetReps: 10,
+    },
     mastery: [
       'Complete 90 and 180 degree turns without crossing the feet.',
       'Keep height constant through five consecutive turns.',
@@ -1197,6 +1222,13 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'interval',
+      label: 'Power Intervals',
+      workTime: 30,
+      restTime: 15,
+      totalIntervals: 4,
+    },
     mastery: [
       'Explain the kinetic chain from ground to contact surface.',
       'Feel and describe hip rotation during a slow strike.',
@@ -1342,6 +1374,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Punch Reps',
+      targetReps: 20,
+    },
     mastery: [
       'Execute a straight punch with proper chamber, extension, kime and hikite.',
       'Feel and demonstrate hip rotation during the punch.',
@@ -1528,6 +1565,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Elbow Reps',
+      targetReps: 20,
+    },
     mastery: [
       'Execute a horizontal elbow strike with proper bent-arm structure.',
       'Generate power through whole-body rotation, not shoulder muscles.',
@@ -1818,6 +1860,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Downward Block Reps',
+      targetReps: 20,
+    },
     mastery: [
       'Execute a downward block with proper circular motion.',
       'Use hip rotation to generate power in the block.',
@@ -1963,6 +2010,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Rising Block Reps',
+      targetReps: 20,
+    },
     mastery: [
       'Execute a rising block with proper upward arc motion.',
       'Use hip rotation to generate power in the block.',
@@ -2108,6 +2160,13 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'interval',
+      label: 'Kick Intervals',
+      workTime: 30,
+      restTime: 15,
+      totalIntervals: 4,
+    },
     mastery: [
       'Hold a chambered kick position for five seconds with good balance.',
       'Execute the four phases of a kick in sequence.',
@@ -2253,6 +2312,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'rep-counter',
+      label: 'Front Kick Reps',
+      targetReps: 20,
+    },
     mastery: [
       'Execute a front kick with proper high chamber position.',
       'Make contact with the ball of the foot consistently.',
@@ -2397,6 +2461,11 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'timed-hold',
+      label: 'Chamber Hold',
+      initialTime: 20,
+    },
     mastery: [
       'Hold a chambered kick position for five seconds with good balance.',
       'Execute kicks with the support knee slightly bent throughout.',
@@ -2636,6 +2705,13 @@ export const lessons = {
       },
     ],
 
+    practiceEngine: {
+      type: 'interval',
+      label: 'Rhythm Intervals',
+      workTime: 30,
+      restTime: 15,
+      totalIntervals: 4,
+    },
     mastery: [
       'Perform one combination at three different deliberate tempos.',
       'Use a balanced pause to break a partner timing in a drill.',
