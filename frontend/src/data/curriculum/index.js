@@ -120,17 +120,7 @@ export const curriculum = {
                 { id: 'karate-strategy-understanding', title: 'Understanding Strategy' },
                 { id: 'karate-strategy-pace', title: 'Controlling the Pace' },
                 { id: 'karate-strategy-adapting', title: 'Adapting to an Opponent' },
-              
-            {
-              id: 'self-defense',
-              title: 'Self-Defense & Weapons Awareness',
-              lessons: [
-                { id: 'karate-self-defense-principles', title: 'Self-Defense Principles' },
-                { id: 'karate-self-defense-against-knife', title: 'Against a Knife' },
-                { id: 'karate-self-defense-against-stick', title: 'Against a Stick or Blunt Weapon' },
-                { id: 'karate-self-defense-against-grabs', title: 'Against Grabs and Holds' },
-              ],
-            },],
+],
             },
             {
               id: 'tactics',
@@ -150,7 +140,8 @@ export const curriculum = {
                 { id: 'karate-advanced-training-longterm', title: 'Building Long-Term Skill' },
               ],
             },
-          ],
+          
+            { id: 'self-defense', title: 'Self-Defense & Weapons Awareness', lessons: [ { id: 'karate-self-defense-principles', title: 'Self-Defense Principles' }, { id: 'karate-self-defense-against-knife', title: 'Against a Knife' }, { id: 'karate-self-defense-against-stick', title: 'Against a Stick or Blunt Weapon' }, { id: 'karate-self-defense-against-grabs', title: 'Against Grabs and Holds' } ] },],
         },
         expert: {
           name: 'Expert',
@@ -165,17 +156,7 @@ export const curriculum = {
                 { id: 'karate-initiative-understanding', title: 'Understanding Initiative' },
                 { id: 'karate-initiative-sen-no-sen', title: 'Sen no Sen: Attacking the Attack' },
                 { id: 'karate-initiative-reading-intent', title: 'Reading Intent Before Motion' },
-              
-            {
-              id: 'kobudo',
-              title: 'Traditional Weapons (Kobudo)',
-              lessons: [
-                { id: 'karate-kobudo-introduction', title: 'Introduction to Kobudo' },
-                { id: 'karate-kobudo-bo-grip', title: 'Bo Staff: Grip and Stance' },
-                { id: 'karate-kobudo-bo-strikes', title: 'Bo Staff: Strikes and Blocks' },
-                { id: 'karate-kobudo-sai-basics', title: 'Sai: Grip and Fundamental Moves' },
-              ],
-            },],
+],
             },
             {
               id: 'kata',
@@ -195,7 +176,8 @@ export const curriculum = {
                 { id: 'karate-mastery-coaching-eyes', title: 'Developing the Coaching Eye' },
               ],
             },
-          ],
+          
+            { id: 'kobudo', title: 'Traditional Weapons (Kobudo)', lessons: [ { id: 'karate-kobudo-introduction', title: 'Introduction to Kobudo' }, { id: 'karate-kobudo-bo-grip', title: 'Bo Staff: Grip and Stance' }, { id: 'karate-kobudo-bo-strikes', title: 'Bo Staff: Strikes and Blocks' }, { id: 'karate-kobudo-sai-basics', title: 'Sai: Grip and Fundamental Moves' } ] },],
         },
       },
     },
