@@ -6386,5 +6386,239 @@ export const lessons = {
       },
     },
   },
+  'karate-initiative-understanding': {
+    id: 'karate-initiative-understanding',
+    subject: 'Karate',
+    title: 'Understanding Initiative',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Learn the concept of sen (initiative): who controls the moment an exchange begins, and why initiative is about timing the start, not just moving fast.',
+    objectives: [
+      'Understand initiative as control over when the exchange begins',
+      'Recognize the three classical types of initiative (go no sen, sen no sen, sen sen no sen)',
+      'Learn that initiative is timing the start, not raw speed',
+      'Understand how initiative relates to but differs from timing',
+      'Recognize the four most common initiative errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The three initiatives',
+        caption: 'Initiative is control over the moment of engagement: respond after (go no sen), attack into their attack (sen no sen), or pre-empt before they commit (sen sen no sen).',
+        labels: ['Go no sen: respond after', 'Sen no sen: attack the attack', 'Sen sen no sen: pre-empt intent', 'All three control the start'],
+      },
+    ],
+    sections: [
+      { title: 'Initiative is control of the start', content: 'Initiative (sen) is not about who moves fastest but about who controls when the exchange begins. The fighter with initiative chooses the moment of engagement; the fighter without it is forced to respond on the other schedule. Controlling the start is a deeper advantage than speed, because it lets you act into a moment you selected rather than reacting to one imposed on you.' },
+      { title: 'The three classical initiatives', content: 'Japanese martial arts name three ways to take initiative. Go no sen is responding after the opponent commits: you let them start, then counter into their committed attack. Sen no sen is attacking into their attack: you launch as they launch, meeting or beating their technique in flight. Sen sen no sen is pre-empting before they fully commit: you attack the intent you have read, before their body has fully launched. Each has different risk and reward, and expert fighters move fluidly among all three.' },
+      { title: 'Initiative versus timing', content: 'Timing (learned at intermediate level) is about when within an exchange to act: early, late, or correct. Initiative is one level deeper: it is about who decides that the exchange has begun at all. You can have perfect timing within an exchange the opponent initiated, or you can seize initiative and make them fight on your start. Expert practice integrates both: take the start, then win the moments within it.' },
+    ],
+    principles: [
+      'Initiative is control over when the exchange begins, not raw speed.',
+      'Go no sen responds after; sen no sen attacks into; sen sen no sen pre-empts.',
+      'The fighter with initiative acts on a chosen moment, not an imposed one.',
+      'Initiative and timing integrate: take the start, then win the moments.',
+    ],
+    mistakes: [
+      { title: 'Confusing initiative with speed', explanation: 'Moving first is not initiative if the opponent baited you into it. Initiative is choosing the moment, not merely occupying it first.' },
+      { title: 'Always using one initiative', explanation: 'Relying only on go no sen makes you reactive; only on sen sen no sen makes you guessy. Move fluidly among all three.' },
+      { title: 'Ceding the start by hesitating', explanation: 'Hesitation hands initiative to the opponent. If you will not choose the start, they will.' },
+      { title: 'Pre-empting without a read', explanation: 'Sen sen no sen requires reading intent. Attacking on a guess is not pre-emption, it is a gamble.' },
+    ],
+    practice: [
+      'With a partner, practice go no sen: let them commit, then counter into it.',
+      'Practice sen no sen: launch as they launch, meeting their technique in flight.',
+      'Practice sen sen no sen: read their intent and attack before full commitment.',
+      'Alternate among all three within one round, choosing deliberately.',
+      'After each exchange, name which initiative you used and whether it was a choice.',
+    ],
+    reflection: 'In your last sparring, who chose the moment each exchange began: you or the opponent? Which of the three initiatives do you default to, and what does that reveal?',
+    safety: 'Initiative drills involve launching into a moving partner. Keep contact controlled and agreed, and start slow until both partners can read commitment safely.',
+    quiz: [
+      { question: 'What is initiative (sen) fundamentally about?', options: ['Moving faster than the opponent', 'Controlling when the exchange begins', 'Striking harder', 'Blocking first'], answer: 1, explanation: 'Initiative is control over the moment of engagement: choosing when the exchange starts rather than reacting to a start imposed on you.' },
+      { question: 'Which initiative attacks into the opponent attack as it launches?', options: ['Go no sen', 'Sen no sen', 'Sen sen no sen', 'None of these'], answer: 1, explanation: 'Sen no sen is attacking into the attack: launching as they launch, meeting or beating their technique in flight.' },
+    ],
+    mastery: [
+      'Name and demonstrate the three classical initiatives.',
+      'Choose initiative deliberately rather than defaulting to one.',
+      'Distinguish initiative (the start) from timing (within the exchange).',
+      'Identify and correct the four common initiative errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your opponent always waits for you to start, then counters.', action: 'You use sen sen no sen: read their counter intent and attack into it before it launches, or feint to draw the counter and slip it.', why: 'Against a counter-fighter, taking the earliest initiative or baiting their counter removes their go no sen advantage.' },
+        { setup: 'Your opponent attacks first every time.', action: 'You shift to sen no sen: launch as they launch so you meet their attack in flight rather than after it lands.', why: 'Attacking into their attack denies them the clean committed strike their first-move strategy depends on.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Initiative is choosing when the exchange begins; move fluidly among go no sen, sen no sen, and sen sen no sen based on the opponent.' },
+        { role: 'Facing it', detail: 'An initiative-controlling opponent makes you fight on their start; vary your own starts and refuse predictable commitment.' },
+      ],
+      adaptation: {
+        cues: ['Who is choosing the start of each exchange', 'The opponent default initiative type', 'Moments when you hesitated and ceded the start'],
+        adjustments: [
+          { if: 'They always counter your starts', then: 'Use feints to draw the counter, or shift to sen no sen into their counter.' },
+          { if: 'They always start first', then: 'Move to sen no sen or sen sen no sen to take the start back.' },
+        ],
+        learning: 'After each round, note who chose each start and which initiative you used, and whether it was deliberate.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Initiative Reps', targetReps: 15 },
+  },
+  'karate-initiative-sen-no-sen': {
+    id: 'karate-initiative-sen-no-sen',
+    subject: 'Karate',
+    title: 'Sen no Sen: Attacking the Attack',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Master the narrow, high-reward window of sen no sen: launching into the opponent attack as it begins, meeting or beating it in flight.',
+    objectives: [
+      'Understand sen no sen as attacking into the attack',
+      'Learn to recognize the launch moment of an opponent technique',
+      'Develop the commitment and line to beat an attack in flight',
+      'Understand the risk and reward of the sen no sen window',
+      'Recognize the four most common sen no sen errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The narrow window',
+        caption: 'Sen no sen lives in the instant between the opponent decision and their full extension: launch into it and you meet the attack in flight.',
+        labels: ['Opponent decides', 'Launch begins', 'Sen no sen window', 'Full extension (too late)'],
+      },
+    ],
+    sections: [
+      { title: 'The window between decision and extension', content: 'Every attack has a brief window between the moment the opponent decides and the moment their technique fully extends. Sen no sen lives in this window: you launch as they launch, so your technique meets or beats theirs in flight. The window is narrow, which is why sen no sen is high-risk and high-reward: succeed and you dominate the exchange; mistime it and you walk into their technique.' },
+      { title: 'Recognizing the launch', content: 'To enter the window you must see the launch, not the finished technique. The launch is announced by the same preparation cues you learned at intermediate level: weight shift, hip turn, shoulder drop, and the breath that precedes effort. At expert level these reads must be fast enough to trigger your launch within a fraction of a second, which is why sen no sen depends on the reading skill built earlier.' },
+      { title: 'Commitment and line', content: 'Sen no sen only works with full commitment and the correct line. A half-committed counter launched into an attack gets beaten by it. You must take a line that both intercepts their technique and reaches them: often an angle that removes you from their line while your counter travels theirs. The combination of decisive commitment and correct line is what turns a dangerous gamble into a controlled technique.' },
+    ],
+    principles: [
+      'Sen no sen lives between the opponent decision and full extension.',
+      'See the launch cues, not the finished technique.',
+      'Full commitment and correct line are both required.',
+      'The window is narrow: high risk, high reward.',
+    ],
+    mistakes: [
+      { title: 'Launching on the finished technique', explanation: 'If you wait until the attack is extended, the window is gone and you are countering late, not doing sen no sen.' },
+      { title: 'Half commitment into the window', explanation: 'A tentative counter loses the race. Commit fully or choose a different initiative.' },
+      { title: 'Ignoring line and angle', explanation: 'Entering straight into their line while attacking gets you hit. Take an angle that removes you from their path.' },
+      { title: 'Using sen no sen without a read', explanation: 'Launching on a guess into an attack is a gamble. The window must be opened by a real read of the launch.' },
+    ],
+    practice: [
+      'With a partner throwing slow committed attacks, launch your counter as their launch begins.',
+      'Gradually increase their speed while keeping your entry in the window.',
+      'Practice taking an angle that removes you from their line as you counter.',
+      'Drill full commitment: each rep either in the window or clearly not, no half entries.',
+      'Review each rep: did you launch on the launch cue or on the finished technique?',
+    ],
+    reflection: 'In your drills, are you entering the window between decision and extension, or are you reacting to the finished attack? What cue triggers your launch?',
+    safety: 'Sen no sen drills involve crossing into an incoming attack. Use controlled speed, protective equipment, and a partner who commits predictably at first.',
+    quiz: [
+      { question: 'Where does the sen no sen window live?', options: ['After the attack fully extends', 'Between the opponent decision and full extension', 'Before any intent exists', 'During the recovery'], answer: 1, explanation: 'Sen no sen lives in the brief window between the opponent deciding and their technique fully extending; you launch into it to meet the attack in flight.' },
+      { question: 'What two things must accompany a sen no sen counter?', options: ['Speed and strength', 'Full commitment and correct line or angle', 'Patience and distance', 'Feint and pause'], answer: 1, explanation: 'A half-committed or straight-line counter into an attack gets beaten; decisive commitment plus a line that intercepts and removes you is required.' },
+    ],
+    mastery: [
+      'Enter the sen no sen window against a committed attack reliably.',
+      'Launch on the launch cue rather than the finished technique.',
+      'Combine commitment with an angle that removes you from their line.',
+      'Identify and correct the four common sen no sen errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your opponent commits to a straight punch.', action: 'You angle off their line and launch your counter as their shoulder turns, meeting the punch in flight.', why: 'Angling removes you from their path while your committed counter travels theirs inside the launch window.' },
+        { setup: 'You keep getting hit because you launch late.', action: 'You shift your trigger from the extending arm to the earlier weight shift and hip turn.', why: 'Reading the earlier preparation cues opens the window in time; the finished arm is already too late.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Sen no sen beats an attack by launching into its window with full commitment and a line that intercepts while removing you.' },
+        { role: 'Facing it', detail: 'A sen no sen fighter punishes committed attacks; vary commitment, feint the launch, or attack on unexpected beats.' },
+      ],
+      adaptation: {
+        cues: ['The opponent launch cues (weight, hip, shoulder, breath)', 'Whether your entries land in the window or late', 'Their commitment level on each attack'],
+        adjustments: [
+          { if: 'You are consistently late', then: 'Trigger on earlier cues and pre-load your counter.' },
+          { if: 'They feint the launch to bait you', then: 'Require a second confirmation cue before committing.' },
+        ],
+        learning: 'After each drill, note which cue triggered your launch and whether you were in the window, early, or late.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Sen no Sen Entries', targetReps: 12 },
+  },
+  'karate-initiative-reading-intent': {
+    id: 'karate-initiative-reading-intent',
+    subject: 'Karate',
+    title: 'Reading Intent Before Motion',
+    level: 'Expert',
+    duration: '15 min',
+    description: 'Perceive the opponent intent in the moment before physical motion begins, and learn to act on intent while distinguishing it from feints.',
+    objectives: [
+      'Understand intent as the moment before physical motion',
+      'Learn the micro-cues of intent: breath, gaze, tension, weight',
+      'Act on intent to enable sen sen no sen',
+      'Distinguish genuine intent from feigned intent',
+      'Recognize the four most common intent-reading errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The moment before motion',
+        caption: 'Intent precedes motion: breath, gaze, tension, and a micro weight shift announce the decision before the body moves. Reading this is the basis of sen sen no sen.',
+        labels: ['Intent forms', 'Micro-cues appear', 'Motion begins', 'Acting on intent pre-empts motion'],
+      },
+    ],
+    sections: [
+      { title: 'Intent precedes motion', content: 'Before any technique moves, the opponent has already decided. That decision produces micro-cues: a breath held or released, a gaze that locks or shifts, a subtle tension in the shoulders or jaw, and a micro weight shift. These appear a fraction of a second before visible motion. Reading intent means perceiving this pre-motion layer, which is the earliest possible signal and the foundation of sen sen no sen.' },
+      { title: 'The micro-cues', content: 'The most reliable intent cues are involuntary or hard to fake: the breath that loads before effort, the gaze that fixes on the target, the tension that precedes explosion, and the tiny weight transfer that begins any real movement. Trained readers watch for this cluster rather than a single cue, because a cluster is far harder to feign than one isolated signal.' },
+      { title: 'Intent versus feint', content: 'The expert challenge is that opponents feign intent to bait pre-emption. Genuine intent and feigned intent differ in commitment: a real intent has the breath, weight, and tension aligned toward action, while a feint usually lacks one element, most often the true weight transfer or the loading breath. Requiring the full cluster before acting protects you from bait, at the cost of sometimes being slightly late. Balancing that trade-off is expert judgment.' },
+    ],
+    principles: [
+      'Intent precedes motion and announces itself in micro-cues.',
+      'Read the cluster (breath, gaze, tension, weight), not a single cue.',
+      'Genuine intent aligns all cues; feints usually miss one.',
+      'Acting on intent enables sen sen no sen but risks bait.',
+    ],
+    mistakes: [
+      { title: 'Acting on a single cue', explanation: 'One cue is easily feigned. Require the cluster of breath, gaze, tension, and weight before pre-empting.' },
+      { title: 'Waiting for full motion', explanation: 'If you wait for visible technique, you have left the intent layer and lost sen sen no sen. Trust the cluster.' },
+      { title: 'Pre-empting every tension', explanation: 'Not all tension is intent to attack. Over-reacting to noise makes you baitable and wastes energy.' },
+      { title: 'Ignoring your own intent leakage', explanation: 'You broadcast the same micro-cues. Manage your breath, gaze, and tension so your intent is harder to read.' },
+    ],
+    practice: [
+      'With a partner, watch only for the pre-motion cluster as they decide to attack slowly.',
+      'Call out the moment of intent before any motion; partner confirms or denies.',
+      'Have the partner mix real intent with feints; require the full cluster before calling.',
+      'Practice acting on a confirmed intent cluster with a light pre-emptive technique.',
+      'Observe your own micro-cues in a mirror or video and learn to minimize them.',
+    ],
+    reflection: 'Can you currently perceive the moment before motion, or do you only see motion itself? Which micro-cue is clearest for you, and which do you leak most?',
+    safety: 'Intent-reading drills involve pre-emptive movement. Keep contact light or absent until reads are reliable, and use a cooperative partner at first.',
+    quiz: [
+      { question: 'What layer does reading intent perceive?', options: ['The finished technique', 'The moment before physical motion begins', 'The recovery phase', 'The scoring outcome'], answer: 1, explanation: 'Intent precedes motion; reading it means perceiving the micro-cues (breath, gaze, tension, weight) that appear before the body moves.' },
+      { question: 'How do you protect against feigned intent?', options: ['Act faster', 'Require the full cluster of cues rather than a single one', 'Ignore all cues', 'Always pre-empt'], answer: 1, explanation: 'A real intent aligns breath, gaze, tension, and weight; feints usually miss one. Requiring the cluster filters bait at the cost of slight lateness.' },
+    ],
+    mastery: [
+      'Perceive and call the intent moment before motion reliably.',
+      'Read the cue cluster rather than single cues.',
+      'Distinguish genuine intent from feints in mixed drills.',
+      'Identify and correct the four common intent-reading errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your opponent breathes in, locks gaze, and shifts weight microscopically.', action: 'You recognize the full intent cluster and pre-empt with a light technique before their motion begins.', why: 'Acting on the aligned pre-motion cluster is sen sen no sen: you attack the decision before it becomes a technique.' },
+        { setup: 'Your opponent twitches a shoulder but the weight and breath do not commit.', action: 'You hold, recognizing a feint missing the cluster, and let the fake expire.', why: 'Requiring the full cluster prevents you from being baited by isolated fake cues.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Reading intent lets you act on the decision before the motion, enabling sen sen no sen and the earliest possible control.' },
+        { role: 'Facing it', detail: 'An intent-reader punishes your decisions before they move; mask your breath, gaze, and tension, and feign clusters carefully.' },
+      ],
+      adaptation: {
+        cues: ['Breath loading or releasing', 'Gaze locking or shifting', 'Shoulder and jaw tension', 'Micro weight transfer'],
+        adjustments: [
+          { if: 'The full cluster appears', then: 'Act on intent with a pre-emptive technique or prepared response.' },
+          { if: 'Only partial cues appear', then: 'Hold and require more confirmation before committing.' },
+        ],
+        learning: 'After each drill, note which clusters were genuine, which were feints, and which cue you relied on or missed.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Intent Reads', targetReps: 20 },
+  },
 
 }
