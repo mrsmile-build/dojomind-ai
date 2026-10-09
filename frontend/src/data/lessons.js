@@ -1287,6 +1287,18 @@ export const lessons = {
 
     visuals: [
       {
+        type: 'animation',
+        title: 'Straight punch in motion',
+        caption: 'Watch the kinetic chain: chamber, rotate, extend, contact, then hikite retract.',
+        phases: [
+          { label: 'Chamber', pose: { torso: 6, pUpper: -10, pFore: 80, rUpper: 90, rFore: 90 } },
+          { label: 'Rotate', pose: { torso: 9, pUpper: 20, pFore: 70, rUpper: 70, rFore: 85 } },
+          { label: 'Extend', pose: { torso: 11, pUpper: 60, pFore: 85, rUpper: 40, rFore: 80 } },
+          { label: 'Contact', pose: { torso: 12, pUpper: 90, pFore: 90, rUpper: -10, rFore: 80 } },
+          { label: 'Hikite', pose: { torso: 6, pUpper: -10, pFore: 80, rUpper: -10, rFore: 80 } },
+        ],
+      },
+      {
         type: 'diagram',
         title: 'Chamber, extend, pull back',
         caption:

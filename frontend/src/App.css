@@ -1905,3 +1905,62 @@ footer {
   margin: 8px 0 0;
   font-size: 14px;
 }
+
+/* Technique animation */
+.technique-animation {
+  margin-top: 32px;
+  padding: 24px 20px;
+  background: rgba(201,161,90,.06);
+  border: 1px solid rgba(201,161,90,.3);
+  border-radius: 16px;
+  text-align: center;
+}
+.technique-animation .ta-header h3 {
+  color: #c9a15a;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.technique-animation .ta-svg {
+  width: 100%;
+  max-width: 320px;
+  margin: 16px auto;
+  display: block;
+}
+.technique-animation .ta-phase {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.technique-animation .ta-controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.technique-animation .ta-steps {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.technique-animation .ta-step {
+  padding: 6px 12px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  color: rgba(255,255,255,.7);
+  font-size: 12px;
+  cursor: pointer;
+}
+.technique-animation .ta-step.active {
+  background: rgba(201,161,90,.25);
+  border-color: rgba(201,161,90,.6);
+  color: #c9a15a;
+}
+.technique-animation .ta-caption {
+  color: rgba(255,255,255,.7);
+  font-size: 13px;
+  margin-top: 16px;
+  line-height: 1.5;
+}

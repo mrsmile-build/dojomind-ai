@@ -3,6 +3,7 @@ import LessonVisual from './components/LessonVisual'
 import LessonVisualBlock from './components/LessonVisualBlock'
 import PracticeTimer from './components/PracticeTimer'
 import BodyPositionDiagram from './components/BodyPositionDiagram'
+import TechniqueAnimation from './components/TechniqueAnimation'
 import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
@@ -119,19 +120,15 @@ function Lesson({ lesson, onBack, onComplete }) {
           />
         )}
 
-        {lesson.visuals?.map((visual, index) => (
-          visual.type === 'diagram' ? (
-            <LessonVisual
-              key={index}
-              visual={visual}
-            />
-          ) : (
-            <LessonVisualBlock
-              key={index}
-              visual={visual}
-            />
-          )
-        ))}
+        {lesson.visuals?.map((visual, index) => {
+          if (visual.type === 'diagram') {
+            return <LessonVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'animation') {
+            return <TechniqueAnimation key={index} visual={visual} />
+          }
+          return <LessonVisualBlock key={index} visual={visual} />
+        })}
 
         {lesson.sections.map((section, index) => (
           <article className="lesson-block" key={section.title}>
