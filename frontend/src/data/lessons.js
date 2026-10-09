@@ -7318,5 +7318,239 @@ export const lessons = {
     },
     practiceEngine: { type: 'rep-counter', label: 'Gentle Returns', targetReps: 10 },
   },
+  'breathing-foundations-diaphragm': {
+    id: 'breathing-foundations-diaphragm',
+    subject: 'Breathing',
+    title: 'Diaphragmatic Breathing',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Learn to breathe from the diaphragm instead of the chest, engaging the primary breathing muscle for efficient, calm respiration.',
+    objectives: [
+      'Understand the diaphragm as the primary breathing muscle',
+      'Feel belly expansion on inhale and relaxation on exhale',
+      'Distinguish diaphragmatic from shallow chest breathing',
+      'Establish a relaxed, efficient breathing pattern',
+      'Recognize the four most common diaphragmatic breathing errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The diaphragm in action',
+        caption: 'The diaphragm contracts and flattens on inhale, expanding the belly; it relaxes on exhale, allowing the belly to soften. This is efficient, calm breathing.',
+        labels: ['Inhale: diaphragm contracts, belly expands', 'Exhale: diaphragm relaxes, belly softens', 'Chest stays relatively still', 'Efficient and calming'],
+      },
+    ],
+    sections: [
+      { title: 'The diaphragm is the primary muscle', content: 'The diaphragm is a dome-shaped muscle at the base of the lungs that contracts and flattens on inhale, creating negative pressure that draws air in. When it relaxes on exhale, air is pushed out. This is the body natural, efficient breathing pattern. Shallow chest breathing uses secondary muscles and is less efficient, often associated with stress and anxiety.' },
+      { title: 'Feeling the breath in the belly', content: 'Place one hand on your belly and one on your chest. On inhale, feel the belly expand outward as the diaphragm contracts and pushes the abdominal contents down. On exhale, feel the belly soften and return. The chest moves minimally. This belly breathing is deep, efficient, and activates the parasympathetic nervous system, promoting calm.' },
+      { title: 'Establishing the pattern', content: 'Practice lying down or sitting comfortably. Breathe in slowly through the nose, feeling the belly rise. Breathe out slowly through the nose or mouth, feeling the belly fall. Keep the breath smooth and unforced. Start with 5-10 breaths, gradually extending to longer practice as the pattern becomes automatic.' },
+    ],
+    principles: [
+      'The diaphragm is the primary breathing muscle; use it.',
+      'Belly expands on inhale, softens on exhale.',
+      'Chest breathing is shallow and stressful; belly breathing is deep and calming.',
+      'Keep the breath smooth and unforced.',
+    ],
+    mistakes: [
+      { title: 'Chest breathing instead of belly breathing', explanation: 'If the chest rises more than the belly, you are using secondary muscles. Focus on belly expansion.' },
+      { title: 'Forcing the breath too deep', explanation: 'Forcing creates tension. Let the breath be naturally deep but comfortable.' },
+      { title: 'Tensing the belly on exhale', explanation: 'The belly should soften and relax on exhale, not contract forcefully.' },
+      { title: 'Breathing through the mouth habitually', explanation: 'Nose breathing filters and humidifies air. Use the nose unless there is a reason not to.' },
+    ],
+    practice: [
+      'Lie down with one hand on belly, one on chest.',
+      'Inhale slowly through the nose, feeling belly rise.',
+      'Exhale slowly, feeling belly soften.',
+      'Practice 10 breaths, then extend to 5 minutes.',
+      'Notice when you revert to chest breathing and return to belly breathing.',
+    ],
+    reflection: 'Do you typically breathe from the chest or the belly? How does diaphragmatic breathing feel compared to your usual pattern?',
+    safety: 'If you feel lightheaded, return to normal breathing. Consult a professional if you have respiratory conditions.',
+    quiz: [
+      { question: 'What happens to the belly during diaphragmatic inhale?', options: ['It contracts', 'It expands outward', 'It stays still', 'It moves sideways'], answer: 1, explanation: 'The diaphragm contracts and flattens on inhale, pushing abdominal contents down and causing the belly to expand outward.' },
+      { question: 'Why is diaphragmatic breathing preferred over chest breathing?', options: ['It is faster', 'It is more efficient and activates the calming nervous system', 'It looks better', 'It is louder'], answer: 1, explanation: 'Diaphragmatic breathing uses the primary muscle efficiently and activates the parasympathetic nervous system, promoting calm.' },
+    ],
+    mastery: [
+      'Demonstrate diaphragmatic breathing with belly expansion on inhale.',
+      'Distinguish diaphragmatic from chest breathing by feel.',
+      'Establish a relaxed, efficient diaphragmatic pattern.',
+      'Identify and correct the four common diaphragmatic breathing errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice you are breathing shallowly from the chest during stress.', action: 'You place a hand on your belly and consciously expand it on inhale, activating diaphragmatic breathing.', why: 'Shifting to diaphragmatic breathing activates the calming nervous system and improves oxygen efficiency.' },
+        { setup: 'You need to calm down before a performance.', action: 'You take 10 slow diaphragmatic breaths, focusing on belly expansion and relaxation.', why: 'Diaphragmatic breathing activates the parasympathetic system, reducing stress and anxiety.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Diaphragmatic breathing is efficient, calming, and foundational for all breath work and stress regulation.' },
+        { role: 'Facing it', detail: 'A practitioner breathing diaphragmatically remains calm and efficient under stress, while chest breathers become anxious and inefficient.' },
+      ],
+      adaptation: {
+        cues: ['Chest rising more than belly', 'Shallow, rapid breathing', 'Tension in neck and shoulders'],
+        adjustments: [
+          { if: 'Chest breathing', then: 'Place hand on belly and focus on expansion there.' },
+          { if: 'Forcing too deep', then: 'Let the breath be natural and comfortable.' },
+        ],
+        learning: 'After each practice, note whether breathing was diaphragmatic and how it affected your calm and energy.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Diaphragmatic Practice', initialTime: 300 },
+  },
+  'breathing-foundations-awareness': {
+    id: 'breathing-foundations-awareness',
+    subject: 'Breathing',
+    title: 'Breath Awareness',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Develop awareness of your natural breathing pattern without changing it, building the foundation for conscious breath control.',
+    objectives: [
+      'Observe your natural breathing pattern without altering it',
+      'Notice breath depth, rate, and rhythm',
+      'Recognize how breath changes with activity and emotion',
+      'Build the habit of checking in with breath throughout the day',
+      'Recognize the four most common breath awareness errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Observing without changing',
+        caption: 'Breath awareness means observing your natural breathing pattern without altering it, building a baseline understanding of your breath.',
+        labels: ['Observe without changing', 'Notice depth, rate, rhythm', 'Recognize patterns', 'Build daily awareness'],
+      },
+    ],
+    sections: [
+      { title: 'Observing without changing', content: 'Before you can control the breath, you must understand it. Breath awareness means observing your natural breathing pattern without trying to change it. Notice the depth, rate, rhythm, and sensation. This builds a baseline understanding that later allows you to make informed changes. Changing the breath before understanding it is like adjusting an engine before knowing how it works.' },
+      { title: 'Noticing patterns', content: 'Your breath changes with activity, emotion, and time of day. When stressed, it becomes shallow and rapid; when relaxed, it becomes deep and slow. When exercising, it deepens to meet demand. Noticing these patterns builds awareness of the mind-body connection and allows you to use breath as a window into your state.' },
+      { title: 'Daily breath check-ins', content: 'Set reminders throughout the day to check in with your breath for 30 seconds. Notice how it is right now: deep or shallow, fast or slow, smooth or irregular. This builds the habit of breath awareness and allows you to notice when stress or tension has changed your breathing, giving you the opportunity to intervene.' },
+    ],
+    principles: [
+      'Observe the breath without changing it to build understanding.',
+      'Notice depth, rate, rhythm, and sensation.',
+      'Breath changes with activity, emotion, and time of day.',
+      'Daily check-ins build the habit of breath awareness.',
+    ],
+    mistakes: [
+      { title: 'Changing the breath while observing', explanation: 'The goal is observation, not control. Let the breath be natural and watch it.' },
+      { title: 'Judging the breath', explanation: 'There is no good or bad breath in observation; just notice what is there without judgment.' },
+      { title: 'Forgetting to check in', explanation: 'Set reminders until awareness becomes automatic. Habit building requires consistency.' },
+      { title: 'Only checking when stressed', explanation: 'Check in during calm moments too to understand your baseline, not just your stress response.' },
+    ],
+    practice: [
+      'Sit comfortably and observe your natural breath for 5 minutes without changing it.',
+      'Notice depth, rate, rhythm, and sensation.',
+      'Set 3-5 reminders throughout the day to check in with your breath for 30 seconds.',
+      'Note how your breath changes with different activities and emotions.',
+      'End the day by reviewing when your breath was calm and when it was stressed.',
+    ],
+    reflection: 'What did you notice about your natural breathing pattern? How does your breath change throughout the day?',
+    safety: 'Breath awareness is safe for most people. If observing breath causes anxiety, open your eyes and ground in the environment.',
+    quiz: [
+      { question: 'What is the goal of breath awareness?', options: ['To control the breath', 'To observe without changing', 'To breathe deeply', 'To slow the breath'], answer: 1, explanation: 'Breath awareness means observing your natural breathing pattern without altering it, building understanding before control.' },
+      { question: 'Why check in with breath throughout the day?', options: ['To meet a quota', 'To build awareness and notice stress-induced changes', 'To impress others', 'To compete'], answer: 1, explanation: 'Daily check-ins build the habit of awareness and allow you to notice when stress or tension has changed your breathing.' },
+    ],
+    mastery: [
+      'Observe natural breathing for 5 minutes without changing it.',
+      'Notice depth, rate, rhythm, and sensation accurately.',
+      'Check in with breath 3-5 times daily.',
+      'Identify and correct the four common breath awareness errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You feel stressed and notice your breath is shallow and rapid.', action: 'You observe this without judgment, recognizing it as a stress response.', why: 'Noticing the stress response in the breath allows you to recognize stress early and intervene if desired.' },
+        { setup: 'You check in with your breath during a calm moment.', action: 'You observe that it is naturally deep and slow, establishing your baseline.', why: 'Understanding your calm baseline helps you recognize when you have deviated from it.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Breath awareness builds understanding of your natural patterns and how they change with state and context.' },
+        { role: 'Facing it', detail: 'A breath-aware practitioner can read their own state and the states of others through breath observation.' },
+      ],
+      adaptation: {
+        cues: ['Changes in breath depth, rate, or rhythm', 'Breath becoming shallow or rapid', 'Forgetting to check in'],
+        adjustments: [
+          { if: 'Changing breath while observing', then: 'Relax and let it return to natural pattern.' },
+          { if: 'Judging the breath', then: 'Return to neutral observation without evaluation.' },
+        ],
+        learning: 'After each check-in, note the breath pattern and what it tells you about your current state.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Breath Observation', initialTime: 300 },
+  },
+  'breathing-foundations-rhythm': {
+    id: 'breathing-foundations-rhythm',
+    subject: 'Breathing',
+    title: 'Rhythmic Breathing',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Learn to breathe in a steady rhythm, using counted inhale and exhale to establish a calm, regular breathing pattern.',
+    objectives: [
+      'Establish a steady breathing rhythm using counts',
+      'Match inhale and exhale duration for balance',
+      'Use rhythmic breathing to calm the nervous system',
+      'Maintain smooth transitions between inhale and exhale',
+      'Recognize the four most common rhythmic breathing errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Steady rhythmic breathing',
+        caption: 'Rhythmic breathing uses counted inhale and exhale to establish a steady, balanced pattern that calms the nervous system.',
+        labels: ['Count inhale duration', 'Match exhale duration', 'Smooth transitions', 'Calm and balanced'],
+      },
+    ],
+    sections: [
+      { title: 'The power of rhythm', content: 'Rhythmic breathing uses a steady count to establish a regular breathing pattern. This regularity signals safety to the nervous system, activating the parasympathetic response and promoting calm. A 4-count inhale followed by a 4-count exhale is a common starting rhythm, but the exact count matters less than the consistency and smoothness.' },
+      { title: 'Matching inhale and exhale', content: 'Balanced breathing typically matches inhale and exhale duration, creating equilibrium in the nervous system. Longer exhales relative to inhales enhance the calming effect, while longer inhales can be energizing. For beginners, start with equal counts and experiment with ratios as you progress.' },
+      { title: 'Smooth transitions', content: 'The transitions between inhale and exhale should be smooth, not jerky or held. There is no pause at the top or bottom unless specifically practicing retention. The breath flows continuously: inhale smoothly transitions to exhale, which smoothly transitions to the next inhale. This flow is calming and natural.' },
+    ],
+    principles: [
+      'Rhythmic breathing uses counts to establish regularity.',
+      'Match inhale and exhale for balance; longer exhales for calm.',
+      'Transitions should be smooth, not jerky or held.',
+      'Consistency matters more than the exact count.',
+    ],
+    mistakes: [
+      { title: 'Rushing the count', explanation: 'Counting too fast defeats the purpose. Use a comfortable, sustainable pace.' },
+      { title: 'Jerky transitions', explanation: 'Abrupt changes between inhale and exhale create tension. Keep transitions smooth.' },
+      { title: 'Holding breath unintentionally', explanation: 'Pausing at the top or bottom without intention disrupts flow. Keep the breath continuous unless practicing retention.' },
+      { title: 'Forcing an uncomfortable count', explanation: 'If the count feels strained, shorten it. Comfort and sustainability matter more than a specific number.' },
+    ],
+    practice: [
+      'Sit comfortably and establish a 4-count inhale, 4-count exhale rhythm.',
+      'Count silently: inhale for 4, exhale for 4, with smooth transitions.',
+      'Practice for 5 minutes, maintaining the rhythm steadily.',
+      'Experiment with 5-count or 6-count if comfortable.',
+      'Notice how the rhythm affects your calm and focus.',
+    ],
+    reflection: 'How did the rhythmic breathing affect your state? Was it easy to maintain, or did you rush or struggle?',
+    safety: 'If you feel lightheaded or uncomfortable, return to natural breathing. Consult a professional for respiratory conditions.',
+    quiz: [
+      { question: 'What is the purpose of rhythmic breathing?', options: ['To breathe as fast as possible', 'To establish a steady, calming pattern', 'To hold the breath', 'To breathe only through the mouth'], answer: 1, explanation: 'Rhythmic breathing uses counts to establish regularity, which signals safety to the nervous system and promotes calm.' },
+      { question: 'How should transitions between inhale and exhale be?', options: ['Held', 'Jerky', 'Smooth and continuous', 'Paused'], answer: 2, explanation: 'Smooth transitions maintain the calming flow; jerky or held transitions create tension and disrupt the rhythm.' },
+    ],
+    mastery: [
+      'Establish and maintain a steady breathing rhythm for 5 minutes.',
+      'Match inhale and exhale duration with smooth transitions.',
+      'Use rhythmic breathing to calm the nervous system.',
+      'Identify and correct the four common rhythmic breathing errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You feel anxious before an event.', action: 'You practice 4-count inhale, 4-count exhale breathing for 2 minutes to calm your nervous system.', why: 'Rhythmic breathing signals safety to the nervous system, reducing anxiety and promoting calm focus.' },
+        { setup: 'You need to steady your breathing after exertion.', action: 'You establish a 3-count rhythm to regulate your breathing and recover efficiently.', why: 'Rhythmic breathing helps regulate the breath after exertion, promoting efficient recovery.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Rhythmic breathing is a portable tool for calming and regulating the nervous system in any context.' },
+        { role: 'Facing it', detail: 'A practitioner using rhythmic breathing remains calm and regulated under pressure, while unregulated breathing amplifies stress.' },
+      ],
+      adaptation: {
+        cues: ['Rushing or struggling with the count', 'Jerky transitions', 'Feeling uncomfortable with the rhythm'],
+        adjustments: [
+          { if: 'Rushing the count', then: 'Slow down to a comfortable pace.' },
+          { if: 'Uncomfortable count', then: 'Shorten to 3-count or return to natural breathing.' },
+        ],
+        learning: 'After each practice, note which count felt comfortable and how the rhythm affected your state.',
+      },
+    },
+    practiceEngine: { type: 'interval', label: 'Rhythmic Breathing', workTime: 240, restTime: 60, totalIntervals: 3 },
+  },
 
 }

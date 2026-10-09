@@ -66,4 +66,71 @@ export const mindBody = {
       },
     },
   },
+  breathing: {
+    name: 'Breathing',
+    icon: '🫁',
+    description: 'Explore controlled breathing and breath-awareness practices.',
+    levels: {
+      beginner: {
+        name: 'Beginner',
+        description: 'Build foundational breath control and awareness.',
+        modules: [
+          {
+            id: 'foundations',
+            title: 'Breath Foundations',
+            lessons: [
+              { id: 'breathing-foundations-diaphragm', title: 'Diaphragmatic Breathing' },
+              { id: 'breathing-foundations-awareness', title: 'Breath Awareness' },
+              { id: 'breathing-foundations-rhythm', title: 'Rhythmic Breathing' },
+            ],
+          },
+        ],
+      },
+      intermediate: {
+        name: 'Intermediate',
+        description: 'Develop breath control for performance and calm.',
+        modules: [
+          {
+            id: 'control',
+            title: 'Breath Control',
+            lessons: [
+              { id: 'breathing-control-ratio', title: 'Breath Ratios' },
+              { id: 'breathing-control-retention', title: 'Breath Retention' },
+              { id: 'breathing-control-recovery', title: 'Recovery Breathing' },
+            ],
+          },
+        ],
+      },
+      advanced: {
+        name: 'Advanced',
+        description: 'Master advanced techniques and applications.',
+        modules: [
+          {
+            id: 'applications',
+            title: 'Advanced Applications',
+            lessons: [
+              { id: 'breathing-applications-performance', title: 'Performance Breathing' },
+              { id: 'breathing-applications-stress', title: 'Stress Regulation' },
+              { id: 'breathing-applications-integration', title: 'Integration in Movement' },
+            ],
+          },
+        ],
+      },
+      expert: {
+        name: 'Expert',
+        description: 'Refine and personalize breath mastery.',
+        modules: [
+          {
+            id: 'mastery',
+            title: 'Breath Mastery',
+            lessons: [
+              { id: 'breathing-mastery-personal', title: 'Personal Breath Pattern' },
+              { id: 'breathing-mastery-teaching', title: 'Teaching Breath Work' },
+              { id: 'breathing-mastery-lifelong', title: 'Lifelong Breath Practice' },
+            ],
+          },
+        ],
+      },
+    },
+  },
 }
