@@ -1759,31 +1759,24 @@ export const lessons = {
 
     positionDiagram: {
       title: 'Downward block — gedan barai',
-      description:
-        'The downward block sweeps the arm in a circular motion across the body, using hip rotation and structure to redirect low attacks away from the center.',
-      torsoAngle: 0,
-      frontArmAngle: -45,
-      rearArmAngle: 20,
-      frontLegAngle: -22,
-      rearLegAngle: 22,
+      description: 'The blocking arm sweeps down-forward to deflect a low attack while the opposite fist chambers at the hip. Weight stays rooted in front stance.',
+      torsoAngle: 4,
+      frontArm: { shoulderAngle: -45, elbowAngle: -20 },
+      rearArm: { shoulderAngle: 30, elbowAngle: -28 },
+      frontLegAngle: -14,
+      rearLegAngle: 20,
+      feet: { front: { x: -40, y: 40, angle: 0 }, rear: { x: 45, y: 90, angle: 45 }, note: 'Front foot points forward; rear foot turned out about 45 degrees with the heel planted.' },
       weightDistribution: { front: 60, rear: 40 },
-      feet: {
-        front: { x: -18, y: -70, angle: 0 },
-        rear: { x: 22, y: 55, angle: 45 },
-        note:
-          'The blocking arm starts high near the opposite shoulder, then sweeps down and across the body in a circular motion, ending with the fist near the hip.',
-      },
-      annotations: [
-        { number: '01', label: 'Start high', detail: 'The fist starts near the opposite shoulder, palm facing you.' },
-        { number: '02', label: 'Circular sweep', detail: 'The arm sweeps down and across in a circular motion.' },
-        { number: '03', label: 'Hip rotation', detail: 'The hips rotate forward to add power to the block.' },
-        { number: '04', label: 'End position', detail: 'The fist ends near the same-side hip, palm down.' },
-      ],
       metrics: [
-        { label: 'Start', value: 'Opposite shoulder' },
-        { label: 'Motion', value: 'Circular sweep' },
-        { label: 'Power', value: 'Hip rotation + structure' },
-        { label: 'End', value: 'Same-side hip' },
+        { label: 'Blocking arm', value: 'Sweeps down-forward' },
+        { label: 'Chamber arm', value: 'Fist at hip' },
+        { label: 'Contact', value: 'Outer forearm and wrist' },
+        { label: 'Finish', value: 'Fist above opposite knee' },
+      ],
+      annotations: [
+        { number: '01', label: 'Sweep, do not stop', detail: 'The arm travels from chamber to low-front, deflecting the attack along its line rather than meeting it head-on.' },
+        { number: '02', label: 'Hikite at the hip', detail: 'The opposite fist pulls to the hip, adding hip rotation and keeping the counter ready.' },
+        { number: '03', label: 'Rooted front stance', detail: 'Weight 60/40 keeps the block grounded and the next technique available.' },
       ],
     },
 
@@ -1909,31 +1902,24 @@ export const lessons = {
 
     positionDiagram: {
       title: 'Rising block — age uke',
-      description:
-        'The rising block sweeps the arm upward in an arc, using hip rotation and structure to redirect overhead attacks away from the head.',
-      torsoAngle: 0,
-      frontArmAngle: -60,
-      rearArmAngle: 15,
-      frontLegAngle: -22,
-      rearLegAngle: 22,
+      description: 'The blocking forearm rotates up to cover the head against an overhead attack while the opposite fist chambers at the hip.',
+      torsoAngle: 2,
+      frontArm: { shoulderAngle: -150, elbowAngle: -110 },
+      rearArm: { shoulderAngle: 30, elbowAngle: -28 },
+      frontLegAngle: -14,
+      rearLegAngle: 20,
+      feet: { front: { x: -40, y: 40, angle: 0 }, rear: { x: 45, y: 90, angle: 45 }, note: 'Front foot points forward; rear foot turned out about 45 degrees with the heel planted.' },
       weightDistribution: { front: 60, rear: 40 },
-      feet: {
-        front: { x: -18, y: -70, angle: 0 },
-        rear: { x: 22, y: 55, angle: 45 },
-        note:
-          'The blocking arm starts low near the opposite hip, then sweeps up and across the body in an arc, ending with the fist above the forehead.',
-      },
-      annotations: [
-        { number: '01', label: 'Start low', detail: 'The fist starts near the opposite hip, palm facing down.' },
-        { number: '02', label: 'Upward sweep', detail: 'The arm sweeps up and across in an arc.' },
-        { number: '03', label: 'Hip rotation', detail: 'The hips rotate forward to add power to the block.' },
-        { number: '04', label: 'End position', detail: 'The fist ends above the forehead, palm facing away.' },
-      ],
       metrics: [
-        { label: 'Start', value: 'Opposite hip' },
-        { label: 'Motion', value: 'Upward arc' },
-        { label: 'Power', value: 'Hip rotation + structure' },
-        { label: 'End', value: 'Above forehead' },
+        { label: 'Blocking arm', value: 'Forearm above forehead' },
+        { label: 'Chamber arm', value: 'Fist at hip' },
+        { label: 'Contact', value: 'Inner forearm' },
+        { label: 'Finish', value: 'Fist a hand-width above head' },
+      ],
+      annotations: [
+        { number: '01', label: 'Rotate as you rise', detail: 'The forearm turns outward during the rise so the attack slides off the rotating bone.' },
+        { number: '02', label: 'Cover, do not punch up', detail: 'The forearm shields the head at an angle; it is not an upward strike.' },
+        { number: '03', label: 'Hikite at the hip', detail: 'The opposite fist chambers, adding rotation and readiness for the counter.' },
       ],
     },
 
@@ -2211,31 +2197,24 @@ export const lessons = {
 
     positionDiagram: {
       title: 'Front kick — mae geri',
-      description:
-        'The front kick extends straight forward from a high chamber, making contact with the ball of the foot while the toes are pulled back.',
-      torsoAngle: 0,
-      frontArmAngle: -10,
-      rearArmAngle: 15,
-      frontLegAngle: -15,
-      rearLegAngle: 30,
+      description: 'The knee chambers high, then the leg snaps forward along the center line while the support leg stays rooted and the hands keep guard.',
+      torsoAngle: -3,
+      frontArm: { shoulderAngle: -12, elbowAngle: -135 },
+      rearArm: { shoulderAngle: 12, elbowAngle: 135 },
+      frontLegAngle: -75,
+      rearLegAngle: 6,
+      feet: { front: { x: 0, y: -70, angle: 0 }, rear: { x: 15, y: 50, angle: 0 }, note: 'Support foot planted and grounded; the kicking leg extends along the center line, ball of the foot leading.' },
       weightDistribution: { front: 10, rear: 90 },
-      feet: {
-        front: { x: -60, y: -20, angle: 0 },
-        rear: { x: 20, y: 40, angle: 15 },
-        note:
-          'The kicking leg chambers high with the knee bent, then extends forward with the toes pulled back, striking with the ball of the foot. The support leg is slightly bent for balance.',
-      },
-      annotations: [
-        { number: '01', label: 'High chamber', detail: 'The knee lifts high, bending the leg at the knee.' },
-        { number: '02', label: 'Toes pulled back', detail: 'The toes are pulled back to expose the ball of the foot.' },
-        { number: '03', label: 'Ball of foot contact', detail: 'Contact is made with the ball of the foot, not the toes.' },
-        { number: '04', label: 'Controlled retraction', detail: 'The leg retracts along the same path before lowering.' },
-      ],
       metrics: [
-        { label: 'Chamber', value: 'Knee high, leg bent' },
-        { label: 'Extension', value: 'Straight forward' },
-        { label: 'Contact', value: 'Ball of foot' },
-        { label: 'Retraction', value: 'Same path back' },
+        { label: 'Chamber', value: 'Knee raised first' },
+        { label: 'Extension', value: 'Snap out and back' },
+        { label: 'Contact', value: 'Ball of the foot' },
+        { label: 'Support leg', value: 'Slight bend, rooted' },
+      ],
+      annotations: [
+        { number: '01', label: 'Knee up before out', detail: 'The kick launches from a raised knee chamber, not from a swinging foot.' },
+        { number: '02', label: 'Snap and return', detail: 'Extension is a snap: the foot returns to chamber before landing, preserving balance.' },
+        { number: '03', label: 'Hands stay in guard', detail: 'The upper body remains protected while the leg works.' },
       ],
     },
 
