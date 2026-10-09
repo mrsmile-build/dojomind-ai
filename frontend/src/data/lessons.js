@@ -6153,5 +6153,238 @@ export const lessons = {
     },
     practiceEngine: { type: 'rep-counter', label: 'Adaptation Rounds', targetReps: 6 },
   },
+  'karate-advanced-training-pressure': {
+    id: 'karate-advanced-training-pressure',
+    subject: 'Karate',
+    title: 'Training Under Pressure',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to train strategic and tactical skills under realistic stress: sparring, scenarios, and fatigue inoculation that bridge the gap between drill and fight.',
+    objectives: [
+      'Understand that skills trained only in calm conditions fail under pressure',
+      'Learn progressive pressure: from drills to scenarios to live sparring',
+      'Recognize the signs of pressure overload and how to manage it',
+      'Use pressure training to stress-inoculate decision making',
+      'Recognize the four most common pressure-training errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The pressure gradient',
+        caption: 'Skills must be trained progressively: calm drills, then scenarios with constraints, then live sparring. Skipping steps leaves gaps that appear under real stress.',
+        labels: ['Calm drills build technique', 'Scenarios add constraints', 'Live sparring adds unpredictability', 'Pressure reveals training gaps'],
+      },
+    ],
+    sections: [
+      { title: 'Calm training is not enough', content: 'Techniques and tactics trained only in calm, cooperative conditions often fail under real pressure: fatigue, unpredictability, and genuine threat. The gap between drill and fight is where most fighters fall apart. Pressure training bridges this gap by progressively adding stress, unpredictability, and consequences until the skills hold up outside the dojo.' },
+      { title: 'The pressure gradient', content: 'Pressure training follows a gradient: start with calm drills where you can focus on technique, add scenarios with constraints (limited techniques, specific goals), then move to live sparring with full unpredictability. Each step adds stress while keeping the skill learnable. Skipping steps leaves gaps that only appear when you cannot afford them. The gradient must be progressive, not sudden.' },
+      { title: 'Managing overload', content: 'Pressure training only works if you stay in the learning zone, not the panic zone. Signs of overload include tunnel vision, loss of technique, and frantic rather than thoughtful responses. When overload appears, reduce pressure (slower pace, fewer constraints) and rebuild. The goal is stress inoculation, not trauma; too much pressure too fast creates bad habits and fear rather than skill.' },
+    ],
+    principles: [
+      'Skills trained only in calm conditions fail under real pressure.',
+      'Progress pressure gradually: drills, scenarios, live sparring.',
+      'Stay in the learning zone, not the panic zone.',
+      'Pressure reveals training gaps; use it to find and fix them.',
+    ],
+    mistakes: [
+      { title: 'Skipping the pressure gradient', explanation: 'Jumping from calm drills to live sparring leaves gaps that appear under stress. Progress gradually.' },
+      { title: 'Training in the panic zone', explanation: 'Too much pressure too fast creates fear and bad habits. Reduce pressure when overload appears.' },
+      { title: 'Ignoring pressure-induced failures', explanation: 'Failures under pressure reveal real training gaps. Use them to identify what needs more calm training.' },
+      { title: 'Avoiding pressure training entirely', explanation: 'Avoiding pressure means your skills never get tested. Progressive pressure is necessary for real skill.' },
+    ],
+    practice: [
+      'Practice a technique in calm, cooperative conditions until it is solid.',
+      'Add constraints: limited techniques, specific goals, or time pressure.',
+      'Move to light live sparring with the same technique as a focus.',
+      'Note when the technique breaks down and what pressure caused it.',
+      'Return to calm drills to fix the breakdown, then re-test under pressure.',
+    ],
+    reflection: 'In your training, do you practice skills under progressive pressure, or only in calm conditions? When have your skills failed under pressure, and what did that reveal?',
+    safety: 'Pressure training raises intensity and injury risk. Keep contact controlled, use protective equipment, and stop if either partner shows signs of panic or loss of control.',
+    quiz: [
+      { question: 'Why is calm training alone insufficient?', options: ['It is boring', 'Skills trained only in calm conditions often fail under real pressure', 'It does not build muscle memory', 'It is too slow'], answer: 1, explanation: 'The gap between calm training and real pressure is where most fighters fall apart. Progressive pressure training bridges this gap.' },
+      { question: 'What is the pressure gradient?', options: ['A measure of force', 'Progressive stress: drills, scenarios, live sparring', 'A type of drill', 'A competition rule'], answer: 1, explanation: 'The pressure gradient is progressive stress: starting with calm drills, adding scenario constraints, then moving to live sparring with full unpredictability.' },
+    ],
+    mastery: [
+      'Explain the pressure gradient and why it matters.',
+      'Progress a skill from calm drills through scenarios to live sparring.',
+      'Recognize signs of pressure overload and reduce pressure appropriately.',
+      'Identify and correct the four common pressure-training errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your straight punch works in drills but fails in sparring.', action: 'You add progressive pressure: constrained sparring with only punches, then light live sparring with punch focus.', why: 'Progressive pressure bridges the gap between drill and fight, revealing where the technique breaks down.' },
+        { setup: 'You feel overwhelmed during live sparring.', action: 'You reduce pressure by slowing the pace or adding constraints, then rebuild as you regain control.', why: 'Staying in the learning zone prevents panic and allows skill development rather than trauma.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Pressure training bridges the gap between drill and fight by progressively adding stress, unpredictability, and consequences.' },
+        { role: 'Facing it', detail: 'A pressure-trained opponent has tested their skills under stress and knows where they break down.' },
+      ],
+      adaptation: {
+        cues: ['Techniques failing under pressure', 'Signs of overload (tunnel vision, frantic responses)', 'Specific pressure points where skills break down'],
+        adjustments: [
+          { if: 'Skills fail under pressure', then: 'Identify the pressure point and return to calm drills to fix it.' },
+          { if: 'Overload appears', then: 'Reduce pressure and rebuild from the learning zone.' },
+        ],
+        learning: 'After each pressure session, note where skills held up and where they broke down, and what that reveals about your training.',
+      },
+    },
+    practiceEngine: { type: 'interval', label: 'Pressure Rounds', workTime: 60, restTime: 30, totalIntervals: 5 },
+  },
+  'karate-advanced-training-decisions': {
+    id: 'karate-advanced-training-decisions',
+    subject: 'Karate',
+    title: 'Developing Decision Making',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to make good decisions under fatigue and pressure: pattern recognition while tired, choosing tools in real time, and building the judgment that separates advanced from intermediate fighters.',
+    objectives: [
+      'Understand that decision making degrades under fatigue',
+      'Learn to recognize patterns while tired and stressed',
+      'Develop the judgment to choose the right tool for the moment',
+      'Build decision-making speed through repetition and reflection',
+      'Recognize the four most common decision-making errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Decision making under pressure',
+        caption: 'Good decisions require pattern recognition, tool selection, and execution, all under fatigue and stress. Train each component separately, then together.',
+        labels: ['Recognize patterns', 'Select the right tool', 'Execute decisively', 'Train under fatigue'],
+      },
+    ],
+    sections: [
+      { title: 'Decisions degrade under fatigue', content: 'Physical fatigue impairs cognitive function: pattern recognition slows, tool selection becomes reactive rather than strategic, and execution loses precision. This is why fighters make poor decisions late in rounds and why pressure training must include fatigue. Training decision making while fresh does not prepare you for decision making while tired. You must train the skill under the conditions where you will use it.' },
+      { title: 'Pattern recognition while tired', content: 'Reading patterns is the foundation of decision making, but fatigue makes it harder: attention narrows, cues are missed, and the opponent system becomes harder to see. Training pattern recognition under fatigue requires deliberate practice: spar while tired, identify patterns anyway, and note when your reads fail. The skill is not reading when fresh but reading when exhausted.' },
+      { title: 'Choosing tools in real time', content: 'Advanced fighters do not just have more tools; they choose the right tool for the moment faster and more accurately. This judgment comes from repetition and reflection: thousands of decisions made in training, each followed by reflection on whether it was correct. Over time, good decisions become automatic, not through thoughtlessness but through trained judgment. The goal is not to think less but to think better under pressure.' },
+    ],
+    principles: [
+      'Decision making degrades under fatigue; train it while tired.',
+      'Pattern recognition is the foundation of good decisions.',
+      'Judgment comes from repetition and reflection on thousands of decisions.',
+      'The goal is to think better under pressure, not to think less.',
+    ],
+    mistakes: [
+      { title: 'Training decisions only while fresh', explanation: 'Fresh training does not prepare you for tired decisions. Train while fatigued to simulate real conditions.' },
+      { title: 'Reacting instead of deciding', explanation: 'Reaction is tactical; decision is strategic. Recognize patterns and choose tools rather than just responding.' },
+      { title: 'Not reflecting on decisions', explanation: 'Without reflection, you do not learn from decisions. Review each round and note what you decided and why.' },
+      { title: 'Avoiding complex decisions', explanation: 'Simple decisions do not build judgment. Seek complex, ambiguous situations that force real choice.' },
+    ],
+    practice: [
+      'Spar for several rounds until fatigued, then focus on reading patterns.',
+      'After each exchange, name the decision you made and whether it was correct.',
+      'Practice choosing tools in real time: call out your choice before executing.',
+      'Review rounds and note where decisions were good, bad, or absent.',
+      'Train pattern recognition under fatigue by sparring while tired and reading anyway.',
+    ],
+    reflection: 'In your last sparring session, did you make deliberate decisions or react automatically? When fatigued, did your decision making degrade, and how?',
+    safety: 'Decision training under fatigue requires careful monitoring. Stop if either partner shows signs of dangerous fatigue or loss of control.',
+    quiz: [
+      { question: 'Why must decision making be trained under fatigue?', options: ['Because fatigue builds character', 'Because decision making degrades under fatigue and fresh training does not prepare you', 'Because fatigue makes you stronger', 'Because rules require it'], answer: 1, explanation: 'Physical fatigue impairs cognitive function. Training decisions while fresh does not prepare you for making them while tired.' },
+      { question: 'What builds good decision-making judgment?', options: ['Natural talent', 'Repetition and reflection on thousands of decisions', 'Memorizing techniques', 'Watching videos'], answer: 1, explanation: 'Judgment comes from making thousands of decisions in training and reflecting on whether they were correct, building automatic good choices over time.' },
+    ],
+    mastery: [
+      'Make good decisions while fatigued in sparring.',
+      'Recognize patterns under stress and use them to choose tools.',
+      'Reflect on decisions and learn from good and bad choices.',
+      'Identify and correct the four common decision-making errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You are tired late in a round and your opponent pressures forward.', action: 'You recognize the pattern (aggressive pressure when you are tired) and choose to angle off and reset rather than engage.', why: 'Recognizing the pattern under fatigue allows you to make a strategic decision rather than react automatically.' },
+        { setup: 'You have multiple tools available but hesitate.', action: 'You commit to the tool that matches the opening and execute decisively, accepting that imperfect action beats perfect hesitation.', why: 'Decisive action, even if imperfect, is better than hesitation that allows the opponent to act first.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Good decision making under pressure requires pattern recognition, tool selection, and decisive execution, all trained under fatigue.' },
+        { role: 'Facing it', detail: 'A good decision-maker recognizes your patterns and chooses tools that exploit them, making you predictable to them.' },
+      ],
+      adaptation: {
+        cues: ['Decision making degrading under fatigue', 'Hesitation or poor tool selection', 'Patterns you recognize under stress'],
+        adjustments: [
+          { if: 'Decisions degrade under fatigue', then: 'Simplify choices and focus on fundamentals until you recover.' },
+          { if: 'You hesitate', then: 'Commit to a tool and execute decisively, learning from the result.' },
+        ],
+        learning: 'After each round, note where decisions were good, bad, or absent, and what that teaches you about your judgment.',
+      },
+    },
+    practiceEngine: { type: 'interval', label: 'Decision Rounds', workTime: 45, restTime: 15, totalIntervals: 6 },
+  },
+  'karate-advanced-training-longterm': {
+    id: 'karate-advanced-training-longterm',
+    subject: 'Karate',
+    title: 'Building Long-Term Skill',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn periodization, avoiding plateaus, and the multi-year progression from technique to tactics to strategy that builds lasting skill rather than short-term performance.',
+    objectives: [
+      'Understand periodization as planned variation over time',
+      'Learn to recognize and break through plateaus',
+      'Understand the progression from technique to tactics to strategy',
+      'Build sustainable training habits that last years',
+      'Recognize the four most common long-term training errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The long-term progression',
+        caption: 'Skill building is a multi-year progression: technique first, then tactics, then strategy. Each stage builds on the previous, and skipping stages leaves gaps.',
+        labels: ['Years 1-2: Technique', 'Years 3-4: Tactics', 'Years 5+: Strategy', 'Lifelong: Integration'],
+      },
+    ],
+    sections: [
+      { title: 'Periodization and planned variation', content: 'Periodization is the planned variation of training over time: periods of high intensity and volume followed by periods of lower intensity for recovery and integration. Without variation, the body and mind adapt to the stress and stop improving (plateau). With planned variation, you continue to improve over years rather than months. Periodization is not just for physical conditioning but for technical and tactical training as well.' },
+      { title: 'Recognizing and breaking plateaus', content: 'Plateaus are inevitable: periods where progress stops despite consistent training. Recognizing them early is the skill. Signs include techniques that feel stuck, tactics that no longer work, and motivation that wanes. Breaking plateaus requires change: new techniques, different training partners, varied sparring, or temporary focus shifts. The plateau is not failure but a signal that your current training is no longer sufficient.' },
+      { title: 'The multi-year progression', content: 'Skill building follows a progression: technique first (years 1-2), then tactics (years 3-4), then strategy (years 5+), then lifelong integration. Each stage builds on the previous. Trying to learn strategy before solid technique leaves gaps; staying at technique too long prevents advancement. The progression is not rigid but provides a framework for knowing where you are and what to focus on next.' },
+    ],
+    principles: [
+      'Periodization is planned variation that prevents plateaus.',
+      'Plateaus signal the need for change, not failure.',
+      'Skill building follows a progression: technique, tactics, strategy, integration.',
+      'Sustainable training habits matter more than short-term intensity.',
+    ],
+    mistakes: [
+      { title: 'Training the same way forever', explanation: 'Without variation, you plateau. Change techniques, partners, and focus periodically.' },
+      { title: 'Ignoring plateaus', explanation: 'Plateaus signal the need for change. Recognize them early and adjust training accordingly.' },
+      { title: 'Skipping stages in the progression', explanation: 'Each stage builds on the previous. Solid technique before tactics, solid tactics before strategy.' },
+      { title: 'Prioritizing short-term performance over long-term skill', explanation: 'Short-term wins (competition success) can come at the cost of long-term development. Balance both.' },
+    ],
+    practice: [
+      'Review your training over the last year and note periods of progress and plateau.',
+      'Identify what changes broke through past plateaus.',
+      'Assess where you are in the progression: technique, tactics, or strategy focus.',
+      'Plan variation for the next month: new techniques, different partners, varied sparring.',
+      'Set long-term goals (years) alongside short-term goals (months).',
+    ],
+    reflection: 'Where are you in the multi-year progression? Have you hit plateaus, and what broke through them? Is your training varied enough to prevent future plateaus?',
+    safety: 'Long-term training requires listening to your body and avoiding overtraining. Rest and recovery are part of sustainable training, not obstacles to it.',
+    quiz: [
+      { question: 'What is periodization?', options: ['A type of drill', 'Planned variation of training over time to prevent plateaus', 'A competition format', 'A recovery technique'], answer: 1, explanation: 'Periodization is planned variation: periods of high intensity followed by lower intensity for recovery and integration, preventing plateaus and enabling long-term progress.' },
+      { question: 'What is the typical skill-building progression?', options: ['Strategy, tactics, technique', 'Technique, tactics, strategy, integration', 'Tactics, strategy, technique', 'Integration, technique, tactics'], answer: 1, explanation: 'Skill building follows a progression: technique first (years 1-2), then tactics (years 3-4), then strategy (years 5+), then lifelong integration.' },
+    ],
+    mastery: [
+      'Explain periodization and its role in preventing plateaus.',
+      'Recognize plateaus and implement changes to break through them.',
+      'Assess your position in the multi-year skill-building progression.',
+      'Identify and correct the four common long-term training errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You have been training the same way for months and feel stuck.', action: 'You implement periodization: vary techniques, change training partners, and plan recovery periods.', why: 'Planned variation breaks plateaus by providing new stimuli for adaptation and preventing staleness.' },
+        { setup: 'You are focused on technique but your sparring performance is poor.', action: 'You assess your progression and shift focus to tactics, applying your technique in real-time decision making.', why: 'Recognizing your position in the progression allows you to focus on the appropriate stage rather than staying too long at a previous one.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Long-term skill building requires periodization, plateau recognition, and understanding the progression from technique to tactics to strategy.' },
+        { role: 'Facing it', detail: 'A long-term practitioner has solid foundations and continues to progress, making them a challenging and evolving opponent.' },
+      ],
+      adaptation: {
+        cues: ['Signs of plateau (stuck techniques, waning motivation)', 'Your position in the skill-building progression', 'Need for variation in training'],
+        adjustments: [
+          { if: 'You hit a plateau', then: 'Change techniques, partners, or focus to provide new stimuli.' },
+          { if: 'You are ready to advance', then: 'Shift focus to the next stage in the progression (technique to tactics, tactics to strategy).' },
+        ],
+        learning: 'Review your training quarterly and assess progress, plateaus, and whether you are focusing on the right stage for your development.',
+      },
+    },
+  },
 
 }
