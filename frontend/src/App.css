@@ -1888,3 +1888,20 @@ footer {
     width: 100%;
   }
 }
+
+/* Physical training disclaimer */
+.physical-disclaimer {
+  margin: 0 0 24px;
+  padding: 20px;
+  background: rgba(201,161,90,.08);
+  border: 1px solid rgba(201,161,90,.35);
+  border-left: 4px solid #c9a15a;
+  border-radius: 12px;
+}
+.physical-disclaimer .eyebrow { color: #c9a15a; }
+.physical-disclaimer p {
+  color: rgba(255,255,255,.85);
+  line-height: 1.6;
+  margin: 8px 0 0;
+  font-size: 14px;
+}

@@ -5,6 +5,8 @@ import PracticeTimer from './components/PracticeTimer'
 import BodyPositionDiagram from './components/BodyPositionDiagram'
 import { liveApplications } from './data/liveApplications'
 
+const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
+
 function Lesson({ lesson, onBack, onComplete }) {
   const [quizIndex, setQuizIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState(null)
@@ -83,6 +85,19 @@ function Lesson({ lesson, onBack, onComplete }) {
       </header>
 
       <section className="lesson-content">
+        {!MIND_SUBJECTS.includes(lesson.subject) && (
+          <div className="physical-disclaimer">
+            <span className="eyebrow">TRAINING REALITY</span>
+            <p>
+              This lesson teaches principles, concepts and mental frameworks.
+              Real fighting ability is built through physical practice with
+              partners over years, not through reading. Use DojoMind alongside
+              live training with a qualified instructor: knowledge guides your
+              practice, but only practice builds skill.
+            </p>
+          </div>
+        )}
+
         <div className="lesson-block">
           <span className="eyebrow">LEARNING OBJECTIVES</span>
 
