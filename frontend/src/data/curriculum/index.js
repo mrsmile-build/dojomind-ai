@@ -113,25 +113,25 @@ export const curriculum = {
             'Explore strategy, tactics, pressure, adaptability and advanced training principles.',
 
           modules: [
-            {
+                        {
               id: 'strategy',
               title: 'Strategy',
               lessons: [
                 { id: 'karate-strategy-understanding', title: 'Understanding Strategy' },
-                { id: 'karate-strategy-pace', title: 'Controlling the Pace' },
-                { id: 'karate-strategy-adapting', title: 'Adapting to an Opponent' },
-],
+                { id: 'karate-strategy-reading', title: 'Reading Opponents' },
+                { id: 'karate-strategy-planning', title: 'Game Planning' },
+              ],
             },
-            {
+                        {
               id: 'tactics',
               title: 'Tactics',
               lessons: [
-                { id: 'karate-tactics-openings', title: 'Creating Openings' },
                 { id: 'karate-tactics-feints', title: 'Feints and Deception' },
+                { id: 'karate-tactics-rhythm', title: 'Rhythm and Pace Control' },
                 { id: 'karate-tactics-adaptation', title: 'Tactical Adaptation' },
               ],
             },
-            {
+                        {
               id: 'advanced-training',
               title: 'Advanced Training',
               lessons: [

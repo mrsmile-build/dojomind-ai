@@ -5688,5 +5688,236 @@ export const lessons = {
     },
     practiceEngine: { type: 'rep-counter', label: 'Sai Movement Reps', targetReps: 20 },
   },
+  'karate-strategy-understanding': {
+    id: 'karate-strategy-understanding',
+    subject: 'Karate',
+    title: 'Understanding Strategy',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn the mental game: how to think about fighting at a strategic level, reading the opponent as a system rather than reacting to individual techniques.',
+    objectives: [
+      'Understand strategy as the mental framework before and during combat',
+      'Recognize that every opponent has patterns, habits, and preferences',
+      'Learn to think in terms of systems and responses, not just moves',
+      'Understand the difference between strategy and tactics',
+      'Recognize the four most common strategic errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The strategic loop',
+        caption: 'Strategy is the mental game: observe, orient, decide, act. The faster and more accurately you complete this loop, the more you control the exchange.',
+        labels: ['Observe patterns', 'Orient to context', 'Decide on response', 'Act decisively'],
+      },
+    ],
+    sections: [
+      { title: 'Strategy is the mental game', content: 'Strategy is not a specific technique but a way of thinking about fighting. It is the mental framework you use to understand what is happening, predict what will happen next, and decide what to do about it. Strategy happens before the fight (game planning), during the fight (reading and adapting), and after the fight (learning from the exchange). Every fighter has a strategy, whether they know it or not; trained fighters make theirs conscious and deliberate.' },
+      { title: 'Every opponent is a system', content: 'Every opponent has patterns, habits, and preferences: favorite techniques, preferred ranges, typical rhythms, and predictable responses to pressure. These are not random; they are the system that is the opponent. Reading this system is the core strategic skill: recognizing patterns, predicting responses, and choosing actions that exploit the system rather than fighting against it.' },
+      { title: 'Strategy versus tactics', content: 'Strategy is the high-level framework: what kind of fight do I want, what patterns does my opponent show, how do I exploit them? Tactics are the specific technical executions: feints, combinations, rhythm changes, and real-time adaptations. Strategy without tactics is thinking without acting; tactics without strategy is acting without understanding. Both are necessary, and they operate at different levels of the same skill.' },
+    ],
+    principles: [
+      'Strategy is the mental framework that guides tactical execution.',
+      'Every opponent is a system with patterns you can read and exploit.',
+      'The strategic loop (observe, orient, decide, act) must be fast and accurate.',
+      'Strategy and tactics operate at different levels but must work together.',
+    ],
+    mistakes: [
+      { title: 'Reacting instead of reading', explanation: 'Reacting to individual techniques is tactical, not strategic. Strategic thinking recognizes patterns and predicts what comes next.' },
+      { title: 'Fighting the opponent instead of the system', explanation: 'If you fight the person instead of their patterns, you miss opportunities. Learn the system, then exploit it.' },
+      { title: 'Thinking without acting', explanation: 'Strategy without tactics is useless. Every strategic insight must translate into a tactical action or it is wasted.' },
+      { title: 'Ignoring the strategic loop', explanation: 'If you do not observe, orient, decide, and act in a continuous loop, you fall behind the opponent who does.' },
+    ],
+    practice: [
+      'Watch a sparring match and identify three patterns the fighters show.',
+      'Predict what each fighter will do next based on their patterns.',
+      'Note when predictions are correct and when they fail, and why.',
+      'In your own training, identify your own patterns and habits.',
+      'Practice reading a partner during light sparring, naming patterns out loud.',
+    ],
+    reflection: 'In your last sparring session, did you recognize patterns in your opponent, or did you react to individual techniques? What patterns do you yourself show that an opponent could exploit?',
+    safety: 'Strategic thinking is applied during controlled sparring. Keep contact light and controlled, and agree on intensity before starting.',
+    quiz: [
+      { question: 'What is strategy in the context of fighting?', options: ['A specific technique', 'The mental framework that guides tactical execution', 'The physical execution of techniques', 'The rules of the match'], answer: 1, explanation: 'Strategy is the mental framework that guides tactical execution. It is about understanding patterns, predicting responses, and choosing actions that exploit the opponent system.' },
+      { question: 'Why is every opponent described as a system?', options: ['Because they are predictable robots', 'Because they have patterns, habits, and preferences you can read and exploit', 'Because they follow rules', 'Because they are all the same'], answer: 1, explanation: 'Every opponent has patterns, habits, and preferences that form a system. Reading this system is the core strategic skill.' },
+    ],
+    mastery: [
+      'Explain the difference between strategy and tactics.',
+      'Identify three patterns in an opponent during sparring.',
+      'Predict opponent actions based on recognized patterns.',
+      'Identify and correct the four common strategic errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice your opponent always throws a jab after stepping in.', action: 'You anticipate the jab and prepare a counter or evasion before it extends.', why: 'Recognizing patterns allows you to predict and prepare, rather than react after the fact.' },
+        { setup: 'Your opponent prefers long range and retreats when you close.', action: 'You use feints and angle changes to close distance, then attack once inside their preferred range.', why: 'Understanding their preference allows you to manipulate the situation to your advantage.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Strategy is reading patterns, predicting responses, and choosing actions that exploit the opponent system rather than reacting to individual techniques.' },
+        { role: 'Facing it', detail: 'A strategic opponent reads your patterns and exploits them; vary your responses and avoid predictable habits.' },
+      ],
+      adaptation: {
+        cues: ['Opponent favorite techniques', 'Preferred ranges and rhythms', 'Typical responses to pressure'],
+        adjustments: [
+          { if: 'You recognize a pattern', then: 'Predict the next action and prepare a response.' },
+          { if: 'Your predictions fail', then: 'Re-observe and update your model of their system.' },
+        ],
+        learning: 'After each exchange, note whether you read patterns or reacted to individual techniques, and what that taught you about strategic thinking.',
+      },
+    },
+  },
+  'karate-strategy-reading': {
+    id: 'karate-strategy-reading',
+    subject: 'Karate',
+    title: 'Reading Opponents',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to read opponents as systems: identifying patterns, habits, and preferences, then using that information to predict and exploit.',
+    objectives: [
+      'Understand that every opponent has readable patterns',
+      'Learn to identify favorite techniques, ranges, and rhythms',
+      'Recognize typical responses to pressure and feints',
+      'Use pattern recognition to predict and exploit',
+      'Recognize the four most common reading errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Reading the opponent system',
+        caption: 'Every opponent has favorite techniques, preferred ranges, typical rhythms, and predictable responses. Reading these patterns allows you to predict and exploit.',
+        labels: ['Favorite techniques', 'Preferred ranges', 'Typical rhythms', 'Predictable responses'],
+      },
+    ],
+    sections: [
+      { title: 'Patterns are everywhere', content: 'Every opponent has patterns they repeat: favorite techniques they throw most often, preferred ranges where they feel comfortable, typical rhythms they establish, and predictable responses to pressure and feints. These patterns are not random; they are the system that is the opponent. Recognizing these patterns is the first step in strategic thinking.' },
+      { title: 'Reading under pressure', content: 'Reading is easy in slow, controlled sparring. The strategic skill is reading under pressure: when you are being attacked, when you are tired, when the pace is fast. This requires training your attention to focus on the right cues (center mass, hips, weight shifts) rather than being distracted by fast-moving hands and feet.' },
+      { title: 'Using what you read', content: 'Reading is useless unless it translates into action. Once you recognize a pattern, you must decide how to exploit it: anticipate and counter, feint to draw the response, or change your own behavior to break their read. Every strategic insight must translate into a tactical action or it is wasted.' },
+    ],
+    principles: [
+      'Every opponent has readable patterns you can exploit.',
+      'Reading must work under pressure, not just in slow sparring.',
+      'Focus on center mass and hips, not fast-moving hands and feet.',
+      'Every read must translate into a tactical action.',
+    ],
+    mistakes: [
+      { title: 'Reading without acting', explanation: 'If you recognize a pattern but do not exploit it, the read is wasted. Translate every insight into action.' },
+      { title: 'Watching hands and feet instead of center', explanation: 'Hands and feet move fast and distract. Focus on center mass, hips, and weight shifts for earlier, more reliable reads.' },
+      { title: 'Assuming patterns will not change', explanation: 'Good opponents adapt when they realize you are reading them. Update your read continuously as they change.' },
+      { title: 'Ignoring your own patterns', explanation: 'If you do not recognize your own patterns, the opponent can read and exploit you. Know your own habits and vary them.' },
+    ],
+    practice: [
+      'During sparring, identify your opponent three favorite techniques.',
+      'Note their preferred range and how they respond when you change it.',
+      'Recognize their rhythm and how it changes under pressure.',
+      'Use your reads to predict and counter at least three times.',
+      'After the session, note what you read correctly and what you missed.',
+    ],
+    reflection: 'In your last sparring session, did you recognize patterns in your opponent, and did you use those reads to your advantage? What patterns do you show that an opponent could exploit?',
+    safety: 'Reading practice should be done in controlled sparring with agreed intensity. Keep contact light and controlled.',
+    quiz: [
+      { question: 'What is the core skill of reading opponents?', options: ['Watching their hands closely', 'Recognizing patterns in their techniques, ranges, and rhythms', 'Predicting every move perfectly', 'Reacting faster than they can attack'], answer: 1, explanation: 'Reading opponents is about recognizing patterns in their techniques, ranges, rhythms, and responses. This allows you to predict and exploit rather than react.' },
+      { question: 'Why is reading under pressure difficult?', options: ['Because opponents hide their patterns', 'Because attention must focus on the right cues despite distractions', 'Because patterns do not exist under pressure', 'Because you are too tired to think'], answer: 1, explanation: 'Reading under pressure is difficult because attention must focus on the right cues (center mass, hips) rather than being distracted by fast-moving hands and feet.' },
+    ],
+    mastery: [
+      'Identify three patterns in an opponent during sparring.',
+      'Use recognized patterns to predict and counter at least three times.',
+      'Recognize and update your read as the opponent adapts.',
+      'Identify and correct the four common reading errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice your opponent always throws a cross after a jab.', action: 'You anticipate the cross and prepare a counter or evasion before it extends.', why: 'Recognizing the pattern allows you to predict and prepare, rather than react after the fact.' },
+        { setup: 'Your opponent retreats when you pressure them.', action: 'You apply steady pressure to force them back, then attack when they are off balance or near a boundary.', why: 'Understanding their response to pressure allows you to manipulate the situation to your advantage.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Reading opponents is recognizing patterns in their techniques, ranges, rhythms, and responses, then using that information to predict and exploit.' },
+        { role: 'Facing it', detail: 'A reading opponent will exploit your patterns; vary your responses and avoid predictable habits.' },
+      ],
+      adaptation: {
+        cues: ['Opponent favorite techniques', 'Preferred ranges and how they respond to range changes', 'Rhythm and how it changes under pressure'],
+        adjustments: [
+          { if: 'You recognize a pattern', then: 'Predict the next action and prepare a response.' },
+          { if: 'Your predictions fail', then: 'Re-observe and update your model of their system.' },
+        ],
+        learning: 'After each exchange, note whether you read patterns correctly and used them to your advantage, and what that taught you about reading opponents.',
+      },
+    },
+  },
+  'karate-strategy-planning': {
+    id: 'karate-strategy-planning',
+    subject: 'Karate',
+    title: 'Game Planning',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Learn to prepare strategically for different types of opponents: developing game plans before the fight and adapting them as the fight progresses.',
+    objectives: [
+      'Understand game planning as strategic preparation',
+      'Learn to develop plans for different opponent types',
+      'Recognize when to stick to the plan versus when to adapt',
+      'Use game planning to reduce surprises and increase confidence',
+      'Recognize the four most common game planning errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The game plan',
+        caption: 'A game plan is a strategic framework developed before the fight: what kind of opponent do I expect, what patterns will they show, how will I exploit them?',
+        labels: ['Identify opponent type', 'Predict patterns', 'Plan exploitation', 'Adapt as needed'],
+      },
+    ],
+    sections: [
+      { title: 'Preparing before the fight', content: 'Game planning is strategic preparation: before the fight, you identify what kind of opponent you expect, what patterns they will show, and how you will exploit those patterns. This is not about memorizing specific techniques but about developing a mental framework for the fight. Good game planning reduces surprises and increases confidence because you have thought through likely scenarios.' },
+      { title: 'Plans for different opponent types', content: 'Different opponent types require different game plans: aggressive opponents who pressure forward, defensive opponents who wait and counter, tall opponents with reach advantage, short opponents who close distance. Each type has predictable patterns and exploitable weaknesses. Developing a library of game plans for different types allows you to enter any fight with a strategic framework already in place.' },
+      { title: 'Adapting the plan', content: 'No plan survives contact with the opponent unchanged. The strategic skill is recognizing when the plan is working (stick with it) and when it is failing (adapt it). This requires reading the fight continuously and updating your plan based on what you observe. Good fighters are not rigid; they adapt their plans while staying strategically focused.' },
+    ],
+    principles: [
+      'Game planning is strategic preparation before the fight.',
+      'Different opponent types require different game plans.',
+      'No plan survives contact unchanged; adapt as needed.',
+      'Stay strategically focused while adapting tactically.',
+    ],
+    mistakes: [
+      { title: 'No plan at all', explanation: 'Entering a fight without a plan means you will react rather than act. Develop a plan for every opponent type you might face.' },
+      { title: 'Rigid adherence to a failing plan', explanation: 'If the plan is not working, adapt it. Sticking to a failing plan out of stubbornness or fear is a strategic error.' },
+      { title: 'Overcomplicating the plan', explanation: 'A simple plan that you can execute under pressure is better than a complex plan that falls apart. Keep plans focused and actionable.' },
+      { title: 'Ignoring the opponent actual behavior', explanation: 'If the opponent does not match your expectations, update your plan based on what you observe, not what you predicted.' },
+    ],
+    practice: [
+      'Develop a game plan for an aggressive opponent who pressures forward.',
+      'Develop a game plan for a defensive opponent who waits and counters.',
+      'Develop a game plan for a tall opponent with reach advantage.',
+      'Test your game plans in sparring and note what works and what fails.',
+      'Practice adapting your plan mid-fight when it is not working.',
+    ],
+    reflection: 'Do you enter fights with a strategic plan, or do you react to whatever happens? What opponent types do you struggle with, and what game plan could help?',
+    safety: 'Game planning is applied during controlled sparring. Keep contact light and controlled, and agree on intensity before starting.',
+    quiz: [
+      { question: 'What is the purpose of game planning?', options: ['To memorize specific techniques', 'To develop a strategic framework before the fight', 'To predict every opponent move', 'To intimidate the opponent'], answer: 1, explanation: 'Game planning is strategic preparation: developing a mental framework for the fight based on what kind of opponent you expect and how you will exploit their patterns.' },
+      { question: 'When should you adapt your game plan?', options: ['Never; stick to the plan no matter what', 'When the plan is not working or the opponent does not match expectations', 'Only when you are losing', 'Only at the start of the fight'], answer: 1, explanation: 'Adapt your game plan when it is not working or when the opponent does not match your expectations. Good fighters adapt while staying strategically focused.' },
+    ],
+    mastery: [
+      'Develop game plans for at least three different opponent types.',
+      'Test game plans in sparring and note what works and what fails.',
+      'Adapt your plan mid-fight when it is not working.',
+      'Identify and correct the four common game planning errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You know your opponent is aggressive and pressures forward.', action: 'You develop a game plan to use angle and distance to evade, then counter when they overcommit.', why: 'A game plan for an aggressive opponent focuses on evasion and counter, exploiting their tendency to overcommit.' },
+        { setup: 'Your game plan is not working because the opponent is defensive, not aggressive.', action: 'You adapt by using feints and pressure to draw them out, then attack when they commit.', why: 'Adapting the plan based on what you observe allows you to stay strategically focused while changing tactics.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Game planning is developing a strategic framework before the fight, then adapting it as needed based on what you observe during the fight.' },
+        { role: 'Facing it', detail: 'A prepared opponent will have a game plan for your patterns; vary your behavior and avoid predictable habits.' },
+      ],
+      adaptation: {
+        cues: ['Opponent type and behavior', 'Whether your plan is working or failing', 'Changes in opponent behavior that require plan updates'],
+        adjustments: [
+          { if: 'Your plan is working', then: 'Stick with it and execute decisively.' },
+          { if: 'Your plan is failing', then: 'Adapt based on what you observe, while staying strategically focused.' },
+        ],
+        learning: 'After each fight, note whether you had a game plan, whether it worked, and what you learned for next time.',
+      },
+    },
+  },
 
 }
