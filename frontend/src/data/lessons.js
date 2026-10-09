@@ -5919,5 +5919,239 @@ export const lessons = {
       },
     },
   },
+  'karate-tactics-feints': {
+    id: 'karate-tactics-feints',
+    subject: 'Karate',
+    title: 'Feints and Deception',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Master deception as a weapon: selling feints with full commitment, layering misdirection, and using deception both offensively and defensively.',
+    objectives: [
+      'Understand a feint as a question that demands an answer',
+      'Sell a feint with eyes, weight, and rhythm, not just the hand',
+      'Layer deception: feint, feint-feint, and the double bluff',
+      'Use deception defensively to bait and slip counters',
+      'Recognize the four most common deception errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Deception as a conversation',
+        caption: 'A feint is not a fake attack; it is a real-looking threat that demands a defensive answer. The answer reveals what is open.',
+        labels: ['Feint asks a question', 'Opponent answers with commitment', 'Real technique exploits the answer', 'Deception works both ways'],
+      },
+    ],
+    sections: [
+      { title: 'The feint is a question', content: 'A feint is not a half-hearted attack; it is a credible threat designed to force a defensive answer. When the opponent commits to blocking or evading the feint, they reveal what is now unprotected. The feint asks a question the body must answer, and the answer is the opening your real technique travels through. Without a believable question, there is no useful answer.' },
+      { title: 'Selling the lie', content: 'A feint only works if it is believed. That means the whole body must commit: the eyes look at the target, the shoulders turn, the weight shifts, and the rhythm matches a real attack. A feint made only with the hand is read instantly and ignored. The more of your body sells the lie, the more the opponent must answer it, and the bigger the opening you create.' },
+      { title: 'Deception is a conversation', content: 'Every feint teaches the opponent something. If you feint the same way twice, the second feint is read and countered. Skilled fighters evolve the conversation: feint the feint, change the target, or use the feint defensively to bait a counter you then slip and punish. Deception is not a single trick but an ongoing exchange of lies and reads that you must keep winning.' },
+    ],
+    principles: [
+      'A feint must look real enough to force an answer.',
+      'Commit with eyes, weight, and rhythm, not just the hand.',
+      'Every deception teaches the opponent, so evolve it.',
+      'Deception works defensively too, by baiting counters.',
+    ],
+    mistakes: [
+      { title: 'Feinting without commitment', explanation: 'A half feint is ignored. Sell the lie with your whole body or do not feint at all.' },
+      { title: 'Feinting the same way repeatedly', explanation: 'Repetition makes the feint readable and counterable. Vary target, timing, and setup.' },
+      { title: 'Deceiving without a follow-up plan', explanation: 'If you do not know what you will do with the answer, the feint wastes the opening it bought. Decide the follow-up first.' },
+      { title: 'Over-deceiving', explanation: 'Constant feinting telegraphs the deception itself and costs you real attacking opportunities. Mix truth and lie.' },
+    ],
+    practice: [
+      'Shadow a feint with full body commitment, then check that you stay balanced.',
+      'Have a partner call out whether each feint looked real or fake.',
+      'Practice feint-feint-real sequences at controlled speed.',
+      'Bait a counter with a defensive feint, then slip and respond.',
+      'Vary feint targets: high, low, inside, outside, across a round.',
+    ],
+    reflection: 'In your last round, did your feints draw real answers, or were they ignored? What part of your body gave the lie away?',
+    safety: 'Feint drills involve sudden changes of intent. Keep contact controlled and agreed, and keep space clear behind both partners.',
+    quiz: [
+      { question: 'What is a feint fundamentally designed to do?', options: ['Score a light touch', 'Force a defensive answer that reveals an opening', 'Tire the opponent', 'Replace a real attack'], answer: 1, explanation: 'A feint is a credible threat that demands a defensive commitment; that commitment reveals what is now open for the real technique.' },
+      { question: 'Why must a feint involve the whole body?', options: ['To look impressive', 'Because a hand-only feint is read and ignored', 'To use more energy', 'To satisfy form requirements'], answer: 1, explanation: 'Only a feint sold with eyes, weight, shoulders and rhythm is believable enough to force a genuine defensive answer.' },
+    ],
+    mastery: [
+      'Sell a feint that draws a real defensive answer from a partner.',
+      'Execute a feint-feint-real sequence with balance throughout.',
+      'Bait and slip a counter using defensive deception.',
+      'Identify and correct the four common deception errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your opponent blocks every high attack reliably.', action: 'You feint high to draw the block, then attack the midsection the block left open.', why: 'The feint forces the committed block, and the real technique travels the line it uncovered.' },
+        { setup: 'Your opponent has started ignoring your feints.', action: 'You throw a real attack where they expect a feint, then return to feinting once they respect it again.', why: 'Mixing truth and lie keeps the opponent guessing and restores the power of the feint.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Deception creates openings by forcing committed answers; sell it fully and always have a follow-up ready.' },
+        { role: 'Facing it', detail: 'A deceptive opponent forces you to guess; answer feints with minimal commitment and watch the center, not the bait.' },
+      ],
+      adaptation: {
+        cues: ['Whether your feints draw answers or are ignored', 'The opponent starting to read your setup', 'Counters arriving after your feints'],
+        adjustments: [
+          { if: 'Feints are ignored', then: 'Increase commitment or land one real attack to restore belief.' },
+          { if: 'Feints are being countered', then: 'Feint the feint, or change target and timing.' },
+        ],
+        learning: 'After each round, note which feints drew answers, which were read, and what you changed in response.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Feint Reps', targetReps: 20 },
+  },
+  'karate-tactics-rhythm': {
+    id: 'karate-tactics-rhythm',
+    subject: 'Karate',
+    title: 'Rhythm and Pace Control',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Control the tempo of the whole fight, not just single chains: impose your rhythm, break the opponent rhythm, and use pace as a deliberate weapon across the exchange.',
+    objectives: [
+      'Understand pace as a fight-level weapon, not just a chain tool',
+      'Impose your rhythm on the opponent instead of accepting theirs',
+      'Break an established opponent rhythm deliberately',
+      'Speed up and slow down on purpose, with a reason',
+      'Recognize the four most common pace-control errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Tempo is territory',
+        caption: 'Whoever controls the tempo controls the fight. Fast pace pressures and overwhelms; slow pace resets and lets you read.',
+        labels: ['Impose your rhythm', 'Break theirs', 'Speed up to overwhelm', 'Slow down to reset and read'],
+      },
+    ],
+    sections: [
+      { title: 'Pace is a weapon', content: 'Tempo is not background; it is territory you contest. A fast pace pressures the opponent, limits their thinking time, and can overwhelm their defense. A slow pace resets the exchange, conserves energy, and gives you space to read patterns. The fighter who chooses the pace chooses the kind of fight being had, and that choice is a major strategic advantage.' },
+      { title: 'Imposing and breaking rhythm', content: 'If you let the opponent set the tempo, every exchange happens on their schedule. Impose your rhythm by making them react to you: attack on your beats, move on your beats, and force their responses to fit your timing. Once a rhythm is established, break it suddenly; the change itself is the weapon, because their body has committed to a schedule that no longer exists.' },
+      { title: 'Changing gears on purpose', content: 'Drifting into a single pace is the error; deliberate gear changes are the skill. Burst to overwhelm when an opening appears, then lull to recover and observe when it closes. Each change must be intentional and matched to a reason: speed to exploit, slowness to read. Random pace changes confuse you as much as the opponent; purposeful ones control them.' },
+    ],
+    principles: [
+      'Control the tempo or cede it to the opponent.',
+      'Change gears deliberately, with a reason, never by drift.',
+      'Fast pace pressures and overwhelms; slow pace resets and reads.',
+      'A rhythm change only works if it is sudden and believable.',
+    ],
+    mistakes: [
+      { title: 'Fighting at one pace the whole time', explanation: 'A constant pace is readable and lets the opponent settle. Vary tempo deliberately.' },
+      { title: 'Letting the opponent set the tempo', explanation: 'If every exchange happens on their schedule, you are always reacting. Impose your beats.' },
+      { title: 'Speeding up out of panic', explanation: 'Panic speed is unstructured and wastes energy. Speed up only to exploit a real opening.' },
+      { title: 'Slowing down into passivity', explanation: 'A slow pace must stay active and reading, not become a resting target. Reset with intent.' },
+    ],
+    practice: [
+      'Spar one round at a deliberately slow pace, focused only on reading.',
+      'Spar one round at a fast pace, focused only on pressure.',
+      'Switch gears mid-round on a partner cue, noting the effect.',
+      'Establish a rhythm for three exchanges, then break it suddenly.',
+      'After each round, name which pace favored you and why.',
+    ],
+    reflection: 'In your last rounds, who set the tempo: you or the opponent? When you changed pace, was it deliberate or accidental?',
+    safety: 'Pace work raises intensity quickly. Agree on contact level, keep rounds short, and stop if either partner loses control of speed.',
+    quiz: [
+      { question: 'Why is controlling tempo a strategic advantage?', options: ['It looks dominant', 'It decides what kind of fight is being had and on whose schedule', 'It always wins points', 'It tires the referee'], answer: 1, explanation: 'The fighter who sets the pace chooses whether the fight is fast and pressuring or slow and reading, forcing the opponent to operate on an uncomfortable schedule.' },
+      { question: 'What makes a rhythm change effective?', options: ['Doing it gradually', 'Doing it suddenly so the opponent committed schedule expires', 'Doing it only when winning', 'Doing it rarely'], answer: 1, explanation: 'A sudden, believable change invalidates the timing the opponent has committed to, creating the gap you exploit.' },
+    ],
+    mastery: [
+      'Impose your rhythm on a partner for a full exchange sequence.',
+      'Break an established rhythm suddenly to create an opening.',
+      'Change gears deliberately with a stated reason each time.',
+      'Identify and correct the four common pace-control errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your opponent is comfortable at a medium pace, reading you easily.', action: 'You burst to a fast pace for two exchanges to pressure them, then drop slow to reset while they are still reacting.', why: 'The sudden gear change invalidates their reading schedule and the slow phase lets you observe their recovery habits.' },
+        { setup: 'Your opponent pressures you with a fast, relentless pace.', action: 'You deliberately slow the exchange, clinch or angle off to reset, and force them to restart their rhythm.', why: 'Denying their pace removes their advantage and returns the tempo decision to you.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Pace is a weapon you choose: fast to pressure and overwhelm, slow to reset and read, always changed on purpose.' },
+        { role: 'Facing it', detail: 'A pace-controlling opponent forces you onto their schedule; refuse it by resetting, angling, or imposing your own beats.' },
+      ],
+      adaptation: {
+        cues: ['Who is setting the tempo right now', 'Whether your pace changes are drawing reactions', 'Signs the opponent has settled into a rhythm'],
+        adjustments: [
+          { if: 'They have settled into a rhythm', then: 'Break it suddenly with a gear change or rhythm-breaking pause.' },
+          { if: 'You are being paced by them', then: 'Reset with angle or distance, then impose your own beats.' },
+        ],
+        learning: 'After each round, note who controlled tempo, which gear changes worked, and which were accidental.',
+      },
+    },
+    practiceEngine: { type: 'interval', label: 'Pace Intervals', workTime: 30, restTime: 15, totalIntervals: 4 },
+  },
+  'karate-tactics-adaptation': {
+    id: 'karate-tactics-adaptation',
+    subject: 'Karate',
+    title: 'Tactical Adaptation',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Change tools and approaches in real time when plan A fails: mid-fight problem solving that keeps your structure, guard, and confidence intact.',
+    objectives: [
+      'Detect a failing tactic early instead of repeating it',
+      'Change one variable at a time so you learn what worked',
+      'Adapt without abandoning structure, guard, or balance',
+      'Stay calm and problem-solve under pressure',
+      'Recognize the four most common adaptation errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Adapt or stall',
+        caption: 'When a tactic fails, the skill is changing it fast and cleanly: notice, choose a new tool, change one variable, keep your structure.',
+        labels: ['Notice failure fast', 'Choose a new tool', 'Change one variable', 'Keep structure while adapting'],
+      },
+    ],
+    sections: [
+      { title: 'Noticing failure fast', content: 'The cost of a failing tactic grows every time you repeat it: you lose time, energy, and confidence while the opponent learns your pattern. Early detection is the core adaptation skill. Signs of failure include techniques landing on guard every time, ranges that never connect, and rhythms the opponent has already read. The moment you notice, change; do not hope the third attempt works because the first two did not.' },
+      { title: 'Changing one variable at a time', content: 'Effective adaptation is scientific: change one variable and observe the result. Switch range, or angle, or rhythm, or technique, but not all four at once. If you change everything and it works, you do not know why; if it fails, you do not know what to fix. Single-variable changes build a real understanding of the opponent while keeping your own game coherent.' },
+      { title: 'Adapting without falling apart', content: 'Adaptation must not cost you your fundamentals. Changing tools while your guard drops, your stance collapses, or your breathing stops is not adaptation, it is panic. Calm problem-solving keeps structure intact: you stay balanced, guarded, and breathing while you swap the tactic. The fighters who adapt best are the ones who stay relaxed enough to think.' },
+    ],
+    principles: [
+      'Detect failure early; repetition of a losing tactic is a choice.',
+      'Change one variable at a time so you learn what worked.',
+      'Keep structure, guard, and breathing while you adapt.',
+      'Calm problem-solving beats frantic switching.',
+    ],
+    mistakes: [
+      { title: 'Repeating a failing tactic too long', explanation: 'Each repetition teaches the opponent and drains you. Change as soon as failure is clear.' },
+      { title: 'Changing everything at once', explanation: 'Wholesale changes give no feedback about what actually worked. Change one variable and observe.' },
+      { title: 'Adapting by abandoning fundamentals', explanation: 'Dropping guard or structure to change tactics trades one problem for a worse one. Adapt inside good form.' },
+      { title: 'Freezing instead of adapting', explanation: 'Panic can look like doing nothing. If plan A fails, have a plan B ready to deploy, not a blank mind.' },
+    ],
+    practice: [
+      'Spar with a partner instructed to shut down your favorite technique.',
+      'When it fails twice, switch exactly one variable and note the result.',
+      'Practice resetting to guard and re-engaging after a failed tactic.',
+      'Run rounds where you must use three different tools, never repeating one.',
+      'After each round, write down what you changed and whether it worked.',
+    ],
+    reflection: 'In your last round, how many times did you repeat a tactic that was already failing? What stopped you from changing sooner?',
+    safety: 'Adaptation drills raise unpredictability. Keep contact controlled, maintain space, and stop if either partner becomes frantic rather than thoughtful.',
+    quiz: [
+      { question: 'Why change only one variable at a time when adapting?', options: ['It is slower and safer', 'So you learn which change actually produced the result', 'Because rules require it', 'To confuse the opponent'], answer: 1, explanation: 'Single-variable changes give clean feedback: you know what worked and can build on it, instead of guessing among many simultaneous changes.' },
+      { question: 'What separates adaptation from panic?', options: ['Speed of change', 'Keeping structure, guard, and calm while changing tools', 'Number of techniques used', 'Volume of movement'], answer: 1, explanation: 'Adaptation solves the problem inside good form; panic abandons form and usually creates a worse problem.' },
+    ],
+    mastery: [
+      'Detect a failing tactic within two repetitions and change it.',
+      'Change one variable at a time and explain the result.',
+      'Adapt while keeping guard, stance, and breathing intact.',
+      'Identify and correct the four common adaptation errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Your straight punch is being blocked every time.', action: 'You change one variable: attack the low line with a kick instead, keeping the same entry rhythm.', why: 'A single clean change tests whether the line was the problem, and the unchanged rhythm keeps your entry believable.' },
+        { setup: 'Your opponent reads your rhythm and counters your entries.', action: 'You keep your techniques but break the rhythm with a pause, then enter on the new beat.', why: 'Changing only the rhythm isolates the variable that was being read, without discarding tools that still work.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Adaptation is fast, clean problem solving: notice failure, change one variable, keep your structure while you do it.' },
+        { role: 'Facing it', detail: 'An adapting opponent will not stay predictable; force them into wholesale changes by shutting down single variables one at a time.' },
+      ],
+      adaptation: {
+        cues: ['Techniques landing on guard repeatedly', 'Ranges that never connect', 'Rhythms the opponent has clearly read'],
+        adjustments: [
+          { if: 'One tool is failing', then: 'Change exactly one variable: line, range, rhythm, or tool.' },
+          { if: 'Everything is failing', then: 'Reset distance, breathe, and re-establish structure before choosing a new approach.' },
+        ],
+        learning: 'After each round, list the changes you made, which were single-variable, and which produced a real result.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Adaptation Rounds', targetReps: 6 },
+  },
 
 }
