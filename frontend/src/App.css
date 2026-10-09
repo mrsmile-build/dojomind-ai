@@ -1964,3 +1964,86 @@ footer {
   margin-top: 16px;
   line-height: 1.5;
 }
+
+/* Breath cycle visual */
+.breath-cycle-visual {
+  margin-top: 32px;
+  padding: 24px 20px;
+  background: rgba(180,200,220,.06);
+  border: 1px solid rgba(180,200,220,.3);
+  border-radius: 16px;
+  text-align: center;
+}
+.breath-cycle-visual .bcv-header h3 {
+  color: #90a4ae;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.breath-cycle-visual .bcv-svg {
+  width: 100%;
+  max-width: 280px;
+  margin: 16px auto;
+  display: block;
+}
+.breath-cycle-visual .bcv-phase {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin: 16px 0 8px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+}
+.breath-cycle-visual .bcv-phase span {
+  color: #90a4ae;
+  font-size: 18px;
+}
+.breath-cycle-visual .bcv-progress {
+  margin: 16px 0;
+}
+.breath-cycle-visual .bcv-bar {
+  height: 8px;
+  background: rgba(255,255,255,.1);
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.breath-cycle-visual .bcv-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #90a4ae, #c9a15a);
+  transition: width 1s linear;
+}
+.breath-cycle-visual .bcv-controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 16px 0;
+}
+.breath-cycle-visual .bcv-phases {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.breath-cycle-visual .bcv-phase-chip {
+  padding: 6px 12px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  color: rgba(255,255,255,.7);
+  font-size: 12px;
+}
+.breath-cycle-visual .bcv-phase-chip.active {
+  background: rgba(180,200,220,.25);
+  border-color: rgba(180,200,220,.6);
+  color: #90a4ae;
+}
+.breath-cycle-visual .bcv-caption {
+  color: rgba(255,255,255,.7);
+  font-size: 13px;
+  margin-top: 16px;
+  line-height: 1.5;
+}

@@ -7346,6 +7346,15 @@ export const lessons = {
     ],
     visuals: [
       {
+        type: 'breath-cycle',
+        title: 'Diaphragmatic breath cycle',
+        caption: 'Watch the chest and belly expand on inhale, then soften on exhale. The diaphragm (dashed line) flattens to draw air in.',
+        phases: [
+          { label: 'Inhale', duration: 4, chest: 100 },
+          { label: 'Exhale', duration: 6, chest: 0 },
+        ],
+      },
+      {
         type: 'diagram',
         title: 'The diaphragm in action',
         caption: 'The diaphragm contracts and flattens on inhale, expanding the belly; it relaxes on exhale, allowing the belly to soften. This is efficient, calm breathing.',
