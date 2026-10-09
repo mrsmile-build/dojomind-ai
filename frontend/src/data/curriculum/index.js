@@ -162,9 +162,9 @@ export const curriculum = {
               id: 'kata',
               title: 'Kata as Application',
               lessons: [
-                { id: 'karate-kata-structure', title: 'Structure Within Kata' },
-                { id: 'karate-kata-bunkai', title: 'Bunkai: Reading the Applications' },
-                { id: 'karate-kata-expression', title: 'Personal Expression of Form' },
+                { id: 'karate-kata-bunkai', title: 'Understanding Bunkai' },
+                { id: 'karate-kata-oyo', title: 'Oyo: Adapting Kata to Real Fighting' },
+                { id: 'karate-kata-personal-expression', title: 'Personal Expression in Kata' },
               ],
             },
             {
