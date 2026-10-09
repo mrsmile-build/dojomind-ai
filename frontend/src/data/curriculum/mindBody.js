@@ -133,4 +133,71 @@ export const mindBody = {
       },
     },
   },
+  training: {
+    name: 'Training',
+    icon: '🏋️',
+    description: 'Build mobility, balance, flexibility and conditioning.',
+    levels: {
+      beginner: {
+        name: 'Beginner',
+        description: 'Build movement foundations: mobility, balance and base conditioning.',
+        modules: [
+          {
+            id: 'movement-foundations',
+            title: 'Movement Foundations',
+            lessons: [
+              { id: 'training-foundations-mobility', title: 'Joint Mobility Basics' },
+              { id: 'training-foundations-balance', title: 'Static and Dynamic Balance' },
+              { id: 'training-foundations-conditioning', title: 'Foundational Conditioning' },
+            ],
+          },
+        ],
+      },
+      intermediate: {
+        name: 'Intermediate',
+        description: 'Develop strength, core control and movement quality.',
+        modules: [
+          {
+            id: 'strength-control',
+            title: 'Strength and Control',
+            lessons: [
+              { id: 'training-strength-bodyweight', title: 'Bodyweight Strength' },
+              { id: 'training-strength-core', title: 'Core Control' },
+              { id: 'training-strength-quality', title: 'Movement Quality' },
+            ],
+          },
+        ],
+      },
+      advanced: {
+        name: 'Advanced',
+        description: 'Build power, endurance and recovery capacity.',
+        modules: [
+          {
+            id: 'performance',
+            title: 'Performance',
+            lessons: [
+              { id: 'training-performance-power', title: 'Power Development' },
+              { id: 'training-performance-endurance', title: 'Endurance Building' },
+              { id: 'training-performance-recovery', title: 'Recovery Capacity' },
+            ],
+          },
+        ],
+      },
+      expert: {
+        name: 'Expert',
+        description: 'Program your own training for longevity.',
+        modules: [
+          {
+            id: 'programming',
+            title: 'Self-Programming',
+            lessons: [
+              { id: 'training-programming-design', title: 'Designing Your Program' },
+              { id: 'training-programming-periodization', title: 'Periodization for Life' },
+              { id: 'training-programming-longevity', title: 'Training for Longevity' },
+            ],
+          },
+        ],
+      },
+    },
+  },
 }

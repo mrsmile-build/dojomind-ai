@@ -7552,5 +7552,239 @@ export const lessons = {
     },
     practiceEngine: { type: 'interval', label: 'Rhythmic Breathing', workTime: 240, restTime: 60, totalIntervals: 3 },
   },
+  'training-foundations-mobility': {
+    id: 'training-foundations-mobility',
+    subject: 'Training',
+    title: 'Joint Mobility Basics',
+    level: 'Beginner',
+    duration: '12 min',
+    description: 'Learn controlled joint rotations and a daily mobility practice that keeps joints healthy, movement free, and injury risk low.',
+    objectives: [
+      'Understand mobility as active usable range, not passive stretch',
+      'Learn the daily joint routine: neck, shoulders, hips, ankles',
+      'Move joints slowly and with control, not bouncing',
+      'Distinguish productive stretch from warning pain',
+      'Recognize the four most common mobility errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The daily joint routine',
+        caption: 'Mobility is active control through range. Move each major joint slowly and deliberately every day: neck, shoulders, spine, hips, knees, ankles.',
+        labels: ['Neck and spine', 'Shoulders and elbows', 'Hips and knees', 'Ankles and feet'],
+      },
+    ],
+    sections: [
+      { title: 'Mobility is active range', content: 'Mobility is not how far you can be stretched passively; it is how far you can actively move and control a joint yourself. Active range is what you can use in sport and life. Training mobility means moving each joint through its full range with control, building strength at the end ranges so the range becomes usable rather than just available.' },
+      { title: 'The daily joint routine', content: 'A simple daily routine covers the major joints: slow neck circles and tilts, shoulder circles and controlled arm sweeps, spinal waves and rotations, hip circles and deep squat holds, knee tracking, and ankle circles and rockers. Move each joint slowly, exploring the edges of range without forcing. Five to ten minutes daily maintains what hours of sitting take away.' },
+      { title: 'Slow, controlled, never bouncing', content: 'Mobility work is done slowly and with intention. Bouncing at end range triggers protective reflexes and risks injury; slow controlled movement teaches the nervous system that the range is safe and builds strength there. If a range feels sharp or painful, back off to the edge of comfortable stretch. Pain is information, not a target.' },
+    ],
+    principles: [
+      'Mobility is active controlled range, not passive stretch.',
+      'Move every major joint daily, slowly and deliberately.',
+      'Build strength at end ranges to make range usable.',
+      'Pain is a signal to back off, not to push through.',
+    ],
+    mistakes: [
+      { title: 'Bouncing at end range', explanation: 'Bouncing triggers protective reflexes and risks injury. Move slowly and hold with control.' },
+      { title: 'Forcing through pain', explanation: 'Sharp pain means stop. Work at the edge of comfortable stretch, not through warning signals.' },
+      { title: 'Only stretching passively', explanation: 'Passive stretch does not build usable range. Add active control through the range.' },
+      { title: 'Skipping joints you find boring', explanation: 'Neglected joints become stiff joints. Cover neck, shoulders, spine, hips, knees, ankles daily.' },
+    ],
+    practice: [
+      'Perform slow neck circles and tilts, 5 reps each direction.',
+      'Do shoulder circles and controlled arm sweeps, 10 reps.',
+      'Move through spinal waves and rotations, 5 reps.',
+      'Hold a deep squat for 30 seconds; do hip circles, 10 reps.',
+      'Finish with ankle circles and rockers, 10 reps each foot.',
+    ],
+    reflection: 'Which joints feel most restricted in your daily routine? What does that tell you about how you sit, stand, and move?',
+    safety: 'Move within comfortable range. Sharp or joint pain means stop. Consult a professional for existing injuries or conditions.',
+    quiz: [
+      { question: 'What is mobility?', options: ['How far you can be stretched', 'Active controlled range you can use yourself', 'Touching your toes', 'Being flexible'], answer: 1, explanation: 'Mobility is active usable range: how far you can move and control a joint yourself, not passive stretch applied to you.' },
+      { question: 'Why avoid bouncing at end range?', options: ['It is slow', 'It triggers protective reflexes and risks injury', 'It looks bad', 'It wastes time'], answer: 1, explanation: 'Bouncing triggers stretch reflexes and can cause injury; slow controlled movement builds safe, usable range.' },
+    ],
+    mastery: [
+      'Perform the daily joint routine with slow control.',
+      'Distinguish productive stretch from warning pain.',
+      'Hold active end ranges with control, not bounce.',
+      'Identify and correct the four common mobility errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You feel stiff before training after a day of sitting.', action: 'You run the daily joint routine for five minutes to restore range before loading movement.', why: 'Restoring active range before training reduces injury risk and improves movement quality.' },
+        { setup: 'Your hips feel tight in squats.', action: 'You add hip circles and deep squat holds daily, building active control at the end range.', why: 'Active work at end range makes the range usable, improving squat depth and control.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Daily mobility keeps joints healthy and movement free, supporting every other physical practice.' },
+        { role: 'Facing it', detail: 'A mobile practitioner moves through full ranges efficiently and resists injury under load.' },
+      ],
+      adaptation: {
+        cues: ['Stiffness in specific joints', 'Sharp pain versus comfortable stretch', 'Range lost after long sitting'],
+        adjustments: [
+          { if: 'Sharp pain', then: 'Back off to comfortable stretch and rebuild gradually.' },
+          { if: 'General stiffness', then: 'Add time to the daily routine for the restricted joints.' },
+        ],
+        learning: 'After each session, note which joints improved and which need more consistent work.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Mobility Flow', initialTime: 480 },
+  },
+  'training-foundations-balance': {
+    id: 'training-foundations-balance',
+    subject: 'Training',
+    title: 'Static and Dynamic Balance',
+    level: 'Beginner',
+    duration: '12 min',
+    description: 'Build balance from static single-leg holds to dynamic transitions, the foundation for all movement, sport, and martial arts.',
+    objectives: [
+      'Understand balance as a trainable skill, not a fixed trait',
+      'Develop static balance with single-leg holds',
+      'Progress to dynamic balance through movement and instability',
+      'Use gaze, base, and center to control balance',
+      'Recognize the four most common balance errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The balance stack',
+        caption: 'Balance is controlled by three levers: where you look, how wide your base is, and where your center sits over it. Train all three.',
+        labels: ['Gaze steady and forward', 'Base width sets stability', 'Center over the base', 'Progress static to dynamic'],
+      },
+    ],
+    sections: [
+      { title: 'Balance is a skill', content: 'Balance is not something you either have or lack; it is a trainable skill of the nervous system. It improves with specific practice and decays without it. Every stance, step, and kick in martial arts depends on it, and so does walking on uneven ground or recovering from a slip. Training balance deliberately pays off in every physical domain.' },
+      { title: 'Static balance first', content: 'Begin with static holds: stand on one leg with a soft knee, center stacked over the supporting foot, gaze steady on a fixed point. Start with eyes open and hands near support, then progress to hands free, longer holds, and finally eyes closed. The soft knee and steady gaze are the two quickest fixes for a wobbling hold.' },
+      { title: 'Dynamic balance next', content: 'Real life and sport are dynamic: balance must hold while moving. Progress to stepping over obstacles, turning on one leg, reaching outside your base, and catching yourself from a light push. Dynamic balance trains the transitions where most falls and losses of structure happen, making it the most transferable form of balance work.' },
+    ],
+    principles: [
+      'Balance is a trainable skill that decays without practice.',
+      'Soft knee, steady gaze, center over the base.',
+      'Progress from static holds to dynamic transitions.',
+      'Train the transitions where balance is actually lost.',
+    ],
+    mistakes: [
+      { title: 'Locking the knee', explanation: 'A locked knee removes the shock absorption that keeps balance adjustable. Keep the knee soft.' },
+      { title: 'Looking down', explanation: 'Dropping the gaze destabilizes the vestibular system. Keep eyes forward on a fixed point.' },
+      { title: 'Skipping to dynamic too early', explanation: 'Without static stability, dynamic work is flailing. Build holds first, then move.' },
+      { title: 'Training only on flat ground', explanation: 'Add varied surfaces and directions so balance transfers to real terrain and sport.' },
+    ],
+    practice: [
+      'Hold one-leg stance 30 seconds each side, soft knee, steady gaze.',
+      'Repeat with eyes closed for 10 seconds each side, near support.',
+      'Step slowly over an imaginary obstacle, balancing on each leg.',
+      'Turn 90 degrees on one leg without setting the other foot down.',
+      'Have a partner give light pushes from varied directions while you hold.',
+    ],
+    reflection: 'Where does your balance fail first: gaze, base, or center? Which side is weaker, and what does that asymmetry tell you?',
+    safety: 'Practice near a wall or support when progressing. Stop if dizzy. Consult a professional for vestibular or neurological conditions.',
+    quiz: [
+      { question: 'What are the three main levers of balance?', options: ['Strength, speed, flexibility', 'Gaze, base width, center position', 'Arms, legs, core', 'Breath, posture, rhythm'], answer: 1, explanation: 'Balance is controlled by where you look, how wide your base is, and where your center sits over that base.' },
+      { question: 'Why progress from static to dynamic balance?', options: ['Static is boring', 'Static stability is the foundation for controlled movement', 'Dynamic is easier', 'Rules require it'], answer: 1, explanation: 'Without static stability, dynamic work lacks control; holds first, then transitions where balance is truly tested.' },
+    ],
+    mastery: [
+      'Hold one-leg stance 30 seconds each side with soft knee and steady gaze.',
+      'Progress to eyes-closed and dynamic balance challenges.',
+      'Recover balance from light pushes in varied directions.',
+      'Identify and correct the four common balance errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You wobble during a one-leg hold.', action: 'You soften the knee, fix your gaze on a point, and stack your center over the supporting foot.', why: 'These three adjustments address the most common causes of wobble and restore stability immediately.' },
+        { setup: 'You lose balance when turning in sparring.', action: 'You add one-leg turns and stepping drills to train balance through rotation.', why: 'Dynamic balance work at the transitions prevents the losses that happen while moving and turning.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Trained balance underpins every stance, step, and kick, and protects you from falls in daily life.' },
+        { role: 'Facing it', detail: 'A balanced practitioner is hard to off-balance; push and pull find structure instead of collapse.' },
+      ],
+      adaptation: {
+        cues: ['Wobble source: gaze, base, or center', 'Side-to-side asymmetry', 'Losses during transitions'],
+        adjustments: [
+          { if: 'Wobble persists', then: 'Check knee softness, gaze point, and center stacking in that order.' },
+          { if: 'Losses in motion', then: 'Add dynamic drills: stepping, turning, reaching outside the base.' },
+        ],
+        learning: 'After each session, note which lever failed most and which drill improved it.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Balance Holds', initialTime: 60 },
+  },
+  'training-foundations-conditioning': {
+    id: 'training-foundations-conditioning',
+    subject: 'Training',
+    title: 'Foundational Conditioning',
+    level: 'Beginner',
+    duration: '12 min',
+    description: 'Build a base of general conditioning around five movement patterns: squat, hinge, push, pull, and carry, plus an aerobic base.',
+    objectives: [
+      'Understand the five foundational movement patterns',
+      'Build an aerobic base for work and recovery',
+      'Apply simple progressive overload without complexity',
+      'Respect recovery as part of conditioning',
+      'Recognize the four most common conditioning errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The five patterns',
+        caption: 'General conditioning covers five movement patterns plus an aerobic base: squat, hinge, push, pull, carry. Everything else is a variation.',
+        labels: ['Squat', 'Hinge', 'Push', 'Pull', 'Carry + aerobic base'],
+      },
+    ],
+    sections: [
+      { title: 'The five movement patterns', content: 'Nearly all useful strength reduces to five patterns: squat (knees and hips bend together), hinge (hips push back), push (away from body), pull (toward body), and carry (load held while moving). Training these five with bodyweight first, then added load, covers the physical demands of sport and daily life. Everything else is a variation of these.' },
+      { title: 'The aerobic base', content: 'Conditioning is not only strength; it is also the ability to work repeatedly and recover between efforts. An aerobic base, built through easy sustained activity like brisk walking, cycling, or slow jogging, improves recovery between rounds and sessions. Most beginners skip this and wonder why they gas out; the base is what makes repeated effort possible.' },
+      { title: 'Simple progression and recovery', content: 'Progress by doing slightly more over time: one more rep, one more round, a little less rest. Small consistent increases beat dramatic jumps. Equally, recovery is part of conditioning: sleep, food, and easy days are when the body adapts. Training hard every day without recovery produces fatigue, not fitness.' },
+    ],
+    principles: [
+      'Cover the five patterns: squat, hinge, push, pull, carry.',
+      'Build an aerobic base to work repeatedly and recover.',
+      'Progress in small consistent steps, not dramatic jumps.',
+      'Recovery is when adaptation happens; respect it.',
+    ],
+    mistakes: [
+      { title: 'Too much too soon', explanation: 'Dramatic jumps cause injury and burnout. Add small amounts consistently.' },
+      { title: 'Skipping patterns', explanation: 'Neglecting pull or carry creates imbalances. Cover all five patterns weekly.' },
+      { title: 'Ignoring the aerobic base', explanation: 'Without a base, repeated effort fails. Include easy sustained activity.' },
+      { title: 'Training hard every day', explanation: 'Adaptation happens during recovery. Schedule easy days and sleep.' },
+    ],
+    practice: [
+      'Perform 3 rounds: 10 bodyweight squats, 10 hinges, 8 pushes, 8 pulls.',
+      'Add a 30-second carry (hold anything moderate) each round.',
+      'Finish with 15-20 minutes of easy sustained activity (walk or cycle).',
+      'Repeat 3 times weekly, adding one rep or one round per week.',
+      'Track sleep and note how recovery affects your next session.',
+    ],
+    reflection: 'Which of the five patterns is weakest for you? Do you recover well between sessions, or do you train tired?',
+    safety: 'Start with bodyweight and perfect form. Add load gradually. Consult a professional for existing injuries or conditions.',
+    quiz: [
+      { question: 'What are the five foundational movement patterns?', options: ['Run, jump, throw, catch, kick', 'Squat, hinge, push, pull, carry', 'Flex, extend, rotate, bend, twist', 'Push, pull, rest, eat, sleep'], answer: 1, explanation: 'General strength reduces to squat, hinge, push, pull, and carry; everything else is a variation of these five.' },
+      { question: 'When does the body actually adapt to training?', options: ['During the workout', 'During recovery between sessions', 'Only while sleeping deeply', 'Never'], answer: 1, explanation: 'Training provides the stimulus; adaptation happens during recovery, which is why sleep, food, and easy days matter.' },
+    ],
+    mastery: [
+      'Perform all five movement patterns with good form.',
+      'Include aerobic base work in your weekly routine.',
+      'Apply small consistent progression week over week.',
+      'Identify and correct the four common conditioning errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You gas out during sparring rounds.', action: 'You add easy sustained aerobic work twice weekly and keep round rests honest.', why: 'An aerobic base improves recovery between efforts, letting you repeat quality rounds instead of fading.' },
+        { setup: 'Your progress stalls after weeks of hard training.', action: 'You schedule an easy week with reduced volume and prioritize sleep.', why: 'Adaptation happens in recovery; a planned easy week restores the capacity to improve.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Foundational conditioning builds the general capacity that every sport and daily task draws on.' },
+        { role: 'Facing it', detail: 'A well-conditioned opponent keeps quality output late into the exchange while others fade.' },
+      ],
+      adaptation: {
+        cues: ['Fading late in sessions', 'Stalled progress despite hard work', 'Pattern imbalances'],
+        adjustments: [
+          { if: 'Fading late', then: 'Add aerobic base work and honest rests.' },
+          { if: 'Stalled progress', then: 'Schedule recovery and reduce volume briefly.' },
+        ],
+        learning: 'Each week, note which patterns you covered, what you progressed, and how recovery felt.',
+      },
+    },
+    practiceEngine: { type: 'interval', label: 'Conditioning Circuit', workTime: 40, restTime: 20, totalIntervals: 6 },
+  },
 
 }
