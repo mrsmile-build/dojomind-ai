@@ -18,6 +18,7 @@ export const lessons = {
     ],
 
     positionDiagram: {
+      frontArm: { shoulderAngle: -12, elbowAngle: -135 }, rearArm: { shoulderAngle: 12, elbowAngle: 135 },
       title: 'Understanding the body position',
       description:
         'Use the diagram to understand the relationships between posture, balance and the lower-body base. Exact positions vary by stance and practitioner.',
@@ -351,6 +352,7 @@ export const lessons = {
     ],
 
     positionDiagram: {
+      frontArm: { shoulderAngle: -30, elbowAngle: 28 }, rearArm: { shoulderAngle: 30, elbowAngle: -28 },
       title: 'Back stance — kokutsu-dachi',
       description:
         'Side and top-down views of the back stance. The rear leg is deeply bent with the knee over the foot; the front leg is relatively straight; weight sits about 70% on the rear leg.',
@@ -501,6 +503,7 @@ export const lessons = {
     ],
 
     positionDiagram: {
+      frontArm: { shoulderAngle: -30, elbowAngle: 28 }, rearArm: { shoulderAngle: 30, elbowAngle: -28 },
       title: 'Horse stance — kiba-dachi',
       description:
         'Side and top-down views of the horse stance. Both knees are bent equally, feet are parallel and shoulder-width apart, and weight sits evenly on both legs.',
