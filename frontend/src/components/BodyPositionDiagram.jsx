@@ -17,6 +17,18 @@ function BodyPositionDiagram({ position }) {
   const frontLegAngle = position.frontLegAngle ?? -12
   const rearLegAngle = position.rearLegAngle ?? 18
 
+  // Optional two-segment arms (shoulder -> elbow -> fist).
+  // Lessons that supply frontArm/rearArm get bent-elbow poses
+  // (e.g. fist chambered at hip); others keep the straight arm.
+  const frontArmSpec = position.frontArm || null
+  const rearArmSpec = position.rearArm || null
+  const armPoints = (spec, spread) => {
+    const s = { x: shoulder.x + spread, y: shoulder.y + 3 }
+    const e = limb(s, spec.shoulderAngle, 70, 0)
+    const h = limb(e, spec.elbowAngle, 70, 0)
+    return { s, e, h }
+  }
+
   const hip = { x: 380, y: 330 }
   const shoulder = { x: 380, y: 172 }
 
@@ -29,6 +41,9 @@ function BodyPositionDiagram({ position }) {
   const rearFoot = limb(hip, rearLegAngle, 160, 18)
   const frontHand = limb(shoulder, frontArmAngle, 140, -28)
   const rearHand = limb(shoulder, rearArmAngle, 140, 28)
+  const fa = frontArmSpec ? armPoints(frontArmSpec, -30) : null
+  const ra = rearArmSpec ? armPoints(rearArmSpec, 30) : null
+
 
   return (
     <section className="body-diagram">
@@ -64,8 +79,22 @@ function BodyPositionDiagram({ position }) {
             />
           </g>
 
-          <line x1={shoulder.x + 30} y1={shoulder.y + 3} x2={rearHand.x} y2={rearHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
-          <line x1={shoulder.x - 30} y1={shoulder.y + 3} x2={frontHand.x} y2={frontHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
+          {rearArmSpec ? (
+            <g>
+              <polyline points={`${ra.s.x},${ra.s.y} ${ra.e.x},${ra.e.y} ${ra.h.x},${ra.h.y}`} stroke="#202124" strokeWidth="25" strokeLinecap="round" fill="none" />
+              <circle cx={ra.h.x} cy={ra.h.y} r="15" fill="#202124" />
+            </g>
+          ) : (
+            <line x1={shoulder.x + 30} y1={shoulder.y + 3} x2={rearHand.x} y2={rearHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
+          )}
+          {frontArmSpec ? (
+            <g>
+              <polyline points={`${fa.s.x},${fa.s.y} ${fa.e.x},${fa.e.y} ${fa.h.x},${fa.h.y}`} stroke="#202124" strokeWidth="25" strokeLinecap="round" fill="none" />
+              <circle cx={fa.h.x} cy={fa.h.y} r="15" fill="#202124" />
+            </g>
+          ) : (
+            <line x1={shoulder.x - 30} y1={shoulder.y + 3} x2={frontHand.x} y2={frontHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
+          )}
 
           <line x1={hip.x - 20} y1={hip.y} x2={frontFoot.x} y2={frontFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />
           <line x1={hip.x + 20} y1={hip.y} x2={rearFoot.x} y2={rearFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />

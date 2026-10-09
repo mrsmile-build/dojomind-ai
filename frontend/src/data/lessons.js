@@ -201,6 +201,7 @@ export const lessons = {
     ],
 
     positionDiagram: {
+      frontArm: { shoulderAngle: -30, elbowAngle: 28 }, rearArm: { shoulderAngle: 30, elbowAngle: -28 },
       title: 'Front stance — zenkutsu-dachi',
       description:
         'Side and top-down views of the front stance. The front leg is bent with the knee over the foot; the rear leg is extended with the heel planted; weight sits about 60% forward.',
@@ -1255,6 +1256,7 @@ export const lessons = {
     ],
 
     positionDiagram: {
+      frontArm: { shoulderAngle: -90, elbowAngle: -90 }, rearArm: { shoulderAngle: 25, elbowAngle: -25 },
       title: 'Straight punch — choku-zuki',
       description:
         'The straight punch extends from the hip chamber with hip rotation, making contact with the first two knuckles, and the non-punching hand pulls back to the hip.',
