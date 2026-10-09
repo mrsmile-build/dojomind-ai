@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react'
 import MartialArts from './MartialArts'
+import MindBody from './MindBody'
 import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
+const MIND_PAGES = ['meditation', 'breathing', 'training']
+
 const areas = [
   { icon: '🥋', title: 'Martial Arts', path: '/martial-arts', text: 'Learn techniques, styles, fundamentals and principles.' },
-  { icon: '🧘', title: 'Meditation',  path: null,             text: 'Train attention, calm, awareness and mental discipline.' },
-  { icon: '🫁', title: 'Breathing',   path: null,             text: 'Explore controlled breathing and breath-awareness practices.' },
-  { icon: '🏋️', title: 'Training',    path: null,             text: 'Build mobility, balance, flexibility and conditioning.' },
+  { icon: '🧘', title: 'Meditation',  path: '/meditation',  text: 'Train attention, calm, awareness and mental discipline.' },
+  { icon: '🫁', title: 'Breathing',   path: '/breathing',   text: 'Explore controlled breathing and breath-awareness practices.' },
+  { icon: '🏋️', title: 'Training',    path: '/training',    text: 'Build mobility, balance, flexibility and conditioning.' },
 ]
 
 function parseHash() {
@@ -15,12 +18,10 @@ function parseHash() {
   const parts = raw.split('/').filter(Boolean)
   if (parts.length === 0) return { page: 'home' }
   if (parts[0] === 'martial-arts') {
-    return {
-      page: 'martial-arts',
-      artId: parts[1] || null,
-      levelId: parts[2] || null,
-      lessonId: parts[3] || null,
-    }
+    return { page: 'martial-arts', artId: parts[1] || null, levelId: parts[2] || null, lessonId: parts[3] || null }
+  }
+  if (MIND_PAGES.includes(parts[0])) {
+    return { page: parts[0], levelId: parts[1] || null, lessonId: parts[2] || null }
   }
   return { page: 'home' }
 }
@@ -50,6 +51,10 @@ function AppContent() {
     return <MartialArts route={route} navigate={navigate} />
   }
 
+  if (MIND_PAGES.includes(route.page)) {
+    return <MindBody route={route} navigate={navigate} />
+  }
+
   const askDojoMind = () => {
     const text = question.trim()
     if (!text) return
@@ -75,13 +80,11 @@ function AppContent() {
           <div className="brand-mark">D</div>
           <span>DojoMind <b>AI</b></span>
         </div>
-
         <div className="nav-links">
           <a href="#learn">Learn</a>
           <a href="#practice">Practice</a>
           <a href="#about">About</a>
         </div>
-
         <button className="nav-button" onClick={() => navigate('/martial-arts')}>Start learning</button>
       </nav>
 
@@ -135,7 +138,7 @@ function AppContent() {
               <div className="area-icon">{area.icon}</div>
               <h3>{area.title}</h3>
               <p>{area.text}</p>
-              <span className="card-arrow">{area.path ? 'Explore →' : 'Coming soon'}</span>
+              <span className="card-arrow">Explore →</span>
             </article>
           ))}
         </div>

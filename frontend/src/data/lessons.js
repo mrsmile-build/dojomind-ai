@@ -7084,5 +7084,239 @@ export const lessons = {
     },
     practiceEngine: { type: 'rep-counter', label: 'Coaching Observations', targetReps: 10 },
   },
+  'meditation-foundations-posture': {
+    id: 'meditation-foundations-posture',
+    subject: 'Meditation',
+    title: 'Sitting Posture and Setup',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Learn a stable, relaxed sitting posture that supports alertness without strain, and set up a repeatable practice space and time.',
+    objectives: [
+      'Understand that posture supports alertness, not just comfort',
+      'Set a tall but relaxed spine and a stable base',
+      'Choose a seat or cushion that suits your body',
+      'Establish a consistent time and place for practice',
+      'Recognize the four most common posture errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The aligned, relaxed seat',
+        caption: 'Good meditation posture is tall but relaxed: spine stacked, base stable, shoulders and jaw loose, alertness supported without strain.',
+        labels: ['Spine tall but relaxed', 'Stable seated base', 'Shoulders and jaw loose', 'Alert without strain'],
+      },
+    ],
+    sections: [
+      { title: 'Posture supports attention', content: 'Meditation posture is not about looking a certain way; it is about creating a body that supports alertness without strain. A collapsed spine invites drowsiness; an over-rigid spine invites tension and pain. The aim is a middle way: tall enough to stay awake, relaxed enough to stay still. The body becomes a stable platform for the mind.' },
+      { title: 'The aligned, relaxed seat', content: 'Sit with the spine stacked naturally, crown of the head lifting gently, chin slightly tucked. Let the shoulders drop and the jaw and hands relax. If on the floor, sit on a cushion so the hips tilt forward and the knees rest down; if on a chair, sit forward with feet flat. The base should feel stable and grounded, not balanced precariously.' },
+      { title: 'Setting up practice', content: 'Consistency beats intensity. Choose a regular time and a quiet place, and keep the setup the same each day so the environment itself becomes a cue for practice. Start short, five to ten minutes, and grow gradually. A repeatable setup removes decision-making and lets the practice become a habit rather than a negotiation.' },
+    ],
+    principles: [
+      'Posture supports alertness without strain.',
+      'Tall but relaxed: stacked spine, stable base, loose shoulders and jaw.',
+      'Consistency of time and place builds the habit.',
+      'Start short and grow gradually.',
+    ],
+    mistakes: [
+      { title: 'Slouching into drowsiness', explanation: 'A collapsed spine invites sleepiness. Lengthen the spine gently to stay alert.' },
+      { title: 'Over-rigid posture', explanation: 'Gripping the body creates tension and pain. Relax what does not need to hold you up.' },
+      { title: 'Lying down when learning', explanation: 'Lying down usually leads to sleep while building the habit. Sit upright until stability is established.' },
+      { title: 'Changing setup every session', explanation: 'A variable setup forces decisions each time. Keep time and place consistent so practice becomes automatic.' },
+    ],
+    practice: [
+      'Set up your seat (cushion or chair) in a quiet, consistent place.',
+      'Sit with a tall but relaxed spine; let shoulders and jaw loosen.',
+      'Set a timer for five minutes and simply remain seated and alert.',
+      'Notice where tension or slouching appears and adjust gently.',
+      'Repeat at the same time daily, adding a minute each week.',
+    ],
+    reflection: 'Where does your posture tend to fail: slouching into dullness or tightening into strain? What does your ideal alert-relaxed seat feel like?',
+    safety: 'Meditation is not endurance of pain. If you feel sharp pain, adjust your posture or use a chair. Consult a professional for medical conditions affecting sitting.',
+    quiz: [
+      { question: 'What is the purpose of meditation posture?', options: ['To look correct', 'To support alertness without strain', 'To build muscle', 'To impress others'], answer: 1, explanation: 'Posture creates a body that stays awake and still: tall enough for alertness, relaxed enough to avoid tension and pain.' },
+      { question: 'Why keep time and place consistent?', options: ['It is a rule', 'Consistency removes decisions and builds the habit', 'It looks disciplined', 'It is required'], answer: 1, explanation: 'A repeatable setup makes the environment a cue for practice, turning meditation into a habit rather than a daily negotiation.' },
+    ],
+    mastery: [
+      'Set a tall but relaxed sitting posture without strain.',
+      'Choose a seat or cushion suited to your body.',
+      'Establish a consistent time and place for practice.',
+      'Identify and correct the four common posture errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You feel drowsy a few minutes into sitting.', action: 'You gently lengthen the spine, lift the crown, and open the eyes slightly to restore alertness.', why: 'Alertness follows posture; straightening the spine counteracts the slouch that invites sleep.' },
+        { setup: 'Your back aches from holding too rigidly.', action: 'You soften the shoulders and jaw and let the base, not muscular gripping, support you.', why: 'Relaxing unnecessary tension removes strain while the stable base keeps you upright.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Posture and setup create a stable, alert platform so attention can train without fighting the body.' },
+        { role: 'Facing it', detail: 'A practitioner with poor posture drifts into dullness or pain; a good seat keeps practice sustainable.' },
+      ],
+      adaptation: {
+        cues: ['Slouching or drowsiness', 'Gripping tension or pain', 'Restlessness from an inconsistent setup'],
+        adjustments: [
+          { if: 'Drowsy', then: 'Lengthen the spine and brighten the gaze slightly.' },
+          { if: 'Tense or pained', then: 'Soften shoulders and jaw; adjust the seat or use a chair.' },
+        ],
+        learning: 'After each sit, note one posture cue that helped and one that needs adjusting next time.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Sitting Practice', initialTime: 300 },
+  },
+  'meditation-foundations-breath': {
+    id: 'meditation-foundations-breath',
+    subject: 'Meditation',
+    title: 'Anchoring on the Breath',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Learn to rest attention on the breath as an anchor, noticing the sensation of breathing and gently sustaining focus without forcing.',
+    objectives: [
+      'Understand the breath as a stable anchor for attention',
+      'Place attention on the sensation of breathing',
+      'Sustain focus gently without forcing or controlling breath',
+      'Recognize the difference between observing and controlling',
+      'Recognize the four most common anchoring errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'The breath as anchor',
+        caption: 'The breath is always present and always changing, making it an ideal anchor: attention rests on the sensation of breathing, returning whenever it wanders.',
+        labels: ['Breath is always present', 'Rest on the sensation', 'Observe, do not control', 'Return when wandering'],
+      },
+    ],
+    sections: [
+      { title: 'Why the breath works as an anchor', content: 'The breath is always with you, always in the present, and always changing slightly, which gives attention something real to rest on. Unlike a thought, the breath is a bodily sensation you can feel directly. This makes it an ideal anchor: stable enough to return to, subtle enough to train fine attention.' },
+      { title: 'Placing attention', content: 'Choose one place where breathing is most vivid, the nostrils, the rising chest, or the moving belly, and rest attention there. You are not watching an idea of breath but feeling the actual sensation: cool air in, warm air out, the rise and fall. Keep the field of attention narrow and soft, not strained.' },
+      { title: 'Observing without controlling', content: 'A common error is to start controlling the breath, making it deeper or slower on purpose. The practice is to observe the breath exactly as it is, letting it breathe itself while attention watches. When you notice you have taken over the breathing, relax control and return to pure observation.' },
+    ],
+    principles: [
+      'The breath is a present-moment, ever-changing anchor.',
+      'Rest attention on the actual sensation, not the idea of breath.',
+      'Observe the breath; do not control it.',
+      'Keep attention narrow and soft, not strained.',
+    ],
+    mistakes: [
+      { title: 'Controlling the breath', explanation: 'Deliberately deepening or slowing the breath is not observation. Let it breathe itself and watch.' },
+      { title: 'Chasing perfect focus', explanation: 'Straining for unbroken concentration creates tension. Gentle, repeated returning is the practice.' },
+      { title: 'Analyzing instead of feeling', explanation: 'Thinking about the breath is not feeling it. Rest on the raw sensation.' },
+      { title: 'Gripping attention', explanation: 'A tight, forced attention tires quickly. Keep the focus soft and sustainable.' },
+    ],
+    practice: [
+      'Sit in your established posture and settle for a minute.',
+      'Choose one anchor point (nostrils, chest, or belly).',
+      'Rest attention on the sensation of breathing there for five minutes.',
+      'When you notice control or analysis, relax and return to feeling.',
+      'End by noting how often attention stayed versus wandered.',
+    ],
+    reflection: 'Did you observe the breath or control it? Where was the sensation most vivid, and how soft or strained was your attention?',
+    safety: 'If focusing on breath causes anxiety, widen attention to the whole body or use a sound anchor instead, and consult a teacher if distress persists.',
+    quiz: [
+      { question: 'Why is the breath a good anchor for attention?', options: ['It is easy to control', 'It is present, changing, and directly feelable', 'It is loud', 'It stops the mind'], answer: 1, explanation: 'The breath is always present and always changing, and its sensation is directly feelable, making it a stable yet subtle anchor.' },
+      { question: 'What should you do with the breath during practice?', options: ['Control it to be slower', 'Observe it exactly as it is', 'Hold it periodically', 'Ignore it'], answer: 1, explanation: 'The practice is pure observation: let the breath breathe itself while attention rests on the sensation.' },
+    ],
+    mastery: [
+      'Rest attention on the breath sensation for several minutes.',
+      'Distinguish observing from controlling and relax control.',
+      'Keep attention soft and sustainable rather than strained.',
+      'Identify and correct the four common anchoring errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice you have been forcing the breath deeper.', action: 'You relax control and let the breath return to its natural rhythm while attention watches.', why: 'Observation, not control, is the practice; releasing control restores pure attention on sensation.' },
+        { setup: 'Attention keeps sliding into thoughts about the breath.', action: 'You drop the analysis and return to the raw physical sensation at your anchor point.', why: 'Feeling the sensation, not thinking about it, keeps attention anchored in the present.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'The breath anchor trains stable, present-moment attention that can later be applied to any object or situation.' },
+        { role: 'Facing it', detail: 'A breath-anchored practitioner remains calm and present under stress because attention has a trained home base.' },
+      ],
+      adaptation: {
+        cues: ['Taking over the breathing', 'Analyzing instead of feeling', 'Strained or gripped attention'],
+        adjustments: [
+          { if: 'Controlling breath', then: 'Relax and let it breathe itself; return to watching.' },
+          { if: 'Attention strained', then: 'Soften the focus and widen slightly, then re-settle on the anchor.' },
+        ],
+        learning: 'After each sit, note whether you observed or controlled, and how soft your attention was.',
+      },
+    },
+    practiceEngine: { type: 'timed-hold', label: 'Breath Anchor Sit', initialTime: 600 },
+  },
+  'meditation-foundations-returning': {
+    id: 'meditation-foundations-returning',
+    subject: 'Meditation',
+    title: 'The Art of Returning',
+    level: 'Beginner',
+    duration: '10 min',
+    description: 'Learn that meditation is not never-wandering but noticing and returning; each gentle return is a repetition that strengthens attention.',
+    objectives: [
+      'Understand that wandering is normal and expected',
+      'Recognize noticing as the moment of success, not failure',
+      'Return attention gently rather than harshly',
+      'Treat each return as a repetition that builds strength',
+      'Recognize the four most common returning errors',
+    ],
+    visuals: [
+      {
+        type: 'diagram',
+        title: 'Notice and return',
+        caption: 'The practice loop: attention wanders, you notice, you return gently. Each return is a rep that strengthens attention, like a curl for the mind.',
+        labels: ['Attention wanders', 'You notice', 'You return gently', 'Each return builds strength'],
+      },
+    ],
+    sections: [
+      { title: 'Wandering is normal', content: 'The mind wanders; that is what minds do. Beginners often believe a good session has no wandering, but this is a misunderstanding. Wandering is not the failure; failing to notice is the only real miss. A session full of noticed wanderings and gentle returns is a strong session, because each return is the actual training.' },
+      { title: 'Noticing is the win', content: 'The moment you realize attention has wandered is the moment of mindfulness, the success, not the mistake. That instant of noticing is awareness waking up. Celebrate it internally rather than judging it. The more you value noticing, the more often it arises, and attention becomes self-correcting.' },
+      { title: 'Returning gently', content: 'How you return matters. A harsh, frustrated yank back to the anchor trains tension and aversion; a gentle, kind escort back trains calm and stability. Return as you would guide a puppy or a child: firmly but warmly. Over thousands of returns, this gentle quality becomes the texture of your attention in daily life.' },
+    ],
+    principles: [
+      'Wandering is normal; noticing is the practice.',
+      'The moment of noticing is success, not failure.',
+      'Return gently, not harshly.',
+      'Each return is a repetition that strengthens attention.',
+    ],
+    mistakes: [
+      { title: 'Judging wandering as failure', explanation: 'Wandering is expected. Judging it adds aversion and obscures the noticing that is the real win.' },
+      { title: 'Trying to stop all thought', explanation: 'Suppressing thought is impossible and exhausting. Let thoughts arise and pass; return to the anchor.' },
+      { title: 'Returning harshly', explanation: 'A frustrated yank trains tension. Escort attention back gently and warmly.' },
+      { title: 'Giving up after many wanderings', explanation: 'Many returns are many reps, not a bad session. Persistence is the training.' },
+    ],
+    practice: [
+      'Sit anchored on the breath for five to ten minutes.',
+      'Each time you notice wandering, silently note it and return gently.',
+      'Count returns up to ten, then start over, treating each as a rep.',
+      'Notice the tone of your returning: harsh or kind; soften it.',
+      'End by appreciating that every notice was a moment of awareness.',
+    ],
+    reflection: 'How did you treat your wandering this session: with judgment or with kindness? Did you see noticing as failure or as the win?',
+    safety: 'If strong difficult emotions arise during practice, pause, ground in the body or eyes open, and seek support if needed. Meditation is not a substitute for care.',
+    quiz: [
+      { question: 'What is the actual training in meditation?', options: ['Never wandering', 'Noticing wandering and returning gently', 'Emptying the mind', 'Sitting perfectly still'], answer: 1, explanation: 'Each cycle of wander-notice-return is a repetition that strengthens attention; the return is the rep.' },
+      { question: 'Why return gently rather than harshly?', options: ['It is faster', 'Harsh returning trains tension; gentle returning trains calm stability', 'It is a rule', 'Harsh is impossible'], answer: 1, explanation: 'The quality of the return shapes the quality of attention; kindness builds calm, frustration builds aversion.' },
+    ],
+    mastery: [
+      'Treat wandering as normal and noticing as success.',
+      'Return attention gently and consistently.',
+      'Count returns as repetitions that build strength.',
+      'Identify and correct the four common returning errors.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'You notice attention has been lost in a worry for a minute.', action: 'You acknowledge the noticing as a win, then escort attention gently back to the breath.', why: 'Valuing the noticing reinforces awareness, and the gentle return trains calm rather than aversion.' },
+        { setup: 'You feel frustrated at wandering repeatedly.', action: 'You reframe each return as a rep and soften the tone of returning.', why: 'Reframing wandering as training converts frustration into persistence and kindness.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'The return loop builds a self-correcting attention that notices distraction in daily life and comes back to what matters.' },
+        { role: 'Facing it', detail: 'A practitioner trained in returning recovers focus quickly after interruption instead of staying hijacked.' },
+      ],
+      adaptation: {
+        cues: ['Wandering into thought or emotion', 'Harsh or frustrated returning', 'Long lost periods without noticing'],
+        adjustments: [
+          { if: 'Returning feels harsh', then: 'Soften the tone; escort attention kindly.' },
+          { if: 'Long lost periods', then: 'Shorten sits or strengthen the anchor until noticing arises sooner.' },
+        ],
+        learning: 'After each sit, note the tone of your returns and whether you valued noticing as success.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Gentle Returns', targetReps: 10 },
+  },
 
 }
