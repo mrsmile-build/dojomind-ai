@@ -7804,5 +7804,82 @@ export const lessons = {
     },
     practiceEngine: { type: 'interval', label: 'Conditioning Circuit', workTime: 40, restTime: 20, totalIntervals: 6 },
   },
+  'karate-targeting-anatomy': {
+    id: 'karate-targeting-anatomy',
+    subject: 'Karate',
+    title: 'Where Force Lands: Anatomy & Escape',
+    level: 'Advanced',
+    duration: '15 min',
+    description: 'Understand targeting as an escape tool: the body zones that create an opening to disengage, why gross targets outperform precise ones under stress, and the legal and ethical ceiling that frames all of it.',
+    objectives: [
+      'Understand that targeting exists to create an opening to escape, not to injure',
+      'Distinguish gross-motor targets that work under stress from precise ones that fail',
+      'Map the body\'s sensory, structural and mobility zones to defensive outcomes',
+      'Internalize the legal and ethical ceiling: reasonable force, escape is the goal',
+      'Recognize the four most common targeting errors',
+    ],
+    visuals: [
+      {
+        type: 'target-overlay',
+        title: 'Where force lands — and why',
+        caption: 'Tap a zone to see its defensive purpose. Every zone here exists to create an opening to leave; finer and lethal points are intentionally omitted.',
+      },
+    ],
+    sections: [
+      { title: 'Targeting is an escape tool', content: 'The only legitimate aim of targeting a zone in self-defense is to create a gap you can move through to leave. It is not about hurting the other person, winning an argument, or punishing an attack. A strike that does not lead to an exit is wasted force and may even be unlawful. Every technique in this lesson is paired with a step away, because the target is the means and escape is the point.' },
+      { title: 'Gross versus precise under stress', content: 'Adrenaline destroys fine motor control: hands shake, vision tunnels, and precision evaporates. This is why the reliable targets are the gross ones — eyes, groin, knees, thighs — large, hard to miss, and effective even when you are scared. Precise targets like the jaw or ribs demand accuracy you likely will not have, so they are bonuses, never plans. The most dangerous points of all are withheld from self-study entirely: they need a supervisor\'s hands, and misjudging them under stress is how a defender becomes the person in trouble.' },
+      { title: 'The three functional zones', content: 'Targets group into three functions, each buying a different kind of opening. Sensory zones (eyes, jaw) disrupt perception and balance for a split second. Structural zones (solar plexus, ribs, knee) compromise breath, posture or support. Mobility zones (groin, thighs, knee) remove the attacker\'s ability to chase. In every case the sequence is identical: strike the zone, then leave. The zone is the door; escape is walking through it.' },
+    ],
+    principles: [
+      'The aim of any target is to create space to escape, never to injure for its own sake.',
+      'Under stress, gross targets outperform precise ones; train the reliable options.',
+      'Force must be reasonable and necessary to end the threat and get away.',
+      'Finer and lethal points are withheld from self-study; they need supervision.',
+    ],
+    mistakes: [
+      { title: 'Targeting to win the fight instead of to escape', explanation: 'If your mental model is victory, you will keep trading blows. The model must be the exit; the target only opens it.' },
+      { title: 'Choosing a precise target when adrenaline will blunt it', explanation: 'Reaching for a small, accurate target under stress usually misses. Default to the gross, reliable ones.' },
+      { title: 'Continuing to strike after the opening appears', explanation: 'Once there is a gap to leave, more force is escalation, not defense, and can cross the legal line.' },
+      { title: 'Ignoring the legal ceiling', explanation: 'Reasonable and necessary force ends when the threat ends. Using more than that turns a defender into an offender.' },
+    ],
+    practice: [
+      'From memory, name the three functional zones and one target in each.',
+      'Shadow: for each gross target, pair the strike with an immediate step-back to disengage.',
+      'Scenario drill: a partner presents a threat; say the escape target and the exit direction aloud before acting.',
+      'Read a self-defense law summary for your region; note where reasonable force ends.',
+      'After any drill, ask: did my action create an opening to leave, or did it escalate?',
+    ],
+    reflection: 'When you imagine a real threat, is your first instinct to hurt the other person or to create space and leave? Which targets do you reach for under stress, and are they the reliable gross ones?',
+    safety: 'This lesson is conceptual. Targeting skill is only safe when trained under supervision with control. Never practice on a person without a qualified instructor, never apply force beyond what is reasonable and necessary to escape, and know that laws vary by region.',
+    quiz: [
+      { question: 'In self-defense, what is the purpose of targeting a zone?', options: ['To inflict maximum injury', 'To create an opening to disengage and leave', 'To win the argument', 'To punish the attacker'], answer: 1, explanation: 'The target is a means to an exit. Force that does not lead to leaving is wasted and may be unlawful.' },
+      { question: 'Why favor gross targets (eyes, groin, knees) under stress?', options: ['They look more skilled', 'Adrenaline degrades fine motor control, so gross targets are more reliable', 'They are the only legal option', 'They never injure'], answer: 1, explanation: 'Under stress precision fails; large, hard-to-miss targets still work, which is why they are the reliable default.' },
+    ],
+    mastery: [
+      'Name the three functional zones and a target in each.',
+      'Explain why gross targets outperform precise ones under stress.',
+      'State the legal and ethical ceiling in your own words.',
+      'Pair every target with an immediate escape action in drill.',
+    ],
+    liveApplication: {
+      scenarios: [
+        { setup: 'Someone corners you and grabs your shirt.', action: 'Strike a gross mobility target such as the knee or thigh to break their structure, then step out and leave.', why: 'The target\'s job is to open a gap to escape, not to hurt; the escape is the point.' },
+        { setup: 'An attacker winds up a swing.', action: 'Disrupt with a sensory target (eyes) only long enough to create space, then disengage immediately.', why: 'Sensory disruption buys the half-second you need to leave; continuing past that escalates and may exceed reasonable force.' },
+      ],
+      perspectives: [
+        { role: 'Using it', detail: 'Targeting is a means to an exit; every strike is paired with a step away, never a pursuit of injury.' },
+        { role: 'Facing it', detail: 'A defender who targets to escape is hard to pin, because their goal is not to trade blows but to leave.' },
+      ],
+      adaptation: {
+        cues: ['Whether a strike actually opened a gap', 'Your urge to continue after the opening', 'The boundary of reasonable force'],
+        adjustments: [
+          { if: 'The target did not open a gap', then: 'Move to another gross target or create distance by any lawful means; do not escalate precision.' },
+          { if: 'A gap appears', then: 'Leave immediately; further force is escalation, not defense.' },
+        ],
+        learning: 'After each drill, note whether every action served the exit or drifted toward winning the fight.',
+      },
+    },
+    practiceEngine: { type: 'rep-counter', label: 'Escape-Target Reps', targetReps: 12 },
+  },
 
 }

@@ -2065,3 +2065,23 @@ footer {
 .al-step { padding: 6px 12px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.15); border-radius: 6px; color: rgba(255,255,255,.7); font-size: 12px; cursor: pointer; }
 .al-step.active { background: rgba(144,164,174,.25); border-color: rgba(144,164,174,.6); color: #90a4ae; }
 .al-caption, .mp-caption { color: rgba(255,255,255,.7); font-size: 13px; margin-top: 16px; line-height: 1.5; }
+
+/* Target overlay */
+.target-overlay { margin-top: 32px; padding: 24px 20px; border-radius: 16px; text-align: center; background: rgba(201,161,90,.05); border: 1px solid rgba(201,161,90,.28); }
+.to-header h3 { color: #c9a15a; font-size: 18px; margin-top: 8px; }
+.to-svg { width: 100%; max-width: 240px; margin: 12px auto; display: block; }
+.to-info { max-width: 360px; margin: 0 auto 14px; text-align: left; }
+.to-info-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+.to-info-top strong { color: #fff; font-size: 16px; }
+.to-badge { font-size: 10px; letter-spacing: .08em; padding: 3px 8px; border-radius: 999px; text-transform: uppercase; }
+.to-badge.gross { background: rgba(201,161,90,.2); color: #c9a15a; border: 1px solid rgba(201,161,90,.5); }
+.to-badge.conditional { background: rgba(217,138,61,.16); color: #d98a3d; border: 1px solid rgba(217,138,61,.45); }
+.to-info p { color: rgba(255,255,255,.78); font-size: 13px; line-height: 1.55; margin: 0; }
+.to-chips { display: flex; gap: 7px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+.to-chip { padding: 5px 11px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.14); border-radius: 6px; color: rgba(255,255,255,.65); font-size: 12px; cursor: pointer; }
+.to-chip.active { background: rgba(201,161,90,.22); border-color: rgba(201,161,90,.6); color: #c9a15a; }
+.to-ethics { max-width: 420px; margin: 0 auto; padding: 14px 16px; text-align: left; background: rgba(217,138,61,.07); border: 1px solid rgba(217,138,61,.3); border-left: 4px solid #d98a3d; border-radius: 10px; }
+.to-ethics .eyebrow { color: #d98a3d; }
+.to-ethics p { color: rgba(255,255,255,.82); font-size: 12.5px; line-height: 1.6; margin: 6px 0 0; }
+.to-ethics strong { color: #fff; }
+.to-caption { color: rgba(255,255,255,.6); font-size: 12px; margin-top: 14px; line-height: 1.5; }

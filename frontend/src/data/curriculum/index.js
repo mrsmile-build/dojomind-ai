@@ -141,7 +141,7 @@ export const curriculum = {
               ],
             },
           
-            { id: 'self-defense', title: 'Self-Defense & Weapons Awareness', lessons: [ { id: 'karate-self-defense-principles', title: 'Self-Defense Principles' }, { id: 'karate-self-defense-against-knife', title: 'Against a Knife' }, { id: 'karate-self-defense-against-stick', title: 'Against a Stick or Blunt Weapon' }, { id: 'karate-self-defense-against-grabs', title: 'Against Grabs and Holds' } ] },],
+            { id: 'self-defense', title: 'Self-Defense & Weapons Awareness', lessons: [ { id: 'karate-self-defense-principles', title: 'Self-Defense Principles' }, { id: 'karate-self-defense-against-knife', title: 'Against a Knife' }, { id: 'karate-self-defense-against-stick', title: 'Against a Stick or Blunt Weapon' }, { id: 'karate-self-defense-against-grabs', title: 'Against Grabs and Holds' }, { id: 'karate-targeting-anatomy', title: 'Where Force Lands: Anatomy & Escape' },] },],
         },
         expert: {
           name: 'Expert',

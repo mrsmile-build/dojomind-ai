@@ -7,6 +7,7 @@ import TechniqueAnimation from './components/TechniqueAnimation'
 import BreathCycleVisual from './components/BreathCycleVisual'
 import AttentionLoopVisual from './components/AttentionLoopVisual'
 import MovementPostureVisual from './components/MovementPostureVisual'
+import TargetOverlay from './components/TargetOverlay'
 import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
@@ -141,6 +142,9 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'posture') {
             return <MovementPostureVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'target-overlay') {
+            return <TargetOverlay key={index} visual={visual} />
           }
           return <LessonVisualBlock key={index} visual={visual} />
         })}
