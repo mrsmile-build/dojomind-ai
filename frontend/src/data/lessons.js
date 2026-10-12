@@ -7252,6 +7252,11 @@ export const lessons = {
     ],
     visuals: [
       {
+        type: 'attention-loop',
+        title: 'Wander, notice, return',
+        caption: 'The mind wanders, you notice, you return gently. Each cycle is one repetition that strengthens attention. Press Play to watch the loop.',
+      },
+      {
         type: 'diagram',
         title: 'Notice and return',
         caption: 'The practice loop: attention wanders, you notice, you return gently. Each return is a rep that strengthens attention, like a curl for the mind.',
@@ -7650,6 +7655,14 @@ export const lessons = {
       'Recognize the four most common balance errors',
     ],
     visuals: [
+      {
+        type: 'posture',
+        title: 'One-leg balance alignment',
+        caption: 'The center of mass (gold dot) must stay over the support base. Balance is not stillness; it is constant micro-correction. Press Show sway to feel it.',
+        pose: { torso: 2, supportThigh: 4, supportShin: -2, liftThigh: -72, liftShin: -18, frontArmShoulder: -12, frontArmElbow: -135, rearArmShoulder: 12, rearArmElbow: 135 },
+        overlays: { plumb: true, base: true, com: true },
+        labels: [ { x: 150, y: 58, text: 'Eyes forward' }, { x: 24, y: 150, text: 'Knee lifted' }, { x: 150, y: 214, text: 'Foot rooted' } ],
+      },
       {
         type: 'diagram',
         title: 'The balance stack',

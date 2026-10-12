@@ -5,6 +5,8 @@ import PracticeTimer from './components/PracticeTimer'
 import BodyPositionDiagram from './components/BodyPositionDiagram'
 import TechniqueAnimation from './components/TechniqueAnimation'
 import BreathCycleVisual from './components/BreathCycleVisual'
+import AttentionLoopVisual from './components/AttentionLoopVisual'
+import MovementPostureVisual from './components/MovementPostureVisual'
 import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
@@ -133,6 +135,12 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'breath-cycle') {
             return <BreathCycleVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'attention-loop') {
+            return <AttentionLoopVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'posture') {
+            return <MovementPostureVisual key={index} visual={visual} />
           }
           return <LessonVisualBlock key={index} visual={visual} />
         })}
