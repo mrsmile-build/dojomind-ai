@@ -56,8 +56,8 @@ We built the full **defend / read / adapt** half. The **attack-targeting** half
 
 ## 6. Ordered next steps
 1. ✅ Push d2446d3 (verify above).
-2. ⬜ **TargetOverlay** component + wire + attach to the new targeting lesson (safe first slice).
-3. ⬜ Apply TargetOverlay + posed bodies to the 7 self-defense + kobudo lessons.
+2. ✅ **TargetOverlay** + "Where Force Lands" lesson shipped (cbe168e).
+3. ✅ TargetOverlay on all 7 self-defense + kobudo lessons (7 of 7, 3a9aa5d). Karate visual debt cleared.
 4. ⬜ Close the remaining mind-body visual gaps (seated posture, joint-map, circuit, breath-cycle rollout).
 5. ⬜ Fill the 27 empty mind-body slots — each lesson BORN with its correct visual.
 6. ⬜ Open **Boxing** (beginner module) as the 2nd martial art.
@@ -71,3 +71,6 @@ We built the full **defend / read / adapt** half. The **attack-targeting** half
 - Anything that can kill/maim if misread (kyusho, diagnosis, acupuncture, leverage/trading advice) = principle + referral + explicit ceiling, NEVER app-alone instruction.
 - Every new lesson carries a correct visual from birth (physical → posed body; conceptual → schematic; domain → its signature type).
 - Verify in the browser before commit; never trust an `echo "...done"` line (it lies on paste failure).
+
+- **Parse-and-check, never grep-and-trust.** A passing `node --check` only proves the file *parses*; duplicate keys and dead properties are valid syntax the runtime silently discards. After any structural edit, assert the value is reachable *through the imported object* (e.g. `.visuals.filter(x=>x.type==="target-overlay").length === 1`), not merely present in the text.
+- **For data files, edit the object, not the bytes.** Import → mutate → re-serialize (`JSON.stringify`). Immune to whitespace, line format, bracket depth, and duplicate keys. `lessons.js` is now maintained this way; text surgery is banned on it.
