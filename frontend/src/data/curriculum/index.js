@@ -385,6 +385,37 @@ export default {
           ]
         }
       }
+    },
+    "taekwondo": {
+      "name": "Taekwondo",
+      "icon": "🦵",
+      "description": "Learn movement, kicking fundamentals, balance and discipline.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the taekwondo base: ready stance, front kick and balance.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Taekwondo Foundations",
+              "lessons": [
+                {
+                  "id": "taekwondo-foundations-stance",
+                  "title": "Ready & Sparring Stance"
+                },
+                {
+                  "id": "taekwondo-foundations-front-kick",
+                  "title": "Front Kick — Ap Chagi"
+                },
+                {
+                  "id": "taekwondo-foundations-balance",
+                  "title": "Balance & Kick Control"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };

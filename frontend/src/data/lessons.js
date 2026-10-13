@@ -14840,5 +14840,596 @@ export const lessons = {
       "label": "Jab Reps",
       "targetReps": 30
     }
+  },
+  "taekwondo-foundations-stance": {
+    "id": "taekwondo-foundations-stance",
+    "subject": "Taekwondo",
+    "title": "Ready & Sparring Stance",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build the taekwondo base: a bladed, narrow, mobile stance with hands up and weight light, optimized for fast kicking and quick direction changes.",
+    "objectives": [
+      "Set a bladed narrow stance that favors kicking and mobility",
+      "Hold hands up in a light guard without tensing",
+      "Keep weight even and light on the balls of the feet",
+      "Stay ready to kick or change direction instantly",
+      "Recognize the four most common stance errors"
+    ],
+    "positionDiagram": {
+      "title": "Taekwondo ready / sparring stance",
+      "description": "Bladed and narrower than karate: side-on to reduce target, feet staggered but close, weight even and light, hands up in a loose guard.",
+      "torsoAngle": 2,
+      "frontArm": {
+        "shoulderAngle": -20,
+        "elbowAngle": -140
+      },
+      "rearArm": {
+        "shoulderAngle": 20,
+        "elbowAngle": 140
+      },
+      "frontLegAngle": -8,
+      "rearLegAngle": 12,
+      "feet": {
+        "front": {
+          "x": -20,
+          "y": -35,
+          "angle": 0
+        },
+        "rear": {
+          "x": 25,
+          "y": 35,
+          "angle": 45
+        },
+        "note": "Feet staggered but narrower than karate; both light on the balls for instant kicking and stepping."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Blade",
+          "value": "Side-on, narrow target"
+        },
+        {
+          "label": "Base",
+          "value": "Narrow stagger, mobile"
+        },
+        {
+          "label": "Weight",
+          "value": "50/50, light on balls"
+        },
+        {
+          "label": "Hands",
+          "value": "Loose guard, chin tucked"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Bladed to reduce target",
+          "detail": "Turning side-on presents less of you to kick at and keeps the lead leg free to check or attack."
+        },
+        {
+          "number": "02",
+          "label": "Narrow, springy base",
+          "detail": "A narrower stagger than karate trades some rooting for the speed taekwondo's kicking game demands."
+        },
+        {
+          "number": "03",
+          "label": "Light on the balls",
+          "detail": "Even, light weight lets either leg kick or step without a preliminary shift."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Bladed for the kicking game",
+        "content": "Taekwondo's identity is the kick, and its stance is built for it. Turning side-on (bladed) presents a narrow target and frees the lead leg to check, step or kick without turning first. The base is narrower than karate's rooted stances because taekwondo trades some grounding for mobility - you are a kicker first, a statue never. From here either leg can launch a kick or a step in an instant."
+      },
+      {
+        "title": "Light, even, and loose",
+        "content": "Weight sits even and forward on the balls of the feet, knees soft, hands in a loose guard with the chin tucked. Unlike a heavy rooted stance, the taekwondo stance must never feel planted; planted feet cannot kick fast or bounce out of range. The guard stays relaxed so the hands can become a block, a grab, or a strike without winding up, and the breath stays easy so you do not tire holding the pose."
+      },
+      {
+        "title": "Mobility is the measure",
+        "content": "The test of the stance is not how it looks but how it moves: can you step, bounce, switch legs, and kick without a tell? A stance that requires a weight-shift or a turn before a kick telegraphs everything. Drill the stance by moving constantly - small bounces and step-slides - while keeping the blade and guard, so mobility becomes the default rather than something you add."
+      }
+    ],
+    "principles": [
+      "Bladed and narrow: built for kicking and mobility, not rooting.",
+      "Weight even and light on the balls; knees soft, never planted.",
+      "Loose guard and easy breath; tension kills kick speed.",
+      "The stance is measured by how it moves, not how it looks."
+    ],
+    "mistakes": [
+      {
+        "title": "Standing too wide or rooted",
+        "explanation": "A karate-wide base slows the kick and the step. Keep it narrow and springy."
+      },
+      {
+        "title": "Flat-footed or heel-heavy",
+        "explanation": "Weight back on the heels kills kick speed and bounce. Stay on the balls."
+      },
+      {
+        "title": "Squaring up to the opponent",
+        "explanation": "Facing front presents a big target and traps the lead leg. Stay bladed."
+      },
+      {
+        "title": "Clenching the guard",
+        "explanation": "Tight shoulders and fists slow the hands and tire you. Keep the guard loose."
+      }
+    ],
+    "practice": [
+      "Set the bladed stance in a mirror; check blade, base, weight, hands.",
+      "Bounce lightly 30 seconds keeping the blade and guard.",
+      "Step-slide forward/back/lead/rear without squaring up.",
+      "Switch lead legs smoothly 10 times, ending in stance each rep.",
+      "Hold the stance 60 seconds staying loose and light."
+    ],
+    "reflection": "Is your stance springy enough to kick instantly, or does it need a shift or turn first?",
+    "safety": "Practice on a non-slip surface with soft knees. Stop on ankle or knee pain and reduce bounce height and step size.",
+    "quiz": [
+      {
+        "question": "Why is the taekwondo stance bladed and narrow?",
+        "options": [
+          "To look traditional",
+          "To favor kicking speed and mobility over rooting",
+          "To make it harder to move",
+          "To widen the target"
+        ],
+        "answer": 1,
+        "explanation": "The blade presents a narrow target and frees the lead leg; the narrow base trades rooting for the speed the kicking game needs."
+      },
+      {
+        "question": "Where should the weight sit in the ready stance?",
+        "options": [
+          "Back on the heels",
+          "Even and light on the balls of the feet",
+          "All on the lead foot",
+          "Locked in the knees"
+        ],
+        "answer": 1,
+        "explanation": "Even, light weight on the balls lets either leg kick or step instantly without a telegraphing shift."
+      }
+    ],
+    "mastery": [
+      "Set a bladed narrow stance with even light weight.",
+      "Keep a loose guard and easy breath while mobile.",
+      "Bounce, step and switch legs without squaring up.",
+      "Identify and correct the four common stance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You feel slow to kick from your stance.",
+          "action": "You narrow the base and shift weight to the balls so the lead leg launches without a turn.",
+          "why": "Mobility and light weight are what make the kick instant; rooting is the enemy here."
+        },
+        {
+          "setup": "An opponent pressures you and you square up.",
+          "action": "You step-slide while keeping the blade, staying side-on under pressure.",
+          "why": "Staying bladed keeps the target small and the lead leg free to check or counter."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A springy bladed stance makes every kick and step cheaper and faster."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A mobile bladed kicker is hard to pin or time; their range and angle are always theirs."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Feeling planted",
+          "Squaring under pressure",
+          "Guard clenching"
+        ],
+        "adjustments": [
+          {
+            "if": "You feel rooted",
+            "then": "Narrow the base and lighten to the balls of the feet."
+          },
+          {
+            "if": "You square up",
+            "then": "Drill step-slides while holding the blade until it is automatic."
+          }
+        ],
+        "learning": "After each round, note whether you could kick instantly from the stance or needed a shift first."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stance Hold",
+      "initialTime": 60
+    }
+  },
+  "taekwondo-foundations-front-kick": {
+    "id": "taekwondo-foundations-front-kick",
+    "subject": "Taekwondo",
+    "title": "Front Kick — Ap Chagi",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Throw taekwondo's foundational kick: chamber the knee, snap the leg out with the ball of the foot, and retract to guard - balance and control first, power second.",
+    "objectives": [
+      "Chamber the knee high before extending the kick",
+      "Extend with the ball of the foot, toes pulled back",
+      "Retract to chamber and set the foot down in control",
+      "Keep the support leg rooted and the upper body quiet",
+      "Recognize the four most common front-kick errors"
+    ],
+    "positionDiagram": {
+      "title": "Front kick — ap chagi",
+      "description": "Knee chambers high, then the leg snaps forward striking with the ball of the foot; the support leg stays rooted and the hands keep guard throughout.",
+      "torsoAngle": -2,
+      "frontArm": {
+        "shoulderAngle": -15,
+        "elbowAngle": -135
+      },
+      "rearArm": {
+        "shoulderAngle": 15,
+        "elbowAngle": 135
+      },
+      "frontLegAngle": -70,
+      "rearLegAngle": 6,
+      "feet": {
+        "front": {
+          "x": 0,
+          "y": -70,
+          "angle": 0
+        },
+        "rear": {
+          "x": 15,
+          "y": 50,
+          "angle": 0
+        },
+        "note": "Support foot planted and grounded; the kicking leg extends along the centerline with the ball of the foot leading."
+      },
+      "weightDistribution": {
+        "front": 10,
+        "rear": 90
+      },
+      "metrics": [
+        {
+          "label": "Chamber",
+          "value": "Knee high, leg bent"
+        },
+        {
+          "label": "Extension",
+          "value": "Snap out and back"
+        },
+        {
+          "label": "Contact",
+          "value": "Ball of the foot"
+        },
+        {
+          "label": "Support",
+          "value": "Rooted, slight bend"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Chamber before extension",
+          "detail": "The kick launches from a high knee chamber, not a swinging leg; this is where speed and snap come from."
+        },
+        {
+          "number": "02",
+          "label": "Ball of the foot",
+          "detail": "Toes pull back so the ball of the foot - hard and concentrated - makes contact, not the toes."
+        },
+        {
+          "number": "03",
+          "label": "Quiet upper body",
+          "detail": "Hands stay in guard and the torso stays over the support leg; leaning back telegraphs and off-balances."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Chamber, snap, retract",
+        "content": "The front kick is three beats, not one swing. First the knee chambers high toward the chest, folding the lower leg back - this stores the snap. Then the leg extends straight forward along the centerline, toes pulled back so the ball of the foot leads. Finally - and this is what beginners skip - the leg retracts back to chamber before the foot sets down. A kick that drops straight to the floor from full extension is slow, off-balance, and easy to catch."
+      },
+      {
+        "title": "The support leg is the kick",
+        "content": "All the balance and power of a kick lives in the leg that stays on the ground. The support knee stays softly bent and rooted, the foot planted, the hips stacked over it. If the support leg locks, wobbles, or lifts onto the toes, the kick loses both balance and force. Training the front kick is as much training the support leg to stay calm and rooted as it is training the kicking leg to snap."
+      },
+      {
+        "title": "Control before power",
+        "content": "Beginners want height and force immediately, which produces a swinging, off-balance kick. The correct order is control first: a low, slow, perfectly balanced kick that chambers and retracts cleanly beats a high wild one every time. Add height and speed only after the three beats - chamber, snap, retract - are smooth at low height, and only while the support leg and guard stay quiet. Power is a byproduct of clean mechanics, not of effort."
+      }
+    ],
+    "principles": [
+      "Three beats: chamber high, snap out, retract to chamber before setting down.",
+      "Strike with the ball of the foot, toes pulled back.",
+      "The support leg - rooted and soft - is where balance and power live.",
+      "Control and balance before height and power."
+    ],
+    "mistakes": [
+      {
+        "title": "Swinging instead of chambering",
+        "explanation": "A leg that swings from the floor has no snap. Chamber the knee high first."
+      },
+      {
+        "title": "Dropping the kick from extension",
+        "explanation": "Setting the foot straight down from full extension is slow and off-balance. Retract to chamber first."
+      },
+      {
+        "title": "Locking or lifting the support leg",
+        "explanation": "A locked or toe-dancing support leg kills balance. Keep it rooted with a soft knee."
+      },
+      {
+        "title": "Leaning the torso back",
+        "explanation": "Leaning back telegraphs and off-balances. Keep the upper body quiet over the support leg."
+      }
+    ],
+    "practice": [
+      "Hold a wall; chamber the knee high 10 times without extending.",
+      "Add the snap: chamber, extend with ball of foot, retract, set down - 10 reps.",
+      "Repeat without support, keeping the support leg rooted and guard up.",
+      "Kick low and slow 10 reps focusing on clean retract, not height.",
+      "Finish with 5 controlled kicks at medium height, quiet upper body."
+    ],
+    "reflection": "Does your kick retract to chamber before setting down, and is your support leg rooted or dancing?",
+    "safety": "Kick within your current flexibility; do not force height. Stop on knee, hip or ankle pain. Use a wall for balance while learning the three beats.",
+    "quiz": [
+      {
+        "question": "The correct sequence of the front kick is:",
+        "options": [
+          "Swing from the floor to target",
+          "Chamber, snap out, retract to chamber, set down",
+          "Extend then drop the foot",
+          "Jump and kick"
+        ],
+        "answer": 1,
+        "explanation": "The three beats - high chamber, snap extension, retract before setting - give the kick speed, snap and balance."
+      },
+      {
+        "question": "Where does the kick's balance and power primarily come from?",
+        "options": [
+          "The kicking leg's height",
+          "The rooted, soft support leg",
+          "Leaning the torso back",
+          "Swinging the arms"
+        ],
+        "answer": 1,
+        "explanation": "The support leg stays planted with a soft knee and hips stacked over it; it is the platform the kick fires from."
+      }
+    ],
+    "mastery": [
+      "Chamber the knee high before extending.",
+      "Strike with the ball of the foot, toes back.",
+      "Retract to chamber before setting the foot down.",
+      "Keep the support leg rooted and the upper body quiet."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your kick feels slow and easy to catch.",
+          "action": "You add the retract-to-chamber beat so the leg returns fast instead of dropping from extension.",
+          "why": "Retracting makes the kick quick in and out, denying the opponent a leg to catch."
+        },
+        {
+          "setup": "You wobble when kicking without support.",
+          "action": "You root the support leg with a soft knee and stack the hips over it before adding height.",
+          "why": "Balance lives in the support leg; stabilizing it first lets the kick go higher safely."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A clean three-beat front kick is fast, balanced and hard to catch - the workhorse of taekwondo."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A kicker with a rooted support leg and fast retract is hard to time or off-balance."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Kick dropping from extension",
+          "Support leg locking or lifting",
+          "Torso leaning back"
+        ],
+        "adjustments": [
+          {
+            "if": "The kick drops slow",
+            "then": "Drill chamber-extend-retract at low height until the return is automatic."
+          },
+          {
+            "if": "You wobble",
+            "then": "Lower the kick and re-root the support leg before adding height."
+          }
+        ],
+        "learning": "After each session, note whether every kick retracted to chamber and whether the support leg stayed rooted."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Front Kick Reps",
+      "targetReps": 10
+    }
+  },
+  "taekwondo-foundations-balance": {
+    "id": "taekwondo-foundations-balance",
+    "subject": "Taekwondo",
+    "title": "Balance & Kick Control",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Train the single-leg balance that every kick depends on: keep the center of mass over the support base while the other leg works, so kicks stay controlled instead of wobbly.",
+    "objectives": [
+      "Hold single-leg balance with the center over the support base",
+      "Keep the torso stacked and gaze steady while one leg works",
+      "Develop the micro-corrections that make balance automatic",
+      "Connect balance directly to kick control and retraction",
+      "Recognize the four most common balance errors"
+    ],
+    "visuals": [
+      {
+        "type": "posture",
+        "title": "Single-leg balance for kicking",
+        "caption": "The center of mass (gold dot) must stay over the support base while the kicking leg chambers and extends. Balance is constant micro-correction, not stillness. Press Show sway to feel it.",
+        "pose": {
+          "torso": 2,
+          "supportThigh": 3,
+          "supportShin": -2,
+          "liftThigh": -70,
+          "liftShin": -15,
+          "frontArmShoulder": -15,
+          "frontArmElbow": -135,
+          "rearArmShoulder": 15,
+          "rearArmElbow": 135
+        },
+        "overlays": {
+          "plumb": true,
+          "base": true,
+          "com": true
+        },
+        "labels": [
+          {
+            "x": 150,
+            "y": 58,
+            "text": "Gaze steady"
+          },
+          {
+            "x": 24,
+            "y": 150,
+            "text": "Kick leg chambers"
+          },
+          {
+            "x": 150,
+            "y": 214,
+            "text": "Support rooted"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Every kick is a one-leg stance",
+        "content": "The moment a kick leaves the floor, you are standing on one leg, and everything - balance, power, control - depends on that single support. Taekwondo's kicking game therefore rests on single-leg balance far more than most arts. The principle is simple: keep the center of mass stacked over the support foot's base while the other leg chambers, extends and retracts. When the center drifts outside the base, you wobble or fall; when it stays home, the kick is controlled no matter how high it goes."
+      },
+      {
+        "title": "Micro-corrections, not stillness",
+        "content": "Balance is not freezing; it is a continuous stream of tiny corrections - ankle, knee, hip, torso - that keep the center over the base. Trying to hold perfectly still actually makes balance worse, because it suppresses the corrections. The skill is to allow and refine those micro-adjustments: soft support knee, active ankle, quiet torso, steady gaze. Training balance means training the nervous system to make these corrections faster and smaller, until staying upright while kicking feels effortless."
+      },
+      {
+        "title": "Gaze, base, center: the three levers",
+        "content": "Three things control balance and all three are trainable. The gaze: a steady fixed point stabilizes the vestibular system, while looking down or tracking motion destabilizes it. The base: a rooted, slightly-spread support foot gives the corrections somewhere to work. The center: stacking the torso and hips over the support keeps the load manageable. When a kick wobbles, check these three in order - gaze, base, center - and the fault is almost always one of them."
+      }
+    ],
+    "principles": [
+      "A kick is a one-leg stance; balance is its foundation.",
+      "Keep the center of mass over the support base throughout.",
+      "Balance is continuous micro-correction, not frozen stillness.",
+      "Gaze, base and center are the three trainable levers."
+    ],
+    "mistakes": [
+      {
+        "title": "Trying to freeze instead of correct",
+        "explanation": "Suppressing micro-adjustments worsens balance. Allow small corrections with a soft support knee."
+      },
+      {
+        "title": "Looking down or tracking the kick",
+        "explanation": "A moving or downward gaze destabilizes the vestibular system. Keep eyes steady on a fixed point."
+      },
+      {
+        "title": "Letting the center drift outside the base",
+        "explanation": "When the torso leans past the support foot, balance fails. Stack the center over the base."
+      },
+      {
+        "title": "Locking the support knee",
+        "explanation": "A locked knee removes the shock absorption that makes corrections possible. Keep it soft."
+      }
+    ],
+    "practice": [
+      "Hold single-leg stance 30s each side, soft knee, steady gaze.",
+      "Repeat with eyes closed 10s each side near a wall.",
+      "Chamber the kick knee and hold 10s each side without wobbling.",
+      "Extend and retract the kick slowly 5 reps, keeping center over base.",
+      "Finish balancing 20s each side while turning the head slowly."
+    ],
+    "reflection": "When a kick wobbles, is the fault your gaze, your base, or your center - and which lever do you neglect most?",
+    "safety": "Practice near a wall or support while learning. Stop if dizzy. Consult a professional for vestibular or neurological conditions.",
+    "quiz": [
+      {
+        "question": "Balance during a kick is best described as:",
+        "options": [
+          "Holding perfectly still",
+          "Continuous micro-corrections keeping the center over the base",
+          "Locking the support leg",
+          "Looking at the kicking foot"
+        ],
+        "answer": 1,
+        "explanation": "Balance is a stream of tiny ankle/knee/hip/torso corrections; freezing suppresses them and worsens stability."
+      },
+      {
+        "question": "The three trainable levers of balance are:",
+        "options": [
+          "Strength, speed, flexibility",
+          "Gaze, base, center",
+          "Arms, legs, core",
+          "Breath, posture, rhythm"
+        ],
+        "answer": 1,
+        "explanation": "A steady gaze, a rooted base and a stacked center are the three controls; when a kick wobbles, check them in that order."
+      }
+    ],
+    "mastery": [
+      "Hold single-leg balance with the center over the base.",
+      "Keep gaze steady and support knee soft while one leg works.",
+      "Chamber and extend the kick without losing the center.",
+      "Identify and correct the four common balance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your kick wobbles at full extension.",
+          "action": "You check gaze, then base, then center, and re-stack the torso over the support foot.",
+          "why": "The three levers are where balance fails; fixing the right one restores control at height."
+        },
+        {
+          "setup": "You fall forward after retracting the kick.",
+          "action": "You keep the center over the base through the retract instead of letting momentum carry you.",
+          "why": "Balance must hold through all three beats, including the return, not just the extension."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Trained single-leg balance makes every kick controlled and every recovery instant."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A balanced kicker cannot be off-balanced mid-kick; their center stays home under pressure."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Wobble source: gaze, base or center",
+          "Locking the support knee",
+          "Center drifting on retract"
+        ],
+        "adjustments": [
+          {
+            "if": "You wobble at height",
+            "then": "Lower the kick and re-stack the center before adding height."
+          },
+          {
+            "if": "You fall on retract",
+            "then": "Drill slow retract while holding the center over the base."
+          }
+        ],
+        "learning": "After each session, note which of the three levers failed most and which drill improved it."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Balance Holds",
+      "initialTime": 60
+    }
   }
 }
