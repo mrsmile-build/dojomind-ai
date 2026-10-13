@@ -17070,5 +17070,570 @@ export const lessons = {
       "label": "Guard Control",
       "initialTime": 60
     }
+  },
+  "wrestling-foundations-stance": {
+    "id": "wrestling-foundations-stance",
+    "subject": "Wrestling",
+    "title": "Wrestling Stance & Motion",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build the wrestling base: a low, square, balanced stance with elbows tight and head up, ready to shoot or sprawl from either leg.",
+    "objectives": [
+      "Set a low square stance with weight on the balls of the feet",
+      "Keep elbows tight to protect the hips and underhooks",
+      "Stay balanced and ready to shoot or sprawl instantly",
+      "Move in all directions without crossing feet or losing balance",
+      "Recognize the four most common stance errors"
+    ],
+    "positionDiagram": {
+      "title": "Wrestling stance",
+      "description": "Low, square, balanced: feet shoulder-width, knees bent, weight on the balls, elbows tight to the ribs, head up and eyes forward.",
+      "torsoAngle": 15,
+      "frontArm": {
+        "shoulderAngle": -50,
+        "elbowAngle": -110
+      },
+      "rearArm": {
+        "shoulderAngle": 50,
+        "elbowAngle": 110
+      },
+      "frontLegAngle": -25,
+      "rearLegAngle": 25,
+      "feet": {
+        "front": {
+          "x": -25,
+          "y": -50,
+          "angle": 0
+        },
+        "rear": {
+          "x": 25,
+          "y": 50,
+          "angle": 15
+        },
+        "note": "Feet shoulder-width, both light on the balls; knees bent deep enough to shoot or sprawl instantly."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Base",
+          "value": "Low, square, shoulder-width"
+        },
+        {
+          "label": "Weight",
+          "value": "50/50, on the balls"
+        },
+        {
+          "label": "Elbows",
+          "value": "Tight to the ribs"
+        },
+        {
+          "label": "Head",
+          "value": "Up, eyes forward"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Low and square",
+          "detail": "A low stance keeps your hips under you for shooting; a square stance lets you shoot or sprawl from either leg."
+        },
+        {
+          "number": "02",
+          "label": "Elbows tight",
+          "detail": "Elbows out invite underhooks and body locks. Keep them glued to the ribs to protect the hips."
+        },
+        {
+          "number": "03",
+          "label": "Head up, eyes forward",
+          "detail": "A dropped head loses balance and vision. Stay tall through the spine with the head up."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Low, square, and ready",
+        "content": "Wrestling stance is built for two opposing jobs: shooting (attacking the legs) and sprawling (defending against a shot). The stance must be low enough to drive forward and square enough to move in any direction. Feet sit shoulder-width apart, knees bent so the hips are under you, weight balanced on the balls of the feet. From here you can shoot a double-leg, sprawl to sprawl, circle, or back away without a preliminary shift that telegraphs intent."
+      },
+      {
+        "title": "Elbows tight, head up",
+        "content": "The two most common beginner failures are flared elbows and a dropped head. Elbows out invite the opponent's underhooks and body locks; they must stay glued to the ribs to protect the hips and waist. A dropped head loses balance and peripheral vision; the spine stays tall with the head up and eyes forward, scanning for shots and opportunities. The guard is not about hands and arms but about the whole posture being compact and ready."
+      },
+      {
+        "title": "Motion without crossing",
+        "content": "Wrestling motion is step-slide, never cross-step. Moving forward, the lead foot steps first; moving back, the rear foot steps first; circling, the foot nearest the direction leads. Crossing the feet kills balance and creates the exact moment a shot lands. Practice stance motion until you can circle a full 360 degrees without the feet ever crossing or narrowing, and the stance resets after every step."
+      }
+    ],
+    "principles": [
+      "Low and square: ready to shoot or sprawl from either leg.",
+      "Elbows tight to protect the hips; head up for balance and vision.",
+      "Weight on the balls of the feet, never flat or on the heels.",
+      "Step-slide in all directions without crossing or narrowing the base."
+    ],
+    "mistakes": [
+      {
+        "title": "Standing too tall or narrow",
+        "explanation": "A tall stance invites shots; a narrow stance kills balance. Stay low and shoulder-width."
+      },
+      {
+        "title": "Elbows flared out",
+        "explanation": "Flared elbows invite underhooks and body locks. Keep them glued to the ribs."
+      },
+      {
+        "title": "Dropping the head",
+        "explanation": "A dropped head loses balance and vision. Stay tall through the spine with head up."
+      },
+      {
+        "title": "Crossing the feet",
+        "explanation": "Crossed feet kill balance and create the shot moment. Step-slide without crossing."
+      }
+    ],
+    "practice": [
+      "Set the stance in a mirror; check base, weight, elbows, head.",
+      "Step-slide forward/back/lead/rear 10 times each without crossing.",
+      "Circle a full 360 degrees in both directions, stance resetting each step.",
+      "Hold the stance 60 seconds, staying low and balanced.",
+      "Shadow shoot and sprawl from stance, 5 reps each side."
+    ],
+    "reflection": "Is your stance low enough to shoot instantly, and are your elbows tight or flared?",
+    "safety": "Practice on mats with soft knees. Stop on knee, hip or back pain and reduce stance depth and step size.",
+    "quiz": [
+      {
+        "question": "The wrestling stance is low and square to:",
+        "options": [
+          "Look aggressive",
+          "Enable shooting and sprawling from either leg instantly",
+          "Rest the legs",
+          "Impress coaches"
+        ],
+        "answer": 1,
+        "explanation": "Low keeps the hips under for shooting; square lets either leg shoot or sprawl without a preliminary turn."
+      },
+      {
+        "question": "Why keep elbows tight to the ribs?",
+        "options": [
+          "To look compact",
+          "To protect the hips from underhooks and body locks",
+          "To rest the arms",
+          "It is a rule only"
+        ],
+        "answer": 1,
+        "explanation": "Flared elbows invite attacks on the hips and waist; tight elbows deny the opponent's entries."
+      }
+    ],
+    "mastery": [
+      "Set a low square stance with tight elbows and head up.",
+      "Move in all directions without crossing or narrowing the base.",
+      "Shoot and sprawl from stance without a preliminary shift.",
+      "Identify and correct the four common stance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You get shot the moment you stand tall.",
+          "action": "You reset to the low square stance and keep elbows tight to deny the entry.",
+          "why": "A tall stance invites shots; a low one keeps the hips under and the base hard to attack."
+        },
+        {
+          "setup": "Your opponent keeps getting underhooks.",
+          "action": "You check your elbows and glue them to the ribs.",
+          "why": "Flared elbows are the entry point; tight elbows deny the underhook and protect the hips."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A correct stance lets you attack or defend instantly from a stable platform."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A wrestler with a tight low stance is hard to shoot on or tie up; their base answers pressure."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Standing tall",
+          "Elbows flaring",
+          "Feet crossing"
+        ],
+        "adjustments": [
+          {
+            "if": "You get shot often",
+            "then": "Drop the stance and keep elbows tight to deny the entry."
+          },
+          {
+            "if": "Feet cross",
+            "then": "Slow the step-slide until the stagger holds at every instant."
+          }
+        ],
+        "learning": "After each session, note whether the stance stayed low and square under pressure, and where the feet first crossed."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stance Hold",
+      "initialTime": 60
+    }
+  },
+  "wrestling-foundations-level-change": {
+    "id": "wrestling-foundations-level-change",
+    "subject": "Wrestling",
+    "title": "Level Change",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Master the level change: drop the hips to close distance and set up a shot without telegraphing, then recover to stance instantly if the shot is denied.",
+    "objectives": [
+      "Drop the hips straight down without leaning forward",
+      "Close distance on a shot line without telegraphing",
+      "Recover to stance instantly if the shot is denied",
+      "Use the level change to set up any takedown",
+      "Recognize the four most common level-change errors"
+    ],
+    "positionDiagram": {
+      "title": "Level change",
+      "description": "Hips drop straight down, spine stays tall, head stays up. The drop closes distance on a shot line without leaning in or reaching.",
+      "torsoAngle": 25,
+      "frontArm": {
+        "shoulderAngle": -60,
+        "elbowAngle": -100
+      },
+      "rearArm": {
+        "shoulderAngle": 60,
+        "elbowAngle": 100
+      },
+      "frontLegAngle": -45,
+      "rearLegAngle": 45,
+      "feet": {
+        "front": {
+          "x": -25,
+          "y": -50,
+          "angle": 0
+        },
+        "rear": {
+          "x": 25,
+          "y": 50,
+          "angle": 15
+        },
+        "note": "Feet stay planted and shoulder-width; the drop comes from the hips and knees, not a lean."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Hips",
+          "value": "Drop straight down"
+        },
+        {
+          "label": "Spine",
+          "value": "Stays tall, no lean"
+        },
+        {
+          "label": "Head",
+          "value": "Up and forward"
+        },
+        {
+          "label": "Recovery",
+          "value": "Instant to stance"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Hips drop, not lean",
+          "detail": "A lean telegraphs and loses balance; the hips drop straight down to close distance on a shot line."
+        },
+        {
+          "number": "02",
+          "label": "Spine tall, head up",
+          "detail": "The spine stays tall through the drop; the head stays up for balance and vision."
+        },
+        {
+          "number": "03",
+          "label": "Recover instantly",
+          "detail": "A level change that does not become a shot must return to stance instantly or it hands over the initiative."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "The universal setup",
+        "content": "The level change is wrestling's most used and most important movement: the hips drop to close distance and set up a shot, then either the shot follows or you recover to stance and try again. Every takedown - double-leg, single-leg, high crotch, ankle pick - begins with a level change, and a good level change makes the shot look like it came from nowhere. The skill is to drop the hips without leaning the torso, so the opponent cannot read the attack from your shoulders."
+      },
+      {
+        "title": "Hips drop, not the torso",
+        "content": "The most common beginner error is to lean forward from the waist to 'reach' the shot distance. A lean telegraphs the attack, loses balance and hands over the initiative. The correct level change drops the hips straight down by bending the knees deeper, while the spine stays tall and the head stays up. The torso does not move forward; the hips move down, and the shot distance closes because your base is now lower and closer. It looks smaller than a lean but it is far harder to read."
+      },
+      {
+        "title": "Recover or commit",
+        "content": "A level change must end one of two ways: it becomes a shot, or it returns to stance. A level change that hangs in the dropped position without shooting or recovering is a gift to the opponent - they can sprawl on your hips or attack your exposed head. The discipline is to make the decision instantly: shoot or recover. Hesitation in the dropped position is the most dangerous habit in wrestling, because it hands the opponent exactly what they want."
+      }
+    ],
+    "principles": [
+      "The level change is the universal setup for every takedown.",
+      "Hips drop straight down; the spine stays tall, no lean.",
+      "Close distance on a shot line without telegraphing the attack.",
+      "Every level change ends as a shot or an instant recovery - never hangs."
+    ],
+    "mistakes": [
+      {
+        "title": "Leaning forward from the waist",
+        "explanation": "A lean telegraphs and loses balance. Drop the hips straight down by bending the knees deeper."
+      },
+      {
+        "title": "Dropping the head",
+        "explanation": "A dropped head loses vision and balance. Keep the spine tall and head up through the drop."
+      },
+      {
+        "title": "Hanging in the dropped position",
+        "explanation": "Hanging hands over the initiative. Decide instantly: shoot or recover to stance."
+      },
+      {
+        "title": "Level-changing without a plan",
+        "explanation": "A level change without a target is wasted motion. Know what you are setting up before you drop."
+      }
+    ],
+    "practice": [
+      "Drop and recover to stance 10 times, spine tall, no lean.",
+      "Add a penetration step: drop, step, recover, 10 reps.",
+      "Fake level change to set up a shot: drop, read, shoot, 10 reps.",
+      "Under light pressure, level change 10 times without the opponent reading the shot.",
+      "Finish with 5 full level change to double-leg, 5 to single-leg."
+    ],
+    "reflection": "On your last level change, did the hips drop straight down or did the torso lean forward - and did you shoot or recover instantly?",
+    "safety": "Practice on mats with soft knees. Stop on knee or hip pain and reduce drop depth and speed.",
+    "quiz": [
+      {
+        "question": "The correct level change closes distance by:",
+        "options": [
+          "Leaning the torso forward",
+          "Dropping the hips straight down by bending the knees deeper",
+          "Stepping forward first",
+          "Jumping lower"
+        ],
+        "answer": 1,
+        "explanation": "A lean telegraphs and loses balance; the hips drop straight down so the shot distance closes without the torso moving forward."
+      },
+      {
+        "question": "A level change that does not become a shot must:",
+        "options": [
+          "Hang in the dropped position",
+          "Return to stance instantly",
+          "Pause to think",
+          "Stand up slowly"
+        ],
+        "answer": 1,
+        "explanation": "Hanging in the dropped position hands over the initiative and invites a sprawl or head attack; recover instantly."
+      }
+    ],
+    "mastery": [
+      "Drop the hips straight down without leaning the torso.",
+      "Close distance on a shot line without telegraphing.",
+      "Recover to stance instantly if the shot is denied.",
+      "Use the level change to set up any takedown."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your shots are getting sprawled on.",
+          "action": "You check the level change for a lean and drop the hips straight down instead.",
+          "why": "A lean telegraphs; a straight drop closes distance without the opponent reading the attack."
+        },
+        {
+          "setup": "You hang in the dropped position and get attacked.",
+          "action": "You decide instantly: shoot or recover to stance, never hang.",
+          "why": "Hesitation in the dropped position hands over the initiative and invites a sprawl or head attack."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A clean level change makes every shot look like it came from nowhere."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A wrestler with a tight level change is hard to read; their attacks appear without a tell."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Torso leaning",
+          "Head dropping",
+          "Hanging in the drop"
+        ],
+        "adjustments": [
+          {
+            "if": "You telegraph",
+            "then": "Drop the hips straight down; drill without a partner first."
+          },
+          {
+            "if": "You hang",
+            "then": "Decide instantly: shoot or recover; no middle ground."
+          }
+        ],
+        "learning": "After each session, note whether your level changes were read and whether you shot or recovered instantly."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Level Change Reps",
+      "targetReps": 10
+    }
+  },
+  "wrestling-foundations-double-leg": {
+    "id": "wrestling-foundations-double-leg",
+    "subject": "Wrestling",
+    "title": "Double-Leg Takedown",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Learn wrestling's most fundamental takedown: level change, penetration step, drive and finish. The chain is simple but every link must be tight or the sprawl wins.",
+    "objectives": [
+      "Level change and penetration step to close the distance",
+      "Drive through the hips with the head to the side",
+      "Lift and finish the takedown in control",
+      "Recover to top position instantly after the finish",
+      "Recognize the four most common double-leg errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The double-leg chain",
+        "caption": "Every double-leg is four linked beats. Miss one and the sprawl wins. Drill the chain slowly until every link is automatic, then add speed and pressure.",
+        "labels": [
+          "1. Level change: drop hips, close distance",
+          "2. Penetration step: lead foot lands between their feet",
+          "3. Drive: head to the side, hips drive through",
+          "4. Finish: lift and turn, land in top control",
+          "Every link must be tight or the sprawl wins"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Four beats, one chain",
+        "content": "The double-leg takedown is four linked beats that must flow as one motion. The level change drops the hips to close distance. The penetration step lands the lead foot between the opponent's feet, placing your base under their center. The drive pushes the hips through with the head to the side of their hip, driving them off balance. The finish lifts and turns them to land in top control. Miss any one beat and the sprawl lands on your back; every link must be tight."
+      },
+      {
+        "title": "Head to the side, never in the middle",
+        "content": "The most dangerous beginner error is putting the head in the middle of the opponent's hips. A sprawl landing on a centered head can break the neck. The correct position is head to the side of the hip, cheek pressed to the thigh or hip, protecting the spine while still driving forward. This is non-negotiable safety: if your head ends up in the middle on a double-leg, you have made a life-threatening error. Drill the head position until it is reflex."
+      },
+      {
+        "title": "Finish with control, not a drop",
+        "content": "The takedown is not complete when the opponent is off balance; it is complete when you are in top control. A sloppy finish that drops the opponent or lets them post gives them the chance to recover guard or stand back up. The disciplined finish lifts and turns the opponent to land in side control or north-south, with your weight settled and your base ready to pass or attack. The takedown is only the beginning of the exchange; finishing with control is what makes it count."
+      }
+    ],
+    "principles": [
+      "Four beats: level change, penetration step, drive, finish - all tight.",
+      "Head to the side of the hip, never in the middle - this is a safety rule.",
+      "Drive the hips through with the head protecting the spine.",
+      "Finish with control: land in top position ready to pass or attack."
+    ],
+    "mistakes": [
+      {
+        "title": "Head in the middle of the hips",
+        "explanation": "A sprawl on a centered head can break the neck. Head to the side always, non-negotiable."
+      },
+      {
+        "title": "Penetration step too short or too long",
+        "explanation": "A short step fails to get under the center; a long step overshoots and loses the drive. Land between the feet."
+      },
+      {
+        "title": "Driving with the arms and back",
+        "explanation": "Arm and back lifting fails against larger opponents and injures the back. Drive the hips through with the legs."
+      },
+      {
+        "title": "Dropping the opponent or letting them post",
+        "explanation": "A sloppy finish hands back the initiative. Lift and turn to land in controlled top position."
+      }
+    ],
+    "practice": [
+      "Shadow the chain 10 times: level change, penetration step, drive, recover.",
+      "On a bag or dummy, drill penetration step and drive 10 times, head to the side.",
+      "With a compliant partner, drill the full chain at 50% speed 10 times.",
+      "Focus on the finish: lift, turn, land in side control, 5 reps.",
+      "Under light resistance, complete 5 double-legs with controlled finish."
+    ],
+    "reflection": "On your last double-leg, was the head to the side or in the middle, and did you finish in controlled top position?",
+    "safety": "Always practice double-legs on mats with a partner who knows how to fall. Head to the side is non-negotiable; a centered head under a sprawl can cause serious injury. Stop on neck, knee or back pain immediately.",
+    "quiz": [
+      {
+        "question": "The four beats of the double-leg in order are:",
+        "options": [
+          "Drive, finish, step, level",
+          "Level change, penetration step, drive, finish",
+          "Step, level, finish, drive",
+          "Finish, drive, step, level"
+        ],
+        "answer": 1,
+        "explanation": "Level change closes distance, penetration step lands the base under the center, drive pushes the hips through, finish lifts and turns to top control."
+      },
+      {
+        "question": "Where must the head be during a double-leg drive?",
+        "options": [
+          "In the middle of the hips",
+          "To the side of the hip, cheek pressed to the thigh",
+          "Behind the opponent",
+          "Anywhere comfortable"
+        ],
+        "answer": 1,
+        "explanation": "A centered head under a sprawl can cause serious neck injury; head to the side is a non-negotiable safety rule."
+      }
+    ],
+    "mastery": [
+      "Execute the four-beat chain as one flowing motion.",
+      "Keep the head to the side of the hip on every drive.",
+      "Finish in controlled top position ready to pass.",
+      "Identify and correct the four common double-leg errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your double-leg keeps getting sprawled on.",
+          "action": "You check the chain: level change tight, penetration step between the feet, drive with head to the side.",
+          "why": "A sprawl wins when any link is weak; tightening the chain makes the shot hard to stop."
+        },
+        {
+          "setup": "You complete the takedown but the opponent stands right back up.",
+          "action": "You finish with a lift and turn to land in controlled side control, weight settled.",
+          "why": "A sloppy finish hands back the initiative; controlled top position is the point of the takedown."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A tight double-leg chain is wrestling's most reliable path from standing to top control."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A double-leg with a safe head position and controlled finish is hard to stop and hard to escape."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Head in the middle",
+          "Penetration step missing",
+          "Sloppy finish"
+        ],
+        "adjustments": [
+          {
+            "if": "The head is centered",
+            "then": "Stop immediately and re-drill head-to-side as reflex before any pressure."
+          },
+          {
+            "if": "The step is short or long",
+            "then": "Mark the spot between the feet and drill until the step lands there."
+          }
+        ],
+        "learning": "After each session, note whether every double-leg had the head to the side and a controlled finish."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Double-Leg Reps",
+      "targetReps": 10
+    }
   }
 }

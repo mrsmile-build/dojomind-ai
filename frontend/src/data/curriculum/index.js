@@ -509,6 +509,37 @@ export default {
           ]
         }
       }
+    },
+    "wrestling": {
+      "name": "Wrestling",
+      "icon": "🤼",
+      "description": "Develop movement, balance, takedown and grappling fundamentals.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the wrestling base: stance, level change and double-leg.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Wrestling Foundations",
+              "lessons": [
+                {
+                  "id": "wrestling-foundations-stance",
+                  "title": "Wrestling Stance & Motion"
+                },
+                {
+                  "id": "wrestling-foundations-level-change",
+                  "title": "Level Change"
+                },
+                {
+                  "id": "wrestling-foundations-double-leg",
+                  "title": "Double-Leg Takedown"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };
