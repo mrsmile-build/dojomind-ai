@@ -9808,5 +9808,545 @@ export const lessons = {
       "label": "Escape-Target Reps",
       "targetReps": 12
     }
+  },
+  "meditation-mind-thoughts": {
+    "id": "meditation-mind-thoughts",
+    "subject": "Meditation",
+    "title": "Thoughts as Events",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Stop fighting thoughts and start seeing them: learn to treat each thought as a passing event you witness rather than a command you obey.",
+    "objectives": [
+      "Understand that thoughts are events in awareness, not facts or orders",
+      "Learn to witness a thought without chasing or suppressing it",
+      "Recognize the moment a thought becomes a story you are lost in",
+      "Return to the anchor from witnessing rather than from frustration",
+      "Recognize the four most common thought-observation errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Thoughts as passing events",
+        "caption": "A thought arises, you witness it without chasing, it dissolves on its own, and attention rests back on the breath. Press Play to watch one thought come and go.",
+        "phases": [
+          {
+            "label": "Arises",
+            "note": "a thought forms",
+            "x": 152,
+            "y": 62,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Witness",
+            "note": "you see it, do not chase",
+            "x": 152,
+            "y": 62,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Passes",
+            "note": "it dissolves on its own",
+            "x": 120,
+            "y": 80,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Anchor",
+            "note": "rest returns to the breath",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A thought is an event, not an order",
+        "content": "In daily life a thought feels like a instruction: think \"I am late\" and the body surges into panic. In meditation you learn a quieter relationship: a thought is simply something that appears in awareness, like weather in the sky of the mind. It carries no authority unless you act on it. Seeing thoughts as events robs them of their command and gives you the space to choose."
+      },
+      {
+        "title": "Witnessing, not chasing",
+        "content": "To witness a thought is to notice it arising, see its content, and let it pass without following the thread. Chasing is what turns one thought into a five-minute fantasy: a single \"what if\" becomes a whole imagined argument. The skill is the gentle click of recognition — \"thinking\" — that stops the chase before it begins, leaving the thought to dissolve on its own."
+      },
+      {
+        "title": "From story back to breath",
+        "content": "When you realize you have been lost in a story, that realization is the win, not the failure. You do not scold yourself back to the anchor; you simply notice the story ended and let attention settle again on the breath. Each return from a witnessed thought is a repetition that strengthens the muscle of seeing, which is the same muscle that keeps you from being hijacked by thoughts off the cushion."
+      }
+    ],
+    "principles": [
+      "Thoughts are events in awareness, not facts or commands.",
+      "Witness a thought without chasing or suppressing it.",
+      "The moment of recognition is the success, not the wandering.",
+      "Return to the anchor from seeing, not from self-criticism."
+    ],
+    "mistakes": [
+      {
+        "title": "Fighting thoughts away",
+        "explanation": "Suppressing a thought gives it power and exhausts you. Let it be an event and pass."
+      },
+      {
+        "title": "Following the thread",
+        "explanation": "One thought becomes a story when you chase it. Recognize early and let it dissolve."
+      },
+      {
+        "title": "Judging yourself for thinking",
+        "explanation": "Thinking is what minds do. Judging adds a second layer of noise on top of the first."
+      },
+      {
+        "title": "Treating witnessing as detachment from life",
+        "explanation": "Seeing thoughts as events is not coldness; it is the freedom to choose which thoughts to act on."
+      }
+    ],
+    "practice": [
+      "Sit anchored on the breath for ten minutes.",
+      "Each time a thought arises, silently note \"thinking\" and watch it pass.",
+      "When you catch yourself in a story, thank the noticing and return gently.",
+      "Count witnessed thoughts up to ten, then start over, treating each as a rep.",
+      "End by noting how many thoughts dissolved without you chasing them."
+    ],
+    "reflection": "Can you see a thought as an event, or does every thought still feel like an order? Which thoughts are hardest to let pass without chasing?",
+    "safety": "If difficult or distressing thoughts arise, open your eyes, ground in the room, and pause. Meditation is not a substitute for support; seek a teacher or professional if content feels overwhelming.",
+    "quiz": [
+      {
+        "question": "In this practice, what is a thought?",
+        "options": [
+          "A command you must obey",
+          "An event that appears and passes in awareness",
+          "A fact about reality",
+          "Something to suppress"
+        ],
+        "answer": 1,
+        "explanation": "A thought is simply something that arises in awareness; it carries no authority unless you act on it, which is what frees you to choose."
+      },
+      {
+        "question": "What is the moment of recognizing you were lost in a story?",
+        "options": [
+          "A failure to avoid",
+          "The success — awareness waking up",
+          "A reason to judge yourself",
+          "The end of practice"
+        ],
+        "answer": 1,
+        "explanation": "Noticing the story ended is the win; it is the same noticing muscle that prevents hijacking in daily life."
+      }
+    ],
+    "mastery": [
+      "Witness a thought arising and passing without chasing it.",
+      "Recognize the shift from a single thought into a story.",
+      "Return to the anchor from seeing rather than self-criticism.",
+      "Identify and correct the four common thought-observation errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A worry about tomorrow arises mid-sit.",
+          "action": "You note \"thinking,\" see the worry as an event, and let it dissolve without building the story.",
+          "why": "Witnessing removes the thought's command, so the worry passes instead of becoming an hour of anxiety."
+        },
+        {
+          "setup": "You realize you have been replaying an argument for minutes.",
+          "action": "You thank the noticing that caught the story and gently return to the breath.",
+          "why": "The recognition is the training; returning from it, not from judgment, builds the seeing muscle."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Seeing thoughts as events gives you space between stimulus and response, so you choose which thoughts to act on."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who witnesses thoughts is hard to provoke, because a provocative thought lands as an event, not an order."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "A thought arising and being chased into story",
+          "The moment of recognition",
+          "The tone of returning (kind or harsh)"
+        ],
+        "adjustments": [
+          {
+            "if": "You keep chasing stories",
+            "then": "Shorten the note to a single word and return faster; the chase is the target."
+          },
+          {
+            "if": "Returning feels harsh",
+            "then": "Soften the tone; witness and escort back, do not yank."
+          }
+        ],
+        "learning": "After each sit, note how many thoughts you witnessed versus chased, and whether recognition felt like win or failure."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Thought-Witnessing Sit",
+      "initialTime": 600
+    }
+  },
+  "meditation-mind-emotions": {
+    "id": "meditation-mind-emotions",
+    "subject": "Meditation",
+    "title": "Meeting Emotions",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Learn to be with difficult emotion in meditation rather than fleeing or feeding it: feel it in the body, hold it with kindness, and let it move.",
+    "objectives": [
+      "Understand emotion as bodily sensation plus meaning, not a thing to fix",
+      "Locate an emotion in the body rather than in the story about it",
+      "Hold discomfort with kindness instead of resistance or indulgence",
+      "Allow emotion to rise, peak, and pass without acting on it",
+      "Recognize the four most common emotion-work errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Meeting an emotion",
+        "caption": "An emotion surfaces, you feel it in the body, hold it with kindness, and it softens on its own. Press Play to watch one wave rise and pass.",
+        "phases": [
+          {
+            "label": "Rises",
+            "note": "an emotion surfaces",
+            "x": 152,
+            "y": 62,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Feel",
+            "note": "sense it in the body",
+            "x": 130,
+            "y": 75,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Hold",
+            "note": "meet it with kindness",
+            "x": 130,
+            "y": 75,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Settle",
+            "note": "it softens, return to breath",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Emotion is sensation plus story",
+        "content": "An emotion is two things braided together: a physical sensation (tight chest, hot face, sinking gut) and a story that labels and justifies it (\"this is unfair, they wronged me\"). Most suffering lives in the story, not the sensation. The meditation skill is to unbraid them — to feel the raw bodily charge directly, without the commentary, where it is far more manageable than the narrative makes it seem."
+      },
+      {
+        "title": "Feel it in the body, not the head",
+        "content": "When anger or sadness arises, the instinct is to think about it — which feeds the story and amplifies the feeling. Instead, drop attention into the body: where is the heat, the pressure, the tightness? Sensing the emotion physically, without the \"why,\" lets it be experienced as a wave of sensation rather than an unresolved grievance. The body can feel an emotion fully; the mind can only loop around it."
+      },
+      {
+        "title": "Kindness, not resistance or indulgence",
+        "content": "Two failures bracket the middle way: pushing the emotion away (resistance, which makes it persist and intensify) and drowning in it (indulgence, which turns feeling into identity). The alternative is kindness — a warm, willing presence with what is here. You do not need the emotion to leave for you to be at peace with it; that willingness is exactly what allows it to rise, peak, and pass on its own."
+      }
+    ],
+    "principles": [
+      "Emotion is bodily sensation plus a story; the story is usually the suffering.",
+      "Feel the emotion in the body rather than thinking about it.",
+      "Hold discomfort with kindness, neither resisting nor indulging.",
+      "Allowed to be felt, emotion rises, peaks, and passes on its own."
+    ],
+    "mistakes": [
+      {
+        "title": "Pushing the emotion away",
+        "explanation": "Resistance makes emotion persist and grow. Willing presence is what lets it move."
+      },
+      {
+        "title": "Drowning in the story",
+        "explanation": "Thinking about why you feel feeds the narrative and amplifies the charge. Drop into sensation."
+      },
+      {
+        "title": "Mistaking feeling for identity",
+        "explanation": "\"I am angry\" locks the wave into a self. \"Anger is here\" keeps it a passing event."
+      },
+      {
+        "title": "Needing it to leave before you can be okay",
+        "explanation": "That condition is itself the suffering. Kindness is being okay with it while it is here."
+      }
+    ],
+    "practice": [
+      "Sit and let a mild difficult emotion be present (do not summon a strong one).",
+      "Drop attention into the body and locate the sensation precisely.",
+      "Notice the story separately from the raw feeling.",
+      "Hold the sensation with a warm, willing attention for a few minutes.",
+      "Observe it rise, peak, and soften without your interference."
+    ],
+    "reflection": "When emotion arises, is your first move to push it away or to think about it? Can you feel it in the body without the story, and what changes when you do?",
+    "safety": "Do not force strong trauma material in solo practice. If an emotion becomes overwhelming, open your eyes, ground, and stop. Work with heavy material alongside a qualified teacher or therapist, not alone on a cushion.",
+    "quiz": [
+      {
+        "question": "According to this lesson, where does most emotional suffering live?",
+        "options": [
+          "In the bodily sensation",
+          "In the story layered on top of the sensation",
+          "In the other person",
+          "Nowhere"
+        ],
+        "answer": 1,
+        "explanation": "The raw sensation is manageable; the narrative that labels and justifies it is what usually turns feeling into prolonged suffering."
+      },
+      {
+        "question": "What is the middle way with a difficult emotion?",
+        "options": [
+          "Push it away",
+          "Drown in the story",
+          "Hold it with kind, willing presence",
+          "Analyze why it is there"
+        ],
+        "answer": 2,
+        "explanation": "Neither resistance nor indulgence; warm willingness to be with what is here is what lets the emotion rise, peak, and pass."
+      }
+    ],
+    "mastery": [
+      "Unbraid an emotion into sensation and story.",
+      "Feel the emotion physically without feeding the narrative.",
+      "Hold discomfort with kindness rather than resistance or indulgence.",
+      "Identify and correct the four common emotion-work errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Frustration rises during a sit.",
+          "action": "You locate the heat and tightness in the body, set aside the \"why,\" and hold the sensation with warmth.",
+          "why": "Feeling it physically without the story lets the wave peak and pass instead of looping as grievance."
+        },
+        {
+          "setup": "You notice yourself thinking about an offense.",
+          "action": "You drop from the story back into the bodily feeling and offer it kind presence.",
+          "why": "The story amplifies; the body can feel the emotion fully and release it."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Meeting emotion with bodily awareness and kindness lets feelings move through you rather than accumulate or explode."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who can be with emotion is not hijacked by it; they feel fully and respond chosenly."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "The urge to push away or to narrate",
+          "Where the sensation lives in the body",
+          "Whether presence is kind or tense"
+        ],
+        "adjustments": [
+          {
+            "if": "You are resisting",
+            "then": "Soften into willingness; stop trying to make it leave."
+          },
+          {
+            "if": "You are narrating",
+            "then": "Drop attention from the head into the physical sensation."
+          }
+        ],
+        "learning": "After each sit, note whether you felt the emotion in the body or thought about it, and whether kindness let it pass."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Emotion-Awareness Sit",
+      "initialTime": 600
+    }
+  },
+  "meditation-mind-distraction": {
+    "id": "meditation-mind-distraction",
+    "subject": "Meditation",
+    "title": "Distraction as Teacher",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Turn every distraction from an enemy into data: learn what reliably pulls you, use it to map your habits, and return with more knowledge each time.",
+    "objectives": [
+      "Reframe distraction from failure to information",
+      "Identify the specific content and trigger of each distraction",
+      "Use repeated distractions to map habitual patterns",
+      "Return to the anchor carrying what the distraction revealed",
+      "Recognize the four most common distraction-work errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Distraction as data",
+        "caption": "Attention is pulled, you see what pulled it, the pattern becomes information, and you return knowing more. Press Play to watch one distraction teach you.",
+        "phases": [
+          {
+            "label": "Pulled",
+            "note": "attention is dragged away",
+            "x": 152,
+            "y": 62,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Notice",
+            "note": "see what pulled you",
+            "x": 152,
+            "y": 62,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Learn",
+            "note": "the pattern becomes data",
+            "x": 120,
+            "y": 80,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Return",
+            "note": "come back knowing more",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A distraction is a message",
+        "content": "Beginners treat every distraction as a mistake to be erased. The intermediate reframe is sharper: a distraction is data about the mind. What pulled you, and from what trigger, tells you where your attention is habitually owned. A worry about money that surfaces every sit is not a failure of focus; it is a signal that money is an unresolved preoccupation. Read the message instead of resenting the noise."
+      },
+      {
+        "title": "Name the content and the trigger",
+        "content": "Two details make a distraction teachable: its content (planning, remembering, worrying, fantasizing) and its trigger (a sound, a bodily sensation, a prior thought). Noting \"planning, triggered by the clock ticking\" is far more useful than \"I got distracted.\" Over sessions these notes accumulate into a map of your mind's default routes — the topics and cues that own your attention when you are not watching."
+      },
+      {
+        "title": "Return carrying the lesson",
+        "content": "The return to the anchor is not a reset to zero; it is a return with one more piece of self-knowledge. Each time you extract the pattern and come back, you have done two things: strengthened attention and weakened the distraction's secret power, because what is seen clearly pulls less hard next time. Distraction stops being the enemy and becomes the curriculum."
+      }
+    ],
+    "principles": [
+      "A distraction is information about the mind, not a failure.",
+      "Note both the content and the trigger of each distraction.",
+      "Repeated distractions map your habitual attention routes.",
+      "Return to the anchor carrying what the distraction revealed."
+    ],
+    "mistakes": [
+      {
+        "title": "Resenting the distraction",
+        "explanation": "Fighting it as an enemy adds aversion and hides the message it carries."
+      },
+      {
+        "title": "Noting only \"distracted\"",
+        "explanation": "Without content and trigger there is no data; the pattern stays invisible and repeats."
+      },
+      {
+        "title": "Hunting for distractions",
+        "explanation": "Searching for noise creates noise. Let distractions come and read them as they arrive."
+      },
+      {
+        "title": "Treating return as reset to zero",
+        "explanation": "Each return carries new knowledge; forgetting that wastes the lesson the distraction gave you."
+      }
+    ],
+    "practice": [
+      "Sit anchored for ten minutes with a mental note of content and trigger.",
+      "When pulled, silently name both: \"worrying, from a tight shoulder.\"",
+      "After the sit, list the three most frequent distractions you noticed.",
+      "Look for the pattern linking them (a topic, a time of day, a sensation).",
+      "Return to the anchor each time carrying one more piece of the map."
+    ],
+    "reflection": "What distracts you most reliably, and what does that recurring pull reveal about what owns your attention when you are not watching?",
+    "safety": "If a distraction surfaces distressing material, do not chase it on the cushion; note it gently and, if it recurs, bring it to a teacher or professional rather than meditating alone into it.",
+    "quiz": [
+      {
+        "question": "In this reframe, what is a distraction?",
+        "options": [
+          "A failure to erase",
+          "Data about the mind's habits",
+          "Proof you cannot meditate",
+          "A reason to stop"
+        ],
+        "answer": 1,
+        "explanation": "A distraction reveals what owns your attention and from what trigger; read as a message it becomes the curriculum rather than the enemy."
+      },
+      {
+        "question": "What two details make a distraction teachable?",
+        "options": [
+          "Its length and intensity",
+          "Its content and its trigger",
+          "The time of day and posture",
+          "Nothing"
+        ],
+        "answer": 1,
+        "explanation": "Naming what the distraction was (planning, worrying) and what set it off (a sound, a sensation, a prior thought) turns noise into a map of default routes."
+      }
+    ],
+    "mastery": [
+      "Reframe a distraction as information rather than failure.",
+      "Note both the content and the trigger of each distraction.",
+      "Build a map of recurring patterns across sessions.",
+      "Identify and correct the four common distraction-work errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A money worry pulls you out of the breath for the third sit running.",
+          "action": "You note \"worrying, recurring topic\" and recognize money as an unresolved preoccupation rather than a focus failure.",
+          "why": "Reading the pattern turns a repeated distraction into self-knowledge and reduces its pull next time."
+        },
+        {
+          "setup": "A car horn drags attention away.",
+          "action": "You note \"sound, external trigger\" and return, knowing auditory cues are a default route for you.",
+          "why": "Identifying the trigger maps where attention leaks, so you can anticipate rather than be ambushed."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Treating distraction as data builds a personal map of habit and weakens each pattern by seeing it clearly."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who reads distractions learns their own mind's defaults, which is the root of self-regulation off the cushion."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "The urge to resent a distraction",
+          "Missing content or trigger in the note",
+          "The same distraction recurring"
+        ],
+        "adjustments": [
+          {
+            "if": "You resent the noise",
+            "then": "Shift to curiosity; the message is worth more than the irritation."
+          },
+          {
+            "if": "The same pull repeats",
+            "then": "Log it as a pattern; recurring content is the most valuable data you have."
+          }
+        ],
+        "learning": "After each sit, write the top recurring distraction and its trigger, and one sentence on what it reveals."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Distractions Mapped",
+      "targetReps": 12
+    }
   }
 }
