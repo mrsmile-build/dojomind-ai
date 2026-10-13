@@ -16049,5 +16049,567 @@ export const lessons = {
       "label": "Teep Reps",
       "targetReps": 10
     }
+  },
+  "judo-foundations-ukemi": {
+    "id": "judo-foundations-ukemi",
+    "subject": "Judo",
+    "title": "Breakfalls — Ukemi",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Learn judo's first and most important skill: falling safely. Tuck the chin, round the back, slap the mat, exhale on impact - so throws can be practiced for a lifetime without injury.",
+    "objectives": [
+      "Tuck the chin and round the back to protect the head and spine",
+      "Slap the mat at about 45 degrees to spread impact",
+      "Exhale on impact to brace the core naturally",
+      "Progress from seated to standing breakfalls safely",
+      "Recognize the four most common ukemi errors"
+    ],
+    "visuals": [
+      {
+        "type": "animation",
+        "title": "Rear breakfall sequence",
+        "caption": "Ready, tuck and round, impact with the arm slap, then recover. The chin stays tucked and the breath goes out on impact. Press Play to watch the fall become safe.",
+        "phases": [
+          {
+            "label": "Ready",
+            "pose": {
+              "torso": 0,
+              "fThigh": 5,
+              "fShin": -2,
+              "rThigh": -5,
+              "rShin": 2,
+              "pUpper": -20,
+              "pFore": -120,
+              "rUpper": 20,
+              "rFore": 120
+            }
+          },
+          {
+            "label": "Tuck & round",
+            "pose": {
+              "torso": -25,
+              "fThigh": -60,
+              "fShin": -80,
+              "rThigh": -40,
+              "rShin": -60,
+              "pUpper": -60,
+              "pFore": -60,
+              "rUpper": 60,
+              "rFore": 60
+            }
+          },
+          {
+            "label": "Impact & slap",
+            "pose": {
+              "torso": -75,
+              "fThigh": -65,
+              "fShin": -35,
+              "rThigh": -50,
+              "rShin": -25,
+              "pUpper": -100,
+              "pFore": -100,
+              "rUpper": 20,
+              "rFore": 80
+            }
+          },
+          {
+            "label": "Recover",
+            "pose": {
+              "torso": -15,
+              "fThigh": -70,
+              "fShin": -90,
+              "rThigh": -60,
+              "rShin": -80,
+              "pUpper": -30,
+              "pFore": -90,
+              "rUpper": 30,
+              "rFore": 90
+            }
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Falling is the first technique",
+        "content": "Judo begins not with throwing but with being thrown - safely. Ukemi (breakfalling) is the skill that makes every other technique trainable: if you can fall without injury, you can practice throws at full speed for a lifetime. The mechanics are simple and non-negotiable: chin tucked to the chest so the head never strikes, back rounded so the impact spreads along the curve of the spine instead of landing on it, and the arm slapping the mat to dissipate force. Everything else in judo is built on this foundation."
+      },
+      {
+        "title": "The slap and the breath",
+        "content": "Two details make the difference between a breakfall and a bad fall. The arm slap - landing about 45 degrees from the body, palm down - spreads the impact across the arm and shoulder instead of concentrating it in the back. And the exhale on impact braces the core reflexively, the same way you tighten when tapped on the stomach; holding your breath makes you rigid and breakable. Slap and breathe out together, every single fall, until it is reflex rather than decision."
+      },
+      {
+        "title": "Progress by height, not bravery",
+        "content": "Ukemi is learned from the ground up: first lying down, then seated, then crouching, then standing, each height only after the lower one is clean and reflexive. Skipping heights to look brave is how beginners hurt their heads, wrists and backs. The standard is not how dramatic the fall looks but whether the chin stayed tucked, the back stayed round, and the slap and breath landed together. Master the seated breakfall and the standing one takes care of itself; rush it and both stay dangerous."
+      }
+    ],
+    "principles": [
+      "Chin tucked and back rounded protect head and spine on every fall.",
+      "The arm slap at about 45 degrees spreads the impact.",
+      "Exhale on impact to brace the core naturally.",
+      "Progress seated to standing only when each height is clean and reflexive."
+    ],
+    "mistakes": [
+      {
+        "title": "Letting the head strike or whip",
+        "explanation": "An untucked chin risks head and neck injury. Tuck it before you fall, every time."
+      },
+      {
+        "title": "Landing on a straight arm or outstretched hand",
+        "explanation": "Straight arms break. The slap is flat and timed, not a catch with the hand."
+      },
+      {
+        "title": "Holding the breath on impact",
+        "explanation": "A held breath leaves the core soft and the body rigid. Exhale with the slap."
+      },
+      {
+        "title": "Skipping progression heights",
+        "explanation": "Standing falls before seated ones are clean build bad reflexes and injuries. Earn each height."
+      }
+    ],
+    "practice": [
+      "Lie down and practice the slap and exhale 10 times each arm.",
+      "Seated rear breakfalls: 10 reps, chin tucked, round back, slap and breathe.",
+      "Crouching rear breakfalls: 10 reps once seated is clean.",
+      "Forward breakfalls from knees: 10 reps, round and roll, no head contact.",
+      "Side breakfalls: 5 each side, slap at 45 degrees."
+    ],
+    "reflection": "On your last fall, did the chin stay tucked and did the slap and breath land together, or did you catch yourself with a hand?",
+    "safety": "Always practice ukemi on mats. Stop on wrist, shoulder, neck or head pain and regress to a lower height. Never practice falls on hard surfaces or without supervision while learning.",
+    "quiz": [
+      {
+        "question": "The two details that make a breakfall safe are:",
+        "options": [
+          "Loud slap and stiff body",
+          "Arm slap at about 45 degrees and exhaling on impact",
+          "Holding breath and straight arms",
+          "Falling flat and fast"
+        ],
+        "answer": 1,
+        "explanation": "The slap spreads impact across arm and shoulder; the exhale braces the core reflexively. Together they turn a fall into a breakfall."
+      },
+      {
+        "question": "Ukemi progression should follow:",
+        "options": [
+          "Bravery and height",
+          "Seated to crouching to standing, each clean before the next",
+          "Standing first to build courage",
+          "Random heights"
+        ],
+        "answer": 1,
+        "explanation": "Reflexes are built from the ground up; skipping heights builds dangerous habits and injuries."
+      }
+    ],
+    "mastery": [
+      "Tuck chin and round the back on every fall.",
+      "Slap the mat at about 45 degrees with the exhale.",
+      "Perform seated, crouching and standing rear breakfalls cleanly.",
+      "Identify and correct the four common ukemi errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You slip on ice outside the dojo.",
+          "action": "The trained reflex takes over: chin tucks, back rounds, arm slaps, breath goes out - and you stand up unhurt.",
+          "why": "Ukemi is a life skill; the reflex built on mats protects you in ordinary falls for decades."
+        },
+        {
+          "setup": "A training partner throws you harder than expected.",
+          "action": "You breakfall fully - slap, exhale, round - instead of stiffening or catching with a hand.",
+          "why": "The complete breakfall spreads the force; stiffening or catching concentrates it into a break."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Safe falling lets you train throws at full intensity for a lifetime without accumulating injury."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A judoka who falls well cannot be hurt by being thrown; the throw becomes information, not damage."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Chin lifting",
+          "Catching with a hand",
+          "Held breath on impact"
+        ],
+        "adjustments": [
+          {
+            "if": "The chin lifts",
+            "then": "Regress to seated and re-drill the tuck until reflexive."
+          },
+          {
+            "if": "You catch with a hand",
+            "then": "Slow the fall and emphasize the flat timed slap."
+          }
+        ],
+        "learning": "After each session, note whether every fall kept the chin tucked and paired slap with exhale."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Ukemi Reps",
+      "targetReps": 10
+    }
+  },
+  "judo-foundations-grip": {
+    "id": "judo-foundations-grip",
+    "subject": "Judo",
+    "title": "Grip Fighting — Kumi-kata",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Establish the judo grip: collar hand high to control posture, sleeve hand to control the arm, posture upright and base active - because the grip fight decides who throws whom.",
+    "objectives": [
+      "Take a collar grip high on the lapel to control posture",
+      "Take a sleeve grip to control the opponent's arm",
+      "Keep posture upright and head up while gripping",
+      "Stay mobile and active in the grip, never static",
+      "Recognize the four most common grip errors"
+    ],
+    "positionDiagram": {
+      "title": "Judo grip — kumi-kata",
+      "description": "Collar hand high on the lapel controlling posture; sleeve hand controlling the arm. Posture upright, head up, feet active. The grip is a conversation, not a hold.",
+      "torsoAngle": 2,
+      "frontArm": {
+        "shoulderAngle": -60,
+        "elbowAngle": -100
+      },
+      "rearArm": {
+        "shoulderAngle": -40,
+        "elbowAngle": -60
+      },
+      "frontLegAngle": -6,
+      "rearLegAngle": 6,
+      "feet": {
+        "front": {
+          "x": -18,
+          "y": -30,
+          "angle": 0
+        },
+        "rear": {
+          "x": 18,
+          "y": 30,
+          "angle": 10
+        },
+        "note": "Feet active and shoulder-width; the base never freezes while the hands work."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Collar hand",
+          "value": "High on lapel, thumb in"
+        },
+        {
+          "label": "Sleeve hand",
+          "value": "Controls the arm"
+        },
+        {
+          "label": "Posture",
+          "value": "Upright, head up"
+        },
+        {
+          "label": "Base",
+          "value": "Active, never static"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Collar hand high",
+          "detail": "A high collar grip controls posture and sets up most throws; a low grip only holds fabric."
+        },
+        {
+          "number": "02",
+          "label": "Sleeve hand controls the arm",
+          "detail": "Controlling one arm removes half their defense and opens their side for entry."
+        },
+        {
+          "number": "03",
+          "label": "Upright and mobile",
+          "detail": "Bending over or freezing in the grip hands over the balance fight. Stay tall and stepping."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "The grip is the fight",
+        "content": "In judo, almost nothing happens until hands are on the jacket, and *which* grips each player gets decides most of what follows. The classic foundation is collar-and-sleeve: one hand high on the lapel to control posture and head position, the other on a sleeve to control an arm. With both, you can off-balance and enter; with neither, you are reacting. Beginners treat gripping as a formality; competitors treat it as the first and most important battle, because whoever wins the grip fight usually wins the throw."
+      },
+      {
+        "title": "Control, not clutch",
+        "content": "A grip is a control point, not a death grip. The collar hand sits high with the thumb inside, wrist relaxed, able to turn and pull; the sleeve hand holds enough to move the arm without freezing your own shoulder. Clenching tires the forearms, slows the hands and locks your posture into whatever shape the clamp puts you in. The test of a good grip is whether you can still move - step, turn, pull, push - while holding it. If the grip stops your movement, it is holding you."
+      },
+      {
+        "title": "Posture and base under the hands",
+        "content": "Grips are worthless if the body behind them collapses. Head up, spine tall, feet active and stepping: the upright posture denies the opponent's pulls and keeps your own balance available for entries. The most common beginner collapse is bending at the waist to reach a grip, which loads the back and hands over the balance fight. Reach with the feet, not the spine: step in to take the grip and stay tall, so the hands work from a body that is still free to throw."
+      }
+    ],
+    "principles": [
+      "Collar hand high controls posture; sleeve hand controls the arm.",
+      "A grip is a control point, not a clench - you must still move.",
+      "Posture upright, head up, feet active under the hands.",
+      "The grip fight decides most throws; treat it as the first battle."
+    ],
+    "mistakes": [
+      {
+        "title": "Gripping low on the jacket",
+        "explanation": "Low grips hold fabric without controlling posture. Get the collar hand high on the lapel."
+      },
+      {
+        "title": "Death-gripping and freezing",
+        "explanation": "Clenching tires forearms and locks your movement. Hold enough to control, stay loose enough to move."
+      },
+      {
+        "title": "Bending at the waist to reach",
+        "explanation": "Reaching with the spine collapses posture and hands over balance. Step in with the feet and stay tall."
+      },
+      {
+        "title": "Letting the base go static",
+        "explanation": "Frozen feet lose the grip fight and the balance fight. Keep stepping and adjusting."
+      }
+    ],
+    "practice": [
+      "On a partner or jacket, take collar-high and sleeve grips 10 times.",
+      "Hold the grip and step in four directions without losing posture.",
+      "Practice grip breaks: strip a sleeve grip 5 times each hand.",
+      "Grip-fight drill: 60 seconds of taking and denying grips, staying tall.",
+      "Shadow grips: step in, take both, turn for entry, reset - 10 reps."
+    ],
+    "reflection": "In your last grip exchange, did your grips control posture and an arm, or did they just hold fabric while your feet froze?",
+    "safety": "Grip-fight with control; do not wrench fingers or wrists. Stop on finger, wrist or shoulder pain and loosen the grip intensity.",
+    "quiz": [
+      {
+        "question": "The classic judo foundation grip is:",
+        "options": [
+          "Two sleeve grips",
+          "Collar hand high plus sleeve hand",
+          "Belt and lapel",
+          "Both hands on one sleeve"
+        ],
+        "answer": 1,
+        "explanation": "The collar hand controls posture and head position while the sleeve hand controls an arm; together they enable off-balance and entry."
+      },
+      {
+        "question": "Why must the base stay active under the grips?",
+        "options": [
+          "To look busy",
+          "Frozen feet lose the grip and balance fights",
+          "To tire the opponent",
+          "It is a rule"
+        ],
+        "answer": 1,
+        "explanation": "Grips work from a body that can still move; static feet hand over both the grip fight and the balance fight."
+      }
+    ],
+    "mastery": [
+      "Take a high collar grip and a controlling sleeve grip.",
+      "Keep posture upright and feet active while gripping.",
+      "Break an opponent's sleeve grip cleanly.",
+      "Identify and correct the four common grip errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "An opponent keeps getting a high collar grip on you.",
+          "action": "You deny it by gripping first or stripping their hand, then establish your own collar-sleeve.",
+          "why": "Whoever wins the grip fight usually wins the throw; denying their control restores the balance."
+        },
+        {
+          "setup": "You freeze once you have your grips.",
+          "action": "You keep stepping and adjusting while holding, staying loose in the hands.",
+          "why": "A grip that stops your movement is holding you; mobility under the grip is what makes it a weapon."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Winning kumi-kata lets you off-balance and enter at will while the opponent reacts."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A gripper with upright posture and active feet cannot be controlled or collapsed easily."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Grips low or one-handed",
+          "Feet freezing",
+          "Bending to reach"
+        ],
+        "adjustments": [
+          {
+            "if": "You only get one grip",
+            "then": "Prioritize collar-high first; it controls posture."
+          },
+          {
+            "if": "You bend to reach",
+            "then": "Step in with the feet and take the grip tall."
+          }
+        ],
+        "learning": "After each session, note which grips you won or lost and whether your base stayed active."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Grip Fight",
+      "initialTime": 60
+    }
+  },
+  "judo-foundations-throw": {
+    "id": "judo-foundations-throw",
+    "subject": "Judo",
+    "title": "How a Throw Works",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Understand every judo throw as three phases - kuzushi (off-balance), tsukuri (entry), kake (execution) - so technique becomes principle instead of a collection of moves.",
+    "objectives": [
+      "Explain kuzushi: off-balancing before any entry",
+      "Explain tsukuri: fitting your body under the opponent's center",
+      "Explain kake: executing with the hips and legs, not the arms",
+      "See the three phases as one continuous chain",
+      "Recognize the four most common throwing errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The three phases of a throw",
+        "caption": "Every throw is one chain: off-balance, enter, execute. Skip a phase and the throw becomes a muscle fight you will lose against a heavier opponent.",
+        "labels": [
+          "1. Kuzushi: break the balance first - pull or push to a corner",
+          "2. Tsukuri: enter and fit your hips under their center",
+          "3. Kake: drive with legs and hips, not arms",
+          "4. Ukemi: the partner falls safely - both roles are trained"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Kuzushi: the throw begins before the throw",
+        "content": "No technique in judo works on a balanced opponent, which is why every throw starts with kuzushi - breaking balance. A pull or push moves the opponent's center toward one of their eight directions of weakness (the corners and sides of their base) so that they are already falling when you enter. The test is simple: if you let go at the moment of entry, do they keep falling? If they recover, the kuzushi was fake and everything after it is a muscle fight. Off-balance first, always."
+      },
+      {
+        "title": "Tsukuri: fitting, not forcing",
+        "content": "With the opponent falling, tsukuri is the entry that places your body in the right relation to theirs - typically hips below their center, back in contact, feet positioned to drive. Good tsukuri feels like fitting into a space the kuzushi created; bad tsukuri feels like squeezing past a balanced body. The hips-under-center detail is what makes judo throws work on larger people: a lever with your hips as the fulcrum lifts far more than your arms ever could. Entry is geometry, not strength."
+      },
+      {
+        "title": "Kake: the chain completes",
+        "content": "Execution is simply continuing the chain: with balance broken and body fitted, the legs and hips drive and the opponent goes over. Arms guide; they do not lift. A throw that requires arm strength is a throw whose first two phases failed. And the chain has a fourth, often-forgotten link: your partner's ukemi. Throwing and being thrown are one practice - the thrower controls direction and speed so the faller lands safely, which is why judo can be trained at full intensity for a lifetime."
+      }
+    ],
+    "principles": [
+      "Kuzushi first: the opponent is already falling before you enter.",
+      "Tsukuri fits the hips under their center - geometry, not strength.",
+      "Kake drives with legs and hips; arms only guide.",
+      "Throwing and ukemi are one practice; control the fall you create."
+    ],
+    "mistakes": [
+      {
+        "title": "Entering on a balanced opponent",
+        "explanation": "Without kuzushi the throw becomes a muscle fight. Break balance first, every time."
+      },
+      {
+        "title": "Lifting with the arms and back",
+        "explanation": "Arm-lifting fails against heavier opponents and injures the back. Hips under center, drive with legs."
+      },
+      {
+        "title": "Treating the phases as separate moves",
+        "explanation": "Kuzushi-tsukuri-kake is one continuous chain; pausing between phases lets them recover."
+      },
+      {
+        "title": "Throwing without caring for the fall",
+        "explanation": "Uncontrolled throws injure partners. Control direction and speed so the ukemi is safe."
+      }
+    ],
+    "practice": [
+      "Shadow kuzushi: pull to each of the eight directions, 5 each.",
+      "Entry reps without throwing: kuzushi then tsukuri, 10 reps.",
+      "Full throws at 50% speed focusing on the chain, 10 reps.",
+      "Let-go test: release at entry and see if they keep falling.",
+      "Ukemi both roles: throw 5, fall 5, controlling each fall."
+    ],
+    "reflection": "In your last throw, was the opponent already falling when you entered, or did you muscle a balanced body?",
+    "safety": "Throw only on mats with a partner who knows ukemi. Control direction and speed. Stop on back, shoulder or knee pain and reduce to entry-only reps.",
+    "quiz": [
+      {
+        "question": "The correct order of a throw's phases is:",
+        "options": [
+          "Kake, tsukuri, kuzushi",
+          "Kuzushi, tsukuri, kake",
+          "Tsukuri, kake, kuzushi",
+          "Kuzushi, kake, tsukuri"
+        ],
+        "answer": 1,
+        "explanation": "Off-balance first, then fit the body, then execute - one continuous chain; skipping or reordering a phase turns the throw into a muscle fight."
+      },
+      {
+        "question": "Why can judo throws work on larger opponents?",
+        "options": [
+          "Arm strength",
+          "Hips under their center act as a lever fulcrum",
+          "Speed alone",
+          "Surprise"
+        ],
+        "answer": 1,
+        "explanation": "Tsukuri places the hips below the opponent's center so legs and hips drive a lever; geometry lifts what arms cannot."
+      }
+    ],
+    "mastery": [
+      "Explain and demonstrate kuzushi, tsukuri and kake as one chain.",
+      "Pass the let-go test: they keep falling at entry.",
+      "Drive throws with legs and hips, arms guiding only.",
+      "Control the fall you create so ukemi stays safe."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your throw stalls against a heavier partner.",
+          "action": "You check kuzushi first - pull to a corner until they are falling - then enter.",
+          "why": "A balanced heavy opponent cannot be muscled; off-balance makes their weight the thing that falls."
+        },
+        {
+          "setup": "You feel your back straining on throws.",
+          "action": "You re-fit tsukuri so the hips sit under their center and the legs drive.",
+          "why": "Back strain means arm-and-back lifting; the hip fulcrum moves the load to the legs."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The three-phase chain makes small throwers effective against large opponents."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A thrower with real kuzushi cannot be stood back up; the fall begins before the entry is visible."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Opponent recovering at entry",
+          "Back or arm strain",
+          "Phases pausing"
+        ],
+        "adjustments": [
+          {
+            "if": "They recover",
+            "then": "Deepen kuzushi to a true corner before entering."
+          },
+          {
+            "if": "You strain",
+            "then": "Re-fit hips under center; drop to entry-only reps."
+          }
+        ],
+        "learning": "After each session, note which phase broke the chain most often and one throw where the let-go test passed."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Throw Reps",
+      "targetReps": 10
+    }
   }
 }

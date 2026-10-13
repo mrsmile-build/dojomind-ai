@@ -447,6 +447,37 @@ export default {
           ]
         }
       }
+    },
+    "judo": {
+      "name": "Judo",
+      "icon": "🥋",
+      "description": "Learn principles of balance, grips, movement and throwing.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the judo base: breakfalls, grips and throwing principles.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Judo Foundations",
+              "lessons": [
+                {
+                  "id": "judo-foundations-ukemi",
+                  "title": "Breakfalls — Ukemi"
+                },
+                {
+                  "id": "judo-foundations-grip",
+                  "title": "Grip Fighting — Kumi-kata"
+                },
+                {
+                  "id": "judo-foundations-throw",
+                  "title": "How a Throw Works"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };
