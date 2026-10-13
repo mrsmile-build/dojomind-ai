@@ -10348,5 +10348,960 @@ export const lessons = {
       "label": "Distractions Mapped",
       "targetReps": 12
     }
+  },
+  "breathing-control-recovery": {
+    "id": "breathing-control-recovery",
+    "subject": "Breathing",
+    "title": "Recovery Breathing",
+    "level": "Intermediate",
+    "duration": "10 min",
+    "description": "Bring the heart rate down after effort with long, nasal, down-regulating breaths, and use the breath between rounds to restore quality faster.",
+    "objectives": [
+      "Use a long exhale to down-regulate after exertion",
+      "Keep recovery breathing nasal and relaxed, not gasping",
+      "Apply between-round breathing to restore output faster",
+      "Read heart-rate and breath cues to pace recovery",
+      "Recognize the four most common recovery errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Recovery: long exhale down-shift",
+        "caption": "After effort, inhale 4 through the nose and exhale 8 or longer, softening the body each cycle. The long exhale is the brake. Watch the belly settle.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 8,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The exhale is the brake",
+        "content": "Hard effort leaves you in a sympathetic surge: heart pounding, breath short and mouth-open. The fastest legitimate way to step off that pedal is a prolonged, relaxed exhale through the nose, which drives the parasympathetic brake. A 4-in / 8-out pattern, or simply letting the exhale run as long as it is smooth, drops the rate and clears the fog faster than standing still and waiting."
+      },
+      {
+        "title": "Nasal, not gasping",
+        "content": "The instinct after a hard round is to mouth-gasp, and that keeps the alarm lit. Recovery breathing deliberately closes the mouth and moves air through the nose, even if the first few breaths feel insufficient. Nasal breathing restrains the over-ventilation that causes dizziness and re-engages the calm reflexes. If you truly cannot get enough air nasally, you have pushed too hard - that is information for your next round, not a reason to abandon the nose."
+      },
+      {
+        "title": "Recovery between rounds",
+        "content": "In training, the quality of your next round is built in the rest before it. Spend the first half of any rest period on down-regulating breaths (long exhale, soft body), then let the breath settle toward normal as you prepare to move again. Reading your cues - heart rate easing, breath lengthening without effort, the urge to gasp fading - tells you when you are ready, rather than a fixed clock that ignores how hard the last round actually was."
+      }
+    ],
+    "principles": [
+      "A long, relaxed exhale is the physiological brake after effort.",
+      "Keep recovery nasal; mouth-gasping sustains the stress response.",
+      "The rest before a round determines the quality of the round.",
+      "Read heart-rate and breath cues to pace recovery, not a fixed timer."
+    ],
+    "mistakes": [
+      {
+        "title": "Mouth-gasping through the rest",
+        "explanation": "Open-mouth over-breathing keeps the alarm on and can cause dizziness. Close the mouth and use the nose."
+      },
+      {
+        "title": "Rushing back before down-regulated",
+        "explanation": "Starting the next round still spiked wastes the rest and compounds fatigue. Wait for the cues."
+      },
+      {
+        "title": "Forcing an 8-count exhale into strain",
+        "explanation": "If the long exhale makes you clench or gasp, shorten it; the brake must stay relaxed."
+      },
+      {
+        "title": "Ignoring that you over-push",
+        "explanation": "Needing excessive recovery is a signal to lower round intensity, not to breathe harder."
+      }
+    ],
+    "practice": [
+      "After a bout of effort (or a brisk set of movements), sit or stand tall.",
+      "Inhale 4 through the nose, exhale 8 or longer, soft and nasal.",
+      "Repeat for 6-10 cycles, letting the body drop each exhale.",
+      "Then release to natural breath and note when the urge to gasp fades.",
+      "Use the same pattern in the first half of every rest between rounds."
+    ],
+    "reflection": "After your hardest effort today, did you reach for the mouth or the nose, and how long until the breath settled on its own?",
+    "safety": "Stop if you feel faint, chest pain, or irregular heartbeat; sit and breathe naturally. Recovery breathing supports training but does not override the need to reduce load when you are consistently over-reaching.",
+    "quiz": [
+      {
+        "question": "The primary tool for down-regulating after effort is:",
+        "options": [
+          "A long, relaxed nasal exhale",
+          "Mouth-gasping for air",
+          "Holding the breath",
+          "Sprinting more"
+        ],
+        "answer": 0,
+        "explanation": "A prolonged soft exhale drives the parasympathetic brake; mouth-gasping keeps the stress response lit."
+      },
+      {
+        "question": "Why does recovery breathing matter between rounds?",
+        "options": [
+          "It looks disciplined",
+          "The rest before a round determines the quality of the next round",
+          "It burns more calories",
+          "It replaces warm-up"
+        ],
+        "answer": 1,
+        "explanation": "Down-regulating well in the rest restores output faster, so the next round starts from a better state."
+      }
+    ],
+    "mastery": [
+      "Down-regulate with a long nasal exhale after effort.",
+      "Avoid mouth-gasping and read the settling cues.",
+      "Structure the first half of a rest as recovery breathing.",
+      "Identify and correct the four common recovery errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You finish a hard round, heart pounding.",
+          "action": "You close the mouth and run 4-in / 8-out nasal breaths until the gasp-urge fades.",
+          "why": "The long exhale applies the brake and nasal breathing stops the over-ventilation that prolongs the spike."
+        },
+        {
+          "setup": "Halfway through a rest, breath still short.",
+          "action": "You keep down-regulating rather than starting early, waiting for the cues.",
+          "why": "Starting still-spiked wastes the rest and compounds fatigue; the cues, not the clock, decide readiness."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Recovery breathing turns rest into an active skill that restores output and protects the next effort."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who recovers well sustains quality across rounds while others fade into gasping."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Mouth-gasping urge",
+          "Heart rate still elevated",
+          "Clenching on the long exhale"
+        ],
+        "adjustments": [
+          {
+            "if": "You cannot stay nasal",
+            "then": "Lower the previous round intensity; you over-reached."
+          },
+          {
+            "if": "The 8-count strains",
+            "then": "Shorten the exhale until it is smooth and relaxed."
+          }
+        ],
+        "learning": "After each session, note how quickly you down-regulated and whether you reached for the nose or the mouth."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Recovery Rounds",
+      "workTime": 30,
+      "restTime": 90,
+      "totalIntervals": 4
+    }
+  },
+  "training-strength-bodyweight": {
+    "id": "training-strength-bodyweight",
+    "subject": "Training",
+    "title": "Bodyweight Strength",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Build real strength by loading the five foundational patterns with your own body, progressing through leverage, reps and tempo before adding weight.",
+    "objectives": [
+      "Map the five patterns (squat, hinge, push, pull, carry) to bodyweight drills",
+      "Progress by changing leverage before adding load",
+      "Use tempo and range as progression tools",
+      "Train the whole body before chasing isolation",
+      "Recognize the four most common bodyweight-strength errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The five loaded patterns",
+        "caption": "Strength is the five patterns under load. Progress each by leverage, then reps, then tempo, then external weight - in that order.",
+        "labels": [
+          "Squat: knees and hips together",
+          "Hinge: hips back, spine long",
+          "Push: away from the body",
+          "Pull: toward the body",
+          "Carry: load held while moving"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Patterns, not muscles",
+        "content": "The body does not think in biceps and quads; it thinks in movements. Squat, hinge, push, pull and carry cover nearly everything useful, and training the patterns - not isolated muscles - builds strength that transfers to sport, lifting and daily life. A push-up is a pattern, not a chest exercise; a row is a pattern, not a back exercise. Organize training around the five and the muscles take care of themselves."
+      },
+      {
+        "title": "Leverage before load",
+        "content": "Bodyweight progressions are governed by leverage, not by adding plates. Make a push-up harder by moving your hands narrower or elevating the feet, not by strapping on weight; make a squat harder by slowing it or going deeper before you ever load a bar. Changing the angle changes the demand on the same pattern with zero equipment and far less injury risk than jumping to external load too soon."
+      },
+      {
+        "title": "Tempo, range, then weight",
+        "content": "Once leverage is dialed, the next levers are tempo and range. A slow eccentric (the lowering phase) and a full, controlled range build strength and tendon resilience that fast, partial reps do not. Only after you own the pattern at full range with honest tempo do you add external load. This order - leverage, reps, tempo/range, then weight - is why bodyweight training scales from beginner to advanced without ever needing a gym."
+      }
+    ],
+    "principles": [
+      "Train the five movement patterns, not isolated muscles.",
+      "Progress by leverage first, then reps, then tempo and range, then external load.",
+      "Full range and controlled tempo beat fast partial reps.",
+      "Whole-body pattern work transfers; isolation is a finisher, not the base."
+    ],
+    "mistakes": [
+      {
+        "title": "Adding weight before owning leverage",
+        "explanation": "Loading a pattern you cannot control at full range invites injury. Master the bodyweight version first."
+      },
+      {
+        "title": "Partial range for ego reps",
+        "explanation": "Short, fast reps build less strength and less resilience than full, controlled ones."
+      },
+      {
+        "title": "Chasing isolation",
+        "explanation": "Muscle-by-muscle training wastes the transfer that pattern work provides; isolate only after the base."
+      },
+      {
+        "title": "Skipping the carry",
+        "explanation": "Carries build the bracing and grip the other four patterns depend on; neglecting them leaves a gap."
+      }
+    ],
+    "practice": [
+      "Pick one drill per pattern: squat, hinge (e.g. glute bridge), push (push-up), pull (row or dead-hang), carry (farmer hold).",
+      "Perform 3 rounds of 5-8 clean reps each at full range.",
+      "Slow the lowering phase to 3 seconds before adding any rep.",
+      "Only change leverage (angle, elevation) once tempo and range are owned.",
+      "Track which pattern lags and give it the extra set next session."
+    ],
+    "reflection": "Which of the five patterns is weakest for you, and have you been adding load before mastering leverage and range?",
+    "safety": "Stop any pattern that produces joint pain or loss of form; regress the leverage rather than pushing through. Build base capacity before external load, and consult a professional for existing injuries.",
+    "quiz": [
+      {
+        "question": "The correct progression order for bodyweight strength is:",
+        "options": [
+          "Add weight, then fix range",
+          "Leverage, then reps, then tempo/range, then external load",
+          "Isolate muscles first",
+          "Speed before control"
+        ],
+        "answer": 1,
+        "explanation": "Changing angle/leverage is the first, safest lever; load comes only after the pattern is owned at full range with honest tempo."
+      },
+      {
+        "question": "Why train patterns instead of isolated muscles?",
+        "options": [
+          "It is faster",
+          "Patterns build strength that transfers to sport and life; isolation is only a finisher",
+          "Muscles do not matter",
+          "It looks impressive"
+        ],
+        "answer": 1,
+        "explanation": "The body moves in patterns; organizing around the five develops transferable strength that isolation cannot."
+      }
+    ],
+    "mastery": [
+      "Name a bodyweight drill for each of the five patterns.",
+      "Progress a pattern by leverage before adding load.",
+      "Control tempo and full range before increasing difficulty.",
+      "Identify and correct the four common bodyweight-strength errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Push-ups feel easy but you want more.",
+          "action": "You narrow the hand position or elevate the feet (leverage) before adding a vest or plate.",
+          "why": "Leverage raises the demand on the same pattern safely, building control before external load."
+        },
+        {
+          "setup": "Your squat is weak at the bottom.",
+          "action": "You slow the descent and sit to full depth with control before loading a bar.",
+          "why": "Full range and tempo build the strength and tendon resilience that partial, fast reps skip."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Pattern-based bodyweight training builds transferable, equipment-light strength that scales for years."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with strong patterns moves, lifts and resists injury with far more capacity than an isolation-trained one."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "A pattern that lags",
+          "Loss of form or range",
+          "Urge to add load too soon"
+        ],
+        "adjustments": [
+          {
+            "if": "Form breaks at the end of a set",
+            "then": "Regress the leverage or cut reps; quality sets beat sloppy maxes."
+          },
+          {
+            "if": "A pattern is clearly weaker",
+            "then": "Give it an extra set and prioritize it while fresh."
+          }
+        ],
+        "learning": "Each week, note which pattern progressed and which lever (leverage, reps, tempo, range) you used."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Five-Pattern Circuit",
+      "workTime": 40,
+      "restTime": 20,
+      "totalIntervals": 5
+    }
+  },
+  "training-strength-core": {
+    "id": "training-strength-core",
+    "subject": "Training",
+    "title": "Core Control",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Train the core as a transfer and anti-motion system - resisting extension, rotation and side-bend - rather than as a crunch machine.",
+    "objectives": [
+      "Understand the core as a force-transfer column, not just abs",
+      "Train the three anti-motions: anti-extension, anti-rotation, anti-lateral-flexion",
+      "Brace with breath and tension instead of hollowing",
+      "Carry core control into squats, carries and strikes",
+      "Recognize the four most common core errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The core as a transfer column",
+        "caption": "The core job is to resist unwanted motion and transfer force between halves. Train anti-extension, anti-rotation and anti-lateral-flexion.",
+        "labels": [
+          "Anti-extension: resist arching (plank, hollow)",
+          "Anti-rotation: resist twisting (pallof, dead-bug)",
+          "Anti-lateral-flexion: resist side-bend (suitcase carry)",
+          "Transfer: link lower and upper force"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A column, not a crunch",
+        "content": "The core is the segment between your hips and shoulders, and its real job is to stay rigid enough to transfer force from the legs through the trunk to the arms - and to resist being bent, twisted or arched by outside loads. Crunches train the abs to flex the spine, which is almost never what sport or lifting demands. The useful work is the opposite: learning to prevent motion. That is why planks, carries, dead-bugs and Pallof presses build a core that actually performs."
+      },
+      {
+        "title": "The three anti-motions",
+        "content": "Every meaningful core drill fights one of three forces. Anti-extension stops the lower back from arching under load (the plank and hollow body). Anti-rotation stops the torso from twisting when a force pulls it off-axis (the Pallof press, the dead-bug). Anti-lateral-flexion stops the spine from side-bending when a load hangs on one side (the suitcase carry). Train all three and the core becomes a stable column in every plane, not just a front wall."
+      },
+      {
+        "title": "Brace, don't hollow",
+        "content": "A common cue, pull your belly button in, teaches hollowing - a passive suction that does little under real load. The athletic skill is bracing: a 360-degree expansion of the ribcage and belly against an incoming force, locked with a short breath-hold, the way you stiffen before being tapped on the stomach. Bracing protects the spine and transfers power; hollowing neither. Learn to brace first, then hold it through movement."
+      }
+    ],
+    "principles": [
+      "The core transfers force and resists motion; it is a column, not a crunch.",
+      "Train anti-extension, anti-rotation and anti-lateral-flexion.",
+      "Brace with 360-degree tension and breath, not passive hollowing.",
+      "Core control only counts if it carries into squats, carries and strikes."
+    ],
+    "mistakes": [
+      {
+        "title": "Living in crunches",
+        "explanation": "Flexing the spine repeatedly trains the wrong job; the core must resist motion, not create it."
+      },
+      {
+        "title": "Hollowing instead of bracing",
+        "explanation": "Belly-button suction is passive and useless under load; learn 360-degree bracing."
+      },
+      {
+        "title": "Training only the front",
+        "explanation": "Ignoring anti-rotation and anti-side-bend leaves the column unstable in the planes that matter."
+      },
+      {
+        "title": "Holding breath to the point of strain",
+        "explanation": "A brace uses a brief, controlled breath-hold; straining against a sealed airway spikes pressure dangerously."
+      }
+    ],
+    "practice": [
+      "Plank (anti-extension): 3 x 20-30s, ribs down, glutes engaged.",
+      "Dead-bug or Pallof press (anti-rotation): 3 x 6-8 slow reps each side.",
+      "Suitcase carry (anti-lateral-flexion): 3 x 20-30m, load in one hand, stay tall.",
+      "Brace drill: expand 360 degrees against your own hands, hold 5s, x5.",
+      "Re-test a squat or push and feel the transfer the brace provides."
+    ],
+    "reflection": "Do you brace with 360-degree tension or just suck in? Can you hold the brace through a carry without the spine side-bending?",
+    "safety": "Do not hold breath to the point of straining, especially with high blood pressure; brace with a short, controlled hold. Stop on sharp spinal pain and regress the load.",
+    "quiz": [
+      {
+        "question": "The core primary athletic job is to:",
+        "options": [
+          "Flex the spine in crunches",
+          "Transfer force and resist unwanted motion",
+          "Look defined",
+          "Hold maximum breath"
+        ],
+        "answer": 1,
+        "explanation": "The core is a column that links lower and upper force and fights extension, rotation and side-bend - not a flexor."
+      },
+      {
+        "question": "Bracing differs from hollowing because bracing:",
+        "options": [
+          "Sucks the belly in passively",
+          "Expands 360 degrees against load with a short breath-hold",
+          "Arch the back",
+          "Is only for rest"
+        ],
+        "answer": 1,
+        "explanation": "Bracing is active 360-degree tension that protects the spine and transfers power; hollowing is passive and useless under load."
+      }
+    ],
+    "mastery": [
+      "Demonstrate the three anti-motions with clean form.",
+      "Brace with 360-degree tension, not hollowing.",
+      "Carry the brace into a squat, carry and strike.",
+      "Identify and correct the four common core errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your lower back arches under a heavy carry.",
+          "action": "You brace 360 degrees and train anti-extension planks and suitcase carries.",
+          "why": "The arch is an anti-extension failure; resisting it builds the column that protects the spine under load."
+        },
+        {
+          "setup": "A punch or push loses power through the middle.",
+          "action": "You add anti-rotation work (Pallof, dead-bug) to stop the torso leaking force.",
+          "why": "Force generated by the legs escapes through a soft, rotating core; anti-rotation plugs the leak."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A braced, anti-motion core transfers every ounce of leg force upward and shields the spine."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with true core control absorbs off-axis force without collapsing or twisting."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Spine arching or side-bending",
+          "Breath held to strain",
+          "Force leaking through the torso"
+        ],
+        "adjustments": [
+          {
+            "if": "The back arches",
+            "then": "Regress the load and drill anti-extension planks first."
+          },
+          {
+            "if": "You strain the breath",
+            "then": "Shorten the hold and relearn a controlled 360 brace."
+          }
+        ],
+        "learning": "After each session, note which anti-motion lagged and whether the brace carried into your main lifts or strikes."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Brace Holds",
+      "initialTime": 30
+    }
+  },
+  "training-strength-quality": {
+    "id": "training-strength-quality",
+    "subject": "Training",
+    "title": "Movement Quality",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Screen for asymmetry and control before load, regress faulty patterns, and understand that training a bad pattern faster only entrenches it.",
+    "objectives": [
+      "Screen basic patterns for asymmetry and control before loading",
+      "Prioritize control and range before speed or load",
+      "Use regression as a tool, not a failure",
+      "Recognize that rehearsing a faulty pattern entrenches it",
+      "Identify the four most common quality errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The quality hierarchy",
+        "caption": "Build in order: control, then range, then load, then speed. Skipping a level and training a faulty pattern faster only wires the fault deeper.",
+        "labels": [
+          "1. Control: own the position",
+          "2. Range: full, symmetrical motion",
+          "3. Load: add resistance",
+          "4. Speed: only after the base is clean"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Screen before you load",
+        "content": "Before adding weight or intensity, look at the pattern unloaded: can you squat to depth with heels down and a tall torso? Can you reach overhead without the ribs flaring or one side lagging? A simple screen exposes asymmetries and compensations that load will magnify. The rule is blunt: never load a movement you do not control, because the weight does not fix the fault - it just makes the fault stronger and more ingrained."
+      },
+      {
+        "title": "Control, range, load, speed - in that order",
+        "content": "Quality has a hierarchy and you climb it from the bottom. First control: hold the position cleanly with no wobble. Then range: move through the full, symmetrical span. Only then load: add resistance while the first two stay intact. Speed comes last, and only once the pattern is automatic and clean. Most injuries and plateaus come from reversing this - chasing load or speed on a base that was never controlled."
+      },
+      {
+        "title": "Regression is a tool, not a demotion",
+        "content": "When a pattern breaks down, the skilled move is to regress - shorten the range, drop the load, slow the tempo, change the leverage - until control returns, then rebuild. Beginners read regression as failure and push through the fault instead. But rehearsing a bad pattern a hundred times at full load simply wires the compensation into habit. The athlete who regresses today owns the pattern next month; the one who grinds through it owns an injury."
+      }
+    ],
+    "principles": [
+      "Never load a pattern you cannot control unloaded.",
+      "Climb the hierarchy in order: control, range, load, speed.",
+      "Regression is a deliberate tool, not a failure.",
+      "Rehearsing a faulty pattern faster entrenches the fault."
+    ],
+    "mistakes": [
+      {
+        "title": "Loading before controlling",
+        "explanation": "Adding weight to a shaky pattern magnifies the compensation and courts injury."
+      },
+      {
+        "title": "Chasing speed on a weak base",
+        "explanation": "Fast reps on an uncontrolled pattern wire the fault deeper; speed is the last rung."
+      },
+      {
+        "title": "Seeing regression as failure",
+        "explanation": "Pushing through a breakdown instead of regressing turns a fixable fault into a habit."
+      },
+      {
+        "title": "Ignoring asymmetry",
+        "explanation": "One side lagging is data; training through it bakes the imbalance in."
+      }
+    ],
+    "practice": [
+      "Screen unloaded: squat, overhead reach, hinge, single-leg balance; note asymmetries.",
+      "Pick the weakest pattern and regress it (shorter range, slower tempo, no load).",
+      "Rebuild through the hierarchy: control, then full range, then light load.",
+      "Film or feel one rep at each level before advancing.",
+      "Add speed only after the loaded pattern stays clean under fatigue."
+    ],
+    "reflection": "Which pattern breaks down first under load, and have you been regressing it or grinding through the fault?",
+    "safety": "Pain is a stop signal, not a plateau; regress immediately. Screen conservatively and consult a professional for persistent asymmetry or pain rather than self-loading a faulty pattern.",
+    "quiz": [
+      {
+        "question": "The correct order of the quality hierarchy is:",
+        "options": [
+          "Speed, load, range, control",
+          "Control, range, load, speed",
+          "Load, control, speed, range",
+          "Range, speed, control, load"
+        ],
+        "answer": 1,
+        "explanation": "You own the position, then the full range, then add load, and only then speed; reversing it entrenches faults."
+      },
+      {
+        "question": "Why is regression a tool rather than a failure?",
+        "options": [
+          "It is easier",
+          "Rehearsing a faulty pattern faster wires it deeper; regressing restores control to rebuild",
+          "It avoids all work",
+          "It impresses coaches"
+        ],
+        "answer": 1,
+        "explanation": "Dropping back to a controlled version fixes the base; grinding through the fault at full load makes the compensation habitual."
+      }
+    ],
+    "mastery": [
+      "Screen a pattern unloaded and name its asymmetry.",
+      "Regress a faulty pattern and rebuild through the hierarchy.",
+      "Add load only after control and range are clean.",
+      "Identify and correct the four common quality errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your squat caves at the knee under the bar.",
+          "action": "You unload, regress to a controlled bodyweight squat to depth, then rebuild load slowly.",
+          "why": "Loading the cave entrenches it; regressing to control fixes the base before weight returns."
+        },
+        {
+          "setup": "One shoulder rises on overhead presses.",
+          "action": "You screen, drop the load, and train the lagging side through full range first.",
+          "why": "Asymmetry is data; training through it bakes the imbalance, while regressing restores symmetry."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Quality-first training builds durable, symmetrical patterns that hold up under load and fatigue."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with clean mechanics wastes no force and resists the injuries that faulty patterns invite."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "A pattern breaking under load",
+          "Visible asymmetry",
+          "Urge to push through a fault"
+        ],
+        "adjustments": [
+          {
+            "if": "Form fails mid-set",
+            "then": "End the set and regress the next one; do not grind the fault."
+          },
+          {
+            "if": "One side lags",
+            "then": "Lead with the weak side and match the strong side reps."
+          }
+        ],
+        "learning": "After each session, note which pattern you regressed and whether control returned before you reloaded."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Quality Reps",
+      "targetReps": 10
+    }
+  },
+  "breathing-control-ratio": {
+    "id": "breathing-control-ratio",
+    "subject": "Breathing",
+    "title": "Breath Ratios",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Use the ratio of inhale to exhale to set your autonomic tone: equal counts for balance, a longer exhale to calm, a longer inhale to energize, with holds to deepen control.",
+    "objectives": [
+      "Understand that the inhale:exhale ratio tunes the nervous system",
+      "Practice a balanced 4-4-4-4 box breath with holds",
+      "Shift toward calm by lengthening the exhale past the inhale",
+      "Keep the breath smooth and unforced at any ratio",
+      "Recognize the four most common ratio errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Box breathing: 4-4-4-4",
+        "caption": "Inhale 4, hold 4, exhale 4, hold 4. The holds train control without strain; keep every edge smooth. Watch the chest and belly move with the cycle.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Hold",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 6,
+            "chest": 0
+          },
+          {
+            "label": "Hold",
+            "duration": 4,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Ratio is a dial, not a rule",
+        "content": "The breath responds to intention in a measurable way: a longer exhale nudges you toward the calming parasympathetic side, a longer inhale toward the alert sympathetic side, and equal counts toward steady balance. You are not forcing health with a magic number; you are turning a dial. The exact counts matter far less than the consistency and the smoothness of the transitions between them."
+      },
+      {
+        "title": "The box: 4-4-4-4",
+        "content": "Box breathing adds two holds around the classic inhale-exhale, giving the nervous system four equal walls to rest on. Inhale for four, hold for four, exhale for four, hold for four. The holds are not breath-suppression contests; they are gentle pauses where attention stabilizes. If four is too long at first, use three everywhere and keep the shape equal."
+      },
+      {
+        "title": "Choosing your ratio",
+        "content": "Before sleep or after stress, bias the exhale longer than the inhale (for example 4 in, 6 or 8 out) to down-regulate. Before training or when flat, a slightly longer inhale or a brisker box can lift alertness. In all cases the breath stays nasal, smooth, and unstrained; a ratio that makes you gasp or grip is the wrong ratio for this moment, whatever the book says."
+      }
+    ],
+    "principles": [
+      "The inhale:exhale ratio tunes autonomic tone: long exhale calms, long inhale energizes, equal balances.",
+      "Holds deepen control but must stay gentle, never suppressed.",
+      "Smooth, nasal, unforced breathing beats any exact count.",
+      "Match the ratio to the goal of the moment, not to a fixed prescription."
+    ],
+    "mistakes": [
+      {
+        "title": "Gripping the hold",
+        "explanation": "Holding by clenching the throat or belly creates strain and CO2 panic. Hold softly, with the body relaxed."
+      },
+      {
+        "title": "Chasing a number",
+        "explanation": "Insisting on 4-4-4-4 when three suits you today makes the breath ragged. Keep the shape, adjust the size."
+      },
+      {
+        "title": "Forcing a long exhale into air-hunger",
+        "explanation": "An over-long exhale that leaves you gasping reverses the calm. Shorten until it is effortless."
+      },
+      {
+        "title": "Mouth-breathing the ratio",
+        "explanation": "Mouth breathing bypasses the nose filtering and calming reflexes. Keep it nasal throughout."
+      }
+    ],
+    "practice": [
+      "Settle into a comfortable seat and breathe normally for one minute.",
+      "Run the box: inhale 4, hold 4, exhale 4, hold 4, for ten cycles.",
+      "Switch to a calming ratio (4 in, 6 out) for ten cycles and note the shift.",
+      "Keep the jaw, shoulders and belly soft through every edge.",
+      "End by returning to natural breath and observing the after-effect."
+    ],
+    "reflection": "Which ratio changed your state most today, and could you keep the breath smooth while holding, or did you grip?",
+    "safety": "Stop if you feel dizzy, anxious, or air-hungry; return to natural breathing. Avoid long holds with uncontrolled hypertension, epilepsy, panic disorder, or during pregnancy unless guided by a qualified teacher.",
+    "quiz": [
+      {
+        "question": "To bias the body toward calm, you should:",
+        "options": [
+          "Lengthen the inhale",
+          "Lengthen the exhale past the inhale",
+          "Hold the breath as long as possible",
+          "Breathe through the mouth"
+        ],
+        "answer": 1,
+        "explanation": "A longer exhale than inhale nudges the parasympathetic (calming) side; the ratio is a dial, not a fixed number."
+      },
+      {
+        "question": "The holds in box breathing are meant to:",
+        "options": [
+          "Build CO2 tolerance by force",
+          "Give attention gentle, stable pauses",
+          "Impress a tracker",
+          "Replace the exhale"
+        ],
+        "answer": 1,
+        "explanation": "Holds stabilize attention when kept soft; clenching them creates strain and defeats the purpose."
+      }
+    ],
+    "mastery": [
+      "Run a smooth 4-4-4-4 box for ten cycles without gripping.",
+      "Deliberately shift tone with a longer-exhale ratio.",
+      "Keep every transition nasal and unforced.",
+      "Identify and correct the four common ratio errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You are wired before bed.",
+          "action": "You run 4-in / 6-out nasal breathing for ten slow cycles, softening the jaw.",
+          "why": "The longer exhale turns the calming dial and the soft hold keeps it from becoming a strain contest."
+        },
+        {
+          "setup": "You feel flat before a session.",
+          "action": "You run an even box (4-4-4-4) for a few rounds to steady and wake attention.",
+          "why": "Equal walls stabilize focus and the gentle holds sharpen control without over-stimulating."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Ratio work gives you a portable dial for state: calm, balance, or alert, chosen in seconds."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who controls ratio stays composed under pressure instead of defaulting to shallow stress breathing."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Air-hunger or gasping",
+          "Gripping the hold",
+          "Jaw or shoulder tension"
+        ],
+        "adjustments": [
+          {
+            "if": "You gasp after the exhale",
+            "then": "Shorten the exhale until the next inhale is effortless."
+          },
+          {
+            "if": "The hold feels tight",
+            "then": "Halve the hold count and keep the body relaxed."
+          }
+        ],
+        "learning": "After each set, note the ratio you used, the state it produced, and whether the breath stayed smooth."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Ratio Practice",
+      "initialTime": 300
+    }
+  },
+  "breathing-control-retention": {
+    "id": "breathing-control-retention",
+    "subject": "Breathing",
+    "title": "Breath Retention",
+    "level": "Intermediate",
+    "duration": "12 min",
+    "description": "Add intentional pauses after the inhale and after the exhale to deepen control and CO2 tolerance, with strict safety so retention never becomes strain.",
+    "objectives": [
+      "Understand antara (post-inhale) and bahir (post-exhale) retention",
+      "Hold with a relaxed body, not a clenched one",
+      "Build retention gradually without air-hunger panic",
+      "Know the contraindications that make retention unsafe",
+      "Recognize the four most common retention errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Retention: hold after inhale and exhale",
+        "caption": "Inhale, hold full, exhale, hold empty. Both holds stay soft. If either edge strains, shorten it. Watch the pause as a place of control, not force.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Hold full",
+            "duration": 6,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 4,
+            "chest": 0
+          },
+          {
+            "label": "Hold empty",
+            "duration": 2,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two kinds of pause",
+        "content": "Retention (kumbhaka) comes in two flavors: antara, the hold with the lungs full after an inhale, and bahir, the hold with the lungs empty after an exhale. Full holds train expansion and calm; empty holds train CO2 tolerance and the ability to stay composed when the body whispers for air. Neither is a contest of who can suffer longest; both are studies in staying relaxed at the edge of the urge to breathe."
+      },
+      {
+        "title": "Relaxed, not clenched",
+        "content": "The single most important rule: a hold is kept with the throat, jaw, chest and belly open, not sealed shut. Clenching to extend the hold spikes pressure, triggers panic, and teaches the nervous system that breathlessness equals danger - the opposite of the goal. You hold until the first clear urge to breathe, then release smoothly. Comfort is the ceiling; the moment you grip, you have gone too far for today."
+      },
+      {
+        "title": "Build slowly, respect the limits",
+        "content": "Progression is measured in seconds added over weeks, not dramatic jumps. Add one second to a hold only when the current length feels easy and calm. And retention is not for everyone: uncontrolled high blood pressure, epilepsy, panic disorder, recent chest or abdominal surgery, hernia, and pregnancy are reasons to skip holds entirely or work only under a qualified teacher. The calm you seek is available in ratio and awareness work without any hold at all."
+      }
+    ],
+    "principles": [
+      "Antara holds the lungs full; bahir holds them empty; both train composure at the edge.",
+      "Hold with an open, relaxed body - never a clenched one.",
+      "Release at the first clear urge; comfort is the ceiling.",
+      "Respect contraindications; retention is optional, not mandatory."
+    ],
+    "mistakes": [
+      {
+        "title": "Clenching to extend the hold",
+        "explanation": "Sealing the throat and belly spikes pressure and panic. Keep everything open and release earlier."
+      },
+      {
+        "title": "Chasing long holds fast",
+        "explanation": "Big jumps teach the body that breathlessness is threat. Add seconds only when calm."
+      },
+      {
+        "title": "Holding through dizziness",
+        "explanation": "Dizziness is a stop signal, not a plateau. End the hold and breathe normally."
+      },
+      {
+        "title": "Ignoring contraindications",
+        "explanation": "Retention is unsafe with certain conditions; skipping holds loses nothing essential."
+      }
+    ],
+    "practice": [
+      "Warm up with five easy natural breaths.",
+      "Inhale comfortably, hold full for a count that stays relaxed, exhale.",
+      "Exhale, hold empty briefly with an open body, inhale.",
+      "Repeat for six to eight cycles, keeping every hold soft.",
+      "Stop the moment the first real urge to breathe arrives."
+    ],
+    "reflection": "Could you hold with a fully relaxed body, or did you clench as the urge rose? Where is your comfortable edge today?",
+    "safety": "Never practice retention lying in water or while driving. Skip holds entirely with uncontrolled hypertension, epilepsy, panic disorder, hernia, recent thoracic/abdominal surgery, or during pregnancy unless supervised by a qualified teacher. Stop immediately on dizziness, chest pain, or panic.",
+    "quiz": [
+      {
+        "question": "The defining rule of a safe retention is:",
+        "options": [
+          "Hold as long as humanly possible",
+          "Keep the body relaxed and release at the first urge",
+          "Clench the core to protect the lungs",
+          "Always hold empty, never full"
+        ],
+        "answer": 1,
+        "explanation": "A hold is kept open and released at the first clear urge; clenching turns calm training into a threat response."
+      },
+      {
+        "question": "Between antara and bahir, the post-exhale (empty) hold primarily trains:",
+        "options": [
+          "Lung expansion",
+          "CO2 tolerance and composure when air-hungry",
+          "Maximum hold time",
+          "Mouth breathing"
+        ],
+        "answer": 1,
+        "explanation": "The empty hold builds tolerance to the urge to breathe while staying calm; the full hold trains expansion and ease."
+      }
+    ],
+    "mastery": [
+      "Hold full and empty with a relaxed, open body.",
+      "Release at the first clear urge without panic.",
+      "Progress holds by single seconds over weeks.",
+      "Identify and correct the four common retention errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You want to deepen calm without strain.",
+          "action": "You add a short, soft full hold (antara) after a comfortable inhale, releasing early.",
+          "why": "A gentle full hold expands the chest and steadies attention without triggering the threat response."
+        },
+        {
+          "setup": "The urge to breathe rises during an empty hold.",
+          "action": "You keep the jaw and belly open and release at the first clear signal.",
+          "why": "Staying relaxed at the edge is the actual training; gripping past it teaches the body that breathlessness is danger."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Retention, done softly, builds the composure to stay calm when the body asks for air."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with trained retention keeps steady under breathlessness instead of panicking."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Clenching the throat or belly",
+          "Dizziness or panic",
+          "Urge arriving earlier than expected"
+        ],
+        "adjustments": [
+          {
+            "if": "You clench",
+            "then": "Shorten the hold and reopen the body before the urge peaks."
+          },
+          {
+            "if": "Dizzy or panicky",
+            "then": "End retention for the session and return to natural breath."
+          }
+        ],
+        "learning": "After each set, note the longest hold you kept fully relaxed, and whether any clenching appeared."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Retention Set",
+      "initialTime": 240
+    }
   }
 }
