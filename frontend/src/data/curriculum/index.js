@@ -478,6 +478,37 @@ export default {
           ]
         }
       }
+    },
+    "bjj": {
+      "name": "Brazilian Jiu-Jitsu",
+      "icon": "🤼",
+      "description": "Explore grappling concepts, positions, control and movement.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the BJJ base: position hierarchy, hip escapes and guard play.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "BJJ Foundations",
+              "lessons": [
+                {
+                  "id": "bjj-foundations-positions",
+                  "title": "The Position Hierarchy"
+                },
+                {
+                  "id": "bjj-foundations-movement",
+                  "title": "Hip Escapes: Shrimp & Bridge"
+                },
+                {
+                  "id": "bjj-foundations-guard",
+                  "title": "Playing Guard"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };

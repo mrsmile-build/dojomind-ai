@@ -16611,5 +16611,464 @@ export const lessons = {
       "label": "Throw Reps",
       "targetReps": 10
     }
+  },
+  "bjj-foundations-positions": {
+    "id": "bjj-foundations-positions",
+    "subject": "Brazilian Jiu-Jitsu",
+    "title": "The Position Hierarchy",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Understand BJJ as a ladder of positions - guard, side control, mount, back control - where each rung increases control, and position always comes before submission.",
+    "objectives": [
+      "Name the main positions and rank them by control",
+      "Understand why position precedes submission",
+      "Recognize which positions favor top versus bottom",
+      "Use the hierarchy to choose what to improve next",
+      "Recognize the four most common position errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The position ladder",
+        "caption": "Control increases up the ladder: guard is shared control, side control and mount are top dominance, back control is the highest. Every submission hunt starts from a rung you actually hold.",
+        "labels": [
+          "Guard: bottom player controls posture and distance",
+          "Side control: top player passes the legs and pins the torso",
+          "Mount: top player sits on the torso - strikes and submissions open",
+          "Back control: highest rung - hooks and seatbelt control",
+          "Rule: position before submission, always"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A ladder, not a scramble",
+        "content": "Beginners experience BJJ as a chaotic scramble; practitioners experience it as a ladder. Each position - guard, side control, mount, back control - is a rung with a measurable amount of control, and the whole game is climbing rungs while denying the opponent the same. Knowing the ladder turns every exchange into a simple question: which rung am I on, and what is the next one? That question replaces panic with plan, and it is the first real understanding of the art."
+      },
+      {
+        "title": "Position before submission",
+        "content": "The most repeated maxim in BJJ is also the most violated by beginners: position before submission. A submission attempt from a weak position usually costs the position - and then the fight. An armbar from mount is high-percentage because the mount already controls the body; the same armbar from a loose guard against a postured opponent is a gift of top position. The discipline is to secure and stabilize the rung first, then hunt. Submissions are the fruit of position, never a substitute for it."
+      },
+      {
+        "title": "Top and bottom are different games",
+        "content": "The hierarchy is not simply 'top good, bottom bad.' The guard is a genuine control position for the bottom player - legs and grips managing posture and distance - and many players prefer it. Side control and mount favor the top player with pressure and submission access; the back favors whoever holds the seatbelt and hooks regardless of orientation. Understanding which side each rung favors tells you what to want: from bottom guard you seek sweeps or attacks, from bottom side control you seek escapes, and conflating the two games is how beginners waste energy fighting the wrong battle."
+      }
+    ],
+    "principles": [
+      "BJJ is a ladder of positions ranked by control.",
+      "Position before submission: stabilize the rung, then hunt.",
+      "Guard is real control for the bottom player, not a failure.",
+      "Know which side each position favors and fight that game."
+    ],
+    "mistakes": [
+      {
+        "title": "Hunting submissions from weak positions",
+        "explanation": "A submission attempt that loses the position loses the fight. Secure the rung first."
+      },
+      {
+        "title": "Treating guard as losing",
+        "explanation": "Guard is a control position with its own attacks and sweeps; panicking from guard wastes it."
+      },
+      {
+        "title": "Fighting the wrong game from a position",
+        "explanation": "From bottom side control the job is escape, not submission; know what each rung wants."
+      },
+      {
+        "title": "Skipping stabilization after a sweep or pass",
+        "explanation": "Winning a position and not stabilizing it hands it straight back. Settle before advancing."
+      }
+    ],
+    "practice": [
+      "Name the ladder aloud: guard, side control, mount, back - and what each favors.",
+      "Drill position recognition: partner places you, you name the rung and its goal, 10 reps.",
+      "From each rung, practice stabilizing 10 seconds before any attack.",
+      "Practice one escape from side control and one sweep from guard, 5 reps each.",
+      "Roll at 50% with the only goal: improve one rung per exchange."
+    ],
+    "reflection": "In your last roll, did you know which rung you were on and what it wanted, or were you scrambling without a plan?",
+    "safety": "Train positions and escapes with control; tap early to submissions. Stop on neck, finger or joint pain and reduce intensity.",
+    "quiz": [
+      {
+        "question": "The highest-control rung of the BJJ ladder is:",
+        "options": [
+          "Guard",
+          "Side control",
+          "Mount",
+          "Back control"
+        ],
+        "answer": 3,
+        "explanation": "Back control with seatbelt and hooks offers the most control and submission access, above even mount."
+      },
+      {
+        "question": "'Position before submission' means:",
+        "options": [
+          "Never submit",
+          "Stabilize and control the position before hunting a submission",
+          "Submissions are illegal",
+          "Only top players submit"
+        ],
+        "answer": 1,
+        "explanation": "Submissions succeed from controlled positions; hunting from weak rungs usually costs the position and the fight."
+      }
+    ],
+    "mastery": [
+      "Name and rank the main positions by control.",
+      "Explain why position precedes submission.",
+      "Identify which side each position favors and its goal.",
+      "Identify and correct the four common position errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You get swept while hunting an armbar from guard.",
+          "action": "You recognize the hunt cost the position and re-establish guard control before attacking again.",
+          "why": "Position first: a stabilized guard attacks far more often than a collapsing one."
+        },
+        {
+          "setup": "You pass to side control and immediately lunge for a choke.",
+          "action": "You settle, control the hips and shoulders, then advance or attack from stability.",
+          "why": "Stabilizing the new rung prevents the immediate escape and makes the attack high-percentage."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The ladder gives every exchange a plan: improve one rung, stabilize, repeat."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who knows the hierarchy is hard to scramble; they always want the next rung, not a miracle."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hunting from weak rungs",
+          "Panicking in guard",
+          "Not stabilizing wins"
+        ],
+        "adjustments": [
+          {
+            "if": "You lose position attacking",
+            "then": "Add a stabilization beat before every hunt."
+          },
+          {
+            "if": "You panic from bottom",
+            "then": "Name the rung and its goal aloud; plan replaces panic."
+          }
+        ],
+        "learning": "After each roll, note the rungs you held, lost and improved, and whether attacks came from stability."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Position Holds",
+      "initialTime": 60
+    }
+  },
+  "bjj-foundations-movement": {
+    "id": "bjj-foundations-movement",
+    "subject": "Brazilian Jiu-Jitsu",
+    "title": "Hip Escapes: Shrimp & Bridge",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build BJJ's engine: the shrimp (hip escape) that creates space from underneath, the bridge (upa) that off-balances the top player, and the technical stand-up that gets you to your feet safely.",
+    "objectives": [
+      "Shrimp to move the hips out and create space under pressure",
+      "Bridge to lift and off-balance a top player",
+      "Use the technical stand-up to rise safely from the ground",
+      "Chain hip movement into escapes and recoveries",
+      "Recognize the four most common movement errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The ground movement toolkit",
+        "caption": "BJJ movement is hip movement. The shrimp slides the hips out to rebuild guard; the bridge lifts and tips the top player; the technical stand-up rises with protection. Strength follows these, never replaces them.",
+        "labels": [
+          "Shrimp: turn to the side, push hips out, recover the legs",
+          "Bridge (upa): drive hips high to off-balance and tip",
+          "Technical stand-up: one hand and opposite foot, rise protected",
+          "Chain them: bridge to create the moment, shrimp to use it",
+          "Hips first, arms second - always"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The hips are the engine",
+        "content": "On the ground, arms and legs are levers but the hips are the engine. Nearly every escape and recovery in BJJ begins with hip movement: the shrimp slides the hips out from under pressure so the legs can return to guard; the bridge drives the hips up to lift and tip a top player; even standing up safely is a hip-driven motion. A beginner who tries to escape with arm strength pushes a heavier opponent off their own hips and stays stuck; a beginner who moves the hips first finds that space appears almost for free."
+      },
+      {
+        "title": "Shrimp: creating space from nothing",
+        "content": "The shrimp (hip escape) looks small and feels enormous under pressure. Lying on your side, you push the hips out and away, turning the body into a wedge that slides your knees back between you and the opponent. That recovered space is guard, is breath, is the chance to work. The details matter: turn fully to the side, drive off the feet, and move the hips before the legs. Practiced thousands of times as a warm-up, the shrimp becomes the reflex that saves you when a pass is landing."
+      },
+      {
+        "title": "Bridge and technical stand-up",
+        "content": "The bridge (upa) is the other half of the engine: feet close to the hips, drive the pelvis high and tip the top player toward the side you trapped an arm or leg. It is the core of the classic side-control and mount escapes. And when the chance to rise appears, the technical stand-up gets you there protected - one hand posted behind, opposite foot under you, hips lifting as you turn to your feet with the free hand guarding. Together, bridge-shrimp-stand-up form the movement alphabet every escape sentence is written with."
+      }
+    ],
+    "principles": [
+      "Hip movement is the engine of every escape and recovery.",
+      "The shrimp creates space; the bridge off-balances and tips.",
+      "Technical stand-up rises protected, not exposed.",
+      "Chain bridge into shrimp into recovery; hips first, arms second."
+    ],
+    "mistakes": [
+      {
+        "title": "Escaping with arm strength",
+        "explanation": "Pushing with arms against a heavier top player fails and tires you. Move the hips first; space follows."
+      },
+      {
+        "title": "Shrimping flat on the back",
+        "explanation": "The shrimp needs a full turn to the side; flat on the back the hips cannot slide. Turn, then push."
+      },
+      {
+        "title": "Bridging without a trapped side",
+        "explanation": "A bridge with nothing trapped just lifts the opponent evenly. Trap an arm or leg, then tip to that side."
+      },
+      {
+        "title": "Standing up straight into pressure",
+        "explanation": "Rising face-first into the opponent gets you driven back down or taken. Use the technical stand-up, protected and turned."
+      }
+    ],
+    "practice": [
+      "Shrimp across the mat and back, 10 lengths, full turn to the side.",
+      "Bridge (upa) 10 reps, feet close, hips high, tip to one side.",
+      "Technical stand-up 10 reps each side, hand posted, free hand guarding.",
+      "Chain: bridge to create space, shrimp to recover guard, 10 reps.",
+      "Under light partner pressure, escape side control using bridge+shrimp, 5 reps."
+    ],
+    "reflection": "When pressure landed last session, did your hips move first or your arms - and did the shrimp recover your legs?",
+    "safety": "Move on mats; keep the neck relaxed during bridges and shrimps. Stop on hip, knee, neck or wrist pain and reduce range.",
+    "quiz": [
+      {
+        "question": "The shrimp's purpose is to:",
+        "options": [
+          "Lift the opponent",
+          "Slide the hips out and recover the legs to guard",
+          "Stand up fast",
+          "Stretch the back"
+        ],
+        "answer": 1,
+        "explanation": "The hip escape turns the body into a wedge that creates space and returns the knees to guard - the foundation of bottom escapes."
+      },
+      {
+        "question": "A bridge tips the top player effectively when:",
+        "options": [
+          "You bridge straight up with nothing trapped",
+          "You trap an arm or leg and tip toward that side",
+          "You bridge with arms extended",
+          "You hold your breath"
+        ],
+        "answer": 1,
+        "explanation": "Trapping a limb removes a post; bridging then tips the opponent toward the trapped side, which is the core of mount and side-control escapes."
+      }
+    ],
+    "mastery": [
+      "Shrimp with a full side turn to recover guard space.",
+      "Bridge high and tip toward a trapped side.",
+      "Technical stand-up protected on both sides.",
+      "Chain bridge-shrimp-recovery under light pressure."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "An opponent passes your guard and settles side control.",
+          "action": "You trap the far arm, bridge to tip them, then shrimp to bring the knees back.",
+          "why": "Bridge creates the moment and shrimp uses it; together they are the standard side-control escape chain."
+        },
+        {
+          "setup": "You are on the bottom and need to stand as the round resets.",
+          "action": "You technical stand-up with hand posted and free hand guarding instead of rising face-first.",
+          "why": "The protected rise keeps you safe from being driven back down or taken again."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Hip movement makes escapes reliable against larger opponents because space is created, not muscled."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A mover with a good shrimp is hard to hold down; every settled position keeps leaking space."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Arms pushing instead of hips",
+          "Flat shrimps",
+          "Bridges with nothing trapped"
+        ],
+        "adjustments": [
+          {
+            "if": "No space appears",
+            "then": "Check the side turn; a flat shrimp cannot slide the hips."
+          },
+          {
+            "if": "The bridge fails",
+            "then": "Trap a limb first, then tip to that side."
+          }
+        ],
+        "learning": "After each session, note which movement created the escape and where arms replaced hips."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Movement Reps",
+      "targetReps": 10
+    }
+  },
+  "bjj-foundations-guard": {
+    "id": "bjj-foundations-guard",
+    "subject": "Brazilian Jiu-Jitsu",
+    "title": "Playing Guard",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Learn guard as an active control position: manage posture and sleeves, keep frames on hips and biceps, off-balance constantly, and attack or sweep from a guard you actually run.",
+    "objectives": [
+      "Control the opponent's posture or sleeves from guard",
+      "Keep frames on hips and biceps to stop the pass",
+      "Off-balance the top player constantly to disrupt passes",
+      "Chain sweeps and attacks from a stable guard",
+      "Recognize the four most common guard errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Guard as active control",
+        "caption": "Guard is not lying under someone; it is running a control system. Posture or sleeves, frames on hips and biceps, constant off-balancing - and attacks from stability, not desperation.",
+        "labels": [
+          "Posture control: break them down or stay safe",
+          "Sleeve control: kill one side of their offense",
+          "Frames: feet on hips, hands on biceps",
+          "Off-balance: never let them settle",
+          "Attack: sweeps and submissions from stability"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Guard is a system, not a place",
+        "content": "From the outside guard looks like being underneath; from the inside it is a control system with inputs and outputs. The legs manage distance and hooks, the hands manage posture and sleeves, and the hips manage angle. When those controls are running, the top player cannot settle, cannot strike effectively and cannot pass without paying. When they are not - legs flat, hands idle, hips square - guard is just a position waiting to be passed. The difference is activity: guard is something you do, not somewhere you are."
+      },
+      {
+        "title": "Frames before strength",
+        "content": "The guard player's first tools are frames: feet on the hips to manage distance, hands on the biceps or collar to manage posture, knees and shins blocking the paths of the pass. Frames are structural - bones and angles holding space - so they cost almost nothing against a stronger opponent. Arms extended and pushing, by contrast, are muscle battles you lose. The discipline is to keep frames quiet and strong, re-placing them as the opponent moves, so strength never becomes the deciding factor."
+      },
+      {
+        "title": "Off-balance and attack",
+        "content": "A top player who is comfortably settled will pass eventually; a top player who is constantly off-balanced never gets the base to pass. Small pulls, hip heists and angle changes keep them rebuilding balance instead of building a pass - and each rebuild is an opening for a sweep or submission. Attacks from guard therefore come from stability and off-balancing, not from desperation reaches: break posture or trap a limb, then the armbar, triangle or sweep appears as the natural next move of a system that is already winning."
+      }
+    ],
+    "principles": [
+      "Guard is an active control system: posture, sleeves, frames, angles.",
+      "Frames are structural and cheap; pushing with arms is a losing muscle battle.",
+      "Off-balance constantly so the top player never settles to pass.",
+      "Attacks emerge from stability and broken posture, not desperation."
+    ],
+    "mistakes": [
+      {
+        "title": "Lying flat and inactive",
+        "explanation": "Idle guard gets passed. Run the controls: posture, sleeves, frames, hips."
+      },
+      {
+        "title": "Pushing with extended arms",
+        "explanation": "Extended arms get trapped and tired. Keep frames on biceps and hips, structural and quiet."
+      },
+      {
+        "title": "Letting the top player settle",
+        "explanation": "A settled top player passes. Off-balance constantly to deny the base."
+      },
+      {
+        "title": "Reaching for submissions from flat guard",
+        "explanation": "Desperation reaches give up position. Break posture or trap a limb first, then attack."
+      }
+    ],
+    "practice": [
+      "From guard, control posture down and back up 10 reps without losing legs.",
+      "Frame drill: feet on hips, hands on biceps, partner pressures lightly, hold 20s.",
+      "Off-balance drill: pull and hip-heist to disrupt settling, 10 reps each side.",
+      "Chain: break posture, then one sweep or attack, 5 reps each.",
+      "Roll from guard only, goal: never let the top player settle for 3 seconds."
+    ],
+    "reflection": "Last session, was your guard a running control system or a place you waited - and did the top player ever get to settle?",
+    "safety": "Keep frames soft on partner joints; tap early. Stop on knee, finger or neck pain and reduce pressure intensity.",
+    "quiz": [
+      {
+        "question": "Guard is best understood as:",
+        "options": [
+          "A resting position",
+          "An active control system of posture, sleeves, frames and angles",
+          "A losing position",
+          "A submission"
+        ],
+        "answer": 1,
+        "explanation": "Guard works when its controls are running; idle guard is simply a position waiting to be passed."
+      },
+      {
+        "question": "Why are frames preferred over pushing with arms?",
+        "options": [
+          "Frames look better",
+          "Frames are structural and cheap against strength; arms are losing muscle battles",
+          "Arms are illegal",
+          "Frames are faster to tire"
+        ],
+        "answer": 1,
+        "explanation": "Bones and angles hold space at almost no cost, while extended arms get trapped and exhausted against stronger opponents."
+      }
+    ],
+    "mastery": [
+      "Control posture or sleeves from guard at all times.",
+      "Hold frames on hips and biceps under light pressure.",
+      "Off-balance the top player constantly.",
+      "Attack from stability after breaking posture or trapping a limb."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A heavier opponent settles into your guard to pass.",
+          "action": "You off-balance with a pull and hip heist, re-framing feet on hips as they rebuild.",
+          "why": "Denying the settle denies the pass base; frames keep the space while they rebuild."
+        },
+        {
+          "setup": "You keep reaching for armbars and losing position.",
+          "action": "You break posture first, then take the armbar that the broken posture offers.",
+          "why": "Attacks from stability land; desperation reaches hand over position."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "An active guard turns the bottom into a place of control, sweeps and attacks."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A guard player who off-balances constantly is exhausting to pass; every settle attempt costs balance."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Guard going flat",
+          "Arms extended and pushing",
+          "Top player settling"
+        ],
+        "adjustments": [
+          {
+            "if": "You go flat",
+            "then": "Re-frame feet on hips and re-establish posture or sleeve control."
+          },
+          {
+            "if": "They settle",
+            "then": "Off-balance immediately; never gift three quiet seconds."
+          }
+        ],
+        "learning": "After each roll, note how long the top player settled and which control (posture, sleeve, frame) failed first."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Guard Control",
+      "initialTime": 60
+    }
   }
 }
