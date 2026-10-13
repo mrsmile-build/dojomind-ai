@@ -14274,5 +14274,571 @@ export const lessons = {
       "restTime": 15,
       "totalIntervals": 5
     }
+  },
+  "boxing-foundations-stance": {
+    "id": "boxing-foundations-stance",
+    "subject": "Boxing",
+    "title": "Stance and Guard",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build the boxing base: a mobile, balanced stance with hands up, elbows in and chin tucked, ready to move, punch and defend without telegraphing.",
+    "objectives": [
+      "Set a staggered, shoulder-width stance with weight on the balls of the feet",
+      "Hold a guard that protects the chin while staying mobile",
+      "Keep elbows in and chin down without tensing the shoulders",
+      "Stay light and ready to move in any direction",
+      "Recognize the four most common stance errors"
+    ],
+    "positionDiagram": {
+      "title": "Boxing stance and guard",
+      "description": "Side-on stance, feet staggered about shoulder-width, weight 55/45 on the balls of the feet. Hands at chin height, elbows tucked, rear heel slightly raised.",
+      "torsoAngle": 4,
+      "frontArm": {
+        "shoulderAngle": -25,
+        "elbowAngle": -150
+      },
+      "rearArm": {
+        "shoulderAngle": 25,
+        "elbowAngle": 150
+      },
+      "frontLegAngle": -12,
+      "rearLegAngle": 18,
+      "feet": {
+        "front": {
+          "x": -30,
+          "y": -40,
+          "angle": 0
+        },
+        "rear": {
+          "x": 35,
+          "y": 40,
+          "angle": 35
+        },
+        "note": "Front foot points forward; rear foot turned out about 35 degrees with the heel lightly raised for spring."
+      },
+      "weightDistribution": {
+        "front": 55,
+        "rear": 45
+      },
+      "metrics": [
+        {
+          "label": "Guard",
+          "value": "Hands at chin, elbows in"
+        },
+        {
+          "label": "Base",
+          "value": "Staggered, shoulder-width"
+        },
+        {
+          "label": "Weight",
+          "value": "55/45, on the balls"
+        },
+        {
+          "label": "Chin",
+          "value": "Tucked, eyes forward"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Hands at chin height",
+          "detail": "The guard sits high enough to cover the jaw but loose enough to punch from without winding up."
+        },
+        {
+          "number": "02",
+          "label": "Elbows tucked",
+          "detail": "Elbows in protect the ribs and keep punches tight to the centerline."
+        },
+        {
+          "number": "03",
+          "label": "Light on the balls",
+          "detail": "Weight forward on the balls of the feet keeps you springy; flat-footed or on the toes both fail."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "A stance is a question of mobility",
+        "content": "The boxing stance is not a pose to hold; it is a spring to move from. Feet staggered about shoulder-width, lead foot forward, rear foot turned out, weight balanced slightly toward the lead but never locked. From here you can step, slide, pivot or punch without a preliminary shift that telegraphs intent. A stance that looks strong but cannot move instantly is a statue, and statues get hit."
+      },
+      {
+        "title": "The guard covers without blinding",
+        "content": "Hands rise to chin height, elbows drop in to shield the ribs, and the chin tucks toward the lead shoulder. The guard must protect without covering the eyes or freezing the shoulders - a tight, hunched guard tires you and slows your own punches. Think of it as a loose frame around the head: present, alive, and ready to become a punch or a slip in a single motion."
+      },
+      {
+        "title": "Tension is the silent failure",
+        "content": "Beginners equate guard with clenching: shoulders up, fists squeezed, breath held. Tension slows everything - movement, punches, perception - and burns energy for no protection. The skilled stance is alert but loose: hands up, jaw relaxed, breathing easy, weight springy. Power comes from the ground and rotation, not from squeezing the fists, so the guard stays soft until the instant a punch fires."
+      }
+    ],
+    "principles": [
+      "The stance is a spring for movement, not a pose to hold.",
+      "Guard covers chin and ribs without blinding the eyes or freezing shoulders.",
+      "Weight on the balls of the feet keeps you light and ready.",
+      "Loose alertness beats clenching; tension slows punches and perception."
+    ],
+    "mistakes": [
+      {
+        "title": "Standing flat-footed or on the toes",
+        "explanation": "Flat feet kill mobility; toes kill balance. Keep weight on the balls with heels lightly touching."
+      },
+      {
+        "title": "Crossing or narrowing the base",
+        "explanation": "A narrow or crossed stance collapses under pressure and limits stepping. Keep it staggered and shoulder-width."
+      },
+      {
+        "title": "Dropping hands when tired or punching",
+        "explanation": "The guard must return instantly after every punch; hands down is an open invitation."
+      },
+      {
+        "title": "Clenching shoulders and fists",
+        "explanation": "Tension slows movement and drains energy. Stay loose; power comes from rotation and the ground."
+      }
+    ],
+    "practice": [
+      "Set your stance in a mirror; check base, weight, hands, chin.",
+      "Bounce lightly and step-slide in four directions without crossing feet.",
+      "Throw a slow jab and return the hand straight to the guard.",
+      "Hold the stance 60 seconds, staying loose and breathing easy.",
+      "Reset from a walk: stop and find the stance instantly, three times."
+    ],
+    "reflection": "Where does tension creep into your stance - shoulders, fists or breath - and can you stay loose while keeping the guard up?",
+    "safety": "Practice on soft ground and avoid locking knees. If you feel dizziness or joint pain, stop and reassess stance width and weight distribution.",
+    "quiz": [
+      {
+        "question": "The boxing stance is best described as:",
+        "options": [
+          "A static pose to hold firmly",
+          "A spring loaded for instant movement",
+          "A wide squat for power",
+          "A crossed stance for stability"
+        ],
+        "answer": 1,
+        "explanation": "The stance exists to move, punch and defend without telegraphing; mobility is its purpose, not stillness."
+      },
+      {
+        "question": "Why keep the guard loose rather than clenched?",
+        "options": [
+          "It looks relaxed",
+          "Tension slows punches, movement and perception while burning energy",
+          "Clenching protects better",
+          "It saves gloves"
+        ],
+        "answer": 1,
+        "explanation": "Power comes from rotation and the ground; a tight guard tires you and slows everything, so alertness stays soft until a punch fires."
+      }
+    ],
+    "mastery": [
+      "Set a mobile staggered stance with correct weight distribution.",
+      "Hold a guard that covers chin and ribs without blinding or freezing.",
+      "Move in four directions from the stance without crossing feet.",
+      "Identify and correct the four common stance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You feel rooted and slow when an partner circles you.",
+          "action": "You shift weight to the balls of the feet and loosen the knees, restoring spring.",
+          "why": "Mobility is the stance's purpose; light feet let you answer movement without telegraphing."
+        },
+        {
+          "setup": "Your shoulders burn after a round of guard work.",
+          "action": "You drop the clench, breathe easy, and keep hands up with soft shoulders.",
+          "why": "Tension drains energy and slows punches; loose alertness sustains the guard for rounds."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A correct stance makes every punch, slip and step cheaper and faster."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A well-stanced boxer is hard to root or off-balance; their base answers pressure instead of collapsing."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Flat feet or toe-dancing",
+          "Hands dropping after punches",
+          "Shoulder clench"
+        ],
+        "adjustments": [
+          {
+            "if": "You feel rooted",
+            "then": "Re-balance to the balls of the feet and soften the knees."
+          },
+          {
+            "if": "Hands drop",
+            "then": "Return the punch straight to the guard; drill the return, not just the extension."
+          }
+        ],
+        "learning": "After each round, note whether the stance stayed mobile and loose, and where tension first appeared."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stance Hold",
+      "initialTime": 60
+    }
+  },
+  "boxing-foundations-footwork": {
+    "id": "boxing-foundations-footwork",
+    "subject": "Boxing",
+    "title": "Step-Slide Footwork",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Move like a boxer: step-slide in every direction while preserving the stance, never crossing the feet, so distance is yours to control.",
+    "objectives": [
+      "Step-slide forward, back, left and right without crossing feet",
+      "Preserve the stance shape and weight distribution while moving",
+      "Use small, quick steps instead of lunges",
+      "Pivot to change angle without losing base",
+      "Recognize the four most common footwork errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Step-slide in four directions",
+        "caption": "The lead step goes first moving forward or lead-side; the rear step goes first moving back or rear-side. The stance shape never changes and the feet never cross.",
+        "labels": [
+          "Forward: lead step, rear slides to restore",
+          "Back: rear step, lead slides to restore",
+          "Lead-side: lead step first",
+          "Rear-side: rear step first",
+          "Never cross the feet; small quick steps",
+          "Pivot on the lead foot to change angle"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The stance travels as a unit",
+        "content": "Boxing footwork is not walking; it is the stance sliding across the floor. Whichever direction you go, the foot nearest that direction steps first and the other slides to restore the exact same stagger and width. Cross the feet or narrow the base mid-move and you are momentarily unable to punch, defend or change direction - which is precisely when a good opponent arrives. The rule is simple: the shape of the stance is preserved at every instant, including mid-step."
+      },
+      {
+        "title": "Small steps, big control",
+        "content": "Amateurs lunge; professionals step. A lunge commits your weight and leaves you recovering, while a small, quick step keeps balance and options open. Distance management - staying just out of range or just in it - is won with these increments, not with leaps. Practicing tiny, rapid step-slides builds the habit of controlling range without ever sacrificing the base, which is the entire tactical game of boxing."
+      },
+      {
+        "title": "Pivoting changes the question",
+        "content": "Linear movement answers pressure; pivoting changes the angle of the whole exchange. Rotating on the lead foot swings your rear side to a new line, taking you off the opponent's attack vector while keeping your base intact. The pivot is how a boxer escapes corners and creates punching angles without running. Learn it slowly first - balance over speed - because a sloppy pivot is just a spin that hands over your back."
+      }
+    ],
+    "principles": [
+      "The stance slides as a unit; its shape never changes mid-move.",
+      "The foot nearest the direction steps first; the other restores.",
+      "Small quick steps control distance; lunges commit and recover.",
+      "Pivot on the lead foot to change angle without losing base."
+    ],
+    "mistakes": [
+      {
+        "title": "Crossing the feet",
+        "explanation": "A crossed base cannot punch, defend or redirect. Keep the stagger at every instant."
+      },
+      {
+        "title": "Lunging instead of stepping",
+        "explanation": "Big committed steps leave you recovering. Use small increments to own the range."
+      },
+      {
+        "title": "Moving only forward and back",
+        "explanation": "Lateral and pivot movement escape pressure and create angles; linear-only is predictable."
+      },
+      {
+        "title": "Pivoting on the rear foot or spinning",
+        "explanation": "Rotate on the lead foot to keep the base; spinning on the rear hands over your back."
+      }
+    ],
+    "practice": [
+      "Step-slide forward and back 10 times, checking the stance resets each rep.",
+      "Add lead-side and rear-side slides, 10 each, feet never crossing.",
+      "Practice 5 slow pivots on the lead foot, ending in a clean stance.",
+      "Combine: slide in, pivot out, reset - 5 reps each side.",
+      "Shadow 60 seconds moving only with step-slides and pivots."
+    ],
+    "reflection": "Do your feet ever cross or narrow when you move fast, and can you pivot without losing the stance shape?",
+    "safety": "Work on a non-slip surface and keep knees soft. Stop if ankles or knees pain; reduce step size and speed before adding pivots.",
+    "quiz": [
+      {
+        "question": "When moving forward in step-slide footwork, which foot moves first?",
+        "options": [
+          "Rear foot",
+          "Lead foot",
+          "Both together",
+          "Whichever is lighter"
+        ],
+        "answer": 1,
+        "explanation": "The foot nearest the direction steps first and the other slides to restore the stagger; forward and lead-side begin with the lead foot."
+      },
+      {
+        "question": "Why avoid lunging in favor of small steps?",
+        "options": [
+          "Lunges look bad",
+          "Small steps keep balance and options while controlling range",
+          "Lunges are faster",
+          "Small steps tire you less only"
+        ],
+        "answer": 1,
+        "explanation": "A lunge commits weight and leaves you recovering; increments let you own distance without sacrificing the base."
+      }
+    ],
+    "mastery": [
+      "Step-slide in four directions preserving the stance shape.",
+      "Keep feet uncrossed at speed.",
+      "Pivot on the lead foot to a clean new angle.",
+      "Identify and correct the four common footwork errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "An opponent walks you down and you back into a corner.",
+          "action": "You step-slide laterally then pivot on the lead foot to change the angle and escape the line.",
+          "why": "Pivoting moves you off the attack vector while keeping the base, turning pressure into an angle of your own."
+        },
+        {
+          "setup": "You lunge in to punch and get countered while recovering.",
+          "action": "You replace the lunge with a small step that keeps balance, punching from the stance.",
+          "why": "Increments preserve the base so the punch and the exit both remain available."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Footwork is distance ownership: you decide when exchanges happen and from where."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A mover with clean step-slides is hard to corner or time; their range is always theirs."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Feet crossing at speed",
+          "Lunging under pressure",
+          "Pivot losing balance"
+        ],
+        "adjustments": [
+          {
+            "if": "Feet cross",
+            "then": "Slow the drill and shrink step size until the stagger holds."
+          },
+          {
+            "if": "Pivot spins you",
+            "then": "Reset to lead-foot rotation at half speed, ending in stance each rep."
+          }
+        ],
+        "learning": "After each session, note which direction your step-slide breaks down and whether pivots end in a clean stance."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Footwork Rounds",
+      "workTime": 30,
+      "restTime": 15,
+      "totalIntervals": 6
+    }
+  },
+  "boxing-foundations-jab": {
+    "id": "boxing-foundations-jab",
+    "subject": "Boxing",
+    "title": "The Jab",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Throw boxing's most important punch: a fast, straight lead hand from the guard that ranges, sets up and disrupts, returning straight home.",
+    "objectives": [
+      "Extend the lead hand straight from the guard with shoulder rotation",
+      "Rotate the fist to palm-down at extension while tucking the chin",
+      "Return the jab straight to the guard, not dropping it",
+      "Use the jab to range, set up and disrupt, not just to hit",
+      "Recognize the four most common jab errors"
+    ],
+    "visuals": [
+      {
+        "type": "animation",
+        "title": "Jab in motion",
+        "caption": "Guard, step and extend, contact with the palm turned down, then straight back to the guard. The rear hand stays home covering the chin throughout.",
+        "phases": [
+          {
+            "label": "Guard",
+            "pose": {
+              "torso": 4,
+              "fThigh": 20,
+              "fShin": -5,
+              "rThigh": -20,
+              "rShin": -25,
+              "pUpper": -25,
+              "pFore": -150,
+              "rUpper": 25,
+              "rFore": 150
+            }
+          },
+          {
+            "label": "Extend",
+            "pose": {
+              "torso": 8,
+              "fThigh": 24,
+              "fShin": -6,
+              "rThigh": -16,
+              "rShin": -22,
+              "pUpper": -90,
+              "pFore": -90,
+              "rUpper": 25,
+              "rFore": 150
+            }
+          },
+          {
+            "label": "Contact",
+            "pose": {
+              "torso": 10,
+              "fThigh": 26,
+              "fShin": -6,
+              "rThigh": -14,
+              "rShin": -20,
+              "pUpper": -90,
+              "pFore": -90,
+              "rUpper": 25,
+              "rFore": 150
+            }
+          },
+          {
+            "label": "Retract",
+            "pose": {
+              "torso": 4,
+              "fThigh": 20,
+              "fShin": -5,
+              "rThigh": -20,
+              "rShin": -25,
+              "pUpper": -25,
+              "pFore": -150,
+              "rUpper": 25,
+              "rFore": 150
+            }
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The straight line home and out",
+        "content": "The jab travels the shortest distance between your guard and the target: a straight line out and the same straight line back. It is not an arm push but a chain - lead shoulder rotates forward, elbow lifts to line, fist turns palm-down at extension, chin tucks toward the lead shoulder. Because it returns exactly where it started, the guard never opens, and because it is straight, it is the fastest punch you own and the one that measures every other distance."
+      },
+      {
+        "title": "More than a punch: a tool",
+        "content": "Elite boxers treat the jab as an instrument with several jobs. It ranges the opponent without committing; it sets up the cross or hook by drawing a reaction; it disrupts rhythm and blinds entry; it scores and controls space. A jab thrown only to hit is wasted - its highest value is the information and openings it buys. Learning to jab with intent (to touch, to blind, to set up) is what separates a punch from a tool."
+      },
+      {
+        "title": "The return is half the punch",
+        "content": "The most common beginner failure is not the extension but the homecoming: the hand drops after the jab, leaving the chin open for exactly the moment a counter arrives. The discipline is that the jab returns straight to the guard, same line, same speed, every time. Drill the return as seriously as the extension; a jab that comes home is a punch you can throw often, and frequency is where the jab's real power lives."
+      }
+    ],
+    "principles": [
+      "The jab is a straight line out and the same straight line back.",
+      "Rotation, not arm-push, drives it; fist turns palm-down at extension.",
+      "The chin tucks toward the lead shoulder as the jab fires.",
+      "The return to guard is half the punch; never drop the hand."
+    ],
+    "mistakes": [
+      {
+        "title": "Dropping the hand after extension",
+        "explanation": "The open moment invites the counter. Return straight to the guard on the same line."
+      },
+      {
+        "title": "Winding up or telegraphing",
+        "explanation": "Pulling the hand back before firing announces the punch. It leaves the guard and goes straight out."
+      },
+      {
+        "title": "Pushing with the arm only",
+        "explanation": "An arm-push jab has no snap. Rotate the lead shoulder and step into it for reach and sting."
+      },
+      {
+        "title": "Jabbing only to hit",
+        "explanation": "Used solely as a strike it wastes its ranging and setup value. Jab to measure, blind and set up."
+      }
+    ],
+    "practice": [
+      "Shadow 20 slow jabs watching the straight line out and back.",
+      "Add the shoulder rotation and palm-down turn at extension.",
+      "Jab with a small step forward, returning stance and guard each rep.",
+      "Double-jab 10 times: first to range, second to touch.",
+      "Finish with 30 crisp jabs, chin tucked, rear hand home."
+    ],
+    "reflection": "Does your jab return straight to the guard every time, and do you use it to range and set up or only to hit?",
+    "safety": "Keep the wrist straight and the shoulder loose to avoid strain. Stop on shoulder or wrist pain and check that you are rotating rather than arm-pushing.",
+    "quiz": [
+      {
+        "question": "The jab's path is best described as:",
+        "options": [
+          "A looping arc from the hip",
+          "A straight line out and the same straight line back",
+          "A wide swing from the shoulder",
+          "An uppercut line"
+        ],
+        "answer": 1,
+        "explanation": "Straightness makes it the fastest punch and the distance-measurer; the identical return keeps the guard closed."
+      },
+      {
+        "question": "Why is the return considered half the punch?",
+        "options": [
+          "It looks tidy",
+          "Dropping the hand after extension opens the chin to the counter",
+          "It rests the arm",
+          "It adds power"
+        ],
+        "answer": 1,
+        "explanation": "The open moment after a dropped jab is exactly when counters land; a jab that comes home can be thrown often and safely."
+      }
+    ],
+    "mastery": [
+      "Extend the jab straight with shoulder rotation and palm-down turn.",
+      "Tuck the chin as the jab fires.",
+      "Return the hand straight to the guard every rep.",
+      "Use the jab to range, set up and disrupt, not only to hit."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You cannot tell if you are in range for the cross.",
+          "action": "You throw a light jab to touch the guard and read the distance before committing.",
+          "why": "The jab ranges without committing, buying the information the cross needs."
+        },
+        {
+          "setup": "An opponent rushes you constantly.",
+          "action": "You meet the entry with a stiff jab to disrupt rhythm and blind the approach.",
+          "why": "A well-timed jab interrupts forward pressure and resets the exchange on your terms."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The jab controls distance, gathers information and opens every other punch in your arsenal."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A sharp jab keeps you at the end of a stick you cannot reach, dictating when anything happens."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hand dropping after the jab",
+          "Telegraphing wind-up",
+          "Arm-push without rotation"
+        ],
+        "adjustments": [
+          {
+            "if": "The hand drops",
+            "then": "Drill the return alone: extend and home, 20 slow reps."
+          },
+          {
+            "if": "It telegraphs",
+            "then": "Start the jab from the guard with no pull-back; slow until clean."
+          }
+        ],
+        "learning": "After each session, count jabs that returned straight home versus those that dropped, and note one setup the jab created."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Jab Reps",
+      "targetReps": 30
+    }
   }
 }
