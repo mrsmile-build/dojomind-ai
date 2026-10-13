@@ -416,6 +416,37 @@ export default {
           ]
         }
       }
+    },
+    "muay-thai": {
+      "name": "Muay Thai",
+      "icon": "🥊",
+      "description": "Explore striking fundamentals, movement and conditioning.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the muay thai base: stance, round kick and teep.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Muay Thai Foundations",
+              "lessons": [
+                {
+                  "id": "muay-thai-foundations-stance",
+                  "title": "Stance and Guard"
+                },
+                {
+                  "id": "muay-thai-foundations-round-kick",
+                  "title": "Round Kick — Tei Tat"
+                },
+                {
+                  "id": "muay-thai-foundations-teep",
+                  "title": "Push Kick — Teep"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };

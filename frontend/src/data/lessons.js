@@ -15431,5 +15431,623 @@ export const lessons = {
       "label": "Balance Holds",
       "initialTime": 60
     }
+  },
+  "muay-thai-foundations-stance": {
+    "id": "muay-thai-foundations-stance",
+    "subject": "Muay Thai",
+    "title": "Stance and Guard",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build the muay thai base: a square, tall stance with hands high to defend elbows and kicks, weight even and ready to check or strike from any limb.",
+    "objectives": [
+      "Set a square, tall stance with even weight distribution",
+      "Hold hands high to defend against elbows and high kicks",
+      "Keep the lead leg light and ready to check low kicks",
+      "Stay balanced and ready to strike with all eight limbs",
+      "Recognize the four most common stance errors"
+    ],
+    "positionDiagram": {
+      "title": "Muay Thai stance and guard",
+      "description": "More square than boxing, taller than karate: feet about shoulder-width, weight even, hands high to guard against elbows and high kicks, lead leg light to check.",
+      "torsoAngle": 2,
+      "frontArm": {
+        "shoulderAngle": -40,
+        "elbowAngle": -130
+      },
+      "rearArm": {
+        "shoulderAngle": 40,
+        "elbowAngle": 130
+      },
+      "frontLegAngle": -8,
+      "rearLegAngle": 8,
+      "feet": {
+        "front": {
+          "x": -20,
+          "y": -40,
+          "angle": 0
+        },
+        "rear": {
+          "x": 20,
+          "y": 40,
+          "angle": 15
+        },
+        "note": "Feet about shoulder-width, both light on the balls; lead leg ready to lift and check low kicks."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Guard",
+          "value": "Hands high, elbows in"
+        },
+        {
+          "label": "Base",
+          "value": "Square, shoulder-width"
+        },
+        {
+          "label": "Weight",
+          "value": "50/50, even"
+        },
+        {
+          "label": "Lead leg",
+          "value": "Light, ready to check"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Hands high for elbows",
+          "detail": "Muay thai's eight limbs include elbows and high kicks; the guard sits higher than boxing to defend them."
+        },
+        {
+          "number": "02",
+          "label": "Square to enable all limbs",
+          "detail": "A square stance lets you strike or defend with either side equally - punches, kicks, knees, elbows from any angle."
+        },
+        {
+          "number": "03",
+          "label": "Lead leg light to check",
+          "detail": "The lead leg stays light so it can lift and check a low kick instantly, a core muay thai defensive skill."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Square for eight limbs",
+        "content": "Muay thai uses fists, elbows, knees and shins - eight striking surfaces - and its stance is built to let any of them fire from either side. Unlike boxing's bladed stance or karate's rooted stances, muay thai stands more square, feet about shoulder-width apart, weight even. This sacrifices some target reduction for the ability to strike or defend with any limb without turning first. The stance is a launchpad for all eight weapons, not a specialization for one."
+      },
+      {
+        "title": "Hands high, elbows in",
+        "content": "The guard sits higher than boxing's, with hands at or above eyebrow level and elbows tucked to shield the ribs. This defends against the elbow strikes and high round kicks that muay thai is known for - attacks that would sail over a boxing guard. The hands stay loose enough to punch or grab for the clinch, and the elbows stay tight to protect the liver and ribs from body kicks and knees."
+      },
+      {
+        "title": "The checking leg",
+        "content": "A defining feature of muay thai stance is the light lead leg, ready to lift and check a low kick. When a round kick targets your lead thigh, you lift that leg and turn the shin outward to meet the kick shin-to-shin - a painful but effective block. The lead leg stays light and the knee slightly bent so the check is instant, not a delayed reaction. Training the stance means training the check reflex until it is automatic."
+      }
+    ],
+    "principles": [
+      "Square stance enables all eight limbs from either side.",
+      "Hands high to defend elbows and high kicks; elbows in to protect ribs.",
+      "Lead leg light and ready to check low kicks instantly.",
+      "Weight even and balanced; ready to strike or move in any direction."
+    ],
+    "mistakes": [
+      {
+        "title": "Standing too bladed like boxing",
+        "explanation": "A bladed stance traps the rear leg and limits knee/elbow strikes. Stay square for eight limbs."
+      },
+      {
+        "title": "Guard too low (boxing height)",
+        "explanation": "Low hands get elbowed and high-kicked. Keep hands at eyebrow level or higher."
+      },
+      {
+        "title": "Lead leg planted and heavy",
+        "explanation": "A heavy lead leg cannot check a low kick in time. Keep it light and the knee soft."
+      },
+      {
+        "title": "Leaning back or too upright",
+        "explanation": "Leaning back kills power; too upright loses mobility. Stay tall but balanced over the balls."
+      }
+    ],
+    "practice": [
+      "Set the square stance in a mirror; check base, weight, hands, lead leg.",
+      "Bounce lightly 30 seconds keeping hands high and lead leg light.",
+      "Practice lifting the lead leg to check position 10 times each side.",
+      "Shadow 60 seconds: stance, check, punch, kick, return to stance.",
+      "Hold the stance 60 seconds, staying balanced and ready."
+    ],
+    "reflection": "Is your lead leg light enough to check instantly, and are your hands high enough to defend elbows?",
+    "safety": "Practice on a soft surface and avoid locking knees. Stop on ankle, knee or hip pain and reduce stance width and bounce.",
+    "quiz": [
+      {
+        "question": "Why is the muay thai stance more square than boxing?",
+        "options": [
+          "Tradition only",
+          "To enable strikes and defense from all eight limbs equally",
+          "To look different",
+          "To be slower"
+        ],
+        "answer": 1,
+        "explanation": "A square stance lets you punch, kick, knee or elbow from either side without turning, which the eight-limb system demands."
+      },
+      {
+        "question": "Why keep the lead leg light in muay thai stance?",
+        "options": [
+          "To look relaxed",
+          "To check low kicks instantly with a shin block",
+          "To rest the leg",
+          "To kick faster"
+        ],
+        "answer": 1,
+        "explanation": "A light lead leg can lift and check a low round kick shin-to-shin, a core defensive technique that a heavy leg cannot execute in time."
+      }
+    ],
+    "mastery": [
+      "Set a square stance with even weight and high guard.",
+      "Keep the lead leg light and ready to check.",
+      "Defend against elbows and high kicks with the high guard.",
+      "Identify and correct the four common stance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A low kick targets your lead thigh.",
+          "action": "You lift the lead leg and turn the shin outward to check shin-to-shin.",
+          "why": "A light lead leg checks instantly; a heavy one gets hit before it can lift."
+        },
+        {
+          "setup": "An opponent throws a high round kick.",
+          "action": "You keep the guard high and block with the forearm or duck under.",
+          "why": "Hands at eyebrow level defend the head against kicks that would sail over a boxing guard."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A square, high-guard stance lets you strike or defend with any of the eight limbs instantly."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A muay thai stance is hard to surprise; the guard and check are ready for any attack angle."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Guard dropping",
+          "Lead leg heavy",
+          "Stance too bladed"
+        ],
+        "adjustments": [
+          {
+            "if": "Hands drop",
+            "then": "Reset to eyebrow height; drill high guard under fatigue."
+          },
+          {
+            "if": "Lead leg is slow to check",
+            "then": "Lighten it and drill the lift 10 times per side."
+          }
+        ],
+        "learning": "After each round, note whether the guard stayed high and the lead leg checked instantly."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stance Hold",
+      "initialTime": 60
+    }
+  },
+  "muay-thai-foundations-round-kick": {
+    "id": "muay-thai-foundations-round-kick",
+    "subject": "Muay Thai",
+    "title": "Round Kick — Tei Tat",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Throw muay thai's signature strike: a round kick from the shin with full hip rotation, striking through the target and returning to stance in control.",
+    "objectives": [
+      "Step out at 45 degrees and rotate the support foot",
+      "Swing the kicking leg like a baseball bat, striking with the shin",
+      "Rotate the hips fully to generate power",
+      "Return the leg to stance in control, not dropping it",
+      "Recognize the four most common round-kick errors"
+    ],
+    "positionDiagram": {
+      "title": "Round kick — tei tat",
+      "description": "Step out, rotate the support foot, swing the leg like a bat striking with the shin, full hip rotation. The support leg pivots and the torso rotates with the kick.",
+      "torsoAngle": 15,
+      "frontArm": {
+        "shoulderAngle": -60,
+        "elbowAngle": -90
+      },
+      "rearArm": {
+        "shoulderAngle": 60,
+        "elbowAngle": 90
+      },
+      "frontLegAngle": 45,
+      "rearLegAngle": -80,
+      "feet": {
+        "front": {
+          "x": 30,
+          "y": -20,
+          "angle": 135
+        },
+        "rear": {
+          "x": -10,
+          "y": 50,
+          "angle": 180
+        },
+        "note": "Support foot pivots fully; the kicking leg swings in an arc with the shin leading."
+      },
+      "weightDistribution": {
+        "front": 20,
+        "rear": 80
+      },
+      "metrics": [
+        {
+          "label": "Contact",
+          "value": "Shin, not foot"
+        },
+        {
+          "label": "Rotation",
+          "value": "Full hip and torso"
+        },
+        {
+          "label": "Support",
+          "value": "Pivots on ball"
+        },
+        {
+          "label": "Return",
+          "value": "Controlled to stance"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Shin, not foot",
+          "detail": "The shin is a hard, concentrated surface; the foot is fragile and can break on impact. Strike with the lower shin."
+        },
+        {
+          "number": "02",
+          "label": "Full hip rotation",
+          "detail": "Power comes from rotating the hips and torso, not just swinging the leg. The whole body turns into the kick."
+        },
+        {
+          "number": "03",
+          "label": "Support foot pivots",
+          "detail": "The support heel lifts and the foot pivots to allow full hip rotation; a flat support foot blocks the turn."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "The baseball bat",
+        "content": "The muay thai round kick is often compared to swinging a baseball bat: the leg is the bat, the hip is the handle, and the whole torso rotates to drive it through the target. Unlike a snapping karate kick that extends and retracts, the muay thai kick swings in an arc, striking with the shin and following through. The power comes from full hip rotation - the hips turn over, the torso twists, and the leg rides that rotation into the target. It is a blunt, heavy weapon, not a precise point strike."
+      },
+      {
+        "title": "Step, pivot, swing",
+        "content": "The kick begins with a step: the lead foot steps out at about 45 degrees to open the hips. Then the support foot pivots - the heel lifts and the foot turns to allow the hips to rotate fully. Finally the kicking leg swings in an arc, striking with the lower shin. The step and pivot are what make the hip rotation possible; skipping them and just swinging the leg produces a weak, off-balance kick. The sequence is step-pivot-swing, and each enables the next."
+      },
+      {
+        "title": "Return in control",
+        "content": "A kick that drops from full extension is slow and leaves you open. The skilled return brings the leg back to stance in control - either retracting it back along the same path or swinging it through to a new stance position. The return must be as deliberate as the strike, because the moment after a kick is when you are most vulnerable. Drill the return as seriously as the strike; a kick that comes home cleanly is a kick you can throw often."
+      }
+    ],
+    "principles": [
+      "Strike with the shin, not the foot; the shin is hard and concentrated.",
+      "Power comes from full hip and torso rotation, not leg swing alone.",
+      "Step out and pivot the support foot to enable the rotation.",
+      "Return the leg to stance in control; do not drop it from extension."
+    ],
+    "mistakes": [
+      {
+        "title": "Striking with the foot instead of shin",
+        "explanation": "The foot can break on impact. Strike with the lower shin, which is hard and conditioned."
+      },
+      {
+        "title": "Swinging without stepping and pivoting",
+        "explanation": "A leg swing without hip rotation is weak. Step out and pivot the support foot to turn the hips."
+      },
+      {
+        "title": "Flat support foot blocking rotation",
+        "explanation": "A flat foot locks the hips. Lift the heel and pivot to allow full rotation."
+      },
+      {
+        "title": "Dropping the kick from extension",
+        "explanation": "A slow drop leaves you open. Retract or swing through to stance in control."
+      }
+    ],
+    "practice": [
+      "Step out at 45 degrees and pivot the support foot 10 times without kicking.",
+      "Add the leg swing, striking a pad or bag with the shin, 10 reps each side.",
+      "Focus on full hip rotation; the torso should turn with the kick.",
+      "Practice the return: retract the leg to stance 10 times.",
+      "Finish with 5 controlled round kicks each side, full rotation, controlled return."
+    ],
+    "reflection": "Does your support foot pivot fully to allow hip rotation, and do you strike with the shin or the foot?",
+    "safety": "Condition the shins gradually; do not strike hard targets with unconditioned shins. Use pads and bags for practice. Stop on shin, knee or hip pain.",
+    "quiz": [
+      {
+        "question": "The muay thai round kick strikes with:",
+        "options": [
+          "The ball of the foot",
+          "The shin",
+          "The toes",
+          "The heel"
+        ],
+        "answer": 1,
+        "explanation": "The shin is a hard, concentrated surface; the foot is fragile and can break. Muay thai conditions the shin and strikes with it."
+      },
+      {
+        "question": "Why pivot the support foot during the round kick?",
+        "options": [
+          "To look dynamic",
+          "To allow full hip rotation and generate power",
+          "To rest the foot",
+          "To change direction"
+        ],
+        "answer": 1,
+        "explanation": "A flat support foot locks the hips; pivoting allows the hips and torso to rotate fully, which is where the kick's power comes from."
+      }
+    ],
+    "mastery": [
+      "Step out and pivot the support foot to enable hip rotation.",
+      "Strike with the shin, not the foot.",
+      "Generate power from full hip and torso rotation.",
+      "Return the leg to stance in control."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your round kick feels weak and off-balance.",
+          "action": "You add the step and pivot, allowing full hip rotation into the strike.",
+          "why": "The step and pivot enable the hip rotation that generates power; a leg swing alone is weak."
+        },
+        {
+          "setup": "You drop the kick slowly after striking.",
+          "action": "You retract the leg quickly to stance or swing it through to a new position.",
+          "why": "A slow drop leaves you open to counters; a controlled return keeps you ready to defend or strike again."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A full-rotation round kick is a heavy, damaging strike that is hard to defend against."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A kicker with full hip rotation and controlled return is hard to time or off-balance."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Weak kick",
+          "Flat support foot",
+          "Slow return"
+        ],
+        "adjustments": [
+          {
+            "if": "The kick is weak",
+            "then": "Check the step and pivot; hip rotation is the power source."
+          },
+          {
+            "if": "The return is slow",
+            "then": "Drill the retract or swing-through until it is as fast as the strike."
+          }
+        ],
+        "learning": "After each session, note whether every kick had full hip rotation and a controlled return."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Round Kick Reps",
+      "targetReps": 10
+    }
+  },
+  "muay-thai-foundations-teep": {
+    "id": "muay-thai-foundations-teep",
+    "subject": "Muay Thai",
+    "title": "Push Kick — Teep",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Throw muay thai's push kick: a straight, piston-like kick with the ball of the foot that controls distance, disrupts rhythm and sets up other attacks.",
+    "objectives": [
+      "Chamber the knee and extend straight with the ball of the foot",
+      "Push through the target to off-balance or create distance",
+      "Keep the torso upright and the support leg rooted",
+      "Retract the leg quickly to stance",
+      "Recognize the four most common teep errors"
+    ],
+    "positionDiagram": {
+      "title": "Push kick — teep",
+      "description": "Chamber the knee, extend straight forward with the ball of the foot, push through the target. The torso stays upright and the support leg stays rooted.",
+      "torsoAngle": 0,
+      "frontArm": {
+        "shoulderAngle": -20,
+        "elbowAngle": -130
+      },
+      "rearArm": {
+        "shoulderAngle": 20,
+        "elbowAngle": 130
+      },
+      "frontLegAngle": -75,
+      "rearLegAngle": 5,
+      "feet": {
+        "front": {
+          "x": 0,
+          "y": -70,
+          "angle": 0
+        },
+        "rear": {
+          "x": 15,
+          "y": 50,
+          "angle": 0
+        },
+        "note": "Support foot planted; the kicking leg extends straight with the ball of the foot leading."
+      },
+      "weightDistribution": {
+        "front": 10,
+        "rear": 90
+      },
+      "metrics": [
+        {
+          "label": "Contact",
+          "value": "Ball of the foot"
+        },
+        {
+          "label": "Direction",
+          "value": "Straight, piston-like"
+        },
+        {
+          "label": "Purpose",
+          "value": "Control distance, disrupt"
+        },
+        {
+          "label": "Return",
+          "value": "Quick retract"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Ball of the foot",
+          "detail": "The ball is a concentrated, hard surface that pushes effectively; the flat foot or heel is less precise."
+        },
+        {
+          "number": "02",
+          "label": "Straight and piston-like",
+          "detail": "Unlike the arcing round kick, the teep is straight and direct, like a piston or jab with the leg."
+        },
+        {
+          "number": "03",
+          "label": "Push through the target",
+          "detail": "The teep aims to off-balance or create distance by pushing through, not just tapping the surface."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "The leg jab",
+        "content": "The teep is muay thai's version of the boxing jab: a straight, quick, versatile tool that controls distance and sets up other attacks. Unlike the round kick's heavy arc, the teep is direct and piston-like - the leg chambers at the knee and extends straight forward, striking with the ball of the foot. It is not a finishing strike but a controlling one: it stops an advancing opponent, disrupts rhythm, off-balances, and creates the space for a round kick or punch combination to follow."
+      },
+      {
+        "title": "Chamber, extend, push through",
+        "content": "The teep is three beats like the front kick: chamber the knee high, extend straight forward with the ball of the foot, and push through the target. The push is what distinguishes it from a snap kick; you are not tapping and retracting but driving through to off-balance or move the opponent. The torso stays upright and the support leg stays rooted to give the push a solid platform. A teep that leans back or wobbles loses its pushing power."
+      },
+      {
+        "title": "Distance and disruption",
+        "content": "The teep's highest value is not damage but control. It keeps a rushing opponent at bay, interrupts their rhythm, and forces them to react to you instead of the other way around. A well-timed teep to the hip or solar plexus stops forward momentum and creates the opening for a round kick to the now-exposed ribs or legs. Learning to teep with intent - to control, to disrupt, to set up - is what turns a leg push into a tactical weapon."
+      }
+    ],
+    "principles": [
+      "The teep is a straight, piston-like push kick with the ball of the foot.",
+      "Chamber the knee, extend straight, and push through the target.",
+      "Keep the torso upright and the support leg rooted for pushing power.",
+      "Use the teep to control distance, disrupt rhythm, and set up other attacks."
+    ],
+    "mistakes": [
+      {
+        "title": "Snapping instead of pushing",
+        "explanation": "A snap kick taps; a teep pushes through. Drive the foot through the target to off-balance."
+      },
+      {
+        "title": "Leaning the torso back",
+        "explanation": "Leaning back reduces pushing power and off-balances you. Stay upright over the support leg."
+      },
+      {
+        "title": "Striking with the flat foot or heel",
+        "explanation": "The ball of the foot is concentrated and effective; the flat foot or heel is less precise."
+      },
+      {
+        "title": "Using it only to damage",
+        "explanation": "The teep's highest value is control and setup, not just impact. Use it to manage distance and rhythm."
+      }
+    ],
+    "practice": [
+      "Chamber the knee and extend straight 10 times each side without pushing.",
+      "Add the push: extend and drive through a pad or bag, 10 reps each side.",
+      "Focus on keeping the torso upright and support leg rooted.",
+      "Practice quick retracts: teep and return to stance 10 times.",
+      "Finish with 5 controlled teeps each side, pushing through and returning quickly."
+    ],
+    "reflection": "Does your teep push through the target to off-balance, or just tap and retract?",
+    "safety": "Practice on pads and bags; do not teep a partner's joints or head without control. Stop on knee or hip pain.",
+    "quiz": [
+      {
+        "question": "The teep is best compared to:",
+        "options": [
+          "The round kick",
+          "The boxing jab - straight, quick, versatile",
+          "The front kick snap",
+          "The knee strike"
+        ],
+        "answer": 1,
+        "explanation": "Like the jab, the teep is a straight, controlling tool that manages distance and sets up other attacks, not a finishing strike."
+      },
+      {
+        "question": "What distinguishes the teep from a snap front kick?",
+        "options": [
+          "It is slower",
+          "It pushes through the target to off-balance, not just taps",
+          "It uses the heel",
+          "It is higher"
+        ],
+        "answer": 1,
+        "explanation": "The teep drives through to move or off-balance the opponent; a snap kick strikes and retracts without the push."
+      }
+    ],
+    "mastery": [
+      "Chamber, extend straight, and push through with the ball of the foot.",
+      "Keep the torso upright and support leg rooted.",
+      "Use the teep to control distance and set up other attacks.",
+      "Identify and correct the four common teep errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "An opponent rushes you constantly.",
+          "action": "You meet the rush with a teep to the hip or solar plexus, stopping their forward momentum.",
+          "why": "The teep's push stops forward pressure and creates the distance you need to counter or reset."
+        },
+        {
+          "setup": "You want to set up a round kick.",
+          "action": "You teep to the midsection, forcing the opponent to react, then round kick to the now-exposed leg.",
+          "why": "The teep disrupts rhythm and creates openings; the round kick finishes the combination."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A sharp teep controls the fight's distance and rhythm, making you the one who decides when exchanges happen."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A teep that pushes through is hard to rush past; it stops momentum and forces a reset."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Teep tapping instead of pushing",
+          "Torso leaning back",
+          "Slow return"
+        ],
+        "adjustments": [
+          {
+            "if": "The teep is weak",
+            "then": "Add the push-through; drive the foot through the target."
+          },
+          {
+            "if": "You lean back",
+            "then": "Stack the torso over the support leg and re-drill upright."
+          }
+        ],
+        "learning": "After each session, note whether every teep pushed through and whether it created the distance or opening you intended."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Teep Reps",
+      "targetReps": 10
+    }
   }
 }
