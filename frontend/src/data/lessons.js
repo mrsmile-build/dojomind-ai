@@ -11303,5 +11303,1484 @@ export const lessons = {
       "label": "Retention Set",
       "initialTime": 240
     }
+  },
+  "meditation-stability-depth": {
+    "id": "meditation-stability-depth",
+    "subject": "Meditation",
+    "title": "Deepening Stability",
+    "level": "Advanced",
+    "duration": "15 min",
+    "description": "Move concentration from effortful holding to effortless resting: lengthen the unbroken stretch on the anchor until stability becomes a property of the mind, not a task you perform.",
+    "objectives": [
+      "Distinguish effortful holding from effortless resting on the anchor",
+      "Lengthen the unbroken stretch of attention without gripping",
+      "Recognize subtle striving as the enemy of depth",
+      "Let stability deepen on its own once striving is released",
+      "Recognize the four most common depth errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Stability: the dot that does not move",
+        "caption": "Unlike beginner practice, the attention stays centered here. The glow marks depth thickening, not a wander. Press Play to watch stillness settle without effort.",
+        "phases": [
+          {
+            "label": "Rest",
+            "note": "attention on the anchor",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Settle",
+            "note": "effort drops away",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Deepen",
+            "note": "stillness thickens",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Rest",
+            "note": "return to the anchor",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Holding versus resting",
+        "content": "Early concentration is a job: you grip the anchor and wrestle distraction away. Depth begins the moment you notice that gripping is itself a fine agitation, a tremor under the stillness. The advanced shift is from holding the object to resting on it - the difference between staring hard at a candle and letting your eyes settle into its flame. When the effort drops, the mind does not scatter; it sinks, because nothing is propping it up at the surface anymore."
+      },
+      {
+        "title": "Lengthen without striving",
+        "content": "You do not force a longer stretch; you stop interrupting the one that is already happening. Each time you release a micro-striving - the tiny 'am I still here?' check - the unbroken stretch extends on its own. Measure progress not by the clock you endure but by how rarely you break the thread to inspect it. A single breath of true resting is worth more than ten minutes of vigilant holding, because it teaches the mind that stillness is safe without your grip."
+      },
+      {
+        "title": "Stability as a property",
+        "content": "When resting replaces holding often enough, stability stops being something you produce and becomes something you have - a baseline the mind returns to between thoughts, like the silence underneath sound. At this stage distraction thins not because you fight it but because the anchor has grown interesting enough to hold attention without effort. The sign of depth is not blankness; it is a vivid, effortless continuity that survives the occasional passing thought without being broken by it."
+      }
+    ],
+    "principles": [
+      "Effortless resting beats effortful holding on the anchor.",
+      "Subtle striving is a fine agitation that caps depth.",
+      "Lengthen the unbroken stretch by not interrupting it, not by forcing it.",
+      "Stability matures from a task you perform into a property you have."
+    ],
+    "mistakes": [
+      {
+        "title": "Gripping the anchor",
+        "explanation": "White-knuckling the object adds a tremor of effort that prevents sinking. Rest on it instead."
+      },
+      {
+        "title": "Checking in constantly",
+        "explanation": "The tiny 'am I still here?' inspection breaks the very continuity you are trying to lengthen."
+      },
+      {
+        "title": "Mistaking blankness for depth",
+        "explanation": "A dull, empty mind is not stable; it is subdued. True depth is vivid and effortless."
+      },
+      {
+        "title": "Chasing a long clock",
+        "explanation": "Enduring thirty minutes of striving teaches striving. One breath of real resting teaches more."
+      }
+    ],
+    "practice": [
+      "Settle on the breath and notice where you are gripping it.",
+      "Release the grip and let attention rest, not hold.",
+      "When you catch a checking-in impulse, drop it and return to resting.",
+      "Extend the unbroken stretch by one breath each time you release striving.",
+      "Close by noting the difference between held and rested stillness."
+    ],
+    "reflection": "Where in the sit are you still gripping the anchor, and what changes when you let go of the holding?",
+    "safety": "If releasing effort brings up anxiety or a sense of losing control, return to gentle holding and shorten the sit. Depth unfolds at the pace of trust, not force.",
+    "quiz": [
+      {
+        "question": "The advanced shift in concentration is from:",
+        "options": [
+          "Holding the anchor to resting on it",
+          "Thinking to not thinking",
+          "Short sits to long sits",
+          "Eyes open to eyes closed"
+        ],
+        "answer": 0,
+        "explanation": "Effortless resting removes the fine agitation of gripping, letting the mind sink rather than stay propped at the surface."
+      },
+      {
+        "question": "How do you lengthen the unbroken stretch of attention?",
+        "options": [
+          "By forcing it longer",
+          "By not interrupting it with checking-in",
+          "By suppressing thoughts",
+          "By counting breaths loudly"
+        ],
+        "answer": 1,
+        "explanation": "Each released micro-striving extends the continuity on its own; striving is what breaks the thread."
+      }
+    ],
+    "mastery": [
+      "Rest on the anchor without gripping it.",
+      "Catch and drop the checking-in impulse.",
+      "Distinguish vivid stability from dull blankness.",
+      "Identify and correct the four common depth errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You notice yourself tightening around the breath.",
+          "action": "You release the grip and let attention rest on the sensation instead of holding it.",
+          "why": "Resting removes the tremor of effort, allowing the mind to sink into continuity."
+        },
+        {
+          "setup": "A quiet 'am I still here?' keeps arising.",
+          "action": "You drop the inspection and return to resting, extending the stretch by not breaking it.",
+          "why": "The check-in is the interruption; releasing it lengthens unbroken attention without force."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Effortless stability lets you stay composed under pressure without white-knuckling your focus."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with true depth is not rattled by distraction; the anchor holds without visible effort."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Tightening around the object",
+          "Frequent checking-in",
+          "Dull blankness"
+        ],
+        "adjustments": [
+          {
+            "if": "You feel yourself gripping",
+            "then": "Consciously soften and rest; shorten the sit if needed."
+          },
+          {
+            "if": "The mind goes dull",
+            "then": "Brighten attention slightly rather than pushing harder."
+          }
+        ],
+        "learning": "After each sit, note the longest stretch you rested without interrupting, and where striving crept back in."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Depth Sit",
+      "initialTime": 900
+    }
+  },
+  "meditation-stability-clarity": {
+    "id": "meditation-stability-clarity",
+    "subject": "Meditation",
+    "title": "Clarity of Awareness",
+    "level": "Advanced",
+    "duration": "15 min",
+    "description": "Sharpen the resolution of attention: with stability as a base, refine the object until its edges are vivid and distinct, training luminous knowing rather than dim holding.",
+    "objectives": [
+      "Understand clarity as the resolution of attention, not its force",
+      "Use stability as a platform to sharpen the object",
+      "Distinguish vivid knowing from dull concentration",
+      "Refine without introducing strain or analysis",
+      "Recognize the four most common clarity errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Clarity: resolution, not force",
+        "caption": "The dot stays centered while the glow marks the object growing vivid. Clarity is sharpening the picture, not pressing harder on it. Press Play to watch resolution increase.",
+        "phases": [
+          {
+            "label": "Rest",
+            "note": "stable on the anchor",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Illuminate",
+            "note": "the object grows vivid",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Refine",
+            "note": "edges sharpen",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Rest",
+            "note": "vivid and still",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Resolution, not force",
+        "content": "Stability keeps the camera still; clarity sharpens the lens. They are different axes: you can hold an object steadily and dimly, like staring at a foggy window without moving your head. Clarity is the vividness of the knowing itself - how distinctly the breath-at-the-nostrils or the rising of the chest registers, moment to moment. You cultivate it not by pressing harder but by letting attention become finer, the way a photograph gains detail when the focus ring turns, not when you squeeze the shutter."
+      },
+      {
+        "title": "Vivid knowing versus dull holding",
+        "content": "The enemy of clarity is not distraction but a comfortable dimness: the mind settles into stability and stops actually seeing, coasting on a vague sense of the object. The corrective is to refresh the vividness - to know the breath as if for the first time, with the brightness of genuine interest. This is not analysis or labeling; it is pure perceptual sharpening. The test is simple: could you describe the object's texture right now, or only its general presence?"
+      },
+      {
+        "title": "Refine without strain",
+        "content": "Because clarity is resolution, it collapses the instant you force it. Straining to see brighter introduces the same tremor that ruined depth, and analysis replaces direct knowing with commentary. The skill is a light, curious attention that sharpens by wanting to see, not by trying hard. When the object goes fuzzy, you do not grip; you rekindle interest, and the edges return on their own. Stability holds the frame steady while clarity fills it with light."
+      }
+    ],
+    "principles": [
+      "Clarity is the resolution of attention, distinct from its force.",
+      "Stability is the still camera; clarity is the sharpened lens.",
+      "Vivid knowing beats dull, comfortable holding.",
+      "Refresh brightness with curiosity, never with strain or analysis."
+    ],
+    "mistakes": [
+      {
+        "title": "Pressing harder to see clearer",
+        "explanation": "Force adds tremor and dims the picture. Clarity comes from fine attention, not effort."
+      },
+      {
+        "title": "Coasting in dim stability",
+        "explanation": "A vague sense of the object feels calm but trains dullness, not knowing. Refresh the vividness."
+      },
+      {
+        "title": "Analyzing the object",
+        "explanation": "Labeling and commentary replace direct perception with thought. Stay with the raw texture."
+      },
+      {
+        "title": "Confusing brightness with excitement",
+        "explanation": "Vivid knowing is calm and clear, not agitated. If it feels buzzy, you have added effort."
+      }
+    ],
+    "practice": [
+      "Establish stability on the breath first.",
+      "Ask: how vivid is the object right now, really?",
+      "Rekindle fresh interest to sharpen the edges.",
+      "When it dims, refresh without gripping or analyzing.",
+      "Close by noting the difference between seeing and holding."
+    ],
+    "reflection": "Is your stable attention vivid or merely dim, and can you sharpen it without adding a single unit of force?",
+    "safety": "If pursuing vividness brings agitation or headache, return to plain stability. Clarity ripens from rest, not from straining the lens.",
+    "quiz": [
+      {
+        "question": "Clarity of attention is best described as:",
+        "options": [
+          "Pressing harder on the object",
+          "The resolution or vividness of knowing",
+          "Longer sits",
+          "Suppressing thoughts"
+        ],
+        "answer": 1,
+        "explanation": "Clarity is how distinctly the object registers, sharpened by fine attention, not by force - the lens, not the grip."
+      },
+      {
+        "question": "The enemy of clarity that is NOT distraction is:",
+        "options": [
+          "Movement",
+          "Dull, comfortable holding",
+          "Open eyes",
+          "Short sits"
+        ],
+        "answer": 1,
+        "explanation": "Coasting in a vague sense of the object trains dimness; refreshing vividness with curiosity is the corrective."
+      }
+    ],
+    "mastery": [
+      "Distinguish resolution from force in attention.",
+      "Sharpen the object without strain or analysis.",
+      "Refresh dim stability with fresh interest.",
+      "Identify and correct the four common clarity errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Attention is steady but the breath feels vague.",
+          "action": "You rekindle curiosity to brighten the object without pressing harder.",
+          "why": "Vividness is resolution; interest sharpens the lens where force would only add tremor."
+        },
+        {
+          "setup": "You catch yourself labeling the breath.",
+          "action": "You drop the commentary and return to the raw texture of the sensation.",
+          "why": "Analysis replaces direct knowing; clarity lives in perception, not description."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clear attention perceives nuance in any situation instead of reacting to a blur."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with vivid knowing notices subtleties others miss, because the lens is sharp."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Dim, coasting stability",
+          "Urge to press for brightness",
+          "Sliding into labeling"
+        ],
+        "adjustments": [
+          {
+            "if": "The object is vague",
+            "then": "Refresh interest gently; do not grip."
+          },
+          {
+            "if": "You feel buzzy or strained",
+            "then": "Ease back to plain stability and let clarity settle."
+          }
+        ],
+        "learning": "After each sit, rate the vividness of your attention and note whether it came from curiosity or force."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Clarity Sit",
+      "initialTime": 900
+    }
+  },
+  "meditation-stability-equanimity": {
+    "id": "meditation-stability-equanimity",
+    "subject": "Meditation",
+    "title": "Equanimity Under Load",
+    "level": "Advanced",
+    "duration": "15 min",
+    "description": "Hold the center while experience stirs: train attention to remain even and unmoved as pleasant and unpleasant states arise, the stability that survives real pressure.",
+    "objectives": [
+      "Understand equanimity as evenness, not numbness or avoidance",
+      "Let pleasant and unpleasant states arise without chasing or pushing",
+      "Keep attention centered while content moves",
+      "Distinguish balanced presence from dissociation",
+      "Recognize the four most common equanimity errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Equanimity: stirred, not moved",
+        "caption": "Here a disturbance arises (the cloud) but the dot refuses to leave center. Equanimity is the still point inside motion. Press Play to watch the mind stay even while experience stirs.",
+        "phases": [
+          {
+            "label": "Centered",
+            "note": "even and present",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Stir",
+            "note": "a disturbance arises",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Even",
+            "note": "attention does not move",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Centered",
+            "note": "still even",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Evenness, not numbness",
+        "content": "Equanimity is often mistaken for not caring, a flat indifference that numbs the highs and lows alike. The real thing is the opposite: full feeling without being swept away. You experience pleasure and pain completely - the warmth of a good state, the ache of a hard one - but you do not contract around grasping or push away in aversion. The center holds while the weather rages. Numbness avoids experience; equanimity meets it evenly, which is why it feels alive rather than dead."
+      },
+      {
+        "title": "Neither chase nor push",
+        "content": "The two reflexes equanimity undoes are craving and aversion: reaching toward the pleasant, recoiling from the unpleasant. In meditation these play out subtly - you cling to a calm, bright state, or you fight a restless, dull one. The training is to let both arise and pass with the same open attention, neither inviting the guest nor slamming the door on it. Hip rotation in the body mirrors this: you neither lean into nor flinch from the load, you stay centered through it."
+      },
+      {
+        "title": "Stability that survives pressure",
+        "content": "Depth and clarity can flourish in a quiet room; equanimity is the test of whether they hold when the room is not quiet. It is built by deliberately staying present with mildly difficult experience - an itch, a boring stretch, a flicker of irritation - and noticing that you can feel it fully without being mobilized by it. Each time the center holds while content moves, the reflex to be hijacked weakens. This is the stability that transfers off the cushion into conflict, loss, and pressure."
+      }
+    ],
+    "principles": [
+      "Equanimity is even presence, not numbness or avoidance.",
+      "Craving and aversion are the two reflexes it undoes.",
+      "Stay centered while experience moves, neither chasing nor pushing.",
+      "Equanimity is proven under load, not only in quiet."
+    ],
+    "mistakes": [
+      {
+        "title": "Confusing numbness with balance",
+        "explanation": "Flat indifference avoids experience; equanimity feels it fully without being moved. Do not check out."
+      },
+      {
+        "title": "Clinging to pleasant states",
+        "explanation": "Reaching for calm is aversion in disguise; it breaks the evenness you are training."
+      },
+      {
+        "title": "Fighting unpleasant states",
+        "explanation": "Pushing against restlessness or pain amplifies it and tilts the center. Meet it openly."
+      },
+      {
+        "title": "Testing equanimity only in comfort",
+        "explanation": "Balance that exists only in a quiet room is unproven. Bring mild difficulty into the work."
+      }
+    ],
+    "practice": [
+      "Settle into stability, then notice any pleasant or unpleasant tone.",
+      "When you catch reaching or recoiling, relax both and stay centered.",
+      "Invite a mild difficulty (an itch, boredom) and feel it fully without moving.",
+      "Note the evenness that remains while content shifts.",
+      "Close by carrying that center into the next ordinary moment."
+    ],
+    "reflection": "Where do you still chase the pleasant or push the unpleasant, and can you feel either fully without being mobilized?",
+    "safety": "Do not force equanimity onto trauma or overwhelming material; that is suppression, not balance. Work with heavy content alongside a qualified teacher or therapist.",
+    "quiz": [
+      {
+        "question": "Equanimity is best distinguished from numbness by:",
+        "options": [
+          "Feeling nothing",
+          "Feeling fully without being swept away",
+          "Avoiding difficulty",
+          "Always staying calm"
+        ],
+        "answer": 1,
+        "explanation": "Equanimity meets pleasure and pain completely but does not contract into grasping or recoil; it is alive and even, not flat."
+      },
+      {
+        "question": "The two reflexes equanimity undoes are:",
+        "options": [
+          "Breathing and blinking",
+          "Craving and aversion",
+          "Thinking and feeling",
+          "Sitting and standing"
+        ],
+        "answer": 1,
+        "explanation": "Reaching toward the pleasant and recoiling from the unpleasant are the habits that tilt the center; evenness lets both pass."
+      }
+    ],
+    "mastery": [
+      "Feel pleasant and unpleasant states without chasing or pushing.",
+      "Keep attention centered while content moves.",
+      "Distinguish balanced presence from dissociation.",
+      "Identify and correct the four common equanimity errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A calm, pleasant state arises and you want to keep it.",
+          "action": "You notice the reaching, relax it, and let the state pass without clinging.",
+          "why": "Clinging is aversion to its ending; evenness holds the center whether the state stays or goes."
+        },
+        {
+          "setup": "Restlessness makes you want to fight it.",
+          "action": "You feel the agitation fully without recoiling and stay centered through it.",
+          "why": "Pushing amplifies; meeting it openly proves the stability that transfers under real pressure."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Equanimity lets you meet provocation, loss and pressure without being hijacked by craving or fear."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with evenness cannot be baited or rattled; the center holds no matter what arises."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Reaching for the pleasant",
+          "Recoiling from the unpleasant",
+          "Sliding into numbness"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself clinging",
+            "then": "Relax the grasp and let the state move through."
+          },
+          {
+            "if": "You feel flat or checked out",
+            "then": "Re-engage feeling; evenness must stay alive."
+          }
+        ],
+        "learning": "After each sit, note one moment you stayed even while experience stirred, and one where you tilted."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Equanimity Sit",
+      "initialTime": 900
+    }
+  },
+  "breathing-applications-performance": {
+    "id": "breathing-applications-performance",
+    "subject": "Breathing",
+    "title": "Performance Breathing",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Apply resonant, coherent breathing to optimize heart-rate variability and calm alertness before and during performance, turning the breath into a pre-flight ritual.",
+    "objectives": [
+      "Understand resonant ~5-5 breathing and its effect on HRV",
+      "Use a brief pre-performance protocol to settle nerves without dulling",
+      "Keep alertness while lowering arousal",
+      "Make the breath a repeatable cue for flow",
+      "Recognize the four most common performance-breathing errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Resonant 5-5 for performance",
+        "caption": "Inhale 5, exhale 5, smooth and nasal. This ratio tends to maximize heart-rate variability and calm alertness. Run it as a pre-performance ritual, not a sedative.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 5,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 5,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Coherence, not calm-down",
+        "content": "Performance breathing is not the same job as recovery breathing. After effort you want to down-regulate hard; before and during performance you want calm *alertness* - the body quiet enough not to shake, the mind bright enough to react. A slow, equal 5-in / 5-out rhythm tends to bring heart rate and breathing into resonance, which raises heart-rate variability, the marker of a flexible, responsive nervous system. You are tuning the instrument, not putting it to sleep."
+      },
+      {
+        "title": "A pre-flight ritual",
+        "content": "The power of this practice is consistency, not intensity. A fixed, short protocol - say ten resonant breaths - performed the same way before every session, bout, or high-stakes moment, becomes a cue the body learns to answer. Within a few weeks the first two breaths begin to shift the state on their own, the way a warm-up song primes an athlete. The ritual anchors attention in the present and out of the anticipatory chatter that degrades performance."
+      },
+      {
+        "title": "Alert, not dulled",
+        "content": "The failure mode is over-doing the calm: breathing so slowly and deeply that you leave yourself flat and slow, the opposite of what competition demands. Keep the breath nasal, the effort light, and the spine tall; if you feel drowsy, shorten the exhale slightly or add a single sharper inhale to restore edge. The target is a quiet body with a bright mind - the physiological signature of flow, where arousal is high enough to act and low enough not to choke."
+      }
+    ],
+    "principles": [
+      "Resonant ~5-5 breathing tends to raise HRV and calm alertness.",
+      "A fixed short protocol becomes a reliable pre-performance cue.",
+      "Tune for quiet body, bright mind - not sedation.",
+      "Keep it nasal, light, and upright; adjust if you go flat."
+    ],
+    "mistakes": [
+      {
+        "title": "Breathing into dullness",
+        "explanation": "Over-slow, over-deep calm leaves you flat and slow. Keep the edge; shorten the exhale if drowsy."
+      },
+      {
+        "title": "Varying the ritual",
+        "explanation": "A protocol that changes each time never becomes a cue. Fix the count and repeat it identically."
+      },
+      {
+        "title": "Mouth-breathing the prep",
+        "explanation": "Open-mouth hyperventilation spikes arousal and jitter. Keep the breath nasal throughout."
+      },
+      {
+        "title": "Using it only when panicked",
+        "explanation": "Reached for in crisis, it reads as emergency and fails. Train it in calm so it works under load."
+      }
+    ],
+    "practice": [
+      "Stand or sit tall, spine long, shoulders soft.",
+      "Run ten slow nasal 5-in / 5-out breaths, light effort.",
+      "Notice the shift toward quiet-body, bright-mind.",
+      "If flat, add one sharper inhale to restore edge.",
+      "Perform the identical ritual before every session for two weeks."
+    ],
+    "reflection": "Does your pre-performance breathing leave you sharp or dull, and is the ritual consistent enough to become a cue?",
+    "safety": "Stop if you feel lightheaded; resume natural breathing. Performance breathing supports readiness but does not replace sleep, fueling, or warm-up, and never overrides medical guidance.",
+    "quiz": [
+      {
+        "question": "The goal of performance breathing before a bout is:",
+        "options": [
+          "Maximum sedation",
+          "Calm alertness with raised HRV",
+          "Hyperventilation energy",
+          "Holding the breath"
+        ],
+        "answer": 1,
+        "explanation": "Resonant ~5-5 tunes the nervous system toward a quiet body and bright mind, the signature of flow, rather than putting it to sleep."
+      },
+      {
+        "question": "Why keep the pre-performance protocol fixed?",
+        "options": [
+          "It looks disciplined",
+          "A consistent ritual becomes a reliable cue the body answers",
+          "It burns calories",
+          "It replaces warm-up"
+        ],
+        "answer": 1,
+        "explanation": "Repeating the same short protocol identically trains the first breaths to shift state on their own, anchoring attention in the present."
+      }
+    ],
+    "mastery": [
+      "Run a resonant 5-5 protocol without going flat.",
+      "Use a fixed ritual as a pre-performance cue.",
+      "Adjust the ratio to preserve alertness.",
+      "Identify and correct the four common performance-breathing errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Nerves spike before a match.",
+          "action": "You run your fixed ten resonant breaths, tall and nasal, restoring quiet-body bright-mind.",
+          "why": "The ritual cue shifts arousal into the flow band and pulls attention out of anticipatory chatter."
+        },
+        {
+          "setup": "You feel dull after the prep.",
+          "action": "You shorten the exhale and add one sharper inhale to recover edge.",
+          "why": "Performance needs alertness; over-calm misses the target and slows reaction."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A repeatable breath ritual primes the nervous system for flow on demand, not by luck."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A performer who controls arousal breathes into readiness while others choke or jitter."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Dullness or flatness",
+          "Jitter or over-arousal",
+          "Inconsistent ritual"
+        ],
+        "adjustments": [
+          {
+            "if": "You go flat",
+            "then": "Shorten the exhale or add a sharp inhale to restore edge."
+          },
+          {
+            "if": "You stay jittery",
+            "then": "Lengthen the exhale slightly and slow the pace."
+          }
+        ],
+        "learning": "After each session, note whether the ritual produced calm alertness and how quickly it took effect."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Pre-Performance Protocol",
+      "initialTime": 120
+    }
+  },
+  "breathing-applications-stress": {
+    "id": "breathing-applications-stress",
+    "subject": "Breathing",
+    "title": "Stress Regulation",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Use the breath as an on-demand brake for the stress response: recognize the physiology of threat, deploy a long-exhale pattern in real time, and shorten recovery after the spike.",
+    "objectives": [
+      "Understand the sympathetic stress response and its breath signature",
+      "Deploy a long-exhale pattern to engage the parasympathetic brake in real time",
+      "Use the breath to shorten recovery after a stress spike",
+      "Keep regulation functional, not dissociative",
+      "Recognize the four most common stress-regulation errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "The stress brake: long exhale",
+        "caption": "Inhale 4, exhale 8, nasal and soft. The prolonged exhale is the physiological brake on the threat response. Deploy it at the first sign of stress, not after the spiral.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 8,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The breath is the tell",
+        "content": "Stress is not abstract; it is a measurable body state - heart rate climbing, muscles loading, and, most reliably, the breath turning short, high and chest-bound. Because the breath is the one part of the autonomic response you can act on directly, it is both the earliest warning and the fastest lever. Learning to feel the shift in your own breathing - the moment it stops moving the belly and starts clipping at the collarbones - gives you seconds of lead time on the spiral, before cognition gets hijacked."
+      },
+      {
+        "title": "Deploying the brake in real time",
+        "content": "The intervention is a prolonged, relaxed exhale through the nose, which stimulates the vagal brake and pulls the system out of full threat. The hard part is not the technique but the timing: most people reach for it only after the panic has peaked, when it is far less effective. The skill is to deploy the long exhale at the *first* tell - the shallow breath, the tight jaw - treating the early signal as the trigger. Ten seconds of timely braking beats ten minutes of late rescue."
+      },
+      {
+        "title": "Regulate, do not dissociate",
+        "content": "There is a failure mode where 'calming the breath' becomes a way to numb out and avoid the stressor - a spiritual bypass that leaves the real problem untouched. Functional regulation is the opposite: you calm the physiology *so that* you can think clearly and act on the actual situation. The breath lowers the noise floor; it does not delete the signal. After the brake, ask what the stress is telling you and do the thing, rather than settling for feeling fine while the problem persists."
+      }
+    ],
+    "principles": [
+      "The breath is the earliest, most actionable tell of stress.",
+      "A long nasal exhale engages the vagal brake in real time.",
+      "Deploy at the first signal, not after the spiral peaks.",
+      "Regulate to act clearly, not to numb out or avoid."
+    ],
+    "mistakes": [
+      {
+        "title": "Waiting until the peak",
+        "explanation": "Reached for after panic, the brake barely works. Deploy at the first shallow breath or tight jaw."
+      },
+      {
+        "title": "Numbing instead of regulating",
+        "explanation": "Using the breath to avoid the stressor leaves the problem live. Calm the body to act, not to check out."
+      },
+      {
+        "title": "Forcing the exhale into strain",
+        "explanation": "A gripped long exhale adds arousal, not calm. Keep it soft; shorten if you clench."
+      },
+      {
+        "title": "Ignoring the signal entirely",
+        "explanation": "Noticing the breath shift and doing nothing wastes the lead time the tell bought you."
+      }
+    ],
+    "practice": [
+      "Throughout the day, scan for the breath tell: short, high, chest-bound.",
+      "At the first tell, run three to five slow 4-in / 8-out nasal breaths.",
+      "Keep the exhale soft; shorten it if you feel yourself gripping.",
+      "After the brake, name the actual stressor and choose one clear action.",
+      "Log the saves: how many times you caught it early today."
+    ],
+    "reflection": "Can you feel your own stress in the breath before the mind spins, and do you reach for the brake early or only after the spiral?",
+    "safety": "This regulates normal stress; it is not treatment for panic disorder, PTSD, or chronic anxiety. Persistent or overwhelming stress deserves professional support, and the breath should complement, not replace, addressing real causes.",
+    "quiz": [
+      {
+        "question": "The earliest, most actionable physical tell of stress is usually:",
+        "options": [
+          "Heart rate",
+          "The breath turning short and high",
+          "Muscle pain",
+          "Sweating"
+        ],
+        "answer": 1,
+        "explanation": "The breath shift is both an early warning and the one autonomic response you can act on directly, giving lead time before cognition is hijacked."
+      },
+      {
+        "question": "Functional stress regulation differs from dissociation because it:",
+        "options": [
+          "Numbs you to the problem",
+          "Calms the body so you can act clearly on the real stressor",
+          "Avoids the stressor",
+          "Slows the heart as fast as possible"
+        ],
+        "answer": 1,
+        "explanation": "The brake lowers the noise floor so you can think and act; using the breath to check out leaves the actual problem untouched."
+      }
+    ],
+    "mastery": [
+      "Detect the breath tell before the spiral.",
+      "Deploy a long-exhale brake at the first signal.",
+      "Distinguish regulation from numbing.",
+      "Identify and correct the four common stress-regulation errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A difficult email makes your breath clip high.",
+          "action": "You catch the tell, run three 4-in / 8-out breaths, then read the email clearly and reply.",
+          "why": "Braking at the first signal keeps cognition online so you can act on the real problem."
+        },
+        {
+          "setup": "You notice yourself using the breath to avoid a hard conversation.",
+          "action": "You regulate to steady yourself, then have the conversation rather than numbing out.",
+          "why": "Regulation is for acting; bypassing the stressor leaves it live and growing."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "On-demand braking keeps you clear-headed and effective under pressure instead of reactive."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who regulates early is hard to provoke; the stress never reaches the hijack point."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Late deployment after the peak",
+          "Straining the exhale",
+          "Using breath to avoid"
+        ],
+        "adjustments": [
+          {
+            "if": "You always catch it late",
+            "then": "Set periodic body-scans to surface the tell earlier."
+          },
+          {
+            "if": "The exhale feels gripped",
+            "then": "Shorten it and soften the jaw and belly."
+          }
+        ],
+        "learning": "After each day, count the early saves versus late rescues, and note any avoidance in disguise."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stress Brake Drill",
+      "initialTime": 180
+    }
+  },
+  "breathing-applications-integration": {
+    "id": "breathing-applications-integration",
+    "subject": "Breathing",
+    "title": "Integration in Movement",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Sync the breath to the body in motion: time the exhale to the point of effort in lifting, striking and bracing, so breathing supports power and endurance instead of fighting them.",
+    "objectives": [
+      "Understand exhale-on-effort and its role in force and bracing",
+      "Sync breath cadence to movement in lifts, strikes and carries",
+      "Use the breath to stabilize the core under load",
+      "Avoid breath-holding that spikes pressure or starves output",
+      "Recognize the four most common integration errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Breath synced to effort",
+        "caption": "Inhale to load and brace, exhale on the effort - the lift, the strike, the carry. The breath times the movement. Watch the cycle match the work, not fight it.",
+        "phases": [
+          {
+            "label": "Inhale (load)",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Exhale (effort)",
+            "duration": 4,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Exhale on the effort",
+        "content": "The body already knows this: try to press something heavy while holding your breath and you feel the pressure build behind your eyes; exhale on the push and the force flows. The rule is simple - inhale to load and set, exhale through the point of maximum effort. In lifting this is the bracing breath; in striking it is the sharp exhale (the kiai) that fires the core and synchronizes the whole chain into one impulse. The breath is the metronome of force."
+      },
+      {
+        "title": "Bracing and the core",
+        "content": "A controlled inhale followed by a timed exhale is how you create intra-abdominal pressure - the internal cylinder that stiffens the trunk and transfers leg force to the hands without leaking through a soft middle. This is the same bracing the core lesson trained, now married to movement: you inhale, brace 360 degrees, execute on the exhale, then breathe again. Done well it protects the spine and multiplies output; done as a silent, strangled hold it does neither."
+      },
+      {
+        "title": "Cadence, not chaos",
+        "content": "Under sustained movement - a long carry, a fast exchange, a set of reps - the breath settles into a rhythm tied to the motion: inhale for the recovery phase, exhale for the work phase, repeating. The error is letting the breath fall apart into gasps or, worse, vanishing into a held breath that starves the muscles and spikes blood pressure. Skilled integration keeps a steady, audible-enough cadence that the body never has to choose between breathing and moving."
+      }
+    ],
+    "principles": [
+      "Exhale on the point of effort; inhale to load and set.",
+      "The breath braces the core and transfers force without leakage.",
+      "Sustained movement needs a steady breath cadence tied to the motion.",
+      "Never trade breathing for a strangled breath-hold."
+    ],
+    "mistakes": [
+      {
+        "title": "Holding the breath through effort",
+        "explanation": "A silent strangle spikes pressure and starves output. Exhale on the work."
+      },
+      {
+        "title": "Breathing against the movement",
+        "explanation": "Inhaling on the effort phase fights the brace and leaks force. Sync exhale to work."
+      },
+      {
+        "title": "Letting cadence collapse into gasps",
+        "explanation": "Under fatigue the breath shatters; drop the load or pace until rhythm returns."
+      },
+      {
+        "title": "Bracing without a breath plan",
+        "explanation": "Stiffening the trunk with no timed inhale/exhale is just straining. Pair brace with breath."
+      }
+    ],
+    "practice": [
+      "Pick a lift or strike; inhale to set, exhale sharply on the effort.",
+      "Feel the core stiffen on the inhale and fire on the exhale.",
+      "For a carry or set, lock a cadence: inhale recovery, exhale work.",
+      "If the breath vanishes or shatters, reduce load or pace.",
+      "Re-test a heavy rep with the breath timed; compare the force."
+    ],
+    "reflection": "In your hardest movement, does the breath support the effort or disappear into a strangle, and can you hear your own cadence?",
+    "safety": "Do not maximal-load while practicing breath-holding patterns; uncontrolled straining can spike blood pressure dangerously. Build the brace with submaximal weight first, and consult a professional for hypertension or cardiac concerns.",
+    "quiz": [
+      {
+        "question": "The basic rule of breath in movement is:",
+        "options": [
+          "Inhale on the effort",
+          "Exhale on the point of effort",
+          "Hold the breath through the work",
+          "Breathe randomly"
+        ],
+        "answer": 1,
+        "explanation": "Inhale to load and brace, exhale through maximum effort; this fires the core and transfers force instead of building pressure behind the eyes."
+      },
+      {
+        "question": "Why does a strangled breath-hold fail under load?",
+        "options": [
+          "It adds power",
+          "It spikes pressure and starves the muscles of the timed exhale",
+          "It protects the spine",
+          "It is ideal for striking"
+        ],
+        "answer": 1,
+        "explanation": "A silent hold leaks force and raises dangerous pressure; the brace needs a timed inhale-exhale, not a sealed airway."
+      }
+    ],
+    "mastery": [
+      "Exhale on effort across lifts, strikes and carries.",
+      "Brace the core with a timed inhale-exhale.",
+      "Maintain a steady cadence under sustained movement.",
+      "Identify and correct the four common integration errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A heavy press stalls and your face reddens.",
+          "action": "You inhale to set, brace, and exhale sharply through the sticking point.",
+          "why": "The timed exhale releases the strangle, restores force transfer, and protects the spine."
+        },
+        {
+          "setup": "Mid-exchange your breath disappears.",
+          "action": "You re-establish a cadence, exhaling on each strike and inhaling on recovery.",
+          "why": "Syncing breath to motion keeps the core firing and prevents the gasp-collapse that drains output."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Integrated breathing multiplies force and delays fatigue by tying the breath to every effort."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner whose breath never breaks under load sustains power where others gasp and fade."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Face reddening or strangle",
+          "Breath vanishing under fatigue",
+          "Cadence collapsing"
+        ],
+        "adjustments": [
+          {
+            "if": "You strangle the breath",
+            "then": "Reduce load and re-train the timed exhale on the effort."
+          },
+          {
+            "if": "Cadence shatters",
+            "then": "Slow the pace until inhale-recovery / exhale-work returns."
+          }
+        ],
+        "learning": "After each session, note whether the breath supported or fought the hardest reps, and where the cadence broke."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Breath-Movement Sync",
+      "workTime": 30,
+      "restTime": 30,
+      "totalIntervals": 6
+    }
+  },
+  "training-performance-power": {
+    "id": "training-performance-power",
+    "subject": "Training",
+    "title": "Power Development",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Understand power as force times velocity and train the explosive middle of that curve, where strength and speed meet to produce real-world output.",
+    "objectives": [
+      "Define power as the product of force and velocity",
+      "Locate the explosive mid-range where power peaks",
+      "Train intent to move fast even under load",
+      "Separate power work from pure strength or pure speed",
+      "Recognize the four most common power errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The force-velocity curve",
+        "caption": "Power is the product of force and velocity, and it peaks in the middle where the two overlap. Train that overlap with explosive intent, not just heavy grinds or light snaps.",
+        "labels": [
+          "Heavy + slow = strength end",
+          "Light + fast = speed end",
+          "Power peaks in the overlap",
+          "Train explosive intent in the middle",
+          "Fatigue kills power; rest fully between reps"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Power is force times velocity",
+        "content": "Strength is how much force you can make; speed is how fast you can make it; power is how much force you can make *quickly* - the product of the two. A powerlifter grinding a heavy single is strong but not necessarily powerful; a sprinter snapping a light limb is fast but not necessarily powerful. The athlete who can hit hard and fast lives in the middle of the force-velocity curve, and that middle is exactly where sport and self-defense happen. Power is the skill of multiplying the two axes at once."
+      },
+      {
+        "title": "Train the overlap with intent",
+        "content": "The middle of the curve is trained by moving a moderate load as fast as possible with full intent. The load is heavy enough to demand force but light enough to permit speed; the critical variable is not the weight but the *intention* to accelerate through it. Even when a rep looks slow, the nervous system is trained by the will to move it explosively. Sloppy, grinding reps build strength; crisp, driven reps with rest between build power, because power is a quality of the nervous system, not just the muscle."
+      },
+      {
+        "title": "Power is fatigued first",
+        "content": "Of all the qualities, power degrades fastest under fatigue - a tired nervous system cannot recruit fibers quickly, so a fatigued power set trains endurance disguised as power. The rule is the opposite of the 'burn' mentality: rest fully between efforts, keep reps low and crisp, and stop the set the moment speed drops. Quality over quantity, freshness over fatigue. If the bar slows, the set is over; chasing reps through a decline builds the wrong thing and courts injury."
+      }
+    ],
+    "principles": [
+      "Power = force x velocity, peaking in the curve's overlap.",
+      "Train the middle with explosive intent, not just load or speed.",
+      "The nervous system, not the muscle, is the primary target.",
+      "Rest fully and stop the set when speed drops; fatigue kills power."
+    ],
+    "mistakes": [
+      {
+        "title": "Grinding heavy reps for power",
+        "explanation": "Max-effort grinds build strength, not the force-velocity overlap. Use a moderate load driven fast."
+      },
+      {
+        "title": "Chasing reps through fatigue",
+        "explanation": "A slowed rep trains endurance, not power. Stop the set when speed drops."
+      },
+      {
+        "title": "Lifting without intent",
+        "explanation": "Moving a light load lazily builds nothing explosive. Accelerate through every rep."
+      },
+      {
+        "title": "Skipping rest between efforts",
+        "explanation": "Short rests turn a power session into conditioning. Rest fully to keep the nervous system fresh."
+      }
+    ],
+    "practice": [
+      "Choose a moderate load you can move fast for 3-5 reps.",
+      "Drive each rep with maximal intent to accelerate.",
+      "Rest 2-3 minutes between sets; keep the nervous system fresh.",
+      "Stop the set the instant speed visibly drops.",
+      "Track bar or limb speed, not just reps completed."
+    ],
+    "reflection": "In your explosive work, are you truly accelerating with intent, or grinding reps that have quietly become endurance?",
+    "safety": "Explosive loading under fatigue or poor form raises injury risk; keep reps crisp and stop when speed falls. Build a strength base before heavy ballistic work, and consult a professional for joint or spine concerns.",
+    "quiz": [
+      {
+        "question": "Power is best defined as:",
+        "options": [
+          "Maximum force",
+          "Maximum speed",
+          "Force produced quickly (force x velocity)",
+          "Endurance under load"
+        ],
+        "answer": 2,
+        "explanation": "Power is the product of force and velocity, peaking in the overlap of the curve - the ability to make a lot of force fast, which is where sport happens."
+      },
+      {
+        "question": "Why must you rest fully and stop when speed drops?",
+        "options": [
+          "To burn more calories",
+          "Because fatigue degrades the nervous system's ability to produce power",
+          "To build endurance",
+          "Because reps matter most"
+        ],
+        "answer": 1,
+        "explanation": "Power is a neural quality; a tired system cannot recruit fast, so slowed reps train endurance, not power. Freshness is the point."
+      }
+    ],
+    "mastery": [
+      "Explain power as force times velocity.",
+      "Train the overlap with explosive intent and full rest.",
+      "Recognize and stop a set when speed declines.",
+      "Identify and correct the four common power errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A strike or lift feels strong but slow.",
+          "action": "You drop the load slightly and drive with maximal accelerative intent for low, crisp reps.",
+          "why": "The overlap of force and velocity is where power lives; intent to move fast trains the nervous system there."
+        },
+        {
+          "setup": "Reps start slowing mid-set.",
+          "action": "You end the set and rest fully rather than grinding through.",
+          "why": "Once speed drops you are training endurance, not power, and inviting fatigue-related breakdown."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Trained power lets you hit hard and fast, the quality that decides most physical exchanges."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A powerful practitioner delivers force at speed, overwhelming slower, merely-strong opponents."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Reps slowing",
+          "Loss of intent",
+          "Short rests creeping in"
+        ],
+        "adjustments": [
+          {
+            "if": "Speed drops",
+            "then": "End the set; rest fully before the next effort."
+          },
+          {
+            "if": "Intent fades",
+            "then": "Lighten the load until you can drive explosively again."
+          }
+        ],
+        "learning": "After each session, note whether every rep was truly explosive and where the set should have ended."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Power Sets",
+      "workTime": 20,
+      "restTime": 150,
+      "totalIntervals": 5
+    }
+  },
+  "training-performance-endurance": {
+    "id": "training-performance-endurance",
+    "subject": "Training",
+    "title": "Endurance Building",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Build a layered engine across the three energy systems, with an aerobic base underneath and interval work on top, so you can produce output repeatedly and recover between efforts.",
+    "objectives": [
+      "Distinguish the phosphagen, glycolytic and oxidative systems",
+      "Build an aerobic base that underpins all repeated output",
+      "Use intervals to develop the upper systems without burning out",
+      "Match the system trained to the duration of the effort",
+      "Recognize the four most common endurance errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The three energy systems",
+        "caption": "Efforts of different lengths draw on different systems. Build the oxidative base first; it underpins recovery and repeated output, then layer intervals for the top-end systems.",
+        "labels": [
+          "Phosphagen: 0-10s max effort",
+          "Glycolytic: 10s-2min, the burn",
+          "Oxidative: 2min+, the aerobic base",
+          "Base underpins all repeated output",
+          "Intervals tax the top; base builds the floor"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Three systems, three clocks",
+        "content": "The body fuels effort through three overlapping systems sorted by duration. The phosphagen system powers maximal bursts of roughly zero to ten seconds - a single strike, a heavy lift - and refuels slowly. The glycolytic system takes over from about ten seconds to two minutes, producing the burning, breathless middle. The oxidative system runs everything beyond that and, crucially, recycles the waste of the other two. Knowing which clock an effort runs on tells you which system to train and why a marathoner and a sprinter look nothing alike."
+      },
+      {
+        "title": "The base underneath everything",
+        "content": "Most athletes neglect the oxidative system because it is boring - easy, sustained, unglamorous work - yet it is the foundation of all repeated output. A big aerobic base clears metabolic waste faster, refuels the phosphagen system quicker, and lets you recover between rounds, reps and bouts. It is the floor of the house. Skip it and your interval work has nothing to recover on; build it and every higher system improves, because recovery is itself a trained capacity."
+      },
+      {
+        "title": "Layer intervals, do not replace the base",
+        "content": "On top of the base, intervals develop the upper systems: short, hard efforts that tax the phosphagen and glycolytic pathways, with rest that lets you repeat them. The error is living only in intervals - constant hard work that accumulates fatigue, plateaus, and often injury - while the base erodes. The structure is a pyramid: lots of easy aerobic volume at the bottom, a modest amount of hard interval work at the top, and the ratio skewed toward the base. Hard is a spice, not the meal."
+      }
+    ],
+    "principles": [
+      "Effort duration selects the system: phosphagen, glycolytic, oxidative.",
+      "An aerobic base underpins recovery and all repeated output.",
+      "Intervals develop the top systems but must sit on the base.",
+      "Train the pyramid: heavy easy volume, modest hard work on top."
+    ],
+    "mistakes": [
+      {
+        "title": "Neglecting the aerobic base",
+        "explanation": "Skipping easy volume leaves nothing to recover on; intervals then stall and fatigue accumulates."
+      },
+      {
+        "title": "Living only in intervals",
+        "explanation": "Constant hard work plateaus and injures. Hard is a spice, not the meal; the base is the meal."
+      },
+      {
+        "title": "Training the wrong system",
+        "explanation": "Long slow work will not build a ten-second burst; match the drill to the effort's clock."
+      },
+      {
+        "title": "Going too hard on easy days",
+        "explanation": "Turning recovery volume into a grind destroys the very adaptation the base is meant to build."
+      }
+    ],
+    "practice": [
+      "Build 2-3 easy aerobic sessions weekly (conversational pace).",
+      "Add 1-2 interval sessions targeting the upper systems.",
+      "Keep easy days genuinely easy; save intensity for the hard days.",
+      "Match drill length to the effort you need (burst vs sustained).",
+      "Track resting heart rate and recovery speed as base markers."
+    ],
+    "reflection": "Is your training a pyramid with a real base, or a spike of constant hard work with nothing underneath?",
+    "safety": "Large jumps in interval volume or intensity raise injury and overtraining risk; build the base first and add hard work gradually. Consult a professional for cardiac symptoms, and never train through chest pain or irregular heartbeat.",
+    "quiz": [
+      {
+        "question": "Which system underpins recovery and repeated output?",
+        "options": [
+          "Phosphagen",
+          "Glycolytic",
+          "Oxidative (aerobic base)",
+          "Anaerobic alactic"
+        ],
+        "answer": 2,
+        "explanation": "The oxidative base clears waste, refuels the other systems, and lets you recover between efforts; it is the floor all repeated output stands on."
+      },
+      {
+        "question": "The correct structure of endurance training is:",
+        "options": [
+          "All intervals",
+          "All easy volume",
+          "A pyramid: heavy easy base, modest hard work on top",
+          "Random mixing"
+        ],
+        "answer": 2,
+        "explanation": "Hard interval work develops the top systems but must sit on a large aerobic base; the ratio skews toward the base, with hard as a spice."
+      }
+    ],
+    "mastery": [
+      "Name the three systems and their duration windows.",
+      "Build and protect an aerobic base.",
+      "Layer intervals without eroding the base.",
+      "Identify and correct the four common endurance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You gas out by round two.",
+          "action": "You add easy aerobic volume to grow the base that refuels and clears waste between rounds.",
+          "why": "A bigger oxidative base speeds recovery between efforts, which is the floor of repeated output."
+        },
+        {
+          "setup": "Every session feels like a max effort.",
+          "action": "You convert most volume to conversational pace and reserve intensity for one or two days.",
+          "why": "Constant hard work accumulates fatigue and plateaus; the pyramid needs a wide, easy base."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A layered engine lets you produce output repeatedly and recover, the backbone of any long bout."
+        },
+        {
+          "role": "Facing it",
+          "detail": "An endurance-built practitioner stays sharp late while others fade into gasping."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Fading late",
+          "Constant soreness",
+          "Resting heart rate climbing"
+        ],
+        "adjustments": [
+          {
+            "if": "You fade late",
+            "then": "Increase easy aerobic volume; the base is too small."
+          },
+          {
+            "if": "You are always sore",
+            "then": "Cut intensity and add recovery-focused easy days."
+          }
+        ],
+        "learning": "After each week, note the ratio of easy to hard volume and whether recovery between efforts improved."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Endurance Blocks",
+      "workTime": 60,
+      "restTime": 30,
+      "totalIntervals": 8
+    }
+  },
+  "training-performance-recovery": {
+    "id": "training-performance-recovery",
+    "subject": "Training",
+    "title": "Recovery Capacity",
+    "level": "Advanced",
+    "duration": "12 min",
+    "description": "Train recovery itself as a skill: understand supercompensation, build the habits that widen your adaptive window, and learn to progress before full decay without digging a deficit.",
+    "objectives": [
+      "Understand supercompensation as the mechanism of adaptation",
+      "Train recovery capacity through sleep, fueling and down-regulation",
+      "Progress in the adaptive window, not during a deficit",
+      "Recognize overtraining as a recovery failure, not a effort failure",
+      "Identify the four most common recovery errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The supercompensation curve",
+        "caption": "Training is a stimulus; adaptation happens in recovery, overshooting the prior baseline. Progress by repeating before full decay, never by digging into a deficit.",
+        "labels": [
+          "Stimulus: the training session",
+          "Fatigue: performance dips",
+          "Recovery + sleep + food",
+          "Supercompensation: adaptive overshoot",
+          "Repeat before full decay; never train in deficit"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Adaptation happens in recovery",
+        "content": "The session itself does not make you stronger; it makes you tired. Training is a stimulus that damages and depletes, and the actual gain is built afterward, while you sleep, eat and rest. Supercompensation is the name for the rebound: recover well and performance rises slightly above the previous baseline, a small overshoot. Understand this and the priority inverts - the work you do between sessions matters as much as the work in them, because that is where the adaptation is manufactured."
+      },
+      {
+        "title": "Recovery is a trainable capacity",
+        "content": "Some people bounce back fast and some linger; that gap is not fixed, it is trainable. The levers are unglamorous but decisive: sleep (the single largest recovery variable), adequate fueling and hydration, and the ability to down-regulate the nervous system on command - which is exactly what the long-exhale and recovery-breathing practices build. A practitioner who can flip into parasympathetic recovery between bouts rebuilds faster than one who stays revved. Recovery capacity is the engine under the engine."
+      },
+      {
+        "title": "Progress in the window, not the deficit",
+        "content": "The art of programming is timing the next stimulus to land in the supercompensation window - after you have recovered and overshot, but before that overshoot decays back to baseline. Hit it right and gains stack; hit it too soon, while still in the dip, and you dig a deficit that compounds into stagnation or overtraining. Overtraining is therefore not a failure of effort but a failure of recovery: too much stimulus, too little window. Read your cues - resting heart rate, mood, sleep quality, performance trend - and let them, not ambition, set the next dose."
+      }
+    ],
+    "principles": [
+      "Training is a stimulus; adaptation is built in recovery.",
+      "Supercompensation is the overshoot you time the next dose to.",
+      "Recovery capacity is trainable via sleep, fueling and down-regulation.",
+      "Overtraining is a recovery failure, not an effort failure."
+    ],
+    "mistakes": [
+      {
+        "title": "Training in the deficit",
+        "explanation": "Hitting the next hard session while still dipped digs a hole instead of stacking gains. Wait for the window."
+      },
+      {
+        "title": "Treating sleep as optional",
+        "explanation": "Sleep is the largest recovery variable; skimping it caps every adaptation you train for."
+      },
+      {
+        "title": "Staying revved between bouts",
+        "explanation": "Without down-regulation the nervous system never fully recovers; recovery capacity stalls."
+      },
+      {
+        "title": "Reading overtraining as laziness",
+        "explanation": "Stagnation from too little recovery is not fixed by more effort; it is fixed by more window."
+      }
+    ],
+    "practice": [
+      "Track resting heart rate and sleep quality daily as recovery markers.",
+      "Prioritize 7-9 hours of sleep as the primary training variable.",
+      "Fuel and hydrate to support repair, not just performance.",
+      "Practice a down-regulation breath between hard efforts.",
+      "Time the next hard session to land after recovery, before decay."
+    ],
+    "reflection": "Are you progressing in the supercompensation window or quietly training in a deficit, and is sleep treated as training or as spare time?",
+    "safety": "Persistent fatigue, elevated resting heart rate, insomnia or mood changes may signal overtraining or an underlying condition; reduce load and consult a professional rather than pushing through.",
+    "quiz": [
+      {
+        "question": "Where does the actual performance gain occur?",
+        "options": [
+          "During the training session",
+          "In recovery afterward (supercompensation)",
+          "Only during competition",
+          "When you dig deeper"
+        ],
+        "answer": 1,
+        "explanation": "Training is the stimulus; adaptation is built in recovery, overshooting the prior baseline. The session makes you tired, the rest makes you better."
+      },
+      {
+        "question": "Overtraining is best understood as:",
+        "options": [
+          "A failure of effort",
+          "A failure of recovery and timing",
+          "A sign of weakness",
+          "Too much sleep"
+        ],
+        "answer": 1,
+        "explanation": "It comes from too much stimulus and too little window; more effort worsens it. The fix is more recovery, timed to the supercompensation window."
+      }
+    ],
+    "mastery": [
+      "Explain supercompensation and time doses to the window.",
+      "Train recovery capacity via sleep, fueling and down-regulation.",
+      "Read cues to avoid training in a deficit.",
+      "Identify and correct the four common recovery errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Performance stalls despite hard training.",
+          "action": "You add recovery - sleep, fueling, down-regulation - and delay the next hard dose until the window.",
+          "why": "Stagnation is usually a recovery failure; stacking gains requires landing in the overshoot, not the dip."
+        },
+        {
+          "setup": "You stay wired between bouts.",
+          "action": "You deploy a long-exhale down-regulation to flip into parasympathetic recovery.",
+          "why": "Recovery capacity is trainable; the ability to calm on command rebuilds you faster between efforts."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Strong recovery capacity lets you train more often and adapt faster, compounding gains over time."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A well-recovered practitioner stays sharp across a long camp while others erode into deficit."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Rising resting heart rate",
+          "Poor sleep",
+          "Stalling performance"
+        ],
+        "adjustments": [
+          {
+            "if": "Markers signal deficit",
+            "then": "Cut load and prioritize recovery until they normalize."
+          },
+          {
+            "if": "You feel revved",
+            "then": "Add down-regulation breaths and protect sleep first."
+          }
+        ],
+        "learning": "After each week, review your recovery markers and whether doses landed in the window or the deficit."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Recovery Audit",
+      "initialTime": 300
+    }
   }
 }
