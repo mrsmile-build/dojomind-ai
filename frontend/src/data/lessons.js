@@ -12782,5 +12782,1497 @@ export const lessons = {
       "label": "Recovery Audit",
       "initialTime": 300
     }
+  },
+  "meditation-integration-daily": {
+    "id": "meditation-integration-daily",
+    "subject": "Meditation",
+    "title": "Practice in Daily Life",
+    "level": "Expert",
+    "duration": "18 min",
+    "description": "Carry the cushion skill into the ordinary hours: treat the day itself as the practice field, where attention is spent on real tasks and returned, not hidden from them.",
+    "objectives": [
+      "Understand that integration is the test of the practice, not an add-on",
+      "Use ordinary activity as the anchor instead of escaping it",
+      "Notice presence slipping mid-task and return without stopping the work",
+      "Hold a thread of awareness through transitions and interruptions",
+      "Recognize the four most common integration errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "The loop that includes the world",
+        "caption": "Here the dot leaves center to engage a real task, then returns - and the return is to the task, not away from it. Integration means the practice survives contact with the day. Press Play to watch attention spend and renew itself in ordinary work.",
+        "phases": [
+          {
+            "label": "Anchor",
+            "note": "presence set on the breath",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Engage",
+            "note": "give the task full attention",
+            "x": 138,
+            "y": 74,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Slip",
+            "note": "presence quietly drains away",
+            "x": 150,
+            "y": 62,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Renew",
+            "note": "return to the task, awake",
+            "x": 120,
+            "y": 86,
+            "glow": true,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The day is the exam",
+        "content": "Everything built on the cushion - stability, clarity, equanimity - is provisional until it holds in traffic, in a queue, in a boring meeting. Integration is not a fifth technique added to the four; it is the proof of the other four. A mind that is steady only when nothing is demanded of it has trained a hobby, not a capacity. The expert move is to stop treating daily life as the interruption to practice and start treating it as the practice, with the cushion as the calibration that makes the day readable."
+      },
+      {
+        "title": "Activity as the anchor",
+        "content": "Beginners anchor on the breath and withdraw from the world; experts anchor on the task and let the breath run underneath. Washing dishes, the full sensation of the water and the weight of the plate is the object; writing, the shape of the next sentence is the object. Presence is not a separate layer you add to doing - it is doing without the background hum of escape. The return cue changes from 'back to the breath' to 'back to what is actually in front of you,' which is the same gesture aimed at the world instead of away from it."
+      },
+      {
+        "title": "The thread through transitions",
+        "content": "The day breaks not in the tasks but between them - the door opening, the phone buzzing, the meeting ending. These seams are where presence leaks and autopilot takes the wheel. The skill is a micro-return at each seam: one conscious breath, one felt foot on the floor, before the next thing begins. Stack enough of these and the day stops being a series of distracted episodes and becomes a single continuous line of attention with varied content. That continuity, not any long sit, is the mark of an integrated practice."
+      }
+    ],
+    "principles": [
+      "Integration is the test of the practice, not an extra technique.",
+      "Anchor on the task itself; let the breath run underneath.",
+      "Presence is doing without the background hum of escape.",
+      "Guard the seams between activities with a micro-return."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating the day as the enemy of practice",
+        "explanation": "If life interrupts the cushion, the cushion was never the point. Reframe the day as the field."
+      },
+      {
+        "title": "Adding presence on top of doing",
+        "explanation": "A separate 'mindfulness layer' doubles the work and collapses. Presence is the doing, undivided."
+      },
+      {
+        "title": "Letting transitions run on autopilot",
+        "explanation": "The seams between tasks are where attention leaks; skipping the micro-return fragments the day."
+      },
+      {
+        "title": "Measuring integration by sit length",
+        "explanation": "Hours on the cushion prove nothing about traffic. Measure by how awake the ordinary hours are."
+      }
+    ],
+    "practice": [
+      "Pick one routine task today and make it wholly the object.",
+      "At each transition, take one conscious breath before the next thing.",
+      "When you notice autopilot, return to the task, not to a withdrawal pose.",
+      "Track how many seams you held awake versus how many you lost.",
+      "End the day noting one moment presence survived real demand."
+    ],
+    "reflection": "Which ordinary hour today was truly lived rather than auto-piloted, and where did the thread break between tasks?",
+    "safety": "Integration should increase engagement with life, not dissociate you from it. If bringing presence to difficult daily content overwhelms you, return to short cushion sits and seek a teacher or professional for the heavier material.",
+    "quiz": [
+      {
+        "question": "In integration, the anchor becomes:",
+        "options": [
+          "The breath, withdrawing from the world",
+          "The task itself, with breath underneath",
+          "A mantra repeated during work",
+          "Closing the eyes mid-task"
+        ],
+        "answer": 1,
+        "explanation": "Presence is spent on real activity, not hidden from it; the return cue points back to what is in front of you."
+      },
+      {
+        "question": "Where does attention most often leak during the day?",
+        "options": [
+          "During long tasks",
+          "At the seams between activities",
+          "While sleeping",
+          "When reading"
+        ],
+        "answer": 1,
+        "explanation": "Transitions - doors, phones, endings - are where autopilot takes over; a micro-return at each seam holds the thread."
+      }
+    ],
+    "mastery": [
+      "Make an ordinary task wholly the object of attention.",
+      "Hold a thread of presence through transitions.",
+      "Return to the task, not away from it, when autopilot appears.",
+      "Identify and correct the four common integration errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A boring meeting pulls you into escape fantasy.",
+          "action": "You return attention to the speaker and the room, making the meeting itself the object.",
+          "why": "Presence is the undivided doing; reframing the task as the anchor turns the drain into practice."
+        },
+        {
+          "setup": "You move between chores on autopilot all afternoon.",
+          "action": "At each seam you take one conscious breath before starting the next thing.",
+          "why": "Guarding the transitions stitches the day into one continuous line of attention instead of scattered episodes."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Integrated attention makes work cleaner and life more lived, because nothing is done half-awake."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner present in daily life is harder to rush or distract; their attention is not hostage to the next thing."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Autopilot taking a seam",
+          "Escape fantasy during a task",
+          "Measuring by sit length"
+        ],
+        "adjustments": [
+          {
+            "if": "A transition runs blind",
+            "then": "Insert a one-breath reset before the next activity."
+          },
+          {
+            "if": "You drift from a task",
+            "then": "Return to the task's raw sensation, not to a withdrawal pose."
+          }
+        ],
+        "learning": "After each day, count the seams you held awake and name one task that became practice by being fully met."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Daily-Life Practice",
+      "initialTime": 1080
+    }
+  },
+  "meditation-integration-relationships": {
+    "id": "meditation-integration-relationships",
+    "subject": "Meditation",
+    "title": "Presence in Relationships",
+    "level": "Expert",
+    "duration": "18 min",
+    "description": "Bring the steady, even attention of practice into contact with another person: listen without preparing a reply, hold center when triggered, and respond from presence rather than reaction.",
+    "objectives": [
+      "Understand that relationship is the hardest and richest practice field",
+      "Listen fully without rehearsing a response",
+      "Hold the center when a trigger rises in conversation",
+      "Respond from presence rather than from the reactive reflex",
+      "Recognize the four most common relational-presence errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Presence under interpersonal load",
+        "caption": "The dot holds center while a trigger arises (the cloud) and the glow marks staying present instead of reacting. Relationship practice is equanimity with a face on it. Press Play to watch presence survive a provocation.",
+        "phases": [
+          {
+            "label": "Listen",
+            "note": "whole attention on the other",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Trigger",
+            "note": "a reaction rises in you",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Stay",
+            "note": "center held, not reacted",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Respond",
+            "note": "answer from presence",
+            "x": 118,
+            "y": 88,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The other person is the cushion",
+        "content": "Solitary practice refines attention in a controlled room; relationship removes the control. Another voice, a pointed look, an interruption - these are stimuli you cannot pause or close your eyes against. That is exactly why they are the superior training: presence that only works alone is not yet presence, it is a private habit. The expert treats conversation as the field where stability, clarity and equanimity are either real or revealed as theoretical. The other person is not an obstacle to practice; they are the practice."
+      },
+      {
+        "title": "Listening without the rehearsal",
+        "content": "Most 'listening' is waiting to speak, a background process drafting your reply while the other talks. Relational presence begins by killing that process: you attend to the words, the tone, the face, with nothing queued behind them. This is harder than it sounds because the ego is impatient to defend or impress. The signal that you have truly listened is that you can repeat back what they meant, not just what they said - and that your response arises from hearing them, not from the rehearsed line. Listening is the first and most generous form of presence."
+      },
+      {
+        "title": "The gap between trigger and response",
+        "content": "When something lands wrong - a criticism, a dismissal - the body fires before the mind consents: heat, tension, the retort already on the tongue. Practice does not delete the trigger; it widens the gap between the flare and the reply, and in that gap lives the choice to respond from center instead of from reflex. You feel the reaction fully (equanimity, not suppression), let the first wave crest without acting on it, and then answer. The other person experiences this as unnerving calm - not coldness, but a steadiness that refuses to be hijacked. That refusal is the whole point."
+      }
+    ],
+    "principles": [
+      "Relationship is the hardest and richest practice field.",
+      "Listen fully, with no reply queued behind the other's words.",
+      "A trigger widens a gap, and the gap is where choice lives.",
+      "Respond from center; feel the reaction without being run by it."
+    ],
+    "mistakes": [
+      {
+        "title": "Listening to reply",
+        "explanation": "Rehearsing while they talk means you never actually heard them. Kill the background draft."
+      },
+      {
+        "title": "Reacting inside the gap",
+        "explanation": "Acting on the first flare surrenders the choice practice built. Let the wave crest before answering."
+      },
+      {
+        "title": "Suppressing the reaction as 'being present'",
+        "explanation": "Numbing the trigger is avoidance, not equanimity. Feel it fully and still choose the response."
+      },
+      {
+        "title": "Practicing presence only when it is easy",
+        "explanation": "Calm conversations prove nothing. The trigger is the curriculum; meet the hard ones awake."
+      }
+    ],
+    "practice": [
+      "In one conversation today, listen with no reply queued.",
+      "When triggered, feel the body flare and pause one breath before answering.",
+      "Repeat back what the other meant, not just said.",
+      "Notice whether your response came from hearing or from the draft.",
+      "Track one moment you stayed centered under provocation."
+    ],
+    "reflection": "In your last difficult exchange, did you listen to understand or to reply, and was there a real gap before you reacted?",
+    "safety": "Presence in relationship does not mean tolerating abuse or staying in unsafe dynamics. Steady attention can clarify when to leave; it never obliges you to endure harm. Seek professional support for entrenched relational distress.",
+    "quiz": [
+      {
+        "question": "Why is relationship a harder practice field than solitary sitting?",
+        "options": [
+          "It is longer",
+          "It removes the control you can manage alone",
+          "It needs no attention",
+          "It is easier"
+        ],
+        "answer": 1,
+        "explanation": "Another person supplies stimuli you cannot pause or hide from, so presence that survives there is real rather than theoretical."
+      },
+      {
+        "question": "The 'gap' a trigger opens is valuable because:",
+        "options": [
+          "It lets you suppress the feeling",
+          "It is where you choose to respond from center rather than reflex",
+          "It ends the conversation",
+          "It proves you are calm"
+        ],
+        "answer": 1,
+        "explanation": "Practice widens the space between flare and reply; in that space the reactive reflex can be met with a chosen response."
+      }
+    ],
+    "mastery": [
+      "Listen with no reply queued behind the other's words.",
+      "Hold center and feel a trigger without reacting from it.",
+      "Respond from presence rather than reflex.",
+      "Identify and correct the four common relational-presence errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Someone criticizes you and the retort jumps up.",
+          "action": "You feel the flare, pause one breath in the gap, then answer from hearing them.",
+          "why": "The gap is where choice lives; responding from center refuses the hijack the trigger offered."
+        },
+        {
+          "setup": "You catch yourself drafting a reply while they speak.",
+          "action": "You drop the draft and return whole attention to their words and face.",
+          "why": "Listening to understand, not to reply, is the first and most generous form of presence."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Relational presence de-escalates conflict and makes the other person feel genuinely heard."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who stays centered under provocation cannot be baited; their calm is contagious or disarming."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Rehearsing while listening",
+          "Reacting inside the gap",
+          "Calling suppression 'presence'"
+        ],
+        "adjustments": [
+          {
+            "if": "The draft is loud",
+            "then": "Drop it and re-listen to the raw words and tone."
+          },
+          {
+            "if": "You reacted on the flare",
+            "then": "Note it without self-attack; widen the gap next time."
+          }
+        ],
+        "learning": "After each hard exchange, name whether you listened to understand and whether a real gap preceded your reply."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Relational Presence",
+      "initialTime": 1080
+    }
+  },
+  "meditation-integration-insight": {
+    "id": "meditation-integration-insight",
+    "subject": "Meditation",
+    "title": "Insight and Letting Go",
+    "level": "Expert",
+    "duration": "18 min",
+    "description": "Move from calming the mind to seeing through it: investigate the patterns that run you, see them clearly, release the grip, and let the seeing change the behavior rather than just the mood.",
+    "objectives": [
+      "Distinguish calming insight from seeing-through insight",
+      "Investigate a recurring pattern with clear, kind attention",
+      "See the pattern's mechanism without identifying with it",
+      "Let the seeing release the grip and rewire the habit",
+      "Recognize the four most common insight errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "See, release, become",
+        "caption": "The dot brightens as a pattern is seen clearly (the glow), then settles as the grip releases and the insight is integrated into behavior. Seeing that does not change the doing is not yet insight. Press Play to watch understanding turn into release.",
+        "phases": [
+          {
+            "label": "See",
+            "note": "the pattern is clear",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Release",
+            "note": "the grip loosens",
+            "x": 122,
+            "y": 84,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Integrate",
+            "note": "seeing becomes behavior",
+            "x": 100,
+            "y": 100,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Rest",
+            "note": "lighter, rewired",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Calming versus seeing",
+        "content": "Most practice so far has calmed the surface - steadier attention, brighter clarity, evenness under load. Insight is a different operation: it looks *through* the surface to the machinery underneath, the recurring pattern that manufactures the suffering. Calming says 'be at peace with the storm'; seeing says 'notice you are the one holding the match.' The first relieves the symptom; the second removes the cause. An expert practice needs both, but only seeing actually liberates, because you cannot release what you have not first clearly seen."
+      },
+      {
+        "title": "Investigate without identifying",
+        "content": "To see a pattern - say, the way you abandon yourself the moment someone withdraws - you must look at it the way you looked at thoughts: as an event, not an identity. 'I am needy' locks the pattern into a self and freezes it; 'neediness arises when connection feels threatened' keeps it a mechanism you can watch and therefore change. The attention is curious and kind, never prosecutorial, because shame only drives the pattern underground. You trace the chain: trigger, body sensation, the story, the urge, the habitual act. Seeing the links is what loosens them."
+      },
+      {
+        "title": "Seeing that becomes doing",
+        "content": "There is a trap unique to insight practice: the beautiful, clarifying moment of understanding that changes nothing, because it stays a mood instead of becoming a behavior. Real integration is measured downstream - the next time the trigger fires, do you act differently? If the seeing was genuine, the grip has loosened and the old automatic response has a hole in it. If nothing changed, you had an interesting thought, not an insight. The expert therefore treats every clear seeing as a hypothesis to be tested in the next real encounter, and lets the behavior, not the epiphany, be the proof."
+      }
+    ],
+    "principles": [
+      "Calming soothes the symptom; seeing removes the cause.",
+      "Investigate a pattern as a mechanism, never as an identity.",
+      "Curious, kind attention loosens the links shame only hides.",
+      "Insight is proven by changed behavior, not by the clarifying mood."
+    ],
+    "mistakes": [
+      {
+        "title": "Mistaking a calm mood for insight",
+        "explanation": "Peace that changes nothing downstream is relief, not seeing. Test the understanding in the next encounter."
+      },
+      {
+        "title": "Identifying with the pattern",
+        "explanation": "'I am this way' freezes the mechanism. Keep it an event you can watch and therefore alter."
+      },
+      {
+        "title": "Investigating with shame",
+        "explanation": "Prosecutorial attention drives the pattern underground where it keeps running. Stay curious and kind."
+      },
+      {
+        "title": "Collecting insights that never land",
+        "explanation": "Understanding hoarded as experience is entertainment. Each seeing must become a different doing."
+      }
+    ],
+    "practice": [
+      "Pick one recurring pattern that costs you repeatedly.",
+      "Trace its chain: trigger, sensation, story, urge, habitual act.",
+      "Watch it as an event, not as who you are, with kind curiosity.",
+      "Note where the grip loosens when the links are seen.",
+      "Test the seeing in the next real encounter and record the behavior."
+    ],
+    "reflection": "What pattern do you keep explaining away, and when you finally saw it clearly, did your next action actually change?",
+    "safety": "Deep insight work can surface painful material; do not force it alone. If a pattern opens into trauma or overwhelming affect, return to stabilizing practice and bring the material to a qualified teacher or therapist.",
+    "quiz": [
+      {
+        "question": "Seeing-through insight differs from calming practice because it:",
+        "options": [
+          "Feels more peaceful",
+          "Removes the cause rather than soothing the symptom",
+          "Requires longer sits",
+          "Avoids the pattern"
+        ],
+        "answer": 1,
+        "explanation": "Calming says be at peace with the storm; seeing notices you are holding the match. Only the latter actually liberates."
+      },
+      {
+        "question": "An insight that changes nothing downstream was really:",
+        "options": [
+          "Deep liberation",
+          "A clarifying mood, not yet integrated seeing",
+          "A failure of practice",
+          "The goal of meditation"
+        ],
+        "answer": 1,
+        "explanation": "Real integration is measured by changed behavior at the next trigger; an unchanged epiphany was an interesting thought."
+      }
+    ],
+    "mastery": [
+      "Distinguish calming from seeing-through insight.",
+      "Trace a pattern's chain as an event, not an identity.",
+      "Loosen the grip through curious, kind attention.",
+      "Prove seeing by changed behavior, not mood."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You keep abandoning yourself when someone withdraws.",
+          "action": "You trace the chain - trigger, chest tightness, the story, the urge to chase - and watch it as a mechanism, not as 'me.'",
+          "why": "Seeing the links loosens them; the next withdrawal meets a hole in the old automatic chase."
+        },
+        {
+          "setup": "A profound understanding fades and the habit returns.",
+          "action": "You treat the seeing as a hypothesis and test it in the next real encounter, measuring behavior, not mood.",
+          "why": "Insight is proven downstream; an unchanged epiphany was relief, not liberation."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Seeing-through insight rewires habits at the root instead of managing their surface."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who has seen their own machinery is harder to manipulate; the old hooks no longer catch."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "A calm mood mistaken for insight",
+          "Identifying with the pattern",
+          "Shame during investigation"
+        ],
+        "adjustments": [
+          {
+            "if": "Nothing changed downstream",
+            "then": "Re-open the seeing; you had a thought, not an insight."
+          },
+          {
+            "if": "Shame arises",
+            "then": "Soften to curiosity; prosecution hides the pattern further."
+          }
+        ],
+        "learning": "After each cycle, record whether the next encounter met a different response, and where the grip still holds."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Insight Investigation",
+      "initialTime": 1080
+    }
+  },
+  "breathing-mastery-personal": {
+    "id": "breathing-mastery-personal",
+    "subject": "Breathing",
+    "title": "Personal Breath Pattern",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Synthesize ratio, retention and recovery into a pattern tuned to your own physiology and goals, then refine it by evidence rather than by recipe.",
+    "objectives": [
+      "Combine ratio, retention and recovery into one personal pattern",
+      "Tune the pattern to a specific intent (calm, focus, energy, sleep)",
+      "Test and refine by observed effect, not by copying a teacher",
+      "Keep the pattern sustainable and free of strain",
+      "Recognize the four most common personalization errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "A personal template to tune",
+        "caption": "This is one workable pattern: inhale 4, hold 4, exhale 6, hold 2. Your job is to adjust the counts to your intent and physiology, then keep only what measurably helps. Watch the cycle, then make it yours.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Hold",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Exhale",
+            "duration": 6,
+            "chest": 0
+          },
+          {
+            "label": "Hold",
+            "duration": 2,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "From recipes to a pattern of your own",
+        "content": "Beginner and intermediate practice hands you ratios that work for most people. Mastery is the moment you stop consuming recipes and start composing: you take the ingredients - inhale length, exhale length, the two holds, the cadence - and assemble a pattern calibrated to *you*. Two people with the same goal can need different counts, because physiology, baseline stress and lung capacity differ. The teacher's patterns are a starting grammar; your lived response is the vocabulary you actually speak."
+      },
+      {
+        "title": "Tune to intent, verify by effect",
+        "content": "Every adjustment should answer a question: what do I want this pattern to do? A longer exhale leans toward calm and sleep; a brisker, hold-free rhythm leans toward energy and focus; a gentle full hold deepens control and expansion. But intent is only the hypothesis - the data is what you feel and measure afterward. Track resting heart rate, sleep quality, mood, and how the pattern feels in the body over a week. Keep what moves the markers in the direction you wanted; discard what merely sounds impressive. Evidence, not authority, is now the standard."
+      },
+      {
+        "title": "Sustainable beats impressive",
+        "content": "The most common failure of self-designed practice is over-engineering: a complicated pattern with long holds and precise counts that you abandon in ten days because it feels like homework. A personal pattern must be something you will actually do, on bad days, without a app telling you to. That usually means simpler than you think, with a margin of comfort built in, and one or two anchors you can fall back to when the elaborate version is out of reach. The pattern that survives months of real life beats the elegant one you quit by Thursday. Sustainability is a design constraint, not a compromise."
+      }
+    ],
+    "principles": [
+      "Compose your own pattern from ratio, retention and recovery ingredients.",
+      "Tune counts to a specific intent, then verify by observed effect.",
+      "Keep only what moves your markers; evidence over authority.",
+      "Design for sustainability; the pattern you keep beats the impressive one you quit."
+    ],
+    "mistakes": [
+      {
+        "title": "Copying a pattern wholesale",
+        "explanation": "Another person's counts are calibrated to their physiology. Treat them as grammar, not gospel."
+      },
+      {
+        "title": "Tuning by feel alone",
+        "explanation": "A pattern can feel profound and change nothing. Verify against markers over a week, not one session."
+      },
+      {
+        "title": "Over-engineering the design",
+        "explanation": "Complicated patterns get abandoned. Build in a simple fallback you will actually use on bad days."
+      },
+      {
+        "title": "Chasing the impressive hold",
+        "explanation": "A long hold that strains is not mastery; it is ego in the breath. Comfort is the ceiling."
+      }
+    ],
+    "practice": [
+      "Choose one intent for the next two weeks (e.g. sleep or focus).",
+      "Assemble a pattern from the ingredients to serve that intent.",
+      "Run it daily and log resting heart rate, sleep, mood, body feel.",
+      "After a week, keep what helped and simplify what did not.",
+      "Define a one-breath fallback for days the full pattern is out of reach."
+    ],
+    "reflection": "Is your current pattern composed for your own intent and verified by your own data, or inherited and unexamined?",
+    "safety": "Self-designed patterns must respect the same contraindications as taught ones; skip holds with hypertension, epilepsy, panic disorder or pregnancy unless supervised. If a personal pattern causes dizziness or anxiety, abandon it and return to natural breathing.",
+    "quiz": [
+      {
+        "question": "At mastery, a teacher's pattern is treated as:",
+        "options": [
+          "Gospel to copy exactly",
+          "A grammar to compose your own vocabulary from",
+          "Irrelevant",
+          "A maximum to never exceed"
+        ],
+        "answer": 1,
+        "explanation": "Counts are calibrated to the teacher's physiology; you take the ingredients and assemble a pattern tuned to you, verified by your own response."
+      },
+      {
+        "question": "The standard for keeping a personal pattern is:",
+        "options": [
+          "It sounds impressive",
+          "It moves your measured markers toward your intent",
+          "It has the longest hold",
+          "A teacher approved it"
+        ],
+        "answer": 1,
+        "explanation": "Intent is the hypothesis; observed effect over a week is the data. Keep what helps, discard what merely impresses."
+      }
+    ],
+    "mastery": [
+      "Compose a pattern from the core ingredients.",
+      "Tune counts to a stated intent and verify by markers.",
+      "Simplify to a sustainable design with a fallback.",
+      "Identify and correct the four common personalization errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You want better sleep and copy a famous 4-7-8 pattern.",
+          "action": "You run it a week, log your sleep, and adjust the counts to what actually moves your markers.",
+          "why": "The borrowed pattern is a hypothesis; your data decides whether to keep, tune, or drop it."
+        },
+        {
+          "setup": "Your elaborate pattern feels like homework and you keep skipping it.",
+          "action": "You cut it to a simple core plus one-breath fallback and rebuild only what you sustain.",
+          "why": "Sustainability is a design constraint; the pattern you keep for months beats the elegant one you quit."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A self-tuned pattern fits your life and goals, so it sticks and actually shifts your state."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who owns their practice adapts it to circumstance instead of waiting for a recipe."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Copying without verifying",
+          "Over-engineering",
+          "Straining the hold"
+        ],
+        "adjustments": [
+          {
+            "if": "No marker change in a week",
+            "then": "Tune the counts or drop the pattern; feel is not proof."
+          },
+          {
+            "if": "You keep skipping it",
+            "then": "Simplify until it is something you will do on a bad day."
+          }
+        ],
+        "learning": "After each cycle, record which counts you kept, which you cut, and the marker evidence behind each choice."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Pattern Tuning",
+      "initialTime": 600
+    }
+  },
+  "breathing-mastery-teaching": {
+    "id": "breathing-mastery-teaching",
+    "subject": "Breathing",
+    "title": "Teaching Breath Work",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Hand breath practice to another safely and effectively: model it, cue it, fade your support, read the student's body, and never push past a contraindication or an ego trip.",
+    "objectives": [
+      "Structure a teaching arc: model, cue, fade, independent",
+      "Use language and pacing that a beginner body can follow",
+      "Read a student's physical and emotional signals in real time",
+      "Hold strict safety boundaries and refer out when needed",
+      "Recognize the four most common teaching errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The teaching arc",
+        "caption": "Teaching breath work is scaffolding that you deliberately remove. Model it, cue it lightly, fade the support, and hand ownership to the student - while watching their body, not your script.",
+        "labels": [
+          "1. Model: they see and feel it done",
+          "2. Cue: minimal words, matched pace",
+          "3. Fade: support withdrawn as skill grows",
+          "4. Independent: student owns the pattern",
+          "Safety: screen contraindications, refer out, never push"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Scaffolding you remove on purpose",
+        "content": "A good breath teacher builds a structure the student can lean on - a demonstrated rhythm, a counted cue, a calm presence setting the pace - and then takes it away in measured doses as the student's own skill appears. The arc is model, cue, fade, independent. Most beginners fail not because the breath is hard but because the support is never withdrawn, so they lean on the teacher's voice forever, or it is withdrawn too fast and they feel abandoned mid-exercise. Fading is the art: enough scaffolding to feel safe, never so much that the student cannot stand alone."
+      },
+      {
+        "title": "Read the body, not the script",
+        "content": "Experienced teachers hold a lesson plan loosely and watch the room instead. A furrowed brow, a held shoulder, a breath that has gone shallow and high - these are the real feedback, and they override whatever the script says comes next. If a student is straining, you shorten the count on the spot; if they are flat, you brighten the pace. Language matters as much as pacing: concrete, body-referenced cues ('let the belly rise,' 'soften the jaw') land where abstract ones ('find your flow') float. You teach the person in front of you, not the class you imagined."
+      },
+      {
+        "title": "Safety is the teacher's first duty",
+        "content": "Breath work can move people - emotionally and physiologically - and a teacher carries responsibility for that. The non-negotiables: screen for contraindications before any retention or intense pattern (hypertension, epilepsy, panic disorder, pregnancy, recent surgery), never push a student past their comfortable edge to prove a point, and know the line where your role ends and a clinician's begins. A student who surfaces trauma or has a panic response needs grounding and referral, not a deeper technique. The ego trip - showing off how advanced you can take people - is the most dangerous failure in teaching, because it disguises harm as generosity. Protect the student from you."
+      }
+    ],
+    "principles": [
+      "Teach as scaffolding: model, cue, fade, then hand over independence.",
+      "Read the student's body and adjust live; the script is secondary.",
+      "Use concrete, body-referenced language a beginner can follow.",
+      "Screen contraindications, never push past the edge, refer out when needed."
+    ],
+    "mistakes": [
+      {
+        "title": "Never fading the support",
+        "explanation": "A student leaning on your voice forever never owns the practice. Withdraw scaffolding as skill appears."
+      },
+      {
+        "title": "Teaching the script, not the person",
+        "explanation": "Holding a plan while a student strains or flattens ignores the real feedback. Watch the body, adjust live."
+      },
+      {
+        "title": "Pushing past the edge to prove depth",
+        "explanation": "Taking someone beyond their comfort to show off is harm dressed as generosity. The edge is a ceiling, not a target."
+      },
+      {
+        "title": "Ignoring contraindications",
+        "explanation": "Running retention or intense patterns with at-risk students without screening is negligence. Screen first, refer out."
+      }
+    ],
+    "practice": [
+      "Plan a session as model, cue, fade, independent - with a fade point marked.",
+      "Write three concrete body cues and three abstract ones; replace the abstract.",
+      "Run a session watching one student's face and shoulders, adjusting live.",
+      "Pre-screen every new student for contraindications before any hold.",
+      "Note one moment you resisted the urge to push, and referred instead."
+    ],
+    "reflection": "Do you fade your support on purpose, and when a student struggles, do you adjust to their body or protect your script?",
+    "safety": "Teaching breath work carries duty of care. Always screen contraindications, never advance a student past their comfortable edge, and refer medical or psychological material to qualified professionals. Do not teach intense or retention practices to at-risk individuals without appropriate supervision and clearance.",
+    "quiz": [
+      {
+        "question": "The teaching arc in correct order is:",
+        "options": [
+          "Independent, fade, cue, model",
+          "Model, cue, fade, independent",
+          "Cue, model, independent, fade",
+          "Fade, model, cue, independent"
+        ],
+        "answer": 1,
+        "explanation": "You build scaffolding the student leans on, then withdraw it in measured doses as their own skill appears, ending in independence."
+      },
+      {
+        "question": "The most dangerous failure in teaching breath work is:",
+        "options": [
+          "Speaking too softly",
+          "Pushing a student past their edge to prove depth",
+          "Using concrete cues",
+          "Fading support too early"
+        ],
+        "answer": 1,
+        "explanation": "Ego-driven advancement disguises harm as generosity; the comfortable edge is a ceiling, and protecting the student from the teacher is the first duty."
+      }
+    ],
+    "mastery": [
+      "Structure a session as model, cue, fade, independent.",
+      "Adjust live to a student's body rather than the script.",
+      "Use concrete, body-referenced language.",
+      "Screen contraindications and refer out appropriately."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A student is straining through a hold you scripted.",
+          "action": "You shorten the count on the spot and soften their jaw, overriding the plan.",
+          "why": "The body is the real feedback; protecting the edge matters more than completing your script."
+        },
+        {
+          "setup": "A beginner keeps leaning on your voice to pace.",
+          "action": "You fade the cue gradually until they hold the rhythm alone.",
+          "why": "Scaffolding exists to be removed; independence is the goal, not dependence on your presence."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Good teaching hands the practice to the student so it survives without you in the room."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A well-taught student progresses safely and owns the skill; a poorly taught one is injured or dependent."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Support never faded",
+          "Script protected over student",
+          "Urge to push for depth"
+        ],
+        "adjustments": [
+          {
+            "if": "A student depends on your voice",
+            "then": "Fade the cue in small steps toward independence."
+          },
+          {
+            "if": "You feel the pull to advance them",
+            "then": "Stop; the edge is a ceiling and referral is the move."
+          }
+        ],
+        "learning": "After each session, note where you faded well, where you protected the script over the person, and any referral you owed."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Teaching Reps",
+      "targetReps": 5
+    }
+  },
+  "breathing-mastery-lifelong": {
+    "id": "breathing-mastery-lifelong",
+    "subject": "Breathing",
+    "title": "Lifelong Breath Practice",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Sustain a breath practice across decades of real life: bend the rhythm with circumstance, protect the thread against guilt, and let the practice mature from a task into a way of being.",
+    "objectives": [
+      "Design a practice that bends with life instead of breaking",
+      "Protect the thread against all-or-nothing guilt",
+      "Let the practice mature from scheduled task to background trait",
+      "Recover gracefully after long lapses without restarting from zero",
+      "Recognize the four most common lifelong-practice errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "A rhythm that bends, not breaks",
+        "caption": "A lifelong practice is not a daily streak to defend; it is a thread that stretches across mornings, midday resets, evenings and the inevitable gaps. Watch a sustainable daily rhythm, then forgive the days it thins.",
+        "phases": [
+          {
+            "label": "Morning",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Midday reset",
+            "duration": 4,
+            "chest": 100
+          },
+          {
+            "label": "Evening",
+            "duration": 6,
+            "chest": 0
+          },
+          {
+            "label": "Wind-down",
+            "duration": 6,
+            "chest": 0
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Bend so it does not break",
+        "content": "The practice that survives thirty years is not the rigorous one; it is the flexible one. Life will take your quiet morning - a sick child, a deadline, a move - and a brittle practice shatters the first time the schedule does. A resilient practice has a full version, a thin version, and a one-breath version, and you move between them without drama. The goal is not a perfect daily hour but an unbroken *relationship* with the breath that tolerates weather. Rigidity is the enemy of longevity; a reed that bends outlives the oak that snaps."
+      },
+      {
+        "title": "The thread, not the streak",
+        "content": "Most people quit a lifelong practice over guilt, not over difficulty. One missed week becomes a moral failure, the streak is 'broken,' and the whole thing is abandoned as ruined. The antidote is to stop counting consecutive days and start noticing the thread - the underlying familiarity with your own breath that does not reset when you skip. A practitioner who has practiced for twenty years and missed a month is not a beginner again; the skill is dormant, not gone. Treat lapses as rests in the music, not as the end of the song, and the practice becomes something you return to for life rather than something you restart every January."
+      },
+      {
+        "title": "From task to trait",
+        "content": "Early practice is a thing you do at a scheduled time; mature practice is a way you are. Somewhere across the years the formal sits stop being the point and the breath becomes a constant, quiet companion - you notice it under stress without deciding to, you settle yourself with one exhale in a hard conversation, the body has simply learned to live closer to its own rhythm. This maturation cannot be rushed or willed; it is the residue of thousands of small, forgiven returns. The lifelong practitioner therefore stops asking 'did I do my practice today?' and starts noticing 'how present is the breath in me when I forget to look?' - which is the question only a trait, not a task, can answer."
+      }
+    ],
+    "principles": [
+      "Design full, thin and one-breath versions so the practice bends with life.",
+      "Protect the thread, not the streak; lapses are rests, not resets.",
+      "Guilt, not difficulty, is what kills lifelong practice.",
+      "Mature practice shifts from a scheduled task to a background trait."
+    ],
+    "mistakes": [
+      {
+        "title": "A brittle, all-or-nothing schedule",
+        "explanation": "A practice that needs a perfect hour breaks the first time life does. Build thin and one-breath fallbacks."
+      },
+      {
+        "title": "Treating a missed week as a moral failure",
+        "explanation": "Guilt over a broken streak abandons the whole practice. The skill is dormant, not gone; just return."
+      },
+      {
+        "title": "Restarting from zero after every lapse",
+        "explanation": "Acting like a beginner again erases twenty years of thread. Resume where the dormancy is, not at day one."
+      },
+      {
+        "title": "Keeping it a task forever",
+        "explanation": "If the breath never leaks into the background, you have a hobby, not a trait. Let the sits become residue."
+      }
+    ],
+    "practice": [
+      "Define three versions: full, thin, one-breath - and use the right one daily.",
+      "When you lapse, name it a rest and resume without a restart ritual.",
+      "Notice one moment per day the breath settles you without being asked.",
+      "Track the thread (familiarity) instead of the streak (consecutive days).",
+      "After a long gap, resume at the dormant level, not from beginner."
+    ],
+    "reflection": "Is your practice a brittle schedule that breaks with life, or a bending thread you return to for decades without guilt?",
+    "safety": "A lifelong practice should lighten, not burden. If it generates shame, rigidity or compulsive checking, that is the practice harming you - simplify to the one-breath version and, if the relationship stays toxic, seek a teacher or professional to repair it.",
+    "quiz": [
+      {
+        "question": "What most often kills a lifelong practice?",
+        "options": [
+          "Difficulty of the technique",
+          "Guilt over a broken streak",
+          "Lack of equipment",
+          "Too much flexibility"
+        ],
+        "answer": 1,
+        "explanation": "People quit over moral failure after a lapse, not over hardness. Protecting the thread instead of counting the streak is the survival skill."
+      },
+      {
+        "question": "A mature, lifelong breath practice is best described as:",
+        "options": [
+          "A scheduled task done at one time daily",
+          "A background trait the breath has become",
+          "A streak of consecutive days",
+          "A fixed rigorous routine"
+        ],
+        "answer": 1,
+        "explanation": "It shifts from something you do to a way you are - the body lives closer to its rhythm even when you forget to look."
+      }
+    ],
+    "mastery": [
+      "Maintain full, thin and one-breath versions across life's weather.",
+      "Resume after lapses without restarting from zero.",
+      "Notice the breath settling you unprompted (trait, not task).",
+      "Identify and correct the four common lifelong-practice errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A chaotic month wipes out your daily sit.",
+          "action": "You call it a rest, not a failure, and resume at your thin version without a restart ritual.",
+          "why": "The thread of familiarity is dormant, not gone; guilt is what would actually end the practice."
+        },
+        {
+          "setup": "You keep needing a perfect hour and keep missing it.",
+          "action": "You adopt a one-breath fallback and use it on the hard days to keep the relationship alive.",
+          "why": "A bending practice survives weather; rigidity is the enemy of thirty-year longevity."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A lifelong practice compounds into a trait that steadies you across decades without daily heroics."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner with a mature practice is quietly regulated for life, not just on the cushion on good days."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Brittle schedule",
+          "Guilt after a lapse",
+          "Restarting from zero"
+        ],
+        "adjustments": [
+          {
+            "if": "Life breaks the schedule",
+            "then": "Drop to the thin or one-breath version; keep the thread, not the streak."
+          },
+          {
+            "if": "Guilt rises after a gap",
+            "then": "Name it a rest and resume at the dormant level, not day one."
+          }
+        ],
+        "learning": "After each season, note whether you bent or broke, and one moment the breath settled you without being asked."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Lifelong Check-in",
+      "initialTime": 300
+    }
+  },
+  "training-programming-design": {
+    "id": "training-programming-design",
+    "subject": "Training",
+    "title": "Designing Your Program",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Build a training program from first principles - stimulus, recovery, specificity, overload, variation - instead of copying templates, so the plan fits your goal, life and body.",
+    "objectives": [
+      "Derive a program from principles rather than copied templates",
+      "Balance stimulus and recovery across a week explicitly",
+      "Apply specificity, progressive overload and planned variation",
+      "Fit the design to real life constraints, not an ideal schedule",
+      "Recognize the four most common design errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The design levers",
+        "caption": "A program is not a list of exercises; it is a set of dials turned on purpose. Volume, intensity, frequency, exercise selection and rest are the levers - and recovery is the budget they spend from.",
+        "labels": [
+          "Volume: total work (sets x reps x load)",
+          "Intensity: how hard each effort is",
+          "Frequency: how often a quality is hit",
+          "Selection: exercises matched to the goal",
+          "Rest & recovery: the budget the levers spend",
+          "Rule: turn one dial at a time, fit to life"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Principles, not templates",
+        "content": "A downloaded program is someone else's answer to a question you did not ask. Designing from principles means you understand *why* a plan is shaped the way it is, so you can reshape it for yourself. The core principles are few and stubborn: training is a stimulus the body must recover from; adaptation requires the stimulus to grow over time (progressive overload); it must resemble the goal (specificity); and it must vary enough to keep adapting without plateauing or injuring. Hold these and you can evaluate any template - keep what serves you, discard what does not - instead of obeying it blindly."
+      },
+      {
+        "title": "The levers and the budget",
+        "content": "Every program is built by turning a handful of dials: volume (how much total work), intensity (how hard each effort), frequency (how often you hit a quality), exercise selection (what movements), and rest (how you recover). The crucial insight is that these are not independent - they draw from a single recovery budget. Raise volume and intensity together and you overdraw; the body pays in fatigue, stagnation or injury. Good design spends the budget deliberately: hard days are earned by easy days, and the week as a whole trends toward recovery, not just the sessions. You are an accountant of stress, not a collector of workouts."
+      },
+      {
+        "title": "Design for the life you actually have",
+        "content": "The theoretically perfect program that needs six gym days and two-a-days is worthless if your real life has three uneven hours and a shifting schedule. Expert design starts from constraints - time, equipment, job, family, sleep - and builds the best plan that fits them, because the only program that works is the one you will actually run. That means favoring flexible structures over rigid calendars, choosing exercises that fit the gear you have, and building in the thin and one-session fallbacks the lifelong-practice lesson taught for breathing. A plan bent to your life beats an ideal plan that breaks the first busy week."
+      }
+    ],
+    "principles": [
+      "Derive programs from principles; evaluate templates, do not obey them.",
+      "Stimulus must grow (overload), resemble the goal (specificity), and vary (avoid plateau/injury).",
+      "Volume, intensity, frequency, selection and rest spend one recovery budget.",
+      "Design from real-life constraints; the plan you run beats the ideal plan you break."
+    ],
+    "mistakes": [
+      {
+        "title": "Copying a template blindly",
+        "explanation": "Someone else's answer to a question you did not ask. Hold the principles and reshape it to you."
+      },
+      {
+        "title": "Raising volume and intensity together",
+        "explanation": "Overdrawing the recovery budget in one move invites fatigue and injury. Turn one dial at a time."
+      },
+      {
+        "title": "Ignoring specificity",
+        "explanation": "Training that does not resemble the goal wastes the stimulus. Match the work to the outcome."
+      },
+      {
+        "title": "Designing for an ideal life",
+        "explanation": "A perfect plan your real schedule cannot run is worthless. Start from constraints, not from the textbook."
+      }
+    ],
+    "practice": [
+      "Write your goal and your real weekly constraints before any exercise.",
+      "Pick the principle each choice serves (overload, specificity, variation).",
+      "Budget recovery: pair each hard day with an easy one across the week.",
+      "Turn one lever at a time and log the effect for two weeks.",
+      "Swap the rigid calendar for a flexible structure that survives a busy week."
+    ],
+    "reflection": "Does your current plan come from principles you can explain, or from a template you are obeying without understanding?",
+    "safety": "Self-designed programs carry the same injury risk as coached ones; progress one variable at a time, respect pain as a stop signal, and consult a professional for existing conditions or when unsure a load is appropriate.",
+    "quiz": [
+      {
+        "question": "The recovery budget concept means:",
+        "options": [
+          "Volume and intensity are independent dials",
+          "All levers spend from one finite recovery resource",
+          "Rest is optional if motivation is high",
+          "More volume always equals more gain"
+        ],
+        "answer": 1,
+        "explanation": "Volume, intensity, frequency and rest draw from a single budget; raising several together overdraws and the body pays in fatigue or injury."
+      },
+      {
+        "question": "Why design from real-life constraints rather than the ideal plan?",
+        "options": [
+          "Ideal plans are illegal",
+          "The only program that works is the one you actually run",
+          "Constraints do not matter",
+          "Templates ignore life"
+        ],
+        "answer": 1,
+        "explanation": "A theoretically perfect plan your schedule cannot execute breaks the first busy week; a flexible plan fitted to your life is the one that produces results."
+      }
+    ],
+    "mastery": [
+      "Explain a program choice by the principle it serves.",
+      "Balance stimulus and recovery across a week explicitly.",
+      "Turn one lever at a time and verify the effect.",
+      "Fit the design to real constraints, not an ideal calendar."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You grab a popular 6-day split and quit by week two.",
+          "action": "You rebuild from your real three-hour weeks and the principle of recovery budgeting.",
+          "why": "The split was an ideal-life template; a plan bent to your constraints is the one you can actually run."
+        },
+        {
+          "setup": "You add sets and weight in the same week and stall.",
+          "action": "You back off one lever, restore the easy days, and progress a single variable.",
+          "why": "Overdrawing the recovery budget stalls adaptation; turning one dial at a time keeps the trend toward recovery."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Principle-based design lets you adapt any plan to your goal and life instead of being ruled by it."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A self-designed, budgeted program progresses steadily where copied templates plateau or injure."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Blind template obedience",
+          "Levers moved together",
+          "Ideal-life scheduling"
+        ],
+        "adjustments": [
+          {
+            "if": "You cannot explain a choice",
+            "then": "Tie it to a principle or cut it; obedience is not design."
+          },
+          {
+            "if": "Two levers rose at once",
+            "then": "Revert one and re-budget recovery across the week."
+          }
+        ],
+        "learning": "After each block, note which lever you turned, the principle behind it, and whether the week trended toward recovery."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Design Decisions",
+      "targetReps": 5
+    }
+  },
+  "training-programming-periodization": {
+    "id": "training-programming-periodization",
+    "subject": "Training",
+    "title": "Periodization for Life",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Plan training in long waves - base, build, peak, deload - adapted to a real life with work, family and age, so you progress for years without burning out or stalling.",
+    "objectives": [
+      "Understand periodization as planned waves, not random variety",
+      "Sequence base, build, peak and deload for a goal",
+      "Scale the waves to a real life instead of an athlete's calendar",
+      "Use deloads and rest as productive, not lazy",
+      "Recognize the four most common periodization errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The long waves",
+        "caption": "Progress over years is a series of waves, not a straight line up. Each block builds on the last, and the deload is part of the climb, not a break from it. Scale the wave lengths to your actual life.",
+        "labels": [
+          "Base: broad capacity, high volume, low intensity",
+          "Build: narrow toward the goal, intensity rises",
+          "Peak: sport/test specific, high intensity, low volume",
+          "Deload: planned recovery that consolidates gains",
+          "Life scaling: shorter waves, longer deloads with age & duties"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Waves, not a straight line",
+        "content": "Beginners progress linearly - every week a little more - and then stall, because a straight line cannot go up forever. Periodization is the mature answer: you organize training into waves, each with a distinct job. A base block builds broad capacity with high volume and modest intensity; a build block narrows toward the goal and raises intensity; a peak block is specific and sharp but short; a deload drops the stress so the body consolidates what it earned. The line of progress is the *trend across waves*, never the slope inside one. Trying to stay in 'peak' forever is exactly how people plateau and quit."
+      },
+      {
+        "title": "The deload is part of the climb",
+        "content": "The most misunderstood block is the deload, because it feels like doing nothing. It is not. Adaptation - the actual getting-stronger - happens when stress is removed and the body repairs above baseline; the training only provides the stimulus. A planned deload (roughly half the volume for a week, intensity kept light-moderate) lets accumulated fatigue dissipate so the next block starts from a fresher, higher ceiling. Athletes who skip deloads to 'not lose gains' lose more to the stagnation and injury that follow. Rest is not the opposite of progress; strategically placed, it is the mechanism of progress."
+      },
+      {
+        "title": "Scale the waves to the life you have",
+        "content": "Classic periodization assumes an athlete with a coach, perfect sleep and no job. Your reality has meetings, kids, a commute and, with age, a slower recovery. So you scale the model, not abandon it: shorter blocks, gentler peaks, longer and more frequent deloads, and a base that never fully goes away because general health - not just a single performance - is the real goal. The wave for a 45-year-old with a family looks different from a 20-year-old's, and that is correct, not a compromise. Periodization 'for life' means the structure bends to recover you across decades, protecting the joints and the enthusiasm as fiercely as it develops the muscle."
+      }
+    ],
+    "principles": [
+      "Progress is the trend across waves, not the slope inside one block.",
+      "Sequence base, build, peak, deload with each block having a distinct job.",
+      "The deload is productive consolidation, not laziness or lost gains.",
+      "Scale wave length and depth to your age, duties and recovery."
+    ],
+    "mistakes": [
+      {
+        "title": "Staying in peak forever",
+        "explanation": "High intensity with no base or deload plateaus and injures. Peak is a short, earned phase, not a lifestyle."
+      },
+      {
+        "title": "Skipping deloads to protect gains",
+        "explanation": "Avoiding planned rest loses more to stagnation and injury. The deload is the mechanism that banks the gains."
+      },
+      {
+        "title": "Random variety mistaken for periodization",
+        "explanation": "Changing workouts without a wave structure is chaos, not planning. Each block needs a defined job."
+      },
+      {
+        "title": "Copying an athlete's calendar",
+        "explanation": "A 20-year-old's peaks wreck a 45-year-old with a job. Scale the waves to your real recovery, not a template."
+      }
+    ],
+    "practice": [
+      "Map your year into base, build, peak and deload blocks with defined jobs.",
+      "Schedule deloads on the calendar as non-negotiable, not optional.",
+      "Shorten blocks and lengthen deloads to fit your age and duties.",
+      "Keep a light base thread even in build and peak for long-term health.",
+      "Track how each block ends: fresher and higher, or drained and stalled?"
+    ],
+    "reflection": "Are you riding planned waves with real deloads, or stuck in a permanent peak that quietly plateaus you?",
+    "safety": "Periodization reduces but does not eliminate injury risk; respect pain, keep deloads genuinely lighter, and adjust block depth with age or life stress. Consult a professional for medical conditions or persistent stalls despite correct planning.",
+    "quiz": [
+      {
+        "question": "In periodization, actual adaptation (getting stronger) mainly occurs:",
+        "options": [
+          "During the peak block",
+          "During recovery, especially the planned deload",
+          "Only in the base block",
+          "When volume is maximized"
+        ],
+        "answer": 1,
+        "explanation": "Training supplies the stimulus; the body repairs above baseline when stress drops. The deload consolidates gains and is part of the climb, not a break from it."
+      },
+      {
+        "question": "Periodization 'for life' differs from an athlete's model because it:",
+        "options": [
+          "Abandons waves entirely",
+          "Scales wave length and deload depth to real age and duties",
+          "Keeps you in peak permanently",
+          "Ignores recovery"
+        ],
+        "answer": 1,
+        "explanation": "A 45-year-old with a family needs shorter blocks and longer deloads; bending the structure to protect decades of training is correct, not a compromise."
+      }
+    ],
+    "mastery": [
+      "Sequence base, build, peak and deload with defined jobs.",
+      "Treat deloads as productive and schedule them non-negotiably.",
+      "Scale waves to age, duties and recovery.",
+      "Identify and correct the four common periodization errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You train hard every week and have stalled for months.",
+          "action": "You insert a real deload and restructure the year into waves with a base you never drop.",
+          "why": "The stall is accumulated fatigue; the deload dissipates it and the wave trend resumes the climb."
+        },
+        {
+          "setup": "You copy a young athlete's peak-heavy plan and get injured.",
+          "action": "You shorten the peaks, lengthen the deloads, and keep a light base thread for health.",
+          "why": "Your recovery is not theirs; scaling the waves protects the joints and the decades, not just the next test."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Planned waves compound progress across years instead of burning out in months."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A periodized lifelong trainer stays healthy and improving where perpetual-peak athletes plateau and break."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Permanent peak",
+          "Skipped deloads",
+          "Copied athlete calendar"
+        ],
+        "adjustments": [
+          {
+            "if": "You never deload",
+            "then": "Put a half-volume week on the calendar as non-negotiable."
+          },
+          {
+            "if": "Waves feel too aggressive",
+            "then": "Shorten blocks and lengthen deloads to match your recovery."
+          }
+        ],
+        "learning": "After each block, note whether you ended fresher and higher, and whether the wave shape fit your actual life."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Wave Planning",
+      "initialTime": 600
+    }
+  },
+  "training-programming-longevity": {
+    "id": "training-programming-longevity",
+    "subject": "Training",
+    "title": "Training for Longevity",
+    "level": "Expert",
+    "duration": "15 min",
+    "description": "Train for the decades, not the season: prioritize the capacities that decline first - aerobic base, strength and muscle, power, mobility and balance - and dose them for joint and tendon health so you stay capable at ninety.",
+    "objectives": [
+      "Prioritize the five capacities that predict functional old age",
+      "Dose training for tendon, joint and heart health, not just performance",
+      "Protect muscle and power against age-related decline",
+      "Train balance and mobility as injury-prevention, not extras",
+      "Recognize the four most common longevity errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The longevity pillars",
+        "caption": "Functional old age is not luck; it is the deliberate maintenance of five capacities that decline with time. Train each on purpose, dose for the tissues, and the goal shifts from looking fit to staying capable at ninety.",
+        "labels": [
+          "Aerobic base: heart health and daily stamina",
+          "Strength & muscle: metabolic and structural reserve",
+          "Power: the ability to catch yourself and rise",
+          "Mobility: joints that still move through range",
+          "Balance: the single biggest fall-preventer",
+          "Dose for tissue & heart, train to be 90, not to look 20"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The capacities that decline first",
+        "content": "Age does not steal everything at once; it erodes specific capacities in a rough order, and the ones that predict whether you are independent at eighty-five are surprisingly few. Aerobic capacity (VO2 max) falls steadily and is the strongest single marker of long-term health. Muscle mass and strength decline from the thirties (sarcopenia), taking metabolism and resilience with them. Power - force times speed - declines even faster than strength, which is why older people cannot catch themselves when they trip. Mobility shrinks as joints stiffen, and balance frays as the nervous system slows. Train these five on purpose and you are not chasing youth; you are defending the exact functions that keep you out of a chair and out of a hospital bed."
+      },
+      {
+        "title": "Dose for the tissues, not the mirror",
+        "content": "Training that builds a physique for summer and wrecks the joints for old age is a bad trade. Longevity dosing respects connective tissue: tendons and ligaments adapt far slower than muscle, so loads progress gently, with enough recovery and varied angles to keep them resilient. The heart benefits from regular moderate-to-vigorous aerobic work, but chronic extreme endurance without recovery can stress it; the sweet spot is consistent, not heroic. The principle is to train the body you will *use* for decades, accepting that the heaviest, fastest, most aesthetic version is sometimes the least sustainable. Durability is the metric, not appearance."
+      },
+      {
+        "title": "Consistency compounds; intensity does not",
+        "content": "The single greatest predictor of long-term health is not how hard any one session was but how many years you kept showing up. A moderate program sustained for forty years beats a brutal one abandoned at year three with a blown-out knee. So the expert designs for adherence: enjoyable modalities, sensible recovery, training that fits life (the periodization lesson), and the humility to take the thin version on hard days rather than quit. Intensity is a tool you sprinkle in carefully; consistency is the engine. The goal is not to peak at thirty-five and decline; it is to be quietly, stubbornly capable at ninety, which is won by thousands of unremarkable, kept promises to move."
+      }
+    ],
+    "principles": [
+      "Defend the five declining capacities: aerobic base, strength/muscle, power, mobility, balance.",
+      "Dose for tendon, joint and heart health; durability over aesthetics.",
+      "Power and balance decline fastest and prevent the falls that end independence.",
+      "Consistency across decades beats intensity that burns out or injures."
+    ],
+    "mistakes": [
+      {
+        "title": "Training for the mirror, not the decades",
+        "explanation": "Aesthetic loads that wreck joints trade long-term capability for short-term looks. Durability is the metric."
+      },
+      {
+        "title": "Ignoring power and balance",
+        "explanation": "Strength without the ability to catch yourself still ends in a fall. Train power and balance deliberately."
+      },
+      {
+        "title": "Heroic volume without recovery",
+        "explanation": "Chronic extreme stress ages the heart and snaps tendons. Consistent, recovered work compounds; heroics do not."
+      },
+      {
+        "title": "Quitting the moderate for the brutal",
+        "explanation": "Abandoning a sustainable plan for a harder one that injures you loses the only variable that matters: years of showing up."
+      }
+    ],
+    "practice": [
+      "Hit all five pillars weekly: aerobic, strength, power, mobility, balance.",
+      "Progress loads gently for tendons; vary angles and keep recovery ample.",
+      "Add a power element (a jump, a fast rise) and a balance drill each week.",
+      "Choose modalities you will still enjoy in ten years.",
+      "Take the thin version on hard days; protect the streak of decades, not weeks."
+    ],
+    "reflection": "Are you training the body you will use at ninety, or the one that looks best this summer - and which of the five pillars are you quietly neglecting?",
+    "safety": "Longevity training should reduce, not raise, risk; introduce power and heavy loads progressively, screen cardiac symptoms, and consult a professional before major changes, especially with existing joint, heart or metabolic conditions.",
+    "quiz": [
+      {
+        "question": "Which capacities most predict functional old age?",
+        "options": [
+          "Aesthetic muscle and flexibility only",
+          "Aerobic base, strength/muscle, power, mobility and balance",
+          "Max bench and sprint time",
+          "Body fat percentage alone"
+        ],
+        "answer": 1,
+        "explanation": "Age erodes specific functions; defending these five keeps you independent, because power and balance prevent the falls and muscle and aerobic capacity sustain daily life."
+      },
+      {
+        "question": "The greatest predictor of long-term health from training is:",
+        "options": [
+          "How hard any single session was",
+          "Consistency sustained across decades",
+          "Lifting the heaviest weight",
+          "Doing extreme endurance"
+        ],
+        "answer": 1,
+        "explanation": "Years of showing up compound; a moderate plan kept for forty years beats a brutal one abandoned with an injury. Durability and adherence win."
+      }
+    ],
+    "mastery": [
+      "Train all five declining pillars weekly.",
+      "Dose loads gently for tendon, joint and heart health.",
+      "Include power and balance as fall-prevention, not extras.",
+      "Protect long-term consistency over short-term intensity."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You chase a heavy PR and tweak a knee that will bother you at seventy.",
+          "action": "You regress the load, add tendon-friendly variation, and prioritize the joint's decade of use over today's lift.",
+          "why": "Durability is the metric; the heaviest version is sometimes the least sustainable trade."
+        },
+        {
+          "setup": "You skip balance and power because they feel unimportant.",
+          "action": "You add a weekly power element and a balance drill, treating them as fall-prevention insurance.",
+          "why": "Power and balance decline fastest and are what stop the fall that ends independence."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Longevity training keeps you walking, rising and catching yourself for decades, not just looking fit now."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A longevity-trained body stays capable and independent where aesthetics-first training erodes into injury and decline."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Mirror-over-decades choices",
+          "Missing power/balance",
+          "Heroic volume"
+        ],
+        "adjustments": [
+          {
+            "if": "A load threatens a joint",
+            "then": "Regress and vary it; protect the decades, not the PR."
+          },
+          {
+            "if": "You skip power and balance",
+            "then": "Add one of each weekly as fall-prevention, non-negotiable."
+          }
+        ],
+        "learning": "After each month, audit the five pillars and note whether you trained for the body you will use at ninety."
+      }
+    },
+    "practiceEngine": {
+      "type": "interval",
+      "label": "Pillar Circuits",
+      "workTime": 45,
+      "restTime": 15,
+      "totalIntervals": 5
+    }
   }
 }
