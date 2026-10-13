@@ -17635,5 +17635,621 @@ export const lessons = {
       "label": "Double-Leg Reps",
       "targetReps": 10
     }
+  },
+  "kung-fu-foundations-stance": {
+    "id": "kung-fu-foundations-stance",
+    "subject": "Kung Fu",
+    "title": "Stances - Bow & Horse",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Build the kung fu base: the bow stance (gong bu) for attack and the horse stance (ma bu) for rooting - the two postures every form and technique is built from.",
+    "objectives": [
+      "Set a bow stance with the front knee over the ankle and the rear leg driven straight",
+      "Set a horse stance wide and low with parallel feet and a vertical spine",
+      "Understand which stance roots and which attacks",
+      "Hold both stances with a sunk shoulder and relaxed structure",
+      "Recognize the four most common stance errors"
+    ],
+    "positionDiagram": {
+      "title": "Bow stance - gong bu",
+      "description": "The attacking lunge: front knee bent over the ankle, rear leg driven straight back, body upright, weight about 60/40 forward. The horse stance (ma bu) is its parallel-footed counterpart for rooting.",
+      "torsoAngle": 8,
+      "frontArm": {
+        "shoulderAngle": -30,
+        "elbowAngle": -130
+      },
+      "rearArm": {
+        "shoulderAngle": 30,
+        "elbowAngle": 130
+      },
+      "frontLegAngle": -50,
+      "rearLegAngle": 25,
+      "feet": {
+        "front": {
+          "x": -30,
+          "y": -45,
+          "angle": 0
+        },
+        "rear": {
+          "x": 40,
+          "y": 45,
+          "angle": 20
+        },
+        "note": "Bow stance is staggered: front shin near vertical, rear leg straight and pressed into the floor. The horse stance instead stands front-on with both feet parallel and wider than the shoulders, knees turned out, hips sunk and spine vertical."
+      },
+      "weightDistribution": {
+        "front": 60,
+        "rear": 40
+      },
+      "metrics": [
+        {
+          "label": "Front knee",
+          "value": "Over the ankle, not past the toes"
+        },
+        {
+          "label": "Rear leg",
+          "value": "Straight, pressed into the floor"
+        },
+        {
+          "label": "Spine",
+          "value": "Vertical, tail tucked"
+        },
+        {
+          "label": "Shoulders",
+          "value": "Sunk and relaxed (song)"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Front knee tracks the toe",
+          "detail": "In bow stance the front knee bends over the ankle and stays behind the toes; collapsing inward or past the toes leaks power and injures the knee."
+        },
+        {
+          "number": "02",
+          "label": "Rear leg drives straight",
+          "detail": "The back leg is not a prop; it presses straight into the floor so the stance can push the body forward into a strike."
+        },
+        {
+          "number": "03",
+          "label": "Sink, do not shrug",
+          "detail": "Shoulders drop and relax (song) while the hips sink (chen). A shrugged shoulder or a popped chest breaks the structure both stances depend on."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Two postures, two jobs",
+        "content": "Kung fu stands on two foundational postures. The bow stance (gong bu) is a staggered lunge - front knee bent, rear leg straight - built to attack: it loads the front leg and drives the rear so the body can push forward into a strike. The horse stance (ma bu) is front-on with both feet parallel and wide, knees turned out, hips sunk and spine vertical - built to root: it builds the leg strength and structural alignment that every other technique draws from. One moves you into the fight, the other keeps you from being moved; a student who can hold neither has no base to punch or kick from."
+      },
+      {
+        "title": "Song and chen: sink and relax",
+        "content": "Both stances share one internal rule that beginners miss: song (relaxing the shoulders and chest downward) and chen (sinking the hips and qi). The temptation is to stand tall and tense, shrugging the shoulders to feel strong; that tension travels up into the neck and disconnects the arms from the legs. The correct posture drops the shoulders, softens the chest, tucks the tail and sinks the hips, so the weight hangs on the skeleton rather than on strained muscle. A sunk, relaxed stance looks smaller but is far more stable and far more powerful than a tense, proud one."
+      },
+      {
+        "title": "The knee is the diagnostic",
+        "content": "Watch a beginner's front knee and you can read their whole stance. Collapsing inward (the knee dropping toward the midline) leaks the rear leg's drive and torques the joint; pushing past the toes overloads the knee and unbalances the body. The knee must track over the toe and stay behind it, a vertical shin in bow stance and a turned-out knee in horse stance. This single alignment is what separates a stance that can generate force from one that merely looks the part, and it is the first thing a teacher corrects."
+      }
+    ],
+    "principles": [
+      "Bow stance (gong bu) attacks: staggered lunge, rear leg drives forward.",
+      "Horse stance (ma bu) roots: parallel wide feet, sunk hips, vertical spine.",
+      "Song and chen: sink the hips and relax the shoulders, never shrug or tense.",
+      "The front knee tracks the toe and stays behind it - the stance diagnostic."
+    ],
+    "mistakes": [
+      {
+        "title": "Shrugging the shoulders",
+        "explanation": "Tension travels up into the neck and disconnects the arms. Sink the shoulders (song) and soften the chest."
+      },
+      {
+        "title": "Front knee collapsing inward or past the toes",
+        "explanation": "It leaks the rear drive and injures the knee. Track the knee over the toe, behind the toes."
+      },
+      {
+        "title": "Popping the chest or arching the back",
+        "explanation": "A proud chest breaks the vertical spine and the sunk structure. Tuck the tail and stack the spine."
+      },
+      {
+        "title": "Treating the rear leg as a prop",
+        "explanation": "In bow stance the rear leg must press straight into the floor to drive the body forward, not idle."
+      }
+    ],
+    "practice": [
+      "Hold bow stance 30s each side: front knee over ankle, rear leg straight, shoulders sunk.",
+      "Hold horse stance 30s: parallel wide feet, knees out, hips sunk, spine vertical.",
+      "Transition bow to horse and back 10 times, keeping the sink and the relaxed shoulders.",
+      "Walk in bow stance 5 steps each direction, checking the knee tracks the toe each step.",
+      "Finish with 60s total in each stance, breathing easy, no shrugging."
+    ],
+    "reflection": "When you sink into horse stance, do your shoulders drop and relax, or do they climb toward your ears?",
+    "safety": "Hold stances within current leg strength; stop on knee pain and reduce depth. Do not force the knees past the toes or let them collapse inward. Build time under tension gradually.",
+    "quiz": [
+      {
+        "question": "The bow stance (gong bu) is primarily built to:",
+        "options": [
+          "Root and stand still",
+          "Attack: load the front leg and drive the rear to push forward",
+          "Rest the back",
+          "Look traditional"
+        ],
+        "answer": 1,
+        "explanation": "It is a staggered lunge whose straight rear leg presses the floor so the body can drive into a strike; the horse stance is the rooting counterpart."
+      },
+      {
+        "question": "Song and chen in the stances mean:",
+        "options": [
+          "Shrug and arch",
+          "Sink the hips and relax the shoulders downward",
+          "Jump and land",
+          "Breathe fast"
+        ],
+        "answer": 1,
+        "explanation": "Song drops and relaxes the shoulders and chest; chen sinks the hips and qi, so weight hangs on the skeleton rather than strained muscle."
+      }
+    ],
+    "mastery": [
+      "Hold bow stance with the front knee over the ankle and rear leg driving.",
+      "Hold horse stance parallel, wide, sunk, with a vertical spine.",
+      "Keep shoulders relaxed (song) and hips sunk (chen) in both.",
+      "Identify and correct the four common stance errors."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your punches feel weak and disconnected from your legs.",
+          "action": "You check the sink and the relaxed shoulders, re-stacking the spine so force can travel from the floor up.",
+          "why": "A shrugged, tense stance disconnects the arms from the legs; song and chen reconnect the chain."
+        },
+        {
+          "setup": "Your front knee caves inward in bow stance.",
+          "action": "You re-track the knee over the toe and re-press the rear leg straight into the floor.",
+          "why": "The knee alignment is the diagnostic; fixing it restores the drive and protects the joint."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A sunk, relaxed stance turns the legs into an engine the arms can draw from."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A rooted practitioner is hard to push off balance; their structure hangs on the skeleton, not on tension."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Shoulders climbing",
+          "Knee caving or past toes",
+          "Chest popping"
+        ],
+        "adjustments": [
+          {
+            "if": "The shoulders shrug",
+            "then": "Exhale and drop them; shorten the hold until the sink is automatic."
+          },
+          {
+            "if": "The knee caves",
+            "then": "Reduce stance depth and re-align the knee over the toe."
+          }
+        ],
+        "learning": "After each session, note which stance held the sink longest and where the shoulders first climbed."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Stance Holds",
+      "initialTime": 30
+    }
+  },
+  "kung-fu-foundations-hand": {
+    "id": "kung-fu-foundations-hand",
+    "subject": "Kung Fu",
+    "title": "Hand Techniques - Structure",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Throw the kung fu straight punch and palm with structure, not muscle: a sunk shoulder, an elbow that tracks down, a rear fist pulled to the waist, and power generated from the ground through the waist.",
+    "objectives": [
+      "Extend the lead fist straight at shoulder height with the elbow tracking down",
+      "Keep the shoulder sunk and relaxed (song) through the punch",
+      "Pull the rear fist to the waist to create the opposition that roots the punch",
+      "Generate power from the ground through the waist, not the arm",
+      "Recognize the four most common hand-technique errors"
+    ],
+    "positionDiagram": {
+      "title": "Straight punch - chuan quan (structure)",
+      "description": "The lead fist extends straight at shoulder height with the elbow tracking down and the shoulder sunk; the rear fist pulls hard to the waist. Power comes from the ground through the waist, not from pushing with the arm.",
+      "torsoAngle": 0,
+      "frontArm": {
+        "shoulderAngle": -88,
+        "elbowAngle": -92
+      },
+      "rearArm": {
+        "shoulderAngle": 35,
+        "elbowAngle": 150
+      },
+      "frontLegAngle": -10,
+      "rearLegAngle": 10,
+      "feet": {
+        "front": {
+          "x": -18,
+          "y": -35,
+          "angle": 0
+        },
+        "rear": {
+          "x": 18,
+          "y": 35,
+          "angle": 10
+        },
+        "note": "Square, grounded base with weight even; the punch is driven from the floor through the waist while the rear fist pulls to the ribs for the opposing reaction."
+      },
+      "weightDistribution": {
+        "front": 50,
+        "rear": 50
+      },
+      "metrics": [
+        {
+          "label": "Contact",
+          "value": "First two knuckles, fist vertical-to-pronated"
+        },
+        {
+          "label": "Elbow",
+          "value": "Tracks down, never flares out"
+        },
+        {
+          "label": "Rear fist",
+          "value": "Pulled hard to the waist"
+        },
+        {
+          "label": "Power",
+          "value": "Ground through the waist, not the arm"
+        }
+      ],
+      "annotations": [
+        {
+          "number": "01",
+          "label": "Elbow down, shoulder sunk",
+          "detail": "The elbow tracks down along the body as the fist extends; a flared elbow or shrugged shoulder leaks the force and telegraphs."
+        },
+        {
+          "number": "02",
+          "label": "Rear fist to the waist",
+          "detail": "Pulling the back fist hard to the ribs creates the two-arm opposition that roots the punch; a lazy rear hand makes a weak, floating strike."
+        },
+        {
+          "number": "03",
+          "label": "Power from the ground",
+          "detail": "The punch is driven by the legs and waist sinking and rotating (chen); the arm is the whip tip, not the engine."
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "The arm is the whip tip",
+        "content": "A kung fu punch is not an arm push; it is a whole-body event whose tip happens to be the fist. The power is generated by the legs pressing the floor and the waist sinking and rotating, and the arm merely transmits that force to the target. The beginner instinct - to shove with the shoulder and bicep - produces a stiff, telegraphed, weak punch that tires the arm fast. The correct image is a whip: the handle (legs and waist) moves, the tip (fist) arrives. Train the body to drive and the arm to follow, and the punch gains weight without gaining tension."
+      },
+      {
+        "title": "The rear fist is the secret",
+        "content": "The most overlooked half of the punch is the hand that does not strike. Pulling the rear fist hard to the waist - elbow back, fist at the ribs - creates an opposition that roots the lead punch and balances the body. A lazy rear hand floating in front leaves the punch unmoored and the torso open. The two fists work like a row: one pulls back as the other shoots forward, and that scissor is what gives the straight punch its sudden, grounded snap. Watch a beginner rear hand and you can read the quality of their punch."
+      },
+      {
+        "title": "Song: the punch that is not tense",
+        "content": "Structure without relaxation is just stiffness with better geometry. The shoulder must stay sunk and the chest soft (song) even as the fist extends, so the force can flow from the ground without getting stuck in a shrug. The fist clenches only at the instant of contact - first two knuckles leading, the wrist straight and stacked - then the hand can soften again. A punch that is clenched and shrugged the whole way is slow and tiring; a punch that is relaxed until the last moment is fast and heavy. Relaxation is not weakness; it is the channel the power travels down."
+      }
+    ],
+    "principles": [
+      "The arm transmits force; the legs and waist generate it (the whip tip).",
+      "Pull the rear fist hard to the waist to root the lead punch.",
+      "Elbow tracks down, shoulder stays sunk (song), chest soft.",
+      "The fist clenches only at contact, first two knuckles leading, wrist stacked."
+    ],
+    "mistakes": [
+      {
+        "title": "Pushing with the arm and shoulder",
+        "explanation": "An arm-shove is stiff, slow and tiring. Drive from the ground through the waist; the arm follows."
+      },
+      {
+        "title": "Lazy rear hand",
+        "explanation": "A floating back fist unmoors the punch. Pull it hard to the ribs for the opposing scissor."
+      },
+      {
+        "title": "Shrugging the shoulder on extension",
+        "explanation": "A climbed shoulder blocks the force and telegraphs. Keep the shoulder sunk and the chest soft (song)."
+      },
+      {
+        "title": "Clenched and tense the whole way",
+        "explanation": "Constant tension slows the punch and tires the hand. Relax until the fist tightens at contact."
+      }
+    ],
+    "practice": [
+      "Shadow the straight punch 20 times slow, feeling the rear fist pull to the waist.",
+      "Add the waist: sink and rotate to drive the fist, 10 reps each side.",
+      "Check the elbow tracks down and the shoulder stays sunk in a mirror, 10 reps.",
+      "Punch a pad or bag focusing on the first-two-knuckle contact and a stacked wrist, 10 reps.",
+      "Finish with 10 relaxed punches that tighten only at the instant of contact."
+    ],
+    "reflection": "On your last punch, did the power start in the ground and waist, or did you shove it out of the shoulder?",
+    "safety": "Keep the wrist straight and stacked to avoid sprain; do not punch hard targets with an unconditioned fist. Stop on shoulder, elbow or wrist pain and reduce speed.",
+    "quiz": [
+      {
+        "question": "In the kung fu punch, the arm is best described as:",
+        "options": [
+          "The engine",
+          "The whip tip that transmits force from the legs and waist",
+          "The brake",
+          "Irrelevant"
+        ],
+        "answer": 1,
+        "explanation": "Power is generated by the floor and the sinking, rotating waist; the arm transmits it. Shoving with the shoulder makes a stiff, weak punch."
+      },
+      {
+        "question": "Why pull the rear fist hard to the waist?",
+        "options": [
+          "To look balanced",
+          "It creates the opposition that roots the lead punch",
+          "To rest the arm",
+          "It is tradition only"
+        ],
+        "answer": 1,
+        "explanation": "The two fists work like a row - one pulls back as the other shoots forward - and that scissor gives the straight punch its grounded snap."
+      }
+    ],
+    "mastery": [
+      "Extend the lead fist straight with the elbow tracking down and the shoulder sunk.",
+      "Pull the rear fist hard to the waist on every punch.",
+      "Generate power from the ground through the waist, not the arm.",
+      "Clench only at contact with a stacked wrist and first-two-knuckle lead."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your punches tire your arm quickly and feel light.",
+          "action": "You shift the engine to the legs and waist and keep the shoulder sunk, letting the arm transmit.",
+          "why": "An arm-shove burns the small muscles; a ground-driven punch uses the big chains and stays relaxed until contact."
+        },
+        {
+          "setup": "Your punch feels floaty and unrooted.",
+          "action": "You pull the rear fist hard to the ribs to create the opposing scissor.",
+          "why": "The rear-hand opposition anchors the lead punch; without it the strike has no root to push against."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A structured punch delivers body weight through a small point without tiring the arm."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A relaxed, ground-driven punch is faster and heavier than a tense shove, and harder to read."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Shoulder climbing",
+          "Lazy rear hand",
+          "Arm-shoving"
+        ],
+        "adjustments": [
+          {
+            "if": "The shoulder shrugs",
+            "then": "Slow the punch and re-sink the shoulder; relax the chest (song)."
+          },
+          {
+            "if": "The punch is light",
+            "then": "Re-engage the rear fist to the waist and drive from the waist, not the arm."
+          }
+        ],
+        "learning": "After each session, note whether the power originated in the ground and waist and whether the rear fist pulled every rep."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Punch Reps",
+      "targetReps": 20
+    }
+  },
+  "kung-fu-foundations-forms": {
+    "id": "kung-fu-foundations-forms",
+    "subject": "Kung Fu",
+    "title": "Forms - Taolu",
+    "level": "Beginner",
+    "duration": "15 min",
+    "description": "Learn what a form (taolu) actually is and why it is trained: a pre-arranged sequence that encodes technique, transitions and rhythm so the body can rehearse fighting alone until the movements become reflex.",
+    "objectives": [
+      "Explain what a form (taolu) is and why it is practiced alone",
+      "Link individual techniques into smooth, connected transitions",
+      "Hold the rhythm and intent (yi) of a sequence, not just the shapes",
+      "Use a form to groove stance, structure and footwork together",
+      "Recognize the four most common form errors"
+    ],
+    "visuals": [
+      {
+        "type": "animation",
+        "title": "A basic opening sequence",
+        "caption": "A form is a chain of techniques with living transitions. Watch guard, straight punch, palm block and bow-stance strike flow as one - the shapes matter, but the connections and the intent are the real training.",
+        "phases": [
+          {
+            "label": "Ready / guard",
+            "pose": {
+              "torso": 0,
+              "fThigh": 5,
+              "fShin": -2,
+              "rThigh": -5,
+              "rShin": 2,
+              "pUpper": -20,
+              "pFore": -120,
+              "rUpper": 20,
+              "rFore": 120
+            }
+          },
+          {
+            "label": "Straight punch",
+            "pose": {
+              "torso": 5,
+              "fThigh": 8,
+              "fShin": -4,
+              "rThigh": -8,
+              "rShin": 4,
+              "pUpper": -90,
+              "pFore": -90,
+              "rUpper": 25,
+              "rFore": 140
+            }
+          },
+          {
+            "label": "Palm block",
+            "pose": {
+              "torso": -3,
+              "fThigh": 5,
+              "fShin": -2,
+              "rThigh": -5,
+              "rShin": 2,
+              "pUpper": -50,
+              "pFore": -160,
+              "rUpper": 30,
+              "rFore": 120
+            }
+          },
+          {
+            "label": "Bow-stance strike",
+            "pose": {
+              "torso": 12,
+              "fThigh": -25,
+              "fShin": 5,
+              "rThigh": 20,
+              "rShin": -10,
+              "pUpper": -85,
+              "pFore": -95,
+              "rUpper": 40,
+              "rFore": 110
+            }
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A form is a fight rehearsed alone",
+        "content": "A form (taolu) looks like a dance to an outsider, but it is a solo rehearsal of combat: a pre-arranged sequence of strikes, blocks, stances and footwork performed against an imagined opponent. The reason it is trained alone is repetition without a partner - a student can groove the same transitions hundreds of times until the body knows them reflexively, then bring that grooved knowledge to sparring. The form is the library; sparring is reading the books aloud. Skip the library and the spoken language is halting and improvised."
+      },
+      {
+        "title": "The transitions are the training",
+        "content": "Beginners memorize the shapes - this pose, then this punch - and treat the moments between as empty. The truth is inverted: the transitions are the technique. How you shift weight from the punch into the block, how the hip turns to load the next strike, how the feet re-position without crossing - that connective tissue is where balance, structure and rhythm live. A form performed as a series of frozen photographs teaches nothing usable; a form performed as one continuous motion, with the same sunk shoulders and tracked knees as the standalone stances, grooves the whole system at once."
+      },
+      {
+        "title": "Yi: intent gives the shape life",
+        "content": "The final ingredient is yi - intent. A punch in a form must be thrown at something; a block must stop something; the gaze must lead the movement as it would in a real exchange. Without intent the form is calisthenics, pretty and empty. With intent the nervous system rehearses the real thing - the same recruitment, the same focus, the same breath - and the body cannot fully tell it is alone. This is why teachers drill look where you strike and breathe on the technique: the shape without the yi is a shell, and the yi is what turns the shell into a weapon."
+      }
+    ],
+    "principles": [
+      "A form (taolu) is a solo rehearsal of combat, trained for repetition without a partner.",
+      "The transitions between shapes are the real technique, not the poses.",
+      "Hold the same sink, structure and knee-tracking as the standalone stances.",
+      "Yi (intent) gives the shape life: strike at something, block something, gaze leads."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing shapes, ignoring transitions",
+        "explanation": "Frozen photographs teach nothing usable. The weight shifts and hip turns between poses are the technique."
+      },
+      {
+        "title": "Performing without intent (yi)",
+        "explanation": "A form with no imagined opponent is calisthenics. Strike at something and let the gaze lead the movement."
+      },
+      {
+        "title": "Losing the stance inside the form",
+        "explanation": "Sloppy knees and shrugged shoulders in transitions undo the standalone work. Keep the sink throughout."
+      },
+      {
+        "title": "Rushing to the long form",
+        "explanation": "Adding length before the short sequence is smooth builds a sloppy, halting routine. Master the chain first."
+      }
+    ],
+    "practice": [
+      "Drill the four-phase opening sequence slowly 10 times, focusing on the transitions.",
+      "Add intent: gaze leads each strike and block, 10 reps.",
+      "Run the sequence at three tempos - slow, medium, fast - 5 reps each, keeping structure.",
+      "Isolate the weakest transition and repeat only that link 10 times.",
+      "Chain the full sequence with breath on each technique, 5 clean runs."
+    ],
+    "reflection": "In your last run, were you moving through one continuous motion with intent, or posing between photographs?",
+    "safety": "Move within current flexibility and balance; do not force deep stances at speed. Stop on knee, hip or back pain and slow the tempo until the structure holds.",
+    "quiz": [
+      {
+        "question": "The real training content of a form lies in:",
+        "options": [
+          "The final poses",
+          "The transitions between techniques - weight shifts, hip turns, foot re-positioning",
+          "The number of moves",
+          "The speed"
+        ],
+        "answer": 1,
+        "explanation": "Shapes alone are photographs; the connective tissue between them is where balance, structure and rhythm are grooved."
+      },
+      {
+        "question": "Yi (intent) in a form means:",
+        "options": [
+          "Moving fast",
+          "Striking and blocking at an imagined opponent, gaze leading the movement",
+          "Counting the moves",
+          "Smiling"
+        ],
+        "answer": 1,
+        "explanation": "Without intent the form is empty calisthenics; the yi makes the nervous system rehearse the real exchange even when alone."
+      }
+    ],
+    "mastery": [
+      "Explain what a form is and why it is trained alone.",
+      "Link techniques into smooth, continuous transitions.",
+      "Hold stance and structure throughout the sequence.",
+      "Inject intent (yi) so each strike and block has a target and a gaze."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your form looks correct but feels dead in sparring.",
+          "action": "You re-run it with yi - striking at an imagined opponent and letting the gaze lead - and tighten the transitions.",
+          "why": "A shape without intent is calisthenics; the yi and the connective motion are what transfer to a real exchange."
+        },
+        {
+          "setup": "You lose your stance the moment you move between poses.",
+          "action": "You slow the tempo and keep the sunk shoulders and tracked knees through every transition.",
+          "why": "The transitions are where structure leaks; holding the sink throughout is the form hidden curriculum."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A well-drilled form grooves technique, footwork and rhythm so sparring draws on reflex, not improvisation."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner whose form carries intent moves with purpose; their solo practice reads like a fight."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Posing between shapes",
+          "No intent / dead gaze",
+          "Stance leaking in transitions"
+        ],
+        "adjustments": [
+          {
+            "if": "You freeze between poses",
+            "then": "Slow down and link the weight shifts until the chain is continuous."
+          },
+          {
+            "if": "The form feels dead",
+            "then": "Add the gaze and an imagined target to every strike and block."
+          }
+        ],
+        "learning": "After each run, note the one transition where structure leaked and whether the intent held from first move to last."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Form Runs",
+      "targetReps": 5
+    }
   }
 }

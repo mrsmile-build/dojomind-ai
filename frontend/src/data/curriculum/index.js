@@ -540,6 +540,37 @@ export default {
           ]
         }
       }
+    },
+    "kung-fu": {
+      "name": "Kung Fu",
+      "icon": "🐉",
+      "description": "Explore Chinese martial-arts traditions, movement and forms.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Build the kung fu base: stances, hand structure and forms.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Kung Fu Foundations",
+              "lessons": [
+                {
+                  "id": "kung-fu-foundations-stance",
+                  "title": "Stances — Bow & Horse"
+                },
+                {
+                  "id": "kung-fu-foundations-hand",
+                  "title": "Hand Techniques — Structure"
+                },
+                {
+                  "id": "kung-fu-foundations-forms",
+                  "title": "Forms — Taolu"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };
