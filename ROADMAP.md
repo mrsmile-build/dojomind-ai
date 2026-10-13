@@ -1,76 +1,50 @@
-# DojoMind AI — Master Roadmap (single source of truth)
+# DojoMind AI - Master Roadmap (single source of truth)
+> Rule: solid before scale. A domain opens only when (1) its signature visual + practice-engine type exist and (2) Beginner ships complete before higher levels are scaffolded. No empty shells.
 
-> Rule that governs everything here: **solid before scale.** A domain opens only
-> when (1) its signature visual + practice-engine type exist and (2) Beginner
-> ships complete before any higher level is scaffolded. No empty shells.
+## Status (verified 2026-10-13)
+- Karate: COMPLETE - 54 lessons, all 4 levels, 0 empty.
+- Meditation: COMPLETE - 12 lessons (Beginner->Expert), 0 empty.
+- Breathing: COMPLETE - 12 lessons, 0 empty.
+- Training: COMPLETE - 12 lessons, 0 empty.
+- TOTAL LIVE LESSONS: 91. EMPTY SLOTS ACROSS ALL 4 DOMAINS: 0.
+- Homepage placeholders (honest, labeled in-development): Boxing, Taekwondo, Muay Thai, Judo, BJJ, Wrestling, Kung Fu. Coming-soon cards are acceptable by the no-empty-shells rule; they are not pretending to be complete.
 
-## Status legend
-- ✅ complete · 🟡 partial (beginner only) · ⬜ placeholder (in development) · 🔒 capped (principle + referral only)
+## Visual system (7 types, all data-driven)
+1. BodyPositionDiagram - posed body (angles/arms/legs/feet/weight). Karate stances, strikes, blocks, kicks.
+2. TechniqueAnimation - keyframe motion. Karate technique-in-motion.
+3. BreathCycleVisual - inhale/exhale/hold. Breathing.
+4. AttentionLoopVisual - dot-on-ring loop, re-parameterizable per lesson. Meditation.
+5. MovementPostureVisual - one-leg balance + CoM/plumb/base. Training balance.
+6. TargetOverlay - silhouette + tappable zones + permanent ethics banner. Karate targeting, self-defense, kobudo. Lethal points intentionally omitted.
+7. Generic diagram/label schematic - conceptual lessons (strategy, timing, power-curves, teaching-arcs). A body diagram of "equanimity" is nonsense; schematics are correct here.
+Residual minor gap: a few EARLY beginner mind-body lessons use a generic schematic instead of their domain signature visual. Backfillable polish, not a hole.
 
-## 1. Live domains
-| Domain | State | Notes |
-|---|---|---|
-| Karate | ✅ 54/54, all 4 levels | full curriculum, zero empty slots |
-| Meditation | 🟡 3 built (Beginner) | Intermediate/Advanced/Expert scaffolded, empty |
-| Breathing | 🟡 3 built (Beginner) | same |
-| Training | 🟡 3 built (Beginner) | same |
+## The attack-half (kyusho/targeting) - DONE
+TargetOverlay + "Where Force Lands" shipped, framed as control+escape with a built-in legal/ethical ceiling; finer/lethal points withheld by design (they fail under adrenaline and need supervision). Cross-referenced from self-defense + kobudo.
 
-Mind-body empty slots total: **27** (9 per domain × 3).
+## Governance rules (never violate)
+- Solid before scale; honest placeholders only, never fake-complete.
+- Anything that can kill/maim if misread (kyusho, diagnosis, acupuncture, leverage/trading) = principle + referral + explicit ceiling, never app-alone instruction.
+- Every lesson carries a correct visual from birth (physical -> posed body; conceptual -> schematic; domain -> its signature type).
+- Parse-and-check, never grep-and-trust: after any structural edit, assert the value is reachable THROUGH the imported object (.visuals.filter(...).length===1), not merely present in text. node --check proves parse only; duplicate/dead keys are valid syntax the runtime silently discards.
+- For data files, edit the OBJECT not the bytes: import -> mutate -> re-serialize (JSON.stringify). Immune to whitespace/line-format/bracket-depth/duplicate-keys.
+- On a phone, cap each paste at <=3 lessons (~16KB); never send a monolith (a 30KB paste froze Termux). Paste one block, wait for SYNTAX_OK, then the next; scripts are idempotent so a dropped block is re-pasted alone.
+- Verify in the browser before commit; never trust an echo "...done" line.
 
-## 2. Martial-art placeholders (⬜, ordered by build priority)
-Boxing → Taekwondo → Muay Thai → Judo → Brazilian Jiu-Jitsu → Wrestling → Kung Fu.
-- **Boxing first**: closest to karate striking, reuses the whole engine, proves cross-art generalization.
-- **Kung Fu** is where the animal styles (snake, cat, crane, etc.) and the broader
-  hand-form family conceptually live. NOTE: elbow (empi), knee (hiza-geri),
-  knife-hand (shuto/nukite) are ALREADY karate strikes — they are not kung-fu-only.
+## Curriculum file note
+frontend/src/data/curriculum/index.js has MIXED line formats (some modules single-line, some multi-line) because earlier edits rewrote some blocks pretty and left others compact. Any structural insert must be format-agnostic (match the object + its trailing comma + the array close), then node --check. Prefer editing lessons.js (now uniform JSON) over the curriculum file.
 
-## 3. New domains to open (the "teach anything" expansion)
-Each needs its OWN signature visual + practice-engine type before Beginner ships.
-| Domain | Signature visual needed | Practice engine needed | Cap |
-|---|---|---|---|
-| Music (piano, guitar, drum, trumpet, singing…) | instrument overlay (fretboard/keys/stick-path) + red-dot = finger placement | metronome, ear-training, scale patterns | — |
-| Programming (code, design, writing…) | code/REPL panel, diagram canvas | typed-exercise runner, timer | — |
-| Medicine (first aid, therapy, acupuncture…) | anatomy overlay (shared with targeting) | procedure step-timer | 🔒 diagnosis/acupuncture/therapy = principle + "see a professional"; FIRST AID is the teachable exception |
-| Business (investing, trading, finance…) | chart/candlestick schematic | scenario simulator | 🔒 no personalized financial advice; principle + risk literacy only |
+## Ordered next steps
+1. DONE: all 4 live domains deep (91 lessons, 0 empty).
+2. NOW: open a 2nd martial art - BOXING beginner (cheapest cross-art proof; reuses the whole visual vocabulary as new DATA; near-zero new component code).
+3. THEN: open MUSIC beginner (the real new-domain test: forces new visual = instrument overlay reusing TargetOverlay's dot-on-layout, + new engines = metronome/ear-training).
+4. THEN: backfill remaining martial arts (Taekwondo, Muay Thai, Judo, BJJ, Wrestling, Kung Fu) as pure content-fill on the proven pattern - the easy part, do it whenever.
+5. THEN: Programming, Medicine, Business - one solid domain at a time, each with its own signature visual + engine, each capped per governance.
+6. Platform polish: PWA/offline, per-page titles + OG tags.
+7. Backend: cross-device progress, then the AI companion.
 
-## 4. Visual system (built — 4 signature types)
-- Karate physical: **posed body diagram** (data-driven arms/legs/feet/weight) + **TechniqueAnimation** (keyframe motion)
-- Breathing: **BreathCycleVisual**
-- Meditation: **AttentionLoopVisual**
-- Training: **MovementPostureVisual**
-- Conceptual lessons (strategy/timing/distance/kata/mastery…): **timeline / range-ring / label schematic** — a body diagram of "equanimity" is nonsense; schematics are correct here.
-
-### Coverage gaps (triaged from audit — NOT 46, that number is misleading)
-- ~13 karate lessons are genuinely physical and still lack a posed body: footwork, strikes-mechanics/elbow, kicks-mechanics/balance, **self-defense ×4**, **kobudo ×3**. The self-defense + kobudo 7 are the WORST mismatch (they teach grabs/knife/bo/sai with no body shown).
-- ~6 chain/scenario lessons (combinations ×3, applications ×3) → sequence/flow schematic.
-- ~27 conceptual lessons → already-correct schematics (no action).
-- Mind-body small gaps: meditation posture+breath (reuse seated posture + breath-cycle), breathing awareness+rhythm (breath-cycle), training mobility+conditioning (joint-map + circuit).
-
-## 5. The missing attack-half (kyusho / targeting) — DECIDED
-We built the full **defend / read / adapt** half. The **attack-targeting** half
-(where force lands and why the body reacts) has no lesson or visual. Plan:
-- New visual **TargetOverlay** = translucent anatomical zones (red dots) on the body silhouette. Framed as **control + escape**, with the legal/ethical ceiling stated outright (reasonable force; goal is to leave, not harm; supervised application only).
-- New lesson **karate-targeting-anatomy** ("Where Force Lands") slotted into Advanced, cross-referenced from strikes / self-defense / kobudo.
-- This is NOT a kill-list. Real vital-point work stays withheld; we teach principle + anatomy + ethics — what a dojo teaches before anything sharper.
-- Bonus: TargetOverlay's overlay concept directly funds the **Music** domain's finger-placement visual. One build, two domains unlocked.
-
-## 6. Ordered next steps
-1. ✅ Push d2446d3 (verify above).
-2. ✅ **TargetOverlay** + "Where Force Lands" lesson shipped (cbe168e).
-3. ✅ TargetOverlay on all 7 self-defense + kobudo lessons (7 of 7, 3a9aa5d). Karate visual debt cleared.
-4. ⬜ Close the remaining mind-body visual gaps (seated posture, joint-map, circuit, breath-cycle rollout).
-5. ⬜ Fill the 27 empty mind-body slots — each lesson BORN with its correct visual.
-6. ⬜ Open **Boxing** (beginner module) as the 2nd martial art.
-7. ⬜ Open **Music** (metronome + ear + instrument-overlay) as the 1st new domain.
-8. ⬜ Platform polish: PWA/offline, per-page titles + OG tags, hash-routing already done.
-9. ⬜ Backend: cross-device progress, then the AI companion (the stub on the hero).
-10. ⬜ Then Programming, Medicine, Business, remaining martial arts — one solid domain at a time.
-
-## 7. Governance rules (never violate)
-- Solid before scale; no empty shells shipped as "coming soon" beyond honest placeholders.
-- Anything that can kill/maim if misread (kyusho, diagnosis, acupuncture, leverage/trading advice) = principle + referral + explicit ceiling, NEVER app-alone instruction.
-- Every new lesson carries a correct visual from birth (physical → posed body; conceptual → schematic; domain → its signature type).
-- Verify in the browser before commit; never trust an `echo "...done"` line (it lies on paste failure).
-
-- **Parse-and-check, never grep-and-trust.** A passing `node --check` only proves the file *parses*; duplicate keys and dead properties are valid syntax the runtime silently discards. After any structural edit, assert the value is reachable *through the imported object* (e.g. `.visuals.filter(x=>x.type==="target-overlay").length === 1`), not merely present in the text.
-- **For data files, edit the object, not the bytes.** Import → mutate → re-serialize (`JSON.stringify`). Immune to whitespace, line format, bracket depth, and duplicate keys. `lessons.js` is now maintained this way; text surgery is banned on it.
+## The fork (why Boxing before Music, not all-MA-now)
+- Completing ALL 7 martial arts now = content-grinding a SOLVED pattern (zero new architecture), delays the unproven frontier, and the honest placeholders are fine meanwhile. Advise against doing all now.
+- Boxing = lowest-risk way to convert a placeholder into a real domain AND prove cross-art generalization: boxing stances/guards/jab-cross-hook are different ANGLE/KEYFRAME DATA on the SAME components, and boxing's LEGAL target map (chin/liver/solar plexus, NOT groin/eyes) is a different zones array on the SAME TargetOverlay - the engine expressing a different art's RULES via data. Near-zero new code.
+- Music = the expensive, high-information test: it forces genuinely new components (metronome, ear-trainer, instrument overlay) and new practice-engine types. This is where "teach anything" is actually proven or dies. Do it from more momentum, after banking the cheap Boxing win.
+- Net: Boxing (cheap bridge) -> Music (real test) -> fill remaining MA (easy) -> other domains. If the priority is chasing the vision NOW over a safe win, Music-first is defensible and I build it incrementally, one gated component at a time.
