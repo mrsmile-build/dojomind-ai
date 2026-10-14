@@ -29,6 +29,13 @@ function BodyPositionDiagram({ position }) {
     return { s, e, h }
   }
 
+  const legPoints = (spec, spread) => {
+    const s = { x: hip.x + spread, y: hip.y }
+    const k = limb(s, spec.hipAngle, 95, 0)
+    const a = limb(k, spec.kneeAngle, 95, 0)
+    return { s, k, a }
+  }
+
   const hip = { x: 380, y: 330 }
   const shoulder = { x: 380, y: 172 }
 
@@ -37,8 +44,10 @@ function BodyPositionDiagram({ position }) {
     y: origin.y + Math.cos(toRad(angle)) * length,
   })
 
-  const frontFoot = limb(hip, frontLegAngle, 160, -18)
-  const rearFoot = limb(hip, rearLegAngle, 160, 18)
+  const fl = position.frontLeg ? legPoints(position.frontLeg, -20) : null
+  const frontFoot = fl ? fl.a : limb(hip, frontLegAngle, 160, -18)
+  const rl = position.rearLeg ? legPoints(position.rearLeg, 20) : null
+  const rearFoot = rl ? rl.a : limb(hip, rearLegAngle, 160, 18)
   const frontHand = limb(shoulder, frontArmAngle, 140, -28)
   const rearHand = limb(shoulder, rearArmAngle, 140, 28)
   const fa = frontArmSpec ? armPoints(frontArmSpec, -30) : null
@@ -96,8 +105,8 @@ function BodyPositionDiagram({ position }) {
             <line x1={shoulder.x - 30} y1={shoulder.y + 3} x2={frontHand.x} y2={frontHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
           )}
 
-          <line x1={hip.x - 20} y1={hip.y} x2={frontFoot.x} y2={frontFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />
-          <line x1={hip.x + 20} y1={hip.y} x2={rearFoot.x} y2={rearFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />
+          {fl ? (<g><polyline points={fl.s.x+","+fl.s.y+" "+fl.k.x+","+fl.k.y+" "+fl.a.x+","+fl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /><line x1={fl.k.x} y1={fl.k.y} x2={fl.k.x} y2="525" stroke="#c9a15a" strokeWidth="2" strokeDasharray="5 7" opacity=".75" /><circle cx={fl.k.x} cy={fl.k.y} r="13" fill="#c9a15a" /><text x={fl.k.x+16} y={fl.k.y-12} className="svg-small-label">KNEE</text></g>) : (<line x1={hip.x - 20} y1={hip.y} x2={frontFoot.x} y2={frontFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
+          {rl ? (<g><polyline points={rl.s.x+","+rl.s.y+" "+rl.k.x+","+rl.k.y+" "+rl.a.x+","+rl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /><circle cx={rl.k.x} cy={rl.k.y} r="11" fill="#c9a15a" /></g>) : (<line x1={hip.x + 20} y1={hip.y} x2={rearFoot.x} y2={rearFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
 
           <line x1={frontFoot.x} y1={frontFoot.y} x2={frontFoot.x - 88} y2={frontFoot.y + 15} stroke="#7b2800" strokeWidth="27" strokeLinecap="round" />
           <line x1={rearFoot.x} y1={rearFoot.y} x2={rearFoot.x + 70} y2={rearFoot.y + 33} stroke="#7b2800" strokeWidth="27" strokeLinecap="round" />

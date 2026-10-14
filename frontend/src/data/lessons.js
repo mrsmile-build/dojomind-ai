@@ -14283,11 +14283,11 @@ export const lessons = {
     "duration": "12 min",
     "description": "Build the boxing base: a mobile, balanced stance with hands up, elbows in and chin tucked, ready to move, punch and defend without telegraphing.",
     "objectives": [
-      "Set a staggered, shoulder-width stance with weight on the balls of the feet",
-      "Hold a guard that protects the chin while staying mobile",
-      "Keep elbows in and chin down without tensing the shoulders",
-      "Stay light and ready to move in any direction",
-      "Recognize the four most common stance errors"
+      "Stand like a boxer: feet apart like you are straddling a line, front knee bent halfway",
+      "Keep the front knee stacked right over the ankle, never sneaking past the toes",
+      "Hold your hands up by your cheeks to guard the face, elbows tucked to guard the ribs",
+      "Stay light and springy so you can move the instant you need to",
+      "Spot the four ways beginners get the stance wrong and fix them"
     ],
     "positionDiagram": {
       "title": "Boxing stance and guard",
@@ -14322,76 +14322,84 @@ export const lessons = {
       },
       "metrics": [
         {
-          "label": "Guard",
-          "value": "Hands at chin, elbows in"
+          "label": "Front knee",
+          "value": "Stacked over the ankle, never past the toes"
         },
         {
-          "label": "Base",
-          "value": "Staggered, shoulder-width"
+          "label": "Back leg",
+          "value": "Long and firm, pressing the floor away"
         },
         {
           "label": "Weight",
-          "value": "55/45, on the balls"
+          "value": "About 55 front / 45 rear, on the balls"
         },
         {
-          "label": "Chin",
-          "value": "Tucked, eyes forward"
+          "label": "Shoulders",
+          "value": "Dropped away from the ears"
         }
       ],
       "annotations": [
         {
           "number": "01",
-          "label": "Hands at chin height",
-          "detail": "The guard sits high enough to cover the jaw but loose enough to punch from without winding up."
+          "label": "The knee string",
+          "detail": "Picture a string hanging straight down from the front knee (the dashed gold line). It must land on your ankle. If it lands out past your toes, the knee has sneaked forward - pull it back until the string and the ankle agree."
         },
         {
           "number": "02",
-          "label": "Elbows tucked",
-          "detail": "Elbows in protect the ribs and keep punches tight to the centerline."
+          "label": "Sit halfway",
+          "detail": "Bend the front leg like you are about to sit on a low stool, but only halfway. Too deep and you cannot move; too shallow and there is no power. Halfway is the sweet spot."
         },
         {
           "number": "03",
-          "label": "Light on the balls",
-          "detail": "Weight forward on the balls of the feet keeps you springy; flat-footed or on the toes both fail."
+          "label": "Kickstand back leg",
+          "detail": "The back leg is not resting - it is a kickstand pressing straight into the floor behind you, so your whole body can push forward into a punch."
         }
-      ]
+      ],
+      "frontLeg": {
+        "hipAngle": -38,
+        "kneeAngle": 30
+      },
+      "rearLeg": {
+        "hipAngle": 6,
+        "kneeAngle": 4
+      }
     },
     "sections": [
       {
-        "title": "A stance is a question of mobility",
-        "content": "The boxing stance is not a pose to hold; it is a spring to move from. Feet staggered about shoulder-width, lead foot forward, rear foot turned out, weight balanced slightly toward the lead but never locked. From here you can step, slide, pivot or punch without a preliminary shift that telegraphs intent. A stance that looks strong but cannot move instantly is a statue, and statues get hit."
+        "title": "Straddle the line",
+        "content": "Put your feet about as wide as your shoulders and step one foot forward, like you are standing over a crack in the sidewalk with one foot on each side. Bend the front knee about halfway - imagine you are going to sit on a low stool but stop halfway down. Keep the back leg long and straight behind you, like a kickstand holding a bicycle up. Your weight sits mostly on the balls of your feet (the puffy pad behind the toes), not flat and not up on tiptoe. This shape is a spring: it can fire forward into a punch or push back out of danger without any warning wiggle first."
       },
       {
-        "title": "The guard covers without blinding",
-        "content": "Hands rise to chin height, elbows drop in to shield the ribs, and the chin tucks toward the lead shoulder. The guard must protect without covering the eyes or freezing the shoulders - a tight, hunched guard tires you and slows your own punches. Think of it as a loose frame around the head: present, alive, and ready to become a punch or a slip in a single motion."
+        "title": "The knee must stack over the ankle",
+        "content": "This is the single most important line in the whole stance, and it is the one beginners miss. Look at your front knee and imagine a plumb string dropping straight down from it to the floor. That string has to land on your ankle. If the knee has drifted forward so the string lands out past your toes, two bad things happen at once: your knee starts to ache (that ache is your body telling you it is wrong), and you have leaned your whole weight forward where it can be pushed over. Bend the knee back until string and ankle line up. The dashed gold line on the diagram is exactly that string - use it to check yourself."
       },
       {
-        "title": "Tension is the silent failure",
-        "content": "Beginners equate guard with clenching: shoulders up, fists squeezed, breath held. Tension slows everything - movement, punches, perception - and burns energy for no protection. The skilled stance is alert but loose: hands up, jaw relaxed, breathing easy, weight springy. Power comes from the ground and rotation, not from squeezing the fists, so the guard stays soft until the instant a punch fires."
+        "title": "Hands up, shoulders down, sigh",
+        "content": "Raise both hands to about cheek height, palms facing you, to shield the face, and tuck the elbows in against the ribs to shield the body. Now the part nobody expects: let the shoulders drop. Beginners climb their shoulders up toward their ears when they concentrate, and that tension travels into the neck, slows the arms, and burns energy for no protection. So after you set the hands, take a breath and let the shoulders fall like you just sighed. Tall chest, dropped shoulders, soft hands - guarded but not clenched. A relaxed guard lasts rounds; a tense one lasts seconds."
       }
     ],
     "principles": [
-      "The stance is a spring for movement, not a pose to hold.",
-      "Guard covers chin and ribs without blinding the eyes or freezing shoulders.",
-      "Weight on the balls of the feet keeps you light and ready.",
-      "Loose alertness beats clenching; tension slows punches and perception."
+      "Feet straddle an imaginary line; front knee bends halfway, back leg long like a kickstand.",
+      "The front knee stacks over the ankle - the dashed string must land on the ankle, not past the toes.",
+      "Hands at cheek height, elbows tucked; weight on the balls of the feet, springy not flat.",
+      "Shoulders drop away from the ears (sigh); a relaxed guard outlasts a tense one."
     ],
     "mistakes": [
       {
-        "title": "Standing flat-footed or on the toes",
-        "explanation": "Flat feet kill mobility; toes kill balance. Keep weight on the balls with heels lightly touching."
+        "title": "Knee past the toes",
+        "explanation": "The knee sneaks forward so the plumb string lands ahead of the ankle. The knee aches and the body leans into push. Pull the knee back over the ankle."
       },
       {
-        "title": "Crossing or narrowing the base",
-        "explanation": "A narrow or crossed stance collapses under pressure and limits stepping. Keep it staggered and shoulder-width."
+        "title": "Standing flat or on tiptoe",
+        "explanation": "Flat feet cannot spring; tiptoes cannot balance. Rest the weight on the balls of the feet with the heels just kissing the floor."
       },
       {
-        "title": "Dropping hands when tired or punching",
-        "explanation": "The guard must return instantly after every punch; hands down is an open invitation."
+        "title": "Shoulders climbed to the ears",
+        "explanation": "Concentration shrugs the shoulders up, which tenses the neck and slows the arms. Breathe out and let them drop."
       },
       {
-        "title": "Clenching shoulders and fists",
-        "explanation": "Tension slows movement and drains energy. Stay loose; power comes from rotation and the ground."
+        "title": "Hands dropping after a punch",
+        "explanation": "The guard must snap straight back to the cheek after every punch; a hand left hanging open is an open invitation to the jaw."
       }
     ],
     "practice": [
@@ -14401,7 +14409,7 @@ export const lessons = {
       "Hold the stance 60 seconds, staying loose and breathing easy.",
       "Reset from a walk: stop and find the stance instantly, three times."
     ],
-    "reflection": "Where does tension creep into your stance - shoulders, fists or breath - and can you stay loose while keeping the guard up?",
+    "reflection": "Look at your front knee right now: does the imaginary string from it land on your ankle, or out past your toes? And are your shoulders up by your ears, or dropped like you just sighed?",
     "safety": "Practice on soft ground and avoid locking knees. If you feel dizziness or joint pain, stop and reassess stance width and weight distribution.",
     "quiz": [
       {

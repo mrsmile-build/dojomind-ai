@@ -129,7 +129,7 @@ function Lesson({ lesson, onBack, onComplete }) {
             return <LessonVisual key={index} visual={visual} />
           }
           if (visual.type === 'position-diagram') {
-            return <BodyPositionDiagram key={index} diagram={visual} />
+            return <BodyPositionDiagram key={index} position={visual} />
           }
           if (visual.type === 'animation') {
             return <TechniqueAnimation key={index} visual={visual} />
