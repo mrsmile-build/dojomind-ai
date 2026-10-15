@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import MartialArts from './MartialArts'
 import MindBody from './MindBody'
+import Music from './Music'
 import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
@@ -18,6 +19,9 @@ function parseHash() {
   const raw = window.location.hash.replace(/^#\/?/, '')
   const parts = raw.split('/').filter(Boolean)
   if (parts.length === 0) return { page: 'home' }
+  if (parts[0] === 'music') {
+    return { page: 'music', instrumentId: parts[1] || null, levelId: parts[2] || null, lessonId: parts[3] || null }
+  }
   if (parts[0] === 'martial-arts') {
     return { page: 'martial-arts', artId: parts[1] || null, levelId: parts[2] || null, lessonId: parts[3] || null }
   }
@@ -47,6 +51,10 @@ function AppContent() {
   const [question, setQuestion] = useState('')
   const [messages, setMessages] = useState([])
   const { completedLessons } = useProgress()
+
+  if (route.page === 'music') {
+    return <Music route={route} navigate={navigate} />
+  }
 
   if (route.page === 'martial-arts') {
     return <MartialArts route={route} navigate={navigate} />

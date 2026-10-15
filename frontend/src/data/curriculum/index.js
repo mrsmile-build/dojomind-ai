@@ -572,5 +572,62 @@ export default {
         }
       }
     }
+  },
+  "music": {
+    "theory": {
+      "name": "Music Theory",
+      "icon": "🎼",
+      "description": "Pulse, scales, intervals and how music works.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Pulse, scales, intervals and how music works.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Music Theory Foundations",
+              "lessons": [
+                {
+                  "id": "music-foundations-rhythm",
+                  "title": "Rhythm & Tempo - The Pulse"
+                },
+                {
+                  "id": "music-foundations-practice-loop",
+                  "title": "The Practice Loop"
+                },
+                {
+                  "id": "music-foundations-note-map",
+                  "title": "Notes, Scales & Intervals"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "piano": {
+      "name": "Piano",
+      "icon": "🎹",
+      "description": "Keyboard fundamentals, hand position and reading music.",
+      "levels": {}
+    },
+    "guitar": {
+      "name": "Guitar",
+      "icon": "🎸",
+      "description": "Fretting, strumming, chords and finger patterns.",
+      "levels": {}
+    },
+    "voice": {
+      "name": "Voice",
+      "icon": "🎤",
+      "description": "Breath, pitch, tone and vocal technique.",
+      "levels": {}
+    },
+    "drums": {
+      "name": "Drums",
+      "icon": "🥁",
+      "description": "Time, limbs, groove and basic patterns.",
+      "levels": {}
+    }
   }
 };

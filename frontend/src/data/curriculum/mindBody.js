@@ -307,36 +307,5 @@ export const mindBody = {
         ]
       }
     }
-  },
-  "music": {
-    "name": "Music",
-    "icon": "🎵",
-    "description": "Learn rhythm, melody, harmony and how to practice any instrument.",
-    "levels": {
-      "beginner": {
-        "name": "Beginner",
-        "description": "Build the musician base: pulse, practice loop and the note map.",
-        "modules": [
-          {
-            "id": "foundations",
-            "title": "Music Foundations",
-            "lessons": [
-              {
-                "id": "music-foundations-rhythm",
-                "title": "Rhythm & Tempo - The Pulse"
-              },
-              {
-                "id": "music-foundations-practice-loop",
-                "title": "The Practice Loop"
-              },
-              {
-                "id": "music-foundations-note-map",
-                "title": "Notes, Scales & Intervals"
-              }
-            ]
-          }
-        ]
-      }
-    }
   }
 }
