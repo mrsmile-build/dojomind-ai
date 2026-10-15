@@ -654,5 +654,38 @@ export default {
       "description": "Time, limbs, groove and basic patterns.",
       "levels": {}
     }
+  },
+  "programming": {
+    "foundations": {
+      "name": "Foundations",
+      "icon": "🧠",
+      "description": "How computers think: instructions, variables and logic.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Programs as exact instructions, variables as boxes, logic as forks and loops.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Programming Foundations",
+              "lessons": [
+                {
+                  "id": "prog-foundations-program",
+                  "title": "What a Program Is"
+                },
+                {
+                  "id": "prog-foundations-variables",
+                  "title": "Variables & Types"
+                },
+                {
+                  "id": "prog-foundations-logic",
+                  "title": "Decisions & Loops"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
   }
 };

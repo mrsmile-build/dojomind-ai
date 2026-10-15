@@ -19219,5 +19219,464 @@ export const lessons = {
       "label": "Scale Runs",
       "targetReps": 5
     }
+  },
+  "prog-foundations-program": {
+    "id": "prog-foundations-program",
+    "subject": "Programming",
+    "title": "What a Program Is",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "A program is a list of exact instructions a machine follows in order - no common sense, no guessing. Learn to think in steps precise enough for a literal-minded machine.",
+    "objectives": [
+      "Explain a program as ordered, exact instructions",
+      "See that a computer follows literally, never what you meant",
+      "Break a task into steps small enough to be unambiguous",
+      "Read an algorithm as a recipe with inputs, steps and output",
+      "Spot the four ways beginner instructions go wrong"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Instructions in order",
+        "caption": "A program is a recipe for a cook with no common sense: every step exact, in order, nothing assumed. The skill is not typing - it is specifying.",
+        "labels": [
+          "Input: what the program starts with",
+          "Steps: exact actions, one after another",
+          "Decisions: forks where the next step depends on a condition",
+          "Output: what you get at the end",
+          "The machine does what you wrote, never what you meant"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A recipe for a literal cook",
+        "content": "Imagine writing a cake recipe for a cook who has never seen a kitchen: crack two eggs means nothing unless you say into what, and mix is meaningless without how long and with what. That cook is a computer. A program is exactly this kind of recipe - a list of steps so precise that a machine with zero common sense can follow it and produce the same result every time. Programming is therefore not about machines at all; it is the discipline of saying exactly what you mean."
+      },
+      {
+        "title": "Order is everything",
+        "content": "Put your socks on after your shoes and you will understand computers forever. Instructions run top to bottom, each one changing the state the next one sees; swap two lines and you have a different program, often a broken one. Beginners read code like prose, skimming for gist; programmers read it like a machine, tracking what is true after each line. That habit - walking the state step by step - is the single most transferable skill in all of programming."
+      },
+      {
+        "title": "Algorithms: recipes with a name",
+        "content": "When a recipe solves a general problem - sort these names, find the biggest number, get from A to B - we give it a name: an algorithm. Every algorithm has inputs (what it starts with), steps (the exact procedure) and output (the answer). Naming them lets you reuse and compare solutions: this sort is faster on long lists, that search needs the data ordered first. You already use algorithms daily (a morning routine, a driving route); programming is writing them down precisely enough that a machine can run them for you."
+      }
+    ],
+    "principles": [
+      "A program is exact, ordered instructions for a literal-minded machine.",
+      "The computer does what you wrote, never what you meant.",
+      "Order changes meaning: track the state after each step.",
+      "An algorithm is a named recipe: inputs, steps, output."
+    ],
+    "mistakes": [
+      {
+        "title": "Writing what you meant, not what you said",
+        "explanation": "Ambiguous steps fail silently or loudly. Specify each step until a stranger could not misread it."
+      },
+      {
+        "title": "Skipping the order",
+        "explanation": "Swapped lines are a different program. Read top to bottom, tracking state, every time."
+      },
+      {
+        "title": "Assuming shared common sense",
+        "explanation": "The machine knows nothing you did not write. Every assumption must become an instruction."
+      },
+      {
+        "title": "Treating bugs as the machine being stupid",
+        "explanation": "A bug is your instruction being followed perfectly. Read what you wrote, not what you intended."
+      }
+    ],
+    "practice": [
+      "Write a recipe for making tea as if for an alien; read it back and find three ambiguities.",
+      "Swap two steps in your recipe and note how the result breaks differently.",
+      "Describe brushing your teeth as inputs, steps, output in plain sentences.",
+      "Take a daily routine and name it as an algorithm with its inputs and output.",
+      "Read any short program line by line, saying aloud what is true after each line."
+    ],
+    "reflection": "In your last explanation of a task, which steps relied on common sense the listener had to supply - and would a machine have failed there?",
+    "safety": "No physical risk; keep sessions short and stretch, since the strain here is mental fatigue, not joints.",
+    "quiz": [
+      {
+        "question": "A computer follows:",
+        "options": [
+          "What you meant",
+          "Exactly what you wrote, in order",
+          "The most sensible interpretation",
+          "Only the first line"
+        ],
+        "answer": 1,
+        "explanation": "Machines have no common sense; every assumption must be an explicit instruction, and order changes meaning."
+      },
+      {
+        "question": "An algorithm is best described as:",
+        "options": [
+          "A programming language",
+          "A named recipe with inputs, steps and output",
+          "A type of computer",
+          "A bug-free program"
+        ],
+        "answer": 1,
+        "explanation": "Naming a general solution lets you reuse and compare it; the recipe shape (inputs, steps, output) is what makes it an algorithm."
+      }
+    ],
+    "mastery": [
+      "Explain a program as exact ordered instructions.",
+      "Find the ambiguity in a human-written recipe.",
+      "Track state line by line through a short program.",
+      "Name a daily routine as an algorithm with inputs and output."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your instructions to a colleague produced the wrong result.",
+          "action": "You rewrite them as exact ordered steps with no assumed knowledge, like code.",
+          "why": "Ambiguity is the root of most misexecution; specifying removes the guesswork on both sides."
+        },
+        {
+          "setup": "A script does something surprising.",
+          "action": "You read what you wrote line by line instead of what you intended, and find the literal step that caused it.",
+          "why": "Bugs are perfect execution of imperfect instructions; the fix is in the text, not the machine."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Thinking in exact steps makes you able to automate anything you can specify, and to delegate without surprises."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A precise specifier is hard to misinterpret; their instructions run the same way every time."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Assumed knowledge creeping in",
+          "Order swapped",
+          "Vague verbs like handle or process"
+        ],
+        "adjustments": [
+          {
+            "if": "A step is vague",
+            "then": "Replace the verb with the concrete action and its object."
+          },
+          {
+            "if": "Result differs from intent",
+            "then": "Walk the state line by line until the divergence appears."
+          }
+        ],
+        "learning": "After each exercise, note which assumption you had to make explicit and which line order mattered most."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Spec Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-foundations-variables": {
+    "id": "prog-foundations-variables",
+    "subject": "Programming",
+    "title": "Variables & Types",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Variables are labeled boxes that hold values; types say what kind of value a box can hold. Learn to name, store and read values - and the classic trap of = versus ==.",
+    "objectives": [
+      "See a variable as a labeled box holding a value",
+      "Choose names that say what the box contains",
+      "Know the basic types: number, text, true/false",
+      "Distinguish assignment (=) from comparison (==)",
+      "Spot the four variable errors beginners make"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Boxes with labels and types",
+        "caption": "A variable is a box with a name on it; the type says what may go inside. Assignment puts a value in the box; comparison asks whether two boxes match. Mixing those two up is the oldest bug in programming.",
+        "labels": [
+          "Variable: a labeled box that holds one value at a time",
+          "Name: say what it holds - score, not x",
+          "Type: number, text, or true/false decides what you can do with it",
+          "Assignment (=): put this value in the box",
+          "Comparison (==): ask whether two values match"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Boxes, not algebra",
+        "content": "School taught you x as an unknown to solve for; programming uses names as boxes you put things in. score = 10 does not state an eternal truth - it drops the value 10 into a box labeled score, and later score = score + 1 replaces whatever was inside. That reading (take what is in the box, add one, put it back) is the mental move every assignment performs, and until it feels physical, loops and counters stay mysterious. The box can be emptied and refilled any number of times; it holds exactly one value at a moment."
+      },
+      {
+        "title": "Names are documentation",
+        "content": "A variable named x tells you nothing; named daysSinceLastPractice it tells you the program is. Names are the cheapest documentation you will ever write, because they are read hundreds of times and written once. Good names say what the box holds and why it exists; they make bugs visible, because a line that puts text into a box named totalPrice looks wrong at a glance. Choosing names slowly is not a delay - it is design."
+      },
+      {
+        "title": "Types and the equals trap",
+        "content": "Every value has a type - a number you can add, text you can join, a true/false you can branch on - and the type decides which operations make sense. Adding 2 to hello is not a hard problem, it is a meaningless one, and the machine will refuse or surprise you. The classic beginner trap sits one key away: = puts a value in a box, == asks whether two values match. Writing if score = 10 silently assigns instead of asking, and the bug hides inside a condition. Say them out loud as gets and equals-equals until the difference is reflex."
+      }
+    ],
+    "principles": [
+      "A variable is a labeled box holding one value at a time.",
+      "Names are documentation: say what the box holds.",
+      "Types (number, text, true/false) decide which operations make sense.",
+      "= assigns, == compares; mixing them hides bugs inside conditions."
+    ],
+    "mistakes": [
+      {
+        "title": "Naming boxes x, temp, data",
+        "explanation": "Meaningless names hide bugs and slow every later read. Name for content and purpose."
+      },
+      {
+        "title": "Reading = as equality",
+        "explanation": "Assignment stores; comparison asks. Say gets versus equals-equals until reflexive."
+      },
+      {
+        "title": "Ignoring types",
+        "explanation": "Operations follow types; adding text to a number is meaningless, not merely wrong. Know what is in the box."
+      },
+      {
+        "title": "Assuming a box keeps old values",
+        "explanation": "Assignment replaces the content entirely; the previous value is gone unless you stored it elsewhere."
+      }
+    ],
+    "practice": [
+      "Write five variable names for a practice tracker and say aloud what each box holds.",
+      "For each, state its type and one operation that type allows.",
+      "Write three assignments and read them as take, change, put back.",
+      "Write three comparisons with == and say the question each one asks.",
+      "Hunt one place in your own notes or code where = and == could be confused."
+    ],
+    "reflection": "Could a stranger read your variable names and know what each box holds, or would they need your comments to guess?",
+    "safety": "No physical risk; the hazard here is silent logic errors, so read conditions aloud while learning.",
+    "quiz": [
+      {
+        "question": "score = score + 1 means:",
+        "options": [
+          "score equals itself plus one forever",
+          "Take the value in score, add one, put it back in the box",
+          "A comparison that is always true",
+          "An error in every language"
+        ],
+        "answer": 1,
+        "explanation": "Assignment reads the current content, computes, and replaces it - the physical box move behind every counter."
+      },
+      {
+        "question": "The difference between = and == is:",
+        "options": [
+          "None, style only",
+          "= assigns a value, == compares two values",
+          "== assigns, = compares",
+          "= is for numbers, == for text"
+        ],
+        "answer": 1,
+        "explanation": "Mixing them hides bugs inside conditions; saying gets versus equals-equals makes the distinction reflexive."
+      }
+    ],
+    "mastery": [
+      "Explain assignment as the box move: take, change, put back.",
+      "Name variables so a stranger understands them.",
+      "State a type and its allowed operations for any value.",
+      "Use = and == correctly inside conditions."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A counter in your sheet or script shows a wrong total.",
+          "action": "You check whether a line assigned where it should have compared, and read each box name for meaning.",
+          "why": "The equals trap and meaningless names are the two most common sources of silent wrong totals."
+        },
+        {
+          "setup": "You cannot understand your own old notes or code.",
+          "action": "You rename the boxes to say what they hold, and the logic becomes readable without comments.",
+          "why": "Names are read hundreds of times; fixing them pays back every future read."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clear boxes and types make every later structure - loops, functions, data - obvious instead of magical."
+        },
+        {
+          "role": "Facing it",
+          "detail": "Well-named state is hard to misuse; the code argues for its own correctness."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Single-letter names",
+          "= inside a condition",
+          "Type-mixed operations"
+        ],
+        "adjustments": [
+          {
+            "if": "A name is vague",
+            "then": "Rename to content-plus-purpose before moving on."
+          },
+          {
+            "if": "A condition confuses you",
+            "then": "Read it aloud as a question; if it sounds like a statement, it is an assignment bug."
+          }
+        ],
+        "learning": "After each exercise, note one name you improved and one place = and == nearly swapped."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Box Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-foundations-logic": {
+    "id": "prog-foundations-logic",
+    "subject": "Programming",
+    "title": "Decisions & Loops",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Two structures give programs their power: the fork (if/else) that chooses a path, and the loop that repeats until a condition ends it. Learn both, plus the two classic loop bugs.",
+    "objectives": [
+      "Read an if/else as a fork chosen by a true/false condition",
+      "Use loops to repeat without copying lines",
+      "End loops on a condition, not on hope",
+      "Recognize the off-by-one and the infinite loop",
+      "Spot the four logic errors beginners make"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Forks and loops",
+        "caption": "Every program is a path through forks and around loops. A fork asks a true/false question and takes one branch; a loop repeats its body while a condition holds. Both bugs live at the edges: one step too few or too many, and a condition that never ends.",
+        "labels": [
+          "If/else: a fork - the condition picks exactly one branch",
+          "Condition: a true/false question built from comparisons",
+          "Loop: repeat the body while the condition holds",
+          "Off-by-one: the fencepost error at the edges",
+          "Infinite loop: a condition that never becomes false"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The fork",
+        "content": "A program that only runs straight down can not react to anything. The if/else structure is a fork in the path: ask a true/false question - is the score above ten, is the box empty, is the user logged in - and take exactly one branch. Everything smart a program does is built from forks, often nested or chained, so reading code means asking at each fork: what question is being asked, and what happens on each answer? Write the question in plain words beside the code and the logic stops being symbols."
+      },
+      {
+        "title": "The loop",
+        "content": "Copying a line fifty times is not a program, it is a typo farm. A loop says: do this body again while a condition holds - count to ten, process every item, retry until it succeeds. The power is that the body is written once and run as many times as the data demands. The discipline is that the loop must move toward its end: something inside the body has to change, or the condition never flips and the loop runs forever. A loop is a promise that the work will finish; keep the promise."
+      },
+      {
+        "title": "The two edge bugs",
+        "content": "Nearly every loop bug lives at an edge. The off-by-one (fencepost) error: a fence with ten posts has nine gaps, so counting posts versus gaps differs by one - loops that run one time too few or too many come from mixing those up. The infinite loop: the condition never becomes false because nothing in the body changes it, and the program spins until something kills it. Both are prevented by the same habit - before running, say aloud how many times this should repeat and what changes each time to bring it to an end."
+      }
+    ],
+    "principles": [
+      "If/else is a fork: one true/false question, exactly one branch taken.",
+      "A loop repeats a body while a condition holds; write the body once.",
+      "Something in the body must change, or the loop never ends.",
+      "Edges hide bugs: count posts versus gaps, and name what ends the loop."
+    ],
+    "mistakes": [
+      {
+        "title": "Copying lines instead of looping",
+        "explanation": "Repetition belongs in a loop; copied lines drift apart and multiply edits. Loop it."
+      },
+      {
+        "title": "Loop with nothing changing",
+        "explanation": "If the body never changes the condition, the loop is infinite. Name the changing thing before running."
+      },
+      {
+        "title": "Off-by-one at the edges",
+        "explanation": "First and last items are where counts go wrong. Check whether you count items or gaps."
+      },
+      {
+        "title": "Nesting forks without saying the question",
+        "explanation": "Deep unexplained conditions are unreadable. Write each question in plain words beside the fork."
+      }
+    ],
+    "practice": [
+      "Write three forks in plain words: question, then-branch, else-branch.",
+      "Convert a copied five-line repetition into one loop; say what changes each pass.",
+      "For each loop you write, state aloud its intended repetition count and its ending change.",
+      "Build one deliberate off-by-one and one deliberate infinite loop, then fix both.",
+      "Read a short program and mark every fork and loop with its plain-words question."
+    ],
+    "reflection": "Before running your last loop, could you say how many times it should repeat and exactly what ends it - or did you hope?",
+    "safety": "No physical risk; infinite loops cost time and battery, so test loops with small counts first.",
+    "quiz": [
+      {
+        "question": "An if/else structure takes:",
+        "options": [
+          "Both branches always",
+          "Exactly one branch, chosen by a true/false condition",
+          "Neither branch",
+          "A random branch"
+        ],
+        "answer": 1,
+        "explanation": "The fork asks one question and commits to one path; reading code means reading each question and both answers."
+      },
+      {
+        "question": "A loop becomes infinite when:",
+        "options": [
+          "The body is too long",
+          "Nothing in the body changes the ending condition",
+          "It repeats more than ten times",
+          "It uses else"
+        ],
+        "answer": 1,
+        "explanation": "The condition must be able to flip; if no statement in the body changes it, the promise that the work finishes is broken."
+      }
+    ],
+    "mastery": [
+      "Read any fork as a plain-words question with two answers.",
+      "Replace copied repetition with a loop that changes toward its end.",
+      "Predict a loop repetition count before running it.",
+      "Catch and fix off-by-one and infinite-loop bugs."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A spreadsheet formula or script repeats the same block down fifty rows.",
+          "action": "You replace the copies with one loop over the rows, changing the row index each pass.",
+          "why": "One body over data beats fifty copies; edits happen once and cannot drift."
+        },
+        {
+          "setup": "Your automation runs forever and never finishes.",
+          "action": "You name the ending condition and find that nothing in the body changes it, then add the change.",
+          "why": "An infinite loop is a broken promise; the fix is making the body move toward the end."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Forks and loops turn a static list of steps into behavior that reacts and repeats - the whole of programming power."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A logic-reader can predict what any program will do before running it, which is the difference from a typer."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Copied lines",
+          "Unexplained nested conditions",
+          "Loops that feel risky"
+        ],
+        "adjustments": [
+          {
+            "if": "A condition is unclear",
+            "then": "Write its plain-words question above it before touching anything else."
+          },
+          {
+            "if": "A loop miscounts",
+            "then": "Test with two and three items; edges reveal posts-versus-gaps errors instantly."
+          }
+        ],
+        "learning": "After each exercise, note one fork you clarified in words and one loop whose ending you can now predict."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Logic Reps",
+      "targetReps": 5
+    }
   }
 }

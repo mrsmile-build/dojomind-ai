@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react'
 import MartialArts from './MartialArts'
 import MindBody from './MindBody'
 import Music from './Music'
+import Domains from './Domains'
 import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
 const MIND_PAGES = ['meditation', 'breathing', 'training', 'music']
+const DOMAIN_PAGES = ['programming', 'medicine', 'business', 'skills']
 
 const areas = [
   { icon: '🥋', title: 'Martial Arts', path: '/martial-arts', text: 'Learn techniques, styles, fundamentals and principles.' },
@@ -13,12 +15,19 @@ const areas = [
   { icon: '🫁', title: 'Breathing',   path: '/breathing',   text: 'Explore controlled breathing and breath-awareness practices.' },
   { icon: '🏋️', title: 'Training',    path: '/training',    text: 'Build mobility, balance, flexibility and conditioning.' },
   { icon: '🎵', title: 'Music',       path: '/music',       text: 'Learn rhythm, melody, harmony and how to practice any instrument.' },
+  { icon: '💻', title: 'Programming', path: '/programming', text: 'Write instructions a machine can follow, from first principles up.' },
+  { icon: '🩺', title: 'Medicine',    path: '/medicine',    text: 'Understand the body, read symptoms honestly, know the referral ceiling.' },
+  { icon: '💼', title: 'Business',    path: '/business',    text: 'Create value, reach customers and read the numbers that matter.' },
+  { icon: '🎯', title: 'Skills',      path: '/skills',      text: 'Focus, memory, habits and learning-how-to-learn: the meta-skills.' },
 ]
 
 function parseHash() {
   const raw = window.location.hash.replace(/^#\/?/, '')
   const parts = raw.split('/').filter(Boolean)
   if (parts.length === 0) return { page: 'home' }
+  if (DOMAIN_PAGES.includes(parts[0])) {
+    return { page: parts[0], subId: parts[1] || null, levelId: parts[2] || null, lessonId: parts[3] || null }
+  }
   if (parts[0] === 'music') {
     return { page: 'music', instrumentId: parts[1] || null, levelId: parts[2] || null, lessonId: parts[3] || null }
   }
@@ -51,6 +60,10 @@ function AppContent() {
   const [question, setQuestion] = useState('')
   const [messages, setMessages] = useState([])
   const { completedLessons } = useProgress()
+
+  if (DOMAIN_PAGES.includes(route.page)) {
+    return <Domains route={route} navigate={navigate} domainKey={route.page} />
+  }
 
   if (route.page === 'music') {
     return <Music route={route} navigate={navigate} />
