@@ -18759,5 +18759,465 @@ export const lessons = {
       "label": "Map Reps",
       "targetReps": 10
     }
+  },
+  "piano-foundations-posture": {
+    "id": "piano-foundations-posture",
+    "subject": "Music",
+    "title": "Sitting & Hand Shape",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Set the bench, the distance and the hand shape before a single note: elbows level, a forearm of space, curved fingers and floating wrists - the posture everything else is built on.",
+    "objectives": [
+      "Set bench height so elbows sit level with the keys",
+      "Sit a forearm-length from the fallboard, centered on middle C",
+      "Curve the fingers as if holding a small ball",
+      "Keep wrists level and floating, not sunk or raised",
+      "Spot the four posture errors that cause tension"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Bench, hands and wrists",
+        "caption": "Posture is not decoration: bench height, distance and hand shape decide whether your arms can move freely or fight themselves. Set these once and every later lesson gets easier.",
+        "labels": [
+          "Bench height: elbows level with the keys",
+          "Distance: about a forearm from the fallboard",
+          "Hand shape: curved, like holding a small ball",
+          "Wrists: level and floating, not sunk or raised",
+          "Shoulders: down and loose, never climbed"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The bench sets everything",
+        "content": "Most piano tension starts at the bench. Too low and the wrists sink below key level, forcing the forearm to lift every note; too high and the wrists ride above the keys, pressing down with weight instead of finger action. The target is simple: sit so your elbows are level with the key surface and slightly in front of your torso. Distance matters as much as height - about a forearm of space between you and the fallboard lets the arms hang free and the fingers fall onto the keys rather than reach for them."
+      },
+      {
+        "title": "The ball in your hand",
+        "content": "The classic image is exact: rest your hand on your knee and imagine holding a small ball, then carry that shape to the keys. Fingers curve, fingertips contact the keys, the thumb tips in from the side. A flat, sprawled hand has to push each key with the whole arm; a curved hand lets each finger act like a small independent hammer. The curve is not a pose to freeze - it is the resting shape the hand returns to between notes, so speed and evenness come from structure instead of effort."
+      },
+      {
+        "title": "Wrists float, shoulders drop",
+        "content": "The wrist is the hinge that lets the hand travel across the keyboard, and it works only when it floats level with the back of the hand - not dropped below (which locks the forearm) nor raised high (which turns playing into pressing). Meanwhile the shoulders do the opposite of what beginners expect: they stay down and loose. Climbed shoulders travel tension into the neck and make everything slower and heavier. Check both constantly: wrists level, shoulders dropped, and breathe - held breath is tension you can hear in the playing."
+      }
+    ],
+    "principles": [
+      "Elbows level with the keys; a forearm of space from the fallboard.",
+      "Fingers curved as if holding a small ball; fingertips contact the keys.",
+      "Wrists level and floating - the hinge that lets the hand travel.",
+      "Shoulders down and loose; held breath is audible tension."
+    ],
+    "mistakes": [
+      {
+        "title": "Bench too low or too high",
+        "explanation": "Low sinks the wrists and lifts the forearm; high presses with weight. Set elbows level with the keys."
+      },
+      {
+        "title": "Flat, sprawled hands",
+        "explanation": "Flat fingers push with the whole arm. Curve them so each finger acts independently."
+      },
+      {
+        "title": "Dropped or raised wrists",
+        "explanation": "A sunk wrist locks the forearm; a high wrist turns playing into pressing. Keep the wrist level and floating."
+      },
+      {
+        "title": "Climbed shoulders and held breath",
+        "explanation": "Shoulder tension travels to the neck and slows everything. Drop them and keep breathing."
+      }
+    ],
+    "practice": [
+      "Set the bench: sit and check elbows are level with the keys, adjust until true.",
+      "Check distance: place a forearm between you and the fallboard; centered on middle C.",
+      "Rest hands on knees in the ball shape, then carry it to the keys without flattening.",
+      "Play five notes slowly, watching wrists stay level and shoulders stay down.",
+      "Sit in posture for two minutes breathing easy; reset whenever tension appears."
+    ],
+    "reflection": "At the keys right now, are your wrists level and your shoulders down, or has one of them crept out of place?",
+    "safety": "Keep sessions short at first and stop on wrist, forearm or neck tension; posture faults cause strain long before they cause errors.",
+    "quiz": [
+      {
+        "question": "Correct bench height puts the elbows:",
+        "options": [
+          "Well below the keys",
+          "Level with the keys",
+          "Well above the keys",
+          "Wherever is comfortable"
+        ],
+        "answer": 1,
+        "explanation": "Elbows level with the key surface lets the arms hang free and the fingers fall onto keys instead of reaching or pressing."
+      },
+      {
+        "question": "The curved hand shape exists to:",
+        "options": [
+          "Look professional",
+          "Let each finger act independently like a small hammer",
+          "Stretch the fingers wider",
+          "Rest the palm on the keys"
+        ],
+        "answer": 1,
+        "explanation": "A curved hand gives each finger its own action; a flat hand must push every key with the whole arm."
+      }
+    ],
+    "mastery": [
+      "Set bench height and distance correctly without measuring twice.",
+      "Hold the ball-shaped hand while playing five notes.",
+      "Keep wrists level and floating through a short passage.",
+      "Keep shoulders down and breathing easy while playing."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your forearm aches after a few minutes.",
+          "action": "You raise the bench until elbows are level and re-check the wrist line.",
+          "why": "A low bench forces the forearm to lift every note; level elbows remove the load."
+        },
+        {
+          "setup": "Notes sound uneven and heavy.",
+          "action": "You re-curve the hand to the ball shape and let fingertips, not palms, do the work.",
+          "why": "Curved fingers give independent, even action; flat hands push with arm weight."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Good posture makes every later technique cheaper - speed and evenness come from structure, not effort."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A well-postured player stays relaxed through long pieces while a tense one fades and strains."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Wrists sinking",
+          "Shoulders climbing",
+          "Flat fingers"
+        ],
+        "adjustments": [
+          {
+            "if": "Wrists sink",
+            "then": "Raise the bench a notch and re-level the elbow line."
+          },
+          {
+            "if": "Shoulders climb",
+            "then": "Stop, drop them, exhale fully, then resume at half speed."
+          }
+        ],
+        "learning": "After each session, note which posture element drifted first and what cue brought it back."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Posture Set",
+      "initialTime": 120
+    }
+  },
+  "piano-foundations-keys": {
+    "id": "piano-foundations-keys",
+    "subject": "Music",
+    "title": "Finding Your Notes",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Read the keyboard as a repeating map: black keys in groups of two and three, C just left of every two-group, middle C as home - so any note is findable by shape, not by counting.",
+    "objectives": [
+      "See the keyboard as repeating groups of two and three black keys",
+      "Find every C as the white key just left of a two-black group",
+      "Locate middle C as home base",
+      "Name the white-key alphabet A to G and hear it repeat",
+      "Understand black keys as the in-between notes"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The keyboard map",
+        "caption": "The keyboard is not 88 random keys; it is one pattern repeating. Learn the pattern once - groups of two and three black keys - and every note becomes findable by shape anywhere on the board.",
+        "labels": [
+          "Black keys come in groups of 2 and 3, repeating",
+          "C is the white key just left of every 2-black group",
+          "Middle C is the C nearest the center - your home",
+          "White keys run A B C D E F G then repeat at the octave",
+          "Black keys are the in-between notes (sharps and flats)"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Groups of two and three",
+        "content": "Look at the black keys and the keyboard organizes itself: they appear in alternating groups of two and three, over and over, all the way up and down. That pattern is the map. Once your eye reads groups instead of individual keys, you stop counting from the end and start navigating by landmarks - the same way you find a street by its corner shop rather than by house number. Every other note name hangs off these two shapes."
+      },
+      {
+        "title": "C is home",
+        "content": "The white key immediately left of any two-black group is C. Find the two-groups and you have found every C on the piano at once; the one nearest the middle of the board is middle C, the reference point almost all beginner music is written around. From C the white keys run D, E, F, G, A, B and then C again an octave higher - the same alphabet loop you met in the note-map lesson, now laid out in physical space under your fingers."
+      },
+      {
+        "title": "The in-between notes",
+        "content": "The black keys are not decorations; they are the notes that sit between certain white keys - the sharps and flats, one semitone from their neighbours. A black key between C and D can be called C sharp (C raised) or D flat (D lowered), two names for one sound depending on which way you approached it. You do not need them yet, but knowing they exist and what they mean keeps the map honest: white keys are the letters, black keys are the accents between them."
+      }
+    ],
+    "principles": [
+      "Black keys group in twos and threes - the pattern is the map.",
+      "C sits just left of every two-black group; middle C is home.",
+      "White keys run A to G and repeat at the octave.",
+      "Black keys are the in-between semitones: sharps and flats."
+    ],
+    "mistakes": [
+      {
+        "title": "Counting keys from the end",
+        "explanation": "Counting is slow and breaks when you look away. Navigate by the two-and-three group landmarks instead."
+      },
+      {
+        "title": "Treating every C as different",
+        "explanation": "All Cs are the same landmark shape; recognizing the pattern finds them all at once."
+      },
+      {
+        "title": "Ignoring middle C as reference",
+        "explanation": "Most beginner music orients from middle C; losing it means losing your place on the staff and the board."
+      },
+      {
+        "title": "Thinking black keys are optional extras",
+        "explanation": "They are real notes (sharps and flats); knowing their role now prevents confusion in every later key."
+      }
+    ],
+    "practice": [
+      "Point to every two-black group on the keyboard without playing, left to right.",
+      "Play every C on the piano by finding the key left of each two-group.",
+      "Find middle C three times from random starting points, eyes closed if possible.",
+      "Name the white keys upward from middle C: C D E F G A B C, playing each.",
+      "Point to the black key between C and D and say both of its names."
+    ],
+    "reflection": "Can you find any C on the keyboard in under two seconds by shape, or are you still counting from the edge?",
+    "safety": "No physical risk here; keep the posture from the previous lesson while exploring the map.",
+    "quiz": [
+      {
+        "question": "Every C on the keyboard is found:",
+        "options": [
+          "By counting from the left end",
+          "As the white key just left of a two-black group",
+          "As the key between two black groups of three",
+          "Only at middle C"
+        ],
+        "answer": 1,
+        "explanation": "The two-black-group landmark repeats everywhere, so one shape finds every C without counting."
+      },
+      {
+        "question": "Black keys represent:",
+        "options": [
+          "Decorative keys with no sound",
+          "The in-between semitones, called sharps or flats",
+          "Broken white keys",
+          "Higher octaves only"
+        ],
+        "answer": 1,
+        "explanation": "Each black key is a semitone between neighbouring white keys, named sharp or flat by direction of approach."
+      }
+    ],
+    "mastery": [
+      "Read the keyboard as repeating two-and-three black-key groups.",
+      "Find every C by shape in seconds.",
+      "Locate middle C reliably as home base.",
+      "Name both names of a black key and explain why it has two."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A song starts on a note you cannot find.",
+          "action": "You locate the nearest two-black group, take the C left of it, and count the alphabet from there.",
+          "why": "Landmarks beat counting: the group gives you C, and the alphabet gives you everything from C."
+        },
+        {
+          "setup": "Sheet music says middle C and you freeze.",
+          "action": "You go straight to the C nearest the center of the board and orient both hands from it.",
+          "why": "Middle C is the shared reference between the page and the keyboard."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A readable keyboard means notes are found by shape, so learning new pieces starts fast."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who navigates by landmarks never loses their place mid-piece."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Counting from the edge",
+          "Losing middle C",
+          "Confusing sharps and flats"
+        ],
+        "adjustments": [
+          {
+            "if": "You count keys",
+            "then": "Stop and point to the two-groups first; rebuild the landmark habit."
+          },
+          {
+            "if": "Sharps confuse you",
+            "then": "Say both names aloud each time until the two-name idea is normal."
+          }
+        ],
+        "learning": "After each session, time yourself finding three random Cs and note whether it was shape or counting."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Map Reps",
+      "targetReps": 10
+    }
+  },
+  "piano-foundations-scale": {
+    "id": "piano-foundations-scale",
+    "subject": "Music",
+    "title": "Your First Scale",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Play C major with the whole-whole-half step pattern and the thumb-under fingering, hands separate first - the first pattern your fingers will own, and the template for every other key.",
+    "objectives": [
+      "Play C major using the whole-whole-half step pattern",
+      "Use fingering 1-2-3 then thumb-under to finish the octave",
+      "Play hands separate and even before combining them",
+      "Keep a steady pulse through the whole scale",
+      "Spot the four scale errors that wreck evenness"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "C major: the step pattern",
+        "caption": "A scale is a path of steps, not eight random notes. C major is whole-whole-half then whole-whole-whole-half - and the thumb tuck is what lets five fingers cover eight notes without the hand jumping.",
+        "labels": [
+          "C to D: whole step",
+          "D to E: whole step",
+          "E to F: half step",
+          "F G A B: whole steps",
+          "B to C: half step",
+          "Fingering: 1 2 3, thumb under, 1 2 3 4 5"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The path, not the notes",
+        "content": "C major uses only white keys, but what makes it a scale is the pattern of steps between them: whole, whole, half, whole, whole, whole, half. Play that pattern from any starting note and you have that note is major scale - the shape transfers, which is why learning one scale properly teaches you twelve. Feel the half steps (E to F, and B to C) as the closer pair; they are the landmarks inside the path, the same half-step idea you met on the note map now under your fingers."
+      },
+      {
+        "title": "The thumb tuck",
+        "content": "Five fingers cannot reach eight notes, so the hand has a trick: after finger 3, the thumb passes *under* the palm to land on the next key, and the hand resets without jumping. This thumb-under move is the single most important mechanical idea in piano technique - it appears in every scale, arpeggio and running passage you will ever play. Learn it slowly and cleanly now, keeping the wrist level while the thumb travels, and every future fast passage inherits a smooth hand instead of a hopping one."
+      },
+      {
+        "title": "Separate, even, then together",
+        "content": "The order matters more than the speed: right hand alone until even, left hand alone until even, then - and only then - hands together, slowly. Evenness means every note the same length and the same volume, on a steady pulse you could tap along to. Rushing to hands-together or to speed bakes in stumbles that later cost ten times as long to undo. A slow, perfectly even scale is worth more than a fast lopsided one, every single time."
+      }
+    ],
+    "principles": [
+      "C major is the step pattern whole-whole-half-whole-whole-whole-half.",
+      "The thumb passes under after finger 3 so five fingers cover eight notes.",
+      "Hands separate and even first; together only after both are clean.",
+      "Even length and even volume on a steady pulse beat speed."
+    ],
+    "mistakes": [
+      {
+        "title": "Jumping the hand instead of tucking the thumb",
+        "explanation": "Hopping breaks evenness and trains a jerk into every future run. Pass the thumb under, wrist level."
+      },
+      {
+        "title": "Hands together too soon",
+        "explanation": "Combining two uneven hands doubles the unevenness. Get each hand even alone first."
+      },
+      {
+        "title": "Rushing the half steps",
+        "explanation": "E-F and B-C are closer and beginners sprint through them. Keep every step the same length."
+      },
+      {
+        "title": "Uneven volume (thumb thumping)",
+        "explanation": "A loud thumb accents every tuck. Aim for identical weight on every finger, thumb included."
+      }
+    ],
+    "practice": [
+      "Right hand C major, one octave, fingering 1-2-3-thumb-1-2-3-4-5, five slow even runs.",
+      "Left hand alone, mirror fingering 5-4-3-2-1-thumb-3-2-1, five slow even runs.",
+      "Tap a steady 60 pulse and play right hand to it; then left hand to it.",
+      "Hands together at half speed, three runs, stopping at any stumble to reset.",
+      "Finish with one run eyes closed, listening for even length and even volume."
+    ],
+    "reflection": "In your last run, were all eight notes the same length and volume, or did the thumb tuck and the half steps stick out?",
+    "safety": "Keep wrists level and sessions short; stop at the first sign of forearm tension and return slower.",
+    "quiz": [
+      {
+        "question": "The thumb-under move exists to:",
+        "options": [
+          "Stretch the thumb longer",
+          "Let five fingers cover eight notes without the hand jumping",
+          "Play two notes at once",
+          "Rest the other fingers"
+        ],
+        "answer": 1,
+        "explanation": "Passing the thumb under the palm resets the hand position smoothly; hopping instead trains a jerk into every future run."
+      },
+      {
+        "question": "The correct order for learning a scale is:",
+        "options": [
+          "Hands together fast, then slow",
+          "Right hand even, left hand even, then together slowly",
+          "Left hand only forever",
+          "Both hands at full speed"
+        ],
+        "answer": 1,
+        "explanation": "Evenness must exist in each hand before combining; together-too-soon doubles every unevenness."
+      }
+    ],
+    "mastery": [
+      "Play C major with the correct step pattern and fingering.",
+      "Execute a clean thumb-under with a level wrist.",
+      "Play each hand even in length and volume on a pulse.",
+      "Combine hands only after both are clean, without stumbles."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your scale stumbles at the same spot every time.",
+          "action": "You isolate the two notes around the thumb tuck and loop them ten times slowly.",
+          "why": "The loop fixes the break; repeating the whole scale only rehearses the stumble."
+        },
+        {
+          "setup": "A new song is in G major and you panic.",
+          "action": "You start on G and walk the same whole-whole-half pattern you own from C.",
+          "why": "The step pattern transfers to every key; the scale shape is the skill, not the white keys."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "One clean scale teaches the thumb tuck and step pattern that every key and every fast passage reuses."
+        },
+        {
+          "role": "Facing it",
+          "detail": "Even scales at slow tempo signal a hand that will stay even when the music gets fast."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Thumb thumping",
+          "Rushing half steps",
+          "Hopping hand"
+        ],
+        "adjustments": [
+          {
+            "if": "The thumb thumps",
+            "then": "Play the tuck notes at half volume until the thumb matches the fingers."
+          },
+          {
+            "if": "The hand hops",
+            "then": "Slow to a crawl and watch the wrist stay level through the tuck."
+          }
+        ],
+        "learning": "After each session, note whether the tuck and the half steps were even, and which hand needs the next loop."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Scale Runs",
+      "targetReps": 5
+    }
   }
 }

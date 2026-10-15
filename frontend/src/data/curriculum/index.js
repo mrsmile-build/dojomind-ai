@@ -609,7 +609,32 @@ export default {
       "name": "Piano",
       "icon": "🎹",
       "description": "Keyboard fundamentals, hand position and reading music.",
-      "levels": {}
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Sit correctly, find your notes, play your first scale.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Piano Foundations",
+              "lessons": [
+                {
+                  "id": "piano-foundations-posture",
+                  "title": "Sitting & Hand Shape"
+                },
+                {
+                  "id": "piano-foundations-keys",
+                  "title": "Finding Your Notes"
+                },
+                {
+                  "id": "piano-foundations-scale",
+                  "title": "Your First Scale"
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     "guitar": {
       "name": "Guitar",
