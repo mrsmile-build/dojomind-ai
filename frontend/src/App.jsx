@@ -4,13 +4,14 @@ import MindBody from './MindBody'
 import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
-const MIND_PAGES = ['meditation', 'breathing', 'training']
+const MIND_PAGES = ['meditation', 'breathing', 'training', 'music']
 
 const areas = [
   { icon: '🥋', title: 'Martial Arts', path: '/martial-arts', text: 'Learn techniques, styles, fundamentals and principles.' },
   { icon: '🧘', title: 'Meditation',  path: '/meditation',  text: 'Train attention, calm, awareness and mental discipline.' },
   { icon: '🫁', title: 'Breathing',   path: '/breathing',   text: 'Explore controlled breathing and breath-awareness practices.' },
   { icon: '🏋️', title: 'Training',    path: '/training',    text: 'Build mobility, balance, flexibility and conditioning.' },
+  { icon: '🎵', title: 'Music',       path: '/music',       text: 'Learn rhythm, melody, harmony and how to practice any instrument.' },
 ]
 
 function parseHash() {

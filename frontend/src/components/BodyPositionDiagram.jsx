@@ -71,6 +71,51 @@ function BodyPositionDiagram({ position }) {
   const wantLabel = (n) => Array.isArray(position.jointLabels) && position.jointLabels.indexOf(n) >= 0
   const pretty = (n) => n.replace(/([A-Z])/g, " $1").toUpperCase()
   const gaze = position.gaze ? limb({ x: 380, y: 105 }, position.gaze.angle, 54, 0) : null
+  const fv = position.frontView || null
+  let fj = []
+  let fparts = null
+  if (fv) {
+    var SW = 58, HW = 30, SY = 172, HY = 330, CX = 380, HH = 105
+    var uA = fv.upperArm || 70, fA = fv.forearm || 70, uL = fv.upperLeg || 95, fL = fv.forearmLeg || 95
+    var fLimb = function (o, a, len) { return { x: o.x + Math.sin(toRad(a)) * len, y: o.y + Math.cos(toRad(a)) * len } }
+    var ls = { x: CX + SW, y: SY }
+    var rs = { x: CX - SW, y: SY }
+    var lh = { x: CX + HW, y: HY }
+    var rh = { x: CX - HW, y: HY }
+    var la = fv.leftArm || {}
+    var rb = fv.rightArm || {}
+    var ll = fv.leftLeg || {}
+    var rc = fv.rightLeg || {}
+    var lArm = { s: ls, e: fLimb(ls, la.shoulder || 0, uA) }
+    lArm.h = fLimb(lArm.e, la.elbow || 0, fA)
+    var rArm = { s: rs, e: fLimb(rs, rb.shoulder || 0, uA) }
+    rArm.h = fLimb(rArm.e, rb.elbow || 0, fA)
+    var lLeg = { s: lh, k: fLimb(lh, ll.hip || 0, uL) }
+    lLeg.a = fLimb(lLeg.k, ll.knee || 0, fL)
+    var rLeg = { s: rh, k: fLimb(rh, rc.hip || 0, uL) }
+    rLeg.a = fLimb(rLeg.k, rc.knee || 0, fL)
+    var hd = { x: CX, y: HH }
+    var fp = function (n, p, core) { if (p) fj.push({ name: n, x: p.x, y: p.y, core: !!core }) }
+    fp("head", hd, true)
+    fp("leftShoulder", ls, true)
+    fp("rightShoulder", rs, true)
+    fp("leftElbow", lArm.e, false)
+    fp("rightElbow", rArm.e, false)
+    fp("leftHand", lArm.h, false)
+    fp("rightHand", rArm.h, false)
+    fp("leftHip", lh, false)
+    fp("rightHip", rh, false)
+    fp("leftKnee", lLeg.k, false)
+    fp("rightKnee", rLeg.k, false)
+    fp("leftAnkle", lLeg.a, false)
+    fp("rightAnkle", rLeg.a, false)
+    var gz = null
+    if (fv.guardZone) {
+      gz = CX + ",138 " + lArm.h.x + "," + lArm.h.y + " " + CX + ",250 " + rArm.h.x + "," + rArm.h.y
+    }
+    fparts = { lArm: lArm, rArm: rArm, lLeg: lLeg, rLeg: rLeg, head: hd, guard: gz }
+  }
+  var fwant = function (n) { return !!fv && Array.isArray(fv.labels) && fv.labels.indexOf(n) >= 0 }
 
 
   return (
@@ -177,6 +222,27 @@ function BodyPositionDiagram({ position }) {
           </div>
         ))}
       </div>
+
+      {fv && (
+        <div className="body-diagram-stage improved-diagram">
+          <svg className="instruction-svg" viewBox="0 0 760 620" role="img" aria-label={position.title + " front view"}>
+            <line x1="205" y1="525" x2="555" y2="525" stroke="rgba(201,161,90,.25)" strokeWidth="2" />
+            <line x1="380" y1="65" x2="380" y2="545" stroke="rgba(201,161,90,.35)" strokeWidth="2" strokeDasharray="8 9" />
+            <g transform={"rotate(" + (fv.torsoLean || 0) + " 380 330)"}>
+              <circle cx="380" cy="105" r="28" fill="#9b9b9b" />
+              <line x1="380" y1="133" x2="380" y2="160" stroke="#c9a15a" strokeWidth="13" strokeLinecap="round" />
+              <path d="M352 160 C340 190 338 245 346 315 L380 360 L414 315 C422 245 420 190 408 160 Z" fill="#451600" stroke="#70401f" strokeWidth="3" />
+            </g>
+            {fparts.guard ? <polygon points={fparts.guard} fill="rgba(201,161,90,.14)" stroke="#c9a15a" strokeWidth="2" strokeDasharray="6 6" /> : null}
+            <polyline points={fparts.lArm.s.x + "," + fparts.lArm.s.y + " " + fparts.lArm.e.x + "," + fparts.lArm.e.y + " " + fparts.lArm.h.x + "," + fparts.lArm.h.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" fill="none" />
+            <polyline points={fparts.rArm.s.x + "," + fparts.rArm.s.y + " " + fparts.rArm.e.x + "," + fparts.rArm.e.y + " " + fparts.rArm.h.x + "," + fparts.rArm.h.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" fill="none" />
+            <polyline points={fparts.lLeg.s.x + "," + fparts.lLeg.s.y + " " + fparts.lLeg.k.x + "," + fparts.lLeg.k.y + " " + fparts.lLeg.a.x + "," + fparts.lLeg.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" />
+            <polyline points={fparts.rLeg.s.x + "," + fparts.rLeg.s.y + " " + fparts.rLeg.k.x + "," + fparts.rLeg.k.y + " " + fparts.rLeg.a.x + "," + fparts.rLeg.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" />
+            {fj.map(function (j) { return ( <g key={j.name}><circle cx={j.x} cy={j.y} r="9" fill="#c9a15a" />{fwant(j.name) ? <text x={j.x + 14} y={j.y - 10} className="svg-small-label">{pretty(j.name)}</text> : null}</g> ) })}
+            <text x="380" y="45" textAnchor="middle" className="svg-label">FRONT VIEW</text>
+          </svg>
+        </div>
+      )}
 
       {feet && (
         <div className="body-diagram-stage improved-diagram">

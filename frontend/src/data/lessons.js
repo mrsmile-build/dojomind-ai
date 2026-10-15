@@ -14373,6 +14373,35 @@ export const lessons = {
       ],
       "gaze": {
         "angle": -82
+      },
+      "frontView": {
+        "torsoLean": 0,
+        "upperArm": 64,
+        "forearm": 96,
+        "leftArm": {
+          "shoulder": -9,
+          "elbow": -163
+        },
+        "rightArm": {
+          "shoulder": 9,
+          "elbow": 159
+        },
+        "leftLeg": {
+          "hip": 5,
+          "knee": -4
+        },
+        "rightLeg": {
+          "hip": -5,
+          "knee": 4
+        },
+        "guardZone": true,
+        "labels": [
+          "head",
+          "leftHand",
+          "rightHand",
+          "leftElbow",
+          "rightElbow"
+        ]
       }
     },
     "sections": [
@@ -18269,6 +18298,466 @@ export const lessons = {
       "type": "rep-counter",
       "label": "Form Runs",
       "targetReps": 5
+    }
+  },
+  "music-foundations-rhythm": {
+    "id": "music-foundations-rhythm",
+    "subject": "Music",
+    "title": "Rhythm & Tempo - The Pulse",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Feel the steady pulse under every piece of music, name its speed (tempo in BPM), and find the downbeat - the three things every rhythm is built from.",
+    "objectives": [
+      "Tap a steady pulse that does not speed up or slow down",
+      "Name tempo as a number (BPM) and feel the difference between 60 and 120",
+      "Find the downbeat (the strong first beat) in a repeating pattern",
+      "Split one pulse into two even halves (subdivision)",
+      "Spot the four ways beginners lose the pulse"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The pulse grid",
+        "caption": "Every piece of music sits on a steady heartbeat of pulses. Tempo says how fast they fall, the downbeat is the strong one you can lean on, and subdivision cuts each pulse into even pieces. Rhythm is the pattern riding on top.",
+        "labels": [
+          "Pulse: the steady heartbeat under the notes",
+          "Tempo: how fast the pulses fall, counted in BPM",
+          "Downbeat: the strong first beat each bar starts from",
+          "Subdivision: cutting one pulse into two or four even pieces",
+          "Rhythm: the long-and-short pattern riding on the pulse"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The heartbeat first",
+        "content": "Under the melody, under the chords, under everything, music has a heartbeat: the pulse. Clap along to any song and that steady tap you land on is it. Beginners chase the notes and lose the heartbeat; every experienced player locks the heartbeat first and lets the notes ride on top of it. So the first skill in music is not a note at all - it is keeping a steady tap going while everything else moves. If your tap drifts, everything built on it drifts."
+      },
+      {
+        "title": "Tempo is a number, not a mood",
+        "content": "The speed of the pulse has a name and a number: BPM, beats per minute. 60 BPM means one pulse per second - exactly a clock ticking. 120 means two per second, twice as busy. Naming the number removes the argument about \"too fast\" or \"too slow\" and gives you something to set, watch and earn. And slow is not worse: slow is simply the speed where correct is possible. Every part you will ever play fast was first played slow enough to be right."
+      },
+      {
+        "title": "The one is home",
+        "content": "Pulses group into bars, and the first pulse of each bar lands a little stronger - that is the downbeat, the \"one\". Feeling the one is how you always know where you are in the music, the same way a doorway tells you which room you are in. Count 1-2-3-4 out loud and notice that 1 feels heavier; that heaviness is not an accident, it is the map. Lose the one and you are technically playing but navigationally lost; find it and you can come back from any mistake."
+      }
+    ],
+    "principles": [
+      "The pulse is the heartbeat; lock it before any notes.",
+      "Tempo is a number (BPM): 60 means one pulse per second.",
+      "The downbeat is home - every bar starts from the strong one.",
+      "Subdivision keeps slow tempos honest by cutting pulses evenly."
+    ],
+    "mistakes": [
+      {
+        "title": "Rushing ahead of the pulse",
+        "explanation": "Excitement speeds the tap up. Tap along to something external (a clock, a recording) until your pulse matches it."
+      },
+      {
+        "title": "Dragging behind the pulse",
+        "explanation": "Fatigue or uncertainty slows the tap. Count out loud; the voice holds the feet and hands honest."
+      },
+      {
+        "title": "Counting only in your head",
+        "explanation": "Silent counting hides drift. Say the numbers and tap them; make the pulse audible and physical."
+      },
+      {
+        "title": "Ignoring the downbeat",
+        "explanation": "Without the one you cannot tell which bar you are in. Feel the strong first beat every bar until it is obvious."
+      }
+    ],
+    "practice": [
+      "Tap along to a clock or watch second hand for 60 seconds - that is 60 BPM, your free metronome.",
+      "Tap 60 BPM with your hand while counting 1-2-3-4 out loud, five bars.",
+      "Clap only the downbeat of each bar while your foot taps every pulse, five bars.",
+      "Split each pulse into two even taps (say 1-and-2-and) for five bars.",
+      "Put on any song: find its pulse, find its one, then tap both together for a minute."
+    ],
+    "reflection": "Last time you listened or played, could you find the pulse and the one within two bars, or did you have to hunt for them?",
+    "safety": "Keep playback volume comfortable so you can still hear your own taps, and shake out any hand or shoulder tension that builds while tapping.",
+    "quiz": [
+      {
+        "question": "The pulse in music is best described as:",
+        "options": [
+          "The loudest note",
+          "The steady heartbeat under the notes",
+          "The fastest part of the song",
+          "The singer"
+        ],
+        "answer": 1,
+        "explanation": "Everything else rides on the steady pulse; it is the tap you clap along to, and the first thing to lock."
+      },
+      {
+        "question": "60 BPM means:",
+        "options": [
+          "One pulse per second",
+          "60 pulses per second",
+          "Six pulses per minute",
+          "Half a pulse per second"
+        ],
+        "answer": 0,
+        "explanation": "60 beats per minute is exactly one per second - a clock is a free 60 BPM metronome."
+      }
+    ],
+    "mastery": [
+      "Hold a steady pulse for a full minute without drifting.",
+      "Feel and name the difference between 60 and 120 BPM.",
+      "Find the downbeat in an unfamiliar song within two bars.",
+      "Subdivide a slow pulse into even halves."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Playing with others, the group drifts apart.",
+          "action": "Everyone locks to one shared pulse - tap it, hear it, follow it - instead of each private sense of speed.",
+          "why": "A group stays together on a common heartbeat, not on individual confidence."
+        },
+        {
+          "setup": "You get lost mid-song and cannot find your place.",
+          "action": "You stop chasing notes and listen for the strong one of the next bar, re-entering there.",
+          "why": "The downbeat is the doorway back in; hunting melodies while lost only digs deeper."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Solid time makes you the player others follow and the one recordings sit well on."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A steady-time player is easy to accompany; their pulse gives the whole group a floor."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Tap drifting fast",
+          "Tap drifting slow",
+          "Losing the one"
+        ],
+        "adjustments": [
+          {
+            "if": "You rush",
+            "then": "Tap along to an external clock or recording until your pulse matches it."
+          },
+          {
+            "if": "You lose the one",
+            "then": "Count out loud 1-2-3-4 and feel the heaviness of 1 each bar."
+          }
+        ],
+        "learning": "After each session, note whether your tap stayed with the reference and how fast you found the one in a new song."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Steady Pulse Hold",
+      "initialTime": 60
+    }
+  },
+  "music-foundations-practice-loop": {
+    "id": "music-foundations-practice-loop",
+    "subject": "Music",
+    "title": "The Practice Loop",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Learn the loop that turns repetition into skill: pick one tiny target, play it slow enough to be right, notice the one thing that broke, fix only that, repeat - then earn speed.",
+    "objectives": [
+      "Choose a target small enough to win in one sitting",
+      "Play slowly enough that correct is possible, not accidental",
+      "Notice and name the single error instead of restarting blindly",
+      "Repeat only the broken piece, not the whole song",
+      "Recognize the four practice traps that waste time"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The practice loop",
+        "caption": "Skill grows in a loop, not in run-throughs. One tiny target, slow enough to be right, notice the break, fix only that, repeat until easy - then raise the speed one notch and loop again.",
+        "labels": [
+          "Target: one bar, one shift, one breath - tiny on purpose",
+          "Slow: the speed where correct is possible, not lucky",
+          "Notice: name the one thing that broke, out loud",
+          "Fix: repeat only the broken piece, not the whole song",
+          "Earn: speed rises one notch only after easy repeats"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Run-throughs hide errors",
+        "content": "Playing the whole song from the top feels like practice but mostly rehearses the parts you already know and glides past the ones you do not. The error gets one visit per run-through while the easy parts get fifty. The practice loop inverts that: the broken bar gets fifty visits and the easy parts get rest. Progress is not measured in songs finished but in breaks repaired - a run-through is a test, and the loop is the studying that makes the test pass."
+      },
+      {
+        "title": "Slow is not slow, slow is accurate",
+        "content": "The loop only works at the speed where correct is possible. Play fast and the mistake repeats invisibly; play slow and you can see the exact moment it breaks - the finger that lands late, the breath that runs out, the string that buzzes. Slow is not a lesser version of the music, it is the music under a magnifier. And because the loop ends by earning one notch of speed, slow is temporary by design: accuracy first, then velocity, in that order, forever."
+      },
+      {
+        "title": "Fix the piece, not the song",
+        "content": "When something breaks, the instinct is to restart from the beginning, which punishes the good bars and barely touches the bad one. The loop says: isolate the broken piece - often two or three notes - and repeat only that until it is easy, then stitch one note before and one note after back on. Ten repetitions of the real problem beat ten run-throughs that merely visit it. This is the difference between spending time and investing it."
+      }
+    ],
+    "principles": [
+      "Practice the break, not the run-through: the error gets the repetitions.",
+      "Slow means the speed where correct is possible, not lucky.",
+      "Name the single error out loud; vague problems stay unfixed.",
+      "Speed is earned one notch at a time, only after easy repeats."
+    ],
+    "mistakes": [
+      {
+        "title": "Practicing performance instead of problems",
+        "explanation": "Run-throughs rehearse what you already know. Isolate the broken piece and give it the repetitions."
+      },
+      {
+        "title": "Speed before accuracy",
+        "explanation": "Fast repetition locks in the mistake. Drop to the speed where correct is possible, then earn notches."
+      },
+      {
+        "title": "Restarting from the top every time",
+        "explanation": "Restarting punishes good bars and barely touches the bad one. Repeat only the broken piece, then stitch it back."
+      },
+      {
+        "title": "Vague targets like get better",
+        "explanation": "A target you cannot win in one sitting never closes. Pick one bar, one shift, one breath."
+      }
+    ],
+    "practice": [
+      "Pick one two-bar target from anything you play; say the target out loud.",
+      "Find the speed where it is correct three times in a row; that is today is loop speed.",
+      "Play it five times; name the single break out loud each time it happens.",
+      "Repeat only the broken piece ten times until easy, then stitch one note each side.",
+      "Raise speed one notch and loop again; stop after three clean loops at the new notch."
+    ],
+    "reflection": "In your last session, did the broken bar get the most repetitions or the least - and could you name the single error you were fixing?",
+    "safety": "Keep sessions short with breaks; stop on hand, wrist or embouchure strain and return at loop speed, not performance speed.",
+    "quiz": [
+      {
+        "question": "In the practice loop, the broken piece should receive:",
+        "options": [
+          "One visit per run-through",
+          "The majority of repetitions, isolated",
+          "The same reps as easy parts",
+          "No reps, only thinking"
+        ],
+        "answer": 1,
+        "explanation": "Progress is breaks repaired; isolating the broken piece gives it the repetitions that actually fix it."
+      },
+      {
+        "question": "Speed in the loop is raised:",
+        "options": [
+          "Whenever it feels boring",
+          "One notch, only after easy clean repeats",
+          "As fast as possible",
+          "Never"
+        ],
+        "answer": 1,
+        "explanation": "Accuracy first, then velocity: one notch earned at a time keeps the mistake from being locked in."
+      }
+    ],
+    "mastery": [
+      "Choose a target small enough to win in one sitting.",
+      "Hold loop speed at the point where correct is possible.",
+      "Name and fix the single error instead of restarting blindly.",
+      "Earn speed notches only after clean repeats."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A bar never improves no matter how many run-throughs you do.",
+          "action": "You isolate the two notes that break, loop them ten times, then stitch the bar back together.",
+          "why": "The break needs the repetitions; the run-through only visits it once per pass."
+        },
+        {
+          "setup": "You play it perfectly slow but it falls apart at speed.",
+          "action": "You raise speed one notch at a time, looping until clean at each, instead of jumping to performance tempo.",
+          "why": "Earned notches carry the accuracy upward; jumping abandons it mid-climb."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The loop turns limited practice minutes into repaired breaks, which is what progress actually is."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A looper improves visibly week to week; their weak bars keep closing instead of recurring."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Restarting from the top",
+          "Speed creeping up",
+          "Vague targets"
+        ],
+        "adjustments": [
+          {
+            "if": "You keep restarting",
+            "then": "Mark the broken piece with a pencil and repeat only between the marks."
+          },
+          {
+            "if": "Speed creeps up",
+            "then": "Reset to loop speed and re-earn the notch after clean repeats."
+          }
+        ],
+        "learning": "After each session, note which break closed today and how many notches you earned honestly."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Loop Reps",
+      "targetReps": 10
+    }
+  },
+  "music-foundations-note-map": {
+    "id": "music-foundations-note-map",
+    "subject": "Music",
+    "title": "Notes, Scales & Intervals",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Meet the map every instrument shares: seven letter names that repeat at the octave, semitones as the smallest step, scales as chosen paths of steps, and intervals as the distances your ear can learn.",
+    "objectives": [
+      "Say the note alphabet A to G and hear that it repeats at the octave",
+      "Feel a semitone as the smallest step and a whole tone as two",
+      "See a scale as a chosen path of steps, not a random list",
+      "Hear an interval as the distance between two notes",
+      "Recognize the four map errors beginners make"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The note map",
+        "caption": "Notes are places on a repeating ladder. The letters A to G climb and then repeat at the octave; semitones are the smallest rung; a scale is the path of steps you choose; an interval is the distance between any two rungs - and distance is what the ear actually learns.",
+        "labels": [
+          "Alphabet: A B C D E F G, then it repeats",
+          "Octave: the same note name, higher",
+          "Semitone: the smallest step on most instruments",
+          "Whole tone: two semitones",
+          "Scale: a chosen path of whole and half steps",
+          "Interval: the distance between two notes - what the ear learns"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The ladder repeats",
+        "content": "Music uses seven letter names - A, B, C, D, E, F, G - and then starts over. The second A is not a different note family, it is the same note higher, and the distance from one A to the next is an octave. That repetition is why a piano looks like a pattern that keeps recurring and why a guitar string fretted at the twelfth fret sings the same name open. Learn the ladder once and you have read the whole map; every instrument is just a different staircase up the same tower."
+      },
+      {
+        "title": "Steps have sizes",
+        "content": "Between neighbouring rungs of the ladder the gaps are not all equal. The smallest step on most instruments is the semitone - one fret, one adjacent key - and two semitones make a whole tone. A scale is simply a chosen path of these steps: pick a starting note, follow a pattern of whole and half steps, and you have drawn a scale. This is why scales are not random lists to memorize but routes with a shape; once you know the shape you can start it from any note and recognize it by ear."
+      },
+      {
+        "title": "The ear learns distances",
+        "content": "Notes in isolation mean little; music happens in the gaps between them. That gap is an interval, and intervals are what the ear truly learns - the same two notes always make the same distance, on any instrument, in any key. Singing or hearing a interval as a feeling (close and tense, open and settled) is the beginning of playing by ear and of knowing why a melody moves the way it does. The map is not for reading faster; it is for hearing deeper."
+      }
+    ],
+    "principles": [
+      "Seven letters climb and repeat: the octave is the same name, higher.",
+      "The semitone is the smallest step; a whole tone is two semitones.",
+      "A scale is a chosen path of whole and half steps, not a random list.",
+      "Intervals - the distances - are what the ear actually learns."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing scales as random lists",
+        "explanation": "A scale is a step pattern from a starting note. Learn the shape and it works from any note."
+      },
+      {
+        "title": "Treating all steps as equal",
+        "explanation": "Half and whole steps differ; that difference is what gives each scale its character. Feel the sizes."
+      },
+      {
+        "title": "Ignoring the octave repeat",
+        "explanation": "The map repeats every octave; missing that makes every instrument look like new territory instead of the same ladder."
+      },
+      {
+        "title": "Learning names without sounds",
+        "explanation": "A note name with no sound attached is trivia. Pair every name with its pitch and every interval with its feeling."
+      }
+    ],
+    "practice": [
+      "Say the alphabet A to G forward and backward, then continue past G into the next octave.",
+      "On any instrument or piano app, play one semitone steps up and down one octave; feel the smallest step.",
+      "Play a whole-tone ladder (two semitones per step) and compare its feel to the semitone ladder.",
+      "Pick a starting note and walk a simple path of steps; name the path you chose as your scale.",
+      "Sing or play two notes and name the distance feeling (close, open, settled); repeat five pairs."
+    ],
+    "reflection": "Can you hear the difference between a half step and a whole step without looking, and do you know which letter comes after the one you are playing?",
+    "safety": "Keep listening volume moderate during ear practice; rest the voice or hands if singing or playing causes strain.",
+    "quiz": [
+      {
+        "question": "After G, the next note name is:",
+        "options": [
+          "H",
+          "A, an octave higher",
+          "G again, same pitch",
+          "There is no next"
+        ],
+        "answer": 1,
+        "explanation": "The alphabet repeats: the next A is the same note family an octave higher, which is why the map loops."
+      },
+      {
+        "question": "A whole tone equals:",
+        "options": [
+          "One semitone",
+          "Two semitones",
+          "Three semitones",
+          "Half a semitone"
+        ],
+        "answer": 1,
+        "explanation": "The semitone is the smallest step on most instruments; two of them make a whole tone, and scale shapes are built from these sizes."
+      }
+    ],
+    "mastery": [
+      "Say and hear the repeating note alphabet through an octave.",
+      "Distinguish semitone from whole tone by ear and by hand.",
+      "Build a scale from a chosen starting note using a step pattern.",
+      "Name intervals as distances and recognize their feeling."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A song is too high to sing or play comfortably.",
+          "action": "You move the same step pattern to a lower starting note - the same scale shape, a different floor.",
+          "why": "Scales are paths, not fixed notes; the shape transfers to any starting point."
+        },
+        {
+          "setup": "You hear a melody and want to find it by ear.",
+          "action": "You listen for the distances between notes (intervals) rather than guessing absolute names.",
+          "why": "The ear learns gaps; matching interval feelings locates the melody faster than naming pitches."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The map lets you transpose, improvise and communicate with any player in seconds."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who hears intervals anticipates where a melody goes instead of chasing it."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Steps felt equal",
+          "Names without sounds",
+          "Scales as lists"
+        ],
+        "adjustments": [
+          {
+            "if": "Half and whole steps feel the same",
+            "then": "Play them side by side slowly and say the size out loud each time."
+          },
+          {
+            "if": "Names feel abstract",
+            "then": "Attach every name to a pitch you play or sing the same moment."
+          }
+        ],
+        "learning": "After each session, note one interval you can now recognize by ear and one scale shape you can start from any note."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Map Reps",
+      "targetReps": 10
     }
   }
 }
