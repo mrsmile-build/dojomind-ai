@@ -53,6 +53,25 @@ function BodyPositionDiagram({ position }) {
   const fa = frontArmSpec ? armPoints(frontArmSpec, -30) : null
   const ra = rearArmSpec ? armPoints(rearArmSpec, 30) : null
 
+  const joints = []
+  const push = (name, p, core) => { if (p) joints.push({ name: name, x: p.x, y: p.y, core: !!core }) }
+  push("frontShoulder", fa && fa.s, false)
+  push("rearShoulder", ra && ra.s, false)
+  push("frontElbow", fa && fa.e, false)
+  push("rearElbow", ra && ra.e, false)
+  push("frontHand", fa && fa.h, false)
+  push("rearHand", ra && ra.h, false)
+  push("frontHip", fl && fl.s, false)
+  push("rearHip", rl && rl.s, false)
+  push("frontKnee", fl && fl.k, false)
+  push("rearKnee", rl && rl.k, false)
+  push("frontAnkle", fl && fl.a, false)
+  push("rearAnkle", rl && rl.a, false)
+  push("head", { x: 380, y: 105 }, true)
+  const wantLabel = (n) => Array.isArray(position.jointLabels) && position.jointLabels.indexOf(n) >= 0
+  const pretty = (n) => n.replace(/([A-Z])/g, " $1").toUpperCase()
+  const gaze = position.gaze ? limb({ x: 380, y: 105 }, position.gaze.angle, 54, 0) : null
+
 
   return (
     <section className="body-diagram">
@@ -86,6 +105,21 @@ function BodyPositionDiagram({ position }) {
               stroke="#70401f"
               strokeWidth="3"
             />
+          {joints.filter(function (j) { return j.core }).map(function (j) {
+            return (
+              <g key={j.name}>
+                <circle cx={j.x} cy={j.y} r="9" fill="#c9a15a" />
+                {wantLabel(j.name) ? <text x={j.x + 14} y={j.y - 10} className="svg-small-label">{pretty(j.name)}</text> : null}
+              </g>
+            )
+          })}
+          {gaze ? (
+            <g>
+              <line x1="380" y1="105" x2={gaze.x} y2={gaze.y} stroke="#c9a15a" strokeWidth="3" />
+              <circle cx={gaze.x} cy={gaze.y} r="6" fill="#c9a15a" />
+              {wantLabel("gaze") ? <text x={gaze.x + 10} y={gaze.y} className="svg-small-label">GAZE</text> : null}
+            </g>
+          ) : null}
           </g>
 
           {rearArmSpec ? (
@@ -105,8 +139,8 @@ function BodyPositionDiagram({ position }) {
             <line x1={shoulder.x - 30} y1={shoulder.y + 3} x2={frontHand.x} y2={frontHand.y} stroke="#202124" strokeWidth="25" strokeLinecap="round" />
           )}
 
-          {fl ? (<g><polyline points={fl.s.x+","+fl.s.y+" "+fl.k.x+","+fl.k.y+" "+fl.a.x+","+fl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /><line x1={fl.k.x} y1={fl.k.y} x2={fl.k.x} y2="525" stroke="#c9a15a" strokeWidth="2" strokeDasharray="5 7" opacity=".75" /><circle cx={fl.k.x} cy={fl.k.y} r="13" fill="#c9a15a" /><text x={fl.k.x+16} y={fl.k.y-12} className="svg-small-label">KNEE</text></g>) : (<line x1={hip.x - 20} y1={hip.y} x2={frontFoot.x} y2={frontFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
-          {rl ? (<g><polyline points={rl.s.x+","+rl.s.y+" "+rl.k.x+","+rl.k.y+" "+rl.a.x+","+rl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /><circle cx={rl.k.x} cy={rl.k.y} r="11" fill="#c9a15a" /></g>) : (<line x1={hip.x + 20} y1={hip.y} x2={rearFoot.x} y2={rearFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
+          {fl ? (<g><polyline points={fl.s.x+","+fl.s.y+" "+fl.k.x+","+fl.k.y+" "+fl.a.x+","+fl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /></g>) : (<line x1={hip.x - 20} y1={hip.y} x2={frontFoot.x} y2={frontFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
+          {rl ? (<g><polyline points={rl.s.x+","+rl.s.y+" "+rl.k.x+","+rl.k.y+" "+rl.a.x+","+rl.a.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" fill="none" /></g>) : (<line x1={hip.x + 20} y1={hip.y} x2={rearFoot.x} y2={rearFoot.y} stroke="#202124" strokeWidth="30" strokeLinecap="round" />)}
 
           <line x1={frontFoot.x} y1={frontFoot.y} x2={frontFoot.x - 88} y2={frontFoot.y + 15} stroke="#7b2800" strokeWidth="27" strokeLinecap="round" />
           <line x1={rearFoot.x} y1={rearFoot.y} x2={rearFoot.x + 70} y2={rearFoot.y + 33} stroke="#7b2800" strokeWidth="27" strokeLinecap="round" />
@@ -124,6 +158,15 @@ function BodyPositionDiagram({ position }) {
           <text x="190" y="580" className="svg-label">CONTROLLED MOVEMENT</text>
           <text x="205" y="470" className="svg-small-label">FRONT FOOT</text>
           <text x="505" y="450" className="svg-small-label">REAR FOOT</text>
+        {joints.filter(function (j) { return !j.core }).map(function (j) {
+          return (
+            <g key={j.name}>
+              {j.name === "frontKnee" && wantLabel("frontKnee") ? <line x1={j.x} y1={j.y} x2={j.x} y2="525" stroke="#c9a15a" strokeWidth="2" strokeDasharray="5 7" opacity=".75" /> : null}
+              <circle cx={j.x} cy={j.y} r="9" fill="#c9a15a" />
+              {wantLabel(j.name) ? <text x={j.x + 14} y={j.y - 10} className="svg-small-label">{pretty(j.name)}</text> : null}
+            </g>
+          )
+        })}
         </svg>
 
         {annotations.map((annotation, index) => (

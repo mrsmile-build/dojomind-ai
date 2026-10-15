@@ -14362,6 +14362,17 @@ export const lessons = {
       "rearLeg": {
         "hipAngle": 6,
         "kneeAngle": 4
+      },
+      "jointLabels": [
+        "head",
+        "gaze",
+        "frontShoulder",
+        "frontElbow",
+        "frontHand",
+        "frontKnee"
+      ],
+      "gaze": {
+        "angle": -82
       }
     },
     "sections": [
