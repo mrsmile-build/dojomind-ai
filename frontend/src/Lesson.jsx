@@ -12,6 +12,23 @@ import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
 
+const SUBJECT_DISCLAIMERS = {
+  'Karate': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real fighting ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Boxing': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real fighting ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Taekwondo': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real fighting ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Muay Thai': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real fighting ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Judo': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real grappling ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Brazilian Jiu-Jitsu': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real grappling ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Wrestling': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real grappling ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Kung Fu': { eyebrow: 'TRAINING REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real fighting ability is built through physical practice with partners over years, not through reading. Use DojoMind alongside live training with a qualified instructor.' },
+  'Music': { eyebrow: 'PRACTICE REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real playing ability is built at your instrument, daily, not through reading. Use DojoMind alongside regular practice with your instrument and, where possible, a qualified teacher.' },
+  'Programming': { eyebrow: 'PRACTICE REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real coding ability is built by writing code and debugging it, not through reading. Use DojoMind alongside real projects and, where possible, a mentor.' },
+  'Medicine': { eyebrow: 'MEDICAL DISCLAIMER', body: 'This lesson teaches principles only. It is not medical advice and is not a substitute for professional diagnosis or treatment. Always consult a qualified healthcare professional for personal health concerns, and never delay seeking professional care because of something you read here.' },
+  'Business': { eyebrow: 'PRACTICE REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real business skill is built through real transactions, decisions and feedback, not through reading. Use DojoMind alongside real-world practice and, where possible, experienced mentors.' },
+  'Skills': { eyebrow: 'PRACTICE REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real skill is built through daily practice and honest feedback, not through reading. Use DojoMind alongside real attempts and real reflection.' },
+}
+const DEFAULT_DISCLAIMER = { eyebrow: 'PRACTICE REALITY', body: 'This lesson teaches principles, concepts and mental frameworks. Real skill is built through practice, not through reading. Use DojoMind alongside real-world practice.' }
+
 function Lesson({ lesson, onBack, onComplete }) {
   const [quizIndex, setQuizIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState(null)
@@ -90,18 +107,15 @@ function Lesson({ lesson, onBack, onComplete }) {
       </header>
 
       <section className="lesson-content">
-        {!MIND_SUBJECTS.includes(lesson.subject) && (
-          <div className="physical-disclaimer">
-            <span className="eyebrow">TRAINING REALITY</span>
-            <p>
-              This lesson teaches principles, concepts and mental frameworks.
-              Real fighting ability is built through physical practice with
-              partners over years, not through reading. Use DojoMind alongside
-              live training with a qualified instructor: knowledge guides your
-              practice, but only practice builds skill.
-            </p>
-          </div>
-        )}
+        {!MIND_SUBJECTS.includes(lesson.subject) && (() => {
+          const d = SUBJECT_DISCLAIMERS[lesson.subject] || DEFAULT_DISCLAIMER
+          return (
+            <div className="physical-disclaimer">
+              <span className="eyebrow">{d.eyebrow}</span>
+              <p>{d.body}</p>
+            </div>
+          )
+        })()}
 
         <div className="lesson-block">
           <span className="eyebrow">LEARNING OBJECTIVES</span>
