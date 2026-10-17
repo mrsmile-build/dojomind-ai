@@ -686,6 +686,37 @@ export default {
           ]
         }
       }
+    },
+    "python": {
+      "name": "Python",
+      "icon": "🐍",
+      "description": "A friendly first language for real projects.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "First lines, flow and functions in real Python syntax.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Python Foundations",
+              "lessons": [
+                {
+                  "id": "prog-python-first-lines",
+                  "title": "Your First Lines"
+                },
+                {
+                  "id": "prog-python-flow",
+                  "title": "Ifs and Loops in Python"
+                },
+                {
+                  "id": "prog-python-functions",
+                  "title": "Functions - Name the Recipe"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   },
   "medicine": {

@@ -22002,5 +22002,464 @@ export const lessons = {
       "label": "Deep Block",
       "initialTime": 2700
     }
+  },
+  "prog-python-first-lines": {
+    "id": "prog-python-first-lines",
+    "subject": "Programming",
+    "title": "Your First Lines",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Write and read your first real Python: print, names bound to values, and the skill that separates programmers from typists - reading an error message as information, not as a verdict on you.",
+    "objectives": [
+      "Predict a print line output before running it",
+      "Bind names to values with = and say the box sentence aloud",
+      "Read a traceback last-line-first and name the error type",
+      "Fix the three classic first errors: unknown name, missing quote, wrong case",
+      "Recognize the four most common beginner Python errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Anatomy of a first line",
+        "caption": "Python reads top to bottom and does exactly what each line says. These five lines are a whole first program - and the error habit in the last label is worth more than the other four combined.",
+        "labels": [
+          "print(\"hello\") - a function call with one argument",
+          "score = 5 - bind the box called score to the value 5",
+          "print(score) - print what is IN the box, not the word score",
+          "Case matters: Score and score are two different boxes",
+          "Errors: read the LAST line of the traceback first - it names what broke"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Lines that do",
+        "content": "A Python program is a list of lines the machine runs top to bottom, and your first command is print, which shows a value on the screen. The habit that separates programmers from typists starts immediately: before running any line, say aloud what it will show. print(\"hello\") shows hello; print(2 + 3) shows 5; print(\"2 + 3\") shows the characters, because quotes make it text, not math. Predicting then checking is the feedback loop that builds a correct mental machine - running without predicting builds nothing but surprise."
+      },
+      {
+        "title": "Names and boxes",
+        "content": "The equals sign binds a name to a value: score = 5 puts 5 into a box labeled score, and print(score) shows what is inside, not the word score. Read every = as gets or is now bound to, and the box sentence from the variables lesson becomes physical: take what is in the box, change it, put it back. Two rules bite beginners hard: names are case-sensitive (Score and score are different boxes, and mixing them raises an error), and a name must exist before you use it - printing a box you never filled is the most common first crash in the language."
+      },
+      {
+        "title": "Errors are information",
+        "content": "When Python stops, it prints a traceback, and the useful line is the LAST one: NameError means you used a box that does not exist (typo or case), SyntaxError means the sentence itself is broken (a missing quote or bracket), TypeError means you asked an operation of the wrong kind of value (adding text to a number). None of these is a verdict on you; each is the machine naming the exact spot where it stopped trusting the instructions. Professionals read errors slowly and gratefully - the error message is the most honest colleague you will ever have, because it never politenesses the truth."
+      }
+    ],
+    "principles": [
+      "Predict the output before running; checking the prediction is the learning.",
+      "= binds a name to a value; print(name) shows the box content, not the name.",
+      "Names are case-sensitive and must exist before use.",
+      "Tracebacks read last-line-first: NameError, SyntaxError, TypeError each name one kind of break."
+    ],
+    "mistakes": [
+      {
+        "title": "Running without predicting",
+        "explanation": "Surprise teaches nothing. Say the output aloud first, then run and compare."
+      },
+      {
+        "title": "Mixing case in names",
+        "explanation": "Score and score are different boxes; a case slip is a NameError waiting. Pick one spelling."
+      },
+      {
+        "title": "Reading tracebacks top-down in panic",
+        "explanation": "The answer is the last line. Read it slowly; it names the error type and the line."
+      },
+      {
+        "title": "Treating errors as failure",
+        "explanation": "An error is the machine protecting you from silently doing the wrong thing. It is information, delivered free."
+      }
+    ],
+    "practice": [
+      "Type print(\"hello\") and print(2 + 3) and print(\"2 + 3\"); predict all three before running.",
+      "Bind three boxes (name, age, city) and print a sentence using all three.",
+      "Break one line on purpose (remove a quote); run it and read the last traceback line aloud.",
+      "Cause a NameError and a TypeError on purpose; write each error type and its cause in a journal.",
+      "Rename a variable and fix every use; run until clean."
+    ],
+    "reflection": "When your last error appeared, did you read its last line slowly - or retype things randomly until it passed?",
+    "safety": "No physical risk; manage frustration deliberately - errors are normal and frequent for every programmer alive, and random retyping fixes nothing.",
+    "quiz": [
+      {
+        "question": "print(score) shows:",
+        "options": [
+          "The word score",
+          "The value currently in the box called score",
+          "An error always",
+          "The line number"
+        ],
+        "answer": 1,
+        "explanation": "Names stand for their contents; quotes are what make text literal, and their absence makes the name a lookup."
+      },
+      {
+        "question": "The most useful line of a traceback is:",
+        "options": [
+          "The first line",
+          "The last line, naming the error type",
+          "The middle",
+          "The line count"
+        ],
+        "answer": 1,
+        "explanation": "Python builds context top-down but states the verdict last; reading last-line-first turns panic into a to-do."
+      }
+    ],
+    "mastery": [
+      "Predict then run print lines including quoted versus unquoted math.",
+      "Bind and use named values correctly, case-consistent.",
+      "Read a traceback last-line-first and name the error type.",
+      "Fix unknown-name, missing-quote and case errors unaided."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your script dies with NameError on a line you swear is fine.",
+          "action": "You check the exact spelling and case of the name against its binding line, and find the slip.",
+          "why": "NameError is a lookup failure; the fix is always in the spelling, never in luck."
+        },
+        {
+          "setup": "A colleague sends you broken code and no message.",
+          "action": "You run it, read the last traceback line, and answer with the error type and the suspect line.",
+          "why": "Last-line-first reading makes you the person who can triage anything, fast."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Error-reading fluency turns debugging from fear into a checklist, which is most of programming speed."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who quotes the exact error type communicates in half the words and twice the precision."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Random retyping",
+          "Predicting never",
+          "Case slips"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself retyping randomly",
+            "then": "Stop, run once, read the last line, change exactly one thing."
+          },
+          {
+            "if": "Predictions keep missing",
+            "then": "Slow down to one line at a time until predictions land."
+          }
+        ],
+        "learning": "Keep a three-line error journal: error type, cause, fix - review it weekly and watch repeats vanish."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Predict-Run Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-python-flow": {
+    "id": "prog-python-flow",
+    "subject": "Programming",
+    "title": "Ifs and Loops in Python",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The two structures that make programs behave: if/elif/else chooses exactly one path, for and while repeat - and in Python the indentation IS the structure, not decoration.",
+    "objectives": [
+      "Write if/elif/else with correct colon and indentation",
+      "Loop a list with for and a count with while or range",
+      "Know that indentation defines the block: same lines, different meaning",
+      "Ensure every while loop changes something each pass",
+      "Recognize the four most common flow errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Colon, indent, repeat",
+        "caption": "Python has no braces; the whitespace is the architecture. A colon opens a block, indentation holds it together, and dedenting ends it - which is why aligning lines is not tidiness here, it is meaning.",
+        "labels": [
+          "if score > 10: - the colon opens a block",
+          "Indented lines belong to the block; dedent ends it",
+          "for item in items: - one pass per item, in order",
+          "while not done: - repeat until the condition flips",
+          "Something inside while must change, or it never ends"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The colon opens a door",
+        "content": "A condition followed by a colon opens a block: if score > 10: then indented lines that run only when the condition is true. elif chains more questions in order, and else catches everything remaining - exactly one branch runs, top to bottom, first true question wins. The fork logic from the foundations lesson is unchanged; Python simply writes it with a colon and a margin. Reading code means asking at each if: what question, and what happens on each answer, including the silent else of nothing."
+      },
+      {
+        "title": "Indentation is the structure",
+        "content": "Most languages wrap blocks in braces; Python wraps them in whitespace. The indented lines under a colon are the block; returning to the left margin ends it. This means two programs with identical lines in different indentation are different programs - alignment is meaning, not aesthetics. The practical rules are small and strict: pick four spaces, never mix tabs and spaces, and when Python says IndentationError or your loop seems to run once, look at the margin before you look at the logic. Beginners fight this for a week and then never think about it again."
+      },
+      {
+        "title": "Loops that end",
+        "content": "for walks a known collection - for name in names: runs the body once per item, in order - and range(5) manufactures the counting collection 0 to 4. while repeats until its condition flips, which imposes the discipline from the logic lesson: something inside the body must change, or the condition never flips and the loop runs until you kill it. The countdown pattern (start at 5, print, subtract 1) is the smallest complete while loop and the one to memorize, because every retry, poll and game loop you ever write is its descendant."
+      }
+    ],
+    "principles": [
+      "Colon opens a block; exactly one if/elif/else branch runs.",
+      "Indentation is the structure: same lines, different margin, different program.",
+      "for walks a known collection; range manufactures counts.",
+      "A while body must change something or the loop never ends."
+    ],
+    "mistakes": [
+      {
+        "title": "Forgetting the colon",
+        "explanation": "The colon is the open-door sign; without it the sentence is broken and SyntaxError follows."
+      },
+      {
+        "title": "Mixing tabs and spaces",
+        "explanation": "Python cannot guess your mixture; pick four spaces and keep the margin consistent."
+      },
+      {
+        "title": "while with nothing changing",
+        "explanation": "An unchanging condition is an infinite loop; name the changing line before running."
+      },
+      {
+        "title": "else where elif was meant",
+        "explanation": "else catches everything left; a second real question needs elif or it steals the wrong cases."
+      }
+    ],
+    "practice": [
+      "Write an if/elif/else that prints a grade band from a score; predict three scores first.",
+      "Loop a list of five names printing a greeting for each, with correct indentation.",
+      "Write a while countdown from 5 to 1, then rewrite it with for and range.",
+      "Break indentation on purpose (dedent one line); read the error and fix by margin only.",
+      "Convert one of your for loops to while and compare which reads clearer."
+    ],
+    "reflection": "Can you look at a block and say exactly which lines belong to it by margin alone - or do you still guess by vibe?",
+    "safety": "No physical risk; infinite loops cost time and battery, so test while loops with tiny counts first.",
+    "quiz": [
+      {
+        "question": "In Python, what defines which lines belong to a block?",
+        "options": [
+          "Curly braces",
+          "Indentation",
+          "Line length",
+          "Comments"
+        ],
+        "answer": 1,
+        "explanation": "Whitespace is the architecture here; the margin decides membership, so alignment is meaning."
+      },
+      {
+        "question": "A while loop ends only when:",
+        "options": [
+          "It runs ten times",
+          "Its condition flips, which the body must cause",
+          "You close the file",
+          "The list ends"
+        ],
+        "answer": 1,
+        "explanation": "Without a changing line in the body the condition never flips and the loop never ends."
+      }
+    ],
+    "mastery": [
+      "Write correct if/elif/else with colon and consistent indentation.",
+      "Loop lists with for and counts with while or range.",
+      "Read block membership from the margin alone.",
+      "Guarantee while loops change toward their end."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your loop runs once and skips the rest.",
+          "action": "You check the margin and find the body dedented; re-indent and the block holds.",
+          "why": "Indentation is structure; a margin slip moves lines out of the loop without moving them on screen much."
+        },
+        {
+          "setup": "A script hangs and never finishes.",
+          "action": "You find the while, see nothing changes inside, add the decrement and re-run.",
+          "why": "Infinite loops are missing change, not bad luck; the fix is one line that moves toward the end."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clean flow code reads like an outline; colleagues review it fast and trust it sooner."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer whose indentation is structure, not decoration, ships fewer silent-scope bugs."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "SyntaxError at colons",
+          "Hangs",
+          "Margin guesses"
+        ],
+        "adjustments": [
+          {
+            "if": "Errors point at a colon",
+            "then": "Check the line above for the missing colon before editing anything else."
+          },
+          {
+            "if": "A loop misbehaves",
+            "then": "Print the loop variable each pass; watching it move reveals the scope and the end."
+          }
+        ],
+        "learning": "After each exercise, note one margin decision you made consciously and one error type you now recognize instantly."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Flow Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-python-functions": {
+    "id": "prog-python-functions",
+    "subject": "Programming",
+    "title": "Functions - Name the Recipe",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A function names a recipe so you can run it from anywhere: def, parameters in, return out. Small one-job functions are the unit of clear code - and print is not return.",
+    "objectives": [
+      "Define a function with def, parameters and a return",
+      "Call it with arguments and use the handed-back value",
+      "Keep one job per function and name it by what it does or returns",
+      "Distinguish print (show a human) from return (hand the program a value)",
+      "Recognize the four most common function errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "In, work, out",
+        "caption": "A function is a named machine: arguments go in, the body works, one value comes back. Everything about good code - testing, reuse, reading - gets easier once the machines are small and named.",
+        "labels": [
+          "def name(parameters): - the recipe header",
+          "Indented body - the steps, same margin rules as loops",
+          "return value - hands a result back to the caller",
+          "Calling: result = name(arguments) - the machine runs",
+          "print shows a human; return hands back - mixing them causes the classic None bug"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Name the recipe",
+        "content": "A function is the loop idea one level up: instead of repeating lines, you name them. def greet(name): opens the recipe with a parameter - a placeholder box filled at call time - the indented body does the work, and return hands one value back to whoever called. Calling is just result = greet(\"Ada\"): arguments fill parameters, the body runs, and the returned value lands in your box. Once named, the recipe can run from anywhere in the program, which is how ten lines become a tool used a hundred times."
+      },
+      {
+        "title": "One job, one name",
+        "content": "The quality rule is smallness: a function should do one job, and its name should say that job - celsius_to_fahrenheit, total_with_tax, first_word. If the name needs and (save_and_email), the function holds two jobs and should become two functions. Small named functions are testable in isolation, readable at the call site, and reusable without copy-paste drift; giant multi-job functions are none of these, and they are where bugs breed because every change risks every other part of the blob."
+      },
+      {
+        "title": "print is not return",
+        "content": "The classic beginner bug: a function that prints its answer instead of returning it, so the caller receives None - Python is empty handed value - and everything downstream breaks mysteriously. print shows text to a human and gives the program nothing; return gives the program a value and shows nothing. The test is simple: can I use the result in a calculation? If yes, it must be returned. Functions may print for debugging, but the value a function is for must come back through return, every time."
+      }
+    ],
+    "principles": [
+      "def opens a recipe: parameters in, indented body, return out.",
+      "One job per function; a name needing and means split it.",
+      "Call with arguments; the returned value lands where you assign it.",
+      "print shows humans, return hands programs; never substitute one for the other."
+    ],
+    "mistakes": [
+      {
+        "title": "Printing instead of returning",
+        "explanation": "The caller gets None and downstream math breaks. Return the value; print only for eyes."
+      },
+      {
+        "title": "Multi-job functions",
+        "explanation": "Blobs cannot be tested or reused safely. Split at every and in the intended name."
+      },
+      {
+        "title": "Forgetting return entirely",
+        "explanation": "A function without return hands back None silently. End value-producing functions with return."
+      },
+      {
+        "title": "Confusing parameters with arguments",
+        "explanation": "Parameters are placeholders in the header; arguments are the values at call time. Mix them and calls read wrong."
+      }
+    ],
+    "practice": [
+      "Write celsius_to_fahrenheit(c) with a return; call it for three values and check by hand.",
+      "Write greet(name) returning a sentence; print the call result.",
+      "Compose: use one function return as the argument of another; predict the output first.",
+      "Take a printing function and convert it to returning; watch the None bug disappear.",
+      "Rename one vague function you wrote to say its one job; adjust the call sites."
+    ],
+    "reflection": "In your last function, could the caller use its result in a calculation - or did it only show something and hand back None?",
+    "safety": "No physical risk; keep functions small enough to read in one screenful, which is also a kindness to future you.",
+    "quiz": [
+      {
+        "question": "A function that prints its answer instead of returning gives the caller:",
+        "options": [
+          "The printed text as a value",
+          "None - no value at all",
+          "An error always",
+          "A copy of the screen"
+        ],
+        "answer": 1,
+        "explanation": "print is for human eyes; without return the caller receives None and any downstream use breaks."
+      },
+      {
+        "question": "A function name containing and usually signals:",
+        "options": [
+          "Good completeness",
+          "Two jobs that should be two functions",
+          "A reserved word",
+          "A loop inside"
+        ],
+        "answer": 1,
+        "explanation": "One job per function keeps testing, reading and reuse intact; and is the split marker."
+      }
+    ],
+    "mastery": [
+      "Define and call functions with parameters and return.",
+      "Keep functions to one job with saying names.",
+      "Use returned values in further computation.",
+      "Diagnose and fix the print-instead-of-return None bug."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "The same five lines appear in four places in your script.",
+          "action": "You name them as a function with parameters and replace all four copies with calls.",
+          "why": "One named recipe beats four drifting copies; fixes happen once and everywhere."
+        },
+        {
+          "setup": "A calculation mysteriously yields None.",
+          "action": "You open the helper, find print where return should be, and fix the hand-back.",
+          "why": "The None bug is always a substituted print; knowing it by name makes it a ten-second fix."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Named small functions turn scripts into toolkits; every later feature reuses instead of retypes."
+        },
+        {
+          "role": "Facing it",
+          "detail": "Code built from one-job functions reviews fast and breaks locally, which is the professional difference."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "None flowing",
+          "Names with and",
+          "Copy-paste blocks"
+        ],
+        "adjustments": [
+          {
+            "if": "None appears",
+            "then": "Check every helper on the path for a missing or substituted return."
+          },
+          {
+            "if": "A function grows past a screenful",
+            "then": "Split at the ands; name each piece by its job."
+          }
+        ],
+        "learning": "After each script, count duplicated blocks you failed to name - that count is next week is function practice."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Function Reps",
+      "targetReps": 5
+    }
   }
 }
