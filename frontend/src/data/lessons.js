@@ -25702,5 +25702,1385 @@ export const lessons = {
       "label": "Fetch Reps",
       "targetReps": 3
     }
+  },
+  "med-herb-identification": {
+    "id": "med-herb-identification",
+    "subject": "Medicine",
+    "title": "Reading a Plant - Safe Identification",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Plant medicine starts with identification, and the rule is absolute: if you cannot identify a plant with certainty from multiple features and a trusted source, you do not use it. Look-alikes exist; mistakes can be fatal.",
+    "objectives": [
+      "Apply the multiple-feature rule: never identify from one feature alone",
+      "Use a trusted field guide or expert, not a photo app alone",
+      "Know that look-alikes exist and some are lethal",
+      "Distinguish edible from medicinal from toxic categories",
+      "Recognize the four most dangerous identification errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The identification rule",
+        "caption": "A plant is identified by the convergence of multiple features - leaf shape, stem, flower, habitat, smell - cross-referenced with a trusted source. One feature is never enough; look-alikes are common and some are lethal.",
+        "labels": [
+          "Multiple features: leaf, stem, flower, habitat, smell, season",
+          "Trusted source: field guide, expert, herbarium - not just a photo app",
+          "Look-alikes: common plants have toxic twins; assume they exist",
+          "When in doubt: do not use - the cost of error is too high",
+          "Categories: edible, medicinal, toxic - know which is which before touching"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The multiple-feature rule",
+        "content": "Plant identification is not pattern matching on one feature; it is convergence. A plant is identified by multiple features - leaf shape, stem texture, flower structure, habitat, season, smell - all pointing to the same species and cross-referenced against a trusted field guide or expert. One feature alone (it has white flowers) is never enough, because many unrelated plants share single features. This is the rule that separates safe foraging from dangerous guessing, and it is the rule beginners break when enthusiasm outpaces patience."
+      },
+      {
+        "title": "Trusted sources, not photo apps",
+        "content": "Photo identification apps are convenience tools, not safety tools; they guess based on visual similarity and can be confidently wrong. The trusted sources are field guides written by botanists for your region, local experts who have identified plants for years, and herbarium specimens you can compare directly. Use photo apps to generate a hypothesis, then verify against a trusted source before any use. If the app says one thing and the field guide says another, the field guide wins; if neither is certain, you do not use the plant."
+      },
+      {
+        "title": "Look-alikes and the cost of error",
+        "content": "Many common plants have toxic twins - plants that look similar but are poisonous. Wild carrot has poison hemlock as a look-alike; wild garlic has lily of the valley; edible mushrooms have deadly ones that share features. This is why the multiple-feature rule exists and why uncertainty means do not use. The cost of a misidentification is not a bad taste; it can be organ failure, permanent damage or death. Plant medicine is a discipline of patience and verification, not a shortcut to natural remedies; the people who practice it safely are the ones who say I do not know more often than they say I do."
+      }
+    ],
+    "principles": [
+      "Identify by multiple features converging, never by one feature alone.",
+      "Verify photo app guesses against trusted field guides or experts before use.",
+      "Assume look-alikes exist for every plant you think you know; verify each time.",
+      "When uncertain, do not use; the cost of error is too high for guessing."
+    ],
+    "mistakes": [
+      {
+        "title": "Identifying from one feature",
+        "explanation": "White flowers do not make a plant safe. Multiple features must converge and match a trusted source."
+      },
+      {
+        "title": "Trusting photo apps alone",
+        "explanation": "Apps guess by visual similarity and can be confidently wrong. Use them for hypotheses, verify with guides or experts."
+      },
+      {
+        "title": "Assuming no look-alikes",
+        "explanation": "Toxic twins exist for many common plants. Verify identity every time, not just the first time."
+      },
+      {
+        "title": "Using when uncertain",
+        "explanation": "Uncertainty means do not use. The cost of misidentification can be organ failure or death."
+      }
+    ],
+    "practice": [
+      "Pick one common plant in your area and identify it by five features from a field guide.",
+      "Find its toxic look-alike if one exists and learn the distinguishing features.",
+      "Use a photo app on three plants, then verify each against a trusted source; note disagreements.",
+      "Practice saying I do not know when features do not converge; build the habit.",
+      "Walk with an experienced forager or botanist and ask them to show you verification in the field."
+    ],
+    "reflection": "Which plant do you think you know that you have never verified against a trusted source - and does it have a toxic look-alike?",
+    "safety": "This lesson is awareness, not a license to forage or medicate. Never consume a plant you have not positively identified with multiple features and a trusted source. When in doubt, do not use.",
+    "quiz": [
+      {
+        "question": "A plant is safely identified when:",
+        "options": [
+          "It matches one obvious feature",
+          "Multiple features converge and match a trusted source",
+          "A photo app identifies it",
+          "It looks like a plant you have seen before"
+        ],
+        "answer": 1,
+        "explanation": "One feature is never enough; convergence across multiple features verified by a trusted source is the standard."
+      },
+      {
+        "question": "When identification is uncertain, the correct action is:",
+        "options": [
+          "Use a small amount to test",
+          "Do not use the plant",
+          "Ask a photo app again",
+          "Compare to edible look-alikes"
+        ],
+        "answer": 1,
+        "explanation": "The cost of misidentification can be lethal; uncertainty means do not use, not test cautiously."
+      }
+    ],
+    "mastery": [
+      "Apply the multiple-feature rule to identify plants with convergence.",
+      "Verify photo app identifications against trusted field guides or experts.",
+      "Know the toxic look-alikes for common plants in your area.",
+      "Say I do not know when features do not converge and refuse to use uncertain plants."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A friend offers you a wild plant they picked, saying it is safe.",
+          "action": "You ask how they identified it and verify against your own trusted source before any use.",
+          "why": "Trust is not identification; verification is the rule, regardless of who picked it."
+        },
+        {
+          "setup": "A photo app identifies a plant with 95% confidence.",
+          "action": "You treat it as a hypothesis and verify against a field guide before any use.",
+          "why": "Confidence scores are not certainty; the app can be confidently wrong about look-alikes."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Safe identification is the foundation of plant medicine; without it, everything else is dangerous."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who says I do not know is trustworthy; one who guesses is dangerous."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "One-feature identification",
+          "Trusting apps alone",
+          "Using when uncertain"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself using one feature",
+            "then": "Stop and verify against a field guide with multiple features before proceeding."
+          },
+          {
+            "if": "You feel uncertain",
+            "then": "Do not use; uncertainty is the signal to stop, not to proceed cautiously."
+          }
+        ],
+        "learning": "After each identification, note which features converged and which trusted source confirmed it."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Verification Reps",
+      "targetReps": 5
+    }
+  },
+  "med-herb-preparations": {
+    "id": "med-herb-preparations",
+    "subject": "Medicine",
+    "title": "Preparations - Teas, Tinctures, Poultices",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Once a plant is safely identified, preparations are the methods of extraction: teas for water-soluble compounds, tinctures for alcohol-soluble ones, poultices for topical use. Each method has a purpose and a shelf life.",
+    "objectives": [
+      "Distinguish teas (infusions and decoctions) from tinctures from poultices",
+      "Know which plant parts suit which preparation method",
+      "Understand shelf life and storage for each preparation type",
+      "Recognize that preparation does not make an unsafe plant safe",
+      "Recognize the four most common preparation errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Three preparation methods",
+        "caption": "Preparations are extraction methods: teas use water, tinctures use alcohol, poultices are topical. Each extracts different compounds and has different shelf life. Preparation does not make an unsafe plant safe - identification comes first.",
+        "labels": [
+          "Tea (infusion): leaves and flowers steeped in hot water; shelf life days",
+          "Tea (decoction): roots and bark simmered in water; shelf life days",
+          "Tincture: plant material soaked in alcohol; shelf life years",
+          "Poultice: crushed plant applied topically; shelf life hours",
+          "Preparation does not fix unsafe identification - that comes first"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Teas: infusions and decoctions",
+        "content": "Teas are water extractions, but there are two methods for different plant parts. Infusion is steeping delicate parts (leaves, flowers) in hot water for five to fifteen minutes; the water extracts water-soluble compounds without destroying heat-sensitive ones. Decoction is simmering hard parts (roots, bark, seeds) in water for twenty to forty minutes; the longer heat breaks down tough cell walls to release compounds that infusion cannot reach. Both have short shelf lives (days in the refrigerator) because water supports microbial growth; they are made fresh and used quickly, not stored for months."
+      },
+      {
+        "title": "Tinctures: alcohol extraction",
+        "content": "Tinctures soak plant material in alcohol (typically 40-60% ethanol) for weeks, extracting alcohol-soluble compounds that water cannot reach and preserving them for years. The ratio is typically one part plant to five parts alcohol by weight, stored in a dark glass jar and shaken daily during extraction. Tinctures are concentrated and dosed in drops, not cups; a few drops in water is a typical dose, not a teacup full. The long shelf life makes tinctures practical for storage, but the concentration means dosing errors are more consequential than with teas; less is more, and starting low is the rule."
+      },
+      {
+        "title": "Poultices: topical application",
+        "content": "Poultices are crushed fresh or dried plant material applied directly to the skin, often wrapped in cloth and held in place for minutes to hours. They are used for topical conditions (rashes, swelling, minor wounds) where the compounds act locally rather than systemically. Poultices have the shortest shelf life (hours) because they are made fresh and applied immediately; they are not stored. The safety rule is the same as for internal preparations: the plant must be safely identified first, and skin sensitivity should be tested on a small area before full application. Topical does not mean risk-free; skin absorbs compounds and allergic reactions are possible."
+      }
+    ],
+    "principles": [
+      "Teas are water extractions: infusions for delicate parts, decoctions for hard parts.",
+      "Tinctures are alcohol extractions with years-long shelf life; dose in drops, not cups.",
+      "Poultices are topical applications with hours-long shelf life; test for skin sensitivity first.",
+      "Preparation does not make an unsafe plant safe; identification is the prerequisite."
+    ],
+    "mistakes": [
+      {
+        "title": "Using decoction for leaves",
+        "explanation": "Hard heat destroys delicate compounds in leaves and flowers. Use infusion for delicate parts, decoction for hard parts."
+      },
+      {
+        "title": "Dosing tinctures like teas",
+        "explanation": "Tinctures are concentrated; dose in drops, not cups. Starting low is the rule."
+      },
+      {
+        "title": "Storing teas for weeks",
+        "explanation": "Water supports microbial growth; teas last days in the refrigerator, not weeks. Make fresh."
+      },
+      {
+        "title": "Assuming topical means risk-free",
+        "explanation": "Skin absorbs compounds and allergic reactions are possible. Test on a small area first."
+      }
+    ],
+    "practice": [
+      "Make an infusion from a safely identified herb (mint, chamomile) and note the steep time and taste.",
+      "Make a decoction from a safely identified root (ginger) and compare the extraction time and strength.",
+      "Research tincture ratios and shelf life; understand why dosing is in drops, not cups.",
+      "Learn one poultice application for a minor topical condition and the skin sensitivity test.",
+      "Label every preparation with plant name, preparation method, date made and expiration."
+    ],
+    "reflection": "Do you know which preparation method suits which plant part - and what the shelf life is for each method?",
+    "safety": "This lesson is awareness, not medical advice. Never prepare or consume a plant you have not safely identified. Consult healthcare professionals before using plant preparations, especially if pregnant, nursing, or on medications.",
+    "quiz": [
+      {
+        "question": "The difference between infusion and decoction is:",
+        "options": [
+          "Infusion uses alcohol, decoction uses water",
+          "Infusion steeps delicate parts briefly; decoction simmers hard parts longer",
+          "Infusion is for roots, decoction for leaves",
+          "There is no difference"
+        ],
+        "answer": 1,
+        "explanation": "Delicate parts need gentle heat to preserve compounds; hard parts need sustained heat to break down cell walls."
+      },
+      {
+        "question": "Tinctures are dosed in:",
+        "options": [
+          "Cups like tea",
+          "Drops because they are concentrated",
+          "Tablespoons",
+          "No specific amount"
+        ],
+        "answer": 1,
+        "explanation": "Alcohol extraction is concentrated; dosing in drops rather than cups prevents overdose from the stronger preparation."
+      }
+    ],
+    "mastery": [
+      "Choose the correct preparation method for each plant part.",
+      "Understand shelf life for teas (days), tinctures (years), poultices (hours).",
+      "Dose tinctures in drops, not cups; start low.",
+      "Label every preparation with plant name, method, date and expiration."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You want to prepare a root for long-term storage.",
+          "action": "You choose tincture over tea because alcohol extraction preserves for years while tea lasts days.",
+          "why": "Shelf life matches preparation method; long storage needs alcohol extraction, not water."
+        },
+        {
+          "setup": "A friend suggests a poultice for a skin condition.",
+          "action": "You verify the plant is safely identified and test on a small skin area before full application.",
+          "why": "Topical does not mean risk-free; skin absorbs compounds and allergic reactions are possible."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Correct preparation extracts the right compounds and respects shelf life; incorrect preparation wastes the plant or risks harm."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who matches preparation to plant part and shelf life produces consistent, safe results."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Wrong method for plant part",
+          "Storing teas too long",
+          "Dosing tinctures like tea"
+        ],
+        "adjustments": [
+          {
+            "if": "You chose decoction for leaves",
+            "then": "Switch to infusion; delicate parts need gentle heat."
+          },
+          {
+            "if": "You stored tea for weeks",
+            "then": "Discard and make fresh; water supports microbial growth."
+          }
+        ],
+        "learning": "After each preparation, note the method, shelf life and whether the dosing matched the concentration."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Preparation Reps",
+      "targetReps": 3
+    }
+  },
+  "med-herb-ceiling": {
+    "id": "med-herb-ceiling",
+    "subject": "Medicine",
+    "title": "Safety, Interactions & the Referral Ceiling",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Plant medicine has a ceiling: interactions with medications exist, some plants are contraindicated in pregnancy or illness, and serious conditions need professional diagnosis. The referral rule from Medicine Foundations applies here too.",
+    "objectives": [
+      "Know that plant-drug interactions are real and can be dangerous",
+      "Understand contraindications: pregnancy, nursing, specific illnesses",
+      "Apply the referral ceiling: serious symptoms go to professionals, not self-treatment",
+      "Recognize that natural does not mean safe; toxicity exists in nature",
+      "Recognize the four most dangerous safety errors in plant medicine"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The ceiling and the interactions",
+        "caption": "Plant medicine has a ceiling: some conditions need professional diagnosis, some plants interact with medications, some are contraindicated in pregnancy or illness. The referral rule from Medicine Foundations applies here too - self-reasoning has limits.",
+        "labels": [
+          "Interactions: plants can amplify or block medications; check before combining",
+          "Contraindications: pregnancy, nursing, liver/kidney disease, specific illnesses",
+          "The ceiling: serious symptoms (chest pain, severe bleeding, high fever) go to professionals",
+          "Natural does not mean safe; toxicity exists in nature and can be lethal",
+          "The referral rule: observe and prepare, never diagnose or treat serious conditions"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Interactions are real",
+        "content": "Plant compounds are real chemistry, and they interact with pharmaceutical drugs in real ways. Some plants amplify drug effects (making a standard dose dangerous), some block them (making the drug ineffective), and some produce novel toxicities when combined. St. John is Wort interacts with dozens of medications including antidepressants and birth control; grapefruit affects how the liver processes many drugs; garlic and ginkgo can increase bleeding risk with blood thinners. These are not theoretical risks; they are documented interactions that cause real harm. The rule is simple: if you take any medication, check for plant-drug interactions with a pharmacist or doctor before using any plant preparation, even common ones."
+      },
+      {
+        "title": "Contraindications and special populations",
+        "content": "Some plants are contraindicated (should not be used) in specific populations or conditions. Pregnancy and nursing are the most common contraindications; many plants that are safe for adults can harm a developing fetus or pass through breast milk. Liver and kidney disease affect how the body processes plant compounds, making standard doses dangerous. Autoimmune conditions can be triggered or worsened by immune-stimulating plants. The rule is to research contraindications for your specific situation before using any plant, and when in doubt, consult a healthcare professional who knows your medical history."
+      },
+      {
+        "title": "The ceiling and the referral rule",
+        "content": "The referral ceiling from Medicine Foundations applies here with full force: plant medicine is for minor, self-limiting conditions (a mild digestive upset, a minor skin irritation, general wellness support) and never for serious symptoms (chest pain, severe bleeding, high fever, difficulty breathing, sudden severe pain). Natural does not mean safe; some of the most lethal substances on earth are natural plant toxins. Self-treating a serious condition with plants delays professional diagnosis and treatment, and that delay can be the difference between recovery and permanent harm. The ceiling is: observe, prepare, and use for minor conditions; refer serious symptoms to professionals immediately."
+      }
+    ],
+    "principles": [
+      "Plant-drug interactions are real and documented; check before combining any plant with medication.",
+      "Contraindications exist for pregnancy, nursing, and specific conditions; research your situation.",
+      "The referral ceiling applies: serious symptoms go to professionals, not self-treatment with plants.",
+      "Natural does not mean safe; some of the most lethal substances are natural plant toxins."
+    ],
+    "mistakes": [
+      {
+        "title": "Assuming natural means safe",
+        "explanation": "Some of the most lethal substances are natural plant toxins. Safety comes from identification and dosing, not from origin."
+      },
+      {
+        "title": "Not checking plant-drug interactions",
+        "explanation": "Plants can amplify or block medications. Check with a pharmacist before combining, even for common plants."
+      },
+      {
+        "title": "Self-treating serious conditions",
+        "explanation": "Serious symptoms need professional diagnosis. Plant medicine is for minor, self-limiting conditions only."
+      },
+      {
+        "title": "Ignoring contraindications",
+        "explanation": "Pregnancy, nursing, and specific conditions have contraindications. Research your situation before using any plant."
+      }
+    ],
+    "practice": [
+      "Research plant-drug interactions for one common plant and one medication you or someone you know takes.",
+      "Learn the contraindications for pregnancy and nursing for three common plants.",
+      "Practice the referral rule: list five symptoms that go straight to professionals, not self-treatment.",
+      "Consult a pharmacist or doctor before using any plant preparation if you take medications.",
+      "Teach the ceiling to someone else: minor conditions can use plants; serious symptoms go to professionals."
+    ],
+    "reflection": "Which plant do you use or consider using that you have never checked for interactions or contraindications - and what medications or conditions might be affected?",
+    "safety": "This lesson is the safety rule for plant medicine: it exists so that curiosity never becomes unlicensed practice. Serious symptoms mean professional care immediately. Consult healthcare professionals before using plant preparations, especially if pregnant, nursing, or on medications.",
+    "quiz": [
+      {
+        "question": "Plant-drug interactions:",
+        "options": [
+          "Are theoretical and rare",
+          "Are real and documented; check before combining",
+          "Only affect prescription drugs",
+          "Are not a concern for common plants"
+        ],
+        "answer": 1,
+        "explanation": "Plants contain real chemistry that interacts with medications; checking before combining is the safety rule."
+      },
+      {
+        "question": "The referral ceiling for plant medicine means:",
+        "options": [
+          "Plants can treat any condition",
+          "Serious symptoms go to professionals; plants are for minor conditions only",
+          "Natural treatments are always safe",
+          "Self-treatment is always preferable"
+        ],
+        "answer": 1,
+        "explanation": "Plant medicine is for minor, self-limiting conditions; serious symptoms need professional diagnosis and treatment."
+      }
+    ],
+    "mastery": [
+      "Check plant-drug interactions before combining any plant with medication.",
+      "Research contraindications for your specific situation (pregnancy, nursing, conditions).",
+      "Apply the referral ceiling: serious symptoms go to professionals immediately.",
+      "Teach others that natural does not mean safe and self-treatment has limits."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A friend suggests a plant for a condition you have.",
+          "action": "You check for interactions with your medications and contraindications for your situation before using it.",
+          "why": "Interactions and contraindications are real; checking prevents harm from well-intentioned suggestions."
+        },
+        {
+          "setup": "You have a symptom that is worsening or severe.",
+          "action": "You go to a healthcare professional instead of self-treating with plants.",
+          "why": "Serious symptoms need professional diagnosis; delaying for plant self-treatment can cause permanent harm."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Knowing the ceiling and interactions makes plant medicine safe for minor conditions while respecting professional care for serious ones."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner who knows the ceiling and checks interactions is trustworthy; one who does not is dangerous."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Assuming natural means safe",
+          "Not checking interactions",
+          "Self-treating serious symptoms"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself assuming safety from origin",
+            "then": "Remember that safety comes from identification and dosing, not from being natural."
+          },
+          {
+            "if": "You have not checked interactions",
+            "then": "Consult a pharmacist before using any plant with medications."
+          }
+        ],
+        "learning": "After each plant use, note whether you checked interactions and contraindications, and whether the condition was minor or serious."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Safety Checks",
+      "targetReps": 5
+    }
+  },
+  "med-anatomy-skeleton": {
+    "id": "med-anatomy-skeleton",
+    "subject": "Medicine",
+    "title": "The Skeletal Frame",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The skeleton is the frame: 206 bones in adults, organized into axial (skull, spine, ribs) and appendicular (limbs, girdles) divisions. Joints are where movement happens; understanding them is understanding mobility and injury.",
+    "objectives": [
+      "Name the two divisions: axial (core) and appendicular (limbs)",
+      "Know that adults have 206 bones; children have more that fuse",
+      "Understand joint types: hinge, ball-and-socket, pivot, saddle",
+      "Recognize that bones are living tissue that remodels throughout life",
+      "Recognize the four most common skeletal misconceptions"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The skeletal frame",
+        "caption": "The skeleton is not dead scaffolding; it is living tissue that remodels throughout life. It is organized into two divisions: axial (core protection and support) and appendicular (limb movement and manipulation).",
+        "labels": [
+          "Axial skeleton: skull, spine, ribs - protects core organs",
+          "Appendicular skeleton: limbs and girdles - enables movement",
+          "Adults: 206 bones; children have more that fuse during growth",
+          "Joints: hinge (elbow), ball-and-socket (hip), pivot (neck), saddle (thumb)",
+          "Bones remodel throughout life in response to stress and use"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two divisions, one frame",
+        "content": "The skeleton is organized into two functional divisions: the axial skeleton (skull, spine, ribs) protects the core organs and provides the central support, and the appendicular skeleton (limbs and the girdles that attach them) enables movement and manipulation. This division is not arbitrary; it reflects the two jobs the skeleton does. The axial skeleton is about protection and stability; the appendicular skeleton is about mobility and reach. Understanding this division helps you understand why injuries to different regions have different consequences and why rehabilitation focuses on restoring the function of each division."
+      },
+      {
+        "title": "Joints are where movement happens",
+        "content": "Bones do not bend; joints do. A joint is where two or more bones meet, and the type of joint determines what movements are possible. Hinge joints (elbow, knee) allow flexion and extension in one plane; ball-and-socket joints (hip, shoulder) allow rotation and movement in multiple planes; pivot joints (neck) allow rotation; saddle joints (thumb) allow opposition. Each joint type has a normal range of motion, and injuries often involve forcing a joint beyond its designed movement. Understanding joint types helps you understand why some movements feel natural and others cause injury."
+      },
+      {
+        "title": "Living tissue, not dead scaffolding",
+        "content": "The skeleton is not a static frame; it is living tissue that remodels throughout life in response to stress and use. Bones become denser with weight-bearing exercise and less dense with disuse or aging; this is why astronauts lose bone mass in zero gravity and why weightlifting strengthens bones. Children have more bones than adults (about 270 at birth) because many bones fuse during growth; the adult count of 206 is the result of this fusion. This remodeling means the skeleton is responsive to how you use it; loading it appropriately strengthens it, and neglecting it weakens it."
+      }
+    ],
+    "principles": [
+      "Two divisions: axial (core protection) and appendicular (limb movement).",
+      "Adults have 206 bones; children have more that fuse during growth.",
+      "Joints determine movement: hinge, ball-and-socket, pivot, saddle each allow different motions.",
+      "Bones are living tissue that remodels throughout life in response to stress and use."
+    ],
+    "mistakes": [
+      {
+        "title": "Thinking bones are dead scaffolding",
+        "explanation": "Bones are living tissue that remodels; they respond to use and disuse throughout life."
+      },
+      {
+        "title": "Confusing axial and appendicular",
+        "explanation": "Axial is core (skull, spine, ribs); appendicular is limbs. The division reflects function."
+      },
+      {
+        "title": "Forcing joints beyond their range",
+        "explanation": "Each joint type has a normal range; forcing beyond it causes injury. Respect the design."
+      },
+      {
+        "title": "Assuming bone count is static",
+        "explanation": "Children have more bones that fuse; the adult 206 is the result of developmental fusion."
+      }
+    ],
+    "practice": [
+      "Name the two divisions and list three bones in each; check against a diagram.",
+      "Identify the joint type for your elbow, hip, neck and thumb; move each through its normal range.",
+      "Research how bones remodel in response to exercise; understand why weight-bearing strengthens them.",
+      "Learn why children have more bones than adults and which bones fuse during growth.",
+      "Feel your own skeleton: axial and appendicular, noting where the divisions meet at the girdles."
+    ],
+    "reflection": "Can you name the two skeletal divisions and the joint type for your major limbs - and do you understand why bones change throughout life?",
+    "safety": "No physical risk; respect joint ranges and avoid forcing movements beyond normal. This lesson is awareness, not medical advice for injuries.",
+    "quiz": [
+      {
+        "question": "The axial skeleton includes:",
+        "options": [
+          "Limbs and girdles",
+          "Skull, spine and ribs",
+          "Only the spine",
+          "Hands and feet"
+        ],
+        "answer": 1,
+        "explanation": "Axial is the core (skull, spine, ribs) that protects vital organs; appendicular is the limbs that enable movement."
+      },
+      {
+        "question": "Bones are:",
+        "options": [
+          "Dead scaffolding that does not change",
+          "Living tissue that remodels throughout life",
+          "Only important in childhood",
+          "Static after age 20"
+        ],
+        "answer": 1,
+        "explanation": "Bones respond to stress and use throughout life; they become denser with loading and less dense with disuse."
+      }
+    ],
+    "mastery": [
+      "Name the two skeletal divisions and list major bones in each.",
+      "Identify joint types and their normal ranges of motion.",
+      "Explain how bones remodel in response to use and disuse.",
+      "Understand why children have more bones than adults and which fuse during growth."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A joint feels stiff and you want to increase mobility.",
+          "action": "You respect the joint type and its normal range, working gradually within it rather than forcing beyond.",
+          "why": "Each joint has a designed range; forcing beyond it causes injury rather than improvement."
+        },
+        {
+          "setup": "You want to strengthen bones as you age.",
+          "action": "You add weight-bearing exercise to load the skeleton appropriately, knowing bones remodel in response.",
+          "why": "Bones are living tissue that responds to loading; appropriate stress strengthens them."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Understanding the frame helps you understand injuries, mobility and why certain exercises strengthen bones."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who understands joint types respects their body is design and avoids forcing movements that cause injury."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Forcing joints",
+          "Ignoring bone remodeling",
+          "Confusing divisions"
+        ],
+        "adjustments": [
+          {
+            "if": "You force a joint",
+            "then": "Stop and respect its type and range; work gradually within it."
+          },
+          {
+            "if": "You ignore bone health",
+            "then": "Add weight-bearing exercise; bones remodel in response to loading."
+          }
+        ],
+        "learning": "After each movement session, note which joints you worked within their range and which you may have forced."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Skeleton Reps",
+      "targetReps": 5
+    }
+  },
+  "med-anatomy-muscles": {
+    "id": "med-anatomy-muscles",
+    "subject": "Medicine",
+    "title": "Muscles & Movement",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Muscles produce force by contracting, pulling on bones across joints to create movement. They work in pairs (agonist and antagonist), and understanding this pairing is understanding how movement is controlled and why injuries happen.",
+    "objectives": [
+      "Understand that muscles only pull, never push",
+      "Know that muscles work in agonist-antagonist pairs",
+      "Distinguish skeletal (voluntary) from smooth (involuntary) from cardiac muscle",
+      "Understand that strength comes from neural adaptation first, then muscle growth",
+      "Recognize the four most common muscle misconceptions"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Muscles pull in pairs",
+        "caption": "Muscles only pull, never push, so they work in pairs: one muscle (agonist) creates the movement, the opposing muscle (antagonist) controls and reverses it. This pairing is how movement is controlled and why injuries often involve one side of the pair.",
+        "labels": [
+          "Muscles only pull: they contract to shorten, never push to lengthen",
+          "Agonist: the muscle creating the movement",
+          "Antagonist: the opposing muscle that controls and reverses",
+          "Skeletal muscle: voluntary, attached to bones",
+          "Smooth muscle: involuntary, in organs and vessels",
+          "Cardiac muscle: involuntary, in the heart only"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Muscles only pull",
+        "content": "The fundamental rule of muscle function is that muscles only pull, never push. A muscle contracts to shorten, pulling on the bone it is attached to across a joint; it cannot push the bone back. This is why muscles work in pairs: when one muscle (the agonist) contracts to create a movement, the opposing muscle (the antagonist) must relax to allow it, and then contract to reverse the movement. The biceps pulls the forearm up (flexion); the triceps pulls it back down (extension). Understanding this pull-only rule explains why injuries often involve one side of the pair and why balanced training matters."
+      },
+      {
+        "title": "Three types of muscle",
+        "content": "The body has three types of muscle with different functions and control. Skeletal muscle is voluntary and attached to bones; it is what you think of when you think of muscles, and it is under conscious control. Smooth muscle is involuntary and found in organs and blood vessels; it controls digestion, blood flow and other automatic functions without conscious thought. Cardiac muscle is involuntary and found only in the heart; it contracts rhythmically throughout life without conscious control. Understanding these types helps you understand which muscles you can train voluntarily and which are controlled by the autonomic nervous system."
+      },
+      {
+        "title": "Strength is neural first, then muscular",
+        "content": "When you start strength training, the initial gains in strength are not from muscle growth; they are from neural adaptation. Your nervous system learns to recruit more muscle fibers, coordinate them better, and fire them more efficiently. This neural adaptation happens in the first weeks to months and produces strength gains without visible muscle size changes. Actual muscle growth (hypertrophy) comes later, after the neural adaptations have plateaued. This is why beginners get stronger quickly without looking bigger, and why strength training is as much about training the nervous system as it is about building muscle."
+      }
+    ],
+    "principles": [
+      "Muscles only pull, never push; they work in agonist-antagonist pairs.",
+      "Three types: skeletal (voluntary, bones), smooth (involuntary, organs), cardiac (heart only).",
+      "Strength gains start with neural adaptation (recruitment, coordination) before muscle growth.",
+      "Balanced training works both sides of the pair to prevent injury and maintain function."
+    ],
+    "mistakes": [
+      {
+        "title": "Thinking muscles push",
+        "explanation": "Muscles only pull by contracting; they work in pairs because one cannot push the bone back."
+      },
+      {
+        "title": "Training only one side of a pair",
+        "explanation": "Imbalance between agonist and antagonist causes injury. Train both sides for balanced function."
+      },
+      {
+        "title": "Expecting immediate muscle growth",
+        "explanation": "Initial strength gains are neural adaptation; visible muscle growth comes later after neural plateau."
+      },
+      {
+        "title": "Confusing muscle types",
+        "explanation": "Skeletal is voluntary and trainable; smooth and cardiac are involuntary and not directly trainable."
+      }
+    ],
+    "practice": [
+      "Identify the agonist and antagonist for elbow flexion (biceps/triceps) and knee extension (quadriceps/hamstrings).",
+      "Feel the pull-only action: contract your biceps and note that it pulls, not pushes, the forearm.",
+      "Research the timeline of neural adaptation versus hypertrophy in strength training.",
+      "Train both sides of a joint equally; note any imbalances and correct them.",
+      "Learn which muscles in your body are smooth or cardiac and understand why they are involuntary."
+    ],
+    "reflection": "Can you name the agonist-antagonist pair for your major joints - and do you understand why initial strength gains are neural, not muscular?",
+    "safety": "No physical risk; train both sides of joints equally and respect that strength training involves neural adaptation before visible growth. This lesson is awareness, not a training program.",
+    "quiz": [
+      {
+        "question": "Muscles work in pairs because:",
+        "options": [
+          "They need to rest alternately",
+          "Muscles only pull, never push, so one pulls and the opposing one reverses",
+          "They are redundant for safety",
+          "One is for strength and one for endurance"
+        ],
+        "answer": 1,
+        "explanation": "Muscles can only contract to pull; they cannot push, so they work in pairs to create and reverse movements."
+      },
+      {
+        "question": "Initial strength gains in training are primarily from:",
+        "options": [
+          "Immediate muscle growth",
+          "Neural adaptation: better recruitment and coordination",
+          "Fat loss",
+          "Bone density increases"
+        ],
+        "answer": 1,
+        "explanation": "The nervous system learns to recruit more fibers and coordinate them better before muscle size changes."
+      }
+    ],
+    "mastery": [
+      "Identify agonist-antagonist pairs for major joints and movements.",
+      "Explain why muscles only pull and how pairs create and reverse movement.",
+      "Distinguish skeletal, smooth and cardiac muscle by function and control.",
+      "Understand that initial strength gains are neural adaptation before muscle growth."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "One side of a joint feels weaker or tighter than the other.",
+          "action": "You train both sides of the agonist-antagonist pair equally to restore balance and prevent injury.",
+          "why": "Imbalance between pairs causes injury; balanced training maintains function and prevents overuse."
+        },
+        {
+          "setup": "You start strength training and get stronger quickly without looking bigger.",
+          "action": "You understand this is neural adaptation and continue training for eventual muscle growth.",
+          "why": "Initial gains are neural; understanding the timeline prevents disappointment and maintains motivation."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Understanding muscle pairs and neural adaptation helps you train effectively and avoid injury from imbalances."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who understands muscle function trains both sides of joints and respects the timeline of adaptation."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Training one side only",
+          "Expecting immediate size",
+          "Ignoring neural adaptation"
+        ],
+        "adjustments": [
+          {
+            "if": "You train one side only",
+            "then": "Add the opposing movement to balance the agonist-antagonist pair."
+          },
+          {
+            "if": "You expect immediate size",
+            "then": "Understand neural adaptation comes first; continue training for eventual hypertrophy."
+          }
+        ],
+        "learning": "After each training session, note whether you worked both sides of major joints and whether you respected the adaptation timeline."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Muscle Reps",
+      "targetReps": 5
+    }
+  },
+  "med-anatomy-systems": {
+    "id": "med-anatomy-systems",
+    "subject": "Medicine",
+    "title": "Organ Systems at a Glance",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The body is organized into cooperating systems: circulatory (transport), respiratory (gas exchange), digestive (fuel), nervous (control), and others. Each system has one headline job, and symptoms are usually stories about one or more systems.",
+    "objectives": [
+      "Name the major organ systems and one headline job for each",
+      "Understand that systems cooperate; most symptoms touch several",
+      "Know that the nervous system controls and coordinates the others",
+      "Recognize that system knowledge helps organize symptoms and questions",
+      "Recognize the four most common system-level misconceptions"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The cooperating systems",
+        "caption": "The body is not a collection of isolated organs; it is cooperating systems, each with a headline job. Symptoms are usually stories about one or more systems, and knowing the systems helps organize questions and understand professional explanations.",
+        "labels": [
+          "Circulatory: transport of fuel, oxygen and waste via blood",
+          "Respiratory: gas exchange - oxygen in, carbon dioxide out",
+          "Digestive: fuel processing - breaking down food and absorbing nutrients",
+          "Nervous: control and coordination - sensing, deciding, acting",
+          "Endocrine: chemical messaging via hormones",
+          "Immune: defense against pathogens and abnormal cells",
+          "Musculoskeletal: frame and movement (covered in previous lessons)"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "One job per system",
+        "content": "Each organ system has one headline job that summarizes its function. The circulatory system transports fuel, oxygen and waste via blood; the respiratory system exchanges gases (oxygen in, carbon dioxide out); the digestive system processes fuel (breaking down food and absorbing nutrients); the nervous system controls and coordinates (sensing, deciding, acting); the endocrine system sends chemical messages via hormones; the immune system defends against pathogens and abnormal cells. Knowing these headline jobs helps you organize symptoms and understand professional explanations; when a doctor says your circulatory system is affected, you know that means transport is compromised."
+      },
+      {
+        "title": "Systems cooperate, symptoms overlap",
+        "content": "The systems do not operate in isolation; they cooperate constantly, which is why most symptoms touch several systems at once. Fatigue might involve circulatory (poor oxygen transport), respiratory (shallow breathing), nervous (poor sleep) and endocrine (hormone imbalance) systems simultaneously. A digestive upset affects nutrient absorption (digestive), energy levels (circulatory) and mood (nervous). This cooperation is why symptoms are complex and why simple one-cause explanations are often incomplete. Understanding system cooperation helps you ask better questions and understand why professionals consider multiple possibilities rather than jumping to single diagnoses."
+      },
+      {
+        "title": "The nervous system coordinates",
+        "content": "The nervous system is the control and coordination system; it senses the internal and external environment, decides on responses, and coordinates the actions of other systems. When you exercise, the nervous system increases heart rate (circulatory), breathing rate (respiratory) and sweat production (integumentary) to meet the increased demand. When you are stressed, it triggers hormone release (endocrine) and immune changes. This coordinating role means that nervous system dysfunction affects every other system, which is why neurological symptoms can have wide-ranging effects and why mental health affects physical health. The nervous system is the conductor of the orchestra; when it is off, the whole performance suffers."
+      }
+    ],
+    "principles": [
+      "Each system has one headline job; name it and the system becomes understandable.",
+      "Systems cooperate; most symptoms touch several systems at once.",
+      "The nervous system controls and coordinates the others; its dysfunction affects everything.",
+      "System knowledge helps organize symptoms and understand professional explanations."
+    ],
+    "mistakes": [
+      {
+        "title": "Thinking systems operate in isolation",
+        "explanation": "Systems cooperate constantly; most symptoms touch several. Think in connections, not isolated boxes."
+      },
+      {
+        "title": "Expecting single-cause symptoms",
+        "explanation": "Cooperation means symptoms are often multi-system. Simple one-cause explanations are often incomplete."
+      },
+      {
+        "title": "Ignoring the nervous system is coordinating role",
+        "explanation": "Nervous system dysfunction affects every other system. Mental health affects physical health via this coordination."
+      },
+      {
+        "title": "Memorizing organs without jobs",
+        "explanation": "Organs without jobs are trivia. Attach one headline job to each system and it becomes usable knowledge."
+      }
+    ],
+    "practice": [
+      "Name each major system and its one headline job aloud, twice through.",
+      "Take three common symptoms (fatigue, pain, digestive upset) and list which systems each might touch.",
+      "Research how the nervous system coordinates other systems during exercise or stress.",
+      "Prepare system-organized questions for your next professional visit based on your symptoms.",
+      "Teach the systems and their jobs to someone else in under two minutes."
+    ],
+    "reflection": "Can you name the major systems and their jobs - and do you understand why most symptoms touch several systems rather than just one?",
+    "safety": "This lesson is awareness, not medical advice. System knowledge helps organize questions and understand explanations, but diagnosis and treatment require professional examination and training.",
+    "quiz": [
+      {
+        "question": "Most symptoms touch several systems because:",
+        "options": [
+          "Symptoms are always complex",
+          "Systems cooperate constantly, so dysfunction in one affects others",
+          "Doctors consider multiple possibilities",
+          "Patients report multiple issues"
+        ],
+        "answer": 1,
+        "explanation": "Systems do not operate in isolation; they cooperate, so dysfunction in one system often affects others."
+      },
+      {
+        "question": "The nervous system is special because it:",
+        "options": [
+          "Is the largest system",
+          "Controls and coordinates the other systems",
+          "Only affects the brain",
+          "Is not connected to other systems"
+        ],
+        "answer": 1,
+        "explanation": "The nervous system senses, decides and coordinates; its dysfunction affects every other system it coordinates."
+      }
+    ],
+    "mastery": [
+      "Name the major organ systems and one headline job for each.",
+      "Explain why most symptoms touch several systems due to cooperation.",
+      "Understand the nervous system is coordinating role and how its dysfunction affects everything.",
+      "Use system knowledge to organize symptoms and understand professional explanations."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You have a symptom and want to understand what might be affected.",
+          "action": "You consider which systems might be involved rather than assuming a single cause, and prepare system-organized questions for a professional.",
+          "why": "Systems cooperate, so symptoms are often multi-system; organizing by system helps understand complexity."
+        },
+        {
+          "setup": "A professional explains your condition in terms of systems.",
+          "action": "You understand the explanation because you know each system is headline job and how they cooperate.",
+          "why": "System knowledge turns jargon into understanding; you can follow explanations and ask better questions."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "System knowledge helps organize symptoms and understand professional explanations, making you a better partner in your own care."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who understands systems asks better questions and understands explanations, which improves their care."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Single-cause thinking",
+          "Ignoring system cooperation",
+          "Memorizing without jobs"
+        ],
+        "adjustments": [
+          {
+            "if": "You assume single causes",
+            "then": "Consider which systems might be involved; most symptoms are multi-system."
+          },
+          {
+            "if": "You memorize organs without jobs",
+            "then": "Attach one headline job to each system and it becomes usable knowledge."
+          }
+        ],
+        "learning": "After each symptom or professional visit, note which systems were involved and how system knowledge helped you understand."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "System Reps",
+      "targetReps": 5
+    }
+  },
+  "biz-finance-statements": {
+    "id": "biz-finance-statements",
+    "subject": "Business",
+    "title": "Reading Financial Statements",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Three statements tell the financial story: the income statement (profit over time), the balance sheet (what you own and owe at a moment), and the cash flow statement (where cash came from and went). Learn to read each and how they connect.",
+    "objectives": [
+      "Read an income statement: revenue, expenses, profit over a period",
+      "Read a balance sheet: assets, liabilities and equity at a moment",
+      "Read a cash flow statement: operating, investing and financing cash movements",
+      "Understand how the three statements connect and tell a complete story",
+      "Recognize the four most common statement-reading errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Three statements, one story",
+        "caption": "Financial statements are not three separate reports; they are three views of one story. The income statement shows profit over time, the balance sheet shows position at a moment, and the cash flow statement shows where cash came from and went. Together they tell the complete financial story.",
+        "labels": [
+          "Income statement: revenue minus expenses equals profit over a period",
+          "Balance sheet: assets equal liabilities plus equity at a moment in time",
+          "Cash flow statement: operating, investing and financing cash movements",
+          "Profit is not cash: revenue is recorded when earned, not when cash arrives",
+          "The three statements connect: profit flows to equity, cash flows explain the balance"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The income statement: profit over time",
+        "content": "The income statement (also called profit and loss or P&L) shows revenue minus expenses over a period (month, quarter, year), resulting in profit or loss. Revenue is what you earned from sales or services; expenses are what you spent to earn that revenue (cost of goods sold, operating expenses, taxes). The bottom line is net income (profit) or net loss. This statement answers: did the business make money over this period? But it uses accrual accounting, which records revenue when earned and expenses when incurred, not when cash changes hands. This is why a profitable business can run out of cash - the profit is on paper but the cash has not arrived yet."
+      },
+      {
+        "title": "The balance sheet: position at a moment",
+        "content": "The balance sheet shows what the business owns (assets), what it owes (liabilities) and what is left for the owners (equity) at a specific moment in time. The fundamental equation is: Assets = Liabilities + Equity. Assets are resources (cash, inventory, equipment, accounts receivable); liabilities are obligations (loans, accounts payable, taxes owed); equity is what remains for owners after liabilities are paid (retained earnings, invested capital). This statement answers: what is the financial position right now? It is a snapshot, not a movie; it shows the state at one moment, not the flow over time."
+      },
+      {
+        "title": "The cash flow statement: where cash went",
+        "content": "The cash flow statement shows where cash came from and where it went over a period, divided into three categories: operating (from core business activities), investing (from buying or selling long-term assets) and financing (from borrowing, repaying debt or equity transactions). This statement answers: where did the cash actually go? It reconciles the profit on the income statement with the change in cash on the balance sheet, explaining why they might differ. A business can be profitable but have negative cash flow (if customers have not paid yet) or unprofitable but have positive cash flow (if it collected advance payments). Cash flow is the oxygen of the business; profit is the story, but cash is what pays the bills."
+      }
+    ],
+    "principles": [
+      "Income statement: revenue minus expenses equals profit over a period.",
+      "Balance sheet: assets equal liabilities plus equity at a moment in time.",
+      "Cash flow statement: operating, investing and financing cash movements over a period.",
+      "Profit is not cash; the cash flow statement reconciles profit with actual cash changes."
+    ],
+    "mistakes": [
+      {
+        "title": "Confusing profit with cash",
+        "explanation": "Profit is accrual-based (recorded when earned); cash is when money arrives. A profitable business can run out of cash."
+      },
+      {
+        "title": "Reading statements in isolation",
+        "explanation": "The three statements connect; reading one alone gives an incomplete picture. Use all three together."
+      },
+      {
+        "title": "Ignoring the cash flow statement",
+        "explanation": "Cash flow explains why profit and cash differ. Ignoring it means missing where cash actually went."
+      },
+      {
+        "title": "Treating the balance sheet as a flow",
+        "explanation": "The balance sheet is a snapshot at a moment, not a flow over time. It shows position, not movement."
+      }
+    ],
+    "practice": [
+      "Read a public company is income statement and identify revenue, major expense categories and net income.",
+      "Read the same company is balance sheet and verify that assets equal liabilities plus equity.",
+      "Read the cash flow statement and identify operating, investing and financing cash flows.",
+      "Reconcile the net income from the income statement with the change in cash on the balance sheet using the cash flow statement.",
+      "For your own finances, create a simple income statement (income minus expenses) and balance sheet (assets minus liabilities) for the last month."
+    ],
+    "reflection": "Can you read all three statements and understand how they connect - and do you understand why profit is not the same as cash?",
+    "safety": "No physical risk; financial statements are tools for understanding, not advice. Consult financial professionals for specific decisions.",
+    "quiz": [
+      {
+        "question": "Profit differs from cash because:",
+        "options": [
+          "Profit is always higher",
+          "Profit uses accrual accounting (recorded when earned), cash is when money arrives",
+          "Profit is calculated differently",
+          "There is no difference"
+        ],
+        "answer": 1,
+        "explanation": "Accrual accounting records revenue when earned and expenses when incurred, not when cash changes hands."
+      },
+      {
+        "question": "The cash flow statement is important because it:",
+        "options": [
+          "Shows profit",
+          "Explains where cash came from and went, reconciling profit with actual cash changes",
+          "Is required by law",
+          "Shows assets and liabilities"
+        ],
+        "answer": 1,
+        "explanation": "Cash flow explains why profit and cash differ; it shows where cash actually went, which is what pays bills."
+      }
+    ],
+    "mastery": [
+      "Read an income statement and identify revenue, expenses and profit.",
+      "Read a balance sheet and verify the fundamental equation (assets = liabilities + equity).",
+      "Read a cash flow statement and identify operating, investing and financing flows.",
+      "Reconcile profit with cash changes using all three statements together."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A business is profitable but running out of cash.",
+          "action": "You read the cash flow statement to see where cash went and the balance sheet to see if receivables are uncollected.",
+          "why": "Profit is not cash; the cash flow statement explains the disconnect and shows where cash actually went."
+        },
+        {
+          "setup": "You want to understand a company is financial health.",
+          "action": "You read all three statements together: income for profitability, balance sheet for position, cash flow for liquidity.",
+          "why": "One statement alone gives an incomplete picture; all three together tell the complete financial story."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Reading statements helps you understand business financial health and make informed decisions."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who reads statements understands the financial story and can ask better questions about business decisions."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Confusing profit and cash",
+          "Reading one statement alone",
+          "Ignoring cash flow"
+        ],
+        "adjustments": [
+          {
+            "if": "You confuse profit and cash",
+            "then": "Read the cash flow statement to see where cash actually went."
+          },
+          {
+            "if": "You read one statement alone",
+            "then": "Use all three together; they connect and tell the complete story."
+          }
+        ],
+        "learning": "After reading statements, note what the story is and where profit differs from cash and why."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Statement Reps",
+      "targetReps": 3
+    }
+  },
+  "biz-finance-cashflow": {
+    "id": "biz-finance-cashflow",
+    "subject": "Business",
+    "title": "Cash Flow & Runway",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Cash flow forecasting predicts future cash position; runway is how long until cash runs out at current burn rate. These are the survival metrics that determine whether a business lives or dies, regardless of profitability.",
+    "objectives": [
+      "Build a simple cash flow forecast: starting cash plus inflows minus outflows",
+      "Calculate burn rate: how much cash is used per month",
+      "Calculate runway: how many months until cash runs out at current burn rate",
+      "Understand that cash flow management is about timing, not just totals",
+      "Recognize the four most common cash flow errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Cash flow and runway",
+        "caption": "Cash flow forecasting predicts future cash position by projecting inflows and outflows. Burn rate is how much cash is used per month; runway is how many months until cash runs out. These are the survival metrics that determine whether a business lives or dies.",
+        "labels": [
+          "Starting cash: what you have now",
+          "Inflows: cash coming in (sales, investments, loans)",
+          "Outflows: cash going out (expenses, payroll, supplies)",
+          "Burn rate: monthly cash used (outflows minus inflows if negative)",
+          "Runway: months until cash runs out (cash divided by burn rate)"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Cash flow forecasting",
+        "content": "A cash flow forecast projects future cash position by estimating inflows (cash coming in from sales, investments, loans) and outflows (cash going out for expenses, payroll, supplies) over a period (typically monthly for six to twelve months). The formula is simple: starting cash plus inflows minus outflows equals ending cash for each period. This forecast answers: will we have enough cash to pay the bills? It is different from profit forecasting because it focuses on when cash arrives and leaves, not when revenue is earned or expenses are incurred. A business can be profitable on paper but run out of cash if customers pay slowly or expenses come due before revenue arrives."
+      },
+      {
+        "title": "Burn rate and runway",
+        "content": "Burn rate is how much cash the business uses per month (outflows minus inflows, if negative). If the business is spending more than it earns, the burn rate is the monthly cash deficit. Runway is how many months until cash runs out at the current burn rate (current cash divided by burn rate). These are the survival metrics: a business with six months of runway has six months to become cash-positive or raise more money; a business with two weeks of runway has two weeks to find a solution or close. Runway is the most important number for any cash-negative business because it is the countdown to survival."
+      },
+      {
+        "title": "Timing matters more than totals",
+        "content": "Cash flow management is about timing, not just totals. A business can have positive cash flow for the year but run out of cash in March if expenses are due before revenue arrives. This is why cash flow forecasting uses monthly or weekly periods rather than annual totals - to identify timing gaps where cash runs low even though the annual picture is positive. The fix for timing gaps is to accelerate inflows (collect faster, require deposits), delay outflows (negotiate longer payment terms), or arrange a line of credit to bridge the gap. Managing timing is what keeps businesses alive through seasonal or cyclical cash flow variations."
+      }
+    ],
+    "principles": [
+      "Cash flow forecast: starting cash plus inflows minus outflows equals ending cash for each period.",
+      "Burn rate: monthly cash used (outflows minus inflows if negative).",
+      "Runway: months until cash runs out (current cash divided by burn rate).",
+      "Timing matters more than totals; monthly or weekly forecasts identify timing gaps that annual totals hide."
+    ],
+    "mistakes": [
+      {
+        "title": "Forecasting annually instead of monthly",
+        "explanation": "Annual totals hide timing gaps. Forecast monthly or weekly to identify when cash runs low."
+      },
+      {
+        "title": "Ignoring burn rate and runway",
+        "explanation": "These are survival metrics. A business without them does not know how long it has to become cash-positive."
+      },
+      {
+        "title": "Confusing profit with cash flow",
+        "explanation": "Profit is accrual-based; cash flow is when money arrives. A profitable business can run out of cash."
+      },
+      {
+        "title": "Not updating forecasts regularly",
+        "explanation": "Cash flow changes with actual results. Update forecasts monthly and adjust plans accordingly."
+      }
+    ],
+    "practice": [
+      "Build a six-month cash flow forecast for your business or personal finances, projecting monthly inflows and outflows.",
+      "Calculate your current burn rate (if cash-negative) or surplus rate (if cash-positive).",
+      "Calculate your runway: how many months until cash runs out at the current burn rate.",
+      "Identify timing gaps: months where cash runs low even though the annual picture is positive.",
+      "Plan fixes for timing gaps: accelerate inflows, delay outflows or arrange credit to bridge."
+    ],
+    "reflection": "Do you know your current runway - and have you identified any timing gaps where cash runs low even though the annual picture is positive?",
+    "safety": "No physical risk; cash flow forecasting is a planning tool, not a guarantee. Actual results will differ from forecasts; update regularly and adjust plans.",
+    "quiz": [
+      {
+        "question": "Runway is calculated as:",
+        "options": [
+          "Revenue divided by expenses",
+          "Current cash divided by monthly burn rate",
+          "Profit divided by months",
+          "Assets divided by liabilities"
+        ],
+        "answer": 1,
+        "explanation": "Runway is how many months until cash runs out at the current burn rate; it is the countdown to survival."
+      },
+      {
+        "question": "Cash flow forecasting uses monthly periods because:",
+        "options": [
+          "It is easier to calculate",
+          "Annual totals hide timing gaps where cash runs low even though the annual picture is positive",
+          "Monthly is required by law",
+          "Annual forecasts are inaccurate"
+        ],
+        "answer": 1,
+        "explanation": "Timing matters more than totals; monthly forecasts identify when cash runs low so you can fix timing gaps."
+      }
+    ],
+    "mastery": [
+      "Build a monthly cash flow forecast for six to twelve months.",
+      "Calculate burn rate and runway for a cash-negative business.",
+      "Identify timing gaps where cash runs low despite positive annual totals.",
+      "Plan fixes for timing gaps: accelerate inflows, delay outflows or arrange credit."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your business is profitable but cash is running low.",
+          "action": "You build a monthly cash flow forecast to identify timing gaps and plan fixes (collect faster, delay payments, arrange credit).",
+          "why": "Profit is not cash; timing gaps cause cash shortages even in profitable businesses."
+        },
+        {
+          "setup": "You are considering a large expense or investment.",
+          "action": "You check your runway and cash flow forecast to ensure you have enough cash to survive the expense.",
+          "why": "Runway is the countdown to survival; large expenses reduce runway and must be planned for."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Cash flow forecasting and runway management keep businesses alive through timing variations and cash-negative periods."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who manages cash flow and runway keeps the business alive; one who ignores them runs out of cash regardless of profitability."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "No cash flow forecast",
+          "Unknown runway",
+          "Timing gaps unidentified"
+        ],
+        "adjustments": [
+          {
+            "if": "You have no forecast",
+            "then": "Build a monthly cash flow forecast for six months to identify timing gaps."
+          },
+          {
+            "if": "You do not know your runway",
+            "then": "Calculate it: current cash divided by monthly burn rate."
+          }
+        ],
+        "learning": "After each month, compare actual cash flow to forecast and update the forecast for future months."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Forecast Reps",
+      "targetReps": 3
+    }
+  },
+  "biz-finance-capital": {
+    "id": "biz-finance-capital",
+    "subject": "Business",
+    "title": "Funding & Capital Decisions",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Businesses need capital to grow; the sources are bootstrapping (self-funded), debt (borrowed) and equity (ownership sold). Each has tradeoffs: control, cost and risk. The right choice depends on the business stage, risk and growth plans.",
+    "objectives": [
+      "Distinguish bootstrapping, debt and equity funding",
+      "Understand the tradeoffs: control, cost and risk for each source",
+      "Know when each source is appropriate based on business stage and plans",
+      "Understand dilution: selling equity means sharing ownership and control",
+      "Recognize the four most common funding errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Three funding sources, three tradeoffs",
+        "caption": "Capital comes from three sources with different tradeoffs: bootstrapping (self-funded, full control, limited scale), debt (borrowed, interest cost, must repay), equity (ownership sold, no repayment, shared control). The right choice depends on business stage, risk and growth plans.",
+        "labels": [
+          "Bootstrapping: self-funded from profits or personal savings; full control, limited scale",
+          "Debt: borrowed money that must be repaid with interest; keeps control, adds risk",
+          "Equity: ownership sold to investors; no repayment, shared control and future profits",
+          "Tradeoffs: control versus scale, cost versus risk, independence versus resources",
+          "The right choice depends on business stage, risk tolerance and growth plans"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Three sources, three tradeoffs",
+        "content": "Capital comes from three sources, each with different tradeoffs. Bootstrapping is self-funding from profits or personal savings; it maintains full control but limits scale to what you can afford. Debt is borrowing money that must be repaid with interest; it maintains control but adds financial risk (if the business fails, you still owe the debt). Equity is selling ownership to investors; it provides capital without repayment but shares control and future profits. Each source has a place: bootstrapping for early validation, debt for predictable cash flows that can service the debt, equity for high-growth opportunities that need capital faster than profits can provide."
+      },
+      {
+        "title": "When each source is appropriate",
+        "content": "The right funding source depends on business stage, risk and growth plans. Bootstrapping is appropriate for early-stage businesses that are validating the idea and can grow slowly from profits; it forces discipline and proves the concept before taking on risk. Debt is appropriate for businesses with predictable cash flows that can service the debt (make regular payments); it is common for established businesses buying equipment or real estate. Equity is appropriate for high-growth opportunities that need capital faster than profits can provide; it is common for startups pursuing large markets where speed matters more than control. The wrong choice is expensive: taking equity too early dilutes ownership unnecessarily; taking debt too early adds risk before the business is proven."
+      },
+      {
+        "title": "Dilution and control",
+        "content": "Selling equity means selling ownership and control. Each round of equity funding dilutes your ownership percentage; if you sell 20% in the first round and 20% in the second, you own 64% (80% of 80%), not 60%. This dilution also means sharing control; investors typically get board seats and approval rights over major decisions. This is the tradeoff for capital without repayment: you get resources but lose some independence. The key is to raise only what you need at each stage, not the maximum available, so you minimize dilution and maintain control for as long as possible. Founders who raise too much too early often find themselves working for their investors rather than for themselves."
+      }
+    ],
+    "principles": [
+      "Three sources: bootstrapping (self-funded), debt (borrowed), equity (ownership sold).",
+      "Tradeoffs: control versus scale, cost versus risk, independence versus resources.",
+      "Right choice depends on business stage, risk tolerance and growth plans.",
+      "Dilution: selling equity means sharing ownership and control; raise only what you need."
+    ],
+    "mistakes": [
+      {
+        "title": "Taking equity too early",
+        "explanation": "Early equity dilutes ownership unnecessarily. Bootstrap to validate, then consider equity for growth."
+      },
+      {
+        "title": "Taking debt before cash flow is predictable",
+        "explanation": "Debt must be repaid regardless of business performance. Take it only when cash flows can service it."
+      },
+      {
+        "title": "Raising the maximum available equity",
+        "explanation": "Raise only what you need to minimize dilution and maintain control. More is not always better."
+      },
+      {
+        "title": "Ignoring the tradeoffs",
+        "explanation": "Each source has tradeoffs. Choose based on business stage, risk and growth plans, not just availability."
+      }
+    ],
+    "practice": [
+      "For your business or a hypothetical one, identify which funding source is appropriate for the current stage and why.",
+      "Calculate dilution: if you sell 20% in round one and 20% in round two, what percentage do you own?",
+      "Research the tradeoffs of each source: control, cost, risk and appropriate use cases.",
+      "For a business idea, plan the funding path: bootstrap to validate, debt for predictable growth, equity for high-growth.",
+      "Interview a founder who has used each funding source and learn from their experience and mistakes."
+    ],
+    "reflection": "Do you understand the tradeoffs of each funding source - and can you identify which is appropriate for your business stage and growth plans?",
+    "safety": "No physical risk; funding decisions are financial, not physical. Consult financial and legal professionals before making funding decisions, especially for debt and equity.",
+    "quiz": [
+      {
+        "question": "Equity funding is appropriate when:",
+        "options": [
+          "The business is just starting and validating the idea",
+          "The business has predictable cash flows that can service debt",
+          "The business needs capital faster than profits can provide for high-growth opportunities",
+          "The founder wants to maintain full control"
+        ],
+        "answer": 2,
+        "explanation": "Equity provides capital without repayment but shares control; it is for high-growth where speed matters more than control."
+      },
+      {
+        "question": "Dilution from selling equity means:",
+        "options": [
+          "The business loses money",
+          "The founder is ownership percentage decreases with each round, sharing control",
+          "The business must repay the money",
+          "The business grows slower"
+        ],
+        "answer": 1,
+        "explanation": "Selling equity sells ownership; each round dilutes the founder is percentage and shares control with investors."
+      }
+    ],
+    "mastery": [
+      "Distinguish bootstrapping, debt and equity funding and their tradeoffs.",
+      "Identify which funding source is appropriate based on business stage, risk and growth plans.",
+      "Calculate dilution from multiple equity rounds and understand the control implications.",
+      "Plan a funding path that minimizes dilution and matches the business needs at each stage."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your business needs capital to grow.",
+          "action": "You evaluate the three sources based on your stage, risk tolerance and growth plans, then choose the appropriate one.",
+          "why": "Each source has tradeoffs; the right choice depends on your specific situation, not just availability."
+        },
+        {
+          "setup": "An investor offers more money than you need.",
+          "action": "You raise only what you need to minimize dilution and maintain control for as long as possible.",
+          "why": "More equity sold means more dilution and shared control; raise what you need, not the maximum available."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Understanding funding sources helps you choose the right capital for your business stage and maintain control while growing."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A founder who understands funding tradeoffs makes better decisions and avoids expensive mistakes like early dilution or premature debt."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Taking equity too early",
+          "Taking debt too early",
+          "Raising too much equity"
+        ],
+        "adjustments": [
+          {
+            "if": "You consider equity too early",
+            "then": "Bootstrap to validate first; take equity only for proven high-growth opportunities."
+          },
+          {
+            "if": "You consider debt too early",
+            "then": "Wait until cash flows are predictable and can service the debt."
+          }
+        ],
+        "learning": "After each funding decision, note whether the source matched your stage and plans, and what you would do differently next time."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Funding Reps",
+      "targetReps": 3
+    }
   }
 }

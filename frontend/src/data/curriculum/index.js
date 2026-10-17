@@ -887,6 +887,68 @@ export default {
           ]
         }
       }
+    },
+    "herbalism": {
+      "name": "Plant Medicine",
+      "icon": "🌿",
+      "description": "Leaves, roots, bark: traditional uses and modern caution.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Identification, preparations and the safety ceiling.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Plant Medicine Foundations",
+              "lessons": [
+                {
+                  "id": "med-herb-identification",
+                  "title": "Reading a Plant - Safe Identification"
+                },
+                {
+                  "id": "med-herb-preparations",
+                  "title": "Preparations - Teas, Tinctures, Poultices"
+                },
+                {
+                  "id": "med-herb-ceiling",
+                  "title": "Safety, Interactions & the Referral Ceiling"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "anatomy": {
+      "name": "Anatomy & Physiology",
+      "icon": "🦴",
+      "description": "The machines inside: bones, muscles, organs, systems.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The frame, the movers, and the organ systems at a glance.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Anatomy Foundations",
+              "lessons": [
+                {
+                  "id": "med-anatomy-skeleton",
+                  "title": "The Skeletal Frame"
+                },
+                {
+                  "id": "med-anatomy-muscles",
+                  "title": "Muscles & Movement"
+                },
+                {
+                  "id": "med-anatomy-systems",
+                  "title": "Organ Systems at a Glance"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   },
   "business": {
@@ -945,6 +1007,37 @@ export default {
                 {
                   "id": "biz-marketing-offers",
                   "title": "Offers & the First Yes"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "finance": {
+      "name": "Finance",
+      "icon": "📊",
+      "description": "Reading the numbers that tell the truth.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Statements, cash flow and capital decisions.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Finance Foundations",
+              "lessons": [
+                {
+                  "id": "biz-finance-statements",
+                  "title": "Reading Financial Statements"
+                },
+                {
+                  "id": "biz-finance-cashflow",
+                  "title": "Cash Flow & Runway"
+                },
+                {
+                  "id": "biz-finance-capital",
+                  "title": "Funding & Capital Decisions"
                 }
               ]
             }
