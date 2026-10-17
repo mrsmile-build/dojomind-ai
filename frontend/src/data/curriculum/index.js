@@ -815,5 +815,38 @@ export default {
         }
       }
     }
+  },
+  "skills": {
+    "focus": {
+      "name": "Focus & Attention",
+      "icon": "🧘",
+      "description": "Train the attention muscle everything else depends on.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The rep, the environment, and the deep block.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Focus Foundations",
+              "lessons": [
+                {
+                  "id": "skills-focus-attention",
+                  "title": "The Attention Muscle"
+                },
+                {
+                  "id": "skills-focus-distraction",
+                  "title": "Designing Against Distraction"
+                },
+                {
+                  "id": "skills-focus-deepwork",
+                  "title": "Deep Work Blocks & Real Rest"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
   }
 };

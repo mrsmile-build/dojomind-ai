@@ -21516,5 +21516,491 @@ export const lessons = {
       "label": "Offer Reps",
       "targetReps": 3
     }
+  },
+  "skills-focus-attention": {
+    "id": "skills-focus-attention",
+    "subject": "Skills",
+    "title": "The Attention Muscle",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Attention is a trainable muscle, not a mood: it wanders, you notice, you return - and each return is one rep. Learn the rep, and learn why every task-switch taxes you twice.",
+    "objectives": [
+      "Treat wandering as normal and the return as the rep",
+      "Feel attention residue: the tax left behind by every switch",
+      "Practice single-tasking with one open loop at a time",
+      "Return without self-attack; the notice is the success",
+      "Recognize the four most common attention errors"
+    ],
+    "visuals": [
+      {
+        "type": "attention-loop",
+        "title": "Focus, wander, notice, return",
+        "caption": "The loop is the workout. Wandering is not failure - failing to notice is the only miss. Each gentle return is one rep that strengthens the muscle you use for everything else.",
+        "phases": [
+          {
+            "label": "Focus",
+            "note": "one object, one open loop",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Wander",
+            "note": "the mind leaves - normal",
+            "x": 140,
+            "y": 70,
+            "glow": false,
+            "cloud": true
+          },
+          {
+            "label": "Notice",
+            "note": "the moment of success",
+            "x": 122,
+            "y": 84,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Return",
+            "note": "back gently, no self-attack",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The rep, not the streak",
+        "content": "Beginners believe focus means never wandering, so the first wander feels like failure and the session collapses. The truth is the opposite: wandering is what minds do, and the rep is the return. Focus, wander, notice, return - the notice-and-return is the contraction that builds the muscle, exactly like a bicep curl builds nothing by holding still. A work session with twenty noticed wanders and twenty gentle returns is a strong session; a session you believe had none is usually one where the wanders went unnoticed and ran the show."
+      },
+      {
+        "title": "The switch tax",
+        "content": "Every time you jump from the report to a message and back, part of your attention stays stuck on the message - psychologists call it attention residue, and it is why interrupted work feels tired and reads badly. The tax is paid twice: once leaving (the cost of disengaging) and once returning (the cost of reloading context). This is why ten quick checks do not cost ten seconds each; they cost the reload every time. Single-tasking is not a moral virtue, it is tax avoidance: one open loop until it closes or is parked in writing."
+      },
+      {
+        "title": "Returning without the whip",
+        "content": "The quality of the return decides whether the muscle grows or the session dies. A harsh return - annoyance, self-insult, yanking attention back - adds agitation that becomes the next distraction. A gentle return - oh, I drifted; here is the sentence again - keeps the loop clean and repeatable. This is the same skill meditation trains, aimed at a spreadsheet instead of a breath: the object changes, the rep does not. People who seem naturally focused have usually just accumulated more gentle reps than you, starting earlier."
+      }
+    ],
+    "principles": [
+      "Wandering is normal; the notice-and-return is the rep that builds the muscle.",
+      "Every switch leaves attention residue and pays the reload tax.",
+      "One open loop at a time: single-tasking is tax avoidance.",
+      "Return gently; self-attack becomes the next distraction."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating the first wander as failure",
+        "explanation": "Wandering is the setup for the rep. The session is the returns, not the absence of drift."
+      },
+      {
+        "title": "Quick-checking messages mid-task",
+        "explanation": "Each check pays the reload tax and leaves residue. Park loops in writing instead of visiting them."
+      },
+      {
+        "title": "Yanking attention back with annoyance",
+        "explanation": "Harsh returns add agitation that distracts again. Gentle is repeatable; harsh is not."
+      },
+      {
+        "title": "Measuring focus by feeling busy",
+        "explanation": "Busyness is switching; focus is closing. Count loops closed, not tabs touched."
+      }
+    ],
+    "practice": [
+      "Set a ten-minute single-loop timer; count wanders on paper, return gently each time.",
+      "Work one document with everything else closed; note the reload feeling when you resist a check.",
+      "Park every intruding thought in a notebook line instead of acting on it, ten reps.",
+      "After each switch you must make, say aloud what you are leaving and what you return to.",
+      "End the day counting loops closed, not hours sat."
+    ],
+    "reflection": "In your last work hour, how many times did you notice yourself wandering - and how many of those returns were gentle?",
+    "safety": "No physical risk; if attention problems come with exhaustion, sleep debt or distress, treat the cause first - focus training cannot outrun an empty tank.",
+    "quiz": [
+      {
+        "question": "In attention training, the rep that builds the muscle is:",
+        "options": [
+          "Never wandering",
+          "Noticing the wander and returning gently",
+          "Working longer hours",
+          "Blocking all sound"
+        ],
+        "answer": 1,
+        "explanation": "The notice-and-return is the contraction; a wander-free session is a myth and an unnoticed wander is a lost rep."
+      },
+      {
+        "question": "Attention residue means:",
+        "options": [
+          "Dirt on the screen",
+          "Part of your attention stays stuck on the task you switched from",
+          "Memory of old emails",
+          "Tired eyes"
+        ],
+        "answer": 1,
+        "explanation": "Switching leaves residue and pays a reload cost on return, which is why interrupted work feels tired and reads badly."
+      }
+    ],
+    "mastery": [
+      "Count wanders without judging them and return gently each time.",
+      "Keep one open loop and park intruders in writing.",
+      "Feel and name the reload tax when you resist a switch.",
+      "Measure the day by loops closed, not by busyness."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A message ping pulls you out mid-paragraph.",
+          "action": "You finish the sentence, park the ping in writing, and return to the paragraph before opening anything.",
+          "why": "Finishing the loop and parking the intruder avoids the residue and reload tax the ping was selling you."
+        },
+        {
+          "setup": "You drift into your phone and feel annoyed at yourself.",
+          "action": "You name the drift out loud, set the phone down gently, and re-read the last line without comment.",
+          "why": "A gentle return keeps the rep clean; the whip would have added the next distraction."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Trained returns make deep work recoverable all day instead of a morning-only luxury."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A single-tasker closes loops visibly; their work arrives finished rather than interrupted-shaped."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Harsh returns",
+          "Quick-check habit",
+          "Busyness as metric"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch the whip",
+            "then": "Reset with one breath and re-read the last line; slow is the fix."
+          },
+          {
+            "if": "Checks creep in",
+            "then": "Move the phone out of reach and batch checks into windows."
+          }
+        ],
+        "learning": "After each session, record wanders noticed, returns gentle, and loops closed."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Single-Loop Block",
+      "initialTime": 600
+    }
+  },
+  "skills-focus-distraction": {
+    "id": "skills-focus-distraction",
+    "subject": "Skills",
+    "title": "Designing Against Distraction",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Willpower loses to design every time. Put the phone in another room, silence the pings, close the tabs, and make the good path the lazy path - friction is the steering wheel.",
+    "objectives": [
+      "Separate external triggers (pings, people) from internal ones (boredom, anxiety)",
+      "Add friction to distractions and remove it from the work",
+      "Use the phone-distance rule: another room beats face-down",
+      "Batch communication into windows instead of dripping all day",
+      "Recognize the four most common design errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Friction is the steering wheel",
+        "caption": "You do not need more discipline, you need better geography. Every second of friction you add to a distraction and remove from the work changes what your tired brain chooses at 3pm.",
+        "labels": [
+          "Phone in another room beats face-down on the desk",
+          "Notifications off; communication arrives in windows, not drips",
+          "One tab, one document, one open loop",
+          "Make starting lazy-proof: leave yesterday is note open",
+          "Boredom and anxiety are triggers too - name them before feeding them"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Environment beats willpower",
+        "content": "Willpower is a battery and design is a wall: the wall does not run out. Every study of phone proximity agrees on the direction - a device in another room costs less attention than one face-down on the desk, because part of you is always holding the door. So stop negotiating with the phone twenty times an hour and change the geography once: other room, notifications off, tabs closed to one. The heroic version of focus is a story; the designed version is a schedule."
+      },
+      {
+        "title": "Friction both directions",
+        "content": "Behavior follows the path of least resistance, so steer with friction: add seconds to distractions (phone away, blocker on feeds, door closed) and remove seconds from the work (document left open at the right line, tools loaded, next step written down before you stop). The second half is the neglected one - most people defend the block fiercely and then make restarting it hard, so the next session dies at the doorway. Leave yourself a ramp: the last thing you write before stopping is the first thing you will do when returning."
+      },
+      {
+        "title": "The triggers inside",
+        "content": "External pings are only half the story; the other half is internal - boredom, anxiety, loneliness, the itch of an unsolved feeling that makes the feed look like medicine. Naming the internal trigger (I am not hungry for news, I am avoiding the hard paragraph) defuses much of its pull, because a named urge is a sensation while an unnamed one is a command. Then feed it correctly: the hard paragraph needs a smaller next step, not a scroll; the anxiety needs two written lines, not twenty checked ones. Design the room and know the itch, and distraction loses both of its hands."
+      }
+    ],
+    "principles": [
+      "Design beats willpower: change geography once instead of negotiating hourly.",
+      "Add friction to distractions; remove friction from starting the work.",
+      "Communication in windows, not drips; batching protects every block between them.",
+      "Internal triggers (boredom, anxiety) are named before they are fed."
+    ],
+    "mistakes": [
+      {
+        "title": "Phone face-down on the desk",
+        "explanation": "Proximity still costs attention. Other room, or at least out of sight and reach."
+      },
+      {
+        "title": "Notifications on just in case",
+        "explanation": "Dripping pings fragment every block. Windows twice or thrice a day cover real urgency."
+      },
+      {
+        "title": "Defending the block but hardening the restart",
+        "explanation": "A block that dies at the doorway wastes its defense. Leave the ramp: next step written open."
+      },
+      {
+        "title": "Feeding internal triggers with feeds",
+        "explanation": "Boredom and anxiety want a smaller next step or two written lines, not a scroll."
+      }
+    ],
+    "practice": [
+      "Move the phone to another room for one work block; note the reach-feeling and its fade.",
+      "Turn notifications off and set two communication windows; tell one person the schedule.",
+      "Before stopping work, write the exact next step and leave the document open at it.",
+      "Catch one internal trigger today, name it aloud, and give it the correct feed.",
+      "Audit your desk: list every object that pings or tempts, and relocate two of them."
+    ],
+    "reflection": "What is currently one second away that should be twenty - and what should be one second away that is not?",
+    "safety": "No physical risk; keep one channel reachable for genuine emergencies during blocks - design should protect focus, not safety.",
+    "quiz": [
+      {
+        "question": "A phone face-down on the desk still costs attention because:",
+        "options": [
+          "It might ring loudly",
+          "Part of your attention holds the door against it",
+          "It blocks the keyboard",
+          "It reflects light"
+        ],
+        "answer": 1,
+        "explanation": "Proximity consumes suppression effort; distance is free, which is why another room beats discipline."
+      },
+      {
+        "question": "Batching communication into windows protects focus by:",
+        "options": [
+          "Making replies faster",
+          "Stopping the drip of pings from fragmenting every block",
+          "Reducing message count",
+          "Impressing colleagues"
+        ],
+        "answer": 1,
+        "explanation": "Each drip is a switch with residue and reload cost; windows concentrate the switching instead of spreading it."
+      }
+    ],
+    "mastery": [
+      "Set up a block geography: phone away, pings off, one tab.",
+      "Write the restart ramp before every stop.",
+      "Name one internal trigger and feed it correctly each day.",
+      "Hold two communication windows and honor them."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You keep reaching for the phone mid-block without deciding to.",
+          "action": "You relocate it to another room and leave a written next step as the only one-second-away object.",
+          "why": "Geography removes the hourly negotiation; the ramp makes the good path the lazy path."
+        },
+        {
+          "setup": "Boredom sends you to feeds at the hard part.",
+          "action": "You name the urge aloud and shrink the task to a two-minute next step instead.",
+          "why": "A named internal trigger loses its command voice; the correct feed is a smaller step, not a scroll."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Designed friction makes focus the default choice of your tired brain, not its heroic exception."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person whose environment protects their blocks delivers deep work on ordinary days."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Reach-feeling during blocks",
+          "Dripping pings",
+          "Hard restarts"
+        ],
+        "adjustments": [
+          {
+            "if": "You still reach",
+            "then": "Add distance or friction until the reach costs a stand-up."
+          },
+          {
+            "if": "Restarts stall",
+            "then": "Write the next step before stopping, every stop, no exceptions."
+          }
+        ],
+        "learning": "After each week, note which friction change held and which temptation out-designed you."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Designed Block",
+      "initialTime": 1500
+    }
+  },
+  "skills-focus-deepwork": {
+    "id": "skills-focus-deepwork",
+    "subject": "Skills",
+    "title": "Deep Work Blocks & Real Rest",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Schedule the deep block like a meeting with edges - a start, one outcome, a shutdown line - and rest like it is part of the work, because recovery is where the block pays out.",
+    "objectives": [
+      "Schedule a fixed deep block with a start, an end and one written outcome",
+      "Protect the edges with a shutdown line and a restart ramp",
+      "Break on purpose: stand, walk, look far - not a second screen",
+      "Match block length to your real span, then grow it slowly",
+      "Recognize the four most common block errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The block and its edges",
+        "caption": "A block without edges is just anxiety with a timer. The start names one outcome, the middle holds one loop, the end draws a line and leaves a ramp - and the rest afterwards is where the work quietly finishes itself.",
+        "labels": [
+          "Start: one outcome written in a single sentence",
+          "Middle: one open loop, distractions parked outside",
+          "End: shutdown line - what got done, what comes next",
+          "Break: stand, walk, water, far gaze - not a second screen",
+          "Rest: sleep and boredom are where insight lands"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The block is a meeting",
+        "content": "Nobody skips a meeting with a client, yet the most valuable appointment of the day - the block where the hard thinking happens - gets cancelled by anything that pings. The fix is ceremonial, not heroic: put the block in the calendar with a start and an end, and write its single outcome in one sentence before beginning (finish the pricing section, not work on proposal). One outcome keeps the block honest about success; a start and end keep it from bleeding into the whole day, which is how burnout disguises itself as dedication."
+      },
+      {
+        "title": "Edges: shutdown and ramp",
+        "content": "Open loops leak: an unfinished task keeps whispering after the block ends, taxing evenings and sleep. The shutdown line closes the day on purpose - a minute of writing what got done and exactly what comes next, then a phrase that ends it (shutdown complete). That written next step doubles as tomorrow is ramp, so the following block starts moving instead of orienting. Blocks with good edges compound; blocks without them smear, and smeared days produce neither deep work nor real rest, only tired noise."
+      },
+      {
+        "title": "Rest is part of the work",
+        "content": "The block pays out during the break, not only inside it: walks, far gazes and idle minutes are when the background mind connects what the focused mind loaded. A break on a second screen is not rest, it is a context switch with snacks - same residue, same reload. So break on purpose: stand, walk, water, look at something distant, let boredom exist. And protect sleep without apology, because every cognitive measure you care about - attention, memory, mood - is rented from it nightly. Treating rest as part of the method is what makes deep work sustainable for years instead of weeks."
+      }
+    ],
+    "principles": [
+      "A deep block is a scheduled meeting: start, end, one written outcome.",
+      "The shutdown line closes open loops; the written next step is tomorrow is ramp.",
+      "Breaks are work: walk, water, far gaze - never a second screen.",
+      "Sleep and boredom are where insight lands; protect them without apology."
+    ],
+    "mistakes": [
+      {
+        "title": "Blocks without edges",
+        "explanation": "Open-ended deep work smears into the whole day and burns out. Start, end, one outcome."
+      },
+      {
+        "title": "Skipping the shutdown line",
+        "explanation": "Unwritten open loops whisper all evening. Close the day on paper, then close it in your head."
+      },
+      {
+        "title": "Breaking on a second screen",
+        "explanation": "Feeds are context switches, not rest. Stand, walk, look far, let boredom exist."
+      },
+      {
+        "title": "Growing block length by ego",
+        "explanation": "Two heroic hours that collapse beat four planned ones that never start. Match your real span, add minutes slowly."
+      }
+    ],
+    "practice": [
+      "Put one 45-minute block in tomorrow is calendar with a one-sentence outcome.",
+      "Before it starts, write the outcome; at the end, write the shutdown line and next step.",
+      "Take one true break: ten-minute walk without phone; note what surfaced.",
+      "Run three blocks this week at your honest span; add five minutes next week.",
+      "Track sleep hours beside block quality for seven days and look for the pattern."
+    ],
+    "reflection": "Did your last deep block have edges and a shutdown line, or did it smear until something external stopped you?",
+    "safety": "No physical risk; if fatigue or low mood make blocks impossible, treat recovery and causes first - scheduling cannot outrun an empty tank.",
+    "quiz": [
+      {
+        "question": "A deep block needs which three things at the start?",
+        "options": [
+          "Coffee, music, silence",
+          "A start time, an end time and one written outcome",
+          "A long to-do list",
+          "A clean inbox"
+        ],
+        "answer": 1,
+        "explanation": "Edges keep the block from smearing and the single outcome makes success checkable at the end."
+      },
+      {
+        "question": "A break on a second screen fails because it:",
+        "options": [
+          "Strains the eyes only",
+          "Is a context switch with residue, not rest",
+          "Costs money",
+          "Takes too long"
+        ],
+        "answer": 1,
+        "explanation": "Rest requires leaving the loop, not swapping it; walks and far gazes let the background mind connect."
+      }
+    ],
+    "mastery": [
+      "Schedule blocks with start, end and one outcome, and honor the edges.",
+      "Run a shutdown line and leave a restart ramp every time.",
+      "Take true breaks and protect sleep as part of the method.",
+      "Grow block length from your real span, slowly."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your evenings replay unfinished work.",
+          "action": "You add the shutdown line: done/next written, phrase spoken, loop closed on paper.",
+          "why": "Written closure stops the leak; the whisper needs an owner and a date, not your evening."
+        },
+        {
+          "setup": "Blocks collapse after forty minutes.",
+          "action": "You schedule thirty-five with a five-minute ramp-in, and add five minutes per week.",
+          "why": "Matching the real span builds the muscle; ego lengths build failure memories."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Edged blocks plus real rest produce deep output on ordinary days, sustainably for years."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who shuts down cleanly returns tomorrow already moving - compounding while others re-orient."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Smearing days",
+          "Evening replay",
+          "Screen breaks"
+        ],
+        "adjustments": [
+          {
+            "if": "The block smears",
+            "then": "Shorten it and defend the end harder; edges before length."
+          },
+          {
+            "if": "Evenings replay",
+            "then": "Write the shutdown line before leaving the desk, every day, no exceptions."
+          }
+        ],
+        "learning": "After each week, compare block quality against sleep and break quality, and adjust one variable."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Deep Block",
+      "initialTime": 2700
+    }
   }
 }
