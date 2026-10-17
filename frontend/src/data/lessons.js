@@ -21057,5 +21057,464 @@ export const lessons = {
       "label": "Decision Reps",
       "targetReps": 5
     }
+  },
+  "biz-marketing-positioning": {
+    "id": "biz-marketing-positioning",
+    "subject": "Business",
+    "title": "Positioning - The Obvious Choice",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Positioning is the sentence that makes you the obvious choice for one kind of person: for X who need Y, we are the Z that W. Category, alternative, difference, proof - four slots, no jargon.",
+    "objectives": [
+      "Fill the four positioning slots: who, need, category, difference",
+      "State the alternative the customer leaves behind, including doing nothing",
+      "Keep the sentence in customer words, not industry words",
+      "Back the difference with one piece of proof",
+      "Recognize the four most common positioning errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The positioning sentence",
+        "caption": "If a stranger cannot repeat your sentence after hearing it once, it is not positioning, it is noise. Four slots, plain words, one provable difference - that is the whole craft at beginner level.",
+        "labels": [
+          "For X: one kind of person, named plainly",
+          "Who need Y: the job or pain in their words",
+          "We are the Z: the category they already understand",
+          "That W: the one difference you can prove",
+          "Test: a stranger repeats it back correctly"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Four slots, one sentence",
+        "content": "Positioning is not a vibe or a logo; it is a sentence with four slots: for this kind of person, who needs this, we are this familiar category, that does this one different thing. For freelance designers who need clients to say yes faster, we are the proposal tool that shows price options side by side. Hear how little jargon it takes and how much deciding it does: every page, post and pitch afterwards inherits those four choices. A sentence a stranger can repeat back is positioning; a paragraph they skim is brochure."
+      },
+      {
+        "title": "The alternative you must beat",
+        "content": "Every positioning lives next to the thing the customer does today - a competitor, a spreadsheet, a nephew with a laptop, or nothing at all. Naming the alternative is not generosity, it is targeting: your difference only means something relative to it. Cheaper than the agency, faster than the nephew, safer than doing nothing. When the alternative is inertia, the difference must reduce risk or effort, because that is what inertia defends. Skip this slot and your difference floats free of any comparison, which is why so many brands sound identical - they are all different from nothing."
+      },
+      {
+        "title": "Proof or it is poetry",
+        "content": "The difference slot carries a claim, and claims are cheap; the fourth discipline is attaching one piece of proof - a number, a named customer, a before/after, a guarantee that puts your money where the claim is. Proof converts a sentence into a reason. It also forces honesty: if you cannot prove the difference, you have either chosen the wrong difference or not earned it yet, and both are useful discoveries before spending a euro on advertising. Positioning without proof is poetry; with proof it is a promise the market can check."
+      }
+    ],
+    "principles": [
+      "Positioning is one sentence with four slots: who, need, category, difference.",
+      "Name the alternative you replace, including doing nothing.",
+      "Use customer words; jargon signals insider, not obvious.",
+      "Attach one piece of proof or the difference is poetry."
+    ],
+    "mistakes": [
+      {
+        "title": "Positioning for everyone",
+        "explanation": "A sentence that fits all fits none. One kind of person, plainly named."
+      },
+      {
+        "title": "Category invention",
+        "explanation": "New categories need education budgets. Borrow a category they already understand, then differ inside it."
+      },
+      {
+        "title": "Difference without an alternative",
+        "explanation": "Different from nothing is meaningless. State what they stop using or stop enduring."
+      },
+      {
+        "title": "Unprovable differences",
+        "explanation": "Fastest, best, world-class are unfalsifiable. Choose a difference with a number or a name behind it."
+      }
+    ],
+    "practice": [
+      "Write your four-slot sentence; read it to one stranger and ask them to repeat it.",
+      "Name the three alternatives including doing nothing, and what each costs them.",
+      "Replace every jargon word in the sentence with the customer word.",
+      "Attach one proof item to the difference slot; if none exists, plan the cheapest way to earn one.",
+      "Rewrite the sentence three times, cutting words each time, keeping all four slots."
+    ],
+    "reflection": "Could a stranger repeat your positioning sentence after one hearing, or did it need a second paragraph to survive?",
+    "safety": "No physical risk; the cost of bad positioning is wasted spend and months, so test the sentence in conversations before paying for reach.",
+    "quiz": [
+      {
+        "question": "The alternative slot matters because:",
+        "options": [
+          "It names competitors for legal reasons",
+          "A difference only means something relative to what they do today",
+          "It fills space in the sentence",
+          "It flatters the customer"
+        ],
+        "answer": 1,
+        "explanation": "Without the comparison, differences float free and every brand sounds the same; inertia is usually the real alternative."
+      },
+      {
+        "question": "A positioning difference becomes a reason when it carries:",
+        "options": [
+          "An adjective like best",
+          "One piece of proof: number, name, before/after or guarantee",
+          "A logo",
+          "A longer explanation"
+        ],
+        "answer": 1,
+        "explanation": "Claims are cheap and checkable proof is not; proof is what converts a sentence into a promise the market can verify."
+      }
+    ],
+    "mastery": [
+      "Write a four-slot sentence a stranger can repeat.",
+      "Name the alternative including doing nothing.",
+      "Use customer words throughout.",
+      "Attach provable proof to the difference."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your website bounce rate is high and enquiries are vague.",
+          "action": "You rewrite the homepage headline as the four-slot sentence and watch enquiry quality change.",
+          "why": "The first line is positioning delivered; vague first lines attract vague fits."
+        },
+        {
+          "setup": "A prospect says we already have someone for that.",
+          "action": "You ask what that someone costs them in time or risk, and position against that gap with proof.",
+          "why": "You are not replacing the incumbent, you are replacing its weakest consequence."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "One sentence aligns every channel and sales conversation, so effort compounds instead of scattering."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A clearly positioned seller is easy to refer and hard to confuse with rivals."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Sentence needs a paragraph",
+          "Jargon creeping in",
+          "No proof available"
+        ],
+        "adjustments": [
+          {
+            "if": "Strangers cannot repeat it",
+            "then": "Cut clauses until the four slots stand alone."
+          },
+          {
+            "if": "Proof is missing",
+            "then": "Pick a smaller provable difference now and earn the bigger one later."
+          }
+        ],
+        "learning": "After each use of the sentence, note where it broke down and which slot was weakest."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Sentence Reps",
+      "targetReps": 3
+    }
+  },
+  "biz-marketing-channels": {
+    "id": "biz-marketing-channels",
+    "subject": "Business",
+    "title": "Channels - Where Attention Lives",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Marketing fails mostly by scattering: five channels at ten percent beat one channel at mastery. Learn to pick where your customer already pays attention and do the channel math before spending.",
+    "objectives": [
+      "List where your specific customer already pays attention today",
+      "Choose one channel to master before adding a second",
+      "Do the channel math: reach times response times margin",
+      "Distinguish owned, earned and paid attention and why owned compounds",
+      "Recognize the four most common channel errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "One channel, mastered",
+        "caption": "Attention is not created by marketing, it is rented or owned where it already exists. The beginner move is to rent one place deeply, learn its language, and only then add a second - scattering is how budgets evaporate.",
+        "labels": [
+          "Owned: your list, your site, your profile - compounds over time",
+          "Earned: referrals, reviews, word of mouth - trust you did not pay for",
+          "Paid: ads and sponsorship - attention rented by the impression",
+          "Channel math: reach x response rate x margin per unit",
+          "Rule: one channel to mastery before a second is added"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Attention is already somewhere",
+        "content": "Marketing does not create attention, it meets it. Your customer already spends their eyes somewhere - a marketplace, a group chat, a mosque or church notice board, an Instagram niche, a trade fair, a WhatsApp community - and each of those places has a language and a etiquette. The first channel decision is therefore anthropological, not technical: where do they already gather, and what does that place reward? A channel chosen because the customer is there beats a channel chosen because the founder likes it, every single time."
+      },
+      {
+        "title": "The channel math",
+        "content": "Every channel reduces to one multiplication: how many of the right people it can reach, times the share who respond, times what each response is worth in margin. A channel with huge reach and tiny response can lose to a small room of exact buyers; a high-margin offer can afford expensive attention that a low-margin one cannot. Doing this math on paper before spending converts channel choice from fashion to arithmetic, and it explains why the same ad platform is profitable for one business and ruinous for another - the difference is not the platform, it is the other two numbers."
+      },
+      {
+        "title": "Own what compounds",
+        "content": "Rented attention stops the day you stop paying; owned attention - an email list, a follower base that trusts you, a site that ranks - keeps working while you sleep, and it is the only marketing asset that appreciates. Earned attention (referrals, reviews) is trust you did not buy and converts better than anything you did. So the portfolio logic is simple: use paid to discover and accelerate, earned to validate, and pour everything that works into owned, because owned is the channel nobody can switch off. Beginners invert this and rent forever, which is why their growth resets to zero every quarter."
+      }
+    ],
+    "principles": [
+      "Meet attention where it already exists; do not try to create it.",
+      "Channel value = reach x response rate x margin per unit - do the math first.",
+      "One channel to mastery before adding a second; scattering evaporates budgets.",
+      "Pour what works into owned attention; rented attention dies when payment stops."
+    ],
+    "mistakes": [
+      {
+        "title": "Five channels at ten percent",
+        "explanation": "Scattered effort learns nothing and converts less. One channel, deep, until it works or is disproven."
+      },
+      {
+        "title": "Choosing channels by founder taste",
+        "explanation": "Your favorite app is not your customer habitat. Follow their attention, not yours."
+      },
+      {
+        "title": "Reach worship",
+        "explanation": "Big audiences with tiny response lose to small exact rooms. Multiply all three numbers."
+      },
+      {
+        "title": "Renting forever, owning nothing",
+        "explanation": "Paid-only growth resets when spend stops. Convert winners into list, community and rank."
+      }
+    ],
+    "practice": [
+      "List five places your specific customer already pays attention, ranked by exactness.",
+      "Pick one; write its language and etiquette in three bullets before posting anything.",
+      "Do the channel math on paper for that channel with honest guesses, then test small.",
+      "Start one owned asset this week: a list, a profile, a page that compounds.",
+      "Set a review date: two weeks or one hundred contacts, whichever comes first."
+    ],
+    "reflection": "Which channel are you on because the customer is there, and which are you on because you are? Be honest about the second list.",
+    "safety": "No physical risk; financial risk is real, so cap test spend per channel and decide continuation from the math, not from hope.",
+    "quiz": [
+      {
+        "question": "The channel math multiplies:",
+        "options": [
+          "Followers, likes and shares",
+          "Reach, response rate and margin per unit",
+          "Budget, time and luck",
+          "Impressions and clicks only"
+        ],
+        "answer": 1,
+        "explanation": "Those three numbers decide whether a channel earns; reach alone flatters and misleads."
+      },
+      {
+        "question": "Owned attention matters most because it:",
+        "options": [
+          "Is free to buy",
+          "Compounds and keeps working when spend stops",
+          "Looks professional",
+          "Reaches everyone"
+        ],
+        "answer": 1,
+        "explanation": "Rented attention dies with payment; owned assets - list, rank, community - appreciate and cannot be switched off."
+      }
+    ],
+    "mastery": [
+      "Rank customer habitats by exactness, not by size.",
+      "Compute channel math before spending a unit of money.",
+      "Master one channel before adding a second.",
+      "Start and feed one owned asset that compounds."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Ads bring clicks but no sales.",
+          "action": "You check response and margin in the math, and move the test to a smaller exact room where response is higher.",
+          "why": "Reach was never the bottleneck; the multiplication was failing at response or value."
+        },
+        {
+          "setup": "Growth dies every time ad spend pauses.",
+          "action": "You redirect a share of budget into list-building and referral asks so owned and earned carry the base.",
+          "why": "Rent-only growth resets to zero; owned and earned attention persist between campaigns."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Channel discipline turns a fixed budget into compounding assets instead of monthly rent."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A business with owned attention is hard to outspend because its baseline grows while ads sleep."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Scattering across channels",
+          "Reach-only thinking",
+          "No owned asset"
+        ],
+        "adjustments": [
+          {
+            "if": "Three channels all mediocre",
+            "then": "Kill two, double the one with best math, re-test in two weeks."
+          },
+          {
+            "if": "No list or community exists",
+            "then": "Add one capture point this week, however small."
+          }
+        ],
+        "learning": "After each test window, record reach, response and margin realized versus guessed, and what the gap taught."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Channel Tests",
+      "targetReps": 3
+    }
+  },
+  "biz-marketing-offers": {
+    "id": "biz-marketing-offers",
+    "subject": "Business",
+    "title": "Offers & the First Yes",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "An offer is not a price list: it is an outcome, a timeline and a reversed risk. Learn to build offers that make the first yes small, safe and obvious - and let the ladder carry them upward.",
+    "objectives": [
+      "Build an offer as outcome plus timeline plus risk reversal",
+      "Make the first yes small: a sample, audit, trial or starter package",
+      "Use price anchors honestly: good-better-best without trickery",
+      "Turn a maybe into a scheduled next step, not a vague follow-up",
+      "Recognize the four most common offer errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The first-yes ladder",
+        "caption": "Nobody buys big from a stranger. The offer is a ladder: a small safe first yes that proves the promise, then progressively larger commitments - each rung earned by the last delivery, never by pressure.",
+        "labels": [
+          "Outcome: the changed state they can picture, not the deliverables list",
+          "Timeline: by when, in plain dates - vagueness kills trust",
+          "Risk reversal: guarantee, trial or sample that moves risk to you",
+          "First yes: the smallest safe commitment - audit, sample, starter",
+          "Ladder: each rung earned by delivering the previous one"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Outcome, timeline, risk",
+        "content": "A price list tells people what things cost; an offer tells them what will change, by when, and what happens if it does not. Outcome in pictureable terms (bookings up, kitchen repainted, books closed by Friday), timeline in plain dates, and risk reversal - a guarantee, a free trial, a paid sample - that moves the fear from their side of the table to yours. Those three turn a catalog into a proposal, and they force internal honesty: if you cannot state the outcome or stand behind it with a guarantee, the problem is the service, not the wording."
+      },
+      {
+        "title": "The first yes is small",
+        "content": "Trust is built in increments, so the first commitment should be small enough to say yes to without a meeting: a five-minute audit, a sample page, a starter package, a paid trial week. The small yes is not a discount on the big thing; it is a different product whose job is to prove the promise with low risk on both sides. Once delivered well, the ladder appears naturally - the customer asks what is next, and the next rung is already designed. Businesses that only sell the big thing force strangers to leap, and strangers do not leap."
+      },
+      {
+        "title": "Anchors and the scheduled next step",
+        "content": "Price is read relatively, so give it honest company: three tiers where the middle is the one you actually want to sell, the top shows what maximum looks like, and the bottom respects the budget buyer - good, better, best, with real differences, never decoys designed to trick. And every conversation ends the same way: not with send me your thoughts but with a scheduled next step - a date, a time, an agenda. A maybe with no date is a no wearing a coat; the calendar is where marketing becomes revenue."
+      }
+    ],
+    "principles": [
+      "An offer = outcome + timeline + risk reversal, not a price list.",
+      "The first yes is a small safe product whose job is proving the promise.",
+      "Good-better-best with real differences gives price honest company.",
+      "Every conversation ends in a scheduled next step; undated maybes are nos."
+    ],
+    "mistakes": [
+      {
+        "title": "Selling only the big leap",
+        "explanation": "Strangers do not leap. Build the small first yes that proves the promise."
+      },
+      {
+        "title": "Vague timelines",
+        "explanation": "Soon and quickly destroy trust. Plain dates are part of the offer."
+      },
+      {
+        "title": "Risk left on their side",
+        "explanation": "Fear kills yeses. Move risk to yourself with a guarantee, trial or sample."
+      },
+      {
+        "title": "Ending in a vague follow-up",
+        "explanation": "Send me your thoughts is a polite burial. Book the next step before parting."
+      }
+    ],
+    "practice": [
+      "Rewrite your current price list as three offers with outcome, timeline and risk reversal.",
+      "Design one small first-yes product you can deliver this week.",
+      "Build a good-better-best ladder with real differences; mark which rung you want to sell.",
+      "Replace every vague time word in your materials with a plain date or range.",
+      "End your next three conversations with a scheduled next step and note the conversion."
+    ],
+    "reflection": "What is the smallest yes you could sell this week that would prove your promise - and why is it not on your website yet?",
+    "safety": "No physical risk; keep guarantees affordable and honest - a risk reversal you cannot honor is a lie with marketing on it.",
+    "quiz": [
+      {
+        "question": "An offer differs from a price list by including:",
+        "options": [
+          "More items",
+          "Outcome, timeline and risk reversal",
+          "Discounts always",
+          "Longer descriptions"
+        ],
+        "answer": 1,
+        "explanation": "Those three answer what changes, by when, and what protects me - the actual questions behind every yes."
+      },
+      {
+        "question": "The first yes should be small because:",
+        "options": [
+          "Small money is all customers have",
+          "Trust builds in increments and strangers will not leap",
+          "It avoids taxes",
+          "It hides the real price"
+        ],
+        "answer": 1,
+        "explanation": "The small yes is a proof product; delivered well it earns the next rung of the ladder."
+      }
+    ],
+    "mastery": [
+      "Write offers as outcome plus timeline plus risk reversal.",
+      "Design and deliver a small first-yes product.",
+      "Build an honest good-better-best ladder.",
+      "Close conversations into scheduled next steps."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Prospects ask for your price and go quiet.",
+          "action": "You send an offer instead: outcome, dates, guarantee, and a small starter rung to begin on.",
+          "why": "A bare price invites comparison shopping; an offer invites a decision about change."
+        },
+        {
+          "setup": "A great call ends with we will be in touch.",
+          "action": "You book the next step before hanging up: date, time, agenda, who brings what.",
+          "why": "Undated maybes decay to zero; a calendar entry is the smallest unit of commitment."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Laddered offers convert strangers into customers without discounts or pressure."
+        },
+        {
+          "role": "Facing it",
+          "detail": "An offer with dates and a guarantee is hard to postpone; it respects the buyer and corners the drift."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Price-only replies",
+          "Vague timelines",
+          "Unscheduled follow-ups"
+        ],
+        "adjustments": [
+          {
+            "if": "They only compare price",
+            "then": "Lead with outcome and guarantee before numbers appear."
+          },
+          {
+            "if": "Calls end softly",
+            "then": "Make booking the next step a scripted closing line."
+          }
+        ],
+        "learning": "After each offer sent, record yes/no/ladder-rung and which of the three slots was weakest."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Offer Reps",
+      "targetReps": 3
+    }
   }
 }

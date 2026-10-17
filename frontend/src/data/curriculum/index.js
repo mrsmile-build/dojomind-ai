@@ -783,6 +783,37 @@ export default {
           ]
         }
       }
+    },
+    "marketing": {
+      "name": "Marketing",
+      "icon": "📣",
+      "description": "Being found and being chosen.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Positioning, channels and the first yes.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Marketing Foundations",
+              "lessons": [
+                {
+                  "id": "biz-marketing-positioning",
+                  "title": "Positioning - The Obvious Choice"
+                },
+                {
+                  "id": "biz-marketing-channels",
+                  "title": "Channels - Where Attention Lives"
+                },
+                {
+                  "id": "biz-marketing-offers",
+                  "title": "Offers & the First Yes"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };
