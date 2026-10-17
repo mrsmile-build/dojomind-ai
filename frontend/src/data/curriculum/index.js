@@ -626,6 +626,30 @@ export default {
               ]
             }
           ]
+        },
+        "expert": {
+          "name": "Expert",
+          "description": "Color and motion: modes, extended tensions, and moving between keys.",
+          "modules": [
+            {
+              "id": "expert",
+              "title": "Music Theory Expert",
+              "lessons": [
+                {
+                  "id": "music-theory-expert-modes",
+                  "title": "Modes - The Seven Diatonic Colors"
+                },
+                {
+                  "id": "music-theory-expert-extensions",
+                  "title": "Extended Chords & Available Tensions"
+                },
+                {
+                  "id": "music-theory-expert-motion",
+                  "title": "Secondary Dominants & Modulation"
+                }
+              ]
+            }
+          ]
         }
       }
     },

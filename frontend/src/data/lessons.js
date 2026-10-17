@@ -28461,5 +28461,468 @@ export const lessons = {
       "label": "Triad-Build Reps",
       "targetReps": 6
     }
+  },
+  "music-theory-expert-modes": {
+    "id": "music-theory-expert-modes",
+    "subject": "Music",
+    "title": "Modes - The Seven Diatonic Colors",
+    "level": "Expert",
+    "duration": "16 min",
+    "description": "The relative-minor trick generalizes: start the same seven notes on each degree and you get seven distinct scales - Ionian through Locrian - each with one or two altered intervals against major that give it its color. Modes are rotation, not memorization.",
+    "objectives": [
+      "Derive all seven modes by rotating the major scale to each degree",
+      "Name each modes characteristic alteration against major (b2, b3, #4, b6, b7)",
+      "Match a mode to the chord quality it implies (Dorian/Aeolian minor, Mixolydian/Ionian/Lydian major)",
+      "Hear Lydian is #4 and Phrygian is b2 as the signature colors",
+      "Use modes to choose scales over chords instead of guessing"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "One scale, seven rotations",
+        "caption": "Take the C-major notes and start them on each degree in turn. The interval pattern shifts because the tonic moves, and each shift is a mode with its own color. Aeolian is just the relative minor generalized; the other six are the rest of the family.",
+        "labels": [
+          "Ionian = major (1 2 3 4 5 6 7) - the parent",
+          "Dorian = minor with a natural 6 (bright minor)",
+          "Phrygian = minor with a flat 2 (dark, Spanish)",
+          "Lydian = major with a sharp 4 (floating, dreamy)",
+          "Mixolydian = major with a flat 7 (bluesy dominant)",
+          "Aeolian = natural minor (the relative minor)",
+          "Locrian = diminished, unstable fifth (rare as a tonic)"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Rotation, not seven new scales",
+        "content": "Intermediate taught you that C major and A minor share notes and differ only in which note is home - the relative-minor idea. Modes are that single insight taken to its conclusion: the seven notes of a major scale contain seven usable tonics, and each tonic reorders the same intervals into a different pattern. You are not memorizing seven scales; you are rotating one. Start the C-major notes on D and the whole-step/half-step pattern shifts, producing D Dorian; on E, E Phrygian; on F, F Lydian; on G, G Mixolydian; on A, A Aeolian; on B, B Locrian. Same white keys, seven colors. The mental move that unlocks all of jazz, film scoring and a huge share of rock is realizing the scale you already know is seven scales wearing different homes."
+      },
+      {
+        "title": "The characteristic alteration is the color",
+        "content": "Each mode differs from the major scale by one or two specific intervals, and those alterations are the whole identity - learn them and you can name a mode by ear. Dorian is minor (flat 3) but with a *natural* 6 instead of the flat 6 of Aeolian, which is why it sounds like a brighter, hopeful minor - the sound of So What and most funk. Phrygian flattens the 2, putting a half-step above the tonic that gives it a dark, Spanish, metallic edge. Lydian raises the 4, removing the half-step that normally pulls 4 down to 3, and the result is a floating, dreamy major - the sci-fi and Simpsons-theme color. Mixolydian flattens the 7, turning major into the dominant sound that sits under blues and classic rock. Aeolian is your natural minor. Locrian flattens both 2 and 5, making an unstable diminished tonic that almost never anchors a piece. You do not need all seven at once; the four that carry most modern music are Dorian, Mixolydian, Lydian and Aeolian."
+      },
+      {
+        "title": "Modes over chords - the practical payoff",
+        "content": "The reason modes matter beyond trivia is that they tell you *which* scale fits *which* chord, replacing guesswork with a rule. A minor 7 chord implies Dorian or Aeolian - Dorian when you want the natural 6 color, Aeolian when you want the darker flat 6. A dominant 7 chord implies Mixolydian, because the flat 7 is already in the chord and the natural 6 is the available tension. A major 7 chord implies Ionian or Lydian - Lydian when the #4 floats nicely, Ionian when you want the plain major. This is the bridge from theory to improvisation: instead of running the parent major scale over every chord and hoping, you match the mode to the chord quality and the characteristic note becomes a deliberate color choice. The ear confirms it - play a G7 and hear Mixolydian is natural 6 against the chord, then play G Aeolian and hear the clash - and the theory stops being a diagram and becomes a sound you can reach for on purpose."
+      }
+    ],
+    "principles": [
+      "Modes are rotations of one major scale across its seven degrees, not seven separate scales.",
+      "A modes color is its alteration against major: Dorian nat6, Phrygian b2, Lydian #4, Mixolydian b7.",
+      "Match mode to chord quality: min7 to Dorian/Aeolian, dom7 to Mixolydian, maj7 to Ionian/Lydian.",
+      "The characteristic note is a deliberate color choice over a chord, not an accidental."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing seven scales",
+        "explanation": "They are one scale rotated. Learn the parent and move the tonic; the patterns follow."
+      },
+      {
+        "title": "Ignoring the characteristic alteration",
+        "explanation": "A mode is defined by what it changes against major. Without naming the b2 or #4 you cannot hear it."
+      },
+      {
+        "title": "Running parent major over every chord",
+        "explanation": "That is the beginner default. Match the mode to the chord quality or the color is accidental."
+      },
+      {
+        "title": "Treating Locrian as a normal tonic",
+        "explanation": "Its flattened 5 makes it unstable; it works as a passing chord-scale, rarely as a home."
+      }
+    ],
+    "practice": [
+      "Write all seven modes from C by rotating the tonic; underline each one is alteration against major.",
+      "Dorian vs Aeolian: play Am7 with C-major notes, then with A Dorian, and hear the 6 change.",
+      "Lydian: play F Lydian over an Fmaj7 and feel the #4 float; compare to Ionian.",
+      "Mixolydian: solo G Mixolydian over a G7 vamp; note the natural 6 as the available tension.",
+      "Over a I-vi-ii-V in C, name the mode that fits each chord and play one phrase per chord."
+    ],
+    "reflection": "Can you name a mode by its single characteristic alteration, and do you reach for a specific mode over a specific chord or still run the parent scale?",
+    "safety": "No physical risk; keep study volume comfortable and always pair each mode with a chord it fits, or the colors stay abstract symbols.",
+    "quiz": [
+      {
+        "question": "Dorian differs from natural minor (Aeolian) by:",
+        "options": [
+          "A flat 2",
+          "A natural 6 instead of flat 6",
+          "A sharp 4",
+          "A flat 7"
+        ],
+        "answer": 1,
+        "explanation": "Both are minor (flat 3), but Dorian lifts the 6 back to natural, giving the brighter minor color."
+      },
+      {
+        "question": "A dominant 7 chord most naturally implies:",
+        "options": [
+          "Lydian",
+          "Mixolydian",
+          "Phrygian",
+          "Locrian"
+        ],
+        "answer": 1,
+        "explanation": "The dom7 already contains the flat 7; Mixolydian is major-with-b7, so its natural 6 is the available tension."
+      }
+    ],
+    "mastery": [
+      "Derive all seven modes by rotation and name each alteration.",
+      "Match mode to chord quality as a deliberate choice.",
+      "Hear Lydian #4 and Phrygian b2 as signatures.",
+      "Solo using the correct mode over a I-vi-ii-V."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A minor vamp sounds dull running the natural minor.",
+          "action": "You switch to Dorian and lift the 6, hearing the brightness the chord was asking for.",
+          "why": "The min7 chord permits the natural 6; Dorian supplies it deliberately instead of you defaulting to Aeolian."
+        },
+        {
+          "setup": "A major 7 chord wants a floating, cinematic color.",
+          "action": "You reach for Lydian and let the #4 hover over the chord.",
+          "why": "Lydian is the mode whose characteristic note is exactly that float; Ionian would ground it."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Mode-to-chord matching turns improvisation from scale-guessing into color-selection."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who names modes by alteration can transcribe and discuss solos precisely."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Parent-scale default",
+          "Alteration unnamed",
+          "Locrian as tonic"
+        ],
+        "adjustments": [
+          {
+            "if": "You run the parent scale",
+            "then": "Stop and ask the chord quality; pick the mode that matches it."
+          },
+          {
+            "if": "A mode sounds unnamed",
+            "then": "Sing its characteristic interval against major until the color is physical."
+          }
+        ],
+        "learning": "After each solo, list which chord got which mode and whether the characteristic note landed as intended."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Mode-Match Reps",
+      "targetReps": 7
+    }
+  },
+  "music-theory-expert-extensions": {
+    "id": "music-theory-expert-extensions",
+    "subject": "Music",
+    "title": "Extended Chords & Available Tensions",
+    "level": "Expert",
+    "duration": "16 min",
+    "description": "Keep stacking thirds past the triad and you get 7ths, 9ths, 11ths and 13ths - the rich chords of jazz and film. The expert skill is knowing which tensions are available over a given quality and which are avoid notes that clash.",
+    "objectives": [
+      "Build 7th chords from a triad plus a third (maj7, dom7, min7, m7b5, dim7)",
+      "Extend to 9/11/13 by continuing the third-stack an octave up",
+      "Identify available tensions vs avoid notes per chord quality",
+      "Apply chord-scale thinking: the mode sets the legal tensions",
+      "Hear a 9th and a maj7 as color, not as wrong notes"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Stack thirds past the triad",
+        "caption": "A triad is three stacked thirds. Add a fourth third and you have a seventh chord; add a fifth and a ninth; the ladder of 3-5-7-9-11-13 is the entire vocabulary of rich harmony. Which rungs sound good depends on the chord quality below them.",
+        "labels": [
+          "Triad: root + 3rd + 5th",
+          "+ 7th = seventh chord (maj7, dom7, min7, m7b5, dim7)",
+          "+ 9th = the 2nd an octave up - usually sweet on any chord",
+          "+ 11th = the 4th - avoid on major-family chords (clashes with the 3rd)",
+          "+ 13th = the 6th - available on Dorian/min7, avoid on Aeolian",
+          "Chord-scale: the fitting mode lists the legal tensions"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The third-stack ladder",
+        "content": "Intermediate gave you the triad as root-third-fifth. The single move that opens all of rich harmony is to keep going: add one more third and you have a seventh chord, add another and a ninth, then eleventh, then thirteenth. These are not new shapes - they are the same stacking rule extended, and the numbers (7, 9, 11, 13) are just the scale degrees an octave up, because a chord cannot physically hold a ninth without also implying the second. The five seventh chords fall out of the diatonic stack by quality: major-major (maj7, bright and jazzy), dominant (dom7, the tension chord with a flat 7), minor (min7, soft minor), half-diminished (m7b5, the ii of minor and a moody color), and fully diminished (dim7, symmetric and unstable). Learn the stack and the five sevenths are arithmetic, not memory."
+      },
+      {
+        "title": "Available tensions and avoid notes",
+        "content": "Here is the expert distinction that separates real voicing from note-salad: not every extension sounds good over every chord. The 9th is almost always safe - it is the 2nd, gentle above the root. The 11th is the 4th, and over a major or dominant chord the natural 4 sits a half-step above the 3rd and grinds - so it is an *avoid note* unless raised to #11 (the Lydian move). The 13th is the 6th: lovely over a minor-7 chord in Dorian (the natural 6 is Dorian is characteristic note), but an avoid note over Aeolian minor where the flat 6 is the color. So the rule is not memorize-allowed-notes but *match the chord to its mode and the mode tells you the tensions*: maj7 with Lydian gives you #11 and 13; min7 with Dorian gives you 9 and 13; dom7 with Mixolydian gives you 9 and 13 but warns off the natural 11. This is chord-scale theory in one paragraph, and it is why a jazz voicing sounds lush instead of clashing."
+      },
+      {
+        "title": "Hearing color, not error",
+        "content": "The beginner treats an added 9th or maj7 as a wrong note because it is not in the triad they know; the expert hears it as *color* - more information, not incorrect information. Train this by ear deliberately: play a plain Cmaj7, then add the 9 (D) on top and hear the openness; play a C7, then raise the 11 to #11 and hear the Lydian lift; play Am7, then add the 13 (F#) and hear Dorian brighten the minor. Each extension changes the mood without changing the chords function, which is the deep point: tensions decorate and color a harmony that already works, they do not replace its grammar. When you can hear a 9th as sweetness and an avoid-4 as grind, you have crossed from reading chords to *voicing* them, and that is the difference between a theory student and a player who arranges."
+      }
+    ],
+    "principles": [
+      "Extensions are the third-stack continued: 7, 9, 11, 13 are scale degrees an octave up.",
+      "The 9th is nearly always available; the 11th is an avoid note on major/dominant unless raised.",
+      "The 13th is available on Dorian min7, an avoid note on Aeolian.",
+      "Chord-scale: the fitting mode lists the legal tensions - match mode first, then read the extensions."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating extensions as wrong notes",
+        "explanation": "A 9th or maj7 is color, not error. The triad is the floor, not the ceiling."
+      },
+      {
+        "title": "Stacking the natural 11 over a major chord",
+        "explanation": "The 4 grinds against the 3. Raise it to #11 (Lydian) or omit it."
+      },
+      {
+        "title": "Using the 13 over Aeolian minor",
+        "explanation": "Aeolian is flat-6; the natural 13 clashes. Save the 13 for Dorian minor."
+      },
+      {
+        "title": "Memorizing allowed tensions per chord",
+        "explanation": "Derive them from the chord-scale instead. Match the mode and the legal notes follow."
+      }
+    ],
+    "practice": [
+      "Build all five seventh chords on C by stacking thirds; name each quality.",
+      "Add a 9th to maj7, dom7 and min7; hear that the 9 is sweet on all three.",
+      "Raise the 11 to #11 over a maj7 and compare to the grinding natural 11.",
+      "Add the 13 over Am7 in Dorian, then over Am in Aeolian; hear the difference.",
+      "For a I-vi-ii-V in C, write the available tensions for each chord from its mode."
+    ],
+    "reflection": "Do you hear an added 9th as color or as a mistake - and can you say which tensions are legal over a min7 before you play them?",
+    "safety": "No physical risk; keep volume comfortable and always voice an extension against its chord, never in isolation, or the color has no context.",
+    "quiz": [
+      {
+        "question": "The natural 11 is usually an avoid note over:",
+        "options": [
+          "A minor 7 chord",
+          "A major or dominant chord",
+          "Any chord",
+          "A diminished chord"
+        ],
+        "answer": 1,
+        "explanation": "The 11 is the 4th, a half-step above the 3rd of major/dominant chords, so it grinds unless raised to #11."
+      },
+      {
+        "question": "The 13th is available over a minor chord when the mode is:",
+        "options": [
+          "Aeolian",
+          "Dorian",
+          "Phrygian",
+          "Locrian"
+        ],
+        "answer": 1,
+        "explanation": "Dorian carries the natural 6 (the 13); Aeolian is flat-6, so the natural 13 clashes there."
+      }
+    ],
+    "mastery": [
+      "Build the five seventh chords from the third-stack.",
+      "Identify available vs avoid tensions per quality.",
+      "Apply chord-scale to derive legal extensions.",
+      "Hear 9ths and maj7/#11 as color rather than error."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A maj7 voicing sounds plain and you want lift.",
+          "action": "You raise the 11 to #11 (Lydian) and hear the chord open without changing its function.",
+          "why": "The #11 is the available tension Lydian supplies; the natural 11 would have ground against the 3rd."
+        },
+        {
+          "setup": "A min7 vamp sounds dark and you want brightness.",
+          "action": "You add the 13 from Dorian instead of staying in Aeolian.",
+          "why": "Dorian is natural-6 minor; the 13 is its characteristic color and lifts the mood legally."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Chord-scale tension knowledge turns voicing from trial-and-error into a derived list."
+        },
+        {
+          "role": "Facing it",
+          "detail": "An arranger who hears avoid-notes instantly writes parts that blend instead of grind."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Extension heard as error",
+          "Natural 11 on major",
+          "13 on Aeolian"
+        ],
+        "adjustments": [
+          {
+            "if": "A tension grinds",
+            "then": "Check the chord-scale; the note is likely an avoid note for that quality."
+          },
+          {
+            "if": "You memorize tensions",
+            "then": "Re-derive from the mode you matched to the chord."
+          }
+        ],
+        "learning": "After each voicing exercise, name the chord quality, its mode, and which tensions you used and avoided."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Voicing Reps",
+      "targetReps": 6
+    }
+  },
+  "music-theory-expert-motion": {
+    "id": "music-theory-expert-motion",
+    "subject": "Music",
+    "title": "Secondary Dominants & Modulation",
+    "level": "Expert",
+    "duration": "16 min",
+    "description": "The circle of fifths stops being a key map and becomes an engine: a secondary dominant (V/V, V/vi) tonicizes any chord for a moment, and modulation moves the tonic itself, most smoothly through a pivot chord both keys share.",
+    "objectives": [
+      "Read V/x notation as a dominant that tonicizes a non-tonic chord",
+      "Build a secondary dominant by making the target chord a temporary tonic",
+      "Use the circle to find nearest (one-accidental) keys for smooth modulation",
+      "Identify a pivot chord diatonic to both old and new keys",
+      "Hear a secondary dominant as a brief spotlight, not a key change"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Tonicize, then move",
+        "caption": "Intermediate gave you V-I as the full stop of one key. Expert motion reuses that pull sideways: V/V borrows the dominant grammar to spotlight the V for a moment, and modulation promotes a new note to tonic - easiest when one chord belongs to both keys.",
+        "labels": [
+          "V/x = dominant of x: a chord that tonicizes degree x temporarily",
+          "In C, V/V is D7 (not Dm) resolving to G - it borrows F# to pull to G",
+          "The borrowed note is the third of the secondary dominant",
+          "Modulation = establishing a new tonic, not just a passing chord",
+          "Pivot chord: diatonic to both keys, the hinge that hides the seam",
+          "Nearest keys on the circle (one accidental away) modulate most smoothly"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Tonicizing - borrowing the pull",
+        "content": "Intermediate taught that the V chord pulls to I because of the leading tone, the strongest gravity in music. The expert move is to aim that same gravity at *any* chord, not just the tonic. To make the V chord (say G in C major) feel like a temporary home for a moment, you put *its* dominant in front of it: D7 resolving to G. D7 is not diatonic to C - it carries an F#, the leading tone to G - and that borrowed note is exactly what creates the pull. Notated V/V, read dominant of the dominant, it is a secondary dominant: the same V-I grammar, borrowed and pointed sideways. You can tonicize any degree - V/vi, V/ii, V/IV - each one a brief spotlight that makes the target chord feel like a tonic for a beat before the music moves on. The ear hears it as a flash of intensity, not a key change, because the new home never lasts."
+      },
+      {
+        "title": "Modulation - promoting the tonic",
+        "content": "A secondary dominant tonicizes for a moment; modulation makes the new tonic *stay*. The difference is duration and confirmation: in modulation you establish the new key with its own V-I and linger, so the listener accepts the new home as real. The circle of fifths tells you where modulation is smoothest: keys one accidental away (C to G, C to F) share six of seven notes, so the seam is nearly invisible; keys farther around the circle share fewer notes and the shift is more dramatic. The classic smooth method is the pivot chord - a single chord that belongs diatonic to *both* the old and the new key, functioning as, say, vi in C and ii in G. You play it once, and because it is legal in both worlds, the listener crosses the border without noticing the step; then you confirm the new key with its own dominant. The pivot is the hinge that hides the seam."
+      },
+      {
+        "title": "Hearing the difference",
+        "content": "The expert ear distinguishes three things beginners collapse: a secondary dominant (a borrowed chord that spotlights a target for a beat, key unchanged), a modulation (the tonic relocates and confirms), and a chromatic passing chord (color with no functional pull). Train it by the borrowed notes: a secondary dominant always introduces an accidental that is the leading tone to its target, and you can hear the pull resolve; a modulation introduces that pull *and* then establishes the new key with its own cadence; a passing chromatic chord has no resolution and just colors. This matters because the notation V/V is a promise about function, not about sound - the same D7 chord is a secondary dominant in C (going to G) but the tonic V in G itself. Context decides meaning, and reading motion means hearing what a chord is *doing*, not just what it is. That is the last leap from theory as a map to theory as a living grammar you can compose in."
+      }
+    ],
+    "principles": [
+      "V/x tonicizes degree x for a moment using the borrowed leading tone to x.",
+      "Modulation relocates the tonic and confirms it; a secondary dominant does not.",
+      "Nearest keys (one accidental on the circle) share the most notes and modulate most smoothly.",
+      "A pivot chord is diatonic to both keys - the hinge that hides the modulation seam."
+    ],
+    "mistakes": [
+      {
+        "title": "Calling a secondary dominant a modulation",
+        "explanation": "It spotlights a target for a beat; the key never moves. Duration and confirmation are the difference."
+      },
+      {
+        "title": "Forgetting the borrowed leading tone",
+        "explanation": "A secondary dominant needs the accidental that pulls to its target; without it, it is just a diatonic chord."
+      },
+      {
+        "title": "Modulating to a far key without a pivot",
+        "explanation": "Distant keys share few notes; without a pivot the seam is jarring. Use the circle to pick smooth targets."
+      },
+      {
+        "title": "Reading a chord by shape not function",
+        "explanation": "The same D7 is V/V in C but V in G. Context, not the notes, decides what it is doing."
+      }
+    ],
+    "practice": [
+      "In C, build V/V (D7) and V/vi (E7); play each resolving to its target and hear the pull.",
+      "Identify the borrowed accidental in each secondary dominant and sing it resolving up.",
+      "Modulate C to G using a pivot chord (e.g. Am = vi in C, ii in G); confirm G with D7-G.",
+      "List the two nearest keys to D major on the circle and name a pivot to each.",
+      "Transcribe a pop/jazz turn: mark where a chord tonicizes vs where the key truly changes."
+    ],
+    "reflection": "When you hear a surprising chord, do you ask what it is doing (tonicizing, modulating, coloring) or only what it is called?",
+    "safety": "No physical risk; keep study volume comfortable and always resolve a secondary dominant to its target, or the pull stays unresolved and the ear never learns it.",
+    "quiz": [
+      {
+        "question": "A secondary dominant differs from a modulation because it:",
+        "options": [
+          "Is always louder",
+          "Tonicizes a target briefly without relocating the tonic",
+          "Uses no accidentals",
+          "Only exists in jazz"
+        ],
+        "answer": 1,
+        "explanation": "V/x spotlights degree x for a moment; the key never moves. Modulation confirms a new tonic and stays."
+      },
+      {
+        "question": "A pivot chord works because it is:",
+        "options": [
+          "Louder than surrounding chords",
+          "Diatonic to both the old and the new key",
+          "Always a dominant",
+          "A borrowed chord"
+        ],
+        "answer": 1,
+        "explanation": "Belonging to both keys, it lets the listener cross the border without noticing the seam."
+      }
+    ],
+    "mastery": [
+      "Build and resolve secondary dominants to any target.",
+      "Distinguish tonicization from modulation by ear.",
+      "Modulate to a nearest key using a pivot chord.",
+      "Read a chords function from context, not shape."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A bridge needs a lift into the V chord.",
+          "action": "You place V/V before the V, borrowing its leading tone for a flash of intensity.",
+          "why": "The secondary dominant aims the V-I gravity at the V, spotlighting it without moving the key."
+        },
+        {
+          "setup": "A song must end a whole step higher, smoothly.",
+          "action": "You find a pivot chord diatonic to both keys and confirm the new tonic with its own cadence.",
+          "why": "The pivot hides the seam; the new V-I convinces the ear the tonic has truly relocated."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Tonicization and pivot modulation give a composer motion that feels inevitable rather than abrupt."
+        },
+        {
+          "role": "Facing it",
+          "detail": "An arranger who hears function can reharmonize a melody by choosing where to spotlight and where to move."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Tonicization called modulation",
+          "Missing borrowed tone",
+          "Jarring far-key jump"
+        ],
+        "adjustments": [
+          {
+            "if": "A surprise chord feels random",
+            "then": "Ask if it is V of something; find the target it pulls to."
+          },
+          {
+            "if": "A modulation jars",
+            "then": "Insert a pivot chord or pick a nearer key on the circle."
+          }
+        ],
+        "learning": "After each analysis, label every non-diatonic chord as tonicizing, modulating or coloring, and verify by ear."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Motion Reps",
+      "targetReps": 6
+    }
   }
 }

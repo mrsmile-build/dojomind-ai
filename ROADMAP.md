@@ -36,7 +36,7 @@
 - AI image generation: PARKED (Groq=text-only; OpenRouter/self-host not free + hallucinate joints; Pixabay=stock search). Parametric SVG is the engine.
 
 ## Ordered queue (next first) - DEEPEN + POLISH PHASE
-1. Deepen Music: Intermediate -> Expert (Theory first, then instruments).
+1. Deepen Music: complete Theory's full ladder first (Int, Exp), then instruments level-by-level (each instrument Int then Exp) - dependent subs build on a finished theory foundation, never a half one.
 2. Deepen Skills: Intermediate -> Expert (Focus, Memory, Habits, Learning).
 3. Deepen Medicine: Intermediate -> Expert (Foundations, First Aid, Plant Medicine, Anatomy).
 4. Deepen Business: Intermediate -> Expert (Foundations, Marketing, Finance, Operations).
