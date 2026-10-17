@@ -19678,5 +19678,466 @@ export const lessons = {
       "label": "Logic Reps",
       "targetReps": 5
     }
+  },
+  "med-foundations-systems": {
+    "id": "med-foundations-systems",
+    "subject": "Medicine",
+    "title": "The Body as Systems",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "See the body as cooperating systems - frame, movement, messaging, delivery, breathing, fuel, defense - so every later health topic has a place to live and nothing floats free.",
+    "objectives": [
+      "Name the major body systems and one job each",
+      "See systems as cooperating, not separate boxes",
+      "Locate where common everyday complaints arise",
+      "Use the map to ask better questions of a professional",
+      "Recognize the four most common map errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The body as cooperating systems",
+        "caption": "No symptom lives in a vacuum: every complaint touches several systems at once. The map is not trivia - it is where questions come from and where answers get placed.",
+        "labels": [
+          "Skeleton and muscles: the frame and its movers",
+          "Nerves: messaging, control and sensation",
+          "Heart and vessels: delivery of fuel and oxygen",
+          "Lungs: gas exchange, in and out",
+          "Gut: fuel, building blocks and waste",
+          "Skin and immune: the boundary and its defense",
+          "One shared budget: sleep, food, water, stress"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A map before details",
+        "content": "Medicine feels like a wall of facts until you see it as a map of cooperating systems, each with one headline job: the skeleton frames and protects, muscles move, nerves message, the heart delivers, lungs exchange gas, the gut processes fuel, skin and immune defend the boundary. Every symptom you will ever hear about is a story about one of these systems doing too much, too little, or something unusual - so the map is not decoration, it is the filing system that makes every later lesson findable."
+      },
+      {
+        "title": "Systems talk to each other",
+        "content": "The beginner error is treating systems as separate boxes, because the body never does. A hard run loads muscles, raises heart delivery, speeds lung exchange and sweats through skin - four systems in one ordinary event. A poor night of sleep changes nerve messaging, gut appetite signals and immune readiness at once. Thinking in connections is what turns I feel tired from a vague complaint into a short list of systems to consider, and it is exactly the habit that makes conversations with professionals productive instead of circular."
+      },
+      {
+        "title": "The shared budget",
+        "content": "Under all the systems sits one budget every person manages whether they study medicine or not: sleep, food, water and stress. Most everyday complaints - fatigue, headache, poor recovery, low mood - are budget problems before they are disease problems, and the budget is the one place self-care is genuinely powerful. This lesson does not teach you to diagnose; it teaches you where things live and which levers are safely yours, so that when something is beyond the budget, you recognize it as a question for a professional rather than a puzzle to solve alone."
+      }
+    ],
+    "principles": [
+      "Each system has one headline job; name it and the map holds.",
+      "Systems cooperate: most events touch several at once.",
+      "The shared budget (sleep, food, water, stress) explains many everyday complaints.",
+      "The map generates questions for professionals; it never replaces them."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating systems as separate boxes",
+        "explanation": "The body cross-talks constantly; a single symptom usually touches several systems. Think in connections."
+      },
+      {
+        "title": "Memorizing parts without jobs",
+        "explanation": "A name without a function is trivia. Attach one headline job to each system and it becomes usable."
+      },
+      {
+        "title": "Ignoring the budget",
+        "explanation": "Sleep, food, water and stress drive most everyday complaints; skipping them misses the common cause."
+      },
+      {
+        "title": "Using the map to self-diagnose",
+        "explanation": "The map organizes questions; diagnosis needs examination and training. Keep the ceiling."
+      }
+    ],
+    "practice": [
+      "Say each major system and its one job aloud, twice through.",
+      "Take three everyday events (a run, a meal, a bad sleep) and name every system each touches.",
+      "Write one paragraph mapping a recent tired day onto the budget levers.",
+      "Prepare three questions the map suggests for your next professional visit.",
+      "Teach the systems map to someone else in under two minutes."
+    ],
+    "reflection": "When something feels off in your body, do you reach for a system story or a scare story - and which one leads to a better question?",
+    "safety": "This lesson is a map, not a diagnosis. Any personal symptom that worries you, persists, or matches a red flag goes to a qualified professional, not to self-analysis.",
+    "quiz": [
+      {
+        "question": "The fastest way to make the body map usable is to:",
+        "options": [
+          "Memorize every organ name",
+          "Attach one headline job to each system",
+          "Learn Latin terms",
+          "Draw it once"
+        ],
+        "answer": 1,
+        "explanation": "Jobs make the map a filing system; names alone are trivia that cannot organize a symptom."
+      },
+      {
+        "question": "Most everyday complaints like fatigue and headache are first:",
+        "options": [
+          "Rare diseases",
+          "Budget problems: sleep, food, water, stress",
+          "Nerve damage",
+          "Infections"
+        ],
+        "answer": 1,
+        "explanation": "The shared budget explains the common cases; recognizing that keeps rare scares rare and self-care effective."
+      }
+    ],
+    "mastery": [
+      "Name the major systems with one job each.",
+      "Trace one event across several cooperating systems.",
+      "Separate budget complaints from beyond-budget questions.",
+      "Turn the map into better questions for a professional."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You feel wiped out after a week of poor sleep and skipped meals.",
+          "action": "You treat it as a budget problem first: restore sleep, food and water before inventing diagnoses.",
+          "why": "The budget explains the common case; fixing it is safe, cheap and usually sufficient."
+        },
+        {
+          "setup": "A symptom persists after the budget is fixed.",
+          "action": "You bring a system-organized description to a professional instead of guessing alone.",
+          "why": "Beyond the budget is the ceiling; an organized story makes the visit shorter and sharper."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The map turns vague worry into structured questions and keeps self-care aimed at the levers you own."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who understands systems listens better and reports symptoms more usefully, which improves their care."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Scare-story thinking",
+          "Single-system explanations",
+          "Ignoring the budget"
+        ],
+        "adjustments": [
+          {
+            "if": "You jump to the worst case",
+            "then": "List the systems involved and the budget state first; rarity stays rare."
+          },
+          {
+            "if": "A complaint persists",
+            "then": "Move it across the ceiling to a professional with your organized notes."
+          }
+        ],
+        "learning": "After each week, note which complaints were budget-shaped and which you correctly referred upward."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Map Review",
+      "initialTime": 300
+    }
+  },
+  "med-foundations-symptoms": {
+    "id": "med-foundations-symptoms",
+    "subject": "Medicine",
+    "title": "Reading a Symptom Honestly",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Read a symptom the honest way - what changed, when, how strong, what alters it - and know the red flags that end reading and start calling for help.",
+    "objectives": [
+      "Distinguish a symptom (felt) from a sign (observed)",
+      "Take an honest history: onset, duration, severity, pattern, triggers",
+      "Separate watch-and-wait from act-now without panic or denial",
+      "Memorize the red-flag list that always means get help now",
+      "Recognize the four most common reading errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The honest read",
+        "caption": "A symptom read honestly is a short structured story, not a vibe and not a verdict. Five questions organize it - and one list overrides all of them: the red flags that mean stop reading and get help.",
+        "labels": [
+          "Onset: sudden or gradual, and what were you doing",
+          "Duration: minutes, hours, days, weeks",
+          "Severity: does it stop sleep, eating, walking, thinking",
+          "Pattern: constant, or comes and goes; getting better or worse",
+          "Red flags: chest pain, breathlessness, one-sided weakness, confusion, uncontrolled bleeding, fever in an infant - act now"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Felt versus seen",
+        "content": "A symptom is what a person feels and reports - pain, dizziness, nausea; a sign is what can be observed or measured - a rash, a swelling, a temperature, a pulse rate. The distinction matters because feelings are real but imprecise, and signs are precise but need eyes or tools. Honest reading starts by keeping the two apart: I feel burning when I breathe is a symptom; a measured fever is a sign. Mixing them is how stories grow legs - a felt twinge becomes an imagined measurement becomes a certainty no one ever checked."
+      },
+      {
+        "title": "Five questions, one story",
+        "content": "Professionals do not guess at a symptom; they take a history, and the history is five questions: when did it start and was the onset sudden or gradual; how long has it lasted; how severe is it - does it stop sleep, eating, walking, thinking; what is the pattern - constant or intermittent, improving or worsening; and what makes it better or worse. Answered plainly, these five turn any complaint into a story a professional can use in ninety seconds. They also protect you from yourself: a symptom that is three days old, mild and improving is a different animal from one that arrived suddenly an hour ago and is worsening, and the questions make that difference impossible to blur."
+      },
+      {
+        "title": "Red flags end the reading",
+        "content": "Some findings override every careful question, because they mark possible emergencies: chest pain or pressure, difficulty breathing, one-sided weakness or facial droop, sudden confusion or worst-ever headache, bleeding that will not stop, and fever in a young infant. The honest reader memorizes these not to fear them but to act on them instantly - call emergency services, do not drive yourself, do not sleep it off first. Everything else in this lesson is about organizing information; this list is about recognizing when organizing must stop and helping must start. Knowing the ceiling includes knowing the floor: the moments when waiting is the dangerous choice."
+      }
+    ],
+    "principles": [
+      "Symptoms are felt and reported; signs are observed or measured - keep them apart.",
+      "Five questions make a usable story: onset, duration, severity, pattern, modifiers.",
+      "Improving and mild is different from sudden and worsening; the questions show which.",
+      "Red flags override reading: chest pain, breathlessness, one-sided weakness, confusion, uncontrolled bleeding, infant fever - act now."
+    ],
+    "mistakes": [
+      {
+        "title": "Turning a feeling into a fake measurement",
+        "explanation": "A felt twinge is not a number. Keep symptoms and signs separate or the story invents facts."
+      },
+      {
+        "title": "Skipping the timeline",
+        "explanation": "Onset and duration separate scary from ordinary. Always date the symptom before interpreting it."
+      },
+      {
+        "title": "Denial as calm",
+        "explanation": "Ignoring a worsening pattern is not composure. Honest reading includes the trend, even when uncomfortable."
+      },
+      {
+        "title": "Sleeping off a red flag",
+        "explanation": "Red flags mark possible emergencies; waiting is the dangerous choice. Act immediately."
+      }
+    ],
+    "practice": [
+      "Write the five questions on a card and keep it where you can find it.",
+      "Take one past minor complaint and write its honest five-question story.",
+      "Say the red-flag list aloud from memory until it is instant, twice a week.",
+      "Practice the difference: list three symptoms and three signs from everyday life.",
+      "Role-play reporting a symptom to a professional in under ninety seconds."
+    ],
+    "reflection": "Could you describe your last complaint as onset, duration, severity, pattern and modifiers - or was it only a feeling with a story attached?",
+    "safety": "This lesson organizes information; it does not diagnose or treat. Red flags mean emergency care immediately. Persistent, worsening or worrying symptoms belong to a qualified professional, not to self-analysis.",
+    "quiz": [
+      {
+        "question": "A symptom differs from a sign because a symptom is:",
+        "options": [
+          "Measured by a tool",
+          "Felt and reported by the person",
+          "Always visible",
+          "Never real"
+        ],
+        "answer": 1,
+        "explanation": "Feelings are real but imprecise; signs are observed or measured. Keeping them apart stops stories from inventing facts."
+      },
+      {
+        "question": "Which finding overrides careful reading and means act now?",
+        "options": [
+          "A mild headache improving over days",
+          "Sudden one-sided weakness or facial droop",
+          "A tired feeling after poor sleep",
+          "A scratch that healed"
+        ],
+        "answer": 1,
+        "explanation": "One-sided weakness is a red flag for a possible emergency; red flags end reading and start calling for help."
+      }
+    ],
+    "mastery": [
+      "Separate symptoms from signs in any description.",
+      "Produce a five-question history for any complaint.",
+      "Classify watch-and-wait versus act-now from onset and trend.",
+      "Recite the red-flag list instantly and act on it without delay."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A headache arrives suddenly and is the worst you have felt.",
+          "action": "You treat worst-ever sudden headache as a red flag and get emergency help instead of waiting it out.",
+          "why": "The red-flag list exists so the dangerous cases never get negotiated with."
+        },
+        {
+          "setup": "A knee ache has been mild and slowly improving for a week.",
+          "action": "You note onset, duration, severity and trend, keep loading gently, and re-check in days.",
+          "why": "An improving mild pattern is a watch-and-wait story; the five questions make that classification honest rather than hopeful."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Structured histories get better care faster and keep everyday complaints in proportion."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who reports onset, trend and red-flag status clearly is the easiest person in the room to help correctly."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Vague vibes instead of timelines",
+          "Invented measurements",
+          "Red flags being negotiated"
+        ],
+        "adjustments": [
+          {
+            "if": "The story is vague",
+            "then": "Force the five questions in order before any interpretation."
+          },
+          {
+            "if": "A red flag appears",
+            "then": "Stop reading; call emergency services and follow their instructions."
+          }
+        ],
+        "learning": "After any health event, note whether you produced a five-question story and whether any red flag was acted on instantly."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "History Drill",
+      "initialTime": 300
+    }
+  },
+  "med-foundations-referral": {
+    "id": "med-foundations-referral",
+    "subject": "Medicine",
+    "title": "The Referral Ceiling",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The line that makes health knowledge safe: what self-reasoning may do (observe, record, prepare, follow plans) and what it may never do (diagnose, prescribe, override) - plus how to make a professional visit actually work.",
+    "objectives": [
+      "State the ceiling plainly: observe and prepare, never diagnose or treat",
+      "Prepare a visit with a timeline, current medicines and three questions",
+      "Know when a second opinion is reasonable and when it is shopping",
+      "Respect scope: pharmacist, nurse, doctor, emergency - use the right lane",
+      "Recognize the four most common ceiling errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Where self-reasoning stops",
+        "caption": "Knowledge without a ceiling is danger with confidence. This lesson draws the line: everything below it is yours to do well; everything above it belongs to trained professionals with examination rights and accountability.",
+        "labels": [
+          "You may: observe, record, prepare questions, follow agreed plans",
+          "You may not: diagnose, prescribe, stop prescribed treatment, override a professional",
+          "Escalate: red flags go straight to emergency care, no negotiation",
+          "Second opinion: reasonable when uncertainty persists, not to hunt for yes",
+          "Scope: pharmacist, nurse, doctor, emergency each have a lane - use the right one"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The line, stated plainly",
+        "content": "Self-reasoning in health has a job and a limit. The job: notice changes early, record them honestly, manage the budget levers you own, prepare good questions, and follow agreed plans carefully. The limit: never diagnose, never prescribe or stop a prescribed treatment, never override a professional because something online sounded better. The limit is not humility for its own sake - diagnosis needs examination, tests and training you do not have, and acting without them risks harm that confidence cannot see. The ceiling is what makes everything else in this domain safe to learn at all."
+      },
+      {
+        "title": "Making the visit work",
+        "content": "A professional visit is short, so preparation is respect - for their time and your health. Bring three things: a timeline (the five-question history from the previous lesson, written down), a complete list of what you currently take including supplements, and your three most important questions in order. Say the red-flag status first if any applies. This turns a vague ten minutes into a precise one, and it is the single highest-leverage health skill most people never learn: not knowing medicine, but knowing how to use someone who does."
+      },
+      {
+        "title": "Second opinions and lanes",
+        "content": "Uncertainty is normal in medicine, and a second opinion is a legitimate tool when a picture stays unclear or a plan feels unexplained - the test is whether you are seeking understanding or shopping for a yes. Equally important is scope: a pharmacist is the expert on interactions and dosing questions, a nurse on day-to-day management and warning signs, a doctor on diagnosis and treatment plans, emergency services on the red-flag moments. Using the right lane gets you better answers faster and keeps each professional working inside what they are trained and licensed to do. Respecting scope is not bureaucracy; it is how safety is distributed."
+      }
+    ],
+    "principles": [
+      "Observe, record, prepare, follow: the four things self-reasoning may do.",
+      "Never diagnose, prescribe, stop treatment or override: the four it may not.",
+      "Bring a timeline, a medicines list and three questions to every visit.",
+      "Second opinions seek understanding; scope puts each question in its right lane."
+    ],
+    "mistakes": [
+      {
+        "title": "Diagnosing from a search result",
+        "explanation": "Diagnosis needs examination and tests. A match in a list is a coincidence wearing a costume."
+      },
+      {
+        "title": "Stopping or changing prescribed treatment alone",
+        "explanation": "Changes need the prescriber; stopping abruptly can harm. Bring the concern, do not act on it solo."
+      },
+      {
+        "title": "Opinion-shopping for a yes",
+        "explanation": "Hunting until someone agrees is not diligence, it is roulette. Seek understanding, not confirmation."
+      },
+      {
+        "title": "Asking the wrong lane",
+        "explanation": "Dosing questions belong to pharmacists, diagnoses to doctors, red flags to emergency. Wrong lanes waste time and risk."
+      }
+    ],
+    "practice": [
+      "Write your personal ceiling statement in one sentence and keep it visible.",
+      "Prepare a mock visit pack: timeline, medicines list, three ordered questions.",
+      "Say aloud which lane each of five example questions belongs to.",
+      "Rehearse reporting a red flag: who you call, what you say first.",
+      "Review one past health decision and mark what was below versus above your ceiling."
+    ],
+    "reflection": "In your last health decision, where exactly did your authority end - and did you stop there, or step over the line?",
+    "safety": "This lesson is the safety rule for the whole domain: it exists so that curiosity never becomes unlicensed practice. Red flags mean emergency care now; persistent or worrying symptoms mean a professional visit soon.",
+    "quiz": [
+      {
+        "question": "Which action is below the ceiling, safely yours?",
+        "options": [
+          "Diagnosing a rash from a photo",
+          "Recording a symptom timeline and preparing questions",
+          "Stopping a prescription that seems unnecessary",
+          "Overriding a plan with online advice"
+        ],
+        "answer": 1,
+        "explanation": "Observing, recording and preparing are the permitted jobs; diagnosis and treatment decisions belong to professionals."
+      },
+      {
+        "question": "A second opinion is reasonable when:",
+        "options": [
+          "You want a different answer until one fits",
+          "Uncertainty persists or a plan stays unexplained",
+          "You dislike the professional personally",
+          "The first opinion was brief but complete and clear"
+        ],
+        "answer": 1,
+        "explanation": "Seeking understanding of genuine uncertainty is legitimate; hunting for confirmation is not."
+      }
+    ],
+    "mastery": [
+      "State the four permitted and four forbidden actions without hesitation.",
+      "Assemble a visit pack: timeline, medicines, three questions.",
+      "Route example questions to the correct professional lane.",
+      "Distinguish a second opinion from opinion-shopping."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "An online source matches your symptom to something frightening.",
+          "action": "You note the match as a question, add it to your three, and book a visit instead of concluding.",
+          "why": "Matches are not diagnoses; the ceiling keeps curiosity from becoming verdict."
+        },
+        {
+          "setup": "A prescription side effect bothers you.",
+          "action": "You record it precisely and raise it with the prescriber or pharmacist rather than stopping the medicine yourself.",
+          "why": "Changes need the prescriber; bringing good data gets the plan adjusted safely and quickly."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Knowing the ceiling makes you the best kind of patient: early-noticing, well-prepared, plan-following."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A ceiling-respecting person is trusted by professionals, which measurably improves the care they receive."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Verdicts forming from searches",
+          "Solo treatment changes",
+          "Wrong-lane questions"
+        ],
+        "adjustments": [
+          {
+            "if": "A verdict forms",
+            "then": "Convert it into a written question for the right lane."
+          },
+          {
+            "if": "You feel urged to change treatment alone",
+            "then": "Stop; book the conversation that the change deserves."
+          }
+        ],
+        "learning": "After each health event, mark every action as below or above the ceiling and keep the record honest."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Ceiling Review",
+      "initialTime": 300
+    }
   }
 }

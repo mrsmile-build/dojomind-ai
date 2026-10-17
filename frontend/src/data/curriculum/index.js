@@ -687,5 +687,38 @@ export default {
         }
       }
     }
+  },
+  "medicine": {
+    "foundations": {
+      "name": "Foundations",
+      "icon": "🧬",
+      "description": "How the body is organized and how to read a symptom honestly.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The systems map, the honest symptom read, and the referral ceiling.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Medicine Foundations",
+              "lessons": [
+                {
+                  "id": "med-foundations-systems",
+                  "title": "The Body as Systems"
+                },
+                {
+                  "id": "med-foundations-symptoms",
+                  "title": "Reading a Symptom Honestly"
+                },
+                {
+                  "id": "med-foundations-referral",
+                  "title": "The Referral Ceiling"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
   }
 };
