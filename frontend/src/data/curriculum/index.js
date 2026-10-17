@@ -909,6 +909,37 @@ export default {
           ]
         }
       }
+    },
+    "habits": {
+      "name": "Habits",
+      "icon": "🔁",
+      "description": "Design behavior so the good thing happens by default.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The loop, the design, and changing the stubborn ones.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Habit Foundations",
+              "lessons": [
+                {
+                  "id": "skills-habits-loop",
+                  "title": "The Habit Loop"
+                },
+                {
+                  "id": "skills-habits-design",
+                  "title": "Designing Habits That Stick"
+                },
+                {
+                  "id": "skills-habits-change",
+                  "title": "Changing Stubborn Habits"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };

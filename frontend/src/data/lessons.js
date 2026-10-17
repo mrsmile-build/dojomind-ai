@@ -22920,5 +22920,464 @@ export const lessons = {
       "label": "Active Retrieval Reps",
       "targetReps": 5
     }
+  },
+  "skills-habits-loop": {
+    "id": "skills-habits-loop",
+    "subject": "Skills",
+    "title": "The Habit Loop",
+    "level": "Beginner",
+    "duration": "10 min",
+    "description": "Every habit - good or stubborn - runs the same four-beat loop: cue, craving, routine, reward. See your own loops clearly and behavior stops being a mystery and starts being a machine you can adjust.",
+    "objectives": [
+      "Name the four beats: cue, craving, routine, reward",
+      "Spot the cue that starts one of your own habits, including time and place",
+      "Identify the reward the routine is actually buying",
+      "Write one of your loops out in full, honestly",
+      "Recognize the four most common loop-blindness errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The four-beat loop",
+        "caption": "Habits are not character, they are circuitry: a cue triggers a craving, the craving runs a routine, the routine delivers a reward, and the reward teaches the brain to run it again. Change any beat and the loop changes.",
+        "labels": [
+          "Cue: time, place, feeling, people or the previous action",
+          "Craving: the want the cue predicts - the engine of the loop",
+          "Routine: the behavior itself, mental or physical",
+          "Reward: what the routine buys - relief, taste, status, rest",
+          "Loop: the reward teaches the brain to notice the cue sooner"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Circuitry, not character",
+        "content": "A habit is the brain outsourcing a repeated decision: after enough repetitions, the cue alone launches the routine without consulting your intentions, which is why you can arrive in the kitchen with no memory of deciding to go. That is not weakness, it is efficiency - the same machinery that makes driving automatic makes phone-reaching automatic. Seeing habits as circuitry removes the moral story (I am lazy, I have no discipline) and replaces it with an engineering one (what is the cue, what is the reward), and engineering problems have engineering answers."
+      },
+      {
+        "title": "The craving is the engine",
+        "content": "Between cue and routine sits the beat people miss: craving, the anticipated reward that gives the loop its pull. The cue does not cause the behavior directly; it causes a want (the smell of coffee predicts the relief of the first sip; the 3pm slump predicts the scroll that makes boredom end), and the want runs the routine. This is why willpower fails against habits - you are fighting a prediction the brain has verified hundreds of times - and why habit change works through the beats: change the cue, change the reward, or give the same craving a different routine."
+      },
+      {
+        "title": "Write your loop out",
+        "content": "The first practical skill is diagnosis: pick one habit, good or bad, and write its four beats in plain sentences - when and where it starts, what it promises, what you actually do, what you actually get. Most people discover their reward is not the one they assumed (the snack buys a break, not hunger relief; the scroll buys a pause from a hard paragraph, not information), and that discovery is the key to every later adjustment. A loop written honestly is half-designed already, because you finally know which machine you are operating."
+      }
+    ],
+    "principles": [
+      "Habits are circuitry: cue, craving, routine, reward - not character.",
+      "The cue triggers a craving; the craving runs the routine.",
+      "The real reward is often not the assumed one; diagnose before designing.",
+      "Writing a loop in plain sentences is the first act of changing it."
+    ],
+    "mistakes": [
+      {
+        "title": "Moralizing instead of mapping",
+        "explanation": "Lazy and undisciplined are stories, not mechanisms. Write the four beats and the problem becomes adjustable."
+      },
+      {
+        "title": "Ignoring the craving beat",
+        "explanation": "Cue to routine skips the engine. Name what the loop promises or you will change the wrong beat."
+      },
+      {
+        "title": "Assuming the reward",
+        "explanation": "The snack may buy a break, the scroll a pause. Verify the actual reward by asking what you feel after."
+      },
+      {
+        "title": "Fighting loops with willpower alone",
+        "explanation": "Willpower loses to verified predictions. Change cues, rewards or routines instead of pressing harder."
+      }
+    ],
+    "practice": [
+      "Write one good habit of yours in four beats; find the cue you never noticed.",
+      "Write one stubborn habit in four beats; name the reward it really buys.",
+      "For three days, log the time and place each stubborn loop starts.",
+      "Ask after each routine: what did I actually get? Note surprises.",
+      "Teach the four beats to someone else using one of your own loops."
+    ],
+    "reflection": "Which of your loops did you just discover today - and what reward was it really buying all along?",
+    "safety": "No physical risk; if a loop involves substances or self-harm, treat it as a health matter with professional support, not a design exercise.",
+    "quiz": [
+      {
+        "question": "The engine that runs a habit routine is:",
+        "options": [
+          "The cue alone",
+          "The craving the cue predicts",
+          "Willpower",
+          "The reward after"
+        ],
+        "answer": 1,
+        "explanation": "The cue triggers an anticipated reward; that want is what launches the behavior, which is why willpower alone loses."
+      },
+      {
+        "question": "Writing a loop out honestly matters because:",
+        "options": [
+          "It looks professional",
+          "It reveals the real reward and the real cue, which are the adjustable beats",
+          "It proves you are lazy",
+          "It replaces the habit"
+        ],
+        "answer": 1,
+        "explanation": "Most rewards are mis-assumed; diagnosis precedes design, and a mapped loop is half-changed."
+      }
+    ],
+    "mastery": [
+      "Name the four beats of any habit on demand.",
+      "Identify cues including time, place and preceding action.",
+      "Discover the actual reward behind a routine.",
+      "Write one of your own loops in full, plain sentences."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You keep reaching for your phone at every hard paragraph.",
+          "action": "You map it: cue = stuck feeling, craving = pause, routine = scroll, reward = relief - then design a different routine for the same craving.",
+          "why": "Changing the routine while honoring the craving keeps the engine and redirects it."
+        },
+        {
+          "setup": "A morning run habit keeps dying.",
+          "action": "You find its cue was vague (someday mornings) and anchor it: after coffee, shoes on, door.",
+          "why": "Loops need a specific cue; vague cues never fire reliably."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Mapped loops make behavior adjustable; you stop negotiating with yourself and start editing the circuit."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who can name their cues is hard to manipulate by environment, because they see the triggers coming."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Moral stories",
+          "Assumed rewards",
+          "Vague cues"
+        ],
+        "adjustments": [
+          {
+            "if": "You hear yourself saying I am lazy",
+            "then": "Stop and write the four beats instead; replace the story with the circuit."
+          },
+          {
+            "if": "The reward is unclear",
+            "then": "Log what you feel immediately after the routine for three runs."
+          }
+        ],
+        "learning": "After each week, note one loop you mapped and which beat turned out to be different from your assumption."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Loop Maps",
+      "targetReps": 3
+    }
+  },
+  "skills-habits-design": {
+    "id": "skills-habits-design",
+    "subject": "Skills",
+    "title": "Designing Habits That Stick",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Make the good habit obvious, tiny, easy and satisfying: anchor it to an existing cue, shrink it to two minutes, design the environment so the lazy path is the good path, and track it without brittle streaks.",
+    "objectives": [
+      "Anchor a new habit to an existing cue with after X, I do Y",
+      "Shrink the start to two minutes so starting is never the problem",
+      "Design the environment so the good path is the lazy path",
+      "Give the habit an immediate satisfaction and a visible track",
+      "Recognize the four most common design errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Obvious, tiny, easy, satisfying",
+        "caption": "A habit sticks when starting costs nothing and stopping feels like losing. Anchor it, shrink it, clear its path, and let the checkmark pay you today - motivation follows mechanics, not the reverse.",
+        "labels": [
+          "Obvious: anchor to an existing cue - after coffee, I write one line",
+          "Tiny: two-minute start; the habit is showing up, not the outcome",
+          "Easy: environment cleared - gear visible, friction removed",
+          "Satisfying: immediate check or mark; the track pays today",
+          "Track: a chain you protect, and a rule for when it breaks"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Anchor and shrink",
+        "content": "New habits fail mostly at starting, so design the start to be impossible to refuse: anchor the habit to something you already do every day (after I pour coffee, I open the notebook) and shrink it to two minutes (write one line, not the essay; put on shoes, not run five kilometers). The anchor supplies a reliable cue you do not have to remember, and the tiny size removes the negotiation - because the goal of the first month is not the outcome, it is the identity of someone who shows up. Once showing up is automatic, growing is easy; habits grow from a standard, not from a sprint."
+      },
+      {
+        "title": "Make the good path lazy",
+        "content": "Behavior follows friction, so spend your design effort on geography instead of motivation: put the guitar on the stand in the living room, the fruit on the counter, the running shoes by the door, and put the friction where the bad loop lives (charger in another room, feeds logged out). This is the same principle as the distraction-design lesson applied to daily life: you are not building discipline, you are building a room where the disciplined choice is the lazy choice. Every second of friction you move is worth more than every speech you give yourself."
+      },
+      {
+        "title": "Pay today, track gently",
+        "content": "Habits whose rewards arrive in months die before the reward shows up, so manufacture an immediate satisfaction: a checkmark, a line in a journal, two minutes of something pleasant right after. Then keep a visible track - a chain of marks on a calendar - because a growing chain adds a gentle cost to skipping. But design the break rule in advance: never miss twice, and a miss is data about the design (cue too vague? step too big? day wrong?), never a verdict on you. Brittle streak psychology kills habits at the first interruption; gentle tracking survives real life."
+      }
+    ],
+    "principles": [
+      "Anchor new habits to existing cues: after X, I do Y.",
+      "Shrink the start to two minutes; the habit is showing up.",
+      "Move friction: good path lazy, bad path costly - geography over motivation.",
+      "Immediate satisfaction plus a visible track; never miss twice, misses are design data."
+    ],
+    "mistakes": [
+      {
+        "title": "Starting at full size",
+        "explanation": "Five kilometers on day one dies by day nine. Two minutes first; grow from a standard that exists."
+      },
+      {
+        "title": "No anchor, only intention",
+        "explanation": "Someday cues never fire. Attach the habit to something you already do daily."
+      },
+      {
+        "title": "Relying on motivation",
+        "explanation": "Motivation is weather. Design the room so the lazy path is the good path."
+      },
+      {
+        "title": "Brittle streak psychology",
+        "explanation": "One miss ending everything guarantees everything ends. Never miss twice; treat misses as design feedback."
+      }
+    ],
+    "practice": [
+      "Write one anchor sentence: after my existing X, I will do tiny Y.",
+      "Do the two-minute version daily for seven days; log each with a mark.",
+      "Move one piece of friction today: good gear visible, one bad cue out of sight.",
+      "Add an immediate reward after the habit for the first two weeks.",
+      "When you miss, write one sentence of design diagnosis instead of self-criticism."
+    ],
+    "reflection": "What is your newest habit two-minute version of - and where did you move friction so the lazy path became the good one?",
+    "safety": "No physical risk; keep growth gradual to avoid injury in physical habits, and consult professionals for health-related behavior change.",
+    "quiz": [
+      {
+        "question": "The two-minute rule exists to:",
+        "options": [
+          "Save time",
+          "Make starting impossible to refuse so showing up becomes the habit",
+          "Look modest",
+          "Replace the real goal forever"
+        ],
+        "answer": 1,
+        "explanation": "Habits die at starting; a tiny start removes negotiation and builds the identity of showing up, which later grows."
+      },
+      {
+        "question": "Never miss twice means:",
+        "options": [
+          "Perfection or failure",
+          "A single miss is data; the second miss starts a new loop",
+          "Two misses per week allowed",
+          "Misses are forbidden"
+        ],
+        "answer": 1,
+        "explanation": "The rule protects against the real killer - the miss that becomes a pattern - while surviving ordinary life."
+      }
+    ],
+    "mastery": [
+      "Anchor a habit with an after-X sentence that fires daily.",
+      "Run a two-minute version for a week without negotiation.",
+      "Redesign one room so the good path is the lazy path.",
+      "Track visibly and diagnose misses instead of quitting on them."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your practice habit keeps dying in busy weeks.",
+          "action": "You shrink it to two minutes and anchor it to coffee; busy weeks now contain the habit instead of killing it.",
+          "why": "Tiny anchored habits survive load; big unanchored ones do not."
+        },
+        {
+          "setup": "You miss three days and feel it is over.",
+          "action": "You apply never-miss-twice going forward and write what the design got wrong (evening cue, too big).",
+          "why": "Misses are design data; the verdict story is what actually ends habits."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Designed habits run on environment and anchors, so they persist through motivation weather."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person whose good behaviors are default behaviors compounds advantages without visible effort."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Full-size starts",
+          "Vague someday cues",
+          "Streak despair"
+        ],
+        "adjustments": [
+          {
+            "if": "Starting feels heavy",
+            "then": "Halve the step until it feels almost silly; silly starts stick."
+          },
+          {
+            "if": "A miss spirals",
+            "then": "Run the never-miss-twice rule and fix the cue or the size the same day."
+          }
+        ],
+        "learning": "After each month, note which anchored habits survived load and which design element saved them."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Show-Up Reps",
+      "targetReps": 7
+    }
+  },
+  "skills-habits-change": {
+    "id": "skills-habits-change",
+    "subject": "Skills",
+    "title": "Changing Stubborn Habits",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "You rarely erase a loop, you replace it: keep the cue and the craving, swap the routine; make the old path costly and invisible; and let identity - the kind of person you are becoming - do the heavy lifting.",
+    "objectives": [
+      "Replace a routine while keeping its cue and craving intact",
+      "Make the old loop invisible, costly and unsatisfying",
+      "Use identity language: I am the kind of person who...",
+      "Treat relapse as design data with a pre-written restart rule",
+      "Recognize the four most common change errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Replace, do not erase",
+        "caption": "The loop cannot be deleted, only edited: same cue, same craving, new routine - while the old path gets friction, distance and no reward. Identity is the frame that holds the edit in place.",
+        "labels": [
+          "Keep the cue: you cannot unsee it, so plan for it",
+          "Keep the craving: honor the want with a better routine",
+          "Swap the routine: same promise, different behavior",
+          "Tax the old path: friction, distance, no reward",
+          "Identity: votes accumulate - I am the kind of person who..."
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Replace, do not erase",
+        "content": "Decades of habit research agree on one practical truth: loops are not deleted, they are overwritten. The cue will still fire and the craving will still arrive, so the workable move is to keep both and install a different routine that delivers a similar reward - a walk instead of a scroll for the pause-craving, sparkling water instead of soda for the ritual-craving, two minutes of guitar instead of an hour of intending for the identity-craving. Trying to erase the loop leaves the cue firing at an empty socket, which is why pure suppression collapses under stress; replacement gives the engine somewhere legal to go."
+      },
+      {
+        "title": "Tax the old path",
+        "content": "While the new routine grows, make the old one expensive: add friction (log out, uninstall, put it in a drawer in another room), add distance (not in the house, not in the car), and remove the reward where you can (pair it with something unpleasant, or delay it ten minutes, which often dissolves the urge entirely). This is environment design turned defensive, and it matters most in the moments you predicted in your loop map - the 3pm slump, the post-argument evening - because that is when the old prediction shouts loudest. Pre-decide those moments in calm weather: if cue X fires, then routine Y, written down before the craving arrives."
+      },
+      {
+        "title": "Identity holds the edit",
+        "content": "The deepest lever is not the loop but the story: habits persist when they are votes for the kind of person you believe you are. I am skipping dessert fights a loop; I am someone who eats for energy edits the identity the loop serves. Each small kept promise is a vote, and votes accumulate into self-image, which then runs the behavior for free - because people act consistently with who they believe they are. So phrase the change in identity language, collect votes visibly, and treat a relapse as one bad vote rather than a new identity; the restart rule (never miss twice, restart at the tiny version today) keeps a slip from becoming a story."
+      }
+    ],
+    "principles": [
+      "Loops are overwritten, not deleted: keep cue and craving, swap the routine.",
+      "Tax the old path with friction, distance and delayed or removed reward.",
+      "Pre-decide high-risk moments in calm weather: if X, then Y.",
+      "Identity is the frame: each kept promise is a vote; relapse is one vote, not a verdict."
+    ],
+    "mistakes": [
+      {
+        "title": "Trying to erase instead of replace",
+        "explanation": "Suppression leaves the cue firing at nothing and collapses under stress. Install a legal routine for the same craving."
+      },
+      {
+        "title": "Leaving the old path frictionless",
+        "explanation": "Visible and easy old loops win tired evenings. Add friction and distance before you need them."
+      },
+      {
+        "title": "Outcome language instead of identity language",
+        "explanation": "I am skipping fights; I am the kind of person who edits. Frame the change as who you are becoming."
+      },
+      {
+        "title": "Relapse as verdict",
+        "explanation": "One miss is a vote, not an identity. Restart at the tiny version the same day; never miss twice."
+      }
+    ],
+    "practice": [
+      "Pick one stubborn loop; write its cue and craving, then design a replacement routine for the same craving.",
+      "Add two taxes to the old path today: friction and distance.",
+      "Write one if-then plan for your highest-risk moment and put it where you will see it.",
+      "Rewrite your goal in identity language and list three votes you can cast this week.",
+      "After any slip, write one design sentence and restart at the tiny version same day."
+    ],
+    "reflection": "Which stubborn loop are you still trying to erase rather than replace - and what craving does it serve that you have not honored elsewhere?",
+    "safety": "For loops involving substances, eating disorders or self-harm, replacement design is support, not treatment: bring a professional into the loop early.",
+    "quiz": [
+      {
+        "question": "Stubborn habits change most reliably by:",
+        "options": [
+          "Erasing the loop through willpower",
+          "Keeping cue and craving while swapping the routine",
+          "Punishing yourself after slips",
+          "Waiting for motivation"
+        ],
+        "answer": 1,
+        "explanation": "The cue and craving persist; giving the craving a better routine overwrites the loop instead of fighting it."
+      },
+      {
+        "question": "Identity language works because:",
+        "options": [
+          "It sounds inspiring",
+          "People act consistently with who they believe they are, and votes accumulate that belief",
+          "It removes the cue",
+          "It replaces the reward"
+        ],
+        "answer": 1,
+        "explanation": "Each kept promise is a vote for a self-image; the self-image then runs the behavior without negotiation."
+      }
+    ],
+    "mastery": [
+      "Design a replacement routine that honors the original craving.",
+      "Tax the old path with friction, distance and reward removal.",
+      "Write if-then plans for predicted high-risk moments.",
+      "Use identity language and restart rules that survive relapse."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Evening scrolling returns every tired night.",
+          "action": "You keep the pause-craving, install tea-plus-paperbook as the routine, and move the charger to another room.",
+          "why": "Replacement honors the engine; the tax protects the new routine during its fragile first weeks."
+        },
+        {
+          "setup": "A week of travel breaks your running habit and old story returns.",
+          "action": "You call it one bad vote, restart at the two-minute version today, and re-anchor it to hotel coffee.",
+          "why": "Relapse as data keeps the identity intact; the restart rule stops a slip becoming a story."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Replacement plus taxes plus identity turns change from a fight into an edit with a frame that holds."
+        },
+        {
+          "role": "Facing it",
+          "detail": "Someone changing by design rather than by guilt is steady under stress, because the plan anticipated the stress."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Suppression attempts",
+          "Frictionless old paths",
+          "Verdict stories after slips"
+        ],
+        "adjustments": [
+          {
+            "if": "You are white-knuckling",
+            "then": "Design the replacement routine for the craving today; willpower is a bridge, not a home."
+          },
+          {
+            "if": "A slip becomes a story",
+            "then": "Write the design sentence, cast a tiny vote the same day, close the loop."
+          }
+        ],
+        "learning": "After each month, note which replacement held under stress and which tax did the protecting."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Replacement Reps",
+      "targetReps": 7
+    }
   }
 }
