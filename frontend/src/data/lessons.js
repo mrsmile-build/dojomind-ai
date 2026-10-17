@@ -23379,5 +23379,924 @@ export const lessons = {
       "label": "Replacement Reps",
       "targetReps": 7
     }
+  },
+  "skills-learning-interleaving": {
+    "id": "skills-learning-interleaving",
+    "subject": "Skills",
+    "title": "Interleaving & Variation",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Blocking one topic feels smooth but builds fragile skill; mixing topics and problem types feels worse and learns better - because the hidden skill is choosing which tool fits, not just running it.",
+    "objectives": [
+      "Explain why blocked practice feels better but learns worse",
+      "Interleave two or three topics or problem types in one session",
+      "Use variation to train discrimination: which move, which formula, when",
+      "Accept the early performance dip as the price of durability",
+      "Recognize the four most common practice-structure errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Blocked feels good, interleaved learns",
+        "caption": "Same total time, opposite results: blocked practice flatters you today and abandons you at exam or match time; interleaved practice frustrates you today and shows up when it counts.",
+        "labels": [
+          "Blocked: AAAA BBBB - smooth now, fragile later",
+          "Interleaved: ABAB BA - harder now, durable and flexible later",
+          "The hidden skill is choosing: which tool fits this problem",
+          "Variation: change context, angle, key, wording - same principle",
+          "The early dip is normal: performance down, learning up"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The blocking illusion",
+        "content": "Practicing one thing repeatedly - twenty kicks, twenty flashcards of the same type, one chapter until it feels easy - produces fast visible improvement and a strong feeling of mastery. Both are partly fake. Within a blocked run you never have to decide what to do, because the context announces it; the decision skill, which is what real performance demands, never gets a rep. A week later the smoothness is gone, because what was trained was the pattern inside one context, not the ability to recognize and choose under varied conditions."
+      },
+      {
+        "title": "Interleaving trains the choice",
+        "content": "Mixing topics or problem types (ABAB instead of AAAA) forces the brain to reload a different approach each rep and, crucially, to identify which approach the current problem needs. That identification is the skill exams, matches and real projects actually test. Interleaved practice feels worse - more errors, more effort, less flow - and decades of research say the feeling is lying: retention and transfer both improve. The practical rule is simple: within a session, rotate two or three related topics, and rotate problem types rather than repeating one until bored."
+      },
+      {
+        "title": "Variation and the dip",
+        "content": "Variation is interleaving is cousin: same principle, changing surface - different keys, distances, wordings, hands, rooms. Each variation asks the brain to extract what stays the same (the principle) from what changes (the surface), which is exactly what transfer requires. Expect and budget for the dip: the first interleaved sessions will score lower than blocked ones, and that gap is the sound of durable learning being bought. Tell yourself the score is not the measurement this week; the measurement is next month, unseen, under pressure."
+      }
+    ],
+    "principles": [
+      "Blocked practice flatters today and fades; interleaving builds the choosing skill.",
+      "Rotate two or three related topics or problem types per session.",
+      "Variation separates principle from surface, which is what transfer needs.",
+      "The early dip is the price of durability; judge learning later, unseen."
+    ],
+    "mistakes": [
+      {
+        "title": "Mistaking smoothness for mastery",
+        "explanation": "Fast within-session gains often mean the context is doing the work. Test later, unseen, to know."
+      },
+      {
+        "title": "One problem type until bored",
+        "explanation": "Repetition without choice trains execution only. Mix types so identification gets reps too."
+      },
+      {
+        "title": "Quitting at the dip",
+        "explanation": "Interleaved sessions score lower early by design. Hold the structure for two weeks before judging."
+      },
+      {
+        "title": "Interleaving unrelated chaos",
+        "explanation": "Rotation works between related topics that share principles; random unrelated switches train nothing coherent."
+      }
+    ],
+    "practice": [
+      "Take one study or training session and rotate three related topics every few reps.",
+      "Rewrite one blocked drill as an interleaved one; note the dip in performance honestly.",
+      "Add one variation per rep this week: key, distance, wording, hand or room.",
+      "Schedule an unseen self-test in two weeks; compare interleaved versus old blocked material.",
+      "Keep a two-line log: today is feel versus next-week is score, for both structures."
+    ],
+    "reflection": "Where are you still blocking because it feels good - and what will the unseen test say about that choice?",
+    "safety": "No physical risk; in physical skills keep variation inside safe technique bounds - vary context, not safety-critical form.",
+    "quiz": [
+      {
+        "question": "Blocked practice feels better because:",
+        "options": [
+          "It builds stronger memory",
+          "The context announces what to do, so choosing never gets trained",
+          "It uses more time",
+          "It is harder"
+        ],
+        "answer": 1,
+        "explanation": "Smoothness comes from the context doing the identification work; real performance requires choosing, which blocking never rehearses."
+      },
+      {
+        "question": "The early performance dip in interleaving means:",
+        "options": [
+          "The method is failing",
+          "Durable learning is being bought; judge later and unseen",
+          "You should switch back to blocking",
+          "The topics are wrong"
+        ],
+        "answer": 1,
+        "explanation": "Lower within-session scores with higher later retention is the signature effect; the dip is the cost, not the verdict."
+      }
+    ],
+    "mastery": [
+      "Explain the blocking illusion with a personal example.",
+      "Run an interleaved session across three related topics.",
+      "Design variation into reps without breaking safe form.",
+      "Hold the structure through the dip and verify with an unseen test."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You practice kicks or chords smoothly alone but freeze in sparring or a song.",
+          "action": "You interleave techniques and contexts so choosing gets trained, not just executing.",
+          "why": "Performance demands identification under varied conditions; blocked reps never supplied them."
+        },
+        {
+          "setup": "Exam practice feels great, exam feels alien.",
+          "explanation": "Your practice announced the method each time; the exam does not.",
+          "action": "You rebuild practice as mixed unseen problem sets with timing.",
+          "why": "Mixed sets restore the choosing reps the exam will demand."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Interleaved learners look slower early and perform better late, exactly when it matters."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A practitioner trained on variation adapts mid-match or mid-problem instead of repeating one groove."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Boredom-free smooth sessions",
+          "Quitting at the dip",
+          "Random chaos rotation"
+        ],
+        "adjustments": [
+          {
+            "if": "Sessions feel too easy",
+            "then": "Add a rotation or an unseen problem; ease is the warning light."
+          },
+          {
+            "if": "The dip tempts you back",
+            "then": "Pre-commit to two weeks and schedule the unseen verification now."
+          }
+        ],
+        "learning": "After each block of weeks, compare unseen-test results between structures and let data, not feel, choose."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Rotation Reps",
+      "targetReps": 6
+    }
+  },
+  "skills-learning-feedback": {
+    "id": "skills-learning-feedback",
+    "subject": "Skills",
+    "title": "Feedback - The Signal Diet",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Feedback corrects the loop - but only the right kind, at the right time, heard without ego. Learn the three types, hunt the disconfirming kind, and shrink the latency until corrections arrive while they are still cheap.",
+    "objectives": [
+      "Distinguish outcome, process and coach feedback and use each correctly",
+      "Ask for disconfirming feedback: what is wrong, not am I right",
+      "Shorten feedback latency: test sooner and in smaller pieces",
+      "Separate the data from the ego so criticism stays usable",
+      "Recognize the four most common feedback errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The signal diet",
+        "caption": "Most people eat only outcome feedback - the slowest, bluntest signal - and starve for the kinds that fix things early. A healthy diet mixes all three types, seeks the uncomfortable kind on purpose, and arrives while the work is still small.",
+        "labels": [
+          "Outcome: did it work - late but honest",
+          "Process: how it was done - earlier and fixable",
+          "Coach: a trained eye naming the one thing to change",
+          "Disconfirming: ask what is wrong, not whether it is right",
+          "Latency: sooner and smaller beats later and bigger"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Three types, three jobs",
+        "content": "Outcome feedback says whether it worked - the sale, the grade, the win - and it is honest but late and blunt: it cannot tell you which of fifty decisions caused it. Process feedback says how it was done - the technique, the structure, the sequence - and arrives early enough to fix. Coach feedback is a trained eye naming the single highest-leverage change, which is why one good teacher beats a hundred outcomes. A learner eating only outcome feedback is like a driver navigating by crash reports: true, but useless in the moment."
+      },
+      {
+        "title": "Hunt the disconfirming kind",
+        "content": "The default question - is this good? - buys comfort, because people are kind and ambiguity reads as yes. The learning question is what is wrong with this, or what would make you say no? Disconfirming feedback costs more ego and pays more information; it is the difference between a polite nod and a list you can act on tonight. Seek it from people qualified to give it, thank them without defending, and write the top item down - because unwritten criticism evaporates under ego pressure within a day."
+      },
+      {
+        "title": "Latency and the ego filter",
+        "content": "Feedback value decays with delay and with size: a note on a two-line change lands instantly; a verdict on a finished month lands as grief. So test sooner and smaller - show the sketch, play the eight bars, send the draft paragraph - and collect corrections while they are cheap. The other decay is internal: the ego translates criticism into identity (I am bad) unless you intercept it and refile it as data about the work (this transition is unclear). The refile is a skill: pause, extract the actionable noun and verb, discard the verdict tone, and act on the sentence, not the feeling."
+      }
+    ],
+    "principles": [
+      "Outcome is late and blunt; process is early and fixable; coach names the one change.",
+      "Ask what is wrong, not whether it is good; comfort is not information.",
+      "Shrink latency: test sooner and smaller so corrections stay cheap.",
+      "Refile criticism as data about the work, never as verdict on the self."
+    ],
+    "mistakes": [
+      {
+        "title": "Eating only outcome feedback",
+        "explanation": "Crash-report navigation. Add process checks and a coach eye while the work is still small."
+      },
+      {
+        "title": "Asking is it good?",
+        "explanation": "Kindness plus ambiguity equals false yes. Ask what would make you say no."
+      },
+      {
+        "title": "Waiting until finished to show",
+        "explanation": "Late feedback arrives as grief and rework. Show sketches and eight-bar drafts early."
+      },
+      {
+        "title": "Hearing verdicts instead of sentences",
+        "explanation": "I am bad fixes nothing; this transition is unclear fixes one thing tonight. Extract and act."
+      }
+    ],
+    "practice": [
+      "Rewrite three of your usual feedback questions into disconfirming form and use one today.",
+      "Show one unfinished piece to a qualified person this week; collect the top item in writing.",
+      "Add one process checkpoint to a current project where only outcomes were measured.",
+      "Practice the refile: take one past criticism, strip the tone, write the actionable sentence.",
+      "Track feedback latency: hours from creation to first external eye, for one week."
+    ],
+    "reflection": "When did criticism last reach you early enough to be cheap - and what did your ego translate it into before you could use it?",
+    "safety": "No physical risk; protect relationships by asking for feedback respectfully and thanking without defending, even when it stings.",
+    "quiz": [
+      {
+        "question": "Outcome feedback is weak for learning because it:",
+        "options": [
+          "Is usually wrong",
+          "Arrives late and cannot name which decision caused it",
+          "Hurts feelings",
+          "Costs money"
+        ],
+        "answer": 1,
+        "explanation": "True but blunt and delayed; process and coach feedback arrive early enough to change the work."
+      },
+      {
+        "question": "The highest-information feedback question is:",
+        "options": [
+          "Is this good?",
+          "What would make you say no?",
+          "Do you like it?",
+          "Can I finish it?"
+        ],
+        "answer": 1,
+        "explanation": "Disconfirming questions bypass kindness and ambiguity, producing actionable lists instead of comfortable nods."
+      }
+    ],
+    "mastery": [
+      "Name and collect all three feedback types on one project.",
+      "Ask disconfirming questions and write the top item down.",
+      "Cut feedback latency by showing smaller work sooner.",
+      "Refile criticism as actionable data without ego translation."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A client says the draft is fine but then rewrites everything.",
+          "action": "You switch to disconfirming questions and early process checkpoints on the next piece.",
+          "why": "Fine was kindness plus ambiguity; early specific signals prevent the late total rewrite."
+        },
+        {
+          "setup": "Criticism in a review stings and you shut down.",
+          "action": "You pause, extract the one actionable sentence, discard the tone, and fix that sentence this week.",
+          "why": "The refile keeps the data and drops the verdict, so ego stops taxing your learning."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A good feedback diet compounds: corrections arrive early, small and usable, every cycle."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who asks what is wrong and thanks you for it is the easiest collaborator to improve alongside."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Only outcome measured",
+          "Comfort questions",
+          "Late big reveals"
+        ],
+        "adjustments": [
+          {
+            "if": "You only see results",
+            "then": "Insert a process checkpoint and one coach eye before completion."
+          },
+          {
+            "if": "Feedback arrives as grief",
+            "then": "Halve the unit of work you show and double the frequency."
+          }
+        ],
+        "learning": "After each cycle, note the latency, the type mix, and the one disconfirming item that changed the work."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Feedback Asks",
+      "targetReps": 3
+    }
+  },
+  "skills-learning-transfer": {
+    "id": "skills-learning-transfer",
+    "subject": "Skills",
+    "title": "Transfer - Knowledge That Travels",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Knowledge trapped in its first example is trivia. Transfer is the goal: name the principle under the example, map analogies honestly, learn in the context you will perform, and teach it once to find the gaps.",
+    "objectives": [
+      "State the principle under each worked example in one sentence",
+      "Map analogies: what is same, what is different, where it breaks",
+      "Learn in the context you will use the skill, or simulate it closely",
+      "Teach it once to test it: explaining exposes what rereading hides",
+      "Recognize the four most common transfer errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Knowledge that travels",
+        "caption": "The test of learning is not the original problem but a new one in a new coat. Principles, honest analogies, real context and teaching are the four vehicles that carry knowledge out of its first example.",
+        "labels": [
+          "Principle: the rule under the example, stated in one sentence",
+          "Analogy: same structure, different surface - map both, note where it breaks",
+          "Context: practice where you will perform, or as close as you can build",
+          "Teach: explaining exposes the gaps rereading hides",
+          "Test: an unseen problem in a new surface is the only honest check"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The principle under the example",
+        "content": "Every worked example is one costume worn by a general rule, and memory keeps the costume unless you strip it. After solving or studying any example, write the principle in one plain sentence - the rule that would generate this solution again in different clothes. That sentence is the transferable object; the numbers and names in the example are not. Learners who skip this step collect costumes and then fail the exam question that wears a different hat, while learners with the sentence recognize the old rule instantly under the new surface."
+      },
+      {
+        "title": "Analogies, mapped honestly",
+        "content": "Analogies are transfer engines: this is like that because the structure matches. But an unmapped analogy is a guess, so map it in three lines - what is the same, what is different, and where the analogy breaks. The break line is the valuable one, because it marks the boundary of the principle and prevents the classic over-extension (treating electricity exactly like water until the pipe thinks). Used this way, analogies let you bootstrap new domains from old knowledge at speed, with the safety rail installed."
+      },
+      {
+        "title": "Context and the teach-test",
+        "content": "Skill encodes with its context - the room, the tool, the mood - which is why knowledge learned at a desk can vanish on a stage or a pitch. Practice as close to performance conditions as you can build: standing, timed, with the real tool, with noise, with the client watching. And use the oldest transfer test alive: teach it once, aloud, to a person or an empty chair. Explanation cannot hide gaps the way recognition can; the moment you stumble mid-sentence is the exact coordinate of what you do not yet own. Teach, note the stumbles, relearn those, teach again."
+      }
+    ],
+    "principles": [
+      "Write the one-sentence principle under every example; the sentence travels, the costume does not.",
+      "Map analogies in three lines: same, different, where it breaks.",
+      "Practice in performance context or the closest simulation you can build.",
+      "Teach once to test: stumbles in explanation are coordinates of gaps."
+    ],
+    "mistakes": [
+      {
+        "title": "Collecting examples without principles",
+        "explanation": "Costumes without the rule fail on new surfaces. Write the generating sentence every time."
+      },
+      {
+        "title": "Unmapped analogies",
+        "explanation": "Guessing that two things are alike over-extends. Map same, different, and the break point."
+      },
+      {
+        "title": "Studying far from performance context",
+        "explanation": "Context-bound knowledge vanishes on stage. Simulate the real conditions early and often."
+      },
+      {
+        "title": "Rereading instead of explaining",
+        "explanation": "Recognition hides gaps; explanation exposes them. Teach it once before claiming it."
+      }
+    ],
+    "practice": [
+      "Take three past examples and write each principle in one sentence; compare them.",
+      "Map one analogy you use in three lines, including where it breaks.",
+      "Rehearse one skill once in real performance conditions this week.",
+      "Teach one concept aloud for two minutes; note every stumble and relearn those spots.",
+      "Solve one unseen problem in a new surface and check it against your principle sentence."
+    ],
+    "reflection": "Which of your knowledges has never left its first example - and what sentence would let it travel?",
+    "safety": "No physical risk; in physical skills simulate performance context within safe bounds and supervision where needed.",
+    "quiz": [
+      {
+        "question": "The transferable object from a worked example is:",
+        "options": [
+          "The numbers used",
+          "The one-sentence principle that generates the solution",
+          "The diagram color",
+          "The author name"
+        ],
+        "answer": 1,
+        "explanation": "Surfaces change and principles repeat; the sentence is what recognizes the old rule in new clothes."
+      },
+      {
+        "question": "Teaching exposes gaps because explanation:",
+        "options": [
+          "Is easier than recognition",
+          "Cannot hide what recognition can conceal",
+          "Takes longer",
+          "Uses more words"
+        ],
+        "answer": 1,
+        "explanation": "Recognition feels like knowing; producing a coherent explanation forces retrieval and structure, so stumbles mark exact gaps."
+      }
+    ],
+    "mastery": [
+      "Write generating principles for examples across two domains.",
+      "Map an analogy with its break point included.",
+      "Rehearse once in true performance context.",
+      "Teach-test a concept and close the stumbles it reveals."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A new problem looks nothing like your practice set.",
+          "action": "You scan for the principle sentence underneath and find the old rule in the new coat.",
+          "why": "Principles are surface-independent; that is precisely what makes them worth carrying."
+        },
+        {
+          "setup": "You freeze explaining your own method to a junior.",
+          "action": "You note the stumbles as gap coordinates, relearn those two spots, and teach again tomorrow.",
+          "why": "The teach-test converts vague familiarity into owned, structured knowledge."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Transferable knowledge compounds across domains; each new field boots faster from mapped old ones."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who can re-explain anything in plain sentences owns it, and ownership shows under pressure."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Example-bound answers",
+          "Broken analogies over-trusted",
+          "Desk-only practice"
+        ],
+        "adjustments": [
+          {
+            "if": "A new surface confuses you",
+            "then": "Write the principle sentence first, then match features to it."
+          },
+          {
+            "if": "Teaching stalls",
+            "then": "Stop at the stumble, relearn that unit, and resume the explanation."
+          }
+        ],
+        "learning": "Keep a principle notebook; review monthly and mark which sentences actually traveled to new problems."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Teach-Test Reps",
+      "targetReps": 2
+    }
+  },
+  "music-guitar-strum": {
+    "id": "music-guitar-strum",
+    "subject": "Music",
+    "title": "Strumming With Time",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Strumming is the pulse lesson from Theory, now in your hand: down-strums on each beat from a loose wrist, the hand moving like a pendulum even on silent beats, up-strums living on the ands between.",
+    "objectives": [
+      "Strum down on each pulse with a loose wrist, not a stiff elbow",
+      "Keep the strum hand moving continuously like a pendulum",
+      "Play four downs per bar in 4/4, then add ups on the ands",
+      "Keep chord clarity while strumming, not only while picking",
+      "Recognize the four most common strumming errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The pendulum hand",
+        "caption": "A strum is not an arm event, it is a wrist event riding a never-stopping pendulum. The hand goes down and up continuously; which strokes make sound is a choice, and that choice is rhythm.",
+        "labels": [
+          "Pulse first: four downs per bar in 4/4 - the Theory heartbeat, in your hand",
+          "Wrist leads; the elbow follows loosely - a stiff arm kills groove",
+          "Pendulum: the hand keeps moving even on silent beats",
+          "Ups live on the ands between pulses",
+          "Clarity: every string still rings while strumming, not just while picking"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The pulse, in your hand",
+        "content": "Everything from the rhythm lesson lands here: the strum hand is a metronome with strings attached. Start with four down-strums per bar, one per pulse, at sixty to eighty BPM, counting 1-2-3-4 aloud while the wrist falls on each number. Nothing else matters yet - not pattern, not speed, not dynamics - because a strum that is not on the pulse is noise with guitar shape. When four downs land evenly for a full minute without drifting, you own the base layer every strum pattern in every song is built on."
+      },
+      {
+        "title": "The pendulum never stops",
+        "content": "The secret of all strumming is that the hand keeps moving down-up-down-up continuously, like a pendulum, even on strokes that make no sound. Patterns are simply choices about which passes of the pendulum touch the strings: a rest is not a stop, it is a silent pass. Beginners stop the hand at rests and then rush or drag to restart it, which is why their rhythm lurches; a pendulum hand never lurches because it never left. Practice the empty pendulum first - moving over the strings without touching for a full bar - then let selected strokes sound, and feel how rests become free instead of dangerous."
+      },
+      {
+        "title": "Ups on the ands, clarity always",
+        "content": "Up-strums live between the pulses, on the ands (1-and-2-and), and they are naturally lighter because the wrist rises across the thin strings first - use that, do not fight it. The first real pattern is therefore downs on the numbers and ups on selected ands, kept loose and even. Through all of it, the chord audit still applies: a strummed chord must ring six clean notes, because strumming magnifies whatever the fretting hand got wrong. If the strum sounds muddy, stop the pendulum, audit the chord, fix the guilty finger, then restart - rhythm on top of mud is just organized mud."
+      }
+    ],
+    "principles": [
+      "Four downs per bar on the pulse is the base layer of every pattern.",
+      "The pendulum never stops: rests are silent passes, not hand stops.",
+      "Up-strums live on the ands and are naturally lighter - use it.",
+      "Strummed chords still owe a six-string clean audit; mud magnifies under rhythm."
+    ],
+    "mistakes": [
+      {
+        "title": "Stiff-arm strumming from the elbow",
+        "explanation": "The elbow locks timing and tires the shoulder. Loose wrist leads; the arm follows."
+      },
+      {
+        "title": "Stopping the hand at rests",
+        "explanation": "A stopped pendulum restarts late or early. Keep moving; make rests silent passes."
+      },
+      {
+        "title": "Ups as loud as downs",
+        "explanation": "Ups cross thin strings first and should be lighter; forcing them even kills the groove feel."
+      },
+      {
+        "title": "Strumming over an unaudited chord",
+        "explanation": "Rhythm magnifies fretting faults. Audit clean first, then put the pendulum on top."
+      }
+    ],
+    "practice": [
+      "Empty pendulum: one minute of continuous down-up motion over the strings, no sound, on a 60 BPM pulse.",
+      "Four downs per bar on Em for two minutes, counting aloud; watch for drift.",
+      "Add ups on every and for one minute; then ups only on the and of 3 and the and of 4.",
+      "Audit-then-strum: build G, audit six strings, strum four downs clean; repeat five times.",
+      "Play Em for one bar and G for one bar with continuous pendulum across the change."
+    ],
+    "reflection": "During your last rest, did your hand keep moving or did it freeze - and what did the freeze cost the next beat?",
+    "safety": "Keep the wrist loose and the shoulder down; shake out tension between sets. Sharp wrist pain means stop and rest, not push.",
+    "quiz": [
+      {
+        "question": "A rest in strumming is best executed as:",
+        "options": [
+          "Stopping the hand briefly",
+          "A silent pass of the continuously moving pendulum",
+          "Strumming very quietly",
+          "Lifting the fretting hand"
+        ],
+        "answer": 1,
+        "explanation": "Stopping costs restart timing; the never-stopping pendulum makes rests free and keeps the pulse honest."
+      },
+      {
+        "question": "Up-strums naturally sound lighter because:",
+        "options": [
+          "They are weaker muscles",
+          "The wrist rises across the thin strings first",
+          "They miss strings",
+          "They happen off beat"
+        ],
+        "answer": 1,
+        "explanation": "The rising stroke catches treble strings first with less depth; using that lightness is what makes patterns groove."
+      }
+    ],
+    "mastery": [
+      "Hold four downs per bar on a pulse for a full minute without drift.",
+      "Keep the pendulum moving through rests and chord changes.",
+      "Add ups on the ands with natural lightness.",
+      "Strum only audited-clean chords at every tempo."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your strumming rushes whenever a rest appears.",
+          "action": "You return to the empty pendulum for a bar, then re-add sounds with rests as silent passes.",
+          "why": "The freeze-restart cycle is the rush source; continuous motion removes it structurally."
+        },
+        {
+          "setup": "Playing with a singer, your groove feels stiff.",
+          "action": "You loosen the wrist, let ups stay light, and keep the pendulum under the vocal phrasing.",
+          "why": "Groove is the pendulum plus dynamics; stiff arms and forced ups flatten both."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A steady pendulum hand makes any chord progression sound like music immediately, which keeps beginners playing."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A rhythm guitarist with a never-stopping hand is the person every singer and soloist wants behind them."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hand freezing at rests",
+          "Elbow-driven strums",
+          "Mud under rhythm"
+        ],
+        "adjustments": [
+          {
+            "if": "You freeze at rests",
+            "then": "Silent-pass drill: one bar of pendulum with sound only on beat 1."
+          },
+          {
+            "if": "Strum sounds muddy",
+            "then": "Stop, audit the chord, fix the guilty finger, restart at half tempo."
+          }
+        ],
+        "learning": "After each session, note drift moments and whether the pendulum or the audit was the missing layer."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Pendulum Minute",
+      "initialTime": 60
+    }
+  },
+  "music-guitar-hold": {
+    "id": "music-guitar-hold",
+    "subject": "Music",
+    "title": "Holding the Guitar & First Frets",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Before a single chord: sit the guitar stable without the fretting hand holding it, name the six strings, and fret with fingertips just behind the fret wire - the three setups every later sound depends on.",
+    "objectives": [
+      "Sit or stand with the guitar stable without the left hand holding it",
+      "Name the six strings E A D G B E from thickest to thinnest",
+      "Fret with fingertips just behind the fret wire, not on top of it",
+      "Get each string ringing clean before adding chords or speed",
+      "Recognize the four most common setup errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Stable guitar, clean frets",
+        "caption": "Ninety percent of beginner buzz and mute is setup, not fingers: a guitar that needs the fretting hand to hold it can never be fretted cleanly, and a finger on top of the wire chokes the note it means to play.",
+        "labels": [
+          "Body rests on the leg; neck angled up about 30-45 degrees",
+          "The guitar stays put with the fretting hand completely off it",
+          "Strings: E A D G B E, thickest to thinnest",
+          "Fret with the tip, just behind the metal fret wire",
+          "Thumb behind the neck, roughly opposite the middle finger"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Stability before sound",
+        "content": "The first test happens before any note: take your fretting hand completely off the neck and the guitar must not move. If it dives or slides, your fretting hand is secretly doing holding work, and a hand that holds cannot fret cleanly - it arrives tense, late and flat-fingered. Fix the geography instead of the fingers: body on the leg (or strap at a height where the neck angles up thirty to forty-five degrees), guitar waist tucked, neck pointing up rather than parallel to the floor. A stable guitar frees the fretting hand to be what it must be - precise, relaxed and independent."
+      },
+      {
+        "title": "The map of six strings",
+        "content": "The guitar is six parallel lanes named from thickest to thinnest E, A, D, G, B, E - and yes, two lanes share a name an octave apart, which is the same repeating-alphabet idea from the note map lying sideways across the neck. Say the names aloud while plucking from thickest to thinnest and back until the order is instant, because every chord diagram, tab and instruction you will ever read assumes you know which lane is which without counting. Numbers help too: string 1 is the thinnest E, string 6 the thickest - diagrams count from the thin end, which surprises everyone once."
+      },
+      {
+        "title": "Fingertip, behind the wire",
+        "content": "Clean notes come from three millimeters of placement: press with the very tip of the finger, just behind the metal fret wire (toward the tuning pegs side), not on top of it and not in the middle of the gap. Behind the wire needs least force and rings clearest; on the wire mutes; mid-gap buzzes and demands a death grip that tires the hand and slows every change. Add the thumb position - behind the neck, roughly opposite the middle finger, like a gentle clamp rather than a hook over the top - and the hand has a pivot instead of a stranglehold. Check every string one at a time: pluck, listen, adjust. Clean is the standard; speed is a later guest."
+      }
+    ],
+    "principles": [
+      "The guitar must stay put with the fretting hand off it; holding hands cannot fret.",
+      "Strings run E A D G B E thickest to thinnest; diagrams count from the thin end.",
+      "Fret with the tip just behind the wire; on-wire mutes, mid-gap buzzes.",
+      "Thumb behind the neck opposite the middle finger: a pivot, not a hook."
+    ],
+    "mistakes": [
+      {
+        "title": "Fretting hand holding the guitar",
+        "explanation": "A holding hand arrives tense and flat. Fix posture and strap height until the hand is free."
+      },
+      {
+        "title": "Finger flat on the wire or mid-gap",
+        "explanation": "On-wire mutes and mid-gap buzzes. Place the tip just behind the wire with least force."
+      },
+      {
+        "title": "Thumb hooked over the top",
+        "explanation": "A hooked thumb collapses the fingers flat. Move it behind the neck for a pivot."
+      },
+      {
+        "title": "Counting strings from the thick end",
+        "explanation": "Diagrams number from the thin E as string 1. Learn both names and numbers or tabs will mislead."
+      }
+    ],
+    "practice": [
+      "Balance test: fretting hand off for thirty seconds; adjust posture until the guitar does not move.",
+      "Pluck and name all six strings down and up, twice daily, until instant.",
+      "Fret one note per string at fret 3 with tips behind the wire; pluck each and fix buzzes.",
+      "Thumb check between every exercise: behind the neck, opposite middle finger.",
+      "Two minutes of clean single notes beats ten minutes of buzzy chords; log clean versus buzz counts."
+    ],
+    "reflection": "With your fretting hand off the neck right now, does the guitar stay put - and where does your thumb actually live?",
+    "safety": "Keep wrists straight and shoulders down; stop at sharp pain (mild finger-tip soreness is normal early). Short sessions with breaks protect tendons while calluses build.",
+    "quiz": [
+      {
+        "question": "String 1 in guitar diagrams is:",
+        "options": [
+          "The thickest E",
+          "The thinnest E",
+          "The A string",
+          "The G string"
+        ],
+        "answer": 1,
+        "explanation": "Numbering runs from the thin end, which is the opposite of the usual thickest-first naming habit."
+      },
+      {
+        "question": "The cleanest fret placement is:",
+        "options": [
+          "On top of the metal wire",
+          "Just behind the wire with the fingertip",
+          "Middle of the gap between frets",
+          "Anywhere with enough force"
+        ],
+        "answer": 1,
+        "explanation": "Behind the wire rings clearest with least force; on-wire mutes and mid-gap buzzes demand a gripping hand."
+      }
+    ],
+    "mastery": [
+      "Hold the guitar stable with the fretting hand completely free.",
+      "Name and number all six strings instantly in both directions.",
+      "Fret clean single notes on every string with tips behind the wire.",
+      "Keep the thumb pivot position through a full practice session."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Every chord buzzes no matter how hard you press.",
+          "action": "You check placement behind the wire and thumb position instead of adding force.",
+          "why": "Buzz is usually geometry, not strength; force on bad placement just hurts and still buzzes."
+        },
+        {
+          "setup": "Your hand aches after five minutes.",
+          "action": "You rebalance the guitar so the hand stops holding, and loosen the grip to minimum clean pressure.",
+          "why": "Holding work and death grips are the two classic sources of early hand fatigue."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clean setup makes every later chord and scale easier; the basics compound invisibly."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player with relaxed clean fretting sounds better on a cheap guitar than a gripper on a good one."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Buzz everywhere",
+          "Hand fatigue fast",
+          "Thumb over the top"
+        ],
+        "adjustments": [
+          {
+            "if": "Buzz persists",
+            "then": "Move the fingertip a millimeter toward the wire and halve the pressure."
+          },
+          {
+            "if": "Fatigue arrives early",
+            "then": "Run the balance test and fix posture before touching technique again."
+          }
+        ],
+        "learning": "After each session, note clean-string count per chord and which setup fix raised it."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Clean Note Holds",
+      "initialTime": 120
+    }
+  },
+  "music-guitar-first-chords": {
+    "id": "music-guitar-first-chords",
+    "subject": "Music",
+    "title": "Your First Chords - Em & G",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A chord is three or more notes stacked. Your first two shapes are Em and G: build them finger by finger, check every string one at a time, and change between them slowly - clean beats fast, always.",
+    "objectives": [
+      "Explain a chord as three or more notes sounding together",
+      "Build Em and G one finger at a time with tips behind the wires",
+      "Check clarity string by string and fix each buzz or mute at its finger",
+      "Change Em to G slowly using any shared or anchor finger strategy",
+      "Recognize the four most common first-chord errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Two shapes, checked string by string",
+        "caption": "Chords are not hand poses to memorize but small machines to assemble: each finger has a lane and a fret, and the check is six separate clean notes, not one hopeful strum.",
+        "labels": [
+          "Chord: three or more notes sounding together",
+          "Em: middle finger string 5 fret 2, ring finger string 4 fret 2",
+          "G: ring finger string 6 fret 3, middle finger string 5 fret 2, pinky or index on string 1 fret 3",
+          "Check: pluck each string alone; every note must ring clear",
+          "Change: place fingers one at a time slowly, then together, then faster"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Stacked notes, not hand poses",
+        "content": "A chord is simply three or more notes sounding at once, and on guitar each note lives at a lane-and-fret address. Em uses two addresses (string 5 fret 2, string 4 fret 2) plus four open strings; G uses three pressed addresses plus open strings. Seeing chords as addresses rather than mysterious hand shapes is what lets you read any chord diagram forever after: dots are addresses, numbers are fingers, and open or muted strings are marked at the top. Build each chord finger by finger in slow motion, saying each address aloud, and the shape stops being a pose and becomes a place."
+      },
+      {
+        "title": "The six-string audit",
+        "content": "The habit that separates clean players from buzzy ones is the audit: after building a chord, pluck the six strings one at a time and listen to each note as its own verdict. A buzz means a finger is mid-gap or flat; a mute means a finger or the palm is touching a lane it should not; both are fixed at the guilty finger, not by squeezing harder. Beginners strum the whole chord, hear mud, and squeeze - which locks the mud in. Audit, diagnose, adjust one millimeter, re-audit: two minutes of this per chord buys a lifetime of clean sound."
+      },
+      {
+        "title": "Slow changes, shared fingers",
+        "content": "Chord changes are where beginners stall, and the fix is decomposition: move from Em to G in slow motion, watching which fingers can stay or slide and which must jump, then rehearse the jump alone twenty times at quarter speed. Add the anchor idea - one finger lands first and the others follow in a fixed order - so the change becomes a small choreography instead of a scatter of five independent decisions. Speed is the last ingredient and arrives by itself from clean slow reps; chasing speed first produces fast mud, which is harder to unlearn than slowness."
+      }
+    ],
+    "principles": [
+      "A chord is stacked notes at lane-and-fret addresses; diagrams are maps of addresses.",
+      "Audit string by string; fix buzzes and mutes at the guilty finger, never by squeezing.",
+      "Changes are choreography: shared or anchor finger first, others in fixed order.",
+      "Clean and slow beats fast and muddy; speed arrives from clean reps, not from chasing."
+    ],
+    "mistakes": [
+      {
+        "title": "Strumming to check instead of auditing",
+        "explanation": "A full strum hides which note fails. Pluck six separate verdicts and fix the guilty finger."
+      },
+      {
+        "title": "Squeezing through buzz",
+        "explanation": "Force locks bad geometry in. Adjust placement a millimeter; pressure is the last resort."
+      },
+      {
+        "title": "All fingers jumping at once in changes",
+        "explanation": "Five simultaneous decisions stall. Anchor one finger, order the rest, rehearse the jump slow."
+      },
+      {
+        "title": "Chasing speed early",
+        "explanation": "Fast mud is harder to unlearn than slow clean. Quarter speed until the audit passes six for six."
+      }
+    ],
+    "practice": [
+      "Build Em finger by finger saying addresses aloud; audit six strings; fix and re-audit.",
+      "Same for G; then alternate Em and G with a full audit each time, five rounds.",
+      "Change drill: Em to G in slow motion twenty times, naming the anchor finger each rep.",
+      "One-minute changes: as many clean Em-G changes as possible at a pace where every audit passes.",
+      "End with two minutes of single-string melody on string 1 to rest the chord hand."
+    ],
+    "reflection": "In your last practice, did you hear six separate notes per chord or one hopeful blur - and which finger was usually guilty?",
+    "safety": "Mild fingertip soreness is normal early; sharp wrist or forearm pain means stop and check posture and grip. Short frequent sessions beat long grinding ones.",
+    "quiz": [
+      {
+        "question": "The fastest way to fix a buzzy chord is:",
+        "options": [
+          "Press much harder",
+          "Pluck each string and adjust the guilty finger placement",
+          "Strum louder",
+          "Move the chord up the neck"
+        ],
+        "answer": 1,
+        "explanation": "Buzz is placement, not pressure; the six-string audit names the guilty finger so one millimeter fixes it."
+      },
+      {
+        "question": "Chord changes improve fastest by:",
+        "options": [
+          "Repeating at full speed",
+          "Decomposing: anchor finger, fixed order, slow reps of the jump",
+          "Squeezing all fingers harder",
+          "Looking at the hand less"
+        ],
+        "answer": 1,
+        "explanation": "Changes are choreography of small decisions; slow decomposition makes them one automatic sequence."
+      }
+    ],
+    "mastery": [
+      "Build Em and G from addresses without looking at a diagram.",
+      "Pass a six-string audit on both chords consistently.",
+      "Change Em-G with an anchor finger at a clean slow tempo.",
+      "Diagnose any buzz or mute to its finger within one audit."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A new chord from a song sheet buzzes on two strings.",
+          "action": "You audit string by string, fix the two guilty fingers, and re-audit before playing the song.",
+          "why": "The audit turns mud into a two-item to-do list; squeezing would have hidden both faults."
+        },
+        {
+          "setup": "Your changes collapse when you play with a recording.",
+          "action": "You drop the tempo to quarter speed, rehearse the anchor-finger choreography, then raise it one notch at a time.",
+          "why": "Speed on top of undecided fingers is fast mud; choreography first makes speed durable."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clean two-chord playing with real audits sounds musical immediately, which is the fuel that keeps practice alive."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who audits hears their own buzzes early and fixes them alone - the definition of self-teaching."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hopeful strumming",
+          "Squeeze reflex",
+          "Change panic"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself squeezing",
+            "then": "Stop, lift all fingers, rebuild one at a time at half pressure."
+          },
+          {
+            "if": "Changes panic under tempo",
+            "then": "Halve the tempo and count the anchor finger aloud each change."
+          }
+        ],
+        "learning": "Log audits passed per chord each session; the curve is your real progress chart, not song count."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Clean Change Reps",
+      "targetReps": 20
+    }
   }
 }

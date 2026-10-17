@@ -640,7 +640,32 @@ export default {
       "name": "Guitar",
       "icon": "🎸",
       "description": "Fretting, strumming, chords and finger patterns.",
-      "levels": {}
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Hold it, fret it clean, strum it in time.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Guitar Foundations",
+              "lessons": [
+                {
+                  "id": "music-guitar-hold",
+                  "title": "Holding the Guitar & First Frets"
+                },
+                {
+                  "id": "music-guitar-first-chords",
+                  "title": "Your First Chords - Em & G"
+                },
+                {
+                  "id": "music-guitar-strum",
+                  "title": "Strumming With Time"
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     "voice": {
       "name": "Voice",
@@ -934,6 +959,37 @@ export default {
                 {
                   "id": "skills-habits-change",
                   "title": "Changing Stubborn Habits"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "learning": {
+      "name": "Learning How to Learn",
+      "icon": "📚",
+      "description": "The method behind every method in this app.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Interleaving, feedback and transfer.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Learning Foundations",
+              "lessons": [
+                {
+                  "id": "skills-learning-interleaving",
+                  "title": "Interleaving & Variation"
+                },
+                {
+                  "id": "skills-learning-feedback",
+                  "title": "Feedback - The Signal Diet"
+                },
+                {
+                  "id": "skills-learning-transfer",
+                  "title": "Transfer - Knowledge That Travels"
                 }
               ]
             }
