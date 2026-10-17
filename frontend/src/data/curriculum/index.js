@@ -602,6 +602,30 @@ export default {
               ]
             }
           ]
+        },
+        "intermediate": {
+          "name": "Intermediate",
+          "description": "Read and build the grammar: time signatures, key signatures and chord function.",
+          "modules": [
+            {
+              "id": "intermediate",
+              "title": "Music Theory Intermediate",
+              "lessons": [
+                {
+                  "id": "music-theory-intermediate-rhythm",
+                  "title": "Rhythm in Depth - Time, Dots & Syncopation"
+                },
+                {
+                  "id": "music-theory-intermediate-scales",
+                  "title": "Scales & Keys - Building and the Circle"
+                },
+                {
+                  "id": "music-theory-intermediate-harmony",
+                  "title": "Harmony & Chords - Stacking Thirds"
+                }
+              ]
+            }
+          ]
         }
       }
     },

@@ -28002,5 +28002,464 @@ export const lessons = {
       "label": "Layer Reps",
       "targetReps": 3
     }
+  },
+  "music-theory-intermediate-rhythm": {
+    "id": "music-theory-intermediate-rhythm",
+    "subject": "Music",
+    "title": "Rhythm in Depth - Time, Dots & Syncopation",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Move from feeling the pulse to reading the clock: what a time signature actually instructs, how note values and dots divide it, what rests contribute, and why syncopation feels like a surprise but is just an accent on the wrong beat.",
+    "objectives": [
+      "Decode a time signature as beats-per-bar over which-note-gets-the-beat",
+      "Add whole, half, quarter, eighth and sixteenth values to fill a bar",
+      "Apply the dot rule: a dot adds half the note is value",
+      "Read rests as rhythmic content, not empty space",
+      "Hear and write syncopation as accent displaced off the strong beat"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The time signature is an instruction",
+        "caption": "A time signature is not a mood label; it is two numbers that tell you how many beats fill a bar and which note value counts as one beat. Read it as a rule and every bar becomes a container you fill exactly.",
+        "labels": [
+          "Top number: how many beats in the bar (4 = four beats)",
+          "Bottom number: which note gets one beat (4 = quarter note, 8 = eighth)",
+          "4/4 = four quarter-note beats per bar; 3/4 = three",
+          "Values halve each step: whole = 2 halves = 4 quarters = 8 eighths",
+          "A dot adds half: dotted quarter = quarter + eighth"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two numbers, one rule",
+        "content": "Beginners treat 4/4 and 3/4 as genres; they are containers. The top number counts the beats in a bar, the bottom names the note that gets one beat - and the bottom is a fraction denominator, so 4 means quarter, 8 means eighth. In 4/4 you have four quarter-note beats to spend per bar; in 3/4 you have three, which is why a waltz feels like it leans and rolls instead of marching. The discipline of reading rhythm is arithmetic you do per bar: the note values must sum exactly to the top number, no more (that is a bar overflow, the classic beginner error) and no less (a silent gap the composer did not intend). Once you see the signature as a budget, notation stops being mysterious symbols and becomes a filling problem with one correct answer."
+      },
+      {
+        "title": "Values, dots and the half-they-add rule",
+        "content": "Note values are a halving ladder: a whole note is two halves, a half is two quarters, a quarter is two eighths, an eighth is two sixteenths. You combine them to fill the bar - in 4/4, a half plus two quarters, or four quarters, or two quarters plus four eighths, all equal four beats. The dot is the one modifier that trips everyone: a dot after a note adds half that note is own value, so a dotted quarter (quarter + eighth) lasts one and a half beats, and a dotted half lasts three. That half-value rule is why dotted rhythms feel lopsided - they are deliberately uneven - and why you count them as \"one-and-two-and\" with the dot swallowing the and. Master the dot and you can read most pop and jazz rhythms, because they live on the off-beats the dot creates."
+      },
+      {
+        "title": "Rests and the syncopation surprise",
+        "content": "A rest is not nothing; it is a beat of planned silence that shapes the groove as much as a played note, and beginners read past them and rush the entrance that follows. Count rests exactly like notes - a quarter rest is one silent beat you feel in your body - because the silence is part of the rhythm the composer wrote. Syncopation then makes sense as the same idea inverted: instead of the accent landing on the strong beat (1 and 3 in 4/4), it lands on a weak beat or an off-beat and, crucially, the note is often tied across the strong beat so the expected downbeat is silent. That silence-where-you-expected-a-hit is the \"surprise\"; it is not random, it is the accent displaced. Clap a straight 4/4, then clap the same notes shifted to the ands, and you have just written your first syncopated bar."
+      }
+    ],
+    "principles": [
+      "A time signature is a budget: top = beats per bar, bottom = which note is the beat.",
+      "Note values halve down a ladder; each bar must sum exactly to the top number.",
+      "A dot adds half the note is own value - the source of lopsided rhythms.",
+      "Rests are planned beats of silence; syncopation is an accent displaced off the strong beat."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating time signatures as genres",
+        "explanation": "4/4 is a container, not a style. Read it as beats-per-bar and fill it exactly."
+      },
+      {
+        "title": "Bar overflow or underflow",
+        "explanation": "Values must sum to the top number. Count each bar as arithmetic before performing it."
+      },
+      {
+        "title": "Reading past rests",
+        "explanation": "Silence is written rhythm. Count rests in your body or you will rush the next entrance."
+      },
+      {
+        "title": "Hearing syncopation as random",
+        "explanation": "It is the accent moved off the strong beat, often tied across it. Displacement, not chaos."
+      }
+    ],
+    "practice": [
+      "Fill a 4/4 bar three different ways (half+2 quarters; 4 quarters; 2 quarters+4 eighths) and clap each.",
+      "Clap dotted-quarter + eighth + half patterns, feeling the dot swallow the and.",
+      "Count a bar of mixed notes and rests aloud, tapping rests as silent beats.",
+      "Write one syncopated 4/4 bar by tying a note across beat 1, then clap it.",
+      "Switch a familiar melody is accents to the ands and hear the groove change."
+    ],
+    "reflection": "When you last misread a rhythm, was it a bar that did not sum, a dot you ignored, or a rest you skipped?",
+    "safety": "No physical risk; keep study volume comfortable and take ear breaks during long rhythm drills - fatigue makes you miscount, not mishear.",
+    "quiz": [
+      {
+        "question": "In 3/4 time, each bar holds:",
+        "options": [
+          "Three eighth notes",
+          "Three quarter-note beats",
+          "Four quarter beats",
+          "Whatever feels right"
+        ],
+        "answer": 1,
+        "explanation": "Top number 3 = three beats, bottom 4 = the quarter gets the beat; the waltz leans because the bar is three, not four."
+      },
+      {
+        "question": "A dotted quarter note lasts:",
+        "options": [
+          "One beat",
+          "One and a half beats",
+          "Two beats",
+          "Half a beat"
+        ],
+        "answer": 1,
+        "explanation": "The dot adds half the quarter is value (an eighth), giving quarter + eighth = one and a half beats."
+      }
+    ],
+    "mastery": [
+      "Decode any simple time signature as a beat budget.",
+      "Fill bars exactly with mixed values and dots.",
+      "Count rests as real beats.",
+      "Identify and write syncopation as displaced accent."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A part keeps losing its place mid-bar.",
+          "action": "You recount the bar as arithmetic and find it overflows by an eighth.",
+          "why": "Most \"lost place\" errors are a bar that does not sum; the signature is the budget you exceeded."
+        },
+        {
+          "setup": "A funk or jazz line feels impossible to clap.",
+          "action": "You locate the tied note across the downbeat and clap the silence first, then the displacement.",
+          "why": "Syncopation is the strong beat gone silent; hearing the gap makes the accent land correctly."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Reading rhythm as a budget turns notation from guesswork into a solvable fill-the-bar problem."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who counts rests and dots in body-time never rushes an entrance or smears a dotted figure."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Bar overflow",
+          "Dot ignored",
+          "Rest skipped"
+        ],
+        "adjustments": [
+          {
+            "if": "A bar will not fit",
+            "then": "Sum the values aloud; the error is arithmetic, not feel."
+          },
+          {
+            "if": "A dotted figure smears",
+            "then": "Clap the dot as \"note-and-a-half\" slowly before tempo."
+          }
+        ],
+        "learning": "After each drill, note which of the three rules (budget, dot, rest) you broke and re-run that bar."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Bar-Fill Reps",
+      "targetReps": 6
+    }
+  },
+  "music-theory-intermediate-scales": {
+    "id": "music-theory-intermediate-scales",
+    "subject": "Music",
+    "title": "Scales & Keys - Building and the Circle",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Build any major or natural-minor scale from its step pattern, understand why key signatures exist (to keep the page clean), and read the circle of fifths as a map of how sharps and flats accumulate.",
+    "objectives": [
+      "Construct a major scale from W-W-H-W-W-W-H on any root",
+      "Construct natural minor from its own step pattern",
+      "Explain why a key signature replaces repeated accidentals",
+      "Order the circle of fifths and count sharps/flats from it",
+      "Find the relative minor of any major key (same notes, different home)"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The circle of fifths",
+        "caption": "The circle is a map, not a memorization task: move clockwise and each key adds a sharp, counter-clockwise and each adds a flat. The pattern of accumulation is fixed, so one rule reads every key signature on the page.",
+        "labels": [
+          "Clockwise = up a fifth = add one sharp (C, G, D, A, E, B, F#/Cb...)",
+          "Counter-clockwise = down a fifth = add one flat (C, F, Bb, Eb, Ab, Db, Gb...)",
+          "Order of sharps: F C G D A E B; order of flats: B E A D G C F",
+          "Major pattern: W W H W W W H from any root",
+          "Relative minor: same notes as its major, starting a minor third lower"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Build it, do not memorize it",
+        "content": "Beginner theory said a scale is a path of steps; intermediate makes you walk the path from any root. Major is the fixed pattern whole-whole-half-whole-whole-whole-half, and it works identically whether you start on C (all white keys) or F# (a forest of black keys) - you just apply the pattern and the accidentals fall out. Natural minor is its own pattern, whole-half-whole-whole-half-whole-whole, and the reason it sounds darker is structural: its third, sixth and seventh sit a half-step lower than majors. The point of building rather than memorizing is transfer: once the pattern is in your fingers and ears, every new key is the same shape moved, not a new thing to learn, which is exactly how a pianist who knows one scale knows twelve."
+      },
+      {
+        "title": "Why key signatures exist",
+        "content": "If you wrote every F# in a G-major piece as an accidental, the page would be a hedge of sharps and your eyes would drown. The key signature is the solution: you declare the sharps or flats once at the start of each line, and they apply to every note of that letter for the whole piece unless cancelled. That is why reading a key signature is reading the scales home - three sharps means A major (or its relative minor F# minor), and you instantly know which notes are pre-affected. The order the sharps and flats appear in is itself fixed (F C G D A E B for sharps, reversed for flats), which is the hidden rule that makes the circle readable rather than random."
+      },
+      {
+        "title": "The circle as a map and the relative minor",
+        "content": "Lay the keys on a clock and the logic becomes spatial: start at C (no sharps, no flats) at the top, step clockwise by fifths and each stop adds one sharp, step counter-clockwise by fourths and each adds one flat. Twelve positions, one rule, every key signature derivable - this is the single most useful diagram in all of music, because it answers \"how many sharps is E major\" without counting. The final intermediate move is the relative minor: every major key shares its exact notes with a minor key a minor third below it (C major and A minor both have no sharps or flats). They sound different only because the home note - the tonic - is different, which is why the same key signature serves both and why a piece can drift between them without changing a single accidental."
+      }
+    ],
+    "principles": [
+      "Major is W-W-H-W-W-W-H and minor is W-H-W-W-H-W-W, from any root.",
+      "Key signatures declare accidentals once per line to keep the page readable.",
+      "The circle of fifths orders keys so sharps accumulate clockwise and flats counter-clockwise.",
+      "Relative minor shares its majors notes; only the tonic (home) differs."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing scale notes instead of the pattern",
+        "explanation": "The pattern transfers to every key; memorized notes do not. Build from the root each time."
+      },
+      {
+        "title": "Ignoring the key signature",
+        "explanation": "Accidentals are pre-declared; missing them means playing wrong notes the page already told you."
+      },
+      {
+        "title": "Treating the circle as random",
+        "explanation": "It is one accumulation rule. Learn the rule and read any key without counting."
+      },
+      {
+        "title": "Confusing relative minor with parallel minor",
+        "explanation": "Relative shares notes (different tonic); parallel shares tonic (different notes). Mix them up and the key signature is wrong."
+      }
+    ],
+    "practice": [
+      "Build D major and B natural minor from their patterns, writing the accidentals out.",
+      "Read three key signatures off the circle and name the major and its relative minor for each.",
+      "Play C major and A minor with the same fingers and listen for the home-note shift.",
+      "Count sharps to E major and flats to Ab major using the circle, then verify.",
+      "Transpose a simple melody from C to G by applying the pattern, not by ear-guessing."
+    ],
+    "reflection": "Do you know a keys notes, or do you know how to build it from its root - and can you name its relative minor instantly?",
+    "safety": "No physical risk; keep study volume comfortable and pair every written scale with a sung or played sound, or the symbols stay abstract.",
+    "quiz": [
+      {
+        "question": "The major scale step pattern is:",
+        "options": [
+          "W W W H W W H",
+          "W W H W W W H",
+          "H W W H W W W",
+          "W H W W H W W"
+        ],
+        "answer": 1,
+        "explanation": "Whole-whole-half-whole-whole-whole-half; apply it from any root and the accidentals follow automatically."
+      },
+      {
+        "question": "A relative minor differs from its major by:",
+        "options": [
+          "Different notes",
+          "The same notes but a different tonic (home note)",
+          "More sharps",
+          "A different time signature"
+        ],
+        "answer": 1,
+        "explanation": "C major and A minor share all notes; the darkness comes from starting and ending on a different home."
+      }
+    ],
+    "mastery": [
+      "Build major and natural minor from patterns on any root.",
+      "Read key signatures from the circle without counting.",
+      "Name the relative minor of any major instantly.",
+      "Transpose a melody by applying the pattern."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A piece in Eb major keeps tripping you.",
+          "action": "You read three flats off the circle, build the Eb major pattern, and pre-load the affected notes.",
+          "why": "The key signature is the circle is answer; building from the root removes the guesswork."
+        },
+        {
+          "setup": "A verse feels bright and the chorus dark with no accidental change.",
+          "action": "You recognize a shift between relative major and minor sharing one key signature.",
+          "why": "Same notes, moved tonic - the circle and relative-minor idea explain the color change with zero new symbols."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Pattern-building makes all twelve keys the same shape, so new repertoire starts immediately."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A musician who reads the circle answers key questions in seconds instead of counting ledger lines."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Memorized notes",
+          "Key signature skipped",
+          "Relative/parallel confusion"
+        ],
+        "adjustments": [
+          {
+            "if": "You cannot recall a key",
+            "then": "Build it from the root with the pattern; do not search memory."
+          },
+          {
+            "if": "Relative and parallel blur",
+            "then": "Say it aloud: relative = same notes, parallel = same tonic."
+          }
+        ],
+        "learning": "After each session, name one key from the circle and its relative minor without looking."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Build-Key Reps",
+      "targetReps": 6
+    }
+  },
+  "music-theory-intermediate-harmony": {
+    "id": "music-theory-intermediate-harmony",
+    "subject": "Music",
+    "title": "Harmony & Chords - Stacking Thirds",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Chords are not shapes to memorize but stacks of thirds built from a scale, and the three primary chords (I, IV, V) carry most of Western harmony because of the jobs they do: home, away, and tension that pulls home.",
+    "objectives": [
+      "Build a triad by stacking two thirds on a scale degree",
+      "Name triad qualities: major, minor, diminished from their third sizes",
+      "Identify the three primary chords in any key and their function",
+      "Read Roman numerals (I IV V) as scale-degree positions, not fixed chords",
+      "Hear a progression as a sentence: tension and resolution"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Stack thirds, get a chord",
+        "caption": "A triad is three notes stacked in thirds taken from the scale. The sizes of those thirds decide the quality (major, minor, diminished), and the degree you build on decides the numeral. Most songs are three of these doing three jobs.",
+        "labels": [
+          "Triad = root + third + fifth, stacked in thirds",
+          "Major triad: big third then small third; minor: small then big; diminished: small+small",
+          "Primary chords: I (home/tonic), IV (away/subdominant), V (tension/dominant)",
+          "Roman numerals are positions in the key, not fixed chords - V of C is G",
+          "A progression is a sentence: leave home, build tension, resolve home"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Stack thirds, not shapes",
+        "content": "Guitar and piano beginners learn chord shapes as pictures; theory replaces the picture with a recipe. Take any scale degree and stack a third on it, then a third on that - root, third, fifth - and you have a triad, the smallest full chord. The magic is that the thirds come from the key, so their sizes vary by degree and that variation is the whole source of chord color: build on the first degree and the thirds come out big-then-small (a major triad, bright); build on the sixth and they come small-then-big (minor, dark); build on the seventh and both are small (diminished, unstable). You are not memorizing four hundred chords; you are applying one stacking rule to seven degrees and reading the result."
+      },
+      {
+        "title": "The three primary chords and their jobs",
+        "content": "Of the seven triads in a key, three do almost all the work in folk, pop, rock and blues: the I (built on the tonic), the IV (on the subdominant) and the V (on the dominant). They earn their importance by function, not by luck. The I is home - the chord a piece starts and ends on, the place of rest. The IV is the step away, a gentle departure that widens the room. The V is the tension-maker: it contains the leading tone, the note a half-step below the tonic, which the ear desperately wants to resolve upward home. So V-I is the strongest pull in music, the musical full stop, and a thousand songs are I-IV-V-I because they are home-away-tension-home, a complete sentence in three chords."
+      },
+      {
+        "title": "Roman numerals and the sentence of harmony",
+        "content": "Roman numerals are the notation that makes this portable: I, IV, V mean first, fourth and fifth degree of whatever key you are in, so the same numerals describe C-F-G in C major and G-C-D in G major. That is why theorists and songwriters speak in numerals - it strips the key away and shows the structure underneath, the same way a variable in code stands for any value. Read a progression as a sentence and the emotional arc becomes legible: starting on I states home, moving to IV leaves it, the V builds the tension that demands resolution, and the return to I is the period at the end of the sentence. When a song surprises you, it is usually a borrowed chord or a deceptive V-vi - the V refusing to go home - and recognizing the grammar is what lets you hear the deviation as a choice rather than a mistake."
+      }
+    ],
+    "principles": [
+      "A triad is root + third + fifth stacked in thirds from the scale; quality follows third sizes.",
+      "I, IV and V are primary because of function: home, away, tension-leading-home.",
+      "Roman numerals are key-relative positions, so one analysis fits every key.",
+      "A progression is a sentence of tension and resolution; V-I is its full stop."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing chord shapes as pictures",
+        "explanation": "Shapes do not transfer across keys or instruments. Build from stacked thirds and the recipe travels."
+      },
+      {
+        "title": "Treating I IV V as fixed chords",
+        "explanation": "They are degrees; in G major the I is G, in C major the I is C. Numerals, not note names."
+      },
+      {
+        "title": "Hearing V as just another chord",
+        "explanation": "V carries the leading tone and demands resolution; ignoring that pull flattens the whole harmonic sentence."
+      },
+      {
+        "title": "Calling a deceptive cadence a mistake",
+        "explanation": "V-vi is a deliberate refusal to resolve. Know the grammar first, then hear the deviation as intent."
+      }
+    ],
+    "practice": [
+      "Build the I, IV and V triads in C, G and D by stacking thirds from each scale.",
+      "Sing the major-minor-diminished third patterns on one degree to hear the quality shift.",
+      "Play I-IV-V-I in C and feel the V pull home; then try the deceptive V-vi.",
+      "Read a real songs numerals (e.g. I-V-vi-IV) and realize it in two different keys.",
+      "Label each chord in a progression as home, away, or tension and hear the sentence."
+    ],
+    "reflection": "Can you build the three primary chords in any key from the stacking rule, and do you hear the V as tension rather than just another shape?",
+    "safety": "No physical risk; keep volume comfortable and sing every chord you build, or the analysis stays visual and the ear never learns the pull.",
+    "quiz": [
+      {
+        "question": "A triad is built by:",
+        "options": [
+          "Memorizing a shape",
+          "Stacking two thirds on a scale degree",
+          "Adding any three notes",
+          "Doubling the root"
+        ],
+        "answer": 1,
+        "explanation": "Root-third-fifth stacked in thirds from the scale; the third sizes set the quality and the degree sets the numeral."
+      },
+      {
+        "question": "The V chord is special because it:",
+        "options": [
+          "Is always loudest",
+          "Contains the leading tone that pulls strongly to the I",
+          "Has the most notes",
+          "Never resolves"
+        ],
+        "answer": 1,
+        "explanation": "The leading tone a half-step below the tonic makes V-I the strongest resolution - the musical full stop."
+      }
+    ],
+    "mastery": [
+      "Build any primary triad from stacked thirds in any key.",
+      "Name triad quality from its third sizes.",
+      "Read Roman numerals as key-relative positions.",
+      "Hear a progression as tension-resolution and spot the deceptive cadence."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A songs chords keep changing key mid-song.",
+          "action": "You re-read it in numerals and see the same I-IV-V sentence transposed, not new chords.",
+          "why": "Numerals strip the key; the structure is identical and only the home note moved."
+        },
+        {
+          "setup": "A ending feels unresolved but intentional.",
+          "action": "You identify the V-vi deceptive cadence - the tension refusing home on purpose.",
+          "why": "Knowing the grammar lets you hear the deviation as a choice, which is how you learn to use it yourself."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Stacking-thirds plus numerals lets you analyze and transpose any songs harmony without memorizing it per key."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A musician who hears function (home/away/tension) accompanies by ear, because the sentence is predictable."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Shape memorization",
+          "Fixed-chord thinking",
+          "V heard as neutral"
+        ],
+        "adjustments": [
+          {
+            "if": "You memorize shapes",
+            "then": "Rebuild the chord from stacked thirds and name its numeral."
+          },
+          {
+            "if": "V sounds like any chord",
+            "then": "Sing its leading tone resolving up to the tonic until the pull is physical."
+          }
+        ],
+        "learning": "After each analysis, write the progression in numerals and realize it one key over."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Triad-Build Reps",
+      "targetReps": 6
+    }
   }
 }
