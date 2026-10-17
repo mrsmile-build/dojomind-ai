@@ -27082,5 +27082,925 @@ export const lessons = {
       "label": "Funding Reps",
       "targetReps": 3
     }
+  },
+  "biz-ops-process": {
+    "id": "biz-ops-process",
+    "subject": "Business",
+    "title": "Process & Flow",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A process is the repeatable path work takes from request to delivery; a task is one step on it. Map the flow, find where it waits, and the difference between busy and productive becomes visible.",
+    "objectives": [
+      "Distinguish a process (repeatable path) from a task (one step)",
+      "Map a real process as a sequence of steps with handoffs",
+      "Spot where work waits versus where it moves",
+      "See that the customer cares about the whole flow, not any single step",
+      "Recognize the four most common process errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The value stream",
+        "caption": "Work moves through a process in two states only: moving (adding value) or waiting (adding cost). Mapping which steps are which is the first act of operations, because improvement means shrinking the waiting, not heroing the moving.",
+        "labels": [
+          "Request: where the process starts",
+          "Steps: the actions that transform the work",
+          "Handoffs: where work passes between people or systems",
+          "Waiting: the invisible state that dominates most processes",
+          "Delivery: where the customer receives value - the only part they feel"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Process versus task",
+        "content": "Operators think in processes; everyone else thinks in tasks. A task is one action - answer the email, cut the part, approve the refund. A process is the repeatable path a request travels from arrival to delivery, crossing several tasks and several hands. The distinction matters because optimizing a single task in isolation often makes the whole process worse: the fastest kitchen in town still serves late if the order sits in a queue before the chef sees it. You are paid for the flow, not the step, and the flow is what the customer experiences end to end."
+      },
+      {
+        "title": "Map the real path, not the official one",
+        "content": "Every business has a documented process and an actual one, and they diverge. The actual path includes the workarounds, the \"just send it to me\" shortcuts, the approvals that really happen in a hallway. Mapping means drawing what truly occurs, step by step, with handoffs marked, even where it embarrasses the org chart. This is uncomfortable and non-negotiable: you cannot fix a flow you have not seen, and the gap between official and actual is usually where the delays live. A whiteboard and the people who do the work will outperform any policy document."
+      },
+      {
+        "title": "Moving versus waiting",
+        "content": "In any mapped process, work is in one of two states at every moment: being acted on (moving) or sitting somewhere unattended (waiting). The striking finding of operations is that waiting is almost always the majority - a document that takes ten minutes to write may wait three days for a signature. The customer feels the total elapsed time, not the effort time, so the highest-leverage improvement is rarely making the moving faster; it is eliminating the waiting. Find where work sits, ask why it sits, and the process starts to flow without anyone working harder."
+      }
+    ],
+    "principles": [
+      "A process is the repeatable path; a task is one step on it. Optimize the path.",
+      "Map the actual flow, not the official one - workarounds are where delays hide.",
+      "Work is either moving or waiting; waiting usually dominates elapsed time.",
+      "The customer feels total flow time, so shrink waiting before heroing moving."
+    ],
+    "mistakes": [
+      {
+        "title": "Optimizing one task in isolation",
+        "explanation": "A faster step in a slow flow changes nothing and can worsen queues. Improve the path, not the part."
+      },
+      {
+        "title": "Mapping the official process only",
+        "explanation": "The real path has workarounds; ignoring them hides the actual delays. Draw what truly happens."
+      },
+      {
+        "title": "Treating waiting as normal",
+        "explanation": "Waiting is the dominant cost in most flows. Name every wait and ask why it exists."
+      },
+      {
+        "title": "Measuring effort instead of elapsed time",
+        "explanation": "The customer experiences the clock, not the labor. Track end-to-end time, not busy time."
+      }
+    ],
+    "practice": [
+      "Pick one real request in your work and map its actual path step by step with handoffs marked.",
+      "Label every segment moving or waiting; total the waiting time.",
+      "Find the largest single wait and ask why it exists and what would remove it.",
+      "Compare your map to the documented process; note every divergence.",
+      "Re-map the same flow after one change and measure the new elapsed time."
+    ],
+    "reflection": "In your last process, how much of the elapsed time was the work actually moving versus sitting in a queue or a handoff?",
+    "safety": "No physical risk; process changes should be piloted on one flow before rolled out, so a fix does not become a new bottleneck elsewhere.",
+    "quiz": [
+      {
+        "question": "The customer experiences:",
+        "options": [
+          "The effort of each step",
+          "The total elapsed flow time",
+          "Only the final step",
+          "The documented process"
+        ],
+        "answer": 1,
+        "explanation": "They feel the clock from request to delivery, so elapsed time - dominated by waiting - is what matters, not busy time."
+      },
+      {
+        "question": "The highest-leverage process improvement is usually:",
+        "options": [
+          "Making each step faster",
+          "Eliminating waiting between steps",
+          "Adding more people",
+          "Writing better policies"
+        ],
+        "answer": 1,
+        "explanation": "Waiting dominates elapsed time; shrinking it improves flow without anyone working harder."
+      }
+    ],
+    "mastery": [
+      "Distinguish process from task and optimize the path.",
+      "Map the actual flow with handoffs and waiting marked.",
+      "Quantify moving versus waiting time for a real process.",
+      "Pilot one change and re-measure elapsed time."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Everyone is busy but deliveries are late.",
+          "action": "You map the flow and find work waits more than it moves; you attack the largest wait.",
+          "why": "Busyness is effort; lateness is flow. The gap is waiting, and only a map reveals it."
+        },
+        {
+          "setup": "A team speeds up its step and the whole thing gets slower.",
+          "action": "You recognize the faster step just built a bigger queue downstream and rebalance to the flow.",
+          "why": "Local optimization in a serial flow creates inventory; the path, not the part, sets the pace."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Flow thinking turns \"work harder\" into \"remove the wait,\" which is cheaper and faster to achieve."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A manager who maps actual flows fixes the real problem instead of the visible one."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Task-only thinking",
+          "Official-only maps",
+          "Waiting ignored"
+        ],
+        "adjustments": [
+          {
+            "if": "You see only tasks",
+            "then": "Zoom out and draw the path the request travels end to end."
+          },
+          {
+            "if": "The map looks clean",
+            "then": "Interview the workers; the workarounds are the truth you are missing."
+          }
+        ],
+        "learning": "After each mapping, record the waiting percentage and the one wait you removed."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Map Reps",
+      "targetReps": 3
+    }
+  },
+  "biz-ops-bottleneck": {
+    "id": "biz-ops-bottleneck",
+    "subject": "Business",
+    "title": "Bottlenecks & Throughput",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A chain is as strong as its weakest link and a process is as fast as its slowest step. The constraint sets throughput for everything; improving anything else is rearranging deck chairs.",
+    "objectives": [
+      "Define the constraint: the slowest resource that caps total output",
+      "Understand why improving non-constraints does not raise throughput",
+      "Apply the five focusing steps: identify, exploit, subordinate, elevate, repeat",
+      "Recognize that a bottleneck is often a person, a tool or a policy, not a lack of effort",
+      "Recognize the four most common constraint errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The slowest step sets the pace",
+        "caption": "Throughput is capped by one step - the constraint. Work piles before it and the rest of the system idles waiting for it. The discipline of operations is to find that one step and protect it, because every other improvement is invisible to the customer.",
+        "labels": [
+          "Constraint: the slowest step that caps total output",
+          "Inventory: work piled before the constraint",
+          "Idle time: downstream steps starved, waiting for the constraint",
+          "Exploit: make the constraint do only its highest-value work",
+          "Elevate: add capacity at the constraint only after exploiting it"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "One step caps everything",
+        "content": "In any serial process, total output per hour equals the output of the slowest step, no matter how fast the others are. If assembly does ten units an hour and packing does two, the system ships two; the assembly line is not productive, it is building inventory. This is the central fact of operations and the one beginners resist, because it says most of their improvement energy is wasted if it does not land on the constraint. Find the slowest step - the one with the pile of work in front of it - and you have found the only place where speed actually becomes revenue."
+      },
+      {
+        "title": "Exploit before you elevate",
+        "content": "The first move at a constraint is not to buy more of it; it is to stop wasting what it has. A constraint that spends time on rework, on waiting for materials, on low-value variants, is a factory throwing away its scarcest resource. Exploit means make the constraint do only its highest-value work: queue it perfectly, remove its interruptions, let it run uninterrupted, and put a buffer of ready work in front of it so it never starves. Only after exploitation is exhausted do you elevate - add a second machine, hire, extend shifts. Elevating before exploiting buys capacity you will not fully use."
+      },
+      {
+        "title": "Subordinate and repeat",
+        "content": "Once the constraint is exploited, every other step must subordinate to its pace: non-constraints should not run faster than the constraint can absorb, or they create inventory that hides problems and ties up cash. This feels wasteful to a efficiency-trained mind, but a non-constraint running at full speed is the most expensive waste of all - it produces things that cannot ship. Then the loop repeats: fix one constraint and the next-slowest step becomes the new constraint, so you identify it and start again. Continuous improvement is not fixing everything; it is fixing the one thing that matters now, then finding the next one."
+      }
+    ],
+    "principles": [
+      "Throughput equals the slowest step; improving non-constraints does not raise output.",
+      "Exploit the constraint (protect its time) before elevating it (add capacity).",
+      "Subordinate non-constraints to the constraint pace to avoid inventory waste.",
+      "The constraint moves when fixed; identify the next one and repeat."
+    ],
+    "mistakes": [
+      {
+        "title": "Improving non-constraints",
+        "explanation": "Speeding a step that is not the bottleneck changes nothing and builds inventory. Find the constraint first."
+      },
+      {
+        "title": "Elevating before exploiting",
+        "explanation": "Buying capacity at a constraint that is wasting time is throwing money at the wrong problem. Protect its time first."
+      },
+      {
+        "title": "Running non-constraints at full speed",
+        "explanation": "Faster-than-constraint output is inventory, not productivity. Subordinate the pace."
+      },
+      {
+        "title": "Assuming the constraint is fixed forever",
+        "explanation": "Fix one and the next-slowest becomes the constraint. The loop never ends; that is the point."
+      }
+    ],
+    "practice": [
+      "Find the constraint in one real process: the step with work piled before it.",
+      "List everything the constraint wastes time on and remove or shift it (exploit).",
+      "Add a buffer of ready work so the constraint never starves.",
+      "Slow a non-constraint to the constraint pace and watch inventory stop growing.",
+      "After a fix, identify the new constraint and repeat the five steps."
+    ],
+    "reflection": "In your last process, did you improve the slowest step or the loudest one - and where is the pile of work telling you the constraint really is?",
+    "safety": "No physical risk; constraint changes affect whole systems, so pilot on one flow and watch for the constraint moving elsewhere.",
+    "quiz": [
+      {
+        "question": "Improving a non-constraint step:",
+        "options": [
+          "Raises throughput proportionally",
+          "Does not raise throughput; it builds inventory",
+          "Is the safest improvement",
+          "Reduces waiting everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Output is capped by the slowest step; speeding others only piles work before the constraint."
+      },
+      {
+        "question": "The correct order at a constraint is:",
+        "options": [
+          "Buy capacity first",
+          "Exploit (protect its time) before elevate (add capacity)",
+          "Hire more people everywhere",
+          "Ignore it and fix the easy steps"
+        ],
+        "answer": 1,
+        "explanation": "Wasted constraint time is the costliest waste; exploit it fully before spending on elevation."
+      }
+    ],
+    "mastery": [
+      "Locate the constraint by the pile of work before a step.",
+      "Exploit a constraint by protecting and buffering its time.",
+      "Subordinate non-constraints to avoid inventory waste.",
+      "Run the five-step loop and find the next constraint after each fix."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A team is fast but the project still slips.",
+          "action": "You find the one reviewer or tool that is the constraint and protect its time before adding anything.",
+          "why": "Slippage with a fast team means a hidden constraint; the pile of work in front of it is the clue."
+        },
+        {
+          "setup": "You want to buy a faster machine.",
+          "action": "You first check whether the current constraint is wasting time; exploit before elevate.",
+          "why": "Elevation before exploitation buys capacity the constraint will not fully use."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Constraint thinking focuses scarce improvement energy where it actually becomes output."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A leader who protects the constraint gets more from the same team than one who pushes everyone harder."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Loudest-step improvements",
+          "Elevation urges",
+          "Inventory growth"
+        ],
+        "adjustments": [
+          {
+            "if": "You are tempted to improve an easy step",
+            "then": "Ask whether it is the constraint; if not, park it."
+          },
+          {
+            "if": "Inventory is growing",
+            "then": "A non-constraint is running too fast; subordinate its pace."
+          }
+        ],
+        "learning": "After each fix, name the new constraint and the one exploit you applied before elevating."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Constraint Reps",
+      "targetReps": 5
+    }
+  },
+  "biz-ops-quality": {
+    "id": "biz-ops-quality",
+    "subject": "Business",
+    "title": "Quality & Consistency",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Quality is not inspection at the end; it is building the system so defects are hard to make and easy to catch early. Consistency beats brilliance because customers buy the reliable version, not the best day.",
+    "objectives": [
+      "Understand that inspection finds defects but does not create quality",
+      "Use checklists and standard work to remove variation from memory",
+      "Catch defects early, where they are cheapest to fix",
+      "Separate a person problem from a system problem before assigning blame",
+      "Recognize the four most common quality errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Build quality in, do not inspect it in",
+        "caption": "Inspecting a finished product sorts good from bad but does not make the bad good. Quality comes from the process that made it, so the work is to make defects hard to produce and trivial to catch at the step that creates them.",
+        "labels": [
+          "Inspection: sorts defects out late and expensively",
+          "Built-in quality: makes defects hard to produce in the first place",
+          "Checklist: removes reliance on memory at critical steps",
+          "Standard work: the known-best method, written and shared",
+          "Early catch: fix at the step that creates the defect, not at delivery"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Inspection is sorting, not quality",
+        "content": "The instinct is to add a final check and call it quality control, but inspection only separates good from bad after the cost is already paid. A defective item inspected at the end has consumed all its materials and labor; sorting it out is damage control, not prevention. Real quality is a property of the process that made the item, so the work moves upstream: make the right thing easy and the wrong thing hard, catch errors at the step that introduces them, and treat the final check as a last safety net rather than the main defense. The organization that relies on inspection is paying for defects twice."
+      },
+      {
+        "title": "Checklists and standard work",
+        "content": "Most defects are not malice or incompetence; they are memory failing under load. A checklist is the cheapest quality tool ever built: it externalizes the critical steps so a tired expert and a new hire both execute the same way, and it turns \"did I remember everything\" into \"did I follow the list.\" Standard work is the written known-best method, shared and improved over time, so quality does not depend on which person happens to be on shift. The resistance to both is ego - experts feel checklists insult them - but the surgeon and the pilot both use them precisely because the stakes are high and memory is not."
+      },
+      {
+        "title": "System first, person second",
+        "content": "When a defect appears, the fast instinct is to find who messed up. The productive instinct is to ask what in the system made it easy to mess up, because a good person in a bad system will produce bad output, and blaming the person leaves the system intact to produce the next defect. This is not about excusing carelessness; it is about fixing the cause that recurs. A process that depends on everyone being perfect is a process that will fail. Build the system so the common error is caught at the step that creates it, and the rare error is caught before delivery, and consistency - the thing customers actually buy - emerges without heroics."
+      }
+    ],
+    "principles": [
+      "Inspection sorts defects late; quality is built into the process that makes them.",
+      "Checklists externalize memory at critical steps; standard work shares the known-best method.",
+      "Catch defects at the step that creates them, where fixing is cheapest.",
+      "Fix the system before blaming the person; a bad system makes good people err."
+    ],
+    "mistakes": [
+      {
+        "title": "Relying on final inspection",
+        "explanation": "Sorting good from bad pays for defects twice. Move quality upstream into the process."
+      },
+      {
+        "title": "Trusting memory under load",
+        "explanation": "Experts forget too. Checklists are not insults; they are how high-stakes fields work."
+      },
+      {
+        "title": "Catching defects at delivery",
+        "explanation": "Late fixes cost most. Catch at the introducing step, where the defect is still small."
+      },
+      {
+        "title": "Blaming the person, leaving the system",
+        "explanation": "A bad system reproduces the defect with the next person. Fix the cause that recurs."
+      }
+    ],
+    "practice": [
+      "List the three most common defects in your work and ask which step introduces each.",
+      "Write a five-item checklist for the highest-risk step and use it for a week.",
+      "Document standard work for one task so a new hire could reproduce your best result.",
+      "For each recent defect, ask what in the system allowed it, not who allowed it.",
+      "Move one check upstream to the introducing step and measure the fix cost difference."
+    ],
+    "reflection": "In your last defect, was the cause a person or a system - and what would have caught it at the step that created it?",
+    "safety": "No physical risk; in safety-critical work, checklists and standard work are mandatory, not optional, and defects caught early prevent harm, not just cost.",
+    "quiz": [
+      {
+        "question": "Final inspection fails to create quality because it:",
+        "options": [
+          "Is too expensive",
+          "Sorts defects after the cost is already paid",
+          "Requires training",
+          "Slows the line"
+        ],
+        "answer": 1,
+        "explanation": "Inspection separates good from bad but does not prevent the bad; quality is a property of the making process."
+      },
+      {
+        "question": "The productive response to a defect is to ask:",
+        "options": [
+          "Who messed up",
+          "What in the system made it easy to mess up",
+          "How to punish it",
+          "Whether to hire better people"
+        ],
+        "answer": 1,
+        "explanation": "A bad system reproduces defects with the next person; fixing the cause stops recurrence, blaming does not."
+      }
+    ],
+    "mastery": [
+      "Move quality upstream from inspection into the process.",
+      "Build and use checklists at critical steps.",
+      "Document standard work so quality is person-independent.",
+      "Catch defects at the introducing step and fix systems before people."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "The same error keeps coming back with different people.",
+          "action": "You stop blaming and map what in the system makes the error easy, then add a checklist or a gate at the introducing step.",
+          "why": "Recurrence across people is the signature of a system cause, not a person cause."
+        },
+        {
+          "setup": "Defects are caught only at delivery, expensively.",
+          "action": "You move the check upstream to the step that creates the defect and measure the cheaper fix.",
+          "why": "Early catch is the whole economics of quality; late catch pays for materials and labor twice."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Built-in quality makes the reliable version the default, so consistency needs no heroics."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A customer buys the dependable process, not the best day of the best employee."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Inspection reliance",
+          "Memory dependence",
+          "Person blame"
+        ],
+        "adjustments": [
+          {
+            "if": "You rely on a final check",
+            "then": "Add a gate at the introducing step and shrink the final net."
+          },
+          {
+            "if": "You blame a person",
+            "then": "Reframe to the system cause before any conversation about the person."
+          }
+        ],
+        "learning": "After each defect, record whether it was caught early or late and whether the fix was system or person."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Quality Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-web-html": {
+    "id": "prog-web-html",
+    "subject": "Programming",
+    "title": "HTML - The Page Skeleton",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "HTML is the structure of every page: elements that nest inside each other, tags that open and close, and semantic meaning that tells the browser what each part is for. Learn to read and write the skeleton before styling it.",
+    "objectives": [
+      "Read an element as opening tag, content, closing tag",
+      "Nest elements correctly: tags close in the reverse order they open",
+      "Use the core elements: headings, paragraphs, links, images, lists, divs",
+      "Understand attributes carry extra info like href and src",
+      "Recognize that structure is separate from appearance",
+      "Recognize the four most common HTML errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Elements nest like boxes in boxes",
+        "caption": "An HTML page is a tree of elements, each a box that can contain other boxes. Tags open and close in reverse order, content lives between them, and attributes on the opening tag configure the element. Structure is meaning; appearance is a separate layer.",
+        "labels": [
+          "Opening tag <p>, content, closing tag </p>",
+          "Nesting: <div><p>text</p></div> - close in reverse order",
+          "Attributes: <a href=\"url\"> and <img src=\"url\">",
+          "Headings h1-h6 give the page an outline",
+          "Semantic elements (header, nav, main, footer) say what a part is for"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Tags, content, nesting",
+        "content": "HTML is written as tags that wrap content: a paragraph is <p> followed by the text followed by </p>. The opening tag names the element, the closing tag (with a slash) ends it, and everything between is the element is content. Elements nest inside one another like boxes in boxes, and the rule that beginners break most often is that they must close in the reverse order they open - if you open a div then a p, you close the p before the div. Cross the closing order and the browser has to guess your structure, which is where broken layouts and weird spacing usually start. Read markup as a tree, not a flat list, and the nesting becomes obvious."
+      },
+      {
+        "title": "Attributes configure elements",
+        "content": "The opening tag can carry attributes - extra settings written as name=\"value\" inside the angle brackets. An anchor gets its destination from href, an image gets its file from src, an element gets an identifier from id and a category from class. Attributes are how the same element does different jobs: every <a> is a link, but the href decides where it goes. The common beginner slips are forgetting the quotes around values, forgetting a required attribute (an <a> with no href is not a link), and mismatching attribute names. Attributes are the configuration layer of the skeleton; the element is the shape, the attributes are the settings."
+      },
+      {
+        "title": "Structure is meaning, not style",
+        "content": "A page is not a pile of styled boxes; it is a meaningful outline. Headings h1 through h6 give the document a table of contents that browsers, search engines and screen readers all read, and semantic elements like header, nav, main and footer say what a region is for, not just how it looks. This is why you do not use a bold tag to fake a heading or a div to fake a button: the structure carries meaning that assistive technology and SEO depend on, and stripping meaning to chase appearance is the classic beginner mistake. Style is a separate layer (CSS, next lesson); HTML is the skeleton that says what each part is."
+      }
+    ],
+    "principles": [
+      "Elements are opening tag, content, closing tag; they nest and close in reverse order.",
+      "Attributes on the opening tag configure the element (href, src, id, class).",
+      "Headings and semantic elements give the page meaning, not just appearance.",
+      "Structure is meaning; do not fake a heading with bold or a button with a div."
+    ],
+    "mistakes": [
+      {
+        "title": "Crossing the close order",
+        "explanation": "<div><p></div></p> confuses the parser. Close in the reverse order you opened."
+      },
+      {
+        "title": "Forgetting quotes on attribute values",
+        "explanation": "href=url without quotes breaks on spaces and special characters. Always quote values."
+      },
+      {
+        "title": "Faking meaning with style tags",
+        "explanation": "Bold for a heading, div for a button strips the semantics screen readers and search need."
+      },
+      {
+        "title": "Skipping the document outline",
+        "explanation": "A page with no headings is a wall; use h1-h6 to give it a readable structure."
+      }
+    ],
+    "practice": [
+      "Write a page with an h1, two h2 sections and paragraphs under each; view the outline.",
+      "Nest a div containing a paragraph and a list; close in reverse order and check the structure in the inspector.",
+      "Add a link with href and an image with src, both quoted.",
+      "Replace a bolded fake-heading with a real heading element.",
+      "Validate a page and fix every nesting and quote error the validator reports."
+    ],
+    "reflection": "Open any page and look at its structure in the inspector - can you see the tree of nested elements, or does it look like a flat pile?",
+    "safety": "No physical risk; malformed HTML is caught by validators and the browser is forgiving, but forgiving markup hides bugs that surface later as broken layouts.",
+    "quiz": [
+      {
+        "question": "Elements must close in:",
+        "options": [
+          "The order they opened",
+          "The reverse order they opened",
+          "Any order",
+          "Whichever order the browser prefers"
+        ],
+        "answer": 1,
+        "explanation": "Nesting is like boxes in boxes; crossing the close order confuses the parser and breaks structure."
+      },
+      {
+        "question": "Using a bold tag to fake a heading is wrong because:",
+        "options": [
+          "Bold is deprecated",
+          "It strips the semantic meaning screen readers and search engines rely on",
+          "It looks bad",
+          "It is slower"
+        ],
+        "answer": 1,
+        "explanation": "Structure carries meaning; appearance belongs in CSS, not in misusing semantic elements."
+      }
+    ],
+    "mastery": [
+      "Read and write nested elements with correct close order.",
+      "Configure elements with quoted attributes.",
+      "Give a page a meaningful heading outline and semantic regions.",
+      "Separate structure (HTML) from appearance (CSS)."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A page renders with strange spacing and broken sections.",
+          "action": "You inspect the structure and find crossed close tags confusing the parser.",
+          "why": "Most visual breakage traces to malformed nesting, not to the CSS."
+        },
+        {
+          "setup": "A screen reader user cannot navigate your page.",
+          "action": "You replace fake headings and div-buttons with semantic elements and a real outline.",
+          "why": "Meaning in the structure is what assistive technology reads; style-only markup is invisible to it."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Clean semantic structure makes pages accessible, searchable and easy to restyle later."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who separates meaning from appearance writes pages that survive redesigns without rewriting the skeleton."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Crossed closes",
+          "Unquoted attributes",
+          "Faked semantics"
+        ],
+        "adjustments": [
+          {
+            "if": "The parser complains",
+            "then": "Read the markup as a tree and fix the close order before touching anything else."
+          },
+          {
+            "if": "You faked a heading",
+            "then": "Swap it for the real element; move the look to CSS."
+          }
+        ],
+        "learning": "After each page, validate it and note which errors were nesting versus semantics."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Markup Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-web-css": {
+    "id": "prog-web-css",
+    "subject": "Programming",
+    "title": "CSS - The Page Skin",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "CSS styles the HTML skeleton: selectors target elements, declarations set properties, the cascade resolves conflicts, and the box model explains every gap and border. Appearance is a separate layer from structure.",
+    "objectives": [
+      "Write a rule: selector plus declaration block of property:value pairs",
+      "Understand the cascade: specificity and order decide which rule wins",
+      "Use the box model: content, padding, border, margin",
+      "Style by class rather than by id or inline where possible",
+      "Recognize that CSS is a layer over HTML, not part of it",
+      "Recognize the four most common CSS errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Selectors, cascade, box model",
+        "caption": "A CSS rule is a selector and a block of property:value declarations. When rules conflict, the cascade (specificity then order) picks a winner. And every element is a box: content inside padding inside border inside margin. Master these three and styling stops being guesswork.",
+        "labels": [
+          "Rule: selector { property: value; }",
+          "Cascade: more specific and later rules win conflicts",
+          "Specificity: inline > id > class > element",
+          "Box model: content, padding, border, margin from inside out",
+          "Prefer classes; reserve ids and inline for special cases"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Rules: selector and declarations",
+        "content": "A CSS rule has two parts: a selector that names what to style, and a block of declarations that say how. p { color: blue; } selects every paragraph and sets its text color. The selector is the target, the declarations are the settings, and the semicolons and braces are non-negotiable punctuation. Beginners mostly fight the punctuation - a missing semicolon or brace silently breaks everything after it - so the first skill is reading a rule as target-plus-settings and checking the braces balance before debugging anything else. Selectors can be simple (element, .class, #id) or compound (descendant, child), and the more precise the selector, the less you accidentally style what you did not mean to."
+      },
+      {
+        "title": "The cascade resolves conflicts",
+        "content": "When two rules target the same element with different values, the cascade decides the winner by specificity first, then source order. Inline styles beat id selectors, which beat class selectors, which beat element selectors; among equal specificity, the later rule wins. This is why a style that \"should\" apply sometimes does not: a more specific rule is overriding it from somewhere. The fix is rarely to add !important (a blunt escape hatch that creates future conflicts); it is to understand specificity and write selectors at the right level. The cascade is not a bug to fight but a model to learn - once it clicks, styling becomes predictable instead of magical."
+      },
+      {
+        "title": "The box model explains every gap",
+        "content": "Every element on a page is a rectangular box built from four layers, inside out: the content, then padding (space inside the border), then the border, then margin (space outside the border). Confusion about spacing is almost always confusion about which layer you are adjusting - padding moves the border inward, margin pushes neighbors away, and a missing box-sizing rule makes width include or exclude padding unpredictably. Setting box-sizing: border-box globally makes width mean what you expect. Learn to read a layout as nested boxes and the \"why is there a gap here\" question answers itself: you are looking at the wrong layer of the box model."
+      }
+    ],
+    "principles": [
+      "A rule is selector plus declarations; check brace and semicolon balance first.",
+      "The cascade resolves conflicts by specificity (inline > id > class > element) then order.",
+      "The box model is content, padding, border, margin from inside out; know which layer you adjust.",
+      "Prefer classes; reserve ids and inline styles; set box-sizing: border-box globally."
+    ],
+    "mistakes": [
+      {
+        "title": "Missing a semicolon or brace",
+        "explanation": "One broken punctuation silently kills every rule after it. Balance braces before debugging logic."
+      },
+      {
+        "title": "Fighting the cascade with !important",
+        "explanation": "!important creates future conflicts. Fix specificity by choosing the right selector level instead."
+      },
+      {
+        "title": "Confusing padding and margin",
+        "explanation": "Padding is inside the border, margin is outside. Adjusting the wrong layer gives the wrong gap."
+      },
+      {
+        "title": "Styling by id and inline everywhere",
+        "explanation": "High-specificity styling is hard to override later. Prefer classes for reusable appearance."
+      }
+    ],
+    "practice": [
+      "Write three rules targeting element, class and id; observe which wins when they conflict.",
+      "Add box-sizing: border-box globally and compare a width with and without padding.",
+      "Adjust one element is padding and margin separately and watch the different gaps each creates.",
+      "Convert an inline style to a class and confirm the cascade still applies it.",
+      "Debug a broken layout by reading it as nested boxes and naming the layer at fault."
+    ],
+    "reflection": "When a style does not apply, do you check the cascade order and specificity first, or do you reach for !important?",
+    "safety": "No physical risk; CSS errors are visual and reversible, but !important debt accumulates and makes later styling harder.",
+    "quiz": [
+      {
+        "question": "When two rules conflict, the cascade decides by:",
+        "options": [
+          "Whichever is longer",
+          "Specificity first, then source order",
+          "Whichever loads first",
+          "Randomly"
+        ],
+        "answer": 1,
+        "explanation": "More specific selectors win; among equal specificity, the later rule wins. This is the model, not a bug."
+      },
+      {
+        "question": "Padding differs from margin because padding is:",
+        "options": [
+          "Outside the border",
+          "Inside the border",
+          "The border itself",
+          "The content"
+        ],
+        "answer": 1,
+        "explanation": "Padding is space inside the border around the content; margin is space outside the border separating neighbors."
+      }
+    ],
+    "mastery": [
+      "Write balanced rules and debug punctuation before logic.",
+      "Resolve conflicts using the cascade and specificity model.",
+      "Control spacing with the correct box-model layer.",
+      "Prefer classes and set box-sizing globally."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A color you set is not appearing.",
+          "action": "You check the cascade: a more specific or later rule is overriding it; you fix the selector level, not with !important.",
+          "why": "Most \"ignored\" styles are specificity losses, not browser bugs."
+        },
+        {
+          "setup": "An element is wider than you set.",
+          "action": "You find padding and border are adding to the width and apply box-sizing: border-box.",
+          "why": "The default box model adds padding and border outside the width; border-box makes width mean the total."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Understanding the cascade and box model turns styling from trial-and-error into prediction."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who avoids !important debt keeps stylesheets editable months later."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "!important reflex",
+          "Padding-margin confusion",
+          "Unbalanced braces"
+        ],
+        "adjustments": [
+          {
+            "if": "You reach for !important",
+            "then": "Stop and compute the specificity; lower the competing selector instead."
+          },
+          {
+            "if": "Gaps look wrong",
+            "then": "Name the box-model layer before changing any value."
+          }
+        ],
+        "learning": "After each styling session, note one cascade conflict you resolved by specificity rather than force."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Style Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-web-layers": {
+    "id": "prog-web-layers",
+    "subject": "Programming",
+    "title": "Building a Page - Three Layers",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A web page is three cooperating layers: HTML for structure and meaning, CSS for appearance, JavaScript for behavior. Keeping each layer doing only its job is what makes pages maintainable, accessible and fast to change.",
+    "objectives": [
+      "Explain the three layers and the single job of each",
+      "Keep structure, appearance and behavior separated across files",
+      "Understand why separation makes redesign and debugging cheaper",
+      "Build a small page that uses all three layers correctly",
+      "Recognize the four most common layer-mixing errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Structure, skin, behavior",
+        "caption": "The whole of front-end web development is three layers with one job each: HTML says what a thing is, CSS says how it looks, JavaScript says what it does. Mix the jobs and the page becomes hard to change; separate them and a redesign touches one layer only.",
+        "labels": [
+          "HTML: structure and meaning - what each part is",
+          "CSS: appearance - how each part looks",
+          "JavaScript: behavior - what each part does",
+          "Separation: a redesign changes CSS only; a new feature changes JS only",
+          "Link them: HTML references CSS and JS files; JS selects and changes HTML"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Three layers, one job each",
+        "content": "Every page you have ever used is built from three layers that answer three different questions. HTML answers what is this - the structure and meaning of every part. CSS answers how does it look - colors, spacing, layout, responsive behavior. JavaScript answers what does it do - responding to clicks, fetching data, changing the page live. The power of this model is that each layer can change without touching the others: a rebrand edits CSS alone, a new interaction edits JS alone, a content edit edits HTML alone. When the layers stay in their lanes, the page is cheap to evolve; when they bleed into each other, every change ripples."
+      },
+      {
+        "title": "Why separation pays",
+        "content": "Beginners mix the layers - inline styles in the HTML, markup generated inside JavaScript strings, behavior wired with onclick attributes scattered through the document - and it works, until the first redesign. Then changing the look means hunting style across three files, and changing the structure breaks behavior that assumed specific tags. Separation is not purity for its own sake; it is the reason a team can restyle a site in an afternoon or a solo developer can refactor without fear. The rule of thumb: if a change should only affect appearance, it must live in CSS; if it should only affect behavior, it must live in JS; structure and meaning live in HTML and are referenced, not embedded, by the others."
+      },
+      {
+        "title": "How the layers connect",
+        "content": "The layers link through clean interfaces. HTML references CSS and JavaScript files with link and script tags in the head, so the document loads its skin and its behavior. JavaScript reaches into the HTML by selecting elements (the DOM skills from the JavaScript sub) and changing their content, attributes or classes - and notably, it changes appearance by toggling classes rather than writing inline styles, which keeps the CSS in charge of looks. CSS reaches back by styling the structure HTML provides and reacting to state classes JavaScript sets. The connection points are deliberate and narrow: files referenced by HTML, elements selected by JS, classes toggled between JS and CSS. Keep those interfaces clean and the three layers stay independent while working as one page."
+      }
+    ],
+    "principles": [
+      "HTML = structure/meaning, CSS = appearance, JavaScript = behavior - one job each.",
+      "Separation makes redesign and refactoring cheap: a look change touches CSS only.",
+      "Keep interfaces narrow: HTML references files, JS selects elements and toggles classes, CSS styles structure.",
+      "Do not embed style in HTML or markup in JS strings; that is layer mixing and future pain."
+    ],
+    "mistakes": [
+      {
+        "title": "Inline styles in the HTML",
+        "explanation": "Appearance scattered through the document makes a redesign a treasure hunt. Keep style in CSS."
+      },
+      {
+        "title": "Markup built inside JS strings",
+        "explanation": "Behavior that constructs structure couples the layers and breaks refactors. Build structure in HTML, change it via JS selection."
+      },
+      {
+        "title": "onclick attributes scattered in HTML",
+        "explanation": "Behavior wired into the markup mixes layers and hides the logic. Attach listeners in JS."
+      },
+      {
+        "title": "JS writing inline styles instead of classes",
+        "explanation": "Letting JS dictate appearance breaks the CSS layer. Toggle classes and let CSS decide the look."
+      }
+    ],
+    "practice": [
+      "Build a small page: HTML structure, a linked CSS file, a linked JS file that toggles a class on click.",
+      "Restyle the page by editing only the CSS; confirm HTML and JS are untouched.",
+      "Add a feature by editing only the JS; confirm the look did not change.",
+      "Find and remove every inline style and onclick attribute in a sample page.",
+      "Refactor a JS-built markup snippet into real HTML plus a JS selection change."
+    ],
+    "reflection": "On a page you have built, could you change the entire look by editing one file - or is the appearance scattered across HTML and JS?",
+    "safety": "No physical risk; layer mixing is a maintainability debt that compounds, so separate early even when mixing works today.",
+    "quiz": [
+      {
+        "question": "A rebrand that only changes appearance should require editing:",
+        "options": [
+          "All three files",
+          "Only the CSS",
+          "Only the HTML",
+          "The JavaScript"
+        ],
+        "answer": 1,
+        "explanation": "When layers are separated, a look change touches CSS alone; structure and behavior are untouched."
+      },
+      {
+        "question": "JavaScript should change appearance by:",
+        "options": [
+          "Writing inline styles",
+          "Toggling classes that CSS styles",
+          "Rewriting the HTML",
+          "Editing the CSS file"
+        ],
+        "answer": 1,
+        "explanation": "Toggling classes keeps CSS in charge of looks and JS in charge of behavior, preserving the separation."
+      }
+    ],
+    "mastery": [
+      "Build a page with all three layers correctly separated.",
+      "Restyle by editing CSS only and add features by editing JS only.",
+      "Keep interfaces narrow: file references, element selection, class toggling.",
+      "Remove inline styles, embedded markup and scattered handlers from a page."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A client wants a full visual redesign.",
+          "action": "You edit only the CSS and confirm HTML and JS are unchanged, because the layers were separated.",
+          "why": "Separation turns a scary rewrite into a single-file change."
+        },
+        {
+          "setup": "A feature breaks the layout unexpectedly.",
+          "action": "You find JS writing inline styles or building markup, and refactor to class toggles and real HTML.",
+          "why": "Layer mixing is the usual cause of \"why did changing behavior break the look\" bugs."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Separated layers make pages cheap to evolve and safe to refactor, solo or in a team."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who respects the three layers ships pages that survive redesigns without rewrites."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Inline style creep",
+          "Markup in JS",
+          "Scattered handlers"
+        ],
+        "adjustments": [
+          {
+            "if": "You see inline styles",
+            "then": "Move them to a class in CSS and reference the class from HTML or JS."
+          },
+          {
+            "if": "JS builds markup",
+            "then": "Put the structure in HTML and have JS select and modify it instead."
+          }
+        ],
+        "learning": "After each page, audit which layer each change lived in and whether any change touched the wrong file."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Layer Reps",
+      "targetReps": 3
+    }
   }
 }

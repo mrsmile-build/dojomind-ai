@@ -823,6 +823,37 @@ export default {
           ]
         }
       }
+    },
+    "web": {
+      "name": "Web Development",
+      "icon": "🕸️",
+      "description": "HTML, CSS and how pages are built.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The skeleton, the skin, and the three layers.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Web Foundations",
+              "lessons": [
+                {
+                  "id": "prog-web-html",
+                  "title": "HTML - The Page Skeleton"
+                },
+                {
+                  "id": "prog-web-css",
+                  "title": "CSS - The Page Skin"
+                },
+                {
+                  "id": "prog-web-layers",
+                  "title": "Building a Page - Three Layers"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   },
   "medicine": {
@@ -1038,6 +1069,37 @@ export default {
                 {
                   "id": "biz-finance-capital",
                   "title": "Funding & Capital Decisions"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "operations": {
+      "name": "Operations",
+      "icon": "⚙️",
+      "description": "Making the thing happen reliably.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Process, constraint and quality.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Operations Foundations",
+              "lessons": [
+                {
+                  "id": "biz-ops-process",
+                  "title": "Process & Flow"
+                },
+                {
+                  "id": "biz-ops-bottleneck",
+                  "title": "Bottlenecks & Throughput"
+                },
+                {
+                  "id": "biz-ops-quality",
+                  "title": "Quality & Consistency"
                 }
               ]
             }
