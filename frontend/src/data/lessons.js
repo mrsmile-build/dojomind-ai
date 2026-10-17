@@ -20598,5 +20598,464 @@ export const lessons = {
       "label": "Compression Rhythm",
       "initialTime": 120
     }
+  },
+  "biz-foundations-value": {
+    "id": "biz-foundations-value",
+    "subject": "Business",
+    "title": "Value & Customers",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A business exists to solve a specific person problem well enough that they pay for it. Learn to name the customer, the job, the real alternative and your provable edge - before building anything.",
+    "objectives": [
+      "Name one specific customer and the job they hire you for",
+      "State the problem the way the customer says it, not the way you say it",
+      "Explain why they choose you over doing nothing or over alternatives",
+      "Find where these customers already gather instead of inventing an audience",
+      "Recognize the four most common value errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The value sentence",
+        "caption": "Every business that survives can fill in one sentence: this specific person, with this job, who today does this instead, picks us because of this - and here is one real person who paid and said so. If any slot is blank, that blank is the risk.",
+        "labels": [
+          "Customer: a specific person, not everyone",
+          "Job: what they hire you to do, in their words",
+          "Alternative: what they do today instead of you - including nothing",
+          "Edge: why you win - cheaper, faster, safer, kinder, proven",
+          "Proof: one real person who paid and said so out loud"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A person, not a market",
+        "content": "Businesses rarely die from competition; they die from vagueness. Everyone is my customer means no one is, because a message aimed at everyone lands on no one. The discipline is to picture one person with a Tuesday problem - a specific mom, mechanic, manager, musician - and describe their day until the problem is unavoidable. Specificity is not a limit on your market; it is the handle you grab it by. Every large audience was first a small, precisely-described person multiplied."
+      },
+      {
+        "title": "The job, in their words",
+        "content": "People do not buy products, they hire them to do a job: the drill is hired for the hole, the hole for the shelf, the shelf for the feeling of a home in order. Write the job as the customer would say it - when this happens, I need this, so that this becomes true - and resist translating it into your features. Your features are your answer to their sentence; if you cannot hear their sentence, your answer is to a question nobody asked. Interviews beat imagination here: one real conversation outscores a week of brainstorming."
+      },
+      {
+        "title": "Why you, why now",
+        "content": "The competitor beginners forget is doing nothing. Most purchases never happen because the status quo feels safe enough, so your real opponent is inertia, not the other company. Beating inertia needs an edge that is true and provable - cheaper, faster, safer, kinder, or already trusted - and proof is not a claim, it is one real person who paid and said so out loud. Until you have that quote, you have a hypothesis wearing a business costume; after it, you have something to multiply."
+      }
+    ],
+    "principles": [
+      "One specific person with a Tuesday problem beats a market of everyone.",
+      "Write the job in the customer words: when X, I need Y, so that Z.",
+      "The real competitor is doing nothing; your edge must beat inertia.",
+      "Proof is one paying customer saying so out loud, not a claim on a page."
+    ],
+    "mistakes": [
+      {
+        "title": "Everyone is my customer",
+        "explanation": "A message for everyone lands on no one. Name one person and multiply later."
+      },
+      {
+        "title": "Listing features instead of the job",
+        "explanation": "Features are your answer; the job is their question. Write their sentence first."
+      },
+      {
+        "title": "Ignoring the do-nothing alternative",
+        "explanation": "Inertia outsells competitors. Your edge must beat staying put, not just beat rivals."
+      },
+      {
+        "title": "Claiming an edge without proof",
+        "explanation": "Unproven edges are hopes. Get one paying customer quote before scaling anything."
+      }
+    ],
+    "practice": [
+      "Write the value sentence with all five slots; mark every blank as a risk.",
+      "Interview one real person in your target group; quote their exact words.",
+      "List their three alternatives including doing nothing, and say why each wins today.",
+      "Find two places these people already gather online or offline; visit both this week.",
+      "Collect one proof quote from anyone who paid, however small the amount."
+    ],
+    "reflection": "Which slot of your value sentence is still blank - and what is the cheapest way to fill it this week?",
+    "safety": "No physical risk; the real risk is money and months spent on unvalidated value, so test with conversations and small offers before building big.",
+    "quiz": [
+      {
+        "question": "The competitor beginners forget is:",
+        "options": [
+          "The market leader",
+          "Doing nothing - inertia",
+          "A cheaper startup",
+          "Regulation"
+        ],
+        "answer": 1,
+        "explanation": "Most purchases die to the status quo; your edge must beat staying put before it beats any rival."
+      },
+      {
+        "question": "Proof of value is best shown by:",
+        "options": [
+          "A polished website",
+          "One real person who paid and said so out loud",
+          "Many features listed",
+          "A big launch event"
+        ],
+        "answer": 1,
+        "explanation": "Payment plus words is behavior, not opinion; everything before it is a hypothesis."
+      }
+    ],
+    "mastery": [
+      "Name one specific customer and their job in their words.",
+      "List alternatives including doing nothing and why they win today.",
+      "State a true, provable edge against inertia.",
+      "Hold one paying-customer proof quote and use it."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your offer gets polite interest but no sales.",
+          "action": "You re-interview for the job sentence and discover the problem was yours, not theirs, then rewrite the offer around their words.",
+          "why": "Polite interest is noise; the job sentence in their language is what purchases respond to."
+        },
+        {
+          "setup": "You are about to build a big feature.",
+          "action": "You check the value sentence first; the blank proof slot sends you to sell the small version instead.",
+          "why": "Building before proof multiplies risk; selling small fills the blank cheaply."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A filled value sentence focuses every euro and hour on one person problem, which is how small wins compound."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A seller who knows the job and the inertia beats a seller listing features, every conversation."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Blank slots",
+          "Feature-talk",
+          "No proof quote"
+        ],
+        "adjustments": [
+          {
+            "if": "A slot is blank",
+            "then": "Spend the week on the cheapest fill: one conversation or one small sale."
+          },
+          {
+            "if": "You hear yourself listing features",
+            "then": "Stop and ask what job each feature is hired for, in their words."
+          }
+        ],
+        "learning": "After each week, note which slot you filled, with what evidence, and which blank still governs your risk."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Interview Reps",
+      "targetReps": 5
+    }
+  },
+  "biz-foundations-economics": {
+    "id": "biz-foundations-economics",
+    "subject": "Business",
+    "title": "Unit Economics in Plain Numbers",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Four numbers tell the truth of any business: price, cost per unit, margin per unit, and the unit count that covers fixed costs - plus the cash-versus-profit trap that kills healthy-looking businesses.",
+    "objectives": [
+      "Compute margin per unit as price minus every cost of one unit",
+      "Find the break-even count of units from fixed costs and margin",
+      "Separate cash (money in the bank) from profit (the accounting story)",
+      "Spot the three costs beginners forget: own time, fees and waste",
+      "Recognize the four most common numbers errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Four numbers, one truth",
+        "caption": "Revenue flatters and margin tells. One unit economics decides whether volume is a friend or a multiplier of loss, and the cash line decides whether you survive to find out.",
+        "labels": [
+          "Price: what one customer pays",
+          "Unit cost: everything one unit consumes, including your time",
+          "Margin: price minus unit cost - what each sale really earns",
+          "Break-even: fixed costs divided by margin, counted in units",
+          "Cash is oxygen: profit on paper cannot pay rent"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The unit tells the story",
+        "content": "Before any strategy, one question: what does a single sale actually earn? Price minus every cost that sale consumes - materials, fees, packaging, delivery, and the hour of your life it took - is the margin per unit, the atom of the whole business. If that atom is negative, volume is not growth, it is a faster way to lose money; every additional sale digs the hole deeper. Beginners watch revenue because it is big and flattering; owners watch margin because it is small and true."
+      },
+      {
+        "title": "Break-even is a count, not a vibe",
+        "content": "Rent, tools, subscriptions and insurance do not care how many units you sell - they are fixed. Divide them by the margin per unit and you get the only number that separates survival from death: how many units until costs are covered. Twenty? Two hundred? Two thousand? Knowing the count changes everything downstream - it prices your product, caps your costs, and tells you whether this is a side income or a company. A business without a break-even count is a hobby with anxiety."
+      },
+      {
+        "title": "Cash is oxygen, profit is the story",
+        "content": "The deadliest trap in small business is being profitable on paper and broke in reality: you delivered in March, invoice paid in June, rent due in April. Profit is an accounting story about a period; cash is the oxygen in the tank today. Inventory sits as cash you cannot spend; unpaid invoices are cash you cannot spend; taxes arrive for profit you have not collected. So watch the bank balance weekly and ask of every decision: does this put oxygen in the tank sooner, or later? Businesses die from running out of cash far more often than from running out of profit."
+      }
+    ],
+    "principles": [
+      "Margin per unit is the atom: price minus every cost of one sale, including your time.",
+      "Negative unit margin means volume multiplies loss, not growth.",
+      "Break-even count = fixed costs divided by margin; it prices and caps everything.",
+      "Cash is oxygen and profit is the story; watch the bank weekly."
+    ],
+    "mistakes": [
+      {
+        "title": "Forgetting your own time in unit cost",
+        "explanation": "Unpaid labor hides the true margin. Price your hour in, or the business is subsidizing itself with your life."
+      },
+      {
+        "title": "Counting revenue as profit",
+        "explanation": "Revenue flatters; margin tells. Subtract every unit cost before celebrating."
+      },
+      {
+        "title": "Never computing the break-even count",
+        "explanation": "Without the unit count, pricing and cost decisions are vibes. Divide and know."
+      },
+      {
+        "title": "Confusing cash with profit",
+        "explanation": "Invoices and inventory are trapped cash. Watch the bank balance, not just the story."
+      }
+    ],
+    "practice": [
+      "Pick one real or imagined product; write price, unit cost list, margin per unit.",
+      "Add three fixed costs and compute the break-even unit count aloud.",
+      "List the three forgotten costs in your own situation and re-price for them.",
+      "Write one sentence: the difference between cash and profit in your words.",
+      "Set a weekly ten-minute bank-balance check with one question: oxygen in or out?"
+    ],
+    "reflection": "If a customer doubled their order tomorrow, would each extra unit add money or dig a hole - and do you know the number that proves it?",
+    "safety": "No physical risk; the financial risk is real, so keep experiments small and never commit fixed costs before the unit margin is positive.",
+    "quiz": [
+      {
+        "question": "If margin per unit is negative, selling more units will:",
+        "options": [
+          "Eventually become profitable",
+          "Multiply the loss with every sale",
+          "Reduce fixed costs",
+          "Improve cash immediately"
+        ],
+        "answer": 1,
+        "explanation": "Volume scales the atom; a negative atom scaled is a deeper hole, not a path to profit."
+      },
+      {
+        "question": "A business can be profitable on paper yet fail because:",
+        "options": [
+          "Profit is illegal",
+          "Cash is trapped in invoices and inventory while bills come due",
+          "Margins were too high",
+          "Fixed costs were too low"
+        ],
+        "answer": 1,
+        "explanation": "Cash is oxygen; profit is a period story. Unpaid invoices and stock cannot pay rent on the due date."
+      }
+    ],
+    "mastery": [
+      "Compute a true unit margin including your own time.",
+      "Derive the break-even unit count and state it aloud.",
+      "Explain cash versus profit in one plain sentence.",
+      "Catch the three forgotten costs before pricing."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A big client offers double volume at a discount.",
+          "action": "You recompute unit margin at the discounted price and the break-even shift before saying yes.",
+          "why": "Discounts attack the atom; volume only helps if the atom stays positive."
+        },
+        {
+          "setup": "Sales look great but the bank account shrinks.",
+          "action": "You trace cash trapped in unpaid invoices and stock, and tighten payment terms before chasing more sales.",
+          "why": "Oxygen first: growth on negative cash flow accelerates the suffocation."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Four numbers let you say yes and no fast, without meetings or moods."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A counterparty who knows their unit margin cannot be bluffed on price."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Revenue celebrated",
+          "Break-even unknown",
+          "Bank unchecked"
+        ],
+        "adjustments": [
+          {
+            "if": "Margin is thin or negative",
+            "then": "Raise price, cut unit cost, or kill the offer - choose deliberately."
+          },
+          {
+            "if": "Cash tightens",
+            "then": "Chase invoices and slow stock before adding any new spend."
+          }
+        ],
+        "learning": "After each month, write the four numbers and one decision they changed."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Numbers Reps",
+      "targetReps": 5
+    }
+  },
+  "biz-foundations-decisions": {
+    "id": "biz-foundations-decisions",
+    "subject": "Business",
+    "title": "Decisions Under Uncertainty",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Business is betting with incomplete information. Learn to sort reversible from irreversible bets, buy the cheapest possible disproof, and set the ending before the beginning.",
+    "objectives": [
+      "Classify a decision as a two-way door (reversible) or one-way door (hard to undo)",
+      "Design the cheapest test that could prove you wrong",
+      "Set a kill criterion - a number or date - before starting, not after failing",
+      "Read customer feedback as data about the product, never as verdict on you",
+      "Recognize the four most common decision errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Two doors and a cheap test",
+        "caption": "Speed and caution are not personalities, they are door types. Reversible doors reward fast walking; irreversible doors reward slow thinking. Between them sits the cheapest test that could prove you wrong - and the ending you agreed to before you began.",
+        "labels": [
+          "Two-way door: reversible - decide fast, learn by doing",
+          "One-way door: hard to undo - slow down, gather, write it down",
+          "Cheapest test: the smallest thing that could prove you wrong",
+          "Kill criterion: the number or date that ends the bet, agreed in advance",
+          "Feedback is data about the product, never about your worth"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two kinds of doors",
+        "content": "Some decisions walk back: a new price, a renamed page, a trial channel - if it fails you reverse it and keep the lesson. Those are two-way doors and they reward speed, because the cost of deciding slowly exceeds the cost of deciding wrong. Other decisions do not walk back: a signed lease, a hired employee, a legal entity, a public promise - one-way doors that reward slowness, written reasoning and second opinions. Most organizational misery is a door-type error: committees debating a two-way door for weeks, or a founder sprinting through a one-way door on a hunch. Name the door before you choose the pace."
+      },
+      {
+        "title": "Buy the cheapest disproof",
+        "content": "Confirmation is cheap and worthless - ask anyone and they will agree with you politely. What has value is disproof: the smallest experiment that could show you are wrong, bought for the least money and time. Pre-sell before building; write the landing page before writing the code; serve the service manually before automating it. If the cheap test kills the idea, it just saved you months; if it survives, you now own evidence instead of enthusiasm. The test is not a formality, it is the purchase of information at discount prices."
+      },
+      {
+        "title": "Set the ending, then read the data",
+        "content": "Bets without endings become identities: the project that cannot die because admitting error feels like dying. The cure is a kill criterion agreed in advance - by this date, or at this number, we stop or we pivot, no negotiation in the moment. Equally, sort feedback into signal and noise: money, repeat use and changed behavior are signal; polite praise is noise, because it costs the speaker nothing. Feedback is data about the product, never a verdict on your worth - the moment it becomes personal, you stop being able to read it."
+      }
+    ],
+    "principles": [
+      "Name the door first: reversible decides fast, irreversible decides slow.",
+      "Buy the cheapest possible disproof before committing resources.",
+      "Agree the kill criterion - number or date - before starting the bet.",
+      "Signal is money, repeats and behavior; polite praise is noise."
+    ],
+    "mistakes": [
+      {
+        "title": "Committees on two-way doors",
+        "explanation": "Reversible decisions cost more in delay than in error. Decide fast, learn by doing."
+      },
+      {
+        "title": "Sprinting through one-way doors",
+        "explanation": "Leases, hires and public promises do not unwind. Slow down, write it, get a second head."
+      },
+      {
+        "title": "Testing to confirm",
+        "explanation": "Agreement is free and worthless. Design the test that could kill the idea, and respect its verdict."
+      },
+      {
+        "title": "Moving the goalposts at the kill date",
+        "explanation": "Renegotiating the ending in the moment turns a bet into an identity. Honor the criterion you set when calm."
+      }
+    ],
+    "practice": [
+      "List three current decisions and label each door type; match the pace to the door.",
+      "Design one cheap disproof for your biggest open bet, costable in under a week.",
+      "Write a kill criterion (date or number) for one live project and share it with someone.",
+      "Collect five pieces of feedback and sort them into signal versus noise, saying why.",
+      "Review one past failure and name which door-type or test error caused it."
+    ],
+    "reflection": "Which live bet of yours has no kill criterion - and what would you have to believe to keep it alive past its date?",
+    "safety": "No physical risk; protect money and relationships by testing small and honoring pre-agreed endings.",
+    "quiz": [
+      {
+        "question": "A reversible decision should usually be made:",
+        "options": [
+          "Slowly with full analysis",
+          "Fast, learning by doing",
+          "Never",
+          "By committee"
+        ],
+        "answer": 1,
+        "explanation": "Two-way doors cost more in delay than in error; speed is the correct posture when the walk-back exists."
+      },
+      {
+        "question": "The most valuable test before committing is:",
+        "options": [
+          "One that confirms the idea",
+          "The cheapest one that could prove you wrong",
+          "A large launch",
+          "A survey of friends"
+        ],
+        "answer": 1,
+        "explanation": "Disproof carries information; confirmation carries comfort. Buy information at the lowest price."
+      }
+    ],
+    "mastery": [
+      "Label doors correctly and match pace to type.",
+      "Design and run a cheap disproof before committing.",
+      "Set and honor a kill criterion agreed in advance.",
+      "Sort signal from noise in customer feedback."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You want to sign a year-long lease for the venture.",
+          "action": "You name it a one-way door, write the reasoning, get a second opinion, and negotiate an exit clause before signing.",
+          "why": "Irreversible bets deserve process; the exit clause is the partial door you build yourself."
+        },
+        {
+          "setup": "An idea feels obviously right to everyone around you.",
+          "action": "You spend a week on the cheapest disproof - pre-selling to strangers - before writing any code.",
+          "why": "Universal polite agreement is noise; stranger money is signal."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Door-typing and cheap tests turn anxiety into a queue of small, affordable experiments."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A partner who honors kill criteria is trustworthy with other people money and time."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Slow on reversible",
+          "Fast on irreversible",
+          "Goalposts drifting"
+        ],
+        "adjustments": [
+          {
+            "if": "A two-way door stalls",
+            "then": "Set a 48-hour deadline and decide with the information at hand."
+          },
+          {
+            "if": "A kill date approaches and you feel renegotiating",
+            "then": "Call the person you shared the criterion with and decide together, cold."
+          }
+        ],
+        "learning": "After each bet closes, record door type, test cost, and whether the kill criterion was honored."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Decision Reps",
+      "targetReps": 5
+    }
   }
 }

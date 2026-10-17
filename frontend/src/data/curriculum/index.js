@@ -751,5 +751,38 @@ export default {
         }
       }
     }
+  },
+  "business": {
+    "foundations": {
+      "name": "Foundations",
+      "icon": "🧭",
+      "description": "Value, customers and unit economics in plain numbers.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Who pays and why, the four true numbers, and betting under uncertainty.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Business Foundations",
+              "lessons": [
+                {
+                  "id": "biz-foundations-value",
+                  "title": "Value & Customers"
+                },
+                {
+                  "id": "biz-foundations-economics",
+                  "title": "Unit Economics in Plain Numbers"
+                },
+                {
+                  "id": "biz-foundations-decisions",
+                  "title": "Decisions Under Uncertainty"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
   }
 };
