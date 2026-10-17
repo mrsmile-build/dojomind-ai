@@ -20139,5 +20139,464 @@ export const lessons = {
       "label": "Ceiling Review",
       "initialTime": 300
     }
+  },
+  "med-first-aid-scene": {
+    "id": "med-first-aid-scene",
+    "subject": "Medicine",
+    "title": "Scene Safety & Calling for Help",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The first minutes decide outcomes: make the scene safe, check response with talk-and-touch, call for help early and say the right things - before any treatment begins.",
+    "objectives": [
+      "Make the scene safe before touching anyone",
+      "Check response with talk-and-touch, not violent shaking",
+      "Call emergency services early and lead with the location",
+      "Send someone for an AED if one is nearby",
+      "Recognize the four most common first-minute errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The first minutes",
+        "caption": "Every rescue starts the same way: safe scene, response check, early call. Treatment comes after these three, never before - a second casualty helps nobody.",
+        "labels": [
+          "Danger: make the scene safe first - you cannot help from a stretcher",
+          "Response: talk loudly and touch the shoulders; look for any response",
+          "Call: emergency number, loudspeaker on, location first",
+          "AED: send someone to fetch one if available",
+          "Stay: keep talking to the person until help arrives"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "You are the first link",
+        "content": "When someone collapses or is hurt, professionals are minutes away and you are already there - that makes you the first link in the chain of survival, and the chain only holds if the first link acts. But acting starts with a pause, not a rush: look for what hurt them and whether it can hurt you - traffic, fire, electricity, gas, violence, unstable ground. A rescuer who becomes a second casualty has not helped anyone; scene safety is not caution, it is the first treatment."
+      },
+      {
+        "title": "Talk, touch, then call",
+        "content": "Check response simply: shout Are you okay? and squeeze or tap the shoulders - talk and touch, never violent shaking, which can worsen a neck or spine injury. Any response (words, groan, movement) means they are alive and breathing for now; no response at all is the moment to shout for help and call. Call early, not after you have tried things: put the phone on loudspeaker so your hands stay free and the dispatcher can coach you while you work. The single most valuable sentence you will say is the location, said first, because calls drop and help can roll while you are still explaining."
+      },
+      {
+        "title": "What to say on the phone",
+        "content": "Dispatchers run a script because it works: location, then your call-back number, then what happened, how many people are hurt, and their state - awake or not, breathing or not. Answer their questions instead of narrating your fears, follow their instructions exactly, and do not hang up until they tell you to; they are your remote partner and often your CPR coach. If others are present, point at one specific person and give one specific job - you, call them; you, find an AED - because a general cry for help produces a crowd and a pointed finger produces action."
+      }
+    ],
+    "principles": [
+      "Scene safety first: a second casualty helps nobody.",
+      "Response is checked with talk-and-touch, never violent shaking.",
+      "Call early on loudspeaker; location is the first sentence.",
+      "Point at one person for one job; general cries produce crowds."
+    ],
+    "mistakes": [
+      {
+        "title": "Rushing in without checking danger",
+        "explanation": "Traffic, wires, fire and violence kill rescuers. Pause, look, make it safe or move them only if staying is worse."
+      },
+      {
+        "title": "Shaking hard to wake them",
+        "explanation": "Violent shaking can worsen neck or spine injury. Talk loudly and squeeze the shoulders instead."
+      },
+      {
+        "title": "Treating first, calling later",
+        "explanation": "Minutes of solo effort before a call are minutes help was not moving. Call early on loudspeaker and treat while guided."
+      },
+      {
+        "title": "Hanging up when stressed",
+        "explanation": "The dispatcher is your coach and your link to help. Stay on the line until they end it."
+      }
+    ],
+    "practice": [
+      "Say your local emergency number and your exact home address aloud, twice, until instant.",
+      "Drill the call script aloud: location, number, what happened, how many, their state.",
+      "Walk your daily routes and note the nearest two AED locations.",
+      "Practice talk-and-touch response check on a willing friend, gently.",
+      "Write one home emergency plan: who calls, who meets help, where the kit lives."
+    ],
+    "reflection": "If someone collapsed beside you today, could you say your exact location in one sentence - or would the call stall on where are you?",
+    "safety": "This lesson is awareness and preparation, not certification. Get in-person first-aid training; in any real event, call emergency services first and follow the dispatcher.",
+    "quiz": [
+      {
+        "question": "The very first action at any casualty is:",
+        "options": [
+          "Start treatment immediately",
+          "Make the scene safe",
+          "Check for bleeding",
+          "Move them to comfort"
+        ],
+        "answer": 1,
+        "explanation": "A rescuer who becomes a second casualty helps nobody; danger assessment precedes every other step."
+      },
+      {
+        "question": "On the emergency call, the first thing to say is:",
+        "options": [
+          "What you think is wrong",
+          "Your exact location",
+          "Your name and age",
+          "How scared you are"
+        ],
+        "answer": 1,
+        "explanation": "Calls drop; with the location said first, help can roll while the rest of the story is still being told."
+      }
+    ],
+    "mastery": [
+      "Assess scene danger before approaching anyone.",
+      "Check response with talk-and-touch correctly.",
+      "Deliver the call script with location first, on loudspeaker.",
+      "Assign specific jobs to specific bystanders."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A cyclist goes down in traffic.",
+          "action": "You stop your own movement first, make the scene safe or signal traffic, then approach and check response.",
+          "why": "Scene safety is the first treatment; rushing in adds a casualty to the road."
+        },
+        {
+          "setup": "You are alone with an unresponsive person.",
+          "action": "You put the phone on loudspeaker, call with location first, and follow the dispatcher while you work.",
+          "why": "Early call plus loudspeaker turns the dispatcher into your hands-free coach from the first minute."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Knowing the first three steps removes the freeze; action follows a script instead of panic."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A caller who leads with location and state gets help rolling faster than one who narrates fear."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Urge to rush in",
+          "Late calling",
+          "General cries for help"
+        ],
+        "adjustments": [
+          {
+            "if": "You feel the rush",
+            "then": "Force the pause: name the dangers out loud before stepping in."
+          },
+          {
+            "if": "A crowd forms",
+            "then": "Point at individuals with individual jobs, starting with the call."
+          }
+        ],
+        "learning": "After each drill, note whether location came first and whether every bystander got a pointed job."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Call Drill",
+      "initialTime": 180
+    }
+  },
+  "med-first-aid-bleeding": {
+    "id": "med-first-aid-bleeding",
+    "subject": "Medicine",
+    "title": "Bleeding & Wounds",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Stop the bleed the simple proven way: firm direct pressure with a pad or clean cloth, hold without peeking, add layers on top - and know the signs that mean get help now.",
+    "objectives": [
+      "Apply firm direct pressure and hold it without peeking",
+      "Add dressings on top rather than removing soaked ones",
+      "Recognize shock signs: pale, clammy, fast weak pulse, confusion",
+      "Know which bleeding needs emergency care immediately",
+      "Recognize the four most common bleeding errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Pressure, held",
+        "caption": "Almost all bleeding stops with firm direct pressure held long enough for clotting to work. The errors are all variations of letting go: peeking, removing pads, or treating shock too late.",
+        "labels": [
+          "Pad or clean cloth straight onto the wound",
+          "Firm pressure with both hands if needed - hold it",
+          "Do not lift to peek; add layers on top if it soaks through",
+          "Lie them down and keep them warm; watch for shock",
+          "Embedded object: press around it, never pull it out"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pressure is the treatment",
+        "content": "Beneath every dressing, tourniquet and surgical trick lies one mechanism: press the bleeding vessel closed and hold it until the body clots. Firm direct pressure - a pad or clean cloth pressed hard onto the wound - stops the overwhelming majority of bleeds, and it needs no equipment beyond cloth and no training beyond the willingness to push hard and keep pushing. Gloves or a bag over your hand protect you both; if nothing clean exists, use what exists, because infection is a later problem and blood loss is a now problem."
+      },
+      {
+        "title": "Hold without peeking",
+        "content": "The instinct to lift the pad and look is the single most damaging habit in bleeding control: each look breaks the forming clot and restarts the clock. If blood soaks through, do not remove - add another layer on top and keep pressing, because the soaked pad is part of the clot now. Pressure continues until professionals take over or the bleeding clearly stops; for a limb bleed, having the person lie down and keeping them warm matters as much as the push, because shock kills by stealth while everyone watches the wound."
+      },
+      {
+        "title": "The get-help-now list",
+        "content": "Some bleeds outrun pressure or hide worse injury, and the list is short enough to memorize: blood soaking through dressings quickly or spurting in pulses; deep, gaping or embedded-object wounds; any amputation; bleeding with shock signs (pale clammy skin, fast weak pulse, thirst, confusion, fainting); and any bleed you cannot control after ten minutes of true pressure. For these you call emergency services immediately while pressure continues - not after you have tried a bit longer. Knowing the list is what turns calm competence into correct escalation instead of hopeful delay."
+      }
+    ],
+    "principles": [
+      "Firm direct pressure, held, stops most bleeding - it is the treatment.",
+      "Never lift to peek; soaked pads get layers added on top.",
+      "Lie them down, keep them warm, watch for shock while pressing.",
+      "Memorized get-help-now list: spurting, soaking fast, embedded, amputation, shock signs, ten minutes uncontrolled."
+    ],
+    "mistakes": [
+      {
+        "title": "Lifting the pad to check",
+        "explanation": "Each look breaks the clot and restarts bleeding. Hold pressure; judge by soak-through, not by peeking."
+      },
+      {
+        "title": "Removing soaked dressings",
+        "explanation": "The soaked pad is part of the clot. Add layers on top and keep pressing."
+      },
+      {
+        "title": "Ignoring shock while watching the wound",
+        "explanation": "Pale clammy skin and confusion mean circulation is failing; lie them down and keep warm while pressure continues."
+      },
+      {
+        "title": "Pulling an embedded object",
+        "explanation": "The object may be plugging the vessel; pulling releases the bleed and worsens injury. Press around it and get help."
+      }
+    ],
+    "practice": [
+      "Drill pressure on a pillow: both hands, firm, two minutes without lifting, adding a second layer halfway.",
+      "Recite the get-help-now list from memory until instant, twice a week.",
+      "Check your home and car kits for clean pads, gloves and a blanket.",
+      "Practice the shock position on a willing partner: lie down, legs supported, keep warm.",
+      "Say aloud the embedded-object rule and why pulling is wrong."
+    ],
+    "reflection": "Could you hold firm pressure for ten minutes without peeking, or would curiosity break the clot at minute two?",
+    "safety": "Use gloves or a barrier where possible; never remove embedded objects; never delay the call for the get-help-now list. This lesson is awareness - get in-person training to be certified.",
+    "quiz": [
+      {
+        "question": "When blood soaks through a dressing you should:",
+        "options": [
+          "Remove it and look at the wound",
+          "Add another layer on top and keep pressing",
+          "Loosen the pressure to slow flow",
+          "Wash the wound immediately"
+        ],
+        "answer": 1,
+        "explanation": "The soaked pad is part of the clot; removing it restarts bleeding. Layers on top preserve the work already done."
+      },
+      {
+        "question": "Which finding means call emergency services now?",
+        "options": [
+          "A small cut that stopped after two minutes of pressure",
+          "Blood spurting in pulses with the heartbeat",
+          "A nosebleed that settled sitting forward",
+          "A graze cleaned and covered"
+        ],
+        "answer": 1,
+        "explanation": "Spurting indicates arterial bleeding that can outrun pressure; it belongs on the immediate-call list while pressure continues."
+      }
+    ],
+    "mastery": [
+      "Hold firm direct pressure without peeking for a full ten minutes.",
+      "Add layers correctly when dressings soak through.",
+      "Recognize shock signs and act on them while pressing.",
+      "Recite and apply the get-help-now list without hesitation."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A kitchen knife cut will not stop oozing.",
+          "action": "You press a clean cloth firm and hold, adding layers as needed, timing ten minutes before judging.",
+          "why": "Held pressure lets clotting finish; peeking and early release are why kitchen cuts keep reopening."
+        },
+        {
+          "setup": "A fall leaves a deep gaping wound with an embedded stone.",
+          "action": "You press around the object, lie them down, keep them warm and call immediately.",
+          "why": "Embedded objects plug and protect; pulling releases the bleed - and deep wounds need professional closure."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Held pressure is the difference between a story and a statistic in most bleeding events."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A helper who presses without peeking buys the hospital the time it needs to matter."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Urge to peek",
+          "Soaked pad removed",
+          "Shock signs missed"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself lifting",
+            "then": "Reset: layers on top, both hands, eyes on the person not the pad."
+          },
+          {
+            "if": "Skin turns pale and clammy",
+            "then": "Treat shock: lie down, keep warm, call now while pressing continues."
+          }
+        ],
+        "learning": "After each drill, note how long you held without lifting and whether the get-help-now list came to mind instantly."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Pressure Hold",
+      "initialTime": 600
+    }
+  },
+  "med-first-aid-unresponsive": {
+    "id": "med-first-aid-unresponsive",
+    "subject": "Medicine",
+    "title": "Unresponsive: Two Paths",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "One check chooses the path: a breathing unresponsive person goes in the recovery position; a person not breathing normally needs hands-only compressions and an AED. Both paths start with a call.",
+    "objectives": [
+      "Tell normal breathing from gasping (agonal) breaths",
+      "Place a breathing unresponsive person in the recovery position",
+      "Start hands-only compressions hard and fast in the center of the chest",
+      "Use an AED the moment it arrives and follow its voice",
+      "Recognize the four most common rescue errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Two paths from one check",
+        "caption": "Up to ten seconds of looking decides everything: normal breathing means recovery position and monitoring; absent or gasping breath means compressions and an AED. Gasping is not breathing - it is the heart failing.",
+        "labels": [
+          "Unresponsive + breathing normally: recovery position, call, monitor continuously",
+          "Unresponsive + not breathing normally: call, hands-only compressions, AED",
+          "Compressions: center of chest, hard and fast, let the chest rise fully",
+          "Gasping or snoring breaths are NOT normal breathing",
+          "AED: switch on and follow the voice; it only shocks when needed"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The breath check decides the path",
+        "content": "With an unresponsive person, everything hangs on one judgment made over at most ten seconds: look at the chest and face for normal breathing - regular, quiet, effortless rises and falls. Irregular gasps, snoring gurgles or single desperate breaths are agonal breathing, the signature of a heart that has stopped, and they must be treated as no breathing at all. This single distinction chooses between the recovery position and compressions, which is why it is trained until it is reflex rather than decision."
+      },
+      {
+        "title": "Path one: breathing means recovery position",
+        "content": "A person who is unresponsive but breathing normally needs their airway protected while help comes: roll them onto their side with the upper knee bent for stability, head tilted so the mouth faces down and fluids drain out instead of blocking the air. Then call (if not already called), stay, and monitor breathing continuously - because the path can change. If breathing stops at any point, roll them back and switch to path two without debate; the recovery position is a holding action, not a finish line."
+      },
+      {
+        "title": "Path two: compressions and the AED",
+        "content": "No normal breathing means the heart is not pumping, and hands become the pump: push hard and fast in the center of the chest - about the speed of a hundred-to-twenty beat song - letting the chest rise fully between pushes, swapping rescuers when arms tire. Call first (or send someone), and the moment an AED arrives, switch it on and obey its voice: bare chest, pads on, hands off while it analyzes, shock only when it instructs. People fear hurting someone with an AED; the truth is the opposite - it will not shock a beating heart, and doing nothing is the only guaranteed harm. Compressions plus early AED is the entire science of surviving cardiac arrest, compressed into two things a bystander can do."
+      }
+    ],
+    "principles": [
+      "Up to ten seconds of looking: normal breathing versus gasping decides the path.",
+      "Gasping or snoring breaths are agonal - treat as no breathing.",
+      "Breathing: recovery position, call, monitor; stop breathing means switch paths.",
+      "No breathing: call, hands-only compressions hard and fast, AED the moment it arrives."
+    ],
+    "mistakes": [
+      {
+        "title": "Calling gasping normal breathing",
+        "explanation": "Agonal gasps mean cardiac arrest. Treat them as no breathing and start compressions."
+      },
+      {
+        "title": "Slow or shallow compressions",
+        "explanation": "Half-depth or slow pushes do not move blood. Hard and fast, full chest rise between."
+      },
+      {
+        "title": "Stopping repeatedly to recheck",
+        "explanation": "Every pause empties the brain of oxygen again. Swap rescuers instead of stopping."
+      },
+      {
+        "title": "Fearing the AED",
+        "explanation": "It analyzes and only shocks when needed; it cannot harm a beating heart. Following its voice is always right."
+      }
+    ],
+    "practice": [
+      "Practice the ten-second breath check on a willing partner lying down, saying your verdict aloud.",
+      "Roll a willing partner into the recovery position and back, three times each side.",
+      "Press a pillow or cushion to a 100-120 beat song for two minutes, counting rhythm not force.",
+      "List the two nearest AEDs to home and work; walk to one this week.",
+      "Book an in-person CPR course and put the date in your calendar today."
+    ],
+    "reflection": "Could you tell gasping from breathing in ten seconds under stress, or would hesitation cost the first minute?",
+    "safety": "This lesson is awareness, not certification: hands-on CPR training with a manikin and instructor is required to do this safely and effectively. In any real event call emergency services first and follow the dispatcher.",
+    "quiz": [
+      {
+        "question": "Irregular gasping breaths in an unresponsive person mean:",
+        "options": [
+          "They are sleeping deeply",
+          "Treat as no breathing: start compressions",
+          "They will wake soon",
+          "Give water slowly"
+        ],
+        "answer": 1,
+        "explanation": "Gasping is agonal breathing, the signature of cardiac arrest; mistaking it for breathing delays the only treatment that works."
+      },
+      {
+        "question": "An AED is safe to use because it:",
+        "options": [
+          "Shocks every heart it touches",
+          "Analyzes and only shocks when a shockable rhythm is present",
+          "Replaces the need to call",
+          "Works only with training"
+        ],
+        "answer": 1,
+        "explanation": "The device decides; it will not shock a beating heart, and its voice guides an untrained bystander through every step."
+      }
+    ],
+    "mastery": [
+      "Make the ten-second breathing judgment correctly, including gasping.",
+      "Place and monitor the recovery position, switching paths when breathing stops.",
+      "Deliver hard, fast, full-recoil compressions without unnecessary pauses.",
+      "Operate an AED by following its voice from switch-on to shock decision."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A colleague collapses and is snoring-gasping.",
+          "action": "You name it as agonal, call on loudspeaker, and start compressions while someone runs for the AED.",
+          "why": "Gasping is cardiac arrest; the first minute of compressions is the one that decides whether the AED has a heart left to shock."
+        },
+        {
+          "setup": "A drunk friend is unresponsive but breathing normally.",
+          "action": "You place them in the recovery position, mouth down, and monitor breathing continuously until they wake or help arrives.",
+          "why": "The airway-protected side position prevents choking on vomit - the real killer in unresponsive-but-breathing cases."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Two paths, one check: knowing them turns the scariest moment in first aid into a procedure you can run."
+        },
+        {
+          "role": "Facing it",
+          "detail": "Bystanders who compress early and fetch AEDs fast multiply survival odds several-fold before any professional arrives."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hesitation at the breath check",
+          "Pauses in compressions",
+          "AED fear"
+        ],
+        "adjustments": [
+          {
+            "if": "You hesitate on breathing",
+            "then": "Default to compressions when unsure; compressions rarely harm, delay always does."
+          },
+          {
+            "if": "Arms tire",
+            "then": "Swap rescuers every couple of minutes rather than slowing or stopping."
+          }
+        ],
+        "learning": "After each drill, note your breath-check verdict speed and whether compressions kept rhythm without pauses."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Compression Rhythm",
+      "initialTime": 120
+    }
   }
 }

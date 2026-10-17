@@ -719,6 +719,37 @@ export default {
           ]
         }
       }
+    },
+    "first-aid": {
+      "name": "First Aid",
+      "icon": "🚑",
+      "description": "What to do in the first minutes, and when to call for help.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Scene safety, bleeding control and the two rescue paths.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "First Aid Foundations",
+              "lessons": [
+                {
+                  "id": "med-first-aid-scene",
+                  "title": "Scene Safety & Calling for Help"
+                },
+                {
+                  "id": "med-first-aid-bleeding",
+                  "title": "Bleeding & Wounds"
+                },
+                {
+                  "id": "med-first-aid-unresponsive",
+                  "title": "Unresponsive: Two Paths"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };
