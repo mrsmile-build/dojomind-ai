@@ -24298,5 +24298,1409 @@ export const lessons = {
       "label": "Clean Change Reps",
       "targetReps": 20
     }
+  },
+  "music-voice-breath": {
+    "id": "music-voice-breath",
+    "subject": "Music",
+    "title": "Breath & Support",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The voice runs on breath: diaphragmatic breathing lowers the air, appoggio holds the ribcage expanded while the belly slowly contracts, and the phrase rides out on steady pressure rather than pushed air.",
+    "objectives": [
+      "Feel diaphragmatic breath as belly-out on inhale, not shoulder-rise",
+      "Sustain a steady sss for twenty seconds on one breath",
+      "Notice the ribs staying expanded while the belly slowly returns",
+      "Support a phrase on steady pressure instead of a pushed blast",
+      "Recognize the four most common breath errors"
+    ],
+    "visuals": [
+      {
+        "type": "breath-cycle",
+        "title": "Inhale low, exhale slow",
+        "caption": "Good singing breath looks like a calm deep breath: belly expands on inhale, ribs stay wide on exhale, the phrase rides a slow steady stream instead of a sharp push. This is the same diaphragmatic cycle from the breathing domain, aimed at tone.",
+        "phases": [
+          {
+            "label": "Inhale",
+            "note": "belly expands, ribs widen, shoulders stay",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Hold open",
+            "note": "ribs stay wide, belly slowly returns",
+            "x": 140,
+            "y": 70,
+            "glow": true,
+            "cloud": false
+          },
+          {
+            "label": "Phrase rides out",
+            "note": "steady stream, no blast",
+            "x": 122,
+            "y": 84,
+            "glow": false,
+            "cloud": false
+          },
+          {
+            "label": "Reset",
+            "note": "natural exhale, next inhale low",
+            "x": 100,
+            "y": 100,
+            "glow": false,
+            "cloud": false
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Belly out, not shoulders up",
+        "content": "The diaphragm sits across the bottom of the ribs and pulls air down when it contracts, which makes the belly expand outward - that is what a real singing inhale looks like. Shoulder-rise is the signature of a shallow clavicular breath that fills only the top of the lungs and leaves the throat tense; the correct breath is quiet, low and visible at the waist. Put one hand on your belly and one on your chest: the belly hand should move on every inhale and the chest hand should barely move. That simple check catches the error within a breath or two."
+      },
+      {
+        "title": "Appoggio: the held expansion",
+        "content": "The Italian singing tradition names the key technique appoggio - leaning - and it means keeping the ribcage expanded while the belly slowly returns, rather than collapsing the ribs at the start of the phrase. Collapsed ribs dump the air fast and force the throat to do pressure work it was not built for; held ribs let the phrase ride on steady low pressure, which is what a long, free note actually is. Practice it first without voice: inhale low, sustain a slow sss for twenty seconds with the ribs wide, feel the belly do the work. When the breath lasts and the throat stays free, the support is working."
+      },
+      {
+        "title": "Steady stream, not pushed blast",
+        "content": "The biggest beginner error is to push a big blast of air at the start of each phrase and then run out by the middle; singing feels like effort and the note wobbles or cracks. The fix is a steady stream - imagine blowing out a candle across the room without flickering the flame - and letting the voice ride on it rather than fighting it. A phrase sung on steady stream sounds effortless because the pressure the folds feel is constant; a phrase sung on pushed air sounds effortful because the folds are chasing a moving target every syllable."
+      }
+    ],
+    "principles": [
+      "Inhale low: belly expands, ribs widen, shoulders stay quiet.",
+      "Appoggio: ribs stay expanded while the belly slowly returns.",
+      "The phrase rides a steady stream; pushing a blast empties the phrase halfway.",
+      "One hand on belly, one on chest: belly moves, chest does not - the self-check."
+    ],
+    "mistakes": [
+      {
+        "title": "Shoulder-rise inhale",
+        "explanation": "Shallow breath fills only the top of the lungs and tenses the throat. Inhale low and watch the belly expand."
+      },
+      {
+        "title": "Ribcage collapsing on the phrase",
+        "explanation": "Collapsed ribs dump air fast. Keep the ribs wide and let the belly do the return work."
+      },
+      {
+        "title": "Pushing a blast at the phrase start",
+        "explanation": "Blast empties the phrase mid-line and forces the throat to grip. Ride a steady stream instead."
+      },
+      {
+        "title": "Checking only the throat",
+        "explanation": "Support is below the throat; diagnose at the ribs and belly, not the larynx."
+      }
+    ],
+    "practice": [
+      "Hand check: one on belly, one on chest; ten quiet breaths with only belly moving.",
+      "Sustain sss for twenty seconds on one breath, ribs held wide; log best time daily.",
+      "Lip trill on a single pitch for fifteen seconds on steady breath, no push at start.",
+      "Sing one phrase on a steady stream; mark where the blast began and redo with half the air.",
+      "Lie on your back and breathe naturally; notice the automatic low breath and mimic it standing."
+    ],
+    "reflection": "On your last phrase, did the ribs stay wide and the stream stay steady - or did a blast at the start empty you halfway?",
+    "safety": "Stop at dizziness or throat strain; dizziness means you over-breathed, strain means you pushed. Short sessions with full recovery between phrases.",
+    "quiz": [
+      {
+        "question": "A good singing inhale is visible at:",
+        "options": [
+          "The shoulders rising",
+          "The belly expanding while shoulders stay quiet",
+          "The chest lifting high",
+          "The throat opening wide"
+        ],
+        "answer": 1,
+        "explanation": "The diaphragm pulls air down; belly-out with quiet shoulders is the signature of a low, usable breath."
+      },
+      {
+        "question": "Appoggio means:",
+        "options": [
+          "Pushing hard on the first note",
+          "Keeping the ribcage expanded while the belly slowly returns",
+          "Holding the breath before singing",
+          "Breathing only through the nose"
+        ],
+        "answer": 1,
+        "explanation": "Held ribs give the phrase steady low pressure; collapsed ribs dump air fast and force the throat to grip."
+      }
+    ],
+    "mastery": [
+      "Inhale low with quiet shoulders on every breath.",
+      "Sustain sss twenty seconds with ribs held wide.",
+      "Sing a full phrase on a steady stream without mid-phrase collapse.",
+      "Diagnose support errors at the ribs and belly, not the throat."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A high note cracks mid-phrase.",
+          "action": "You check for the initial blast and redo the phrase on half the air with ribs held wide.",
+          "why": "Cracks mid-phrase are usually a pushed start followed by empty pressure; steady stream fixes both."
+        },
+        {
+          "setup": "Throat feels tired after a short sing.",
+          "action": "You drop to lip trills on steady breath and rebuild the phrase from support up.",
+          "why": "Throat fatigue almost always means support is missing below; rebuild the base rather than pushing through."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Supported phrases sound effortless because the folds ride steady pressure instead of chasing it."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A supported singer sounds consistent across long sets because the system is not leaking air per phrase."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Shoulder rise",
+          "Mid-phrase collapse",
+          "Throat fatigue"
+        ],
+        "adjustments": [
+          {
+            "if": "Shoulders rise",
+            "then": "One-hand-on-belly drill until the low breath is automatic before any singing."
+          },
+          {
+            "if": "Phrase collapses mid-line",
+            "then": "Halve the air and hold the ribs wide; stream beats blast every time."
+          }
+        ],
+        "learning": "After each session, log sss time and the one phrase you rebuilt on steadier stream."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Support Holds",
+      "initialTime": 20
+    }
+  },
+  "music-voice-pitch": {
+    "id": "music-voice-pitch",
+    "subject": "Music",
+    "title": "Finding & Matching Pitch",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Pitch matching is ear-to-voice wiring: hear a note, hum it, then sing it on a vowel. The common belief that some people cannot match pitch is almost always a training gap, not a hardware gap.",
+    "objectives": [
+      "Match a played note by humming before singing it",
+      "Hear whether your note is flat, sharp, or centered on the target",
+      "Use sirens and slides to explore range without fear",
+      "Distinguish hearing pitch from producing pitch as separate skills",
+      "Recognize the four most common pitch errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Hear, hum, sing",
+        "caption": "Pitch matching has two halves that beginners collapse into one: the ear must identify the target, then the voice must find it. Humming is the bridge - it removes vowel shape and volume decisions so the ear and the larynx can calibrate.",
+        "labels": [
+          "Hear: a stable reference note, held, from a piano or tuner",
+          "Hum: lips closed, no vowel decisions, larynx free to slide",
+          "Sing: open to a vowel only after hum matches",
+          "Flat: below target; sharp: above; centered: matches",
+          "Sirens: continuous slides up and down map your range"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two skills, not one",
+        "content": "Pitch matching is not a single talent - it is two skills wired together: hearing the target pitch accurately, and producing a pitch the voice can control. Beginners often fail at the first and blame the second (I am tone-deaf) or fail at the second and blame the first (I hear it but cannot sing it). Separate them: can you tell which of two played notes is higher? If yes, hearing is fine and the wiring to the voice is the issue, which is trainable. The vast majority of people who think they cannot sing can hear pitch correctly and simply never had the ear-to-voice wire trained."
+      },
+      {
+        "title": "Hum first, then vowel",
+        "content": "Singing a vowel adds decisions the beginner voice does not yet handle: shape, volume, consonants, register. Humming removes all of that - lips closed, no vowel, no loud/soft choice, just the larynx finding a pitch - and so it becomes the honest bridge between ear and voice. The routine is simple: play a note, hum until your hum centers on it, then open to ah or oo on the same pitch and check that the center holds. If the open vowel drifts, close back to humming and rebuild; chasing the drift with more singing only entrenches the wrong pitch."
+      },
+      {
+        "title": "Sirens and the flat/sharp sense",
+        "content": "A siren is a continuous slide from low to high and back, done gently without pushing; it is the fastest way to map range and to feel where the voice wants to rest. While sliding, listen for the moment the voice lands on the target and name it - flat, sharp, or centered. Training that internal tuner is the real work; external tuners help, but the goal is an inner sense that hears drift in real time and corrects before the listener notices. Sirens practiced daily for a minute a day build this sense faster than any amount of scale drilling."
+      }
+    ],
+    "principles": [
+      "Pitch matching is two skills: hearing the target and producing it; train them separately.",
+      "Hum first, then vowel; humming removes vowel decisions so the larynx can calibrate.",
+      "Sirens - gentle slides up and down - map range and train the inner tuner.",
+      "Flat, sharp, or centered: name each note you sing against the target in real time."
+    ],
+    "mistakes": [
+      {
+        "title": "Singing straight to a vowel",
+        "explanation": "Vowels add decisions the untrained voice fumbles. Hum to the target first, then open."
+      },
+      {
+        "title": "Blaming tone-deafness",
+        "explanation": "True tone-deafness is rare; most misses are wiring, not hardware. Train the ear-to-voice link."
+      },
+      {
+        "title": "Chasing drift with more singing",
+        "explanation": "If the vowel drifts, close back to humming; more singing entrenches the wrong pitch."
+      },
+      {
+        "title": "Ignoring the flat/sharp distinction",
+        "explanation": "Knowing which way you missed is half the correction; name it every rep."
+      }
+    ],
+    "practice": [
+      "Hum-match drill: play a note, hum until centered, then open to ah; ten reps.",
+      "Siren: one minute of gentle low-to-high slides, no pushing; note the comfortable range.",
+      "Play two notes; name which is higher; then sing each, naming flat/sharp/centered.",
+      "Record one phrase; mark the notes that drifted and whether flat or sharp; rebuild on humming.",
+      "Use a tuner app for one phrase and compare its verdict to your inner one; note disagreements."
+    ],
+    "reflection": "In your last phrase, could you name which notes were flat or sharp before the tuner told you - and did humming rebuild them faster than more singing?",
+    "safety": "Keep sirens gentle and volume moderate; throat tickle or hoarseness means stop and return softer the next day.",
+    "quiz": [
+      {
+        "question": "Humming before singing helps because it:",
+        "options": [
+          "Makes the note louder",
+          "Removes vowel decisions so the larynx can calibrate to the target",
+          "Hides mistakes",
+          "Warms the throat only"
+        ],
+        "answer": 1,
+        "explanation": "Humming is the honest bridge: no vowel shape, no volume choice, just the larynx finding the pitch."
+      },
+      {
+        "question": "Most people who think they cannot sing actually:",
+        "options": [
+          "Have true tone-deafness",
+          "Can hear pitch correctly but lack the ear-to-voice wiring",
+          "Have broken vocal folds",
+          "Should not try"
+        ],
+        "answer": 1,
+        "explanation": "True tone-deafness is rare; the trainable gap is between hearing and producing, not hardware."
+      }
+    ],
+    "mastery": [
+      "Hum-match any note within comfortable range before opening to a vowel.",
+      "Name flat, sharp or centered on each note you sing in real time.",
+      "Use sirens daily to map range and train the inner tuner.",
+      "Rebuild drifted notes by humming rather than by more singing."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A phrase sounds off but you cannot tell where.",
+          "action": "You record it, mark each drifted note as flat or sharp, and rebuild each on hum before re-singing.",
+          "why": "Naming the direction of the miss turns vague wrong into a fixable list; humming removes vowel drift."
+        },
+        {
+          "setup": "You feel you cannot sing a specific high note.",
+          "action": "You siren through it gently many times rather than attacking it directly at full voice.",
+          "why": "Sirens teach the larynx the path without the fear and push of a straight jump; direct attack locks the tension."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A trained inner tuner catches drift before the listener does, which is what in-tune singing actually is."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A singer who hum-matches rebuilds faster in rehearsal than one who chases the miss with more singing."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Vowel-first singing",
+          "Cannot name drift direction",
+          "Straight to high notes"
+        ],
+        "adjustments": [
+          {
+            "if": "Vowels drift",
+            "then": "Close to hum, re-center, then re-open; rebuild from the bridge each time."
+          },
+          {
+            "if": "You cannot name drift",
+            "then": "Slow the phrase and compare each note to a sustained reference note until the ear sharpens."
+          }
+        ],
+        "learning": "After each session, log which notes drifted, which way, and whether hum-rebuild fixed them in one pass."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Hum-Match Reps",
+      "targetReps": 10
+    }
+  },
+  "music-voice-tone": {
+    "id": "music-voice-tone",
+    "subject": "Music",
+    "title": "Tone, Resonance & Range",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Tone is where the sound resonates - chest, mouth, mask, head - and range grows by extending both ends gently, not by pushing the high notes. The voice has registers; knowing where you are in them is half of control.",
+    "objectives": [
+      "Feel resonance shift from chest to mouth to mask as pitch rises",
+      "Identify your current comfortable range without pushing either end",
+      "Extend range by small daily increments at both ends, never forcing",
+      "Distinguish chest voice from head voice and the bridge between them",
+      "Recognize the four most common tone and range errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Resonance moves with pitch",
+        "caption": "The voice does not live in one place; it moves as pitch rises. Low notes resonate in the chest, middle notes in the mouth, higher notes in the mask (cheeks, nose bridge, forehead), and the top in the head. Forcing low resonance to high notes or high resonance to low notes is what makes singing feel tight.",
+        "labels": [
+          "Chest resonance: low notes, felt in the upper chest",
+          "Mouth resonance: middle notes, felt around the mouth",
+          "Mask resonance: higher notes, felt in cheeks and forehead",
+          "Head resonance: top notes, felt above the palate",
+          "Range grows by small increments at both ends, not by force"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Resonance moves with pitch",
+        "content": "The voice is not a single instrument; it is a set of resonance chambers that come online as pitch rises. Low notes vibrate in the chest - put a hand there and you will feel it - middle notes sit around the mouth, higher notes light up in the mask (the cheekbones, nose bridge and forehead), and the top of the range shifts to head resonance. Trying to sing high notes with chest resonance or low notes with head resonance is what makes the voice feel tight, squeezed and tiring; letting resonance travel with the pitch is what makes the voice feel free and connected."
+      },
+      {
+        "title": "Registers and the bridge",
+        "content": "Most voices have two main registers - chest voice and head voice - connected by a bridge region (passaggio) where the voice wants to flip. Beginners either shout chest voice too high (strained, shouty, eventually cracks) or flip into head too early (thin, weak, disconnected). The fix is not to avoid the bridge but to know where it sits for your voice and to practice crossing it gently with vowels that help (oo and ee help the flip, ah and oh stay chesty longer). Range grows at both ends: a little lower in chest, a little higher in head, and a smoother bridge in the middle."
+      },
+      {
+        "title": "Range by small increments",
+        "content": "Range is not conquered in one session; it is earned by small daily increments at both ends, never forcing. The rule is simple: any note that requires pushing, straining or throat tension is not in your range yet, regardless of whether you can hit it on a dare. Pushing high notes locks them in tension and makes the next session harder; singing gently up to the edge and one note past, day after day, is how real range grows. Ten minutes of gentle daily extension beats one heroic hour a week, because the voice is tissue, not machinery, and responds to steady load not shock."
+      }
+    ],
+    "principles": [
+      "Resonance travels with pitch: chest low, mouth middle, mask higher, head top.",
+      "Two main registers - chest and head - with a bridge; know where your bridge sits.",
+      "Range grows by small daily increments at both ends; pushing locks tension in.",
+      "Any note that requires strain is not yet in your range, regardless of whether it can be hit."
+    ],
+    "mistakes": [
+      {
+        "title": "Dragging chest resonance too high",
+        "explanation": "Strained, shouty, cracks at the bridge. Let resonance flip to mask/head as pitch rises."
+      },
+      {
+        "title": "Flipping to head too early",
+        "explanation": "Thin and disconnected. Practice the bridge gently with mixed vowels instead of avoiding it."
+      },
+      {
+        "title": "Pushing for high notes on a dare",
+        "explanation": "Pushed notes lock tension in for the next session; range grows by daily small increments, not heroic attempts."
+      },
+      {
+        "title": "Judging range by highest hit",
+        "explanation": "A strained hit is not range. Range is notes sung with free throat and connected resonance."
+      }
+    ],
+    "practice": [
+      "Hand-on-chest siren: feel resonance travel from chest to head and back, naming each region.",
+      "Sing a single phrase noting where resonance sits on each note; rebuild any stuck note on the correct resonance.",
+      "Find your bridge note by sirening gently and noting where the flip wants to happen.",
+      "Add one note to the comfortable top each week by siren, not by pushed singing.",
+      "Add one note to the comfortable bottom each week by gentle downward slides."
+    ],
+    "reflection": "Where did resonance sit on the highest note you sang this week - and was the throat free or tight at that point?",
+    "safety": "Stop at hoarseness, throat pain or lost top notes; these mean the load exceeded the tissue. Rest and return softer.",
+    "quiz": [
+      {
+        "question": "As pitch rises, resonance typically:",
+        "options": [
+          "Stays in the chest",
+          "Travels from chest to mouth to mask to head",
+          "Moves only to the throat",
+          "Stays in the head"
+        ],
+        "answer": 1,
+        "explanation": "The voice is a set of chambers that come online in order; forcing one chamber to do all pitches causes tension."
+      },
+      {
+        "question": "Range grows best by:",
+        "options": [
+          "One heroic session per week",
+          "Small daily increments at both ends, no strain",
+          "Pushing the highest note on a dare",
+          "Singing only loud"
+        ],
+        "answer": 1,
+        "explanation": "The voice is tissue; steady gentle load builds it, shock damages it and locks in tension."
+      }
+    ],
+    "mastery": [
+      "Feel and name resonance region on any note in your current range.",
+      "Identify your bridge note and practice crossing it gently.",
+      "Add one note to each end of comfortable range per week without strain.",
+      "Sing a phrase with resonance traveling naturally through its pitches."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A high note in a song always feels tight.",
+          "action": "You check that resonance has flipped to mask/head and rebuild the note on siren rather than on a straight push.",
+          "why": "Tight high notes are usually chest resonance being dragged up; flipping resonance removes the strain."
+        },
+        {
+          "setup": "Your top note varies day to day.",
+          "action": "You track it by daily siren and treat drops as recovery signals, not as loss of ability.",
+          "why": "Tissue varies with hydration, sleep and load; tracking prevents panicked pushing on off days."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Resonance-aware singing sounds fuller at every volume because the voice is in the chamber that fits the pitch."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A singer with a connected range sounds consistent set-to-set because they are not fighting their own bridge."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "High-note strain",
+          "Early flip to head",
+          "Inconsistent top note"
+        ],
+        "adjustments": [
+          {
+            "if": "High notes strain",
+            "then": "Check resonance is in mask/head; if chest, siren up and re-approach the note with the flip."
+          },
+          {
+            "if": "Top note drops",
+            "then": "Log it, rest, and rebuild by siren the next day rather than pushing through."
+          }
+        ],
+        "learning": "Keep a weekly range log: lowest comfortable, highest comfortable, bridge note - and watch them creep outward without strain."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Resonance Sirens",
+      "initialTime": 60
+    }
+  },
+  "music-drums-grip": {
+    "id": "music-drums-grip",
+    "subject": "Music",
+    "title": "Grip & Posture",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A drum stroke starts in the body and finishes at the stick tip: throne height, matched grip with the fulcrum at the balance point, and wrists that pivot from a neutral line rather than curl or cock. Fix the setup and most beginner stroke problems disappear.",
+    "objectives": [
+      "Set throne height so thighs slope slightly down from hip to knee",
+      "Hold matched grip with fulcrum at the stick balance point, palm down",
+      "Keep the wrist neutral - neither curled nor cocked - at rest",
+      "Let the stick rebound from the head instead of being pushed into it",
+      "Recognize the four most common grip and setup errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Setup from the throne up",
+        "caption": "Good drumming looks relaxed because the setup removes work the hands would otherwise do. Throne height frees the legs, fulcrum placement frees the rebound, and a neutral wrist lets the stick pivot instead of fighting itself.",
+        "labels": [
+          "Throne: thighs slope slightly down, feet flat on pedals",
+          "Grip: matched, fulcrum at balance point, palms down",
+          "Wrist: neutral at rest, pivots up and down for strokes",
+          "Stick: allowed to rebound, not pushed into the head",
+          "Back tall, shoulders down, arms hanging free"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Throne height first",
+        "content": "Drum setup begins at the seat, not the sticks: the throne should put your thighs on a slight downward slope from hip to knee, with feet flat on the pedals without stretching. Too low and the hip flexors overwork and the lower back rounds; too high and the thighs rise, the pedals become awkward and the arms lose their natural hang. Get this right first, before the sticks ever touch the heads, because almost every arm and wrist complaint in beginners traces back to a throne that made the body fight the kit instead of work with it."
+      },
+      {
+        "title": "Fulcrum at the balance point",
+        "content": "The grip is a pivot, not a clamp: thumb and index finger form the fulcrum at the stick balance point (about a third of the way from the butt), and the remaining fingers rest lightly along the stick as guides, not clamps. Palms-down matched grip - both hands the same - is the standard beginner grip and the one most teaching follows. If the fulcrum is too far forward the stick is dead and the wrist does all the work; too far back and the stick is unstable and tips wobble. Find the balance point by letting the stick tip on a surface and lifting - it pivots freely at its natural fulcrum."
+      },
+      {
+        "title": "Neutral wrist, rebounding stick",
+        "content": "The wrist should sit neutral at rest - neither curled under nor cocked up - and pivot up and down to drive strokes. A curled wrist jams the tendons and tires fast; a cocked wrist locks the stick and kills rebound. The stick itself should be allowed to rebound from the head; the stroke drives down and then the stick is released to come back up on its own. A pushed stick sounds dead and takes twice the effort per note; a rebounding stick sounds alive and takes half. The test is simple: after a stroke, does the stick bounce back to starting height almost on its own, or do you have to lift it?"
+      }
+    ],
+    "principles": [
+      "Throne: thighs slightly down-sloping, feet flat on pedals, back tall.",
+      "Grip: matched, palms down, fulcrum at stick balance point, fingers as guides not clamps.",
+      "Wrist neutral at rest; pivots up and down for strokes, never curled or cocked.",
+      "Stick rebounds from the head; pushing it in kills tone and doubles effort."
+    ],
+    "mistakes": [
+      {
+        "title": "Throne too low or too high",
+        "explanation": "Both fight the pedals and the arms. Set thighs on a slight down-slope, feet flat."
+      },
+      {
+        "title": "Fulcrum misplaced",
+        "explanation": "Forward of balance kills rebound; behind it wobbles. Find the balance point and hold there."
+      },
+      {
+        "title": "Curled or cocked wrist",
+        "explanation": "Both jam tendons and tire fast. Neutral at rest, pivot only when stroking."
+      },
+      {
+        "title": "Pushing the stick into the head",
+        "explanation": "Pushed sticks sound dead and double effort. Drive the stroke and let the stick rebound back."
+      }
+    ],
+    "practice": [
+      "Throne check: sit, look at thigh slope, adjust until slightly down-sloping and feet flat.",
+      "Balance-point drill: find the stick fulcrum and pivot ten strokes each hand, feeling the free rebound.",
+      "Neutral-wrist check: hold sticks at rest and verify neither curled nor cocked before starting.",
+      "Twenty single strokes each hand, watching the stick rebound to starting height after each.",
+      "Two minutes of slow single strokes with full audit: fulcrum, wrist, rebound on every stroke."
+    ],
+    "reflection": "With your sticks at rest right now, is the wrist neutral or curled - and is the stick free to pivot at the fulcrum, or are fingers clamping it?",
+    "safety": "Stop at wrist, forearm or lower back pain - these mean the setup or grip is wrong, not that you need to toughen up. Short sessions with rest build tissue tolerance.",
+    "quiz": [
+      {
+        "question": "Correct throne height puts the thighs:",
+        "options": [
+          "Parallel to the floor",
+          "On a slight down-slope from hip to knee",
+          "Sloping up toward the knee",
+          "Vertical"
+        ],
+        "answer": 1,
+        "explanation": "Slight down-slope frees the hip flexors and keeps the back tall; parallel or up-sloped thrones fight the kit."
+      },
+      {
+        "question": "The stick should be allowed to:",
+        "options": [
+          "Be pushed hard into the head",
+          "Rebound from the head on its own after each stroke",
+          "Be held down after contact",
+          "Be gripped tightly at all times"
+        ],
+        "answer": 1,
+        "explanation": "A rebounding stick sounds alive and takes half the effort; a pushed stick sounds dead and doubles effort."
+      }
+    ],
+    "mastery": [
+      "Set throne height so thighs slope slightly down and feet reach pedals flat.",
+      "Hold matched grip with fulcrum at stick balance point, palms down.",
+      "Keep the wrist neutral at rest and pivot only for strokes.",
+      "Let every stroke rebound to starting height without lifting."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Forearms burn after five minutes of playing.",
+          "action": "You check throne height and wrist neutrality; usually one of the two is making the forearms work.",
+          "why": "Fatigue at the forearms is almost always setup or wrist angle; the muscles themselves are not the problem."
+        },
+        {
+          "setup": "Your strokes sound dead and effortful.",
+          "action": "You find the stick balance point, loosen the clamp fingers, and let the stick rebound on each stroke.",
+          "why": "Dead tone comes from pushed sticks; free rebound gives tone and halves effort."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Good setup makes long sessions possible because the body is not fighting the kit every stroke."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A well-set-up drummer sounds alive because every stroke has a free rebound, not a push."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Forearm burn",
+          "Dead stroke tone",
+          "Wrist cocked at rest"
+        ],
+        "adjustments": [
+          {
+            "if": "Forearms burn",
+            "then": "Stop and check throne height and wrist neutrality; fix before playing more."
+          },
+          {
+            "if": "Strokes sound dead",
+            "then": "Find the balance point and loosen the back fingers; let the stick do the return."
+          }
+        ],
+        "learning": "After each session, note which setup element caused the most fatigue and what fix raised the comfortable time."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Rebound Reps",
+      "targetReps": 40
+    }
+  },
+  "music-drums-strokes": {
+    "id": "music-drums-strokes",
+    "subject": "Music",
+    "title": "Basic Stroke Types",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Four stroke types - full, down, tap, up - control the stick is height before and after each hit, and knowing which one you are in is how dynamic control and later rudiments become possible.",
+    "objectives": [
+      "Play a full stroke: stick starts high, strikes, rebounds high",
+      "Play a down stroke: stick starts high, strikes, stays low",
+      "Play a tap stroke: stick starts low, strikes, stays low",
+      "Play an up stroke: stick starts low, strikes, prepares high",
+      "Recognize the four most common stroke errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Four strokes, four height pairs",
+        "caption": "Every stroke has a start height and an end height. The four combinations - high-high, high-low, low-low, low-high - are the entire alphabet of stick control, and every rudiment is built from them.",
+        "labels": [
+          "Full: starts high, strikes, rebounds high",
+          "Down: starts high, strikes, stays low (catches the stick)",
+          "Tap: starts low, strikes, stays low",
+          "Up: starts low, strikes, prepares high (sets up a down or full)",
+          "The four strokes combine into every rudiment you will learn"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Height before and after",
+        "content": "Every drum stroke has two heights: where the stick starts and where it ends up. Those two heights decide everything about the next stroke - how loud it will be, how fast the following stroke can come, whether the stick is ready for a soft note or an accent. Four combinations cover everything: full (high to high), down (high to low), tap (low to low), and up (low to high). Learning these four is learning the alphabet of stick control; every rudiment and every groove is built from them in sequence."
+      },
+      {
+        "title": "The catch and the prepare",
+        "content": "The down stroke and the up stroke are the control moves: the down stroke starts high, strikes, and then catches the stick low (fingers close briefly to stop the rebound) so the next note can be soft; the up stroke starts low, strikes, and then prepares the stick high so the next note can be loud or fast. These two moves are what make dynamics and accent patterns possible - without them, every note is either all loud or all soft, and grooves collapse into monotone. The catch and the prepare are small moves but they are the entire difference between a robot drummer and a grooving one."
+      },
+      {
+        "title": "Taps are the quiet work",
+        "content": "Taps - low to low - are where most of the notes in most grooves live, and they are where beginners waste the most energy. A tap that starts from a half-height stick is already too loud and too effortful; a true tap starts from a few centimeters above the head, strikes and returns to the same low place, and reads as a whisper under the accents. Mastering quiet taps is what makes accents audible; without quiet taps, everything sounds loud and nothing sounds accented. The discipline is to keep the stick genuinely low between taps, not sort of low."
+      }
+    ],
+    "principles": [
+      "Every stroke has a start height and an end height; four combinations cover everything.",
+      "Full and tap keep the height; down and up change it (the control moves).",
+      "The catch (down stroke) prepares a soft note; the prepare (up stroke) prepares a loud one.",
+      "Taps start and stay genuinely low; half-height taps kill accent contrast."
+    ],
+    "mistakes": [
+      {
+        "title": "Half-height taps",
+        "explanation": "A tap that starts from half-height is already loud and effortful. Start from a few centimeters and keep it there."
+      },
+      {
+        "title": "No catch on down strokes",
+        "explanation": "Without the catch the stick rebounds high and the next note is too loud. Close the fingers briefly after the strike."
+      },
+      {
+        "title": "No prepare on up strokes",
+        "explanation": "Without the prepare the stick stays low and the next accent is late. Lift the stick as part of the stroke."
+      },
+      {
+        "title": "All strokes the same height",
+        "explanation": "No dynamics, no accents, no groove. Mix the four strokes deliberately."
+      }
+    ],
+    "practice": [
+      "Eight full strokes each hand: high to high, watching the rebound height.",
+      "Eight down strokes each hand: high strike, catch low, next stroke from low.",
+      "Eight tap strokes each hand: genuinely low start and low finish, quiet as possible.",
+      "Eight up strokes each hand: low strike, prepare high, next stroke from high.",
+      "Four-bar pattern: down-tap-tap-tap repeating, the accent pattern of most grooves."
+    ],
+    "reflection": "In your last groove, were the taps genuinely low or just sort of low - and did the accents cut through, or was everything the same volume?",
+    "safety": "Keep volume moderate during stroke drills; loud repetition fatigues ears and hands without adding control.",
+    "quiz": [
+      {
+        "question": "A down stroke is defined by:",
+        "options": [
+          "Starting low and ending high",
+          "Starting high, striking, and catching the stick low",
+          "Starting and ending at the same height",
+          "Only the loudness of the hit"
+        ],
+        "answer": 1,
+        "explanation": "The down stroke is the catch move: high start, strike, then catch low so the next note can be soft."
+      },
+      {
+        "question": "Taps should start and end:",
+        "options": [
+          "At half height",
+          "Genuinely low, a few centimeters above the head",
+          "As high as full strokes",
+          "Wherever comfortable"
+        ],
+        "answer": 1,
+        "explanation": "Genuinely low taps make accents audible; half-height taps turn everything into one volume and kill groove contrast."
+      }
+    ],
+    "mastery": [
+      "Play each of the four strokes cleanly on demand, naming start and end height.",
+      "Use down-tap-tap-tap to create an accented groove pattern.",
+      "Keep taps genuinely low and accents clearly above them.",
+      "Combine the four strokes into simple eight-bar phrases without losing height control."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A groove sounds loud and flat.",
+          "action": "You rebuild it with deliberate down-tap-tap-tap: accent on the down, whispers on the taps.",
+          "why": "Flat grooves are half-height taps; deliberate low taps restore accent contrast and groove."
+        },
+        {
+          "setup": "An accent pattern is late.",
+          "action": "You check that the preceding stroke was an up stroke preparing the stick high.",
+          "why": "Accents need prepared height; a low-coming stick is always late on an accent."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Four strokes give dynamic control over any groove; the vocabulary is small but the combinations are unlimited."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A drummer who controls stroke heights sounds like a groove, not a sequence of hits."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Flat groove",
+          "Late accents",
+          "Half-height taps"
+        ],
+        "adjustments": [
+          {
+            "if": "Groove is flat",
+            "then": "Rebuild with down-tap-tap-tap and genuinely low taps; contrast returns."
+          },
+          {
+            "if": "Accents are late",
+            "then": "Make the preceding stroke an up stroke so height is ready when the accent arrives."
+          }
+        ],
+        "learning": "After each session, record one groove and note which strokes were half-height instead of genuinely low."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Stroke Reps",
+      "targetReps": 32
+    }
+  },
+  "music-drums-groove": {
+    "id": "music-drums-groove",
+    "subject": "Music",
+    "title": "Your First Groove",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "A groove is the coordination of kick, snare and hat into a repeating pulse. Your first is the 8th-note rock groove: hat on every eighth, snare on 2 and 4, kick on 1 and 3, then add the and-of-3 kick for the classic feel.",
+    "objectives": [
+      "Play steady 8th notes on the hi-hat with the lead hand",
+      "Land the snare cleanly on beats 2 and 4",
+      "Land the kick on beats 1 and 3, then add the and-of-3",
+      "Keep a steady pulse for a full minute without drifting",
+      "Recognize the four most common first-groove errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The 8th-note rock groove",
+        "caption": "One bar of the most-played groove in the world: hat on every eighth (1 & 2 & 3 & 4 &), snare on 2 and 4, kick on 1 and 3. The and-of-3 kick is the classic extra that gives the groove its forward feel.",
+        "labels": [
+          "Hat: steady 8th notes on every & - the clock the rest rides on",
+          "Snare: beats 2 and 4, the backbeat everything locks to",
+          "Kick: 1, 3, then later 1, the and of 3, and 3",
+          "Pulse: count 1 & 2 & 3 & 4 & aloud while playing",
+          "The and-of-3 kick is what gives the groove forward motion"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The clock, then the hands",
+        "content": "A groove is three layers stacked on a pulse: the hi-hat is the clock that marks every eighth note, the snare is the backbeat that lands on 2 and 4, and the kick is the floor that marks 1 and 3. Learn them as three separate jobs and the groove is just the sum - easy to build and easy to fix. Beginners try to learn all three at once and end up with none of them right; the fix is to build in layers, adding the kick only when the hat and snare are rock-steady on their own."
+      },
+      {
+        "title": "Steady hat is the foundation",
+        "content": "The hat plays every eighth note - 1 & 2 & 3 & 4 & - and it must be steady before anything else matters, because every other limb takes its time from it. Practice the hat alone for a minute at a slow tempo, counting aloud with each stroke (one-and-two-and-three-and-four-and), until the pulse is automatic and the hand is relaxed. A wobbly hat makes a wobbly groove no matter how good the snare and kick are; a steady hat makes even a simple kick-snare pattern sound like a real groove."
+      },
+      {
+        "title": "Add limbs one at a time",
+        "content": "Once the hat is steady, add the snare on 2 and 4 only, keeping the hat unchanged; once that is automatic, add the kick on 1 and 3 only, still keeping the hat unchanged. Each added limb should leave the previous ones untouched - if the hat wobbles when the snare joins, slow down and rebuild. The classic extra is the kick on the and of 3, which turns the basic four-on-the-floor into the forward-moving rock groove heard in thousands of songs; add it only after the basic pattern is automatic, and add it slowly - it is the first limb independence challenge most beginners meet."
+      }
+    ],
+    "principles": [
+      "A groove is three layered jobs: hat as clock, snare as backbeat, kick as floor.",
+      "Build in layers: hat alone, then hat+snare, then add kick; never all three at once.",
+      "The hat must be steady before anything else matters; it is the clock the rest rides on.",
+      "Add the and-of-3 kick only after the basic pattern is automatic; it is the first independence challenge."
+    ],
+    "mistakes": [
+      {
+        "title": "Learning all three limbs at once",
+        "explanation": "None land right. Build hat alone, then add snare, then add kick, in that order."
+      },
+      {
+        "title": "Unsteady hat",
+        "explanation": "A wobbly hat makes a wobbly groove. Drill hat alone until automatic before adding limbs."
+      },
+      {
+        "title": "Kick on every beat",
+        "explanation": "Four-on-the-floor is a specific groove; the basic rock pattern is kick on 1 and 3 only."
+      },
+      {
+        "title": "Adding the and-of-3 kick too early",
+        "explanation": "It is an independence challenge; add it only after the basic pattern is automatic and slow."
+      }
+    ],
+    "practice": [
+      "One minute of steady 8th-note hat with counted pulse, no other limbs.",
+      "One minute of hat plus snare on 2 and 4, at 60 BPM, counting aloud.",
+      "One minute of the full basic groove (hat, snare 2/4, kick 1/3) at 60 BPM.",
+      "One minute adding the and-of-3 kick, slower if needed, counting each bar.",
+      "Two minutes at a comfortable tempo, focusing on the hat staying steady through every added limb."
+    ],
+    "reflection": "When you added the kick, did the hat stay steady or did it wobble - and what tempo kept everything honest?",
+    "safety": "Keep volume moderate; ears and wrists fatigue faster than they admit. Use hearing protection at any volume that rings after.",
+    "quiz": [
+      {
+        "question": "In the basic rock groove, the snare plays on:",
+        "options": [
+          "Every beat",
+          "Beats 2 and 4 only",
+          "Beats 1 and 3 only",
+          "The & of every beat"
+        ],
+        "answer": 1,
+        "explanation": "The snare on 2 and 4 is the backbeat that defines rock and pop grooves; other placements are variations."
+      },
+      {
+        "question": "The and-of-3 kick is added:",
+        "options": [
+          "First, to get the groove going",
+          "Only after the basic pattern is automatic, slowly",
+          "Never in rock",
+          "On every bar"
+        ],
+        "answer": 1,
+        "explanation": "It is the first limb-independence challenge most beginners meet; rushing it collapses the basic pattern."
+      }
+    ],
+    "mastery": [
+      "Play steady 8th-note hat for a full minute without drift.",
+      "Play hat plus snare 2/4 cleanly at slow tempo.",
+      "Play the full basic groove (hat, snare 2/4, kick 1/3) for a minute steady.",
+      "Add the and-of-3 kick cleanly once the basic pattern is automatic."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A song asks for a basic rock groove.",
+          "action": "You build in layers: hat steady, then snare 2/4, then kick 1/3, then the and-of-3 if the song has it.",
+          "why": "Layered build prevents the common collapse where all three limbs wobble together."
+        },
+        {
+          "setup": "The groove collapses when you add a fill.",
+          "action": "You return to hat-only for one bar after the fill to re-establish the clock before rebuilding.",
+          "why": "The hat is the clock; losing it in a fill is what makes the groove feel lost afterward."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "The basic rock groove is the foundation of thousands of songs; owning it unlocks the whole genre."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A drummer with a steady hat and clean backbeat makes every other musician in the band sound better."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Hat wobbling",
+          "Snare landing late",
+          "Kick crowding the hat"
+        ],
+        "adjustments": [
+          {
+            "if": "Hat wobbles when a limb joins",
+            "then": "Drop back to hat-only at half tempo and rebuild the layer."
+          },
+          {
+            "if": "Kick crowds the hat",
+            "then": "Slow down and count the & aloud; the kick lives on a specific &, not near it."
+          }
+        ],
+        "learning": "After each session, log the highest tempo where the basic groove stayed clean for a full minute."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Groove Holds",
+      "initialTime": 60
+    }
+  },
+  "prog-js-console": {
+    "id": "prog-js-console",
+    "subject": "Programming",
+    "title": "The Browser & the Console",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "JavaScript is the language that runs inside every web page: you can try it right now in the browser console. First lines, values, types, and the mental model of a page as a document JavaScript can read and change.",
+    "objectives": [
+      "Open the browser console and run one line of JavaScript",
+      "Predict the output of expressions using + with numbers and strings",
+      "Know the basic types: number, string, boolean, undefined, null",
+      "Use let and const to bind names to values with correct scope intent",
+      "Recognize the four most common first-JavaScript errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The console, your first playground",
+        "caption": "The browser console is a live JavaScript session: every line runs and returns a value, every mistake produces a named error you can read, and every page is a document you can inspect. The fastest way to learn JavaScript is to keep the console open.",
+        "labels": [
+          "Open the console: F12 or right-click > Inspect > Console",
+          "Run a line by typing it and pressing Enter",
+          "Every expression evaluates to a value; every statement does something",
+          "Errors name themselves: SyntaxError, ReferenceError, TypeError",
+          "The page is a document; JavaScript can read and change it"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The console is the playground",
+        "content": "The fastest way to learn JavaScript is to use it, and the fastest place to use it is the browser console, which is built into every modern browser. Open it with F12 or right-click and Inspect and pick the Console tab; every line you type runs immediately and shows you its value. This turns the usual programming loop - write, save, run, see error, rewrite - into a conversation: type a line, see the answer, adjust, type another. Errors name themselves clearly (SyntaxError, ReferenceError, TypeError) and each is a signal about exactly what went wrong, the same error-reading habit from Python applied to a new language."
+      },
+      {
+        "title": "Values, types and the + surprise",
+        "content": "JavaScript has a small set of basic types - number, string, boolean, undefined, null - and the console lets you ask what type any value is with typeof. The most common beginner surprise is +: with two numbers it adds, with two strings it joins, and with one of each it converts the number to a string and joins, so 2 + \"3\" gives \"23\" not 5. This is not a bug but a design choice that bites every beginner exactly once; after the bite you check types before using + and the surprise never comes back. Use console.log to show values, and typeof to check what kind of value you actually have."
+      },
+      {
+        "title": "let, const and scope",
+        "content": "Names in JavaScript are bound with let or const: let allows reassignment (the box can change), const forbids reassignment (the box is sealed). Modern code uses const by default and let only when the value must change, which makes intent visible at a glance - seeing let signals that this value moves. Scope is block-scoped: a name declared inside curly braces does not exist outside them, which is why console.log of a let declared inside an if block from outside that block is a ReferenceError. Treat const as the default, reach for let only when needed, and let the scope rules keep names local to where they make sense."
+      }
+    ],
+    "principles": [
+      "The browser console is a live JavaScript session; every line runs and returns a value.",
+      "Basic types: number, string, boolean, undefined, null; typeof tells you which.",
+      "+ adds numbers and joins strings; mixing them converts the number to string.",
+      "let for changing values, const as the default; scope is block-scoped."
+    ],
+    "mistakes": [
+      {
+        "title": "Not opening the console to try things",
+        "explanation": "The console is free and instant; use it for every question before guessing from memory."
+      },
+      {
+        "title": "Trusting + with mixed types",
+        "explanation": "2 + \"3\" gives \"23\"; check types or convert explicitly before adding."
+      },
+      {
+        "title": "Using var instead of let or const",
+        "explanation": "var has function scope and hoisting quirks; let and const are the modern, predictable choice."
+      },
+      {
+        "title": "Using const for values that must change",
+        "explanation": "const forbids reassignment; use it for stable values and let for ones that move."
+      }
+    ],
+    "practice": [
+      "Open the console and run 2 + 2, then \"hello\" + \" world\", then 2 + \"3\"; predict each before pressing Enter.",
+      "Use typeof on a number, a string, true, undefined and null; note each answer.",
+      "Bind three const names and one let name; reassign the let one and try to reassign a const to see the error.",
+      "Try to read a name outside its block; read the ReferenceError and understand why it happened.",
+      "Write one small program in the console: bind, compute, console.log the result."
+    ],
+    "reflection": "In your last JavaScript question, did you try it in the console before guessing, or did you guess first?",
+    "safety": "No physical risk; keep the console open on any page you are learning from and treat errors as named signals, not verdicts.",
+    "quiz": [
+      {
+        "question": "In JavaScript, 2 + \"3\" evaluates to:",
+        "options": [
+          "5",
+          "The string \"23\"",
+          "An error",
+          "Undefined"
+        ],
+        "answer": 1,
+        "explanation": "Mixed-type + converts the number to string and joins; this is a design choice that bites every beginner once."
+      },
+      {
+        "question": "The default binding keyword in modern JavaScript is:",
+        "options": [
+          "var",
+          "let",
+          "const",
+          "function"
+        ],
+        "answer": 2,
+        "explanation": "const signals stability and is the default; let is used only when the value must change."
+      }
+    ],
+    "mastery": [
+      "Open the browser console and run a line without hesitation.",
+      "Predict the output of + expressions with mixed types.",
+      "Use let and const with correct intent and understand block scope.",
+      "Read SyntaxError, ReferenceError and TypeError messages and act on the named cause."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A web page behaves unexpectedly and you want to know why.",
+          "action": "You open the console, read any error messages, and try the relevant expressions live to see the actual values.",
+          "why": "The console turns guessing into a conversation with the page; most behavior questions resolve in seconds."
+        },
+        {
+          "setup": "A calculation gives a surprising result.",
+          "action": "You typeof each operand and discover one is a string, explaining the joined output.",
+          "why": "Mixed-type + is the most common calculation surprise; typeof exposes it immediately."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A developer with the console open learns JavaScript faster than one reading about it, because feedback is instant."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A colleague who tests hypotheses in the console resolves questions in minutes instead of hours of guessing."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Guessing from memory",
+          "Mixed-type surprises",
+          "var in new code"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself guessing",
+            "then": "Open the console and try the expression before assuming the answer."
+          },
+          {
+            "if": "A calculation surprises",
+            "then": "typeof each operand; the answer is usually a string where a number was expected."
+          }
+        ],
+        "learning": "After each session, note one thing the console taught you that reading alone would not have."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Console Reps",
+      "targetReps": 10
+    }
+  },
+  "prog-js-dom": {
+    "id": "prog-js-dom",
+    "subject": "Programming",
+    "title": "DOM & Events",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "The page is a document JavaScript can read and change: the DOM. Selecting elements, listening to clicks and other events, and updating text and classes are the three moves that turn a static page into a responding app.",
+    "objectives": [
+      "Select an element by id, class or querySelector",
+      "Add an event listener that runs a function when the user clicks or types",
+      "Change an element is text, class or style from JavaScript",
+      "Understand event bubbling and how to stop it when needed",
+      "Recognize the four most common DOM errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Select, listen, update",
+        "caption": "Every interactive web page is built from three moves: select an element from the DOM, listen for an event on it, and update the DOM in response. Get these three moves right and the rest of web development is variations.",
+        "labels": [
+          "Select: document.querySelector or getElementById",
+          "Listen: element.addEventListener with event type and function",
+          "Update: element.textContent, classList.add/remove, style properties",
+          "Event object: carries which key, which target, and other details",
+          "Bubbling: events travel up the tree; stopPropagation stops them"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The page is a document",
+        "content": "Every web page is a tree of elements called the DOM - Document Object Model - and JavaScript can read it, change it, add to it or remove from it. Select an element with document.querySelector using the same CSS selectors you use in stylesheets, or document.getElementById for a specific id. The selected element is an object with properties you can read (textContent for its text, value for input contents, classList for its classes) and methods you can call. This is the core loop of web programming: select something, read or change it, and the page updates in front of you."
+      },
+      {
+        "title": "Listening for events",
+        "content": "User actions - clicks, key presses, form submissions, mouse moves - produce events, and you register interest with addEventListener. The two arguments are the event type as a string and the function to run when the event fires. The function receives an event object with details: event.target is the element that fired the event, event.key is the key pressed for key events, event.clientX and clientY are coordinates for mouse events. Most interactive pages are a list of event listeners that each update the DOM in some small way; the whole app is the sum of these small reactions."
+      },
+      {
+        "title": "Updating the page",
+        "content": "Once you have selected an element, the common updates are textContent for plain text, innerHTML for HTML (careful with user input to avoid injection), classList.add and classList.remove for style changes via classes, and style properties like style.color or style.display for inline changes. The best practice is to update classes rather than inline styles when possible, because classes keep presentation in the stylesheet where it belongs and JavaScript keeps to behavior. The separation - JS changes classes, CSS changes appearance - is what makes web apps maintainable."
+      }
+    ],
+    "principles": [
+      "The page is a document JavaScript can select, read and change via the DOM.",
+      "Select with querySelector (CSS selectors) or getElementById (by id).",
+      "Listen with addEventListener; the function receives the event object with details.",
+      "Update classes rather than inline styles when possible; JS for behavior, CSS for appearance."
+    ],
+    "mistakes": [
+      {
+        "title": "Selecting before the element exists",
+        "explanation": "Scripts that run before the element is in the DOM get null. Place scripts at the end or use DOMContentLoaded."
+      },
+      {
+        "title": "Calling the listener instead of passing it",
+        "explanation": "addEventListener takes a function reference, not a call; btn.addEventListener(\"click\", fn) not fn()."
+      },
+      {
+        "title": "Mutating inline styles when classes exist",
+        "explanation": "Classes keep presentation in the stylesheet; inline styles in JS mix concerns and are harder to maintain."
+      },
+      {
+        "title": "Ignoring event bubbling",
+        "explanation": "Events travel up the tree; use event.stopPropagation when a child handler should not reach a parent."
+      }
+    ],
+    "practice": [
+      "Open any page and use querySelector to find a visible element; read its textContent in the console.",
+      "Add a click listener to a button that changes its own text when clicked.",
+      "Add a keydown listener to an input that updates another element as the user types.",
+      "Add and remove a class on click; style the class in a stylesheet and watch the page change.",
+      "Add a click listener to a parent that handles clicks on many child buttons using event.target."
+    ],
+    "reflection": "In your last web interaction question, did you try selecting the element in the console first, or did you guess at its id or class?",
+    "safety": "Never use innerHTML with untrusted input; use textContent or sanitize to avoid injection.",
+    "quiz": [
+      {
+        "question": "The cleanest way to change appearance from JavaScript is:",
+        "options": [
+          "Inline style properties",
+          "Adding or removing CSS classes",
+          "Rewriting innerHTML",
+          "Modifying textContent"
+        ],
+        "answer": 1,
+        "explanation": "Classes keep presentation in the stylesheet and behavior in JavaScript; the separation is what makes apps maintainable."
+      },
+      {
+        "question": "addEventListener expects:",
+        "options": [
+          "A string and a function call",
+          "A string event type and a function reference",
+          "Only an event type",
+          "An element and a function"
+        ],
+        "answer": 1,
+        "explanation": "Passing a function reference lets the browser call it when the event fires; calling it immediately would run once at registration."
+      }
+    ],
+    "mastery": [
+      "Select elements by id, class and arbitrary CSS selector.",
+      "Add click, keydown and submit listeners that run functions with event details.",
+      "Update text, classes and styles from JavaScript cleanly.",
+      "Use event bubbling and stopPropagation intentionally when needed."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A button click should update some text elsewhere on the page.",
+          "action": "You select both elements, add a click listener on the button, and update the target element is textContent in the handler.",
+          "why": "Select-listen-update is the core loop of every interactive page; owning it unlocks the rest."
+        },
+        {
+          "setup": "A child button click also triggers the parent handler unexpectedly.",
+          "action": "You call event.stopPropagation in the child handler so the event does not bubble.",
+          "why": "Bubbling is default; stopping it is the explicit choice when a child should not reach the parent."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Three moves - select, listen, update - build every interactive web page; mastery of the trio is the whole of basic web development."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who separates JS behavior from CSS appearance writes pages that stay readable as they grow."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Null selections",
+          "Inline style sprawl",
+          "Unexpected bubble events"
+        ],
+        "adjustments": [
+          {
+            "if": "Selection returns null",
+            "then": "Move the script to after the element or wrap in DOMContentLoaded; the element must exist first."
+          },
+          {
+            "if": "Styles sprawl inline",
+            "then": "Move them to classes in the stylesheet and toggle classes from JS instead."
+          }
+        ],
+        "learning": "After each small page, count how much styling is in JS versus in CSS; aim for almost all in CSS."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "DOM Reps",
+      "targetReps": 5
+    }
+  },
+  "prog-js-async": {
+    "id": "prog-js-async",
+    "subject": "Programming",
+    "title": "Async & Fetch",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Network calls and timers are asynchronous: JavaScript starts them and moves on, then handles the result later. Promises and async/await are the modern way to write asynchronous code that reads like straight-line code.",
+    "objectives": [
+      "Explain why network calls are asynchronous in JavaScript",
+      "Use fetch to request data from an API and handle the response",
+      "Use async/await to write asynchronous code that reads synchronously",
+      "Handle errors with try/catch in async functions",
+      "Recognize the four most common async errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Start, move on, handle later",
+        "caption": "JavaScript does not wait for network calls; it starts them and moves on, then runs a callback or resolves a promise when the result arrives. Async/await makes the code read like straight lines while preserving this non-blocking behavior under the hood.",
+        "labels": [
+          "fetch(url) returns a Promise, not the data",
+          "await pauses the async function until the Promise resolves",
+          "The response has a .json() method that also returns a Promise",
+          "try/catch around await handles network or parse errors",
+          "The event loop runs other code while waiting; nothing blocks"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Why asynchronous",
+        "content": "JavaScript runs on a single thread and must keep the page responsive, so long-running operations like network calls cannot block the thread - if they did, the page would freeze while waiting for the server. The solution is asynchronous: JavaScript starts the operation and moves on, then runs a callback or resolves a promise when the result arrives later. This is why fetch does not return the data directly; it returns a promise that will eventually hold the data, and you write code to handle the data when it arrives rather than code that waits for it. Understanding this is the biggest mental shift in JavaScript, and once it clicks the rest of web development opens up."
+      },
+      {
+        "title": "Promises and async/await",
+        "content": "A promise is an object representing a future value; it can be pending, fulfilled with a value, or rejected with an error. The old way to handle promises was .then and .catch chains, which work but nest and tangle for multi-step sequences. The modern way is async/await: mark a function async, then use await in front of any promise to pause until it resolves, and the code reads like straight-line synchronous code while preserving non-blocking behavior. await only works inside async functions, and an async function always returns a promise itself, which is how asynchronous results propagate up the call stack."
+      },
+      {
+        "title": "Errors and the response object",
+        "content": "Network code has two kinds of errors: network errors (no connection, DNS failure) which reject the promise, and HTTP errors (404, 500) which the promise still fulfills because the server responded. This is why a 404 does not throw by default; you must check response.ok or response.status and throw yourself if the response indicates failure. Once the response is ok, calling response.json() returns another promise for the parsed JSON, so you await it as well. Wrapping the whole sequence in try/catch gives one place to handle any error - network, HTTP or parse - and keeps the happy path clean."
+      }
+    ],
+    "principles": [
+      "Network calls are asynchronous: JavaScript starts them and moves on, handling results later.",
+      "fetch returns a promise; await pauses an async function until the promise resolves.",
+      "HTTP errors do not reject by default; check response.ok and throw yourself if not.",
+      "Wrap async sequences in try/catch for one error-handling place that keeps the happy path clean."
+    ],
+    "mistakes": [
+      {
+        "title": "Expecting fetch to return data directly",
+        "explanation": "fetch returns a promise; you must await it (in an async function) or chain .then to get the data."
+      },
+      {
+        "title": "Not checking response.ok",
+        "explanation": "A 404 or 500 fulfills the promise; check response.ok and throw if not, or errors go silently."
+      },
+      {
+        "title": "Forgetting to await response.json()",
+        "explanation": "The response body is also a promise; await it or the data is still a pending promise object."
+      },
+      {
+        "title": "Not wrapping in try/catch",
+        "explanation": "Network and parse errors reject the promise; without try/catch the error is unhandled and silent."
+      }
+    ],
+    "practice": [
+      "Use fetch in the console to request a public API and log the response object; note the status.",
+      "Write an async function that fetches, checks ok, awaits response.json(), and logs the data.",
+      "Add try/catch around the sequence; simulate a network error (wrong URL) and watch the catch run.",
+      "Chain two fetches: the second depends on data from the first; watch how await makes the sequence read top-to-bottom.",
+      "Build a small page that fetches data on a button click and updates the DOM with the result."
+    ],
+    "reflection": "In your last async code, did you check response.ok and wrap in try/catch, or did errors fail silently?",
+    "safety": "Never trust fetched data blindly; sanitize before rendering with innerHTML or use textContent to avoid injection.",
+    "quiz": [
+      {
+        "question": "fetch returns:",
+        "options": [
+          "The data directly",
+          "A promise that resolves to the response",
+          "An error if the server is down",
+          "A synchronous response object"
+        ],
+        "answer": 1,
+        "explanation": "Network calls are asynchronous; fetch returns a promise that resolves when the response arrives."
+      },
+      {
+        "question": "HTTP errors like 404:",
+        "options": [
+          "Reject the promise automatically",
+          "Fulfill the promise; check response.ok to detect them",
+          "Throw an error immediately",
+          "Are invisible to JavaScript"
+        ],
+        "answer": 1,
+        "explanation": "The server responded, so the promise fulfills; you must check response.ok and throw yourself for HTTP errors."
+      }
+    ],
+    "mastery": [
+      "Explain why network calls are asynchronous and what a promise represents.",
+      "Use fetch with async/await to request data and handle the response.",
+      "Check response.ok and throw on HTTP errors; wrap sequences in try/catch.",
+      "Chain multiple async operations with await so the code reads top-to-bottom."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A page needs data from an API to render.",
+          "action": "You write an async function that fetches, checks ok, awaits json, and updates the DOM, wrapped in try/catch.",
+          "why": "This is the standard pattern; owning it unlocks every data-driven web page."
+        },
+        {
+          "setup": "A fetch silently fails and the page is blank.",
+          "action": "You add response.ok check and try/catch, and log the error to the console to diagnose it.",
+          "why": "Silent failures are almost always unchecked response.ok or missing try/catch; adding both surfaces the cause."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Async/await turns callback tangles into readable straight-line code while preserving non-blocking behavior."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A developer who handles errors explicitly produces pages that fail gracefully instead of silently breaking."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Silent fetch failures",
+          "Nested .then chains",
+          "Unhandled promise rejections"
+        ],
+        "adjustments": [
+          {
+            "if": "Fetches fail silently",
+            "then": "Add response.ok check and try/catch; log the error to the console."
+          },
+          {
+            "if": "Code is nested deep in .then",
+            "then": "Refactor to async/await; the same logic reads top-to-bottom."
+          }
+        ],
+        "learning": "After each async feature, review the error handling: is response.ok checked and is there a try/catch at the boundary?"
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Fetch Reps",
+      "targetReps": 3
+    }
   }
 }

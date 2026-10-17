@@ -671,13 +671,63 @@ export default {
       "name": "Voice",
       "icon": "🎤",
       "description": "Breath, pitch, tone and vocal technique.",
-      "levels": {}
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The instrument is the body: breath, pitch, tone.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Voice Foundations",
+              "lessons": [
+                {
+                  "id": "music-voice-breath",
+                  "title": "Breath & Support"
+                },
+                {
+                  "id": "music-voice-pitch",
+                  "title": "Finding & Matching Pitch"
+                },
+                {
+                  "id": "music-voice-tone",
+                  "title": "Tone, Resonance & Range"
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     "drums": {
       "name": "Drums",
       "icon": "🥁",
       "description": "Time, limbs, groove and basic patterns.",
-      "levels": {}
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "Grip, strokes, and your first groove.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Drum Foundations",
+              "lessons": [
+                {
+                  "id": "music-drums-grip",
+                  "title": "Grip & Posture"
+                },
+                {
+                  "id": "music-drums-strokes",
+                  "title": "Basic Stroke Types"
+                },
+                {
+                  "id": "music-drums-groove",
+                  "title": "Your First Groove"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   },
   "programming": {
@@ -736,6 +786,37 @@ export default {
                 {
                   "id": "prog-python-functions",
                   "title": "Functions - Name the Recipe"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "icon": "🌐",
+      "description": "The language of the web, front and back.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The console, the page, and the network.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "JavaScript Foundations",
+              "lessons": [
+                {
+                  "id": "prog-js-console",
+                  "title": "The Browser & the Console"
+                },
+                {
+                  "id": "prog-js-dom",
+                  "title": "DOM & Events"
+                },
+                {
+                  "id": "prog-js-async",
+                  "title": "Async & Fetch"
                 }
               ]
             }
