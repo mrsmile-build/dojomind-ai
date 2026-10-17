@@ -681,6 +681,30 @@ export default {
               ]
             }
           ]
+        },
+        "intermediate": {
+          "name": "Intermediate",
+          "description": "Read the staff, voice chords left-handed, and coordinate both hands.",
+          "modules": [
+            {
+              "id": "intermediate",
+              "title": "Piano Intermediate",
+              "lessons": [
+                {
+                  "id": "music-piano-intermediate-staff",
+                  "title": "Reading the Grand Staff"
+                },
+                {
+                  "id": "music-piano-intermediate-chords",
+                  "title": "Chords & Inversions in the Left Hand"
+                },
+                {
+                  "id": "music-piano-intermediate-hands",
+                  "title": "Two Hands Together & Pedaling"
+                }
+              ]
+            }
+          ]
         }
       }
     },
@@ -708,6 +732,30 @@ export default {
                 {
                   "id": "music-guitar-strum",
                   "title": "Strumming With Time"
+                }
+              ]
+            }
+          ]
+        },
+        "intermediate": {
+          "name": "Intermediate",
+          "description": "Barre shapes, the pentatonic box, and a real 12-bar form.",
+          "modules": [
+            {
+              "id": "intermediate",
+              "title": "Guitar Intermediate",
+              "lessons": [
+                {
+                  "id": "music-guitar-intermediate-barre",
+                  "title": "Barre Chords - Movable Shapes"
+                },
+                {
+                  "id": "music-guitar-intermediate-penta",
+                  "title": "The Pentatonic Box & First Solo"
+                },
+                {
+                  "id": "music-guitar-intermediate-blues",
+                  "title": "Chord Changes in Time - 12-Bar Blues"
                 }
               ]
             }

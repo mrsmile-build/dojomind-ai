@@ -28924,5 +28924,925 @@ export const lessons = {
       "label": "Motion Reps",
       "targetReps": 6
     }
+  },
+  "music-piano-intermediate-staff": {
+    "id": "music-piano-intermediate-staff",
+    "subject": "Music",
+    "title": "Reading the Grand Staff",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner piano taught you the keyboard map; this closes the other half - reading the two staves a pianist actually sees. Treble and bass clef, how each line and space names a note, ledger lines, and the grand staff that ties both hands to one page.",
+    "objectives": [
+      "Name the lines and spaces of the treble and bass clefs",
+      "Read a note by clef + position, not by memorizing each one",
+      "Use ledger lines above and below a staff correctly",
+      "See the grand staff as one instrument split across two staves",
+      "Connect a written note to the key you already mapped in Beginner"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Two staves, one keyboard",
+        "caption": "A piano score stacks a treble staff (right hand, higher) over a bass staff (left hand, lower), joined by a brace. Middle C sits on a ledger line between them - the hinge that ties the two halves to the keyboard you already know.",
+        "labels": [
+          "Treble clef: lines E G B D F (Every Good Boy Deserves F), spaces F A C E",
+          "Bass clef: lines G B D F A (Good Boys Do Fine Always), spaces A C E G",
+          "Middle C: the ledger line shared between the two staves",
+          "Ledger lines: short strokes extending a staff up or down",
+          "Brace: joins the staves as one instrument for two hands"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The clef is a key, not a decoration",
+        "content": "A clef is a symbol that fixes which line is which note, and once it is set, every other note is read by counting steps from that anchor. The treble clef curls around the G line; the bass clef sits its two dots around the F line. Beginners try to memorize all five lines and four spaces of each staff as isolated facts and drown; the expert move is to anchor on one or two landmark notes per clef (treble G on line 2, bass F between the dots, middle C on the shared ledger) and read everything else by interval steps from the anchor. This is the same landmark-navigation idea from the Beginner keyboard-map lesson, now applied to the page instead of the keys."
+      },
+      {
+        "title": "Ledger lines and the grand staff",
+        "content": "Notes that climb above or sink below a staff do not vanish; they continue on short ledger lines, one step per added line or space. The most important ledger line on the piano is the one for middle C, which sits between the two staves and is the hinge of the whole system: the treble staff handles roughly middle C upward, the bass staff middle C downward, and the brace on the left tells you they are one instrument played by two hands. Reading the grand staff well means tracking which hand owns which staff and where middle C divides them, so your eyes never have to guess whether a note is a high bass or a low treble."
+      },
+      {
+        "title": "From page to key - the real skill",
+        "content": "Reading notes is only half of it; the pianist is reading a note and simultaneously placing a finger on the matching key, which is why Beginner keyboard geography and this staff lesson are two halves of one skill. The drill that builds the connection is saying the note name aloud before touching the key, then playing it, so the eye, the voice and the hand agree. Start with whole-note and half-note melodies in a single clef, add the second clef, then combine. Speed of reading is not the goal at this level - accuracy of the note-to-key link is; fluency comes later from repetition, not from rushing the page."
+      }
+    ],
+    "principles": [
+      "A clef anchors one line to one note; read everything else by steps from the anchor.",
+      "Landmarks beat memorization: treble G, bass F, middle C between the staves.",
+      "Ledger lines extend a staff one step each; middle C is the shared hinge note.",
+      "The grand staff is one instrument split for two hands - track which staff each hand owns."
+    ],
+    "mistakes": [
+      {
+        "title": "Memorizing every line as a fact",
+        "explanation": "Drowns in isolation. Anchor on landmarks and read by interval steps from them."
+      },
+      {
+        "title": "Ignoring which clef a note is in",
+        "explanation": "The same position means different notes in treble vs bass. Check the clef first, always."
+      },
+      {
+        "title": "Misplacing middle C",
+        "explanation": "It is the ledger line between the staves, not a line inside either. It divides the hands."
+      },
+      {
+        "title": "Rushing to read fast",
+        "explanation": "Accuracy of the note-to-key link comes first; speed is a byproduct of correct repetition."
+      }
+    ],
+    "practice": [
+      "Say the treble lines and spaces aloud, then the bass, from landmarks - twice daily.",
+      "Read a whole-note melody in one clef, naming each note before playing it.",
+      "Add the bass clef alone, then a simple grand-staff piece at half tempo.",
+      "Locate middle C on five different scores and confirm it is the shared ledger line.",
+      "Play a five-finger pattern while reading, so eye and hand stay linked."
+    ],
+    "reflection": "When you read a note, do you check the clef and anchor first, or do you pattern-match the shape and hope?",
+    "safety": "No physical risk; keep the page at eye level and the bench set from Beginner posture so reading does not twist the neck.",
+    "quiz": [
+      {
+        "question": "A clef works by:",
+        "options": [
+          "Naming every line individually",
+          "Anchoring one line to one note so the rest are read by steps",
+          "Changing the key signature",
+          "Marking the tempo"
+        ],
+        "answer": 1,
+        "explanation": "The clef fixes one reference note; interval counting from it reads the whole staff without memorizing each line."
+      },
+      {
+        "question": "Middle C on the grand staff sits:",
+        "options": [
+          "On the top line of the treble",
+          "On a ledger line between the two staves",
+          "On the bottom line of the bass",
+          "Only in the treble clef"
+        ],
+        "answer": 1,
+        "explanation": "It is the shared hinge note between the staves, dividing right-hand and left-hand territory."
+      }
+    ],
+    "mastery": [
+      "Name lines and spaces in both clefs from landmarks.",
+      "Read a note by clef + step from an anchor.",
+      "Place ledger-line notes including middle C correctly.",
+      "Link a written note to the matching key accurately."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A new piece looks like an unreadable wall of dots.",
+          "action": "You find the clef anchors and middle C, then read the first phrase by steps before touching a key.",
+          "why": "Landmarks turn a wall into a countable path; the eye stops guessing."
+        },
+        {
+          "setup": "Your left hand keeps playing treble-range notes.",
+          "action": "You re-check which staff the bass clef owns and where middle C divides the hands.",
+          "why": "Hand-staff confusion is a grand-staff reading error, not a technique error."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Reading both staves unlocks the entire piano literature that single-clef playing cannot reach."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A reader who anchors on landmarks learns new pieces in minutes, not by decoding each symbol."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Shape-matching",
+          "Clef unchecked",
+          "Middle C misplaced"
+        ],
+        "adjustments": [
+          {
+            "if": "You match shapes",
+            "then": "Stop, name the clef and anchor, count the step aloud."
+          },
+          {
+            "if": "Hands cross staves",
+            "then": "Mark middle C on the page and re-assign each hand to its staff."
+          }
+        ],
+        "learning": "After each session, note which clef you read slower and drill that one alone for a week."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Clef-Read Reps",
+      "targetReps": 8
+    }
+  },
+  "music-piano-intermediate-chords": {
+    "id": "music-piano-intermediate-chords",
+    "subject": "Music",
+    "title": "Chords & Inversions in the Left Hand",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Theory taught you a triad is stacked thirds; this puts that stack under the left hand. Root-position triads, the two inversions that make movement smooth, and comping a simple progression without the right hand.",
+    "objectives": [
+      "Build root-position triads on the keyboard from stacked thirds",
+      "Form 1st and 2nd inversion by moving the lowest note up an octave",
+      "Choose the inversion that minimizes hand movement between chords",
+      "Comping a I-IV-V-I progression left-hand only",
+      "Keep the left hand steady in tempo while the right is silent"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Three shapes, one chord",
+        "caption": "A C major triad (C-E-G) can be voiced three ways: root position (C on the bottom), 1st inversion (E on the bottom), 2nd inversion (G on the bottom). Same notes, different bass - and the inversion you pick decides how far the hand must travel to the next chord.",
+        "labels": [
+          "Root position: C-E-G, root in the bass",
+          "1st inversion: E-G-C, third in the bass",
+          "2nd inversion: G-C-E, fifth in the bass",
+          "Smooth voice-leading: pick the inversion closest to the last chord",
+          "Comping: the left hand plays the harmony while the right rests or carries melody"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The stack, now under your hand",
+        "content": "Intermediate theory gave you the triad as root-third-fifth stacked in thirds. On the piano that recipe becomes physical: place three fingers a third apart and you have voiced the chord. Root position is the obvious shape, but the expert left hand rarely stays in root position, because jumping the whole hand down to a new root for every chord is slow and clunky. The two inversions - moving the bottom note up an octave (1st inversion) or the bottom two notes up (2nd inversion) - keep the same three pitch classes but change which one sits in the bass, and that choice is the whole art of left-hand comping."
+      },
+      {
+        "title": "Voice-leading: the closest shape wins",
+        "content": "The reason inversions exist is to minimize movement. Going from C major to F major, a beginner jumps the hand from C-E-G down to F-A-C; an intermediate player voices C as root position then F as 2nd inversion (C-F-A), so two notes barely move and only one shifts a step. This is voice-leading: choosing, among the legal inversions of each chord, the one that keeps the hand closest to where it already is. It is the piano equivalent of the guitar anchor-finger idea from Beginner chords, and it is what makes accompaniment sound connected instead of lurching. The rule of thumb: after each chord, ask which inversion of the next chord shares the most notes in the same octaves."
+      },
+      {
+        "title": "Comping steady, left hand alone",
+        "content": "Comping is accompanying - the left hand laying down the harmony in time while the right does something else or rests. At this level you comp left-hand only, on a simple I-IV-V-I in a comfortable key, in steady quarter notes, choosing inversions for smoothness. The discipline is tempo: the left hand must keep an even pulse even when a chord change is awkward, because a rushing accompaniment drags the whole ensemble. Start with whole notes to lock the shapes, then quarters, then a gentle pattern (bass note plus chord). This is the left hand earning its independence before the right hand rejoins it in the next lesson."
+      }
+    ],
+    "principles": [
+      "A triad voices three ways: root, 1st inversion, 2nd inversion - same notes, different bass.",
+      "Voice-leading: pick the inversion that shares the most notes closest to the last chord.",
+      "Inversions exist to minimize hand travel, not to add notes.",
+      "Comping is steady left-hand harmony; tempo survives awkward changes."
+    ],
+    "mistakes": [
+      {
+        "title": "Staying in root position everywhere",
+        "explanation": "Forces big jumps and a clunky sound. Use inversions to keep the hand close."
+      },
+      {
+        "title": "Choosing inversions by shape habit",
+        "explanation": "Pick by voice-leading - the closest shared notes - not by which shape you know best."
+      },
+      {
+        "title": "Rushing through an awkward change",
+        "explanation": "A lurching pulse ruins accompaniment. Slow down until the change is even."
+      },
+      {
+        "title": "Adding notes the chord does not need",
+        "explanation": "A triad is three notes; inversions reorder, not expand. Keep it clean before adding 7ths."
+      }
+    ],
+    "practice": [
+      "Build C, F and G major triads in all three inversions; say the bass note of each.",
+      "Voice C to F with the smallest hand movement; then F to G; then G to C.",
+      "Comping I-IV-V-I in C, left hand only, steady quarters, choosing smooth inversions.",
+      "Add a simple pattern: bass note on the beat, chord on the and, keeping tempo even.",
+      "Switch keys (G major) and repeat the same progression with new inversions."
+    ],
+    "reflection": "Between two chords, did you pick the inversion that moved the least, or the one your hand reached for first?",
+    "safety": "No physical risk; keep the wrist level and the hand relaxed during jumps - tension is what makes inversion changes stiff.",
+    "quiz": [
+      {
+        "question": "The point of inversions in comping is to:",
+        "options": [
+          "Add more notes",
+          "Minimize hand movement between chords",
+          "Change the key",
+          "Raise the volume"
+        ],
+        "answer": 1,
+        "explanation": "Same pitch classes, different bass; choosing the closest inversion is voice-leading and keeps accompaniment connected."
+      },
+      {
+        "question": "1st inversion of C major has which note in the bass?",
+        "options": [
+          "C",
+          "E",
+          "G",
+          "B"
+        ],
+        "answer": 1,
+        "explanation": "Root position is C-E-G; moving the bottom note up an octave gives E-G-C, so the third (E) is now the bass."
+      }
+    ],
+    "mastery": [
+      "Voice any triad in three inversions on the keyboard.",
+      "Apply voice-leading to choose the closest inversion.",
+      "Comping a I-IV-V-I left-hand only in steady tempo.",
+      "Transfer the progression to a new key with new inversions."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your left hand lurches across the keyboard on every change.",
+          "action": "You re-voice each chord in the inversion nearest the last, shrinking the jumps.",
+          "why": "Lurching is root-position habit; voice-leading is the fix and it is purely a choice of inversion."
+        },
+        {
+          "setup": "You want to accompany a singer with the left hand alone.",
+          "action": "You comp I-IV-V-I in steady quarters, keeping tempo even through awkward changes.",
+          "why": "Steady left-hand harmony is the foundation of accompaniment before the right hand adds melody."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Smooth inversions make the left hand sound like one connected line instead of separate stabs."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A singer trusts an accompanist whose pulse survives the hard chord changes."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Root-position default",
+          "Habit inversions",
+          "Rushed changes"
+        ],
+        "adjustments": [
+          {
+            "if": "You default to root",
+            "then": "Force yourself to name the bass note of each inversion before playing."
+          },
+          {
+            "if": "A change rushes",
+            "then": "Halve the tempo and practice only that transition until even."
+          }
+        ],
+        "learning": "After each session, record the two chords whose inversion choice you got wrong and re-voice them."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Inversion Reps",
+      "targetReps": 8
+    }
+  },
+  "music-piano-intermediate-hands": {
+    "id": "music-piano-intermediate-hands",
+    "subject": "Music",
+    "title": "Two Hands Together & Pedaling",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "The piano-specific skill: making two independent lines sound like one piece. Layering hands, the sustain pedal as a tone tool not a crutch, and a simple two-hand arrangement you can actually finish.",
+    "objectives": [
+      "Layer hands by mastering each alone before combining at half tempo",
+      "Keep the left-hand pulse steady while the right carries melody",
+      "Use the sustain pedal to connect tones without blurring harmony",
+      "Change the pedal on each new chord to keep the sound clean",
+      "Finish a short two-hand piece rather than abandoning it at the seam"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Independence, then the pedal",
+        "caption": "Two hands together is not two hard things at once; it is two easy things layered. Master each hand alone, combine slowly, then add the pedal last - because the pedal colors a sound that already works, and cannot fix a seam that does not.",
+        "labels": [
+          "Step 1: right hand alone to tempo",
+          "Step 2: left hand alone to tempo",
+          "Step 3: combine at half tempo, listening for the seam",
+          "Pedal: down to sustain, up to clear - change on each new chord",
+          "Never pedal through a chord change or the harmony blurs"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Layer, do not force",
+        "content": "The instinct when hands will not coordinate is to fight them together at full speed until one wins; the result is a shaky, tense mess and a piece you quit. The professional method is layering: get the right hand flawless alone at tempo, get the left hand flawless alone at tempo, then combine at half speed and let the seam close gradually. Independence is not a talent you either have or lack; it is what emerges when each hand already knows its part so well that the brain can spare attention to align them. A hand that is still struggling alone will never coordinate with the other, no matter how long you mash them together."
+      },
+      {
+        "title": "The seam is the whole game",
+        "content": "When you combine, almost all the trouble lives at the transition points - the beat where the hands must align after a rest, the chord change where the left hand moves while the right holds. So you do not practice the whole piece repeatedly; you isolate the seam, loop the two bars around it slowly, and only widen once it is clean. This is the same decomposition idea from the Beginner chord-change and strum lessons, applied to hand coordination. The metronome or a slow count is non-negotiable here, because the seam error is usually a timing misalignment that feels like a technique problem but is really a rhythm problem."
+      },
+      {
+        "title": "Pedal as tone, not glue",
+        "content": "The sustain pedal lifts the dampers so notes ring on, which is how piano gets its singing, connected tone. But it is a tone tool, not a fix for clumsy fingers: if you pedal through a chord change, the old chord and the new one ring together and the harmony turns to mud. The rule is syncopated pedaling - the foot lifts and re-depresses exactly as the hands move to the new chord, so the dampers clear the old sound at the instant the new one begins. Learn to hear the blur: play a C chord, pedal, then move to G without lifting, and listen to the clash; now lift on the change and hear it clean. The pedal should make a good performance richer, never rescue a bad one."
+      }
+    ],
+    "principles": [
+      "Layer hands: each alone to tempo before combining at half speed.",
+      "Independence emerges from over-learning each part, not from forcing them together.",
+      "Practice the seam, not the whole - isolate the transition bars and loop.",
+      "Pedal changes on each new chord; pedaling through a change blurs the harmony."
+    ],
+    "mistakes": [
+      {
+        "title": "Mashing hands together at full speed",
+        "explanation": "Produces tension and a shaky seam. Layer each hand to tempo first."
+      },
+      {
+        "title": "Practicing the whole piece repeatedly",
+        "explanation": "Wastes time on the easy parts. Isolate and loop the seam bars."
+      },
+      {
+        "title": "Pedaling through chord changes",
+        "explanation": "Old and new chords ring together into mud. Lift and re-depress on the change."
+      },
+      {
+        "title": "Using the pedal to hide weak fingers",
+        "explanation": "Pedal colors a sound that already works; it cannot fix an unclear passage."
+      }
+    ],
+    "practice": [
+      "Take a 4-bar two-hand phrase; master RH alone, then LH alone, both to tempo.",
+      "Combine at half tempo; find the seam bar and loop only that transition ten times.",
+      "Add syncopated pedaling: lift on each chord change, listen for the clean break.",
+      "Record yourself; listen for blur (pedal too long) and rush (seam misaligned).",
+      "Finish the short piece start to end at slow tempo before speeding up."
+    ],
+    "reflection": "At the seam, are the hands misaligned in time or in tension - and does your pedal lift exactly when the chord changes?",
+    "safety": "No physical risk; keep shoulders down and wrists floating during the seam work - tension at the transition is what makes coordination fail, not inability.",
+    "quiz": [
+      {
+        "question": "The correct order to combine hands is:",
+        "options": [
+          "Both together fast until it clicks",
+          "Each hand alone to tempo, then combine slowly",
+          "Left hand only, then add right at full speed",
+          "Pedal first, then notes"
+        ],
+        "answer": 1,
+        "explanation": "Independence comes from over-learning each part alone; forcing them together at speed builds tension, not coordination."
+      },
+      {
+        "question": "Pedaling through a chord change causes:",
+        "options": [
+          "A richer sound",
+          "Harmonic blur - old and new chords ring together",
+          "No effect",
+          "Faster playing"
+        ],
+        "answer": 1,
+        "explanation": "The dampers stay lifted across the change, so both chords sound at once; lift and re-depress on the change to keep it clean."
+      }
+    ],
+    "mastery": [
+      "Layer two hands by mastering each alone before combining.",
+      "Isolate and loop the seam until the transition is even.",
+      "Apply syncopated pedaling cleanly on chord changes.",
+      "Finish a short two-hand piece at slow tempo."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A two-hand phrase falls apart only at one bar.",
+          "action": "You stop the whole-piece run and loop just that seam bar at half tempo until clean.",
+          "why": "The failure is localized; practicing the whole hides it and reinforces the rest."
+        },
+        {
+          "setup": "Your playing sounds muddy despite correct notes.",
+          "action": "You check the pedal: it is sustaining through changes; you switch to syncopated lifting.",
+          "why": "Blur is a pedal-timing problem, not a note problem; the fix is the foot, not the fingers."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Layered hands plus clean pedaling turn a clunky sketch into a connected, singing arrangement."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A listener hears independence as ease; the work that produced it is invisible when done right."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Full-speed mashing",
+          "Whole-piece runs",
+          "Pedal blur"
+        ],
+        "adjustments": [
+          {
+            "if": "You mash at speed",
+            "then": "Drop to half tempo and re-layer each hand alone first."
+          },
+          {
+            "if": "Sound is muddy",
+            "then": "Lift the pedal on every chord change; re-listen for the clean break."
+          }
+        ],
+        "learning": "After each session, note the one seam you fixed and whether the pedal was the real culprit."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Seam Loop",
+      "initialTime": 180
+    }
+  },
+  "music-guitar-intermediate-barre": {
+    "id": "music-guitar-intermediate-barre",
+    "subject": "Music",
+    "title": "Barre Chords - Movable Shapes",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Open chords are locked to the first position; barre chords are the same shapes made movable by using the index finger as a sliding nut. This is the move that unlocks every key on the fretboard, and it is pure theory applied: the fretboard is intervallic, so a shape transposes.",
+    "objectives": [
+      "Form the E-shape and A-shape barre chords with the index as a nut",
+      "Press the barre with the bone side and a rolling thumb, not a death grip",
+      "Move a barre shape up the neck to change key without changing the shape",
+      "Diagnose the three classic barre buzzes and fix each",
+      "See why barre chords are the theory-interval idea made physical"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The index becomes the nut",
+        "caption": "An open E chord rings with the nut as its zero point. Slide the whole shape up five frets and the nut is gone - so your index finger replaces it, barring all six strings. The shape is identical; only the root moved, which is exactly why the same grip plays every key.",
+        "labels": [
+          "E-shape barre: root on string 6, index bars the fret, other fingers form the E shape",
+          "A-shape barre: root on string 5, index bars, fingers form the A shape",
+          "The barre replaces the nut - press with the bone side, thumb rolls behind the neck",
+          "Move the shape up or down: same fingers, new key",
+          "Buzz fixes: roll the index, lower the thumb, check the fret wire position"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The nut, replaced by a finger",
+        "content": "Every open chord leans on the nut as its zero fret - the fixed barrier that lets the open strings ring. A barre chord is the insight that you can carry that barrier with you: lay the index finger flat across all six strings at one fret and it becomes a movable nut, so the entire open-chord shape slides up the neck intact. The E-shape barre (root on the low E string) and the A-shape barre (root on the A string) are the two workhorses; learn them and you own every major and minor chord in every position, because you are not learning new shapes, you are relocating two. This is the fretboard equivalent of what theory told you about intervals: the distance between notes is fixed, so a pattern of distances sounds the same wherever it starts."
+      },
+      {
+        "title": "Technique: bone, not muscle",
+        "content": "Barre chords fail for one reason most beginners never hear: they clamp with the fleshy pad of the index and a gripping thumb, which tires in seconds and still buzzes. The correct mechanics are structural - roll the index slightly onto its bony side (the edge closer to the thumb), keep the arm weight pulling the finger down rather than squeezing, and let the thumb sit behind the neck roughly opposite the middle finger, rolling to apply even pressure. The barre is a clamp made of bone and leverage, not a grip made of muscle; that is why players can hold barres for a whole song without fatigue and why a death grip buzzes anyway. Check each string individually after forming the shape and adjust the roll and thumb until all six ring."
+      },
+      {
+        "title": "The three buzzes and why they happen",
+        "content": "When a barre buzzes, it is almost always one of three diagnosable faults, not vague bad luck. A muted or dead string means the index is arched or the knuckle is touching it - roll the finger to flatten the contact. A buzz at the fret wire means the barre is sitting on top of the wire instead of just behind it - shift the whole finger a millimeter toward the headstock. One weak string among ringing others means the index is not level - adjust the thumb roll and the arm angle so pressure is even across all six. The diagnostic habit (pluck each string, name the fault, fix the specific cause) is what turns barre from a mystery into a checklist, and it is the same audit discipline from the Beginner first-chords lesson, now applied to six strings at once."
+      }
+    ],
+    "principles": [
+      "A barre replaces the nut with the index, making open shapes movable to any key.",
+      "Press with the bone side and arm leverage, not a muscle grip or a clamped thumb.",
+      "E-shape (root on 6) and A-shape (root on 5) barres cover all major and minor chords.",
+      "Diagnose buzzes specifically: roll for mutes, shift behind the wire for fret buzz, level for weak strings."
+    ],
+    "mistakes": [
+      {
+        "title": "Clamping with the fleshy pad",
+        "explanation": "Muscle grip tires and buzzes. Roll onto the bone side and use arm weight."
+      },
+      {
+        "title": "Barre sitting on the fret wire",
+        "explanation": "Causes buzz. Place the finger just behind the wire, toward the headstock."
+      },
+      {
+        "title": "Treating each key as a new shape",
+        "explanation": "It is the same shape moved. Learn two barres and transpose, do not memorize twelve."
+      },
+      {
+        "title": "Vague buzz panic",
+        "explanation": "Name the specific fault (mute, wire, weak string) and fix that cause only."
+      }
+    ],
+    "practice": [
+      "Form an E-shape barre at fret 5 (A major); pluck all six strings, fix any buzz by the three-fault checklist.",
+      "Slide the same shape to fret 3 (G) and fret 7 (B); confirm it is the identical grip.",
+      "Form the A-shape barre at fret 5 (D major); repeat the six-string audit.",
+      "Alternate E-shape and A-shape barres on the same root to feel the two root-string positions.",
+      "Play a I-IV-V in one key entirely with barres, no open chords."
+    ],
+    "reflection": "Is your barre a bone-and-leverage clamp or a muscle grip - and can you name which of the three faults is buzzing right now?",
+    "safety": "Stop at sharp finger or wrist pain; mild index fatigue is normal early but pain means the grip is wrong. Short sessions let the hand build tolerance.",
+    "quiz": [
+      {
+        "question": "A barre chord makes an open shape movable because:",
+        "options": [
+          "It uses more fingers",
+          "The index replaces the nut as a sliding zero point",
+          "It changes the tuning",
+          "It adds notes"
+        ],
+        "answer": 1,
+        "explanation": "The nut is a fixed barrier; the barred index is a movable one, so the whole shape transposes intact."
+      },
+      {
+        "question": "The correct barre pressure comes from:",
+        "options": [
+          "Squeezing the thumb hard",
+          "The bone side of the index plus arm leverage",
+          "Curling the finger tightly",
+          "Pressing with the fingertip pad"
+        ],
+        "answer": 1,
+        "explanation": "Bone and leverage hold evenly without fatigue; a muscle grip buzzes and tires in seconds."
+      }
+    ],
+    "mastery": [
+      "Form E-shape and A-shape barres with all six strings ringing.",
+      "Transpose a barre shape to change key without changing the grip.",
+      "Diagnose and fix the three classic buzzes specifically.",
+      "Play a I-IV-V entirely with barres."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A song is in a key with no open chords you know.",
+          "action": "You find the root on the 6th or 5th string and play the matching barre shape there.",
+          "why": "Two movable shapes cover every key; the nut-replacement idea removes the open-chord limit."
+        },
+        {
+          "setup": "Your barre buzzes on the high E only.",
+          "action": "You check the index roll and knuckle clearance for that string, not a global squeeze.",
+          "why": "One weak string is a leveling fault, fixable by the specific audit, not by pressing harder everywhere."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Barre chords turn the fretboard from a set of memorized positions into a transposable grid."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A player who owns two barres can accompany any key on the spot without a chord chart."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Pad clamp",
+          "Wire buzz",
+          "Per-key memorization"
+        ],
+        "adjustments": [
+          {
+            "if": "You clamp",
+            "then": "Roll to the bone, drop the thumb, use arm weight; re-audit six strings."
+          },
+          {
+            "if": "You memorize per key",
+            "then": "Name the root string and slide the one shape; stop learning new grips."
+          }
+        ],
+        "learning": "After each session, note which barre (E or A shape) felt cleaner and which buzz fault you fixed."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Barre Audit Reps",
+      "targetReps": 6
+    }
+  },
+  "music-guitar-intermediate-penta": {
+    "id": "music-guitar-intermediate-penta",
+    "subject": "Music",
+    "title": "The Pentatonic Box & First Solo",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Five notes per octave, one movable box, and suddenly you can solo. The minor pentatonic is the backbone of blues and rock lead; this lesson puts it under the fingers, adds the two expressive moves that make it sing, and gets you playing over a backing track.",
+    "objectives": [
+      "Locate the minor pentatonic box 1 by its root on the 6th string",
+      "See the box as movable - same shape, any key, like the barre idea",
+      "Play the box up and down cleanly with alternate picking",
+      "Add bends and vibrato as the two moves that make notes express",
+      "Solo a simple phrase over a backing track without freezing"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "One box, every key",
+        "caption": "The minor pentatonic is five scale degrees (1 b3 4 5 b7) packed into a five-note-per-string box. Because the fretboard is intervallic, the box slides to any root - the same movable-shape principle as barre chords, now for lead playing.",
+        "labels": [
+          "Box 1 root on 6th string, fret = the key (5th fret = A minor pentatonic)",
+          "Degrees: 1 b3 4 5 b7 - the minor scale minus the 2 and 6",
+          "Movable: slide the whole box to change key, shape unchanged",
+          "Alternate picking: down-up-down-up for clean, even lines",
+          "Bend and vibrato: the two moves that turn scale notes into singing phrases"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Five notes, the whole genre",
+        "content": "The minor pentatonic is the most-used scale in blues, rock and pop lead, and it is small on purpose: five notes per octave (root, flat third, fourth, fifth, flat seventh), which is the minor scale with the two most dissonant-against-a-blues-feel degrees (the 2 and the 6) removed. Those five notes all sound good over a blues or minor chord, which is why a beginner can play them and not clash - the scale is essentially a safe zone. On the fretboard it lives in a compact box of three notes per string across five strings, and because the intervals are fixed, the box is movable exactly like a barre chord: find the root on the 6th string, place the shape, and you are in that key. This is the lead-playing twin of the barre insight from the last lesson."
+      },
+      {
+        "title": "Clean lines from alternate picking",
+        "content": "Knowing the notes is half of soloing; the other half is getting them out evenly, and that is alternate picking - strict down-up-down-up across the strings so the hand builds a mechanical rhythm independent of the musical rhythm. Beginners peck with one direction and get lumpy, accented-by-accident lines; alternate picking makes every note the same length and volume, which is what lets a slow phrase sound intentional. Start painfully slow, watch the pick direction, and only add speed once the down-up is automatic. The metronome is the teacher here: a clean slow line at 60 BPM beats a sloppy fast one at 100, because speed on top of uneven picking just amplifies the lumpiness - the same clean-before-fast rule from the Beginner strum lesson."
+      },
+      {
+        "title": "Bend and vibrato - the singing moves",
+        "content": "A scale run sounds like a scale run; a bent or vibrato note sounds like a voice. The two expressive moves that separate a mechanical player from a musical one are the bend (push the string across the fretboard to raise its pitch smoothly to a target note) and vibrato (a small, fast, controlled oscillation of pitch on a held note, like a singer is doing on a long vowel). Both are technique, not talent: a bend is pitch control you train by matching the bent note to the target note played fretted, and vibrato is a relaxed wrist rotation you grow by copying a singer. Add them sparingly - one bent note at the end of a phrase, a little vibrato on a held note - and the same five pentatonic notes stop sounding like an exercise and start sounding like a line. This is where theory (the notes) meets feel (the delivery), and it is the whole point of soloing."
+      }
+    ],
+    "principles": [
+      "Minor pentatonic = 1 b3 4 5 b7; a five-note safe zone over blues and minor chords.",
+      "The box is movable like a barre: root on the 6th string sets the key.",
+      "Alternate picking (strict down-up) makes lines even; clean slow beats sloppy fast.",
+      "Bend and vibrato are trained pitch control, and they turn scale notes into singing phrases."
+    ],
+    "mistakes": [
+      {
+        "title": "Pecking in one pick direction",
+        "explanation": "Lumpy, accidental accents. Enforce strict down-up alternate picking from the start."
+      },
+      {
+        "title": "Chasing speed on uneven notes",
+        "explanation": "Speed amplifies lumpiness. Lock a clean slow line at 60 BPM first."
+      },
+      {
+        "title": "Treating the box as one fixed position",
+        "explanation": "It is movable; the root on the 6th string sets the key, like a barre."
+      },
+      {
+        "title": "Playing notes without bends or vibrato",
+        "explanation": "A run of clean notes still sounds mechanical. Add the two singing moves sparingly."
+      }
+    ],
+    "practice": [
+      "Find box 1 with root on 6th string 5th fret (A minor pentatonic); play up and down with alternate picking.",
+      "Slide the same box to 3rd fret (G) and 7th fret (B); confirm the shape is identical.",
+      "Bend the 3rd-fret-to-5th-fret note on the G string and match it to the fretted target.",
+      "Add slow vibrato to one held note per phrase; copy a singer is oscillation.",
+      "Solo an 8-bar phrase over a backing track, using bends and vibrato, not just runs."
+    ],
+    "reflection": "Is your pick strictly alternating, and have you added a single bend or vibrato to make a phrase sound like a voice rather than a scale?",
+    "safety": "Stop at wrist or forearm pain; bends and fast picking strain tendons before muscles. Short sessions, relaxed wrist, build tolerance gradually.",
+    "quiz": [
+      {
+        "question": "The minor pentatonic removes which degrees from the natural minor scale?",
+        "options": [
+          "1 and 5",
+          "2 and 6",
+          "3 and 7",
+          "4 and 5"
+        ],
+        "answer": 1,
+        "explanation": "It keeps 1 b3 4 5 b7, dropping the 2 and 6, which is why it sits comfortably over blues and minor chords."
+      },
+      {
+        "question": "Alternate picking matters because it:",
+        "options": [
+          "Adds speed automatically",
+          "Makes every note even in length and volume",
+          "Changes the key",
+          "Replaces bends"
+        ],
+        "answer": 1,
+        "explanation": "Strict down-up builds a mechanical evenness so phrases sound intentional; speed without it just amplifies lumpiness."
+      }
+    ],
+    "mastery": [
+      "Locate and move the minor pentatonic box 1 to any key.",
+      "Play the box with clean alternate picking at slow tempo.",
+      "Execute a matched bend and a controlled vibrato.",
+      "Solo a short phrase over a backing track expressively."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You freeze the moment a backing track starts.",
+          "action": "You narrow to box 1 in one position and play three notes with a bend, instead of scanning the whole neck.",
+          "why": "A safe five-note zone plus one expressive move beats a full-scale panic; constraints free the hand."
+        },
+        {
+          "setup": "Your solo sounds like a practice run, not music.",
+          "action": "You end phrases on a bent or vibrato note and leave space between phrases.",
+          "why": "The singing moves and the rests are what turn scale degrees into a line that breathes."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "One movable box plus two expressive moves is enough to solo over most blues and rock changes."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A listener hears intent in a bent note and space in a rest; neither requires more notes."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "One-direction pecking",
+          "Speed chase",
+          "No expressive moves"
+        ],
+        "adjustments": [
+          {
+            "if": "Picking is lumpy",
+            "then": "Halve the tempo and enforce down-up until even."
+          },
+          {
+            "if": "Phrases sound mechanical",
+            "then": "Add one bend or vibrato per phrase and a rest between them."
+          }
+        ],
+        "learning": "After each solo, note one phrase that sounded musical and which move (bend, vibrato, space) made it so."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Penta Solo Reps",
+      "targetReps": 6
+    }
+  },
+  "music-guitar-intermediate-blues": {
+    "id": "music-guitar-intermediate-blues",
+    "subject": "Music",
+    "title": "Chord Changes in Time - 12-Bar Blues",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "The 12-bar blues is the most important form in popular music and the perfect place to combine everything: primary chords from theory, strumming in time, and chord changes that must land on the beat. Learn the form, the shuffle feel, and how to hold the pulse through the changes.",
+    "objectives": [
+      "Memorize the 12-bar I-IV-V blues form and its bar-by-bar layout",
+      "Play the three primary chords (I, IV, V) as the form demands",
+      "Keep a steady strum through every chord change without rushing",
+      "Feel the shuffle triplet subdivision versus straight eighths",
+      "Comp a full 12-bar cycle in time, alone or with a backing track"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Twelve bars, three chords",
+        "caption": "The 12-bar blues is a fixed map of where I, IV and V land across twelve bars. It is the grammar behind countless songs, and it is the ideal drill for chord changes in time because the form tells you exactly when each change must happen.",
+        "labels": [
+          "Bars 1-4: I (with a IV in bar 2 in the common variant)",
+          "Bars 5-6: IV, IV",
+          "Bars 7-8: I, I",
+          "Bar 9: V",
+          "Bars 10-11: I, IV (or I, I in the basic form)",
+          "Bar 12: I (the turnaround back to the top)",
+          "Shuffle: each beat splits into a long-short triplet, not two even eighths"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The form is a map, not a mystery",
+        "content": "The 12-bar blues is a fixed layout: twelve bars, three chords (the I, IV and V you built in theory harmony), placed in a pattern that repeats forever. The basic version is I for four bars, IV for two, I for two, V for one, I for one, IV for one, I for one - and once you see it as a map you stop guessing the changes and start expecting them. This is the single most common harmonic form in blues, rock, jazz and pop, and learning it is less about one song than about internalizing the I-IV-V grammar so deeply that it becomes reflex. The form also solves the beginner is chord-change panic: because the map tells you exactly which bar the change lands on, your hand can prepare the shape in advance instead of scrambling."
+      },
+      {
+        "title": "Changes must land on the beat",
+        "content": "Knowing the map is useless if the change arrives late. The discipline of comping is that the new chord sounds exactly on the beat the form calls for, not a fraction after you find the shape. So you practice the change as a transition, not a destination: start the strum pattern on the old chord, and on the bar the map says IV, the IV is already under the fingers and sounding on beat one. This is the anchor-finger and decomposition idea from the Beginner chord-change lesson, now scaled to a whole form - isolate each transition (I to IV, IV to I, I to V, V to I), loop it in time, then stitch the twelve bars. A change that lands on the beat makes even simple chords sound professional; a late change makes rich chords sound amateur."
+      },
+      {
+        "title": "The shuffle feel",
+        "content": "Blues is rarely played with straight eighths; it shuffles, meaning each beat divides into a long-short triplet pair (da-da, da-da) instead of two even notes. This triplet subdivision is the difference between a blues that swings and a blues that marches, and it is felt more than counted - but you can train it by saying \"trip-let- triplet\" or counting \"1-trip-let 2-trip-let\" and letting the middle note vanish, leaving the long-short. Start by strumming the 12-bar form straight to lock the changes, then convert the strum to shuffle once the form is automatic; doing both at once overwhelms the hand. The shuffle is also where the rhythm lesson from Beginner strumming and the theory pulse idea finally meet in a real groove, and it is the feel that makes the whole form breathe."
+      }
+    ],
+    "principles": [
+      "The 12-bar blues is a fixed I-IV-V map; learn the layout and stop guessing changes.",
+      "Changes must land exactly on the beat - practice the transition, not the destination.",
+      "Isolate each transition (I-IV, IV-I, I-V, V-I) and loop in time before stitching the form.",
+      "The shuffle is a long-short triplet subdivision; lock straight changes first, then swing them."
+    ],
+    "mistakes": [
+      {
+        "title": "Guessing the changes from memory of a song",
+        "explanation": "Learn the form as a map; then every blues in every key fits the same grid."
+      },
+      {
+        "title": "Letting the change land late",
+        "explanation": "A late chord kills the groove even if the shape is right. Prepare the shape in the prior bar."
+      },
+      {
+        "title": "Shuffling before the form is automatic",
+        "explanation": "Two new things at once overwhelm. Lock straight changes, then add the triplet feel."
+      },
+      {
+        "title": "Treating blues as one song",
+        "explanation": "It is a grammar; the same 12 bars underlie thousands of tunes in every key."
+      }
+    ],
+    "practice": [
+      "Write the 12-bar map from memory; recite it aloud until instant.",
+      "Comp the basic form straight in A (A, D, E chords), focusing on on-beat changes.",
+      "Isolate the I-to-IV and V-to-I transitions; loop each ten times in time.",
+      "Convert the strum to a shuffle once the form is automatic; count 1-trip-let.",
+      "Play the full 12-bar cycle with a backing track, holding the pulse through every change."
+    ],
+    "reflection": "Do you know the 12-bar map cold, and does each change land exactly on the beat - or do you arrive a fraction late and feel it as a stumble?",
+    "safety": "No physical risk; keep the strumming wrist loose during shuffle work - tension is what makes the long-short feel rigid instead of swinging.",
+    "quiz": [
+      {
+        "question": "The 12-bar blues is built from which chord functions?",
+        "options": [
+          "I ii V",
+          "I IV V",
+          "vi IV I V",
+          "I bII bIII"
+        ],
+        "answer": 1,
+        "explanation": "The primary chords from theory harmony - tonic, subdominant, dominant - placed in a fixed twelve-bar map."
+      },
+      {
+        "question": "A shuffle feel divides each beat into:",
+        "options": [
+          "Two even eighths",
+          "A long-short triplet pair",
+          "Four sixteenths",
+          "A dotted quarter"
+        ],
+        "answer": 1,
+        "explanation": "The long-short triplet subdivision is what makes blues swing instead of march; straight eighths lose the feel."
+      }
+    ],
+    "mastery": [
+      "Recite the 12-bar I-IV-V map from memory.",
+      "Comp the form with every change landing on the beat.",
+      "Isolate and loop each transition until automatic.",
+      "Play the form with a shuffle feel over a backing track."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A jam calls a blues in a key you do not know.",
+          "action": "You find the I, IV and V of that key and drop them into the 12-bar map you already own.",
+          "why": "The form is a grammar; knowing the map means any key is just three chord locations."
+        },
+        {
+          "setup": "Your changes stumble at the V in bar 9.",
+          "action": "You isolate the I-to-V and V-to-I transitions and loop them in time before re-running the form.",
+          "why": "The stumble is a local transition fault, not a whole-form problem; decomposition fixes it."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Owning the 12-bar map plus on-beat changes makes you playable in virtually any blues or rock jam."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A band trusts a player whose pulse survives the changes and whose shuffle swings."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Song-memory changes",
+          "Late landings",
+          "Premature shuffle"
+        ],
+        "adjustments": [
+          {
+            "if": "You rely on one song is memory",
+            "then": "Recite the abstract map; apply it to a new key today."
+          },
+          {
+            "if": "Changes land late",
+            "then": "Prepare the next shape in the prior bar and count the change in."
+          }
+        ],
+        "learning": "After each session, note which transition still stumbles and whether the shuffle held when you added it."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "12-Bar Cycle",
+      "initialTime": 120
+    }
   }
 }
