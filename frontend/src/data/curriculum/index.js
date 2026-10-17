@@ -878,6 +878,37 @@ export default {
           ]
         }
       }
+    },
+    "memory": {
+      "name": "Memory & Recall",
+      "icon": "🧠",
+      "description": "Encode, space, retrieve: memory that lasts.",
+      "levels": {
+        "beginner": {
+          "name": "Beginner",
+          "description": "The three pillars: encoding, spacing, retrieval.",
+          "modules": [
+            {
+              "id": "foundations",
+              "title": "Memory Foundations",
+              "lessons": [
+                {
+                  "id": "skills-memory-encoding",
+                  "title": "Encoding - How Memory Gets In"
+                },
+                {
+                  "id": "skills-memory-spacing",
+                  "title": "Spacing - The Testing Effect"
+                },
+                {
+                  "id": "skills-memory-retrieval",
+                  "title": "Retrieval - Active Beats Passive"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   }
 };

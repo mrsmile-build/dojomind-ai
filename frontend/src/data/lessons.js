@@ -22461,5 +22461,464 @@ export const lessons = {
       "label": "Function Reps",
       "targetReps": 5
     }
+  },
+  "skills-memory-encoding": {
+    "id": "skills-memory-encoding",
+    "subject": "Skills",
+    "title": "Encoding - How Memory Gets In",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Memory starts with encoding: making information distinctive, connected and personal. Rereading feels like learning but is not; elaboration is the work that actually sticks.",
+    "objectives": [
+      "Distinguish shallow encoding (rereading) from deep encoding (elaborating)",
+      "Connect new information to what you already know with concrete examples",
+      "Make abstract concepts personal with your own analogies",
+      "Use dual coding: words plus images for the same idea",
+      "Recognize the four most common encoding errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Deep encoding",
+        "caption": "Memory is not a recording; it is a construction. Rereading feels easy and produces weak traces; elaboration feels effortful and produces strong ones. The feeling of difficulty is the signal that encoding is happening.",
+        "labels": [
+          "Rereading: shallow, passive, feels fluent but produces weak memory",
+          "Elaboration: ask why, how, what is an example, what does this remind me of",
+          "Connection: link new ideas to old ones with concrete bridges",
+          "Personal: your own analogies stick harder than borrowed ones",
+          "Dual coding: words plus a sketch or image doubles the retrieval paths"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The illusion of fluency",
+        "content": "Rereading feels like learning because the material starts to feel familiar, and familiarity feels like knowledge. But familiarity is recognition, not recall - you can recognize a sentence without being able to produce it from scratch, which is what actual memory requires. The feeling of ease is therefore misleading: it signals shallow encoding, the kind that fades within hours. Deep encoding feels harder because it is work - asking questions, making connections, generating examples - and that difficulty is the signal that memory is being built, not that learning is failing."
+      },
+      {
+        "title": "Elaboration is the work",
+        "content": "Elaboration is the single most effective encoding technique in cognitive science, and it is also the simplest: for every new idea, ask why is this true, how does it work, what is a concrete example, and what does this remind me of already. Those four questions force the brain to connect new information to existing knowledge, which is the physical mechanism of memory formation. Isolated facts decay; connected facts are retrieved through multiple paths and survive. The effort of generating your own example (not copying the textbook one) is what makes the memory yours and durable."
+      },
+      {
+        "title": "Dual coding and personal analogies",
+        "content": "The brain stores information through multiple channels - verbal and visual - and using both doubles the retrieval paths. For every concept, sketch a quick diagram or image alongside the words; the sketch does not need to be good, it needs to be yours and connected to the idea. Similarly, personal analogies (this is like my morning routine because...) stick harder than borrowed ones because they attach to your own experience. The combination of elaboration, dual coding and personal connection is what separates a memory that lasts a day from one that lasts a year."
+      }
+    ],
+    "principles": [
+      "Rereading feels fluent but encodes weakly; elaboration feels hard and encodes strongly.",
+      "Ask why, how, example, and connection for every new idea.",
+      "Generate your own examples; copying produces weaker memory than creating.",
+      "Dual code: words plus sketches or images double the retrieval paths."
+    ],
+    "mistakes": [
+      {
+        "title": "Rereading instead of elaborating",
+        "explanation": "Fluency feels like knowledge but is only recognition. Ask questions and make connections instead."
+      },
+      {
+        "title": "Copying examples instead of generating them",
+        "explanation": "Borrowed examples stay shallow; your own examples attach to your knowledge and stick."
+      },
+      {
+        "title": "Skipping the visual channel",
+        "explanation": "Words alone use one path; sketches or images add a second path that doubles retrieval chances."
+      },
+      {
+        "title": "Avoiding the feeling of difficulty",
+        "explanation": "Easy encoding feels good and produces weak memory. Difficulty is the signal that the work is happening."
+      }
+    ],
+    "practice": [
+      "Read one page and then close the book; write three elaboration questions and answer them.",
+      "For one concept, generate your own concrete example and explain why it fits.",
+      "Sketch a quick diagram for one abstract idea; label it in your own words.",
+      "Take one borrowed analogy and replace it with a personal one from your own life.",
+      "After studying, close the book and write a one-paragraph summary from memory."
+    ],
+    "reflection": "In your last study session, did you reread passively or ask elaboration questions - and which one felt harder?",
+    "safety": "No physical risk; the cost of weak encoding is wasted time, so spend the effort upfront instead of relearning later.",
+    "quiz": [
+      {
+        "question": "Rereading feels like learning but actually produces:",
+        "options": [
+          "Strong durable memory",
+          "Weak memory that fades quickly",
+          "Perfect recall",
+          "Deep understanding"
+        ],
+        "answer": 1,
+        "explanation": "Rereading builds recognition (fluency) but not recall; elaboration builds the connections that produce durable memory."
+      },
+      {
+        "question": "Elaboration is effective because it:",
+        "options": [
+          "Is fast and easy",
+          "Connects new information to existing knowledge",
+          "Requires no effort",
+          "Uses only one channel"
+        ],
+        "answer": 1,
+        "explanation": "Connection is the mechanism of memory; isolated facts decay while connected facts are retrieved through multiple paths."
+      }
+    ],
+    "mastery": [
+      "Distinguish rereading from elaborating by the feeling of effort.",
+      "Ask why/how/example/connection for every new concept.",
+      "Generate your own examples and analogies.",
+      "Use dual coding (words plus visuals) for important ideas."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You read a chapter and cannot recall it the next day.",
+          "action": "You re-read one section, close the book, and write elaboration answers before moving on.",
+          "why": "Elaboration during encoding beats re-reading after forgetting; the work upfront saves re-learning later."
+        },
+        {
+          "setup": "A concept feels abstract and forgettable.",
+          "action": "You sketch a quick diagram and generate a personal analogy from your own experience.",
+          "why": "Dual coding and personal connection make abstract ideas concrete and retrievable through multiple paths."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Deep encoding turns one study session into durable knowledge instead of familiar-but-forgotten text."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who elaborates remembers what they read and can explain it in their own words, not the textbook ones."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Rereading without questions",
+          "Borrowed examples",
+          "No visuals"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself just reading",
+            "then": "Stop every page and answer one elaboration question before continuing."
+          },
+          {
+            "if": "A concept stays abstract",
+            "then": "Force a sketch and a personal analogy; concrete beats abstract for memory."
+          }
+        ],
+        "learning": "After each study session, note which concepts you elaborated and which you only reread; test the difference after a day."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Elaboration Reps",
+      "targetReps": 5
+    }
+  },
+  "skills-memory-spacing": {
+    "id": "skills-memory-spacing",
+    "subject": "Skills",
+    "title": "Spacing - The Testing Effect",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Cramming produces fast forgetting; spacing produces durable memory. The testing effect means that retrieving information strengthens memory more than restudying it does.",
+    "objectives": [
+      "Replace cramming with spaced review sessions over days or weeks",
+      "Use retrieval practice: close the book and recall before checking",
+      "Schedule reviews at increasing intervals: 1 day, 3 days, 1 week, 2 weeks",
+      "Recognize that forgetting is normal and retrieval after forgetting is strengthening",
+      "Recognize the four most common spacing errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Spacing and the testing effect",
+        "caption": "One long study session produces a sharp peak and fast drop; spaced sessions produce a rising curve that levels off high. And each retrieval is not a test of what you know - it is the act that strengthens what you know.",
+        "labels": [
+          "Cramming: one long session, sharp peak, fast forgetting",
+          "Spacing: shorter sessions over days/weeks, durable retention",
+          "Retrieval: closing the book and recalling strengthens memory more than restudying",
+          "Increasing intervals: 1 day, 3 days, 1 week, 2 weeks, then monthly",
+          "Forgetting is normal; retrieval after forgetting is the strengthening moment"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The spacing effect",
+        "content": "Memory research has replicated one finding for over a century: distributed practice beats massed practice. Five twenty-minute sessions over two weeks produce stronger and more durable memory than one hundred-minute session, even though the total time is identical. The mechanism is that each retrieval after some forgetting forces the brain to reconstruct the memory, which strengthens the pathways in a way that immediate restudying does not. Cramming feels productive because everything is fresh, but it produces a sharp peak followed by fast forgetting; spacing feels less productive in the moment but produces memory that lasts."
+      },
+      {
+        "title": "The testing effect",
+        "content": "The most counterintuitive finding in memory science is that testing yourself is not a measurement of what you know - it is an event that changes what you know. Retrieving information from memory strengthens the pathways more than restudying the same information does, even when the retrieval is effortful or partially wrong. This is why closed-book recall beats open-book review: the struggle of pulling the information out is the learning event. Quizzes, flashcards and self-testing are therefore not evaluation tools but learning tools, and the difficulty of retrieval is the signal that the strengthening is happening."
+      },
+      {
+        "title": "Increasing intervals",
+        "content": "The optimal review schedule follows increasing intervals: review after 1 day, then 3 days, then 1 week, then 2 weeks, then monthly. Each successful retrieval at a longer interval signals that the memory is durable enough to stretch further, and each retrieval after some forgetting strengthens it more than an easy retrieval would. Forgetting is therefore not failure but the condition for strengthening; the moment you almost cannot remember is the moment the memory is being rebuilt stronger. This is why spaced repetition systems work: they schedule reviews at the moment you are about to forget, which is the moment retrieval is most effective."
+      }
+    ],
+    "principles": [
+      "Distributed practice beats massed practice; spacing produces durable memory.",
+      "Retrieval strengthens memory more than restudying; testing is a learning event.",
+      "Schedule reviews at increasing intervals: 1 day, 3 days, 1 week, 2 weeks.",
+      "Forgetting is normal and necessary; retrieval after forgetting is the strengthening moment."
+    ],
+    "mistakes": [
+      {
+        "title": "Cramming in one session",
+        "explanation": "Massed practice feels productive but produces fast forgetting. Space sessions over days or weeks."
+      },
+      {
+        "title": "Restudying instead of retrieving",
+        "explanation": "Rereading is passive; closing the book and recalling is the strengthening event."
+      },
+      {
+        "title": "Avoiding the feeling of forgetting",
+        "explanation": "Forgetting is the condition for strengthening; retrieval after some forgetting is most effective."
+      },
+      {
+        "title": "Reviewing too soon",
+        "explanation": "Easy retrieval does not strengthen much; increasing intervals make each retrieval harder and more effective."
+      }
+    ],
+    "practice": [
+      "Take material you studied today and test yourself tomorrow without looking; note the difficulty.",
+      "Schedule three review sessions over the next two weeks at increasing intervals.",
+      "Use flashcards or self-quizzing instead of rereading for one topic this week.",
+      "When you forget something during retrieval, struggle for 30 seconds before checking; note that the retrieval strengthened it.",
+      "Track which items you forget most often and review those more frequently."
+    ],
+    "reflection": "In your last study session, did you restudy passively or test yourself actively - and which one felt harder?",
+    "safety": "No physical risk; the cost of cramming is wasted time and poor retention, so space your learning from the start.",
+    "quiz": [
+      {
+        "question": "Spacing produces stronger memory than cramming because:",
+        "options": [
+          "It uses more total time",
+          "Each retrieval after forgetting strengthens the pathways",
+          "It feels easier",
+          "It uses better materials"
+        ],
+        "answer": 1,
+        "explanation": "Distributed retrieval forces reconstruction, which strengthens memory more than massed restudying."
+      },
+      {
+        "question": "The testing effect means that:",
+        "options": [
+          "Tests measure what you know without changing it",
+          "Retrieving information strengthens memory more than restudying it",
+          "Tests should be avoided until the end",
+          "Only formal tests produce learning"
+        ],
+        "answer": 1,
+        "explanation": "Retrieval is not measurement but a learning event; the struggle of recall strengthens the pathways."
+      }
+    ],
+    "mastery": [
+      "Replace cramming with spaced sessions over days or weeks.",
+      "Use retrieval practice (closed-book recall) instead of restudying.",
+      "Schedule reviews at increasing intervals.",
+      "Embrace forgetting as the condition for strengthening."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You have a test in two weeks and are considering cramming the night before.",
+          "action": "You start reviewing now in short sessions spaced over the two weeks, testing yourself each time.",
+          "why": "Spacing produces durable memory; cramming produces a peak that drops before the test or fades immediately after."
+        },
+        {
+          "setup": "You keep forgetting material you studied last week.",
+          "action": "You retrieve it now (struggling is the point) and schedule the next review in a few days.",
+          "why": "Retrieval after forgetting is the strengthening moment; scheduling the next review prevents the next drop."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Spaced retrieval turns forgetting from failure into the mechanism that produces durable memory."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who spaces and retrieves remembers long-term without heroic cramming sessions."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Cramming urge",
+          "Restudying instead of testing",
+          "Avoiding forgetting"
+        ],
+        "adjustments": [
+          {
+            "if": "You want to cram",
+            "then": "Start now with a short retrieval session; spacing requires starting early."
+          },
+          {
+            "if": "You keep rereading",
+            "then": "Close the book and retrieve first; check only after the struggle."
+          }
+        ],
+        "learning": "After each review cycle, note which items you retrieved easily and which required struggle; adjust intervals accordingly."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Retrieval Reps",
+      "targetReps": 5
+    }
+  },
+  "skills-memory-retrieval": {
+    "id": "skills-memory-retrieval",
+    "subject": "Skills",
+    "title": "Retrieval - Active Beats Passive",
+    "level": "Beginner",
+    "duration": "12 min",
+    "description": "Active retrieval (recall, explain, apply) beats passive review (reread, highlight, summarize from open book). Make retrieval the default learning move and watch retention change.",
+    "objectives": [
+      "Replace highlighting and rereading with closed-book recall",
+      "Explain concepts in your own words without looking at the source",
+      "Apply knowledge to new problems before reviewing the solution",
+      "Use retrieval as the primary learning move, not the test at the end",
+      "Recognize the four most common retrieval errors"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Active retrieval",
+        "caption": "Passive review feels productive but produces weak memory; active retrieval feels effortful and produces strong memory. The default move should be to close the book and recall, not to reread and recognize.",
+        "labels": [
+          "Highlighting: feels active but is passive; produces recognition not recall",
+          "Rereading: builds fluency but not retrieval strength",
+          "Closed-book recall: forces reconstruction and strengthens pathways",
+          "Explain in your own words: tests understanding, not just memory",
+          "Apply to new problems: transfers knowledge instead of trapping it in the original context"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Passive feels productive",
+        "content": "Highlighting, rereading and summarizing from an open book all feel like work, and they produce the feeling of familiarity that we mistake for learning. But familiarity is recognition - you can recognize a highlighted sentence without being able to produce the idea from scratch, which is what actual recall requires. These passive methods are therefore inefficient: they consume time and produce the illusion of learning while building weak memory. The fix is not to abandon review but to make it active: close the book and retrieve before checking, explain in your own words before rereading, apply to a new problem before reviewing the solution."
+      },
+      {
+        "title": "Active beats passive",
+        "content": "Active retrieval means pulling information out of memory instead of putting it back in. Closed-book recall, explaining concepts in your own words, and applying knowledge to new problems are all forms of active retrieval, and research consistently shows they produce stronger and more durable memory than passive methods. The mechanism is that retrieval forces the brain to reconstruct the memory from partial cues, which strengthens the pathways and makes future retrieval easier. Each act of recall is therefore not a test of what you know but an event that changes what you know, making the next recall more likely."
+      },
+      {
+        "title": "Transfer beats trapping",
+        "content": "Knowledge that stays in its original context is fragile; knowledge that transfers to new problems is robust. This is why applying concepts to novel situations is more valuable than solving the same example problems repeatedly: transfer tests whether you understand the principle or just recognize the surface features. When you can explain a concept in your own words and apply it to a problem you have never seen, you have moved from memorizing to understanding, and the memory is no longer trapped in the textbook example. This is the goal of all learning: knowledge that travels with you, not knowledge that lives only on the page where you first saw it."
+      }
+    ],
+    "principles": [
+      "Passive review (highlighting, rereading) feels productive but produces weak memory.",
+      "Active retrieval (recall, explain, apply) feels effortful and produces strong memory.",
+      "Close the book and retrieve before checking; the struggle is the learning.",
+      "Apply knowledge to new problems to transfer it instead of trapping it in the original context."
+    ],
+    "mistakes": [
+      {
+        "title": "Highlighting instead of retrieving",
+        "explanation": "Highlighting feels active but is passive; it produces recognition not recall. Retrieve first, then check."
+      },
+      {
+        "title": "Summarizing from open book",
+        "explanation": "Open-book summary tests recognition, not recall. Close the book and explain from memory."
+      },
+      {
+        "title": "Solving the same example repeatedly",
+        "explanation": "Repetition of the same problem produces familiarity, not transfer. Apply the concept to new problems."
+      },
+      {
+        "title": "Avoiding the struggle of retrieval",
+        "explanation": "The difficulty of recall is the signal that strengthening is happening; avoiding it avoids the learning."
+      }
+    ],
+    "practice": [
+      "Read one section, close the book, and write a summary from memory before checking.",
+      "Explain one concept aloud in your own words as if teaching someone who has never heard it.",
+      "Take one solved example and apply the same principle to a new problem you have not seen.",
+      "Create three retrieval questions for material you studied and answer them closed-book.",
+      "Replace one passive review session this week with active retrieval and compare the feeling."
+    ],
+    "reflection": "In your last study session, did you retrieve actively or review passively - and which one produced stronger memory the next day?",
+    "safety": "No physical risk; the cost of passive review is wasted time and weak retention, so make retrieval the default move.",
+    "quiz": [
+      {
+        "question": "Highlighting produces:",
+        "options": [
+          "Strong durable memory",
+          "Recognition but weak recall",
+          "Deep understanding",
+          "Perfect retention"
+        ],
+        "answer": 1,
+        "explanation": "Highlighting feels active but is passive; it builds familiarity (recognition) without building retrieval strength."
+      },
+      {
+        "question": "Active retrieval is more effective than passive review because it:",
+        "options": [
+          "Is faster",
+          "Forces reconstruction and strengthens pathways",
+          "Feels easier",
+          "Uses better materials"
+        ],
+        "answer": 1,
+        "explanation": "Retrieval is not measurement but a learning event; the struggle of recall strengthens the pathways for future retrieval."
+      }
+    ],
+    "mastery": [
+      "Replace highlighting and rereading with closed-book recall.",
+      "Explain concepts in your own words without looking at the source.",
+      "Apply knowledge to new problems before reviewing the solution.",
+      "Make retrieval the default learning move, not the test at the end."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "You highlighted a chapter but cannot recall it the next day.",
+          "action": "You close the book and retrieve the main ideas from memory, then check what you missed.",
+          "why": "Retrieval after forgetting is the strengthening moment; highlighting only produced recognition."
+        },
+        {
+          "setup": "You can solve the example problems but not new ones.",
+          "action": "You apply the principle to a novel problem before reviewing the solution.",
+          "why": "Transfer tests understanding; repetition of the same problem produces familiarity, not flexibility."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Active retrieval turns study time into durable, transferable knowledge instead of familiar-but-forgotten text."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A person who retrieves actively can explain and apply knowledge in new contexts, not just recognize it on the page."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Highlighting urge",
+          "Open-book summary",
+          "Same examples"
+        ],
+        "adjustments": [
+          {
+            "if": "You catch yourself highlighting",
+            "then": "Stop and retrieve first; highlight only after checking what you missed."
+          },
+          {
+            "if": "You keep reviewing passively",
+            "then": "Close the book and explain aloud; the struggle is the signal it is working."
+          }
+        ],
+        "learning": "After each study session, note which methods were active retrieval and which were passive review; test the difference after a day."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Active Retrieval Reps",
+      "targetReps": 5
+    }
   }
 }
