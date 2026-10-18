@@ -791,6 +791,30 @@ export default {
               ]
             }
           ]
+        },
+        "intermediate": {
+          "name": "Intermediate",
+          "description": "Cross the bridge, shape the tone, read the melody.",
+          "modules": [
+            {
+              "id": "intermediate",
+              "title": "Voice Intermediate",
+              "lessons": [
+                {
+                  "id": "music-voice-intermediate-mix",
+                  "title": "Registers & the Mix Voice"
+                },
+                {
+                  "id": "music-voice-intermediate-dynamics",
+                  "title": "Dynamics, Vibrato & Tone Color"
+                },
+                {
+                  "id": "music-voice-intermediate-sight",
+                  "title": "Sight-Singing - Reading a Melody"
+                }
+              ]
+            }
+          ]
         }
       }
     },
@@ -818,6 +842,30 @@ export default {
                 {
                   "id": "music-drums-groove",
                   "title": "Your First Groove"
+                }
+              ]
+            }
+          ]
+        },
+        "intermediate": {
+          "name": "Intermediate",
+          "description": "Four limbs, fills that land on one, and a second groove family.",
+          "modules": [
+            {
+              "id": "intermediate",
+              "title": "Drums Intermediate",
+              "lessons": [
+                {
+                  "id": "music-drums-intermediate-independence",
+                  "title": "Four-Limb Independence & the Hi-Hat Foot"
+                },
+                {
+                  "id": "music-drums-intermediate-fills",
+                  "title": "Fills & Landing on the One"
+                },
+                {
+                  "id": "music-drums-intermediate-grooves",
+                  "title": "Ghost Notes, Dynamics & a Shuffle"
                 }
               ]
             }

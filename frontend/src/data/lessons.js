@@ -29844,5 +29844,923 @@ export const lessons = {
       "label": "12-Bar Cycle",
       "initialTime": 120
     }
+  },
+  "music-voice-intermediate-mix": {
+    "id": "music-voice-intermediate-mix",
+    "subject": "Music",
+    "title": "Registers & the Mix Voice",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner voice told you resonance moves with pitch and where your bridge sits. This is the mechanism for crossing it: the mix voice blends chest and head weight so the passaggio becomes a gradient instead of a cliff, and you stop flipping or shouting.",
+    "objectives": [
+      "Explain chest, head and mix as a blend ratio, not three separate voices",
+      "Find your passaggio by sirening and naming where the flip wants to happen",
+      "Use the ng / cry gesture to thin chest weight before the bridge",
+      "Carry a mixed tone through the bridge without a break or a shout",
+      "Keep the throat open and the larynx stable while the blend shifts"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The blend, not the break",
+        "caption": "Chest and head are not two rooms you teleport between; they are two weights on a slider. The mix is the ratio in between, and the passaggio is just the zone where you shift the slider. The flip happens when you stay at 100% chest too long and the body snaps to head to survive.",
+        "labels": [
+          "Chest voice: heavier fold mass, felt in the upper chest, strong low-mid",
+          "Head voice: lighter fold mass, felt above the palate, free high",
+          "Mix: a controllable blend - chest weight thinned, head resonance added",
+          "Passaggio: the bridge zone where the slider must move, not a wall",
+          "The ng / cry gesture pre-thins the chest so the bridge is a gradient"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Two weights on one slider",
+        "content": "Beginners are taught chest voice and head voice as if they were two instruments, and then the bridge between them feels like a cliff you either fall off or climb by force. The truer picture is a single mechanism with two weights: in the low range the vocal folds vibrate with more of their mass engaged (the chest sound, full and grounded), and as pitch rises you gradually thin that engagement and add head resonance (the head sound, light and free). The mix is simply the ratio in between, and it is controllable. The flip or crack that wrecks a beginner is not the bridge itself - it is staying at one hundred percent chest weight too long, so the body panics and snaps to pure head to protect the folds. Move the slider early and there is nothing to snap."
+      },
+      {
+        "title": "The ng and cry gestures",
+        "content": "Two physical cues do the thinning for you. The ng sound - as in the end of sing, lips closed, tongue high - naturally lifts the resonance into the mask and lightens the fold engagement, which is why sirens on ng glide through the bridge far more easily than on ah. The gentle cry or sob - the soft catch in the throat at the start of a sigh - does the opposite job at the top: it keeps the larynx from hiking up and squeezing as you climb, preserving the open, mixed tone instead of a strained shout. Practice both on a siren from low to high and back, and you will feel the bridge stop being a place you fear and become a place you pass through. The goal is not to eliminate the registers but to make the transition a gradient you control."
+      },
+      {
+        "title": "Carrying the mix through the bridge",
+        "content": "The test of a mix is a real phrase, not a siren. Take a melody that crosses your passaggio and sing it on ng first, then open to a vowel only at the top, keeping the same light, forward placement you felt on the nasal. The two failure modes to listen for: the shout (you dragged chest weight up and the throat squeezes) and the flip (you abandoned the tone into pure head and it thins out and disconnects). Both are slider errors, not talent limits, and both are fixed by adjusting the ratio a hair earlier. Keep the throat open and the larynx stable - a hand on the Adam apple should feel it stay put, not leap - and let the resonance shift forward into the mask as you climb. A clean mix sounds like one connected voice across the whole range, which is exactly what the Beginner resonance-travel lesson was pointing toward."
+      }
+    ],
+    "principles": [
+      "Chest and head are two weights on one slider; the mix is the ratio between them.",
+      "The flip is a slider error - too much chest too long - not an unavoidable cliff.",
+      "ng and the gentle cry pre-thin and stabilize the tone through the passaggio.",
+      "A clean mix sounds like one connected voice across the range, throat open, larynx stable."
+    ],
+    "mistakes": [
+      {
+        "title": "Treating registers as three separate voices",
+        "explanation": "They are a blend ratio. Thinking in rooms makes the bridge a cliff you must jump."
+      },
+      {
+        "title": "Dragging chest weight too high",
+        "explanation": "Causes the shout and the squeeze. Thin the slider before the passaggio, not at it."
+      },
+      {
+        "title": "Abandoning into pure head",
+        "explanation": "Causes the disconnect and the thin flip. Keep chest weight in the mix as you climb."
+      },
+      {
+        "title": "Letting the larynx hike",
+        "explanation": "A rising Adam apple squeezes the tone. The cry gesture and a stable hand-check keep it down."
+      }
+    ],
+    "practice": [
+      "Siren on ng from low to high and back; feel the bridge become a gradient, not a wall.",
+      "Add the gentle cry at the top of the siren to keep the larynx from hiking.",
+      "Take a 5-note phrase that crosses your passaggio; sing it on ng, then open the vowel at the top.",
+      "Hand on the Adam apple through a scale - confirm it stays put while the tone shifts forward.",
+      "Record one mixed phrase and label whether you shouted, flipped, or stayed connected."
+    ],
+    "reflection": "At your bridge, are you moving the slider early and staying connected, or arriving at the cliff and choosing between a shout and a flip?",
+    "safety": "Stop at throat pain or hoarseness; a mix that hurts is a squeeze, not a blend. Short sessions, generous water, and never push a strained high note.",
+    "quiz": [
+      {
+        "question": "The vocal flip at the bridge is best understood as:",
+        "options": [
+          "An unavoidable anatomical wall",
+          "The body snapping to head because too much chest weight was dragged up",
+          "A sign you lack head voice",
+          "A breath-support failure only"
+        ],
+        "answer": 1,
+        "explanation": "It is a slider error: staying at full chest too long forces a protective snap. Thin the blend earlier and the flip disappears."
+      },
+      {
+        "question": "The ng gesture helps the mix because it:",
+        "options": [
+          "Makes the voice louder",
+          "Lightens fold engagement and lifts resonance into the mask",
+          "Closes the throat",
+          "Forces head voice"
+        ],
+        "answer": 1,
+        "explanation": "The nasal placement naturally thins the tone and forward-resonates it, letting the bridge become a gradient."
+      }
+    ],
+    "mastery": [
+      "Locate your passaggio by siren and name the flip point.",
+      "Use ng and the cry to thin and stabilize through the bridge.",
+      "Carry a connected mixed tone through a real crossing phrase.",
+      "Keep the larynx stable while the blend ratio shifts."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A song note sits right on your break and you always crack it.",
+          "action": "You approach it on ng to pre-thin the chest, then open the vowel only at the top, keeping the forward placement.",
+          "why": "The crack is a late slider; ng moves the blend early so the note is mixed, not jumped."
+        },
+        {
+          "setup": "Your high notes sound strained and shouty.",
+          "action": "You add the gentle cry to drop the larynx and thin the weight before the passaggio.",
+          "why": "Shout is dragged chest weight; the cry stabilizes the larynx and restores the mix."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A controlled mix gives one connected voice across the range, so no note is a cliff."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A listener hears a mixed singer as effortless; the slider work is invisible when done right."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Flip at the bridge",
+          "Shout on highs",
+          "Larynx hike"
+        ],
+        "adjustments": [
+          {
+            "if": "You flip",
+            "then": "Thin the slider earlier via ng; the break moves down toward you."
+          },
+          {
+            "if": "You shout",
+            "then": "Add the cry and re-check the larynx with a hand before climbing."
+          }
+        ],
+        "learning": "After each session, note the one note where the mix stayed connected and what cue held it."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Mix Siren",
+      "initialTime": 120
+    }
+  },
+  "music-voice-intermediate-dynamics": {
+    "id": "music-voice-intermediate-dynamics",
+    "subject": "Music",
+    "title": "Dynamics, Vibrato & Tone Color",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner gave you a steady supported tone. This adds control over that tone: singing soft without losing support and loud without pushing, letting vibrato arrive as a relaxed result rather than an effect, and shaping brightness and darkness with vowel and resonance.",
+    "objectives": [
+      "Sing softly on full support - the hard paradox of quiet voice",
+      "Project loudly without pushing or straining the folds",
+      "Let vibrato emerge from relaxed airflow, not from shaking the jaw or throat",
+      "Shape tone color (bright/dark) with vowel modification and resonance",
+      "Use dynamics and color as expression over a phrase, not as volume tricks"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Control without tension",
+        "caption": "Dynamics in voice are not volume knobs; they are airflow and fold-balance decisions. Soft means less air but the same support; loud means more resonance, not more push. Vibrato and color are the same principle - relaxed results, never forced effects.",
+        "labels": [
+          "Soft on support: reduce airflow, keep the ribs wide and the tone placed - never pinch",
+          "Loud without push: add resonance and projection, not throat pressure",
+          "Vibrato: a natural oscillation from balanced airflow and relaxation, not a shake",
+          "Bright color: forward/narrow vowels, mask resonance",
+          "Dark color: taller/open vowels, more chest and pharyngeal space"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The soft-voice paradox",
+        "content": "The hardest dynamic in singing is quiet, and the reason is a paradox beginners never expect: a soft note still needs full breath support. When a singer tries to go quiet, the instinct is to back off the support and let the tone collapse into a pinch or a breathy whisper, which is both weak and unhealthy. The correct move is to keep the appoggio - the ribs wide, the steady stream from the Beginner breath lesson - and reduce only the airflow and the fold engagement, so the note is small but supported and clear. Think of a candle you must not blow out: the stream is thin and controlled, not absent. A supported soft voice carries; an unsupported one disappears and strains."
+      },
+      {
+        "title": "Loud is resonance, not pressure",
+        "content": "The mirror error is going loud by pushing, which jams the folds and sounds like shouting. Volume in a trained voice comes from resonance and projection - aiming the tone into the mask and opening the space - not from forcing more air through the throat. The test is the hand-on-chest and hand-on-mask check from Beginner: a loud note should buzz in the chest and ring in the face while the throat stays free, not clamp in the neck. Pair the two dynamics in one phrase - start soft and supported, swell to loud and resonant, return soft - and the control you build is exactly what makes a singer sound expressive instead of merely loud or merely quiet."
+      },
+      {
+        "title": "Vibrato and color as relaxed results",
+        "content": "Vibrato is the most faked thing in beginner singing: people shake the jaw, the throat or the belly to imitate it, and it sounds like a wobble. Real vibrato is a byproduct, not an effect - it emerges when airflow and fold balance are right and the body is relaxed, the way a singer is long vowel naturally oscillates at the end of a big note. You do not produce vibrato; you stop preventing it. Tone color works the same way as a shaping tool rather than a trick: a brighter, narrower vowel (ee, ay) pushes resonance forward and reads as happy or urgent; a taller, more open vowel (oh, aw) adds darkness and warmth. Modify the vowel as you climb to keep the tone even, and use color deliberately across a phrase - this is the expressive layer that sits on top of the supported, mixed instrument you now have."
+      }
+    ],
+    "principles": [
+      "Soft still needs full support; reduce airflow and engagement, never the appoggio.",
+      "Loud comes from resonance and projection, not throat pressure or pushed air.",
+      "Vibrato is a relaxed result of balanced airflow - you stop preventing it, not produce it.",
+      "Tone color is shaped by vowel and resonance placement and used deliberately across a phrase."
+    ],
+    "mistakes": [
+      {
+        "title": "Going soft by pinching",
+        "explanation": "Backing off support collapses the tone. Keep the ribs wide and thin the air instead."
+      },
+      {
+        "title": "Going loud by pushing",
+        "explanation": "Force jams the folds and sounds like shouting. Add resonance and space, not pressure."
+      },
+      {
+        "title": "Faking vibrato with a shake",
+        "explanation": "Jaw or throat wobble is not vibrato. Relax and let it emerge from balance."
+      },
+      {
+        "title": "One vowel for every note",
+        "explanation": "An unmodified vowel cracks or darkens unevenly as you climb. Shape color deliberately."
+      }
+    ],
+    "practice": [
+      "Swell drill: one note soft-supported to loud-resonant and back, throat free throughout.",
+      "Hand checks: feel chest buzz and mask ring on a loud note; confirm the neck stays soft.",
+      "Vibrato release: hold a comfortable note and stop controlling it; let the oscillation arrive.",
+      "Color pair: sing one phrase bright (ee) then dark (aw); feel the resonance shift forward and back.",
+      "Apply both to a real lyric: mark where it swells, where it dims, and where the color changes."
+    ],
+    "reflection": "When you go quiet, do you keep the support or pinch - and when you go loud, do you add resonance or pressure?",
+    "safety": "No physical risk; never force a soft note into a pinch or a loud note into a shout - both strain the folds. Stop at any hoarseness and rest.",
+    "quiz": [
+      {
+        "question": "A supported soft voice differs from a pinched one because the soft voice:",
+        "options": [
+          "Uses less support",
+          "Keeps full appoggio and reduces only airflow and engagement",
+          "Is breathy",
+          "Skips the resonance"
+        ],
+        "answer": 1,
+        "explanation": "Quiet still needs the steady stream; you thin the air and fold balance, never the support, or the tone collapses."
+      },
+      {
+        "question": "Real vibrato is best described as:",
+        "options": [
+          "A jaw shake you produce",
+          "A relaxed result of balanced airflow you stop preventing",
+          "A throat oscillation",
+          "A volume effect"
+        ],
+        "answer": 1,
+        "explanation": "Vibrato emerges from relaxation and balance; forcing it with a shake produces a wobble, not a vibrato."
+      }
+    ],
+    "mastery": [
+      "Sing soft on full support and loud on resonance, both with a free throat.",
+      "Let vibrato arrive rather than produce it.",
+      "Shape bright and dark color with vowel and resonance.",
+      "Apply dynamics and color deliberately across a phrase."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your quiet notes vanish and your loud notes strain.",
+          "action": "You run the swell drill: keep the appoggio on the soft, add mask resonance on the loud, never the throat.",
+          "why": "Both errors are support/pressure confusions; the drill separates air from resonance."
+        },
+        {
+          "setup": "A ballad needs a warm dark tone on the low phrase.",
+          "action": "You open the vowel taller and add chest space, then brighten forward for the lift.",
+          "why": "Color is a resonance choice; shaping it deliberately is expression, not accident."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Dynamic and color control turn a correct instrument into an expressive one that moves a listener."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A singer who swells and dims with a free throat sounds intentional; one who only gets loud sounds amateur."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Pinch on soft",
+          "Push on loud",
+          "Fake vibrato"
+        ],
+        "adjustments": [
+          {
+            "if": "You pinch",
+            "then": "Restore the ribs-wide support and thin only the air."
+          },
+          {
+            "if": "You push",
+            "then": "Shift the effort to the mask and open the space instead of the throat."
+          }
+        ],
+        "learning": "After each session, record one phrase and note where the dynamic or color choice landed and where it slipped."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Dynamic Swells",
+      "targetReps": 6
+    }
+  },
+  "music-voice-intermediate-sight": {
+    "id": "music-voice-intermediate-sight",
+    "subject": "Music",
+    "title": "Sight-Singing - Reading a Melody",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner pitch matched a note you heard. Sight-singing is the next rung: read an unfamiliar melody from notation and produce it on the first pass. This is where the clef literacy of Piano Intermediate and the interval thinking of Theory Intermediate finally meet your voice.",
+    "objectives": [
+      "Read a melody from the staff by clef + step, not by guessing",
+      "Internalize scale degrees (do-re-mi or numbers) as the pitch relationships",
+      "Sing intervals accurately by feeling their size against the tonic",
+      "Prepare a melody before singing: key, time signature, first note, contour",
+      "Recover from a wrong note without stopping - keep the pulse and rejoin"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "From page to pitch, on the first try",
+        "caption": "Sight-singing is reading plus the ear-to-voice wire from Beginner, now pointed at notation instead of a played reference. You scan the page for the rules (key, meter, starting note, contour), then walk the melody by scale-degree steps, recovering from slips without breaking the pulse.",
+        "labels": [
+          "Scan first: key signature, time signature, first note, overall contour",
+          "Degrees: do-re-mi (or 1-2-3) give each note a relationship to the tonic",
+          "Intervals: a step is a neighbor, a leap is a skip - feel the size before you sing it",
+          "Pulse over perfection: a wrong note that keeps time beats a right note that stops",
+          "Rejoin: miss a note, keep the beat, catch the next one - never rewind mid-phrase"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Scan the rules before you sing",
+        "content": "Beginners dive into the first note and stumble through the rest; sight-singers spend ten seconds reading the page for the rules that make the melody predictable. The key signature tells you which notes are pre-altered (the circle-of-fifths skill from Theory Intermediate, now in your mouth). The time signature tells you the beat budget per bar (the rhythm lesson from Theory Intermediate). The first note gives you a starting pitch, and the overall contour - does it climb, fall, arch - tells you the shape before a single sound. This scan is the same anchor-and-budget discipline you used to read the grand staff on piano and to decode a time signature; here it is applied to the voice, and it is what separates a confident first read from a flailing one."
+      },
+      {
+        "title": "Degrees and intervals - the ear-to-voice wire",
+        "content": "The core skill is hearing a note not as an isolated pitch but as a relationship to the tonic: do, re, mi, or 1, 2, 3. Beginner built the ear-to-voice wire by matching a played note; sight-singing runs that same wire backwards, from symbol to sound, using the degree as the bridge. A step (do to re) is a small, familiar motion; a leap (do to fa) is a wider skip you feel in advance. Train it by singing a major scale on degrees first, then reading simple melodies that stay within a fifth, then widening. The solfege or number system is not jargon - it is the tool that lets you name the relationship before you produce it, which is exactly how an experienced singer reads a new part on the first pass without a piano."
+      },
+      {
+        "title": "Pulse over perfection, and the recovery",
+        "content": "The mark of a real sight-singer is not accuracy on the first try - everyone misses notes - but what happens when they do. The rule is pulse over perfection: a wrong note that keeps the beat is musically far better than a correct note that stops you cold, because music is time and a break in time is the only unforgivable error. So when you slip, you do not rewind or apologize mid-phrase; you keep the pulse, rejoin on the next note, and fix it after the phrase ends. This is the same composure the rhythm and groove lessons built on instruments - the clock never stops - now applied to the voice. Practicing recovery deliberately (sing a melody, intentionally miss a note, keep going) removes the fear that freezes beginners, and a singer who recovers cleanly sounds more confident than one who never misses but stops when they do."
+      }
+    ],
+    "principles": [
+      "Scan the page for the rules first: key, meter, first note, contour.",
+      "Sing by scale degree (do-re-mi / 1-2-3); the relationship is the bridge from symbol to sound.",
+      "Feel the size of each interval before producing it - step versus leap.",
+      "Pulse over perfection: keep the beat through a wrong note and rejoin; never rewind mid-phrase."
+    ],
+    "mistakes": [
+      {
+        "title": "Diving into the first note",
+        "explanation": "No scan means no rules. Read key, meter, start and contour before a sound."
+      },
+      {
+        "title": "Naming pitches instead of degrees",
+        "explanation": "Isolated notes are hard; relationships to the tonic are singable. Use do-re-mi or numbers."
+      },
+      {
+        "title": "Stopping to fix a miss",
+        "explanation": "A break in time is the real error. Keep the pulse and rejoin on the next note."
+      },
+      {
+        "title": "Skipping the interval feel",
+        "explanation": "Leaps must be prepared; singing them as steps causes flat or sharp jumps."
+      }
+    ],
+    "practice": [
+      "Scan three short melodies aloud: state key, meter, first note and contour before singing any.",
+      "Sing a major scale on do-re-mi up and down until the degrees are automatic.",
+      "Read a melody within a fifth by degrees; prepare each leap before you sing it.",
+      "Deliberately miss one note in a phrase and keep the pulse - train the recovery.",
+      "Widen to a full octave and add a key with one sharp or flat from the circle."
+    ],
+    "reflection": "Before you sing a new melody, do you scan the rules and feel the degrees, or do you dive in and hope the ear catches up?",
+    "safety": "No physical risk; keep study volume comfortable and sing in a comfortable range - sight-singing is a reading skill, not a range test.",
+    "quiz": [
+      {
+        "question": "Sight-singing differs from pitch-matching because it:",
+        "options": [
+          "Uses a louder voice",
+          "Runs the ear-to-voice wire from symbol to sound without a played reference",
+          "Only works in C major",
+          "Ignores rhythm"
+        ],
+        "answer": 1,
+        "explanation": "Beginner matched a heard note; sight-singing reads notation and produces it, using the scale degree as the bridge."
+      },
+      {
+        "question": "When you miss a note while sight-singing, you should:",
+        "options": [
+          "Stop and rewind to fix it",
+          "Keep the pulse and rejoin on the next note",
+          "Apologize and restart",
+          "Skip the whole phrase"
+        ],
+        "answer": 1,
+        "explanation": "Music is time; a break is the only unforgivable error. A wrong note that keeps beat is musically better than a correct stop."
+      }
+    ],
+    "mastery": [
+      "Scan a melody for key, meter, start and contour before singing.",
+      "Sing simple melodies by scale degree with prepared intervals.",
+      "Recover from a missed note without breaking the pulse.",
+      "Read a new melody in a keyed signature on the first pass."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "A choir hands you a part and you have no piano.",
+          "action": "You scan the rules, find the first note from the key, and walk the melody by degrees, recovering from slips.",
+          "why": "Sight-singing is the skill that makes you useful the moment a reference is unavailable."
+        },
+        {
+          "setup": "You keep flatting the leaps in a new melody.",
+          "action": "You pause before each leap, feel its size as an interval, and aim the target note in advance.",
+          "why": "Leaps sung as steps land short; preparing the interval fixes the pitch before the voice arrives."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Sight-singing turns you from a repeater into a reader who can take any part on the first pass."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A director trusts a singer who scans, keeps pulse and recovers - the three marks of a professional read."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "No scan",
+          "Pitch names not degrees",
+          "Stops on misses"
+        ],
+        "adjustments": [
+          {
+            "if": "You dive in",
+            "then": "Force a ten-second rules scan before any sound, every time."
+          },
+          {
+            "if": "You stop on a miss",
+            "then": "Practice deliberate-miss drills until rejoining is reflex."
+          }
+        ],
+        "learning": "After each session, note one melody you read cleanly and which scan or degree skill made it work."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Sight-Sing Reps",
+      "targetReps": 5
+    }
+  },
+  "music-drums-intermediate-independence": {
+    "id": "music-drums-intermediate-independence",
+    "subject": "Music",
+    "title": "Four-Limb Independence & the Hi-Hat Foot",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner groove was three layers: hat hand, snare, kick. The fourth limb is the foot that opens and closes the hi-hat, and adding it is the defining intermediate drum skill - four moving parts that must stay independent and together.",
+    "objectives": [
+      "Add the left foot keeping the hi-hat on beats 2 and 4 (the foot pattern)",
+      "Keep the right-hand hat and the foot hat from colliding or doubling",
+      "Maintain the kick and snare backbeat while the foot works independently",
+      "Build independence by layering one limb at a time, never all four at once",
+      "Recover the clock when a limb drops out - the pulse never stops"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "The fourth limb enters",
+        "caption": "Independence is not a talent; it is layering. Master three limbs to tempo, then add the foot alone, then combine at half speed and let the seam close. The foot hi-hat on 2 and 4 is the layer that turns a three-part groove into a real drum set feel.",
+        "labels": [
+          "Right hand: steady 8th notes on the closed hat - the clock",
+          "Left foot: opens the hat on beats 2 and 4 (the foot pattern)",
+          "Left hand: snare backbeat on 2 and 4",
+          "Right foot: kick on 1 and 3 (and the and of 3)",
+          "Layer order: RH+LH first, then add kick, then add the foot last"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The foot that was not there",
+        "content": "A beginner groove uses three limbs: the right hand keeps the hi-hat clock, the left hand cracks the snare on 2 and 4, the right foot plays the kick. The fourth limb - the left foot on the hi-hat pedal - is what makes a drum set sound like a drum set instead of a hand-drum pattern, because it opens the hat on the backbeats to give that chick-chick articulation on 2 and 4. The difficulty is not the foot itself, which is simple, but the independence: the foot must do its own thing while the three other limbs keep running, and the brain wants to lock them together. This is the drum equivalent of the two-hands-together problem from Piano Intermediate - layer, do not force."
+      },
+      {
+        "title": "Layer, do not mash",
+        "content": "The method is identical to the piano hands lesson and to the Beginner groove build: get the right-hand hat and left-hand snare rock-solid together first (that is your three-limb groove with the kick), then add the right-foot kick alone until it is automatic, then - and only then - introduce the left foot. When you add the foot, expect the others to wobble; that is normal, not failure. Drop to half tempo, loop the two-bar seam where the foot enters, and let the independence close gradually. A drummer who mashes all four limbs at full speed builds tension and a lurching groove; one who layers each to tempo builds a clock that survives the fourth hand. The metronome or a slow count is non-negotiable, because independence is a timing alignment problem before it is a coordination problem."
+      },
+      {
+        "title": "The collision and the recovery",
+        "content": "Two specific faults appear when the foot joins. The collision: the foot and the right hand both try to articulate the same beat and the hat chokes or doubles - the fix is to keep the right hand on steady 8ths and let the foot only open on 2 and 4, so they occupy different jobs, not the same one. The drop-out: under pressure one limb vanishes (usually the foot or the kick) and the groove collapses to three parts - the fix is the recovery rule from the piano seam lesson: the clock (right-hand hat) never stops; if a limb drops, keep the hat and re-add the missing limb on the next bar rather than freezing to find it. Practicing deliberate drop-outs (play four limbs, intentionally lose the foot, rejoin) removes the panic that makes beginners stop dead, and a drummer who recovers cleanly sounds locked even when imperfect."
+      }
+    ],
+    "principles": [
+      "Independence is layered one limb at a time, never mashed at full speed.",
+      "The foot hat opens on 2 and 4; the right hand keeps steady 8ths - different jobs, no collision.",
+      "The clock (right-hand hat) never stops; a dropped limb is re-added on the next bar, not chased.",
+      "Half tempo and seam loops close the four-limb coordination; speed is the last ingredient."
+    ],
+    "mistakes": [
+      {
+        "title": "Adding all four limbs at once",
+        "explanation": "Overwhelms the brain and builds tension. Layer to tempo, foot last."
+      },
+      {
+        "title": "Foot and hand colliding on the hat",
+        "explanation": "They double or choke it. Hand keeps 8ths, foot only opens on 2 and 4."
+      },
+      {
+        "title": "Freezing when a limb drops",
+        "explanation": "The clock must survive. Keep the hat and re-add the lost limb next bar."
+      },
+      {
+        "title": "Rushing to full tempo",
+        "explanation": "Speed on unaligned limbs is a lurch. Half tempo until the seam closes."
+      }
+    ],
+    "practice": [
+      "Lock RH hat + LH snare to tempo; then add the kick alone until automatic.",
+      "Introduce the left foot at half tempo; loop the two-bar entry seam ten times.",
+      "Name each limb is job aloud: hand 8ths, foot 2-and-4, snare backbeat, kick 1-and-3.",
+      "Deliberate drop-out: play four limbs, lose the foot on purpose, rejoin next bar without stopping.",
+      "Widen to a full four-bar cycle, keeping the hat clock through every change."
+    ],
+    "reflection": "When the foot joins, do the other three wobble because you mashed them, and does your clock survive a dropped limb or freeze?",
+    "safety": "No physical risk; keep the wrists and ankles loose - tension is what locks the limbs together. Short sessions build the independence gradually.",
+    "quiz": [
+      {
+        "question": "The correct way to add the fourth limb is:",
+        "options": [
+          "All four at full speed until it clicks",
+          "Layer each limb to tempo, introducing the foot last at half speed",
+          "Drop the right hand",
+          "Use the foot on every beat"
+        ],
+        "answer": 1,
+        "explanation": "Independence emerges from over-learning each part; mashing builds tension and a lurching groove."
+      },
+      {
+        "question": "When a limb drops out mid-groove, you should:",
+        "options": [
+          "Stop and find it",
+          "Keep the right-hand clock and re-add the limb on the next bar",
+          "Speed up to compensate",
+          "Switch to three limbs permanently"
+        ],
+        "answer": 1,
+        "explanation": "The pulse is the only unforgivable loss; a clean rejoin sounds locked, a freeze sounds broken."
+      }
+    ],
+    "mastery": [
+      "Keep three limbs to tempo before adding the foot.",
+      "Prevent the hand-foot hat collision by assigning different jobs.",
+      "Recover a dropped limb without stopping the clock.",
+      "Play a full four-limb cycle at a clean slow tempo."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your groove collapses the moment the foot joins.",
+          "action": "You drop to half tempo, re-layer the three limbs to tempo, and reintroduce the foot alone at the seam.",
+          "why": "The collapse is a layering failure, not an ability limit; the fix is sequencing, not force."
+        },
+        {
+          "setup": "The hat sounds choked on 2 and 4.",
+          "action": "You confirm the right hand keeps steady 8ths and the foot only opens - separating the two jobs.",
+          "why": "Collision is both limbs doing one job; assigning different jobs frees the hat."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Four-limb independence is the gate to every real groove; past it, the kit finally speaks as one voice."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A band trusts a drummer whose clock survives a dropped limb - recovery reads as confidence."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Mash attempt",
+          "Hat choke",
+          "Freeze on drop"
+        ],
+        "adjustments": [
+          {
+            "if": "You mash",
+            "then": "Strip back to three limbs to tempo, then add the foot at half speed."
+          },
+          {
+            "if": "You freeze",
+            "then": "Practice deliberate drop-outs until rejoining is reflex, not thought."
+          }
+        ],
+        "learning": "After each session, note which limb dropped first under pressure and drill that seam alone."
+      }
+    },
+    "practiceEngine": {
+      "type": "timed-hold",
+      "label": "Four-Limb Seam",
+      "initialTime": 180
+    }
+  },
+  "music-drums-intermediate-fills": {
+    "id": "music-drums-intermediate-fills",
+    "subject": "Music",
+    "title": "Fills & Landing on the One",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "A fill is a deliberate excursion around the kit that must return to beat 1 of the next bar on time. This is the bar-budget rule from Theory Intermediate made physical: you count your way out and your way back so the groove resumes exactly where the form demands.",
+    "objectives": [
+      "Build a fill that occupies a fixed number of bars without losing the count",
+      "Land the last fill note exactly on beat 1 of the next bar",
+      "Move around the kit (toms, snare, cymbal) while keeping the pulse",
+      "Use the fill to mark a section change, not to show off",
+      "Recover the groove cleanly after a fill even if a note was missed"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Out and back on the one",
+        "caption": "A fill is not free improvisation; it is a counted departure and return. The bar budget from Theory Intermediate applies: a one-bar fill has exactly four beats worth of notes, and the last one must hit beat 1 of the next bar so the groove resumes on the map. Miss the one and the whole band stumbles.",
+        "labels": [
+          "The fill lives in a fixed space: usually the last bar of a 4- or 8-bar phrase",
+          "Count it out: 1-2-3-4 inside the fill, never losing the bar",
+          "Move around the kit: snare, high tom, mid tom, floor tom, cymbal",
+          "The landing note hits beat 1 of the next bar - the groove resumes on time",
+          "A missed fill note is recovered by hitting the one; the clock never stops"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "A fill is a counted excursion",
+        "content": "Beginners treat fills as a chance to play fast and loud around the kit, and the result is a tumble of notes that loses the bar and drops the band on the next downbeat. The truth is that a fill is the most counted thing a drummer plays: it occupies a fixed space - usually the last bar of a four- or eight-bar phrase - and inside that space you have exactly the beat budget the time signature allows. A one-bar fill in 4/4 is four beats of notes, no more, no less, and you count 1-2-3-4 through it just as you counted the groove. This is the bar-budget rule from Theory Intermediate made physical: the fill is a detour that must rejoin the road on time, and the only note that truly matters is the one that lands on beat 1 of the next bar."
+      },
+      {
+        "title": "Moving around the kit without losing the pulse",
+        "content": "A good fill travels - snare to high tom to mid tom to floor tom to a cymbal crash - and the motion is what makes it sound like a fill rather than a snare burr. But the travel must ride the pulse, not interrupt it: each drum is a note on a beat or an and, placed inside the counted bar, so the line moves spatially while the clock stays steady. Practice by building a simple descending fill (snare, high, mid, floor) over one bar at slow tempo, counting aloud, and confirming the cymbal or downbeat lands exactly on the one. The common fault is rushing the travel because the hands get excited by the new drum; the fix is the same clean-before-fast rule from the Beginner groove - the fill is a rhythm problem dressed as a geography problem, and the count is the anchor."
+      },
+      {
+        "title": "The landing and the recovery",
+        "content": "The entire purpose of a fill is to mark a section change and hand the band back to the groove on time, so the landing note on beat 1 is the payoff and everything before it is setup. If you miss a note inside the fill - and you will, at first - the recovery rule from the independence lesson applies with full force: keep the clock, hit the one, and let the missed note go; a fill that lands cleanly on the one after a small internal stumble sounds intentional, while a fill that loses the one sounds broken even if every internal note was perfect. This is also where restraint earns its place: a fill that serves the song marks the change and gets out of the way; a fill that shows off buries the downbeat the singer and the bassist are waiting for. The best fill in a song is often the one that lands the one so solidly nobody remembers the notes that got there."
+      }
+    ],
+    "principles": [
+      "A fill occupies a fixed bar budget and is counted 1-2-3-4 through it, like the groove.",
+      "The travel around the kit rides the pulse; each drum is a note on a beat or an and.",
+      "The landing note on beat 1 of the next bar is the payoff; everything before is setup.",
+      "Recovery rule: miss an internal note, keep the clock, hit the one - a clean landing beats a perfect tumble."
+    ],
+    "mistakes": [
+      {
+        "title": "Filling to show off",
+        "explanation": "A fill that buries the downbeat hurts the band. Mark the change and get out of the way."
+      },
+      {
+        "title": "Losing the count in the travel",
+        "explanation": "Excitement by a new drum causes a rush. Count 1-2-3-4 through the fill, always."
+      },
+      {
+        "title": "Missing the one",
+        "explanation": "The landing is the whole point; a perfect interior that drops the one sounds broken."
+      },
+      {
+        "title": "Freezing after a missed fill note",
+        "explanation": "Keep the clock and hit the one; the stumble is invisible if the landing is solid."
+      }
+    ],
+    "practice": [
+      "Build a one-bar descending fill (snare-high-mid-floor) at slow tempo; count it aloud.",
+      "Confirm the cymbal or next downbeat lands exactly on beat 1; loop the landing ten times.",
+      "Vary the travel: same bar budget, different drum order, still counted and still landing on one.",
+      "Deliberate miss: drop an internal note on purpose and recover by hitting the one cleanly.",
+      "Play a full 12-bar form with a fill only in the last bar of each section change, marking the form."
+    ],
+    "reflection": "Does your fill count its way back to the one, or does it tumble and hope the band catches the downbeat?",
+    "safety": "No physical risk; keep the wrists loose during fast travel - tension is what makes the fill rush and the landing late.",
+    "quiz": [
+      {
+        "question": "A one-bar fill in 4/4 contains:",
+        "options": [
+          "As many notes as you can fit",
+          "Exactly four beats worth of notes, counted through",
+          "Only snare notes",
+          "No count at all"
+        ],
+        "answer": 1,
+        "explanation": "The bar budget from theory applies: the fill is a counted detour that must rejoin the road on time."
+      },
+      {
+        "question": "The most important note in a fill is:",
+        "options": [
+          "The fastest one",
+          "The loudest cymbal",
+          "The landing note on beat 1 of the next bar",
+          "The first tom hit"
+        ],
+        "answer": 2,
+        "explanation": "The fill exists to mark a change and hand the band back on time; the landing on the one is the payoff."
+      }
+    ],
+    "mastery": [
+      "Build a counted one-bar fill that lands on the one.",
+      "Travel around the kit while keeping the pulse.",
+      "Recover from a missed internal note by hitting the one.",
+      "Use fills to mark section changes, not to show off."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "The song moves from verse to chorus and you want to signal it.",
+          "action": "You place a counted one-bar fill in the last bar of the verse and land the chorus on beat 1.",
+          "why": "The fill marks the change; the clean landing hands the band the new section on time."
+        },
+        {
+          "setup": "Your fill rushed and dropped the downbeat twice.",
+          "action": "You slow to half tempo, count 1-2-3-4 through the travel, and drill only the landing.",
+          "why": "The rush is a count loss, not a speed limit; the anchor is the bar budget, not the hands."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "A counted fill that lands on the one makes the whole band sound tighter, because the form is articulated."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A singer or soloist trusts a drummer whose fills hand back the downbeat cleanly every time."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Show-off urge",
+          "Lost count",
+          "Dropped one"
+        ],
+        "adjustments": [
+          {
+            "if": "You overplay",
+            "then": "Cut the fill to four notes that still mark the change and land on one."
+          },
+          {
+            "if": "You drop the one",
+            "then": "Halve the tempo and drill the landing in isolation before re-adding travel."
+          }
+        ],
+        "learning": "After each session, note one fill that landed cleanly on the one and what count kept it there."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Fill Landing Reps",
+      "targetReps": 6
+    }
+  },
+  "music-drums-intermediate-grooves": {
+    "id": "music-drums-intermediate-grooves",
+    "subject": "Music",
+    "title": "Ghost Notes, Dynamics & a Shuffle",
+    "level": "Intermediate",
+    "duration": "14 min",
+    "description": "Beginner gave you the down-tap-tap-tap accent pattern and a straight rock groove. This adds the vocabulary that makes a groove breathe: whisper-quiet ghost notes between the accents, real dynamic contrast, and a second groove family - the shuffle - that changes the subdivision itself.",
+    "objectives": [
+      "Place ghost notes (very soft snare taps) between the backbeat accents",
+      "Keep the accents loud and the ghosts barely audible - a wide dynamic gap",
+      "Feel the shuffle triplet subdivision versus straight eighths in a groove",
+      "Combine ghosts and shuffle into a laid-back pocket",
+      "Hold the pulse steady while the dynamics vary - the clock survives the color"
+    ],
+    "visuals": [
+      {
+        "type": "diagram",
+        "title": "Ghosts in the gaps",
+        "caption": "A groove is not a row of equal hits; it is a landscape of loud accents and whispered ghosts. The ghosts fill the ands between the backbeats at a fraction of the volume, and the contrast is what makes the accents punch. The shuffle then tilts the whole grid into long-short triplets.",
+        "labels": [
+          "Accents: the loud backbeat on 2 and 4 (and the kick)",
+          "Ghosts: barely-there snare taps on the ands between accents",
+          "Dynamic gap: ghosts at 10-20% volume, accents at full - the contrast is the groove",
+          "Shuffle: each beat splits long-short (triplet), not two even eighths",
+          "Pocket: the ghosts and accents lock to the kick so the groove feels laid-back"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "The ghost note - a whisper with a job",
+        "content": "The Beginner stroke lesson gave you the down-tap-tap-tap pattern: one accent and three quiet taps. The intermediate move is to make those quiet taps truly quiet - ghost notes, snare strokes played at a fraction of the volume, almost felt rather than heard - and to place them in the ands between the backbeat accents. Ghosts are not decoration; they are the texture that fills the space so the groove stops sounding like a metronome with a snare on 2 and 4 and starts sounding alive. The discipline is the dynamic gap: a ghost that is half as loud as the accent is just a weak accent and muddies the groove; a ghost at ten or twenty percent lets the accent punch through. This is the same available-tension idea from Theory Intermediate applied to rhythm - the quiet notes make the loud notes mean something."
+      },
+      {
+        "title": "Dynamics are the groove, not the volume",
+        "content": "A common beginner belief is that playing louder plays harder, but a groove is built from contrast, not level. The accents (2 and 4, and the kick) are the architecture; the ghosts are the filler; the hi-hat clock is the floor. When all three sit at the same volume the groove flattens into noise, which is exactly the half-height-tap error from the Beginner stroke lesson scaled up. So you practice the dynamic ladder deliberately: play a bar with only the accents, then only the ghosts, then both with the ghosts a whisper under the accents, then add the hat. The pocket - that laid-back, in-the-pocket feel players chase - is the result of the ghosts and accents locking precisely to the kick, not of speed or volume. A drummer with real dynamic control sounds like a record; one without sounds like a practice pad."
+      },
+      {
+        "title": "The shuffle - a second groove family",
+        "content": "Finally, the subdivision itself changes. Straight eighths split each beat into two even notes; a shuffle splits each into a long-short triplet pair (the da-da, da-da of blues and early rock), the same long-short you met in the 12-bar blues chord lesson from the guitar track, now under the sticks. The shuffle is felt more than counted, but you train it by counting 1-trip-let 2-trip-let and letting the middle note vanish, leaving the lilt. The challenge is combining it with ghosts: a shuffled backbeat with ghosted ands is the foundation of blues, funk and a huge share of soul drumming. Build it the same way as everything here - straight groove with ghosts first until the dynamic gap is clean, then tilt the grid into the shuffle, then re-add the ghosts inside the shuffle. Two new things at once overwhelm the hand; layer the subdivision change on top of an already-solid dynamic groove."
+      }
+    ],
+    "principles": [
+      "Ghost notes are whisper-soft snare taps in the ands; their job is to make the accents punch.",
+      "The dynamic gap (ghosts at 10-20%, accents full) is the groove; equal volume flattens it.",
+      "The pocket is ghosts and accents locking precisely to the kick, not speed or level.",
+      "The shuffle tilts the grid to long-short triplets; layer it on an already-solid ghosted groove."
+    ],
+    "mistakes": [
+      {
+        "title": "Ghosts at half the accent volume",
+        "explanation": "A half-loud ghost is a weak accent that muddies the groove. Drop it to a whisper."
+      },
+      {
+        "title": "All limbs at one volume",
+        "explanation": "No contrast, no groove. Build the dynamic ladder: accents, ghosts, then both."
+      },
+      {
+        "title": "Shuffle plus ghosts at once",
+        "explanation": "Two new things overwhelm. Lock the ghosted straight groove first, then tilt the grid."
+      },
+      {
+        "title": "Chasing speed over pocket",
+        "explanation": "The feel is in the lock to the kick and the dynamic gap, not in how fast you play."
+      }
+    ],
+    "practice": [
+      "Play a bar of accents only, then ghosts only, then both with ghosts a whisper under the accents.",
+      "Measure the gap: ghosts should be barely audible; if you can hear them clearly, they are too loud.",
+      "Lock the ghosts to the kick: play kick + ghost patterns slowly until the pocket sits.",
+      "Tilt to shuffle: count 1-trip-let and let the middle vanish; keep the accents on 2 and 4.",
+      "Re-add ghosts inside the shuffle once the shuffled backbeat is steady and laid-back."
+    ],
+    "reflection": "Are your ghosts truly whispers, or are they weak accents - and does your groove have a dynamic gap or is everything one flat volume?",
+    "safety": "No physical risk; keep the wrist loose for the soft ghost strokes - tension makes ghosts too loud and the gap disappear.",
+    "quiz": [
+      {
+        "question": "A ghost note is effective because it:",
+        "options": [
+          "Is played fast",
+          "Is a whisper that lets the accent punch through by contrast",
+          "Replaces the kick",
+          "Is louder than the accent"
+        ],
+        "answer": 1,
+        "explanation": "The dynamic gap is the groove; a half-loud ghost is just a weak accent and muddies the contrast."
+      },
+      {
+        "question": "The shuffle differs from straight eighths in that it:",
+        "options": [
+          "Is faster",
+          "Splits each beat into a long-short triplet pair",
+          "Uses only the snare",
+          "Has no accents"
+        ],
+        "answer": 1,
+        "explanation": "The long-short triplet subdivision is the lilt of blues and early rock; straight eighths march."
+      }
+    ],
+    "mastery": [
+      "Place whisper-soft ghosts between the backbeat accents.",
+      "Hold a wide dynamic gap so the accents punch.",
+      "Tilt a groove into a shuffle while keeping the pulse.",
+      "Combine ghosts and shuffle into a laid-back pocket."
+    ],
+    "liveApplication": {
+      "scenarios": [
+        {
+          "setup": "Your rock groove sounds flat and mechanical.",
+          "action": "You add ghost notes in the ands at a whisper and widen the dynamic gap under the accents.",
+          "why": "Flatness is a contrast failure; the ghosts and the gap are what make it breathe."
+        },
+        {
+          "setup": "A blues tune needs the shuffle feel.",
+          "action": "You lock the ghosted straight groove first, then tilt the grid to long-short triplets.",
+          "why": "Layering the subdivision change on a solid groove prevents the two-new-things overwhelm."
+        }
+      ],
+      "perspectives": [
+        {
+          "role": "Using it",
+          "detail": "Dynamic control and the shuffle vocabulary take you from keeping time to creating a pocket a band can sit in."
+        },
+        {
+          "role": "Facing it",
+          "detail": "A bassist and singer lock hardest to a drummer whose ghosts and accents breathe, not march."
+        }
+      ],
+      "adaptation": {
+        "cues": [
+          "Half-loud ghosts",
+          "Flat volume",
+          "Premature shuffle"
+        ],
+        "adjustments": [
+          {
+            "if": "Ghosts are too loud",
+            "then": "Drop them to a whisper and re-feel the accent punch."
+          },
+          {
+            "if": "The shuffle wobbles",
+            "then": "Return to the straight ghosted groove until the pocket is solid, then tilt."
+          }
+        ],
+        "learning": "After each session, note the dynamic gap you achieved and whether the shuffle held the ghosts inside it."
+      }
+    },
+    "practiceEngine": {
+      "type": "rep-counter",
+      "label": "Ghost-Gap Reps",
+      "targetReps": 6
+    }
   }
 }
