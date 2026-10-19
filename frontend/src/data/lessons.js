@@ -18303,78 +18303,85 @@ export const lessons = {
   "music-foundations-rhythm": {
     "id": "music-foundations-rhythm",
     "subject": "Music",
-    "title": "Rhythm & Tempo - The Pulse",
+    "title": "Rhythm & Tempo — The Pulse",
     "level": "Beginner",
     "duration": "12 min",
-    "description": "Feel the steady pulse under every piece of music, name its speed (tempo in BPM), and find the downbeat - the three things every rhythm is built from.",
+    "description": "Every song has a heartbeat. Put your hand on your chest — that bump-bump? That is a pulse. This lesson teaches you to feel that heartbeat inside music, count how fast it goes, and find the strong beat that tells you where you are.",
     "objectives": [
-      "Tap a steady pulse that does not speed up or slow down",
-      "Name tempo as a number (BPM) and feel the difference between 60 and 120",
-      "Find the downbeat (the strong first beat) in a repeating pattern",
-      "Split one pulse into two even halves (subdivision)",
-      "Spot the four ways beginners lose the pulse"
+      "Tap along to a song without speeding up or slowing down",
+      "Feel the difference between a slow heartbeat (60 per minute, like a clock) and a fast one (120 per minute, twice as busy)",
+      "Find the strong ONE that starts every group of beats",
+      "Cut one beat into two smaller beats (say \"one-and-two-and\" and tap on each word)",
+      "Spot the four ways people lose the beat"
     ],
     "visuals": [
       {
         "type": "diagram",
-        "title": "The pulse grid",
-        "caption": "Every piece of music sits on a steady heartbeat of pulses. Tempo says how fast they fall, the downbeat is the strong one you can lean on, and subdivision cuts each pulse into even pieces. Rhythm is the pattern riding on top.",
+        "title": "The heartbeat under the music",
+        "caption": "Every song sits on top of a steady heartbeat of beats. How fast they fall has a number. The strong first beat in each group is home. And any beat can be cut into smaller even beats. The rhythm is the pattern riding on top.",
         "labels": [
           "Pulse: the steady heartbeat under the notes",
-          "Tempo: how fast the pulses fall, counted in BPM",
-          "Downbeat: the strong first beat each bar starts from",
-          "Subdivision: cutting one pulse into two or four even pieces",
-          "Rhythm: the long-and-short pattern riding on the pulse"
+          "Tempo: how many beats fall in one minute (a number, not a feeling)",
+          "Downbeat: the strong ONE at the start of each group",
+          "Subdivision: cutting one beat into two or four even pieces",
+          "Rhythm: the long-and-short pattern riding on top of the beats"
         ]
+      },
+      {
+        "type": "metronome",
+        "title": "Your steady heartbeat",
+        "caption": "This is your metronome. It clicks a steady beat for you. Move the slider to change how fast. Start at 60 — one click per second, like a clock ticking. Then use the TAP button: tap your finger on it in time with the clicks. The bar below tells you how close you are. Try to stay above 75%.",
+        "initialBpm": 60,
+        "tapMode": true
       }
     ],
     "sections": [
       {
         "title": "The heartbeat first",
-        "content": "Under the melody, under the chords, under everything, music has a heartbeat: the pulse. Clap along to any song and that steady tap you land on is it. Beginners chase the notes and lose the heartbeat; every experienced player locks the heartbeat first and lets the notes ride on top of it. So the first skill in music is not a note at all - it is keeping a steady tap going while everything else moves. If your tap drifts, everything built on it drifts."
+        "content": "Put your hand on your chest and feel it bump. That bump is your heart's pulse — a steady beat that keeps going whether you think about it or not. Music has a pulse too. Every song, every tune, has a steady beat under the notes, like a heartbeat under everything else. Clap along to any song on the radio and that steady clap you land on is the pulse. It was there before you noticed it. The first job in music is not a note or a chord. It is keeping that steady clap going while the singer sings and the guitar plays. If your clap speeds up or slows down, everything you build on top of it gets wobbly. So we start here, with nothing but a steady clap. Can you clap steady for one whole minute? That is the whole first skill."
       },
       {
         "title": "Tempo is a number, not a mood",
-        "content": "The speed of the pulse has a name and a number: BPM, beats per minute. 60 BPM means one pulse per second - exactly a clock ticking. 120 means two per second, twice as busy. Naming the number removes the argument about \"too fast\" or \"too slow\" and gives you something to set, watch and earn. And slow is not worse: slow is simply the speed where correct is possible. Every part you will ever play fast was first played slow enough to be right."
+        "content": "How fast is the heartbeat? We give it a number so we do not argue about \"too fast\" or \"too slow.\" The number is how many beats fit in one minute. Sixty beats in one minute means exactly one beat per second. Put your hand on your heart when you are resting and that is about how fast it beats. That is 60 BPM. A clock ticks 60 times a minute, so a clock is a free 60 BPM metronome. Double the number — 120 beats in a minute — and you have the speed of most pop songs. The number removes the fight. \"Too fast for me\" becomes \"160 is too fast for me today, I will work at 80.\" Slow is not worse. Slow is just the speed where you can get it right. Every fast thing anyone has ever played was first played slow."
       },
       {
-        "title": "The one is home",
-        "content": "Pulses group into bars, and the first pulse of each bar lands a little stronger - that is the downbeat, the \"one\". Feeling the one is how you always know where you are in the music, the same way a doorway tells you which room you are in. Count 1-2-3-4 out loud and notice that 1 feels heavier; that heaviness is not an accident, it is the map. Lose the one and you are technically playing but navigationally lost; find it and you can come back from any mistake."
+        "title": "The ONE is home",
+        "content": "Beats group together in little packs. The most common pack has four beats: 1-2-3-4, 1-2-3-4, 1-2-3-4. The first beat of each pack is a little heavier than the others. We call it the downbeat, or just \"the one.\" It is like how when you walk, you know which foot is the first step without thinking about it. The ONE is the doorway into the next pack of beats. If you get lost in a song, stop chasing the notes and listen for the strong ONE that starts the next pack. Find the ONE and you know where you are again. Lose the ONE and you are playing, but you are lost."
       }
     ],
     "principles": [
-      "The pulse is the heartbeat; lock it before any notes.",
-      "Tempo is a number (BPM): 60 means one pulse per second.",
-      "The downbeat is home - every bar starts from the strong one.",
-      "Subdivision keeps slow tempos honest by cutting pulses evenly."
+      "Lock the heartbeat before any notes. Notes ride on the pulse, not the other way around.",
+      "Tempo is a number: 60 means one beat per second, like a clock. Name the number and the argument ends.",
+      "The ONE is home. Every pack of beats starts on the strong one.",
+      "Cutting a beat into two smaller beats (1-and-2-and) keeps slow beats honest."
     ],
     "mistakes": [
       {
-        "title": "Rushing ahead of the pulse",
-        "explanation": "Excitement speeds the tap up. Tap along to something external (a clock, a recording) until your pulse matches it."
+        "title": "Rushing ahead of the beat",
+        "explanation": "Excitement speeds you up. Tap along to something outside you — a clock, a recording, a metronome — until your tap matches it."
       },
       {
-        "title": "Dragging behind the pulse",
-        "explanation": "Fatigue or uncertainty slows the tap. Count out loud; the voice holds the feet and hands honest."
+        "title": "Dragging behind the beat",
+        "explanation": "Being tired or unsure makes you slow down. Count out loud: 1-2-3-4, 1-2-3-4. Your voice holds your hands honest."
       },
       {
         "title": "Counting only in your head",
-        "explanation": "Silent counting hides drift. Say the numbers and tap them; make the pulse audible and physical."
+        "explanation": "Silent counting hides when you drift. Say the numbers out loud and tap them. Make the beat a sound and a feeling, not just a thought."
       },
       {
-        "title": "Ignoring the downbeat",
-        "explanation": "Without the one you cannot tell which bar you are in. Feel the strong first beat every bar until it is obvious."
+        "title": "Ignoring the ONE",
+        "explanation": "Without the ONE you do not know which pack of beats you are in. Feel the heavy first beat every pack until it is obvious."
       }
     ],
     "practice": [
-      "Tap along to a clock or watch second hand for 60 seconds - that is 60 BPM, your free metronome.",
-      "Tap 60 BPM with your hand while counting 1-2-3-4 out loud, five bars.",
-      "Clap only the downbeat of each bar while your foot taps every pulse, five bars.",
-      "Split each pulse into two even taps (say 1-and-2-and) for five bars.",
-      "Put on any song: find its pulse, find its one, then tap both together for a minute."
+      "Tap along to a clock's tick for one minute. That is 60 BPM, your free metronome.",
+      "Tap 60 BPM with your hand while saying 1-2-3-4 out loud. Do five packs of four.",
+      "Tap only the strong ONE of each pack while your foot taps every beat. Do five packs.",
+      "Cut each beat into two small taps — say \"one-and-two-and\" and tap on each word. Do five packs.",
+      "Put on any song: find its heartbeat, find its ONE, then tap both together for one minute."
     ],
-    "reflection": "Last time you listened or played, could you find the pulse and the one within two bars, or did you have to hunt for them?",
-    "safety": "Keep playback volume comfortable so you can still hear your own taps, and shake out any hand or shoulder tension that builds while tapping.",
+    "reflection": "Last time you listened to a song, could you find the heartbeat and the ONE within two packs, or did you have to hunt for them?",
+    "safety": "Keep playback volume comfortable so you can still hear your own taps. Shake out any hand or shoulder tension that builds while tapping.",
     "quiz": [
       {
         "question": "The pulse in music is best described as:",
@@ -18385,54 +18392,54 @@ export const lessons = {
           "The singer"
         ],
         "answer": 1,
-        "explanation": "Everything else rides on the steady pulse; it is the tap you clap along to, and the first thing to lock."
+        "explanation": "Everything else rides on the steady pulse. It is the tap you clap along to, and the first thing to lock."
       },
       {
         "question": "60 BPM means:",
         "options": [
-          "One pulse per second",
-          "60 pulses per second",
-          "Six pulses per minute",
-          "Half a pulse per second"
+          "One beat per second",
+          "60 beats per second",
+          "Six beats per minute",
+          "Half a beat per second"
         ],
         "answer": 0,
-        "explanation": "60 beats per minute is exactly one per second - a clock is a free 60 BPM metronome."
+        "explanation": "60 beats per minute is exactly one per second. A clock is a free 60 BPM metronome."
       }
     ],
     "mastery": [
-      "Hold a steady pulse for a full minute without drifting.",
-      "Feel and name the difference between 60 and 120 BPM.",
-      "Find the downbeat in an unfamiliar song within two bars.",
-      "Subdivide a slow pulse into even halves."
+      "Hold a steady beat for one whole minute without drifting.",
+      "Feel the difference between a 60 BPM heartbeat (slow, like a clock) and a 120 BPM one (fast, like a pop song).",
+      "Find the ONE in a new song within two packs of beats.",
+      "Cut a slow beat into two small beats evenly, on the words one-and-two-and."
     ],
     "liveApplication": {
       "scenarios": [
         {
-          "setup": "Playing with others, the group drifts apart.",
-          "action": "Everyone locks to one shared pulse - tap it, hear it, follow it - instead of each private sense of speed.",
-          "why": "A group stays together on a common heartbeat, not on individual confidence."
+          "setup": "You are playing with others and everyone drifts apart.",
+          "action": "Everyone locks to one shared heartbeat — tap it, hear it, follow it — instead of each going their own speed.",
+          "why": "A group stays together on one heartbeat, not on each person's confidence."
         },
         {
           "setup": "You get lost mid-song and cannot find your place.",
-          "action": "You stop chasing notes and listen for the strong one of the next bar, re-entering there.",
-          "why": "The downbeat is the doorway back in; hunting melodies while lost only digs deeper."
+          "action": "Stop chasing notes. Listen for the strong ONE of the next pack. Come back in there.",
+          "why": "The ONE is the doorway back. Chasing melodies while lost only digs deeper."
         }
       ],
       "perspectives": [
         {
           "role": "Using it",
-          "detail": "Solid time makes you the player others follow and the one recordings sit well on."
+          "detail": "A player with solid time is the one others follow. Recordings sit well on their beat."
         },
         {
           "role": "Facing it",
-          "detail": "A steady-time player is easy to accompany; their pulse gives the whole group a floor."
+          "detail": "A steady-time player is easy to play with. Their pulse gives the whole group a floor."
         }
       ],
       "adaptation": {
         "cues": [
           "Tap drifting fast",
           "Tap drifting slow",
-          "Losing the one"
+          "Losing the ONE"
         ],
         "adjustments": [
           {
@@ -18440,17 +18447,17 @@ export const lessons = {
             "then": "Tap along to an external clock or recording until your pulse matches it."
           },
           {
-            "if": "You lose the one",
-            "then": "Count out loud 1-2-3-4 and feel the heaviness of 1 each bar."
+            "if": "You lose the ONE",
+            "then": "Count out loud 1-2-3-4 and feel the heaviness of 1 each pack."
           }
         ],
-        "learning": "After each session, note whether your tap stayed with the reference and how fast you found the one in a new song."
+        "learning": "After each session, note whether your tap stayed with the reference and how fast you found the ONE in a new song."
       }
     },
     "practiceEngine": {
-      "type": "timed-hold",
-      "label": "Steady Pulse Hold",
-      "initialTime": 60
+      "type": "metronome",
+      "label": "Steady Pulse with Metronome",
+      "initialBpm": 60
     }
   },
   "music-foundations-practice-loop": {
