@@ -25124,6 +25124,351 @@ export const lessons = {
           "Pulse: count 1 & 2 & 3 & 4 & aloud while playing",
           "The and-of-3 kick is what gives the groove forward motion"
         ]
+      },
+      {
+        "type": "rhythm-pattern",
+        "title": "Groove library — play it, then fix it",
+        "caption": "These are starting-point grooves. Press Play to hear one, then tap squares to change hits until it matches what YOUR ear knows. When it sounds right, tell me the syllables (like \"dd mm dr\") and I will save your version as the official pattern.",
+        "initialBpm": 90,
+        "patterns": [
+          {
+            "name": "Highlife",
+            "timeSig": "4/4",
+            "steps": 16,
+            "division": 4,
+            "syllables": "go--go--go--go-go-- / dun-------dun------- / ----ka------ka---- / ti-ti-ti-ti-ti-ti-ti-ti",
+            "lanes": [
+              {
+                "name": "Bell",
+                "voice": "bell",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "name": "Kick",
+                "voice": "kick",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Snare",
+                "voice": "snare",
+                "grid": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Hat",
+                "voice": "hat",
+                "grid": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fuji",
+            "timeSig": "4/4",
+            "steps": 16,
+            "division": 4,
+            "syllables": "ka-ka-kaka-ka-ka-kaka- / dun-------dun---dun--- / ti-ti-ti-ti-ti-ti-ti-ti",
+            "lanes": [
+              {
+                "name": "Talk/Snare",
+                "voice": "snare",
+                "grid": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "name": "Kick",
+                "voice": "kick",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Hat",
+                "voice": "hat",
+                "grid": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Worro",
+            "timeSig": "12/8",
+            "steps": 12,
+            "division": 3,
+            "syllables": "go--go--go-go-- / dun-----dun-----",
+            "lanes": [
+              {
+                "name": "Bell",
+                "voice": "bell",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "name": "Kick",
+                "voice": "kick",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Snare",
+                "voice": "snare",
+                "grid": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Reggae one-drop",
+            "timeSig": "4/4",
+            "steps": 16,
+            "division": 4,
+            "syllables": "--------dun+ka---- / ti-ti-ti-ti-ti-ti-ti-ti",
+            "lanes": [
+              {
+                "name": "Kick",
+                "voice": "kick",
+                "grid": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Snare",
+                "voice": "snare",
+                "grid": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "name": "Hat",
+                "voice": "hat",
+                "grid": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gankogui bell",
+            "timeSig": "12/8",
+            "steps": 12,
+            "division": 3,
+            "syllables": "go--go--go-go--go-",
+            "lanes": [
+              {
+                "name": "Bell",
+                "voice": "bell",
+                "grid": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sections": [

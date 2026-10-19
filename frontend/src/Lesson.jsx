@@ -9,6 +9,7 @@ import AttentionLoopVisual from './components/AttentionLoopVisual'
 import MovementPostureVisual from './components/MovementPostureVisual'
 import TargetOverlay from './components/TargetOverlay'
 import MetronomeVisual from './components/MetronomeVisual'
+import RhythmPatternVisual from './components/RhythmPatternVisual'
 import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
@@ -165,6 +166,9 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'metronome') {
             return <MetronomeVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'rhythm-pattern') {
+            return <RhythmPatternVisual key={index} visual={visual} />
           }
           return <LessonVisualBlock key={index} visual={visual} />
         })}
