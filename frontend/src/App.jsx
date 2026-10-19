@@ -7,7 +7,7 @@ import { ProgressProvider, useProgress } from './ProgressContext'
 import './App.css'
 
 const MIND_PAGES = ['meditation', 'breathing', 'training', 'music']
-const DOMAIN_PAGES = ['programming', 'medicine', 'business', 'skills']
+const DOMAIN_PAGES = ['programming', 'medicine', 'business', 'skills', 'roles', 'law']
 
 const areas = [
   { icon: '🥋', title: 'Martial Arts', path: '/martial-arts', text: 'Learn techniques, styles, fundamentals and principles.' },
@@ -19,6 +19,8 @@ const areas = [
   { icon: '🩺', title: 'Medicine',    path: '/medicine',    text: 'Understand the body, read symptoms honestly, know the referral ceiling.' },
   { icon: '💼', title: 'Business',    path: '/business',    text: 'Create value, reach customers and read the numbers that matter.' },
   { icon: '🎯', title: 'Skills',      path: '/skills',      text: 'Focus, memory, habits and learning-how-to-learn: the meta-skills.' },
+  { icon: '🏢', title: 'Company Roles', path: '/roles', text: 'What each position actually does, and what the same job is called in every industry.' },
+  { icon: '⚖️', title: 'Law & Rights', path: '/law', text: 'Legal structures and your rights, explained as awareness, never as advice.' },
 ]
 
 function parseHash() {
