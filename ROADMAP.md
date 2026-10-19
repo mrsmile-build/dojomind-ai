@@ -35,15 +35,24 @@
 - Translation tiers: inline local-term gloss (cheap, later); UI language toggle (medium, later); full lesson translation (human-checked only, much later).
 - AI image generation: PARKED (Groq=text-only; OpenRouter/self-host not free + hallucinate joints; Pixabay=stock search). Parametric SVG is the engine.
 
-## Ordered queue (next first) - DEEPEN + POLISH PHASE
-1. Deepen Music: complete Theory's full ladder first (Int, Exp), then instruments level-by-level (each instrument Int then Exp) - dependent subs build on a finished theory foundation, never a half one.
-2. Deepen Skills: Intermediate -> Expert (Focus, Memory, Habits, Learning).
-3. Deepen Medicine: Intermediate -> Expert (Foundations, First Aid, Plant Medicine, Anatomy).
-4. Deepen Business: Intermediate -> Expert (Foundations, Marketing, Finance, Operations).
-5. Deepen Programming: Intermediate -> Expert (Foundations, Python, JavaScript, Web).
-6. Deepen remaining martial arts: Intermediate -> Expert (Boxing, Taekwondo, Muay Thai, Judo, BJJ, Wrestling, Kung Fu) - Karate already complete.
-7. Polish passes (interleaved with deepen, per domain): body poses from user references; instrument overlays + metronome/ear-trainer; runnable snippets; anatomy & business interactives; translation gloss tier.
-8. Platform: PWA/offline, per-page titles + OG tags. Backend: cross-device progress, then AI companion.
+## Monetization & Integrity Architecture (locked decisions)
+- App-first paid tiers: Capacitor native wrapper required for intermediate+ and certificate issuance. Android FLAG_SECURE blocks screenshots/recording at OS level; iOS detects capture and blurs content. Web remains free-beginner only.
+- Traceability over prevention: forensic watermarking (visible subtle user ID + timestamp in lesson chrome; invisible steganographic ID in SVG/canvas visuals). Camera leakage is traceable, not preventable.
+- Practice evidence: lesson completion requires practice-engine interactions (reps, timed holds), not click-through.
+- Pacing: minimum dwell per level, max lessons/day, server-enforced "return on date" lockout.
+- Batched cohort issuance: completions recorded instantly; certificates issued on scheduled monthly dates. Payment unlocks study, never accelerates issuance. This structurally prevents pay-to-overtake and clusters certificate dates.
+- Certificates: Ed25519-signed records with unique ID, public verify URL, QR code, revocation list, cohort + pace-integrity metadata. Not a forgeable PDF. A certificate proves completed learning, never innocence or legal defense.
+- Privacy/accessibility: device fingerprinting and watermarking disclosed in ToS/privacy policy; NDPR/GDPR compliant, data minimized. Real accessible text is kept (no image-ified text); in-app notes replace the urge to screenshot.
+
+## Ordered queue (next first) - FUNNEL + MONETIZATION BACKBONE
+1. Beginner polish across all domains (the free funnel that sells intermediate): plain-language rewrite, visual clarity, practice-engine tuning.
+2. Capacitor spike: wrap existing React app, implement FLAG_SECURE (Android) + capture blur (iOS), root/jailbreak detection, device attestation stub.
+3. Auth + payments: Supabase (or Node+Postgres) accounts, Paystack/Flutterwave webhooks for NGN, Stripe for global, enrollment records.
+4. Pacing + cohort issuance engine: dwell rules, practice evidence, scheduled issuance cron, "return on date" UI, multi-account/device flags.
+5. Certificate service: Ed25519 signing, verify.dojomind.ai endpoint, QR, revocation, optional transparency log.
+6. Scaffold Roles + Law & Rights as honest containers (jurisdiction-neutral law, alias field for roles, ceilings wired before any content).
+7. Deepen remaining rungs (Music instruments expert, Skills/Medicine/Business/Programming intermediate, martial arts) - now funded by the backbone.
+8. Law localization and advanced polish only after qualified lawyer review per jurisdiction.
 
 ## Method (why this works)
 Measure before cut (read the file/registry first). Chunk pastes. Gate with node --check + verify-through-import. Browser-test. Ship. The blank-page era ended when verification moved from echoes to imported objects and from guesses to reads. Breadth ended when every card became a real domain; depth begins now.
