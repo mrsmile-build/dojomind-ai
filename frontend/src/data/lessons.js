@@ -25128,7 +25128,7 @@ export const lessons = {
       {
         "type": "rhythm-pattern",
         "title": "Groove library — play it, then fix it",
-        "caption": "These are starting-point grooves. Press Play to hear one, then tap squares to change hits until it matches what YOUR ear knows. When it sounds right, tell me the syllables (like \"dd mm dr\") and I will save your version as the official pattern.",
+        "caption": "These patterns are educational starting points. The gankogui bell is verified from academic sources. The others are approximations — use the Groove Recorder below to play the real groove, then send me the code and I will save your recording as the official pattern.",
         "initialBpm": 90,
         "patterns": [
           {
@@ -25136,7 +25136,7 @@ export const lessons = {
             "timeSig": "4/4",
             "steps": 16,
             "division": 4,
-            "syllables": "go--go--go--go-go-- / dun-------dun------- / ----ka------ka---- / ti-ti-ti-ti-ti-ti-ti-ti",
+            "syllables": "ko koko ko koko ko koko (YOUR words — this grid is an educational approximation from Ghanaian drum tutorials; use the Groove Recorder to play the real one)",
             "lanes": [
               {
                 "name": "Bell",
@@ -25226,14 +25226,15 @@ export const lessons = {
                   0
                 ]
               }
-            ]
+            ],
+            "source": "Educational approximation from Ghanaian drum tutorials; needs verification from a highlife drummer"
           },
           {
             "name": "Fuji",
             "timeSig": "4/4",
             "steps": 16,
             "division": 4,
-            "syllables": "ka-ka-kaka-ka-ka-kaka- / dun-------dun---dun--- / ti-ti-ti-ti-ti-ti-ti-ti",
+            "syllables": "Educational approximation — fuji uses talking drums (gangan) with sakara patterns; use the Groove Recorder to play the real one",
             "lanes": [
               {
                 "name": "Talk/Snare",
@@ -25301,14 +25302,15 @@ export const lessons = {
                   0
                 ]
               }
-            ]
+            ],
+            "source": "Educational approximation; fuji uses talking drum patterns that need verification"
           },
           {
             "name": "Worro",
             "timeSig": "12/8",
             "steps": 12,
             "division": 3,
-            "syllables": "go--go--go-go-- / dun-----dun-----",
+            "syllables": "ko ko koko ko ko (YOUR words — this grid is an educational approximation; use the Groove Recorder to play the real one)",
             "lanes": [
               {
                 "name": "Bell",
@@ -25364,7 +25366,8 @@ export const lessons = {
                   0
                 ]
               }
-            ]
+            ],
+            "source": "Educational approximation; needs verification from a worro drummer"
           },
           {
             "name": "Reggae one-drop",
@@ -25439,14 +25442,15 @@ export const lessons = {
                   0
                 ]
               }
-            ]
+            ],
+            "source": "Standard reggae one-drop pattern (kick + snare on beat 3)"
           },
           {
             "name": "Gankogui bell",
             "timeSig": "12/8",
             "steps": 12,
             "division": 3,
-            "syllables": "go--go--go-go--go-",
+            "syllables": "go--go-go-go--go--go (standard 12/8 bell pattern, verified)",
             "lanes": [
               {
                 "name": "Bell",
@@ -25454,19 +25458,20 @@ export const lessons = {
                 "grid": [
                   1,
                   0,
-                  0,
-                  1,
-                  0,
-                  0,
                   1,
                   0,
                   1,
+                  1,
                   0,
+                  1,
+                  0,
+                  1,
                   0,
                   1
                 ]
               }
-            ]
+            ],
+            "source": "Wikipedia: Bell Pattern; ethnomusicology standard"
           }
         ]
       }
