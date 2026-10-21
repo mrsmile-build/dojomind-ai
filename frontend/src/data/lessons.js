@@ -21539,19 +21539,19 @@ export const lessons = {
     "title": "The Attention Muscle",
     "level": "Beginner",
     "duration": "10 min",
-    "description": "Attention is a trainable muscle, not a mood: it wanders, you notice, you return - and each return is one rep. Learn the rep, and learn why every task-switch taxes you twice.",
+    "description": "Attention is like a muscle: it gets stronger every time you notice it wandered and bring it back gently. Wandering is not failure — it is the setup for the rep. This lesson gives you a timer that counts your reps and logs what pulls you away.",
     "objectives": [
-      "Treat wandering as normal and the return as the rep",
-      "Feel attention residue: the tax left behind by every switch",
+      "Treat wandering as normal and the return as the rep that builds the muscle",
+      "Feel the \"switch tax\" — the toll you pay every time you jump between tasks",
       "Practice single-tasking with one open loop at a time",
-      "Return without self-attack; the notice is the success",
-      "Recognize the four most common attention errors"
+      "Return without attacking yourself; the notice is the success",
+      "Log your distractions and see your pattern over time"
     ],
     "visuals": [
       {
         "type": "attention-loop",
         "title": "Focus, wander, notice, return",
-        "caption": "The loop is the workout. Wandering is not failure - failing to notice is the only miss. Each gentle return is one rep that strengthens the muscle you use for everything else.",
+        "caption": "The loop is the workout. Wandering is not failure — failing to notice is the only miss. Each gentle return is one rep that strengthens the muscle you use for everything else.",
         "phases": [
           {
             "label": "Focus",
@@ -21563,7 +21563,7 @@ export const lessons = {
           },
           {
             "label": "Wander",
-            "note": "the mind leaves - normal",
+            "note": "the mind leaves — normal",
             "x": 140,
             "y": 70,
             "glow": false,
@@ -21586,26 +21586,33 @@ export const lessons = {
             "cloud": false
           }
         ]
+      },
+      {
+        "type": "pomodoro",
+        "title": "Your focus timer",
+        "caption": "Press Start. Work for 25 minutes, then take a 5-minute break. If you get distracted, tap \"I got distracted\" and tell the timer what pulled you away. Over time you will see your pattern — which distractions hit you most, and how often. That pattern is the map for designing against distraction.",
+        "focusMinutes": 25,
+        "breakMinutes": 5
       }
     ],
     "sections": [
       {
-        "title": "The rep, not the streak",
-        "content": "Beginners believe focus means never wandering, so the first wander feels like failure and the session collapses. The truth is the opposite: wandering is what minds do, and the rep is the return. Focus, wander, notice, return - the notice-and-return is the contraction that builds the muscle, exactly like a bicep curl builds nothing by holding still. A work session with twenty noticed wanders and twenty gentle returns is a strong session; a session you believe had none is usually one where the wanders went unnoticed and ran the show."
+        "title": "The rep is the return",
+        "content": "Imagine lifting a weight. The muscle gets stronger not by holding the weight still, but by lifting it up and putting it down, over and over. Attention works the same way. The \"lift\" is the moment you notice your mind wandered and bring it back gently. That notice-and-return is the rep that builds the attention muscle. Beginners think focus means never wandering, so the first wander feels like failure and they quit. But wandering is what minds do — the rep is the return. A work session with twenty noticed wanders and twenty gentle returns is a strong session, like twenty bicep curls. A session you believe had no wanders is usually one where the wanders went unnoticed and ran the show."
       },
       {
         "title": "The switch tax",
-        "content": "Every time you jump from the report to a message and back, part of your attention stays stuck on the message - psychologists call it attention residue, and it is why interrupted work feels tired and reads badly. The tax is paid twice: once leaving (the cost of disengaging) and once returning (the cost of reloading context). This is why ten quick checks do not cost ten seconds each; they cost the reload every time. Single-tasking is not a moral virtue, it is tax avoidance: one open loop until it closes or is parked in writing."
+        "content": "Every time you jump from your report to check a message and back, you pay a toll twice. Once leaving (the cost of stopping what you were doing) and once returning (the cost of reloading where you were). Psychologists call the leftover part \"attention residue\" — a piece of your mind stays stuck on the message while you try to get back into the report. That is why interrupted work feels tired and reads badly. Ten quick checks do not cost ten seconds each; they cost the reload tax every time. Single-tasking is not a moral virtue; it is tax avoidance. One open loop until it closes or you park it in writing, instead of visiting it mid-sentence."
       },
       {
-        "title": "Returning without the whip",
-        "content": "The quality of the return decides whether the muscle grows or the session dies. A harsh return - annoyance, self-insult, yanking attention back - adds agitation that becomes the next distraction. A gentle return - oh, I drifted; here is the sentence again - keeps the loop clean and repeatable. This is the same skill meditation trains, aimed at a spreadsheet instead of a breath: the object changes, the rep does not. People who seem naturally focused have usually just accumulated more gentle reps than you, starting earlier."
+        "title": "Gentle returns build the muscle",
+        "content": "The quality of the return decides whether the muscle grows or the session dies. A harsh return — annoyance, self-insult, yanking your attention back like grabbing a runaway dog — adds agitation that becomes the next distraction. A gentle return — \"oh, I drifted; here is the sentence again\" — keeps the loop clean and repeatable. This is the same skill meditation trains, aimed at a spreadsheet instead of a breath: the object changes, the rep does not. People who seem naturally focused have usually just accumulated more gentle reps than you, starting earlier. The timer above counts your reps and logs what pulls you away, so you can see your pattern and design against it."
       }
     ],
     "principles": [
       "Wandering is normal; the notice-and-return is the rep that builds the muscle.",
-      "Every switch leaves attention residue and pays the reload tax.",
-      "One open loop at a time: single-tasking is tax avoidance.",
+      "Every switch pays a toll twice: leaving and reloading. Single-tasking is tax avoidance.",
+      "One open loop at a time; park intruders in writing instead of visiting them.",
       "Return gently; self-attack becomes the next distraction."
     ],
     "mistakes": [
@@ -21627,14 +21634,14 @@ export const lessons = {
       }
     ],
     "practice": [
-      "Set a ten-minute single-loop timer; count wanders on paper, return gently each time.",
-      "Work one document with everything else closed; note the reload feeling when you resist a check.",
+      "Set the timer above for one 25-minute focus block; log every distraction that pulls you away.",
+      "Work one document with everything else closed; notice the reload feeling when you resist a check.",
       "Park every intruding thought in a notebook line instead of acting on it, ten reps.",
       "After each switch you must make, say aloud what you are leaving and what you return to.",
       "End the day counting loops closed, not hours sat."
     ],
-    "reflection": "In your last work hour, how many times did you notice yourself wandering - and how many of those returns were gentle?",
-    "safety": "No physical risk; if attention problems come with exhaustion, sleep debt or distress, treat the cause first - focus training cannot outrun an empty tank.",
+    "reflection": "In your last work hour, how many times did you notice yourself wandering — and how many of those returns were gentle?",
+    "safety": "No physical risk; if attention problems come with exhaustion, sleep debt or distress, treat the cause first — focus training cannot outrun an empty tank.",
     "quiz": [
       {
         "question": "In attention training, the rep that builds the muscle is:",
@@ -21648,15 +21655,15 @@ export const lessons = {
         "explanation": "The notice-and-return is the contraction; a wander-free session is a myth and an unnoticed wander is a lost rep."
       },
       {
-        "question": "Attention residue means:",
+        "question": "The \"switch tax\" means:",
         "options": [
-          "Dirt on the screen",
-          "Part of your attention stays stuck on the task you switched from",
-          "Memory of old emails",
-          "Tired eyes"
+          "Paying for apps",
+          "Every task switch costs you twice: leaving and reloading",
+          "A tax on productivity",
+          "The cost of internet"
         ],
         "answer": 1,
-        "explanation": "Switching leaves residue and pays a reload cost on return, which is why interrupted work feels tired and reads badly."
+        "explanation": "Switching leaves attention residue and pays a reload cost on return, which is why interrupted work feels tired and reads badly."
       }
     ],
     "mastery": [
