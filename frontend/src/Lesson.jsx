@@ -13,6 +13,7 @@ import RhythmPatternVisual from './components/RhythmPatternVisual'
 import PracticeLoopVisual from './components/PracticeLoopVisual'
 import FlashcardEngine from './components/FlashcardEngine'
 import PomodoroEngine from './components/PomodoroEngine'
+import HabitLoopEngine from './components/HabitLoopEngine'
 import EarTrainerVisual from './components/EarTrainerVisual'
 import GrooveRecorder from './components/GrooveRecorder'
 import { liveApplications } from './data/liveApplications'
@@ -183,6 +184,9 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'pomodoro') {
             return <PomodoroEngine key={index} visual={visual} />
+          }
+          if (visual.type === 'habit-loop') {
+            return <HabitLoopEngine key={index} visual={visual} />
           }
           if (visual.type === 'ear-trainer') {
             return <EarTrainerVisual key={index} visual={visual} />

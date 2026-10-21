@@ -22977,75 +22977,80 @@ export const lessons = {
     "title": "The Habit Loop",
     "level": "Beginner",
     "duration": "10 min",
-    "description": "Every habit - good or stubborn - runs the same four-beat loop: cue, craving, routine, reward. See your own loops clearly and behavior stops being a mystery and starts being a machine you can adjust.",
+    "description": "Every habit — good or stubborn — is a machine with four gears: a cue starts it, a craving runs it, a routine does the work, and a reward teaches the brain to run it again. This lesson gives you a tool to map your own machines so you can redesign them.",
     "objectives": [
-      "Name the four beats: cue, craving, routine, reward",
+      "Name the four gears: cue, craving, routine, reward",
       "Spot the cue that starts one of your own habits, including time and place",
       "Identify the reward the routine is actually buying",
-      "Write one of your loops out in full, honestly",
+      "Map three of your own loops honestly using the tool below",
       "Recognize the four most common loop-blindness errors"
     ],
     "visuals": [
       {
         "type": "diagram",
-        "title": "The four-beat loop",
-        "caption": "Habits are not character, they are circuitry: a cue triggers a craving, the craving runs a routine, the routine delivers a reward, and the reward teaches the brain to run it again. Change any beat and the loop changes.",
+        "title": "The four-gear machine",
+        "caption": "Habits are not character, they are machinery: a cue turns the first gear, the craving turns the second, the routine turns the third, and the reward turns the fourth, which teaches the first gear to spin sooner next time. Change any gear and the machine changes.",
         "labels": [
-          "Cue: time, place, feeling, people or the previous action",
-          "Craving: the want the cue predicts - the engine of the loop",
+          "Cue: time, place, feeling, people or the previous action that starts the machine",
+          "Craving: the want the cue predicts — the engine that pulls the routine",
           "Routine: the behavior itself, mental or physical",
-          "Reward: what the routine buys - relief, taste, status, rest",
-          "Loop: the reward teaches the brain to notice the cue sooner"
+          "Reward: what the routine buys — relief, taste, status, rest",
+          "Loop: the reward teaches the brain to notice the cue sooner next time"
         ]
+      },
+      {
+        "type": "habit-loop",
+        "title": "Map your machines",
+        "caption": "Press \"Map your first loop\" and fill in the four gears for one habit — good or stubborn. Be honest: the reward is often not the one you assumed (the snack buys a break, not hunger relief; the scroll buys a pause from a hard paragraph, not information). Map three loops and the tool will show you your patterns."
       }
     ],
     "sections": [
       {
-        "title": "Circuitry, not character",
-        "content": "A habit is the brain outsourcing a repeated decision: after enough repetitions, the cue alone launches the routine without consulting your intentions, which is why you can arrive in the kitchen with no memory of deciding to go. That is not weakness, it is efficiency - the same machinery that makes driving automatic makes phone-reaching automatic. Seeing habits as circuitry removes the moral story (I am lazy, I have no discipline) and replaces it with an engineering one (what is the cue, what is the reward), and engineering problems have engineering answers."
+        "title": "Machines, not character",
+        "content": "Think of a vending machine. You put in a coin (the cue), the machine promises you a snack (the craving), you push the button (the routine), and you get the snack (the reward). After enough times, just seeing the machine makes you want a snack — the machine has trained you. A habit is the brain building a vending machine for a repeated decision: after enough repetitions, the cue alone launches the routine without consulting your intentions, which is why you can arrive in the kitchen with no memory of deciding to go. That is not weakness, it is efficiency — the same machinery that makes driving automatic makes phone-reaching automatic. Seeing habits as machines removes the moral story (\"I am lazy, I have no discipline\") and replaces it with an engineering story (what is the cue, what is the reward), and engineering problems have engineering answers."
       },
       {
         "title": "The craving is the engine",
-        "content": "Between cue and routine sits the beat people miss: craving, the anticipated reward that gives the loop its pull. The cue does not cause the behavior directly; it causes a want (the smell of coffee predicts the relief of the first sip; the 3pm slump predicts the scroll that makes boredom end), and the want runs the routine. This is why willpower fails against habits - you are fighting a prediction the brain has verified hundreds of times - and why habit change works through the beats: change the cue, change the reward, or give the same craving a different routine."
+        "content": "Between the cue and the routine sits the gear people miss: the craving, the anticipated reward that gives the loop its pull. The cue does not cause the behavior directly; it causes a want. The smell of coffee predicts the relief of the first sip; the 3pm slump predicts the scroll that makes boredom end. That want is what runs the routine. This is why willpower fails against habits — you are fighting a prediction the brain has verified hundreds of times. And this is why habit change works through the gears: you can change the cue (move the coffee maker), change the reward (swap the snack for a walk), or give the same craving a different routine (when you crave a break, stretch instead of scrolling). The machine is adjustable; you are not stuck with it."
       },
       {
-        "title": "Write your loop out",
-        "content": "The first practical skill is diagnosis: pick one habit, good or bad, and write its four beats in plain sentences - when and where it starts, what it promises, what you actually do, what you actually get. Most people discover their reward is not the one they assumed (the snack buys a break, not hunger relief; the scroll buys a pause from a hard paragraph, not information), and that discovery is the key to every later adjustment. A loop written honestly is half-designed already, because you finally know which machine you are operating."
+        "title": "Map your machine",
+        "content": "The first practical skill is diagnosis: pick one habit, good or bad, and write its four gears in plain sentences — when and where it starts, what it promises, what you actually do, what you actually get. Most people discover their reward is not the one they assumed (the snack buys a break, not hunger relief; the scroll buys a pause from a hard paragraph, not information), and that discovery is the key to every later adjustment. A machine mapped honestly is half-redesigned already, because you finally know which gears you are operating. Use the tool above: press \"Map your first loop,\" fill in the four gears, save it, and do it again for two more habits. After three loops the tool will show you your patterns — the cues that keep starting your machines, the rewards they keep buying — and patterns are the first thing you can redesign."
       }
     ],
     "principles": [
-      "Habits are circuitry: cue, craving, routine, reward - not character.",
+      "Habits are machines with four gears: cue, craving, routine, reward — not character.",
       "The cue triggers a craving; the craving runs the routine.",
       "The real reward is often not the assumed one; diagnose before designing.",
-      "Writing a loop in plain sentences is the first act of changing it."
+      "Mapping a machine honestly is the first act of redesigning it."
     ],
     "mistakes": [
       {
         "title": "Moralizing instead of mapping",
-        "explanation": "Lazy and undisciplined are stories, not mechanisms. Write the four beats and the problem becomes adjustable."
+        "explanation": "\"Lazy\" and \"undisciplined\" are stories, not mechanisms. Write the four gears and the problem becomes adjustable."
       },
       {
-        "title": "Ignoring the craving beat",
-        "explanation": "Cue to routine skips the engine. Name what the loop promises or you will change the wrong beat."
+        "title": "Ignoring the craving gear",
+        "explanation": "Cue to routine skips the engine. Name what the machine promises or you will change the wrong gear."
       },
       {
         "title": "Assuming the reward",
         "explanation": "The snack may buy a break, the scroll a pause. Verify the actual reward by asking what you feel after."
       },
       {
-        "title": "Fighting loops with willpower alone",
+        "title": "Fighting machines with willpower alone",
         "explanation": "Willpower loses to verified predictions. Change cues, rewards or routines instead of pressing harder."
       }
     ],
     "practice": [
-      "Write one good habit of yours in four beats; find the cue you never noticed.",
-      "Write one stubborn habit in four beats; name the reward it really buys.",
-      "For three days, log the time and place each stubborn loop starts.",
-      "Ask after each routine: what did I actually get? Note surprises.",
-      "Teach the four beats to someone else using one of your own loops."
+      "Map one good habit in four gears using the tool above; find the cue you never noticed.",
+      "Map one stubborn habit in four gears; name the reward it really buys.",
+      "Map a third habit and let the tool show you your patterns.",
+      "For three days, log the time and place each stubborn machine starts.",
+      "Teach the four gears to someone else using one of your own machines."
     ],
-    "reflection": "Which of your loops did you just discover today - and what reward was it really buying all along?",
-    "safety": "No physical risk; if a loop involves substances or self-harm, treat it as a health matter with professional support, not a design exercise.",
+    "reflection": "Which of your machines did you just discover today — and what reward was it really buying all along?",
+    "safety": "No physical risk; if a machine involves substances or self-harm, treat it as a health matter with professional support, not a design exercise.",
     "quiz": [
       {
         "question": "The engine that runs a habit routine is:",
@@ -23059,40 +23064,40 @@ export const lessons = {
         "explanation": "The cue triggers an anticipated reward; that want is what launches the behavior, which is why willpower alone loses."
       },
       {
-        "question": "Writing a loop out honestly matters because:",
+        "question": "Mapping a machine honestly matters because:",
         "options": [
           "It looks professional",
-          "It reveals the real reward and the real cue, which are the adjustable beats",
+          "It reveals the real reward and the real cue, which are the adjustable gears",
           "It proves you are lazy",
           "It replaces the habit"
         ],
         "answer": 1,
-        "explanation": "Most rewards are mis-assumed; diagnosis precedes design, and a mapped loop is half-changed."
+        "explanation": "Most rewards are mis-assumed; diagnosis precedes design, and a mapped machine is half-redesigned."
       }
     ],
     "mastery": [
-      "Name the four beats of any habit on demand.",
+      "Name the four gears of any habit on demand.",
       "Identify cues including time, place and preceding action.",
       "Discover the actual reward behind a routine.",
-      "Write one of your own loops in full, plain sentences."
+      "Map three of your own machines in full, plain sentences."
     ],
     "liveApplication": {
       "scenarios": [
         {
           "setup": "You keep reaching for your phone at every hard paragraph.",
-          "action": "You map it: cue = stuck feeling, craving = pause, routine = scroll, reward = relief - then design a different routine for the same craving.",
+          "action": "You map it: cue = stuck feeling, craving = pause, routine = scroll, reward = relief — then design a different routine for the same craving.",
           "why": "Changing the routine while honoring the craving keeps the engine and redirects it."
         },
         {
           "setup": "A morning run habit keeps dying.",
-          "action": "You find its cue was vague (someday mornings) and anchor it: after coffee, shoes on, door.",
-          "why": "Loops need a specific cue; vague cues never fire reliably."
+          "action": "You find its cue was vague (\"someday mornings\") and anchor it: after coffee, shoes on, door.",
+          "why": "Machines need a specific cue; vague cues never fire reliably."
         }
       ],
       "perspectives": [
         {
           "role": "Using it",
-          "detail": "Mapped loops make behavior adjustable; you stop negotiating with yourself and start editing the circuit."
+          "detail": "Mapped machines make behavior adjustable; you stop negotiating with yourself and start editing the gears."
         },
         {
           "role": "Facing it",
@@ -23107,15 +23112,15 @@ export const lessons = {
         ],
         "adjustments": [
           {
-            "if": "You hear yourself saying I am lazy",
-            "then": "Stop and write the four beats instead; replace the story with the circuit."
+            "if": "You hear yourself saying \"I am lazy\"",
+            "then": "Stop and map the four gears instead; replace the story with the machine."
           },
           {
             "if": "The reward is unclear",
             "then": "Log what you feel immediately after the routine for three runs."
           }
         ],
-        "learning": "After each week, note one loop you mapped and which beat turned out to be different from your assumption."
+        "learning": "After each week, note one machine you mapped and which gear turned out to be different from your assumption."
       }
     },
     "practiceEngine": {
