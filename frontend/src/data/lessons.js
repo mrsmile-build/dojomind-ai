@@ -22637,150 +22637,177 @@ export const lessons = {
     "title": "Spacing - The Testing Effect",
     "level": "Beginner",
     "duration": "12 min",
-    "description": "Cramming produces fast forgetting; spacing produces durable memory. The testing effect means that retrieving information strengthens memory more than restudying it does.",
+    "description": "Cramming is like trying to fill a bucket by pouring it all at once — most spills out. Spacing is like a slow drip that actually soaks in. This lesson explains why, and gives you a flashcard engine that does the spacing for you.",
     "objectives": [
-      "Replace cramming with spaced review sessions over days or weeks",
-      "Use retrieval practice: close the book and recall before checking",
-      "Schedule reviews at increasing intervals: 1 day, 3 days, 1 week, 2 weeks",
-      "Recognize that forgetting is normal and retrieval after forgetting is strengthening",
-      "Recognize the four most common spacing errors"
+      "Explain why cramming feels good but forgets fast",
+      "Understand that forgetting is the signal to review, not a failure",
+      "Use spaced repetition: review just before you would forget",
+      "Build a flashcard deck and let the engine schedule your reviews",
+      "Recognize that testing yourself beats rereading every time"
     ],
     "visuals": [
       {
         "type": "diagram",
-        "title": "Spacing and the testing effect",
-        "caption": "One long study session produces a sharp peak and fast drop; spaced sessions produce a rising curve that levels off high. And each retrieval is not a test of what you know - it is the act that strengthens what you know.",
+        "title": "Cramming vs spacing",
+        "caption": "Cramming pours everything in at once and most spills out. Spacing drips it in slowly, and each drip soaks deeper. The testing effect means that pulling information OUT (retrieval) strengthens memory more than putting it IN (rereading).",
         "labels": [
-          "Cramming: one long session, sharp peak, fast forgetting",
-          "Spacing: shorter sessions over days/weeks, durable retention",
-          "Retrieval: closing the book and recalling strengthens memory more than restudying",
-          "Increasing intervals: 1 day, 3 days, 1 week, 2 weeks, then monthly",
-          "Forgetting is normal; retrieval after forgetting is the strengthening moment"
+          "Cramming: one long session, fast forgetting",
+          "Spacing: short sessions spread over time, durable memory",
+          "Retrieval: pulling from memory strengthens it",
+          "Rereading: feels like learning but is mostly recognition",
+          "The engine below schedules your reviews automatically"
+        ]
+      },
+      {
+        "type": "flashcard",
+        "title": "Your first spaced deck",
+        "caption": "These cards test whether you understand spacing. Rate how well you remembered: Hard (forgot), Good (struggled but got it), Easy (instant). The engine schedules your next review based on your rating — harder cards come back sooner, easier ones wait longer. That is spacing doing its work.",
+        "cards": [
+          {
+            "question": "Why does cramming feel good but forget fast?",
+            "answer": "Cramming produces familiarity, not recall. You recognize the material but cannot retrieve it without cues. Spacing forces retrieval, which is what builds durable memory."
+          },
+          {
+            "question": "What is the testing effect?",
+            "answer": "The finding that retrieving information from memory strengthens it more than restudying does. Testing is not just measurement — it is learning."
+          },
+          {
+            "question": "When should you review a fact?",
+            "answer": "Just before you would forget it. Too early wastes time; too late means you have forgotten and must relearn. Spaced repetition algorithms estimate the optimal moment."
+          },
+          {
+            "question": "Why does rereading feel like learning?",
+            "answer": "Rereading produces familiarity — the material feels known because you have seen it. But familiarity is recognition, not recall. You can recognize a sentence without being able to produce it."
+          },
+          {
+            "question": "What happens when you forget something?",
+            "answer": "Forgetting is not a failure — it is the signal that a review is due. Retrieving something you almost forgot strengthens the memory more than retrieving something fresh."
+          }
         ]
       }
     ],
     "sections": [
       {
-        "title": "The spacing effect",
-        "content": "Memory research has replicated one finding for over a century: distributed practice beats massed practice. Five twenty-minute sessions over two weeks produce stronger and more durable memory than one hundred-minute session, even though the total time is identical. The mechanism is that each retrieval after some forgetting forces the brain to reconstruct the memory, which strengthens the pathways in a way that immediate restudying does not. Cramming feels productive because everything is fresh, but it produces a sharp peak followed by fast forgetting; spacing feels less productive in the moment but produces memory that lasts."
+        "title": "The bucket and the drip",
+        "content": "Imagine trying to fill a bucket by dumping a whole gallon on it at once. Most of it spills over the sides. That is cramming: one long session where you pour all the information in, and most of it spills out before it soaks in. Now imagine a slow drip, one drop at a time, each drop landing after the last one has soaked in. That is spacing: short sessions spread over days or weeks, where each session builds on the last. A hundred years of memory research agree on this one finding: five twenty-minute sessions over two weeks produce stronger and more durable memory than one hundred-minute session the night before the test. The cramming session feels more productive because you are doing more work in one sitting, but the spaced sessions actually stick because each one arrives when the memory is fading and needs the reinforcement."
       },
       {
-        "title": "The testing effect",
-        "content": "The most counterintuitive finding in memory science is that testing yourself is not a measurement of what you know - it is an event that changes what you know. Retrieving information from memory strengthens the pathways more than restudying the same information does, even when the retrieval is effortful or partially wrong. This is why closed-book recall beats open-book review: the struggle of pulling the information out is the learning event. Quizzes, flashcards and self-testing are therefore not evaluation tools but learning tools, and the difficulty of retrieval is the signal that the strengthening is happening."
+        "title": "Forgetting is the signal",
+        "content": "The whole trick of spacing is timing each review just before you would forget. Too early and you waste time reviewing something you still know; too late and you have forgotten and must relearn from scratch. The sweet spot is the moment when the memory is fading but not gone — that is when retrieving it strengthens it the most. This is why forgetting is not a failure; it is the signal that a review is due. A spaced repetition algorithm (like the one in the flashcard engine above) tracks each card and estimates when you are about to forget it, then shows it to you right then. Hard cards come back tomorrow; easy cards wait a week, then two weeks, then a month. The algorithm learns your memory and spaces your reviews automatically, which is why it feels like magic the first time you use it."
       },
       {
-        "title": "Increasing intervals",
-        "content": "The optimal review schedule follows increasing intervals: review after 1 day, then 3 days, then 1 week, then 2 weeks, then monthly. Each successful retrieval at a longer interval signals that the memory is durable enough to stretch further, and each retrieval after some forgetting strengthens it more than an easy retrieval would. Forgetting is therefore not failure but the condition for strengthening; the moment you almost cannot remember is the moment the memory is being rebuilt stronger. This is why spaced repetition systems work: they schedule reviews at the moment you are about to forget, which is the moment retrieval is most effective."
+        "title": "Testing beats rereading",
+        "content": "Here is the second half of the finding, and it is the one most people miss: the testing effect. Pulling information OUT of your memory (retrieval) strengthens it more than putting it IN (rereading). When you reread, the material feels familiar and you mistake that feeling for knowledge — but familiarity is recognition, not recall. You can recognize a sentence without being able to produce it. When you test yourself, you force retrieval, and that effort is what builds the durable memory. So the most efficient study session is not rereading the chapter three times; it is reading it once, closing the book, and trying to recall the main ideas, then checking what you missed. Flashcards are the purest form of this: you see the question, you try to recall the answer, you check, and the algorithm schedules your next review based on how well you remembered. That is why the engine above is not a toy — it is the research finding turned into a tool you can use right now."
       }
     ],
     "principles": [
-      "Distributed practice beats massed practice; spacing produces durable memory.",
-      "Retrieval strengthens memory more than restudying; testing is a learning event.",
-      "Schedule reviews at increasing intervals: 1 day, 3 days, 1 week, 2 weeks.",
-      "Forgetting is normal and necessary; retrieval after forgetting is the strengthening moment."
+      "Spacing beats cramming: short sessions over time stick better than one long session.",
+      "Forgetting is the signal that a review is due, not a failure of memory.",
+      "Retrieval (testing yourself) strengthens memory more than restudying (rereading).",
+      "A spaced repetition algorithm schedules reviews at the optimal moment automatically."
     ],
     "mistakes": [
       {
-        "title": "Cramming in one session",
-        "explanation": "Massed practice feels productive but produces fast forgetting. Space sessions over days or weeks."
+        "title": "Cramming the night before",
+        "explanation": "Cramming produces familiarity, not recall. Space the sessions over days and test yourself."
       },
       {
-        "title": "Restudying instead of retrieving",
-        "explanation": "Rereading is passive; closing the book and recalling is the strengthening event."
+        "title": "Rereading instead of retrieving",
+        "explanation": "Rereading feels like learning but is mostly recognition. Close the book and try to recall, then check."
       },
       {
-        "title": "Avoiding the feeling of forgetting",
-        "explanation": "Forgetting is the condition for strengthening; retrieval after some forgetting is most effective."
+        "title": "Reviewing too early",
+        "explanation": "If you still know it perfectly, the review is wasted. Wait until you are about to forget."
       },
       {
-        "title": "Reviewing too soon",
-        "explanation": "Easy retrieval does not strengthen much; increasing intervals make each retrieval harder and more effective."
+        "title": "Trusting the feeling of knowing",
+        "explanation": "Familiarity is not recall. Test yourself with the card engine or by writing from memory."
       }
     ],
     "practice": [
-      "Take material you studied today and test yourself tomorrow without looking; note the difficulty.",
-      "Schedule three review sessions over the next two weeks at increasing intervals.",
-      "Use flashcards or self-quizzing instead of rereading for one topic this week.",
-      "When you forget something during retrieval, struggle for 30 seconds before checking; note that the retrieval strengthened it.",
-      "Track which items you forget most often and review those more frequently."
+      "Build a five-card deck on a topic you are learning; use the engine above and rate each card honestly.",
+      "Review the deck tomorrow, then in two days, then in four — let the engine schedule it.",
+      "After reading a chapter, close the book and write the three main ideas from memory, then check.",
+      "Compare: reread a page three times vs read once and test yourself three times over a week.",
+      "Notice when you feel \"I know this\" and immediately test yourself to see if you can produce it."
     ],
-    "reflection": "In your last study session, did you restudy passively or test yourself actively - and which one felt harder?",
-    "safety": "No physical risk; the cost of cramming is wasted time and poor retention, so space your learning from the start.",
+    "reflection": "In your last study session, did you reread or retrieve — and which one left you able to use the material the next day?",
+    "safety": "No physical risk; keep review sessions short and frequent rather than long and infrequent — fatigue hides the retrieval effort that builds memory.",
     "quiz": [
       {
-        "question": "Spacing produces stronger memory than cramming because:",
+        "question": "Why does cramming feel productive but forget fast?",
         "options": [
-          "It uses more total time",
-          "Each retrieval after forgetting strengthens the pathways",
-          "It feels easier",
-          "It uses better materials"
+          "It does not actually work",
+          "It produces familiarity but not recall",
+          "It is too fast",
+          "It is too hard"
         ],
         "answer": 1,
-        "explanation": "Distributed retrieval forces reconstruction, which strengthens memory more than massed restudying."
+        "explanation": "Cramming creates recognition (familiarity) but not the ability to retrieve without cues. Spacing forces retrieval, which builds durable memory."
       },
       {
-        "question": "The testing effect means that:",
+        "question": "The testing effect means:",
         "options": [
-          "Tests measure what you know without changing it",
-          "Retrieving information strengthens memory more than restudying it",
-          "Tests should be avoided until the end",
-          "Only formal tests produce learning"
+          "Tests measure learning",
+          "Retrieving information strengthens memory more than restudying",
+          "Tests are stressful",
+          "Testing is only for school"
         ],
         "answer": 1,
-        "explanation": "Retrieval is not measurement but a learning event; the struggle of recall strengthens the pathways."
+        "explanation": "Retrieval (pulling from memory) is the work that builds durable memory; rereading (putting in) feels like learning but mostly builds familiarity."
       }
     ],
     "mastery": [
-      "Replace cramming with spaced sessions over days or weeks.",
-      "Use retrieval practice (closed-book recall) instead of restudying.",
-      "Schedule reviews at increasing intervals.",
-      "Embrace forgetting as the condition for strengthening."
+      "Explain why cramming forgets fast using the bucket and drip metaphor.",
+      "Build and use a spaced repetition deck on a real topic.",
+      "Retrieve from memory before rereading, every study session.",
+      "Recognize the feeling of familiarity and test yourself instead of trusting it."
     ],
     "liveApplication": {
       "scenarios": [
         {
-          "setup": "You have a test in two weeks and are considering cramming the night before.",
-          "action": "You start reviewing now in short sessions spaced over the two weeks, testing yourself each time.",
-          "why": "Spacing produces durable memory; cramming produces a peak that drops before the test or fades immediately after."
+          "setup": "You have a test in three days and a chapter to learn.",
+          "action": "You read it once, make a ten-card deck, and review it today, tomorrow, and the day before the test.",
+          "why": "Three spaced retrievals beat one long cram and leave you able to use the material, not just recognize it."
         },
         {
-          "setup": "You keep forgetting material you studied last week.",
-          "action": "You retrieve it now (struggling is the point) and schedule the next review in a few days.",
-          "why": "Retrieval after forgetting is the strengthening moment; scheduling the next review prevents the next drop."
+          "setup": "You reread your notes and they feel known, but the test goes badly.",
+          "action": "You close the notes and try to write the main ideas from memory, then check what you missed.",
+          "why": "Familiarity is recognition; retrieval is recall. The test requires recall, so you practice recall."
         }
       ],
       "perspectives": [
         {
           "role": "Using it",
-          "detail": "Spaced retrieval turns forgetting from failure into the mechanism that produces durable memory."
+          "detail": "Spaced repetition turns any subject into durable knowledge with less total study time."
         },
         {
           "role": "Facing it",
-          "detail": "A person who spaces and retrieves remembers long-term without heroic cramming sessions."
+          "detail": "A student who retrieves rather than rereads performs better on tests and retains longer."
         }
       ],
       "adaptation": {
         "cues": [
           "Cramming urge",
-          "Restudying instead of testing",
-          "Avoiding forgetting"
+          "Rereading default",
+          "Trusting familiarity"
         ],
         "adjustments": [
           {
             "if": "You want to cram",
-            "then": "Start now with a short retrieval session; spacing requires starting early."
+            "then": "Make a deck and space three sessions over the days before the test."
           },
           {
-            "if": "You keep rereading",
-            "then": "Close the book and retrieve first; check only after the struggle."
+            "if": "You default to rereading",
+            "then": "Close the book and try to write the main ideas from memory first."
           }
         ],
-        "learning": "After each review cycle, note which items you retrieved easily and which required struggle; adjust intervals accordingly."
+        "learning": "After each session, note whether you retrieved or reread, and whether you could use the material the next day."
       }
     },
     "practiceEngine": {
       "type": "rep-counter",
-      "label": "Retrieval Reps",
+      "label": "Flashcard Reviews",
       "targetReps": 5
     }
   },

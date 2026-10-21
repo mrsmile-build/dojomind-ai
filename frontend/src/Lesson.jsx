@@ -11,6 +11,7 @@ import TargetOverlay from './components/TargetOverlay'
 import MetronomeVisual from './components/MetronomeVisual'
 import RhythmPatternVisual from './components/RhythmPatternVisual'
 import PracticeLoopVisual from './components/PracticeLoopVisual'
+import FlashcardEngine from './components/FlashcardEngine'
 import EarTrainerVisual from './components/EarTrainerVisual'
 import GrooveRecorder from './components/GrooveRecorder'
 import { liveApplications } from './data/liveApplications'
@@ -175,6 +176,9 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'practice-loop') {
             return <PracticeLoopVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'flashcard') {
+            return <FlashcardEngine key={index} visual={visual} />
           }
           if (visual.type === 'ear-trainer') {
             return <EarTrainerVisual key={index} visual={visual} />
