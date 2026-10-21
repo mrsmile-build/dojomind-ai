@@ -18624,152 +18624,156 @@ export const lessons = {
     "title": "Notes, Scales & Intervals",
     "level": "Beginner",
     "duration": "12 min",
-    "description": "Meet the map every instrument shares: seven letter names that repeat at the octave, semitones as the smallest step, scales as chosen paths of steps, and intervals as the distances your ear can learn.",
+    "description": "Notes are just names for sounds. A scale is a ladder of notes built from a step pattern. And the distance between two notes - an interval - is something your ear already knows from songs you have sung your whole life. This lesson gives names to what you can already hear.",
     "objectives": [
-      "Say the note alphabet A to G and hear that it repeats at the octave",
-      "Feel a semitone as the smallest step and a whole tone as two",
-      "See a scale as a chosen path of steps, not a random list",
-      "Hear an interval as the distance between two notes",
-      "Recognize the four map errors beginners make"
+      "Say what a note is: a name for one steady sound",
+      "Build a major scale from its step pattern instead of memorizing letters",
+      "Hear an interval as a distance, not as two separate notes",
+      "Match the five most useful intervals to songs you already know",
+      "Name an interval on first hearing using the Ear Trainer"
     ],
     "visuals": [
       {
         "type": "diagram",
-        "title": "The note map",
-        "caption": "Notes are places on a repeating ladder. The letters A to G climb and then repeat at the octave; semitones are the smallest rung; a scale is the path of steps you choose; an interval is the distance between any two rungs - and distance is what the ear actually learns.",
+        "title": "A ladder of sounds",
+        "caption": "A note is a name for one steady sound. A scale is a ladder of notes built from a pattern of steps. An interval is the distance between any two rungs - and your ear already knows these distances from songs.",
         "labels": [
-          "Alphabet: A B C D E F G, then it repeats",
-          "Octave: the same note name, higher",
-          "Semitone: the smallest step on most instruments",
-          "Whole tone: two semitones",
-          "Scale: a chosen path of whole and half steps",
-          "Interval: the distance between two notes - what the ear learns"
+          "Note: a name for one steady sound (C, D, E...)",
+          "Step: the gap to the next rung - whole (skip one key) or half (very next key)",
+          "Scale: a ladder built from a step pattern, starting on any note",
+          "Interval: the distance between any two notes",
+          "Your ear learned intervals from songs before this lesson existed"
         ]
+      },
+      {
+        "type": "ear-trainer",
+        "title": "Name the distance",
+        "caption": "Press Play. You will hear two notes, one after the other. Your job: how far apart are they? Pick a button. If you are wrong, play it again and sing the two notes out loud - your voice teaches your ear faster than your brain does."
       }
     ],
     "sections": [
       {
-        "title": "The ladder repeats",
-        "content": "Music uses seven letter names - A, B, C, D, E, F, G - and then starts over. The second A is not a different note family, it is the same note higher, and the distance from one A to the next is an octave. That repetition is why a piano looks like a pattern that keeps recurring and why a guitar string fretted at the twelfth fret sings the same name open. Learn the ladder once and you have read the whole map; every instrument is just a different staircase up the same tower."
+        "title": "Notes are names for sounds",
+        "content": "Hum as low as you can, then slide up as high as you can. You just traveled through sounds. A note is simply a name we give to one steady sound so we can talk about it - the way a name lets us talk about a person. When the air wiggles faster, the sound is higher; slower, lower. A piano gives each common wiggle its own key and its own letter name. That is all a note is: not a symbol on paper, not a button - a steady sound with a name. Everything else in music is just relationships between these named sounds, which is why the next two ideas (ladders and distances) are the whole map."
       },
       {
-        "title": "Steps have sizes",
-        "content": "Between neighbouring rungs of the ladder the gaps are not all equal. The smallest step on most instruments is the semitone - one fret, one adjacent key - and two semitones make a whole tone. A scale is simply a chosen path of these steps: pick a starting note, follow a pattern of whole and half steps, and you have drawn a scale. This is why scales are not random lists to memorize but routes with a shape; once you know the shape you can start it from any note and recognize it by ear."
+        "title": "A scale is a ladder with a step pattern",
+        "content": "Neighbors on the ladder are separated by steps, and there are only two sizes: a half step (the very next key, no gap) and a whole step (skip one key in between). Now here is the trick that frees you from memorizing: the major scale is not a list of letters, it is a step pattern - whole, whole, half, whole, whole, whole, half. Start on any note, follow that pattern of steps, and you have built that note is major scale. Start on C and you get the white keys; start on G and one key must turn black to keep the pattern true - that is all a sharp is: a keeper of the pattern. Sing do-re-mi-fa-so-la-ti-do and you have sung the same ladder with singable names. The pattern is the scale; the letters are just one address it can live at."
       },
       {
-        "title": "The ear learns distances",
-        "content": "Notes in isolation mean little; music happens in the gaps between them. That gap is an interval, and intervals are what the ear truly learns - the same two notes always make the same distance, on any instrument, in any key. Singing or hearing a interval as a feeling (close and tense, open and settled) is the beginning of playing by ear and of knowing why a melody moves the way it does. The map is not for reading faster; it is for hearing deeper."
+        "title": "Intervals: the distance you already hear",
+        "content": "The distance between two notes is called an interval, and here is the secret: you already know them. The first two different notes of \"Twinkle Twinkle Little Star\" are a perfect fifth. The first two notes of \"Frere Jacques\" are a major second. \"Oh When the Saints\" starts with a major third, \"Here Comes the Bride\" with a perfect fourth, and \"Somewhere Over the Rainbow\" leaps an octave on some-where. Your ear collected these distances from a lifetime of songs; this lesson is only handing you the names. That turns a feeling into a tool: hear a melody once, recognize its distances, and you can sing it back, play it in any key, or write it down. Use the Ear Trainer above - guess, get corrected, sing the two notes - and within a week the names will stick to sounds you already owned."
       }
     ],
     "principles": [
-      "Seven letters climb and repeat: the octave is the same name, higher.",
-      "The semitone is the smallest step; a whole tone is two semitones.",
-      "A scale is a chosen path of whole and half steps, not a random list.",
-      "Intervals - the distances - are what the ear actually learns."
+      "A note is a name for one steady sound - nothing more.",
+      "The major scale is a step pattern (W-W-H-W-W-W-H), not a list of letters.",
+      "An interval is a distance, and your ear already knows the distances from songs.",
+      "Naming what you can already hear turns feeling into a tool you can use."
     ],
     "mistakes": [
       {
-        "title": "Memorizing scales as random lists",
-        "explanation": "A scale is a step pattern from a starting note. Learn the shape and it works from any note."
+        "title": "Memorizing letters instead of the pattern",
+        "explanation": "Letters are one address; the step pattern works from any note. Build, do not memorize."
       },
       {
-        "title": "Treating all steps as equal",
-        "explanation": "Half and whole steps differ; that difference is what gives each scale its character. Feel the sizes."
+        "title": "Hearing two notes instead of one distance",
+        "explanation": "An interval is a single span. Sing the two notes as one jump, like the song does."
       },
       {
-        "title": "Ignoring the octave repeat",
-        "explanation": "The map repeats every octave; missing that makes every instrument look like new territory instead of the same ladder."
+        "title": "Skipping the singing",
+        "explanation": "Your voice wires the ear. If you only click buttons, the interval stays a guess."
       },
       {
-        "title": "Learning names without sounds",
-        "explanation": "A note name with no sound attached is trivia. Pair every name with its pitch and every interval with its feeling."
+        "title": "Guessing fast to finish",
+        "explanation": "A wrong guess you never hear again teaches nothing. Play it again and listen."
       }
     ],
     "practice": [
-      "Say the alphabet A to G forward and backward, then continue past G into the next octave.",
-      "On any instrument or piano app, play one semitone steps up and down one octave; feel the smallest step.",
-      "Play a whole-tone ladder (two semitones per step) and compare its feel to the semitone ladder.",
-      "Pick a starting note and walk a simple path of steps; name the path you chose as your scale.",
-      "Sing or play two notes and name the distance feeling (close, open, settled); repeat five pairs."
+      "Hum low, slide high, then stop on any steady sound and name it: that is a note.",
+      "Build a major scale from C on a piano or paper using only the step pattern; check it against the white keys.",
+      "Build the same pattern from G and discover which key must change - meet your first sharp.",
+      "Sing the five interval songs: Twinkle (5th), Frere Jacques (2nd), Saints (3rd), Bride (4th), Rainbow (octave).",
+      "Do six rounds of the Ear Trainer, singing each interval back after you hear it."
     ],
-    "reflection": "Can you hear the difference between a half step and a whole step without looking, and do you know which letter comes after the one you are playing?",
-    "safety": "Keep listening volume moderate during ear practice; rest the voice or hands if singing or playing causes strain.",
+    "reflection": "When you heard two notes today, did you hear a distance you recognized from a song, or two separate sounds?",
+    "safety": "Keep playback volume comfortable and sing gently - matching pitch softly trains the ear without straining the voice.",
     "quiz": [
       {
-        "question": "After G, the next note name is:",
+        "question": "A major scale is best described as:",
         "options": [
-          "H",
-          "A, an octave higher",
-          "G again, same pitch",
-          "There is no next"
+          "A fixed list of letter names",
+          "A step pattern that works from any starting note",
+          "Only the white piano keys",
+          "A random set of nice notes"
         ],
         "answer": 1,
-        "explanation": "The alphabet repeats: the next A is the same note family an octave higher, which is why the map loops."
+        "explanation": "Whole-whole-half-whole-whole-whole-half from any note builds that note is major scale; letters are just one address for it."
       },
       {
-        "question": "A whole tone equals:",
+        "question": "The first two different notes of \"Twinkle Twinkle Little Star\" are which interval?",
         "options": [
-          "One semitone",
-          "Two semitones",
-          "Three semitones",
-          "Half a semitone"
+          "Major 2nd",
+          "Major 3rd",
+          "Perfect 4th",
+          "Perfect 5th"
         ],
-        "answer": 1,
-        "explanation": "The semitone is the smallest step on most instruments; two of them make a whole tone, and scale shapes are built from these sizes."
+        "answer": 3,
+        "explanation": "That opening jump is a perfect fifth - the distance your ear already knows from the song."
       }
     ],
     "mastery": [
-      "Say and hear the repeating note alphabet through an octave.",
-      "Distinguish semitone from whole tone by ear and by hand.",
-      "Build a scale from a chosen starting note using a step pattern.",
-      "Name intervals as distances and recognize their feeling."
+      "Explain a note as a named steady sound in one sentence.",
+      "Build a major scale from any note using the step pattern.",
+      "Match the five core intervals to their songs instantly.",
+      "Name a played interval on first hearing in the Ear Trainer."
     ],
     "liveApplication": {
       "scenarios": [
         {
-          "setup": "A song is too high to sing or play comfortably.",
-          "action": "You move the same step pattern to a lower starting note - the same scale shape, a different floor.",
-          "why": "Scales are paths, not fixed notes; the shape transfers to any starting point."
+          "setup": "You hear a melody once and want to sing it back.",
+          "action": "You catch its distances - a fifth here, a third there - and rebuild it from any starting note.",
+          "why": "Intervals are relative; knowing the spans lets you rebuild the melody anywhere."
         },
         {
-          "setup": "You hear a melody and want to find it by ear.",
-          "action": "You listen for the distances between notes (intervals) rather than guessing absolute names.",
-          "why": "The ear learns gaps; matching interval feelings locates the melody faster than naming pitches."
+          "setup": "A song is too high for your voice.",
+          "action": "You move the starting note and keep the same step pattern and distances.",
+          "why": "The ladder shape stays identical; only the bottom rung moves. That is transposing."
         }
       ],
       "perspectives": [
         {
           "role": "Using it",
-          "detail": "The map lets you transpose, improvise and communicate with any player in seconds."
+          "detail": "Interval hearing lets you learn songs by ear instead of by sheet music."
         },
         {
           "role": "Facing it",
-          "detail": "A player who hears intervals anticipates where a melody goes instead of chasing it."
+          "detail": "A player who hears distances can join any song mid-way and find the notes."
         }
       ],
       "adaptation": {
         "cues": [
-          "Steps felt equal",
-          "Names without sounds",
-          "Scales as lists"
+          "Guessing instead of hearing",
+          "Letters over pattern",
+          "Silent practice"
         ],
         "adjustments": [
           {
-            "if": "Half and whole steps feel the same",
-            "then": "Play them side by side slowly and say the size out loud each time."
+            "if": "You guess intervals",
+            "then": "Play it again and sing the jump before answering."
           },
           {
-            "if": "Names feel abstract",
-            "then": "Attach every name to a pitch you play or sing the same moment."
+            "if": "You memorize letters",
+            "then": "Rebuild the scale from a new note using only the step pattern."
           }
         ],
-        "learning": "After each session, note one interval you can now recognize by ear and one scale shape you can start from any note."
+        "learning": "After each session, note which interval song finally stuck and which one still tricks you."
       }
     },
     "practiceEngine": {
       "type": "rep-counter",
-      "label": "Map Reps",
-      "targetReps": 10
+      "label": "Ear Trainer Rounds",
+      "targetReps": 6
     }
   },
   "piano-foundations-posture": {
