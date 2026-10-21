@@ -18303,7 +18303,7 @@ export const lessons = {
   "music-foundations-rhythm": {
     "id": "music-foundations-rhythm",
     "subject": "Music",
-    "title": "Rhythm & Tempo — The Pulse",
+    "title": "Rhythm & Tempo - The Pulse",
     "level": "Beginner",
     "duration": "12 min",
     "description": "Every song has a heartbeat. Put your hand on your chest — that bump-bump? That is a pulse. This lesson teaches you to feel that heartbeat inside music, count how fast it goes, and find the strong beat that tells you where you are.",
