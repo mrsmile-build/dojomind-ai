@@ -10,6 +10,9 @@ import MovementPostureVisual from './components/MovementPostureVisual'
 import TargetOverlay from './components/TargetOverlay'
 import MetronomeVisual from './components/MetronomeVisual'
 import RhythmPatternVisual from './components/RhythmPatternVisual'
+import PracticeLoopVisual from './components/PracticeLoopVisual'
+import EarTrainerVisual from './components/EarTrainerVisual'
+import GrooveRecorder from './components/GrooveRecorder'
 import { liveApplications } from './data/liveApplications'
 
 const MIND_SUBJECTS = ['Meditation', 'Breathing', 'Training', 'Mind']
@@ -169,6 +172,15 @@ function Lesson({ lesson, onBack, onComplete }) {
           }
           if (visual.type === 'rhythm-pattern') {
             return <RhythmPatternVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'practice-loop') {
+            return <PracticeLoopVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'ear-trainer') {
+            return <EarTrainerVisual key={index} visual={visual} />
+          }
+          if (visual.type === 'groove-recorder') {
+            return <GrooveRecorder key={index} visual={visual} />
           }
           return <LessonVisualBlock key={index} visual={visual} />
         })}

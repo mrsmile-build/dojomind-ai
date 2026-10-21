@@ -18465,152 +18465,157 @@ export const lessons = {
     "subject": "Music",
     "title": "The Practice Loop",
     "level": "Beginner",
-    "duration": "12 min",
-    "description": "Learn the loop that turns repetition into skill: pick one tiny target, play it slow enough to be right, notice the one thing that broke, fix only that, repeat - then earn speed.",
+    "duration": "10 min",
+    "description": "Most people practice by repeating a thing over and over until it feels good. That is a straight line, and it does not work. Real practice is a loop: try it, notice one thing, fix that one thing, rest. Four steps, round and round. This lesson installs the loop.",
     "objectives": [
-      "Choose a target small enough to win in one sitting",
-      "Play slowly enough that correct is possible, not accidental",
-      "Notice and name the single error instead of restarting blindly",
-      "Repeat only the broken piece, not the whole song",
-      "Recognize the four practice traps that waste time"
+      "Tell the difference between repeating and practicing",
+      "Run the four-step loop: try, notice, fix, rest",
+      "Name only ONE thing to fix per loop",
+      "Explain why the rest step is where learning gets saved",
+      "Finish a practice session with more loops done, not more minutes spent"
     ],
     "visuals": [
       {
         "type": "diagram",
-        "title": "The practice loop",
-        "caption": "Skill grows in a loop, not in run-throughs. One tiny target, slow enough to be right, notice the break, fix only that, repeat until easy - then raise the speed one notch and loop again.",
+        "title": "A loop, not a line",
+        "caption": "Repeating is a straight line: the same miss, copied. Practicing is a loop: each pass changes one thing. Four steps - try it, notice one thing, fix that one thing, rest - and every lap you come back slightly better.",
         "labels": [
-          "Target: one bar, one shift, one breath - tiny on purpose",
-          "Slow: the speed where correct is possible, not lucky",
-          "Notice: name the one thing that broke, out loud",
-          "Fix: repeat only the broken piece, not the whole song",
-          "Earn: speed rises one notch only after easy repeats"
+          "Try it: play the whole thing once, no stopping",
+          "Notice: name ONE thing that went wrong",
+          "Fix it: play only that thing, slowly, until it is right",
+          "Rest: stop completely - the brain saves during rest",
+          "Repeat: back to Try it, one lap better than last"
         ]
+      },
+      {
+        "type": "practice-loop",
+        "title": "Run the loop right now",
+        "caption": "Press Start. The timer walks you through one full loop: 60 seconds to try, 20 to notice one thing, 40 to fix just that thing, 20 to rest. Count your laps. Three honest laps beat thirty mindless repeats."
       }
     ],
     "sections": [
       {
-        "title": "Run-throughs hide errors",
-        "content": "Playing the whole song from the top feels like practice but mostly rehearses the parts you already know and glides past the ones you do not. The error gets one visit per run-through while the easy parts get fifty. The practice loop inverts that: the broken bar gets fifty visits and the easy parts get rest. Progress is not measured in songs finished but in breaks repaired - a run-through is a test, and the loop is the studying that makes the test pass."
+        "title": "Repeating is not practicing",
+        "content": "Stand ten steps from a hoop and throw a ball. You miss left. Throw again the same way, miss left again. A hundred throws later you have a hundred copies of the same miss - and your arms now believe it. That is what repeating a song mistake does: it practices the error. Practicing is different: throw, notice \"I miss left\", aim a little right, throw again. One change per throw. Music practice works exactly like the hoop: the value is not in the throw, it is in the tiny correction between throws. If nothing changes between two repeats, you were not practicing - you were photocopying."
       },
       {
-        "title": "Slow is not slow, slow is accurate",
-        "content": "The loop only works at the speed where correct is possible. Play fast and the mistake repeats invisibly; play slow and you can see the exact moment it breaks - the finger that lands late, the breath that runs out, the string that buzzes. Slow is not a lesser version of the music, it is the music under a magnifier. And because the loop ends by earning one notch of speed, slow is temporary by design: accuracy first, then velocity, in that order, forever."
+        "title": "The four steps of the loop",
+        "content": "The loop has four steps and each one has a job. TRY IT: play the whole thing once, all the way through, no stopping - you need the honest picture of where it breaks. NOTICE: name ONE thing that went wrong - one, out loud if you can (\"the jump to the third note was late\"). FIX IT: play only that one thing, slowly, until it is right twice in a row. REST: stop completely for a moment - no playing, no phone - because the brain files the correction during rest, not during play. Skippers of the rest step feel productive and learn less; the rest is not laziness, it is the save button. Then back to TRY IT, and the loop laps: same four steps, slightly better player each lap."
       },
       {
-        "title": "Fix the piece, not the song",
-        "content": "When something breaks, the instinct is to restart from the beginning, which punishes the good bars and barely touches the bad one. The loop says: isolate the broken piece - often two or three notes - and repeat only that until it is easy, then stitch one note before and one note after back on. Ten repetitions of the real problem beat ten run-throughs that merely visit it. This is the difference between spending time and investing it."
+        "title": "One thing at a time",
+        "content": "The hardest step is NOTICE, because everything feels wrong and the temptation is to fix it all at once. But three fixes at once cancel each other: you change three variables and cannot tell which one helped, so nothing sticks. One named fix per lap is the discipline that makes loops compound. And keep the fix small - not \"play it better\" but \"land the third note on the click\". Small loops beat big plans every time: ten laps of one tiny fix ends with the fix owned, while one grand hour of \"practicing the song\" ends tired and unchanged. This is also why the loop is honest: it forces you to say what changed, and if nothing changed, the lap does not count."
       }
     ],
     "principles": [
-      "Practice the break, not the run-through: the error gets the repetitions.",
-      "Slow means the speed where correct is possible, not lucky.",
-      "Name the single error out loud; vague problems stay unfixed.",
-      "Speed is earned one notch at a time, only after easy repeats."
+      "Repeating copies; practicing corrects. If nothing changed between repeats, it was not practice.",
+      "The loop is four steps: try, notice one, fix that one, rest.",
+      "Rest is the save button - the brain files corrections when you stop.",
+      "One named fix per lap; small loops beat big plans."
     ],
     "mistakes": [
       {
-        "title": "Practicing performance instead of problems",
-        "explanation": "Run-throughs rehearse what you already know. Isolate the broken piece and give it the repetitions."
+        "title": "Repeating the mistake louder",
+        "explanation": "More repeats of an error train the error. Stop, name the fix, change one thing."
       },
       {
-        "title": "Speed before accuracy",
-        "explanation": "Fast repetition locks in the mistake. Drop to the speed where correct is possible, then earn notches."
+        "title": "Fixing everything at once",
+        "explanation": "Three changes at once teach nothing. One named fix per lap, every lap."
       },
       {
-        "title": "Restarting from the top every time",
-        "explanation": "Restarting punishes good bars and barely touches the bad one. Repeat only the broken piece, then stitch it back."
+        "title": "Skipping the rest",
+        "explanation": "The save happens in rest. Skipping it feels productive and learns less."
       },
       {
-        "title": "Vague targets like get better",
-        "explanation": "A target you cannot win in one sitting never closes. Pick one bar, one shift, one breath."
+        "title": "Practicing until tired, not until better",
+        "explanation": "Minutes are not the unit; laps with a change are. End on a fixed thing, not on fatigue."
       }
     ],
     "practice": [
-      "Pick one two-bar target from anything you play; say the target out loud.",
-      "Find the speed where it is correct three times in a row; that is today is loop speed.",
-      "Play it five times; name the single break out loud each time it happens.",
-      "Repeat only the broken piece ten times until easy, then stitch one note each side.",
-      "Raise speed one notch and loop again; stop after three clean loops at the new notch."
+      "Pick something small you cannot do yet; run one full loop on it with the timer above.",
+      "Say your NOTICE step out loud each lap - if you cannot name it, the lap does not count.",
+      "Do three laps, then stop and sit quietly for one minute; notice what your hands want to replay.",
+      "Compare: five mindless repeats vs three loops. Which one left you able to do something new?",
+      "End every session by playing the fixed thing once, correctly, at slow speed."
     ],
-    "reflection": "In your last session, did the broken bar get the most repetitions or the least - and could you name the single error you were fixing?",
-    "safety": "Keep sessions short with breaks; stop on hand, wrist or embouchure strain and return at loop speed, not performance speed.",
+    "reflection": "In your last practice session, can you name one thing that changed between your first and last attempt - or were all the attempts the same?",
+    "safety": "Keep sessions short and stop while it still feels good; fatigue hides the very corrections the loop depends on noticing.",
     "quiz": [
       {
-        "question": "In the practice loop, the broken piece should receive:",
+        "question": "Repeating a mistake many times:",
         "options": [
-          "One visit per run-through",
-          "The majority of repetitions, isolated",
-          "The same reps as easy parts",
-          "No reps, only thinking"
+          "Builds consistency",
+          "Trains the mistake deeper",
+          "Is the fastest way to learn",
+          "Counts as practice"
         ],
         "answer": 1,
-        "explanation": "Progress is breaks repaired; isolating the broken piece gives it the repetitions that actually fix it."
+        "explanation": "Without a correction between repeats you are photocopying the error, not practicing."
       },
       {
-        "question": "Speed in the loop is raised:",
+        "question": "The rest step matters because:",
         "options": [
-          "Whenever it feels boring",
-          "One notch, only after easy clean repeats",
-          "As fast as possible",
-          "Never"
+          "It builds muscle",
+          "The brain files corrections during rest",
+          "It saves time",
+          "It is a reward"
         ],
         "answer": 1,
-        "explanation": "Accuracy first, then velocity: one notch earned at a time keeps the mistake from being locked in."
+        "explanation": "Learning is consolidated when you stop; rest is the save button of the loop."
       }
     ],
     "mastery": [
-      "Choose a target small enough to win in one sitting.",
-      "Hold loop speed at the point where correct is possible.",
-      "Name and fix the single error instead of restarting blindly.",
-      "Earn speed notches only after clean repeats."
+      "Explain the difference between repeating and practicing in one sentence.",
+      "Run a full four-step loop with a named fix.",
+      "Keep the fix to one thing per lap under temptation.",
+      "End sessions on a corrected thing, rested, not exhausted."
     ],
     "liveApplication": {
       "scenarios": [
         {
-          "setup": "A bar never improves no matter how many run-throughs you do.",
-          "action": "You isolate the two notes that break, loop them ten times, then stitch the bar back together.",
-          "why": "The break needs the repetitions; the run-through only visits it once per pass."
+          "setup": "You have twenty minutes and a song that is messy everywhere.",
+          "action": "You pick the worst two bars, run four loops on one named fix each, and rest between laps.",
+          "why": "Small loops on the real problem outlearn a full-song run that changes nothing."
         },
         {
-          "setup": "You play it perfectly slow but it falls apart at speed.",
-          "action": "You raise speed one notch at a time, looping until clean at each, instead of jumping to performance tempo.",
-          "why": "Earned notches carry the accuracy upward; jumping abandons it mid-climb."
+          "setup": "You practiced an hour yesterday and today it is gone.",
+          "action": "You check whether you rested and slept after - the save step - and rebuild with shorter loops and a real stop.",
+          "why": "Without consolidation the hour was spent, not saved."
         }
       ],
       "perspectives": [
         {
           "role": "Using it",
-          "detail": "The loop turns limited practice minutes into repaired breaks, which is what progress actually is."
+          "detail": "The loop turns any practice time into measurable laps of change instead of vague time spent."
         },
         {
           "role": "Facing it",
-          "detail": "A looper improves visibly week to week; their weak bars keep closing instead of recurring."
+          "detail": "A teacher can hear whether a student loops or repeats: loopers improve mid-lesson."
         }
       ],
       "adaptation": {
         "cues": [
-          "Restarting from the top",
-          "Speed creeping up",
-          "Vague targets"
+          "Same miss twice",
+          "Vague fixes",
+          "No rest"
         ],
         "adjustments": [
           {
-            "if": "You keep restarting",
-            "then": "Mark the broken piece with a pencil and repeat only between the marks."
+            "if": "The same miss repeats",
+            "then": "Stop and name the fix out loud before the next attempt."
           },
           {
-            "if": "Speed creeps up",
-            "then": "Reset to loop speed and re-earn the notch after clean repeats."
+            "if": "Fixes feel vague",
+            "then": "Shrink it: one note, one click, one finger - until it is sayable."
           }
         ],
-        "learning": "After each session, note which break closed today and how many notches you earned honestly."
+        "learning": "After each session, write the one fix each lap owned; that list is your real progress log."
       }
     },
     "practiceEngine": {
-      "type": "rep-counter",
-      "label": "Loop Reps",
-      "targetReps": 10
+      "type": "timed-hold",
+      "label": "One Full Loop",
+      "initialTime": 140
     }
   },
   "music-foundations-note-map": {
