@@ -22,8 +22,8 @@ export const lessons = {
         "shoulderAngle": 12,
         "elbowAngle": 135
       },
-      "title": "Understanding the body position",
-      "description": "Use the diagram to understand the relationships between posture, balance and the lower-body base. Exact positions vary by stance and practitioner.",
+      "title": "Correct posture: upright, centered, ready",
+      "description": "The torso is upright with the head balanced over the hips. Weight is even between the feet (50/50). The knees are soft, the guard is up, and the body can move in any direction. Compare with the incorrect diagram below.",
       "torsoAngle": 0,
       "frontArmAngle": -8,
       "rearArmAngle": 8,
@@ -48,24 +48,24 @@ export const lessons = {
       },
       "annotations": [
         {
-          "number": "01",
-          "label": "Upright posture",
-          "detail": "Keep the torso controlled rather than collapsing forward."
+          "number": "✓",
+          "label": "Upright torso",
+          "detail": "The head is balanced over the hips. The spine is long and strong, not collapsed. This is the axis everything else hangs from."
         },
         {
-          "number": "02",
-          "label": "Stable base",
-          "detail": "The feet create a base that supports controlled movement."
+          "number": "✓",
+          "label": "Even weight (50/50)",
+          "detail": "Weight is centered between the feet. The body can move forward, back, or sideways with equal speed — no direction is blocked by imbalance."
         },
         {
-          "number": "03",
-          "label": "Weight control",
-          "detail": "Shift weight deliberately instead of becoming rigid."
+          "number": "✓",
+          "label": "Soft knees",
+          "detail": "Knees are slightly bent, not locked. Soft knees absorb impact and store spring for movement. Locked knees are slow knees."
         },
         {
-          "number": "04",
-          "label": "Movement ready",
-          "detail": "A useful stance should allow you to move."
+          "number": "✓",
+          "label": "Guard up",
+          "detail": "Hands are positioned to protect the center line and ready to strike or block. The guard is not a pose — it is a readiness."
         }
       ],
       "metrics": [
@@ -85,15 +85,24 @@ export const lessons = {
           "label": "Movement",
           "value": "Ready"
         }
+      ],
+      "jointLabels": [
+        "head",
+        "frontShoulder",
+        "rearShoulder",
+        "frontElbow",
+        "rearElbow",
+        "frontHand",
+        "rearHand",
+        "frontHip",
+        "rearHip",
+        "frontKnee",
+        "rearKnee",
+        "frontAnkle",
+        "rearAnkle"
       ]
     },
     "visuals": [
-      {
-        "type": "image",
-        "src": "/dojomind-ai/assets/dojo/karate/stances/front-stance.jpg",
-        "alt": "Karate front stance instructional image",
-        "caption": "Example of a controlled karate front stance. The image is used as a visual reference; learners should focus on balance, posture and controlled movement."
-      },
       {
         "type": "diagram",
         "title": "A stable base",
@@ -104,6 +113,93 @@ export const lessons = {
           "Controlled weight",
           "Ready to move"
         ]
+      },
+      {
+        "type": "position-diagram",
+        "title": "Common mistake: slumped posture",
+        "position": {
+          "title": "Incorrect posture (side-by-side comparison)",
+          "description": "Compare this to the correct diagram above. The torso has collapsed forward, weight has shifted too far back onto the rear leg, and the knees are locked instead of soft. This position is unstable and slow to move from.",
+          "torsoAngle": 18,
+          "frontArmAngle": -25,
+          "rearArmAngle": 22,
+          "frontLegAngle": -5,
+          "rearLegAngle": 28,
+          "frontArm": {
+            "shoulderAngle": -30,
+            "elbowAngle": -110
+          },
+          "rearArm": {
+            "shoulderAngle": 30,
+            "elbowAngle": 110
+          },
+          "frontLeg": {
+            "hipAngle": -8,
+            "kneeAngle": -15
+          },
+          "rearLeg": {
+            "hipAngle": 35,
+            "kneeAngle": -8
+          },
+          "weightDistribution": {
+            "front": 25,
+            "rear": 75
+          },
+          "feet": {
+            "front": {
+              "x": -55,
+              "y": -35,
+              "angle": 0
+            },
+            "rear": {
+              "x": 55,
+              "y": 45,
+              "angle": 15
+            },
+            "note": "Weight shifted too far back — the body is leaning away from the ready position."
+          },
+          "jointLabels": [
+            "head",
+            "frontShoulder",
+            "frontKnee",
+            "frontHip"
+          ],
+          "annotations": [
+            {
+              "number": "❌",
+              "label": "Torso collapsed",
+              "detail": "The torso has tipped forward 18° instead of staying upright. The head drops, the guard drops, and the spine loses its structural strength."
+            },
+            {
+              "number": "❌",
+              "label": "Weight too far back",
+              "detail": "25% front / 75% rear means the body is leaning away from the direction it needs to move. A push from the front will unbalance you."
+            },
+            {
+              "number": "❌",
+              "label": "Knees locked",
+              "detail": "Straight knees cannot absorb impact or spring into movement. Soft knees (slight bend) are always ready knees."
+            }
+          ],
+          "metrics": [
+            {
+              "label": "Torso",
+              "value": "Collapsed"
+            },
+            {
+              "label": "Balance",
+              "value": "Rear-heavy"
+            },
+            {
+              "label": "Tension",
+              "value": "High (locked joints)"
+            },
+            {
+              "label": "Movement",
+              "value": "Slow to react"
+            }
+          ]
+        }
       }
     ],
     "sections": [
