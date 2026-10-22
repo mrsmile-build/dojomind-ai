@@ -2085,3 +2085,56 @@ footer {
 .to-ethics p { color: rgba(255,255,255,.82); font-size: 12.5px; line-height: 1.6; margin: 6px 0 0; }
 .to-ethics strong { color: #fff; }
 .to-caption { color: rgba(255,255,255,.6); font-size: 12px; margin-top: 14px; line-height: 1.5; }
+
+
+/* ===== PRINT / TEXTBOOK MODE ===== */
+@media print {
+  :root { color-scheme: light; }
+  html, body, .app, main, section, article, div, span, p, h1, h2, h3, h4, li, td, th, strong, small {
+    background: #ffffff !important;
+    color: #111111 !important;
+    box-shadow: none !important;
+  }
+  /* hide interactive chrome - a book has no buttons */
+  button, input[type="range"], nav, header nav, footer, .home-nav,
+  .ta-controls, .pm-controls, .fc-ratings, .fc-controls, .et-controls,
+  .met-controls, .gr-controls, .gr-pads, .hl-actions, .hl-editor,
+  .pl-controls, .al-controls, .rp-controls, .rp-patterns {
+    display: none !important;
+  }
+  /* SVG text must print dark on white paper */
+  .svg-label, .svg-small-label { fill: #111111 !important; }
+  svg { max-width: 100%; height: auto; }
+  .instruction-svg, .ta-svg, .al-svg { width: 100%; }
+  /* diagrams and blocks must not split across pages */
+  .body-diagram, .lesson-block, .principles-block, .scenario-card,
+  .technique-animation, .flashcard-engine, .pomodoro-engine,
+  .habit-loop-engine, .rhythm-pattern-visual, .groove-recorder {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #cccccc !important;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px 0;
+  }
+  h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+  /* the safety/training disclaimer MUST print, prominently */
+  .physical-disclaimer, .safety-note {
+    border: 2px solid #111111 !important;
+    background: #ffffff !important;
+    color: #111111 !important;
+    padding: 12px !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .physical-disclaimer .eyebrow { color: #111111 !important; }
+  a { color: #111111 !important; text-decoration: none !important; }
+  /* annotations print as bordered notes */
+  .body-annotation {
+    background: #ffffff !important;
+    border: 1px solid #999999 !important;
+    color: #111111 !important;
+    break-inside: avoid;
+  }
+  .body-annotation strong, .body-annotation small, .body-annotation span { color: #111111 !important; }
+}
